@@ -1,0 +1,112 @@
+// tabular oldstyle
+.ot-none {
+  font-feature-settings: normal;
+}
+
+// tabular oldstyle
+.ot-tnum-onum {
+  font-feature-settings: "onum" 1, "tnum" 1;
+  &.off {
+    font-feature-settings: "onum" 0, "tnum" 0;
+  }
+}
+
+// tabular numbers
+.ot-tnum {
+  font-feature-settings: "tnum" 1;
+  &.off {
+    font-feature-settings: "tnum" 0;
+  }
+}
+
+// oldstyle numbers
+.ot-onum {
+  font-feature-settings: "onum" 1;
+  &.off {
+    font-feature-settings: "onum" 0;
+  }
+}
+
+// fractions
+.ot-frac {
+  font-feature-settings: "frac" 1;
+  &.off {
+    font-feature-settings: "frac" 0; 
+  }
+}
+
+// ligatures
+.ot-liga {
+  font-feature-settings: "liga" 1;
+  &.off {
+    font-feature-settings: "liga" 0;
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+  }
+}
+
+// discretionary ligatures
+.ot-dlig {
+  font-feature-settings: "dlig" 1;
+  &.off {
+    font-feature-settings: "dlig" 0;
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+  }
+}
+
+// smallcaps
+.ot-smcp {
+  font-feature-settings: "smcp" 1;
+  &.off {
+    font-feature-settings: "smcp" 0;
+  }
+}
+
+// stylistic alternates
+.ot-salt {
+  font-feature-settings: "salt" 1;
+  &.off {
+    font-feature-settings: "salt" 0; 
+  }
+}
+
+// stylistic set 01
+.ot-ss01 {
+  font-feature-settings: "ss01" 1;
+  &.off {
+    font-feature-settings: "ss01" 0;
+  }
+}
+
+// stylistic set 02
+.ot-ss02 {
+  font-feature-settings: "ss02" 1;
+  &.off {
+    font-feature-settings: "ss02" 0;
+  }
+}
+
+// stylistic set 03
+.ot-ss03 {
+  font-feature-settings: "ss03" 1;
+  &.off {
+    font-feature-settings: "ss03" 0;
+  }
+}
+
+// stylistic set 04
+.ot-ss04 {
+  font-feature-settings: "ss04" 1;
+  &.off {
+    font-feature-settings: "ss04" 0;
+  }
+}
+
+// stylistic set 05
+.ot-ss05 {
+  font-feature-settings: "ss05" 1;
+  &.off {
+    font-feature-settings: "ss05" 0;
+  }
+}

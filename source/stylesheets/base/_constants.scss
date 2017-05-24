@@ -1,0 +1,109 @@
+// Text Formatting
+
+$font-family: 'Plume', sans-serif;
+$font-family--handwritten: 'Gloria Hallelujah', cursive;
+
+$font-sizes: (
+  xs: 12,
+  s: 16,
+  m: 18,
+  ml: 20,
+  l: 24,
+  xl: 32,
+  xxl: 38,
+  xxxl: 56,
+  xxxxl: 120,
+  huge: 220
+);
+
+$line-heights: (
+  xs: 1.4,
+  s: 1.4,
+  m: 1.4,
+  ml: 1.4,
+  l: 1.4,
+  xl: 1.2,
+  xxl: 1.2,
+  xxxl: 1.1,
+  xxxxl: 1.1,
+  huge: 1.1
+);
+
+// Margins
+
+$margins: (
+  s: 0.5em,
+  m: 1em,
+  ml: 1.5em,
+  l: 2em,
+  xl: 4em,
+  xxl: 8em,
+);
+
+// Breakpoints
+
+$breakpoints: (
+  xs: 320, // 1
+  s: 420, // 2
+  m: 576, // 3
+  ml: 768, // 4
+  l: 1024, // 5
+  xl: 1280, // 6
+  xxl: 1440, // 7
+  xxxl: 1680,  // 8
+  xxxxl: 1920 // 9
+);
+
+// Context Breakpoints
+
+$bp-masonry-1: breakpoint(m);
+$bp-masonry-2: breakpoint(ml);
+$bp-masonry-3: breakpoint(l);
+$bp-page-max: breakpoint(xxl);
+$bp-main-nav-switch: breakpoint(ml);
+
+// Max Widths
+
+$max-widths: (
+  s: 300px,
+  m: 600px,
+  ml: 800px,
+  l: 1000px,
+  xl: 1440px,
+  xxl: 1920px
+);
+
+$max-width-text: max-width(ml);
+$max-width-content: max-width(xl);
+$max-width-page: max-width(xxl);
+
+// Grid
+
+$grid-column-count: 12;
+$grid-unit: 100 / $grid-column-count * 1vw;
+$grid-fluid-max-width: breakpoint(xxl);
+
+$fixed-gutter: 10px;
+$main-nav-desktop-height-1: 85px;
+$main-nav-desktop-height-2: 104px;
+
+// Colors
+
+$colors: (
+  yellow: #ffd200,
+  grey: #575757,
+  lightgrey: #f3f3f3,
+  darkgrey: #d2d2d2,
+  white: #ffffff,
+  black: #000000,
+  green: #67bc29
+);
+
+$context-colors: (
+
+);
+
+// Misc.
+
+$radius: 4px;
+$masonry-grid-gutter: 20;

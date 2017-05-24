@@ -1,0 +1,130 @@
+* { box-sizing: border-box; }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: color(white);
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: color(white);
+  margin: 0;
+  font-size: font-size(m) * 1px;
+  font-family: $font-family;
+  line-height: line-height(m);
+  color: color(black);
+  font-weight: 400;
+  position: relative;
+  overflow-x: hidden;
+  padding: 0;
+  min-height: 100%;
+  max-width: 100vw;
+  width: 100vw;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, figure, ol, ul {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-style: 400;
+  font-family: $font-family;
+}
+
+ul {
+  list-style: none;
+}
+
+ol, ul, dl, dt, dd {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+form {
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+button {
+  appearance: none;
+  background: none;
+  font-family: $font-family;
+  border: none;
+  font-size: font-size(m) * 1px;
+  cursor: pointer;
+}
+
+select,
+input {
+  border-radius: 0;
+  font-family: $font-family;
+}
+
+input[type="text"],
+input[type="email"] {
+  appearance: none;
+}
+
+textarea {
+  vertical-align: top;
+  font-family: $font-family;
+}
+
+address, i, em {
+  font-style: normal;
+}
+
+\::-webkit-input-placeholder, \:-ms-input-placeholder, \:-moz-placeholder {
+  color: context-color(text-placeholder);
+}
+
+::-moz-selection {
+  background-color: color(yellow);
+  color: color(black);
+  text-shadow: none;
+}
+
+::selection {
+  background-color: color(yellow);
+  color: color(black);
+  text-shadow: none;
+}
+
+// Needs to be removed from file
+
+.full {
+  width: 100%;
+}
