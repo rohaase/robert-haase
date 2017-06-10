@@ -1,0 +1,219 @@
+/* Browser Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Webfonts */
+
+@font-face {
+  font-family: "Fabrikat";
+  src: url("webfonts/Fabrikat-Black.woff2") format("woff2"), url("webfonts/Fabrikat-Black.woff") format("woff");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Fabrikat";
+  src: url("webfonts/Fabrikat-Regular.woff2") format("woff2"), url("webfonts/Fabrikat-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+
+/* Layout */
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Fabrikat", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  max-width: 800px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+/* Logo */
+
+.logo {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+
+/* Content */
+
+.content {
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content h1 {
+  margin-bottom: 1.5rem;
+  font-size: 4.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.content p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.button {
+  padding: 0.75em 1.25em;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  /* Animation */
+  -webkit-transition: ease-in-out all .2s;
+  -moz-transition: ease-in-out all .2s;
+  -o-transition: ease-in-out all .2s;
+  transition: ease-in-out all .2s;
+}
+
+.button:hover {
+  background: #000;
+  color: #fff;
+}
+
+
+/* Social Media Nav */
+
+.social-media-nav {
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-media-nav ul {
+  margin-bottom: 0.75rem;
+}
+
+.social-media-nav li {
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.social-media-nav .ss-icon {
+  font-size: 1.5rem;
+  color: #fff;
+
+  /* Animation */
+  -webkit-transition: ease-in-out all .2s;
+  -moz-transition: ease-in-out all .2s;
+  -o-transition: ease-in-out all .2s;
+  transition: ease-in-out all .2s;
+}
+
+.social-media-nav a {
+  text-decoration: none;
+}
+
+.social-media-nav .social-icon--li:hover {
+  color: #0077b5;
+}
+
+.social-media-nav .social-icon--ig:hover {
+  color: #bc2a8d;
+}
+
+.social-media-nav .social-icon--fb:hover {
+  color: #3b5998;
+}
+
+/* Legal link */
+
+.legal-link {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.legal-link:hover {
+  border: none;
+}
