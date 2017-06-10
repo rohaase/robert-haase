@@ -26,6 +26,7 @@
 
   <link rel="stylesheet" href="stylesheet.css">
   <link href="webfonts/ss-social-regular.css" rel="stylesheet" />
+  <script src="jquery.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -40,7 +41,7 @@
     <section class="content">
       <h1>I build Brands.</h1>
       <p>Brand Strategy. Digital Strategy. Brand Positioning. Service & Product Innovation. Brand Experience. Brand Architecture. Design Strategy.</p>
-      <a href="#" class="button">Let’s work together</a>
+      <a href="#" class="button js-form-toggle">Let’s work together</a>
     </section>
 
     <footer>
@@ -48,12 +49,67 @@
         <ul>
           <li><a href="https://www.linkedin.com/in/rohaase"><i class="ss-icon social-icon social-icon--li">linkedin</i></a></li>
           <li><a href="http://instagram.com/rohaase"><i class="ss-icon social-icon social-icon--ig">instagram</i></a></li>
-          <li><a href="https://twitter.com/brand_academy"><i class="ss-icon social-icon social-icon--fb">twitter</i></a></li>
+          <li><a href="https://twitter.com/brand_academy"><i class="ss-icon social-icon social-icon--tw">twitter</i></a></li>
         </ul>
-        <a href="/impressum" class="legal-link">Impressum</a>
+        <a href="/impressum" class="link">Impressum</a>
       </nav>
     </footer>
   </main>
+
+  <div class="form">
+    <a href="#" class="link close-link js-form-toggle">Close this form</a>
+    <form id="form2" name="form2" class="contact-form" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate="" action="#">
+
+      <div class="contact-form__row">
+        <div class="contact-form__row__cell">
+          <label for="name" class="contact-form__label required">Vorname</label>
+          <input id="Field1" name="Field1" type="text" class="contact-form__textfield" placeholder="Martina Mustermann" required="">
+        </div>
+
+        <div class="contact-form__row__cell">
+          <label for="email" class="contact-form__label required">Nachname</label>
+          <input id="Field7" name="Field7" type="email" spellcheck="false" class="contact-form__textfield" placeholder="martina@mustermann.de" required="">
+        </div>
+      </div>
+
+      <div class="contact-form__row">
+        <div class="contact-form__row__cell">
+          <label for="email" class="contact-form__label required">E-Mail</label>
+          <input id="Field7" name="Field7" type="email" spellcheck="false" class="contact-form__textfield" placeholder="martina@mustermann.de" required="">
+        </div>
+
+        <div class="contact-form__row__cell">
+          <label for="tel" class="contact-form__label required">Telefonnummer</label>
+          <input id="Field8" class="contact-form__textfield" name="Field8" required="" type="tel" placeholder="030 123 456">
+        </div>
+      </div>
+
+      <div class="contact-form__row">
+        <div class="contact-form__row__cell contact-form__row__cell--full">
+          <label for="message" class="contact-form__label">Nachricht</label>
+          <textarea id="Field5" name="Field5" class="contact-form__textarea" spellcheck="true"></textarea>
+        </div>
+      </div>
+
+      <div class="contact-form__row">
+        <div class="contact-form__row__cell contact-form__row__cell--full">
+          <input id="saveForm" name="saveForm" class="contact-form__submit button" type="submit" value="Absenden">
+        </div>
+      </div>
+
+      <div class="hide">
+        <label for="comment">Do Not Fill This Out</label>
+        <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+        <input type="hidden" id="idstamp" name="idstamp" value="qm3U+yDXHUeqSMe+eBRD7fNozd3ZvgpGfQmbAWlyVFs=">
+      </div>
+    </form>
+  </div>
+
+  <script>
+  $( ".js-form-toggle" ).click(function() {
+    $( ".form" ).toggleClass( "is-open" );
+  });
+  </script>
 
 </body>
 </html>
