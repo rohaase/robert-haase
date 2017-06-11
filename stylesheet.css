@@ -87,11 +87,18 @@ main {
   height: 100vh;
 }
 
+.page {
+	display: block;
+	padding-top: 8rem;
+	text-align: center;
+}
+
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
+	background: rgba(0,0,0,0.8);
   text-align: center;
 }
 
@@ -101,10 +108,11 @@ section {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
+	background: rgba(0,0,0,0.8);
   text-align: center;
 }
 
@@ -125,6 +133,11 @@ footer {
   }
 }
 
+.logo a {
+	color: #fff;
+	text-decoration: none;
+}
+
 
 /* Content */
 
@@ -132,6 +145,13 @@ footer {
   text-align: center;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.content--page {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8rem;
 }
 
 .content h1 {
@@ -145,6 +165,23 @@ footer {
   .content h1 {
     margin-bottom: 1.5rem;
     font-size: 4.5rem;
+  }
+}
+
+.content h2 {
+	margin-left: auto;
+  margin-right: auto;
+	margin-bottom: 0.75rem;
+	max-width: 600px;
+	font-size: 1.25rem;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+@media only screen and (min-width: 800px) {
+  .content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.875rem;
   }
 }
 
@@ -163,6 +200,11 @@ footer {
     font-size: 1.25rem;
     line-height: 1.35;
   }
+}
+
+.content strong {
+	display: block;
+	font-weight: 800;
 }
 
 .button {
