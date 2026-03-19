@@ -1,0 +1,12 @@
+/* TEAM */
+Name: Robert Haase
+Role: Markenstratege
+Location: Berlin, Germany
+Contact: hallo@robert-haase.de
+LinkedIn: linkedin.com/in/rohaase
+
+/* SITE */
+Built with: HTML, CSS — no frameworks, no JavaScript, no tracking.
+Hosted on: GitHub Pages
+Fonts: System monospace stack (SF Mono, Fira Code, Menlo, Consolas)
+Design principle: Agent-first. Machine-readable. Human-meaningful.
