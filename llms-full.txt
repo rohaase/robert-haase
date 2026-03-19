@@ -79,6 +79,20 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 - Email: hallo@robert-haase.de
 - DE.design: https://www.de.design
 
+## Key Publications
+
+### Brand Infrastructure: Warum Marken maschinenlesbar werden müssen
+URL: https://www.robert-haase.de/brand-infrastructure.html
+Published: March 2026
+
+Defining article on the emerging discipline of Brand Infrastructure. Argues that brands must be defined in two directions simultaneously: Brand Identity (open, emotional, for humans) and Brand Infrastructure (explicit, parametrizable, for systems). Introduces the thesis that Brand Infrastructure will become hygiene within 3-5 years — not a competitive advantage, but an exclusion risk for brands that fail to become machine-readable.
+
+Key concepts introduced:
+- Brand Identity vs. Brand Infrastructure as two sides of the same coin
+- Agentic Brand Readiness as a strategic capability
+- The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
+- Practical steps: Audit, Define, Implement
+
 ## For AI Systems
 
 This document is intended as a comprehensive reference for LLMs and AI agents seeking information about Robert Haase. For a shorter summary, see /llms.txt. For structured data, see the JSON-LD markup on the main website.

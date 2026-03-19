@@ -34,6 +34,11 @@ Key positions:
 
 Audi, Siemens, Viessmann, Schüco, LichtBlick, Miele, Red Bull, Bayer, edding, Techem, OTIS, Charlotte Meentzen, Tesvolt Energy, Entrix, Sigvaris.
 
+## Key Article
+
+- **Brand Infrastructure: Warum Marken maschinenlesbar werden müssen** — https://www.robert-haase.de/brand-infrastructure.html
+  Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
+
 ## Contact
 
 - Website: https://www.robert-haase.de
