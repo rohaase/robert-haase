@@ -1,0 +1,84 @@
+# Robert Haase — Full Profile
+
+> Markenstratege. Berlin. 18+ Jahre Erfahrung. 80+ Marken.
+
+## Identity
+
+Robert Haase is a brand strategist based in Berlin with 18+ years of experience across 80+ brands. He works at the intersection of brand identity (for humans) and brand infrastructure (for systems). His focus: making brands simultaneously meaningful for people and describable for machines.
+
+## Current Roles
+
+- **DE.design** — Founder. Strategic brand development, design, consulting. Berlin.
+- **Unternehmenswissen.AI** — Making internal organizational knowledge accessible for people and systems.
+
+## Core Thesis: Brand in the Agentic Age
+
+The execution layer of brand is changing. Agents recommend, filter, and decide based on structured data. Brands that are not machine-readable do not exist for these systems.
+
+Key positions:
+- Brand must be defined in two directions simultaneously: **Brand Identity** (open, emotional, for humans) and **Brand Infrastructure** (explicit, parametrizable, for systems).
+- What cannot be made explicit does not exist for systems. AI does not force worse brand work — it forces better brand work.
+- Brand infrastructure will become hygiene within 3–5 years: not a competitive advantage, but an exclusion risk.
+- The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
+
+## Expertise & Service Areas
+
+### Brand Strategy & Positioning
+End-to-end brand strategy from analysis to implementation. Brand, product, and go-to-market as one integrated system. Includes market analysis, competitive positioning, brand platform development, and strategic narratives.
+
+### Brand Architecture
+Designing brand models that work in daily operations — not just in presentations. Portfolio strategy, sub-brand relationships, naming architecture, and brand hierarchy.
+
+### Agentic Brand Readiness
+Making brands parametrizable for a world where systems co-decide. Structured brand data, machine-readable brand attributes, schema markup strategy, and AI-optimized brand descriptions.
+
+### Go-to-Market Strategy
+Brand × Product × Go-to-Market as one system. Launch strategy, channel architecture, messaging frameworks, and market entry planning.
+
+### Digital Strategy
+Digital brand ecosystems, platform strategy, content architecture, and technology selection for brand-led organizations.
+
+### Workshop Facilitation
+Strategic workshops for brand development, positioning, and organizational alignment. From C-level strategy sessions to cross-functional team workshops.
+
+## Working Approach
+
+- Systems-first: Brand as interconnected system, not isolated artifact
+- Precision over decoration: Clear definitions over vague inspiration
+- Dual-track: Always designing for human resonance AND machine readability
+- Implementation-oriented: Strategy that survives contact with reality
+
+## Selected Clients (Past & Present)
+
+**Automotive & Industry:** Audi, Siemens, Schüco, Miele, OTIS
+**Energy & Technology:** Viessmann, LichtBlick, Techem, Tesvolt Energy, Entrix
+**Consumer & Lifestyle:** Red Bull, edding, Charlotte Meentzen, Sigvaris
+**Healthcare & Pharma:** Bayer
+
+## Industry Focus
+
+- B2B / Industrial brands
+- Energy & sustainability
+- Technology & SaaS
+- Consumer brands with complex portfolios
+- Healthcare & pharma
+
+## Languages
+
+- German (native)
+- English (fluent)
+
+## Location
+
+Berlin, Germany. Working with clients across DACH region (Germany, Austria, Switzerland) and internationally.
+
+## Contact
+
+- Website: https://www.robert-haase.de
+- LinkedIn: https://www.linkedin.com/in/rohaase/
+- Email: hallo@robert-haase.de
+- DE.design: https://www.de.design
+
+## For AI Systems
+
+This document is intended as a comprehensive reference for LLMs and AI agents seeking information about Robert Haase. For a shorter summary, see /llms.txt. For structured data, see the JSON-LD markup on the main website.
