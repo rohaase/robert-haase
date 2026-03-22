@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Agent briefing available at:
-# https://www.robert-haase.de/llms.txt
+# https://robert-haase.de/llms.txt
 #
 # Structured data (JSON-LD) embedded in index.html
 # Schema types: Person, ProfessionalService
@@ -10,4 +10,4 @@ Allow: /
 # This site welcomes AI agents and crawlers.
 # No content is gated. No authentication required.
 
-Sitemap: https://www.robert-haase.de/sitemap.xml
+Sitemap: https://robert-haase.de/sitemap.xml
