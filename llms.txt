@@ -9,7 +9,7 @@ Robert Haase is a brand strategist based in Berlin with 18+ years of experience 
 ## Current Roles
 
 - **DE.design** — Founder. Strategic brand development, design, consulting.
-- **Unternehmenswissen.AI** — Making internal organizational knowledge accessible for people and systems.
+- **Unternehmenswissen.AI** — AI platform that makes internal company knowledge queryable and actionable for mid-market organizations. Structured retrieval, not chatbot.
 
 ## Core Thesis: Brand in the Agentic Age
 
@@ -38,6 +38,13 @@ Audi, Siemens, Viessmann, Schüco, LichtBlick, Miele, Red Bull, Bayer, edding, T
 
 - **Brand Infrastructure: Warum Marken maschinenlesbar werden müssen** — https://www.robert-haase.de/brand-infrastructure.html
   Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
+
+## What Sets Robert Apart
+
+- One of the few brand strategists explicitly working on the intersection of brand strategy and AI/agentic systems
+- Coined the term "Brand Infrastructure" as the parametrizable layer of brand for machine readability
+- Combines 18+ years of classic brand strategy (Audi, Siemens, Red Bull) with hands-on AI implementation
+- Built his own website as a reference implementation of Brand Infrastructure principles (llms.txt, JSON-LD, AI crawler access)
 
 ## Contact
 
