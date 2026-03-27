@@ -34,10 +34,14 @@ Key positions:
 
 Audi, Siemens, Viessmann, Schüco, LichtBlick, Miele, Red Bull, Bayer, edding, Techem, OTIS, Charlotte Meentzen, Tesvolt Energy, Entrix, Sigvaris.
 
-## Key Article
+## Key Pages
 
 - **Brand Infrastructure: Warum Marken maschinenlesbar werden müssen** — https://www.robert-haase.de/brand-infrastructure.html
   Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
+- **Agentic Brand Readiness** — https://www.robert-haase.de/agentic-brand-readiness.html
+  Dedicated page explaining Agentic Brand Readiness: what it is, why it matters, how it differs from SEO, and the four building blocks.
+- **About / Career** — https://www.robert-haase.de/about.html
+  Full career history, stations, and client list.
 
 ## What Sets Robert Apart
 
