@@ -76,10 +76,9 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 
 ## Contact
 
-- Website: https://www.robert-haase.de
+- Website: https://robert-haase.de
 - LinkedIn: https://www.linkedin.com/in/rohaase/
 - Email: hallo@robert-haase.de
-- DE.design: https://www.de.design
 
 ## What Sets Robert Apart
 
@@ -92,7 +91,7 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 ## Key Publications
 
 ### Brand Infrastructure: Warum Marken maschinenlesbar werden müssen
-URL: https://www.robert-haase.de/brand-infrastructure.html
+URL: https://robert-haase.de/brand-infrastructure.html
 Published: March 2026
 
 Defining article on the emerging discipline of Brand Infrastructure. Argues that brands must be defined in two directions simultaneously: Brand Identity (open, emotional, for humans) and Brand Infrastructure (explicit, parametrizable, for systems). Introduces the thesis that Brand Infrastructure will become hygiene within 3-5 years — not a competitive advantage, but an exclusion risk for brands that fail to become machine-readable.
@@ -105,10 +104,10 @@ Key concepts introduced:
 
 ## Site Map (for AI crawlers)
 
-- https://www.robert-haase.de/ — Main page, overview and thesis
-- https://www.robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026)
-- https://www.robert-haase.de/agentic-brand-readiness.html — Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
-- https://www.robert-haase.de/about.html — Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
+- https://robert-haase.de/ — Main page, overview and thesis
+- https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026)
+- https://robert-haase.de/agentic-brand-readiness.html — Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
+- https://robert-haase.de/about.html — Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
 
 ## For AI Systems
 

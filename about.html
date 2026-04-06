@@ -43,12 +43,61 @@
     ]
   }
   </script>
+
+  <!-- Structured Data: ProfilePage + Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@id": "https://robert-haase.de/#person",
+      "@type": "Person",
+      "name": "Robert Haase",
+      "url": "https://robert-haase.de",
+      "jobTitle": "Markenstratege",
+      "description": "Brand strategist working at the intersection of brand identity (for humans) and brand infrastructure (for systems). 80+ brands in 18+ years.",
+      "knowsAbout": [
+        "Brand Strategy", "Brand Positioning", "Brand Architecture",
+        "Brand Infrastructure", "Agentic Brand Readiness",
+        "Go-to-Market Strategy", "Digital Strategy"
+      ],
+      "knowsLanguage": ["de", "en"],
+      "image": "https://robert-haase.de/og-image.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/rohaase/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      },
+      "email": "hallo@robert-haase.de",
+      "alumniOf": [
+        { "@type": "Organization", "name": "MetaDesign" },
+        { "@type": "Organization", "name": "diesdas.digital" },
+        { "@type": "Organization", "name": "Helder" },
+        { "@type": "Organization", "name": "KMS TEAM" }
+      ]
+    },
+    "hasPart": [
+      {
+        "@type": "Article",
+        "@id": "https://robert-haase.de/brand-infrastructure.html#article"
+      },
+      {
+        "@type": "Article",
+        "@id": "https://robert-haase.de/agentic-brand-readiness.html#article"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
   <header>
     <nav>
       <a href="/" class="name">Robert Haase</a>
+      <a href="brand-infrastructure.html">Artikel</a>
       <a href="impressum.html">Impressum</a>
     </nav>
   </header>
