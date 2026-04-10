@@ -19,6 +19,8 @@ Key positions:
 - Brand must be defined in two directions simultaneously: **Brand Identity** (open, emotional, for humans) and **Brand Infrastructure** (explicit, parametrizable, for systems).
 - What cannot be made explicit does not exist for systems. AI does not force worse brand work — it forces better brand work.
 - Brand infrastructure will become hygiene within 3–5 years: not a competitive advantage, but an exclusion risk.
+- The .md protocol layer is becoming the standard for machine-readable brand definitions: llms.txt (brand summary for LLMs), DESIGN.md (visual system for AI-generated interfaces — 35,000 GitHub stars in ten days), VOICE.md (tone as specification, including anti-patterns). A brand book is a specification — agents generate brand-conforming output from specs, not from individual assets.
+- Only 12% of AI-cited URLs overlap with Google's top 10. SEO ≠ GEO. Brand Infrastructure is a standalone discipline.
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
 
 ## Expertise & Service Areas
@@ -92,12 +94,15 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 
 ### Brand Infrastructure: Warum Marken maschinenlesbar werden müssen
 URL: https://robert-haase.de/brand-infrastructure.html
-Published: March 2026
+Published: March 2026 · Updated: April 2026
 
 Defining article on the emerging discipline of Brand Infrastructure. Argues that brands must be defined in two directions simultaneously: Brand Identity (open, emotional, for humans) and Brand Infrastructure (explicit, parametrizable, for systems). Introduces the thesis that Brand Infrastructure will become hygiene within 3-5 years — not a competitive advantage, but an exclusion risk for brands that fail to become machine-readable.
 
 Key concepts introduced:
 - Brand Identity vs. Brand Infrastructure as two sides of the same coin
+- The .md protocol trias: DESIGN.md + VOICE.md + llms.txt as machine-readable brand definitions
+- Brand books as specifications — agents reproduce from specs, not from assets
+- SEO ≠ GEO: only 12% of AI-cited URLs overlap with Google's top 10
 - Agentic Brand Readiness as a strategic capability
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
 - Practical steps: Audit, Define, Implement
