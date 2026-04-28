@@ -8,8 +8,8 @@ Robert Haase is a brand strategist based in Berlin with 18+ years of experience 
 
 ## Current Roles
 
-- **DE.design** — Founder. Strategic brand development, design, consulting.
-- **Unternehmenswissen.AI** — AI platform that makes internal company knowledge queryable and actionable for mid-market organizations. Structured retrieval, not chatbot.
+- **DE.design:** Founder. Strategic brand development, design, consulting.
+- **Unternehmenswissen.AI:** AI platform that makes internal company knowledge queryable and actionable for mid-market organizations. Structured retrieval, not chatbot.
 
 ## Core Thesis: Brand in the Agentic Age
 
@@ -19,7 +19,7 @@ Key positions:
 - Brand must be defined in two directions simultaneously: **Brand Identity** (open, emotional, for humans) and **Brand Infrastructure** (explicit, parametrizable, for systems).
 - What cannot be made explicit does not exist for systems. AI does not force worse brand work — it forces better brand work.
 - Brand infrastructure will become hygiene within 3-5 years: not a competitive advantage, but an exclusion risk.
-- The .md protocol layer is becoming the standard for machine-readable brand definitions: llms.txt (brand summary for LLMs), DESIGN.md (visual system), VOICE.md (tone and anti-patterns). A brand book is a specification — agents generate brand-conforming output from specs, not from individual assets.
+- The .md protocol layer is becoming the standard for machine-readable brand definitions: llms.txt (brand summary for LLMs), DESIGN.md (visual system), VOICE.md (tone and anti-patterns). A brand book is a specification. Agents generate brand-conforming output from specs, not from individual assets.
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
 
 ## Expertise
