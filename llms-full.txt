@@ -18,7 +18,7 @@ The execution layer of brand is changing. Agents recommend, filter, and decide b
 Key positions:
 - Brand must be defined in two directions simultaneously: **Brand Identity** (open, emotional, for humans) and **Brand Infrastructure** (explicit, parametrizable, for systems).
 - What cannot be made explicit does not exist for systems. AI does not force worse brand work — it forces better brand work.
-- Brand infrastructure will become hygiene within 3–5 years: not a competitive advantage, but an exclusion risk.
+- Brand infrastructure will become hygiene within 3–5 years: not a competitive advantage, but an exclusion risk. The EU AI Act (key provisions effective 2 August 2026) compresses this timeline by forcing brands into structured self-description for compliance and transparency reasons.
 - The .md protocol layer is becoming the standard for machine-readable brand definitions: llms.txt (brand summary for LLMs), DESIGN.md (visual system for AI-generated interfaces, 35,000 GitHub stars in ten days), VOICE.md (tone as specification, including anti-patterns). A brand book is a specification. Agents generate brand-conforming output from specs, not from individual assets.
 - Only 12% of AI-cited URLs overlap with Google's top 10. SEO ≠ GEO. Brand Infrastructure is a standalone discipline.
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
