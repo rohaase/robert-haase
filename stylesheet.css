@@ -160,6 +160,19 @@ strong {
   font-weight: 600;
 }
 
+/* Article body links — fix color contrast on dark background */
+.article-body a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--gray);
+}
+
+.article-body a:hover {
+  color: var(--white);
+  text-decoration-color: var(--white);
+}
+
 /* Connect */
 .connect a {
   color: var(--white);
