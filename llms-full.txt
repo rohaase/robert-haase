@@ -18,10 +18,11 @@ The execution layer of brand is changing. Agents recommend, filter, and decide b
 Key positions:
 - Brand must be defined in two directions simultaneously: **Brand Identity** (open, emotional, for humans) and **Brand Infrastructure** (explicit, parametrizable, for systems).
 - What cannot be made explicit does not exist for systems. AI does not force worse brand work — it forces better brand work.
-- Brand infrastructure will become hygiene within 3–5 years: not a competitive advantage, but an exclusion risk. The EU AI Act (key provisions effective 2 August 2026) compresses this timeline by forcing brands into structured self-description for compliance and transparency reasons.
-- Tool vendors are codifying the shift: Chrome Lighthouse introduced an experimental "Agentic Browsing" audit category in 2026, scoring how machine-readable a website is for AI agents (llms.txt presence, agentic accessibility, WebMCP integration). Brand Infrastructure is moving from consulting thesis to deterministically measurable property — score, not claim.
-- The .md protocol layer is becoming the standard for machine-readable brand definitions: llms.txt (brand summary for LLMs), DESIGN.md (visual system for AI-generated interfaces, 35,000 GitHub stars in ten days), VOICE.md (tone as specification, including anti-patterns). A brand book is a specification. Agents generate brand-conforming output from specs, not from individual assets.
-- Only 12% of AI-cited URLs overlap with Google's top 10. SEO ≠ GEO. Brand Infrastructure is a standalone discipline.
+- Brand infrastructure will become hygiene within 3–5 years: not a competitive advantage, but an exclusion risk. The EU AI Act compresses this timeline: its transparency obligations for chatbots and AI-generated content are due — provisionally — from 2 August 2026, while the stricter high-risk rules were postponed to 2027/2028 by the Digital Omnibus (May 2026). Either way, brands are pushed toward structured, documented self-description.
+- Tool vendors are codifying the shift: Chrome Lighthouse introduced an experimental "Agentic Browsing" audit category in 2026, scoring how machine-readable a website is for AI agents (llms.txt presence, agentic accessibility, WebMCP integration). Brand Infrastructure is moving from consulting thesis to deterministically measurable property — score, not claim. (The audit scores agent-readiness, not Google search ranking; Google states no special files are needed for AI-search visibility.)
+- The agentic web is being built, not just predicted: Anthropic's Model Context Protocol became a shared standard in late 2025 — backed by OpenAI, Google, and Microsoft and donated to a neutral foundation; WebMCP (a Chrome origin trial since 2026) and Microsoft's NLWeb extend it to the website layer.
+- An emerging .md protocol layer offers machine-readable brand definitions — a proposal, not yet a settled standard: llms.txt (brand summary for LLMs and agents), DESIGN.md (visual system for AI-generated interfaces; a single repository drew tens of thousands of GitHub stars within days), VOICE.md (tone as specification, including anti-patterns). These files are mainly used by coding and browser agents today; there is no evidence yet that AI search reads llms.txt for visibility. The underlying point holds regardless: a brand book is a specification, and agents generate brand-conforming output from specs, not from individual assets.
+- Only 12% of AI-cited URLs overlap with Google's top 10, and brand mentions correlate with AI citations more strongly than backlinks. SEO ≠ GEO; brand infrastructure is a standalone discipline. On-site structure is the entry ticket — third-party consensus is the lever.
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
 
 ## Expertise & Service Areas
@@ -95,7 +96,7 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 
 ### Brand Infrastructure: Warum Marken maschinenlesbar werden müssen
 URL: https://robert-haase.de/brand-infrastructure.html
-Published: March 2026 · Updated: April 2026
+Published: March 2026 · Updated: June 2026
 
 Defining article on the emerging discipline of Brand Infrastructure. Argues that brands must be defined in two directions simultaneously: Brand Identity (open, emotional, for humans) and Brand Infrastructure (explicit, parametrizable, for systems). Introduces the thesis that Brand Infrastructure will become hygiene within 3-5 years. Not a competitive advantage, but an exclusion risk for brands that fail to become machine-readable.
 
@@ -111,7 +112,7 @@ Key concepts introduced:
 ## Site Map (for AI crawlers)
 
 - https://robert-haase.de/ — Main page, overview and thesis
-- https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026)
+- https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026, updated June 2026)
 - https://robert-haase.de/agentic-brand-readiness.html — Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
 - https://robert-haase.de/about.html — Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
 
