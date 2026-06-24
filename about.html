@@ -9,6 +9,9 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <link rel="canonical" href="https://robert-haase.de/about.html">
+  <link rel="alternate" hreflang="de" href="https://robert-haase.de/about.html">
+  <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/about.html">
+  <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/about.html">
   <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Briefing">
   <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Full Profile">
   <link rel="stylesheet" href="stylesheet.css">
@@ -66,7 +69,13 @@
         "Structured Brand Data", "Machine-Readable Brand Attributes"
       ],
       "knowsLanguage": ["de", "en"],
-      "image": "https://robert-haase.de/og-image.png",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://robert-haase.de/robert-weiss.jpg",
+        "width": 1285,
+        "height": 1932,
+        "caption": "Robert Haase, Markenstratege"
+      },
       "sameAs": [
         "https://www.linkedin.com/in/rohaase/",
         "https://www.de.design",
@@ -114,6 +123,7 @@
       <a href="/" class="name">Robert Haase</a>
       <a href="brand-infrastructure.html">Artikel</a>
       <a href="impressum.html">Impressum</a>
+      <a href="/en/about.html" hreflang="en" lang="en">EN</a>
     </nav>
   </header>
 
