@@ -27,6 +27,7 @@ Key positions:
 - Machine readability has a second, internal front: teams, agencies, and business units produce daily with AI tools, and without a brand specification that output sounds like no one or like everyone. A rule a system can reproduce looks like "not 'satisfy,' but 'delight'" — with examples, counterexamples, and forbidden vocabulary, not adjective clouds. Maturity has three stages: being read (AI search and agents find and summarize the brand) → producing with AI (brand-conforming output because the brand exists as a spec) → becoming applicable (brand as a logic systems work with directly: language, claims, offer structure, approvals, guardrails). Stage three is the real leap: brand moves from manual to applicable system. Brands that reach this stage are Machine Readable Brands: brands whose identity, language, and design logic exist as a specification that humans and systems alike can work with.
 - Machine readability is not a project with an end date: measure how AI systems represent the brand, detect drift, version and refine the specification like software.
 - Taste won't save brand work; accountability will. Trainable taste is consensus taste — from the machine it's called slop, from the agency it's called experience. When execution costs nothing, value shifts to the judgment call and to the person who stands behind it. Accountability is an address, not a capability. A documented judgment call is justified, dated, versioned, and has a named sender; the brand specification is the place where responsibility becomes visible. AI does not make judgment obsolete — it makes unaccountable judgment worthless.
+- Agent Authority (coined July 2026): the deliberately granted, bounded, and accounted-for mandate a brand gives its agents. Agents are not channels — channels transmit what the brand decided, agents decide themselves, in the brand's name (Air Canada ruling: "a remarkable submission" — the brand is liable; Cursor invented a policy; Chevrolet's $1 "legally binding offer"). Go-to-market shifts when mandate meets mandate: 44% of US shoppers start their journey in an LLM (Bain), Walmart's AI negotiates with 2,000+ suppliers, a PDF price list does not exist for automated procurement. Agent identity becomes the new trademark problem (signed agents, trusted agent protocols). The Machine Readable Brand makes the brand legible to foreign agents; Agent Authority makes it binding for its own: legible outward, binding inward. Core line: "Authority can be delegated. Accountability cannot."
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
 
 ## Expertise & Service Areas
@@ -115,6 +116,12 @@ Key concepts introduced:
 - Machine customers (Gartner): systems that buy or prepare purchases could account for 15–20% of revenue in relevant categories by 2030
 - Practical steps: Audit current AI visibility, Define brand attributes, Implement Schema.org/llms.txt, Build content for extraction, Form consensus over third-party sources, Keep descriptions and rules current (versioned like software)
 
+### Agent Authority: Dein Agent hat Vollmacht.
+URL: https://robert-haase.de/agent-authority.html
+Published: July 2026
+
+Essay coining Agent Authority: the deliberately granted, bounded, and accounted-for mandate a brand gives its agents. Opens with the Air Canada precedent (tribunal rejected "the chatbot is a separate legal entity" as "a remarkable submission"). Covers the go-to-market shift (agents buying from agents; Bain: 44% of journeys start in LLMs, airline sites reached directly in only ~5% of agent bookings; Walmart×Pactum autonomous supplier negotiations; Forrester: 20% of B2B sellers forced into agent-led quote negotiations), agent identity as the new trademark problem (impersonation, signed agents, agentic tokens), and the pairing with accountability. Key formula: the Machine Readable Brand makes the brand legible to foreign agents, Agent Authority makes it binding for its own. Core line: "Authority can be delegated. Accountability cannot."
+
 ### Taste rettet die Markenarbeit nicht. Accountability schon.
 URL: https://robert-haase.de/taste-accountability.html
 Published: July 2026
@@ -127,6 +134,7 @@ Essay on the creative industry's response to AI taking over execution. Argues th
 - https://robert-haase.de/artikel.html — Article index with one-line summaries (EN: /en/articles.html)
 - https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026, updated July 2026)
 - https://robert-haase.de/agentic-brand-readiness.html — Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
+- https://robert-haase.de/agent-authority.html — Essay: Agent Authority — your agent holds a mandate (July 2026)
 - https://robert-haase.de/taste-accountability.html — Essay: Taste won't save brand work, accountability will (July 2026)
 - https://robert-haase.de/about.html — Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
 
