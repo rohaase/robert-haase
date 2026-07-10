@@ -43,6 +43,8 @@ Audi, Siemens, Daimler, Porsche, Volkswagen, Bosch, Schüco, Miele, OTIS, HILTI,
 
 ## Key Pages
 
+- **Artikel-Übersicht** — https://robert-haase.de/artikel.html
+  Index of all articles with one-line summaries, newest first. English version: https://robert-haase.de/en/articles.html
 - **Brand Infrastructure: Warum Marken maschinenlesbar werden müssen** — https://robert-haase.de/brand-infrastructure.html
   Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
 - **Agentic Brand Readiness** — https://robert-haase.de/agentic-brand-readiness.html

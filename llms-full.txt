@@ -124,6 +124,7 @@ Essay on the creative industry's response to AI taking over execution. Argues th
 ## Site Map (for AI crawlers)
 
 - https://robert-haase.de/ — Main page, overview and thesis
+- https://robert-haase.de/artikel.html — Article index with one-line summaries (EN: /en/articles.html)
 - https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026, updated July 2026)
 - https://robert-haase.de/agentic-brand-readiness.html — Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
 - https://robert-haase.de/taste-accountability.html — Essay: Taste won't save brand work, accountability will (July 2026)

@@ -220,6 +220,42 @@ strong {
   font-weight: 600;
 }
 
+/* Artikel-Übersicht (artikel.html / en/articles.html) */
+.article-list article {
+  padding: 1.8rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.article-list article:last-child {
+  border-bottom: none;
+}
+
+.article-list .date {
+  color: var(--gray);
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.article-list h2.article-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.article-list h2.article-title a {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 1px;
+}
+
+.article-list h2.article-title a:hover {
+  border-color: var(--white);
+}
+
 /* Article body links — fix color contrast on dark background */
 .article-body a {
   color: var(--accent);
