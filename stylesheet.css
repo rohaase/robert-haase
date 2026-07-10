@@ -151,6 +151,28 @@ main {
   display: block;
 }
 
+/* Porträt-Paar: schwarzgrundiges Foto im Dark-Theme, weißgrundiges im Light-Theme */
+.hero .portrait .portrait-light {
+  display: none;
+}
+
+:root[data-theme="light"] .hero .portrait .portrait-dark {
+  display: none;
+}
+
+:root[data-theme="light"] .hero .portrait .portrait-light {
+  display: block;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .hero .portrait .portrait-dark {
+    display: none;
+  }
+  :root:not([data-theme="dark"]) .hero .portrait .portrait-light {
+    display: block;
+  }
+}
+
 h1 {
   font-size: 2.8rem;
   font-weight: 700;

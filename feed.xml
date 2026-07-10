@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Haase | Artikel</title>
+    <link>https://robert-haase.de/artikel.html</link>
+    <atom:link href="https://robert-haase.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Texte zu Markenstrategie im KI-Zeitalter: wie Marken maschinenlesbar, anwendbar und verantwortbar werden.</description>
+    <language>de</language>
+    <lastBuildDate>Fri, 10 Jul 2026 12:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Taste rettet die Markenarbeit nicht. Accountability schon.</title>
+      <link>https://robert-haase.de/taste-accountability.html</link>
+      <guid>https://robert-haase.de/taste-accountability.html</guid>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0200</pubDate>
+      <description>Warum „Taste" das Trostwort der Kreativbranche ist und der dokumentierte, verantwortete Judgment Call das eigentliche Gut wird, wenn KI die Ausführung übernimmt.</description>
+    </item>
+    <item>
+      <title>Was ist Agentic Brand Readiness?</title>
+      <link>https://robert-haase.de/agentic-brand-readiness.html</link>
+      <guid>https://robert-haase.de/agentic-brand-readiness.html</guid>
+      <pubDate>Fri, 27 Mar 2026 09:00:00 +0100</pubDate>
+      <description>Die Fähigkeit einer Marke, von KI-Systemen korrekt erkannt, beschrieben und empfohlen zu werden: Definition, Abgrenzung zu SEO und die vier Bausteine.</description>
+    </item>
+    <item>
+      <title>Brand Infrastructure: Warum Marken maschinenlesbar werden müssen.</title>
+      <link>https://robert-haase.de/brand-infrastructure.html</link>
+      <guid>https://robert-haase.de/brand-infrastructure.html</guid>
+      <pubDate>Sat, 07 Mar 2026 09:00:00 +0100</pubDate>
+      <description>Der Grundlagenartikel: Marke in zwei Richtungen denken, Identität für Menschen und Infrastruktur für Systeme. Mit dem Drei-Stufen-Modell zur Machine Readable Brand.</description>
+    </item>
+  </channel>
+</rss>
