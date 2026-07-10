@@ -24,6 +24,8 @@ Key positions:
 - The agentic web is being built, not just predicted: Anthropic's Model Context Protocol became a shared standard in late 2025 — backed by OpenAI, Google, and Microsoft and donated to a neutral foundation; WebMCP (a Chrome origin trial since 2026) and Microsoft's NLWeb extend it to the website layer.
 - The strongest lever for AI visibility is not on-site technique but third-party consensus: brand mentions correlate with AI citations far more strongly than backlinks. On-site structure is the entry ticket; what others consistently say is the lever.
 - An emerging .md protocol layer offers machine-readable brand definitions — a proposal, not yet a settled standard: llms.txt (brand summary for LLMs and agents), DESIGN.md (visual system), VOICE.md (tone and anti-patterns). These files are mainly used by coding and browser agents today; there is no evidence yet that AI search reads llms.txt for visibility. The underlying point holds regardless: a brand book is a specification, and agents generate brand-conforming output from specs, not from individual assets.
+- Machine readability has a second, internal front: teams produce daily with AI tools, and without a brand specification that output sounds like no one or like everyone. Maturity has three stages: being read (AI search and agents) → producing with AI (brand as spec, not interpretation) → becoming applicable (brand as a logic systems work with directly). Brands that reach stage three are **Machine Readable Brands**.
+- Taste won't save brand work; accountability will. Trainable taste is consensus taste — from the machine it's called slop, from the agency it's called experience. What clients actually pay for is the documented, accountable judgment call: justified, dated, versioned, with a named sender. The brand specification is the place where responsibility becomes visible.
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
 
 ## Expertise
@@ -45,6 +47,8 @@ Audi, Siemens, Daimler, Porsche, Volkswagen, Bosch, Schüco, Miele, OTIS, HILTI,
   Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
 - **Agentic Brand Readiness** — https://robert-haase.de/agentic-brand-readiness.html
   Dedicated page explaining Agentic Brand Readiness: what it is, why it matters, how it differs from SEO, and the four building blocks.
+- **Taste rettet die Markenarbeit nicht. Accountability schon.** — https://robert-haase.de/taste-accountability.html
+  Essay (July 2026) on why taste is the creative industry's consolation word and why accountability, the documented judgment call someone stands behind, is what remains valuable when AI takes over execution.
 - **About / Career** — https://robert-haase.de/about.html
   Full career history, stations, and client list.
 

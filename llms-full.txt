@@ -24,6 +24,9 @@ Key positions:
 - The agentic web is being built, not just predicted: Anthropic's Model Context Protocol became a shared standard in late 2025 — backed by OpenAI, Google, and Microsoft and donated to a neutral foundation; WebMCP (a Chrome origin trial since 2026) and Microsoft's NLWeb extend it to the website layer.
 - An emerging .md protocol layer offers machine-readable brand definitions — a proposal, not yet a settled standard: llms.txt (brand summary for LLMs and agents), DESIGN.md (visual system for AI-generated interfaces; a single repository drew tens of thousands of GitHub stars within days), VOICE.md (tone as specification, including anti-patterns). These files are mainly used by coding and browser agents today; there is no evidence yet that AI search reads llms.txt for visibility. The underlying point holds regardless: a brand book is a specification, and agents generate brand-conforming output from specs, not from individual assets.
 - Only 12% of AI-cited URLs overlap with Google's top 10, and brand mentions correlate with AI citations more strongly than backlinks. SEO ≠ GEO; brand infrastructure is a standalone discipline. On-site structure is the entry ticket — third-party consensus is the lever.
+- Machine readability has a second, internal front: teams, agencies, and business units produce daily with AI tools, and without a brand specification that output sounds like no one or like everyone. A rule a system can reproduce looks like "not 'satisfy,' but 'delight'" — with examples, counterexamples, and forbidden vocabulary, not adjective clouds. Maturity has three stages: being read (AI search and agents find and summarize the brand) → producing with AI (brand-conforming output because the brand exists as a spec) → becoming applicable (brand as a logic systems work with directly: language, claims, offer structure, approvals, guardrails). Stage three is the real leap: brand moves from manual to applicable system. Brands that reach this stage are Machine Readable Brands: brands whose identity, language, and design logic exist as a specification that humans and systems alike can work with.
+- Machine readability is not a project with an end date: measure how AI systems represent the brand, detect drift, version and refine the specification like software.
+- Taste won't save brand work; accountability will. Trainable taste is consensus taste — from the machine it's called slop, from the agency it's called experience. When execution costs nothing, value shifts to the judgment call and to the person who stands behind it. Accountability is an address, not a capability. A documented judgment call is justified, dated, versioned, and has a named sender; the brand specification is the place where responsibility becomes visible. AI does not make judgment obsolete — it makes unaccountable judgment worthless.
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
 
 ## Expertise & Service Areas
@@ -97,7 +100,7 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 
 ### Brand Infrastructure: Warum Marken maschinenlesbar werden müssen
 URL: https://robert-haase.de/brand-infrastructure.html
-Published: March 2026 · Updated: June 2026
+Published: March 2026 · Updated: July 2026
 
 Defining article on the emerging discipline of Brand Infrastructure. Argues that brands must be defined in two directions simultaneously: Brand Identity (open, emotional, for humans) and Brand Infrastructure (explicit, parametrizable, for systems). Introduces the thesis that Brand Infrastructure will become hygiene within 3-5 years. Not a competitive advantage, but an exclusion risk for brands that fail to become machine-readable.
 
@@ -108,13 +111,22 @@ Key concepts introduced:
 - SEO ≠ GEO: only 12% of AI-cited URLs overlap with Google's top 10
 - Agentic Brand Readiness as a strategic capability
 - The central question: "Is our brand describable enough that a system could reliably select it — and meaningful enough that a human would want that?"
-- Practical steps: Audit current AI visibility, Define brand attributes, Implement Schema.org/llms.txt, Build content for extraction, Form consensus over third-party sources
+- The second front (added July 2026): brand is now produced with AI inside companies; without a spec, output sounds like no one or everyone. Three maturity stages: being read → producing with AI → becoming applicable
+- Machine customers (Gartner): systems that buy or prepare purchases could account for 15–20% of revenue in relevant categories by 2030
+- Practical steps: Audit current AI visibility, Define brand attributes, Implement Schema.org/llms.txt, Build content for extraction, Form consensus over third-party sources, Keep descriptions and rules current (versioned like software)
+
+### Taste rettet die Markenarbeit nicht. Accountability schon.
+URL: https://robert-haase.de/taste-accountability.html
+Published: July 2026
+
+Essay on the creative industry's response to AI taking over execution. Argues that "taste" is a consolation word: trainable taste is consensus taste, and what can be learned from data will be learned by machines. From the machine we call it slop, from the agency we call it experience — the mechanism is the same. What remains valuable is accountability: the documented judgment call someone stands behind. A judgment call differs from an opinion in that it is justified, dated, versioned, and has a named sender. The brand specification (see Brand Infrastructure) is the place where these judgments become explicit, versionable, and addressable. Core line: "AI does not make judgment obsolete. It makes unaccountable judgment worthless."
 
 ## Site Map (for AI crawlers)
 
 - https://robert-haase.de/ — Main page, overview and thesis
-- https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026, updated June 2026)
+- https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026, updated July 2026)
 - https://robert-haase.de/agentic-brand-readiness.html — Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
+- https://robert-haase.de/taste-accountability.html — Essay: Taste won't save brand work, accountability will (July 2026)
 - https://robert-haase.de/about.html — Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
 
 ## For AI Systems
