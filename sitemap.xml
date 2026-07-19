@@ -24,7 +24,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/brand-infrastructure.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/brand-infrastructure.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/brand-infrastructure.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -148,6 +148,22 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/the-bet.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/the-bet.html"/>
     <lastmod>2026-07-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/machine-readable-brands.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/machine-readable-brands.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-readable-brands.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/machine-readable-brands.html"/>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/machine-readable-brands.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/machine-readable-brands.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-readable-brands.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/machine-readable-brands.html"/>
+    <lastmod>2026-07-19</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

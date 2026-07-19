@@ -72,6 +72,26 @@
     }
   }
   </script>
+  <!-- Structured Data: DefinedTermSet (Begriffe von Robert Haase) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTermSet",
+    "@id": "https://robert-haase.de/artikel.html#begriffe",
+    "name": "Begriffe der Markenführung im KI-Zeitalter",
+    "description": "Von Robert Haase geprägte Begriffe der Markenführung im KI-Zeitalter.",
+    "creator": { "@id": "https://robert-haase.de/#person" },
+    "url": "https://robert-haase.de/artikel.html",
+    "hasDefinedTerm": [
+      { "@type": "DefinedTerm", "name": "Brand Infrastructure", "description": "Die maschinenlesbare Schicht der Marke: explizit, parametrisierbar, für Systeme. Ergänzt Brand Identity. Geprägt März 2026.", "url": "https://robert-haase.de/brand-infrastructure.html" },
+      { "@type": "DefinedTerm", "name": "Machine Readable Brands", "description": "Marken, deren Identität, Sprache und Designlogik als Spezifikation vorliegen, mit der Menschen und Systeme gleichermaßen arbeiten können. Geprägt Juli 2026.", "url": "https://robert-haase.de/machine-readable-brands.html" },
+      { "@type": "DefinedTerm", "name": "Agentic Brand Readiness", "description": "Der messbare Reifegrad einer Marke gegenüber KI-Systemen: gefunden, korrekt beschrieben und empfehlbar sein. Geprägt März 2026.", "url": "https://robert-haase.de/agentic-brand-readiness.html" },
+      { "@type": "DefinedTerm", "name": "Agent Authority", "description": "Die bewusst erteilte, begrenzte und verantwortete Handlungsvollmacht einer Marke an ihre Agenten. Geprägt Juli 2026.", "url": "https://robert-haase.de/agent-authority.html" },
+      { "@type": "DefinedTerm", "name": "Die Festlegung", "description": "Die Empfehlung, die sich festlegt: These, benanntes Scheiter-Signal, Absender. Was Strategiearbeit verkauft, wenn Analyse Commodity ist. Geprägt Juli 2026.", "url": "https://robert-haase.de/the-bet.html" },
+      { "@type": "DefinedTerm", "name": "Open Brand Repo", "description": "Die Marken-Spezifikation als öffentliches, versioniertes Repository: Identität, Sprache und Fakten lesbar für Agenten, prüfbar für Menschen. Geprägt Juli 2026." }
+    ]
+  }
+  </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
 </head>
