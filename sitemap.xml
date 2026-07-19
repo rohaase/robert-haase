@@ -16,7 +16,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/artikel.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/articles.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/artikel.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -40,7 +40,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/taste-accountability.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/taste-accountability.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/taste-accountability.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -82,7 +82,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/artikel.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/articles.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/artikel.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -134,4 +134,20 @@
     <priority>0.3</priority>
   </url>
 
+  <url>
+    <loc>https://robert-haase.de/the-bet.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/the-bet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/the-bet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/the-bet.html"/>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/the-bet.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/the-bet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/the-bet.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/the-bet.html"/>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>

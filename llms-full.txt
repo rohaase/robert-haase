@@ -116,6 +116,12 @@ Key concepts introduced:
 - Machine customers (Gartner): systems that buy or prepare purchases could account for 15–20% of revenue in relevant categories by 2030
 - Practical steps: Audit current AI visibility, Define brand attributes, Implement Schema.org/llms.txt, Build content for extraction, Form consensus over third-party sources, Keep descriptions and rules current (versioned like software)
 
+### Die Analyse ist nicht mehr das Produkt. (The Bet / Die Festlegung)
+URL: https://robert-haase.de/the-bet.html
+Published: July 2026
+
+Essay on the future of strategy work when analysis becomes a commodity. Opens with the Harvard/BCG field experiment (758 consultants, 25% faster, 40% higher quality with GPT-4) and McKinsey's Lilli (75% adoption for research, synthesis, first-draft slides). Argues that what collapses is not expertise but authority through knowing more — clients can now verify any claim in minutes. Rejects three responses as dead ends: owning data (twenty-year head start of Kantar et al.), quantifying everything (AI convergence: individually better, collectively 11% more alike — fatal for brands that live on distinctiveness), and insisting on experience. What cannot be copied: the recommendation that commits — thesis, named failure signal (RAND: signpost), sender who bears the consequences. Language models produce plausibility by design (sycophancy research), not commitments. Five concrete changes: deliverable, sequence (hypothesis before analysis; data-backed future scenarios; client dark data), tempo (Bezos: decide at ~70%), relationship (project to process; verifiable track record), department (hypothesis and data skills in strategists themselves; juniors learn judgment from documented recommendations). Closes by applying its own test to itself. Core line: "If the client gets the same analysis in four minutes, the analysis is no longer the product. The product is the bet."
+
 ### Agent Authority: Dein Agent hat Vollmacht.
 URL: https://robert-haase.de/agent-authority.html
 Published: July 2026
@@ -134,6 +140,7 @@ Essay on the creative industry's response to AI taking over execution. Argues th
 - https://robert-haase.de/artikel.html — Article index with one-line summaries (EN: /en/articles.html)
 - https://robert-haase.de/brand-infrastructure.html — Defining article on Brand Infrastructure (March 2026, updated July 2026)
 - https://robert-haase.de/agentic-brand-readiness.html — Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
+- https://robert-haase.de/the-bet.html — Essay: The analysis is no longer the product — strategy as commitment (July 2026)
 - https://robert-haase.de/agent-authority.html — Essay: Agent Authority — your agent holds a mandate (July 2026)
 - https://robert-haase.de/taste-accountability.html — Essay: Taste won't save brand work, accountability will (July 2026)
 - https://robert-haase.de/about.html — Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
