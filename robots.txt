@@ -9,10 +9,25 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Applebot
 Allow: /
 
 User-agent: Applebot-Extended
@@ -24,10 +39,46 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
+User-agent: Bingbot
+Allow: /
+
 User-agent: cohere-ai
 Allow: /
 
+User-agent: cohere-training-data-crawler
+Allow: /
+
 User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: omgili
 Allow: /
 
 # Agent briefing (LLM-readable profile):
@@ -35,9 +86,11 @@ Allow: /
 # https://robert-haase.de/llms-full.txt (full profile)
 #
 # Structured data (JSON-LD) embedded in HTML:
-# WebSite, Person, ProfessionalService, FAQPage, Article, BreadcrumbList
+# WebSite, Person, ProfessionalService, FAQPage, Article, BreadcrumbList,
+# DefinedTerm, DefinedTermSet (coined terms: https://robert-haase.de/artikel.html#begriffe)
 #
 # This site welcomes AI agents and crawlers.
 # No content is gated. No authentication required.
+# Training on this content is permitted.
 
 Sitemap: https://robert-haase.de/sitemap.xml
