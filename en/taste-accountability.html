@@ -82,6 +82,18 @@
     }
   }
   </script>
+  <!-- Structured Data: DefinedTerm -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "@id": "https://robert-haase.de/en/taste-accountability.html#term",
+    "name": "Accountable Decision",
+    "description": "The judgment about which option is right: justified, dated, versioned, with a named sender who stands behind it. What remains of brand work when machines take over execution. Introduced by Robert Haase, July 2026.",
+    "url": "https://robert-haase.de/en/taste-accountability.html",
+    "inDefinedTermSet": { "@id": "https://robert-haase.de/en/glossary.html#set" }
+  }
+  </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
 </head>
@@ -93,6 +105,7 @@
     <nav aria-label="Main navigation">
       <a href="/en/" class="name">Robert Haase</a>
       <a href="articles.html">Articles</a>
+      <a href="glossary.html">Glossary</a>
       <a href="about.html">About</a>
       <a href="/taste-accountability.html" hreflang="de" lang="de">DE</a>
       <button class="theme-toggle" type="button" aria-label="Toggle color scheme" title="Toggle color scheme">◐</button>

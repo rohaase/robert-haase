@@ -82,6 +82,18 @@
     }
   }
   </script>
+  <!-- Structured Data: DefinedTerm -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    "@id": "https://robert-haase.de/en/agent-authority.html#term",
+    "name": "Agent Authority",
+    "description": "The deliberately granted, bounded, and accounted-for mandate a brand gives its agents. The expression comes from the law of agency; introduced and defined in the brand context by Robert Haase, July 2026.",
+    "url": "https://robert-haase.de/en/agent-authority.html",
+    "inDefinedTermSet": { "@id": "https://robert-haase.de/en/glossary.html#set" }
+  }
+  </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
 </head>
@@ -93,6 +105,7 @@
     <nav aria-label="Main navigation">
       <a href="/en/" class="name">Robert Haase</a>
       <a href="articles.html">Articles</a>
+      <a href="glossary.html">Glossary</a>
       <a href="about.html">About</a>
       <a href="/agent-authority.html" hreflang="de" lang="de">DE</a>
       <button class="theme-toggle" type="button" aria-label="Toggle color scheme" title="Toggle color scheme">◐</button>

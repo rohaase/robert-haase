@@ -52,6 +52,7 @@ Audi, Siemens, Daimler, Porsche, Volkswagen, Bosch, Schüco, Miele, OTIS, HILTI,
   Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
 - **Agentic Brand Readiness** — https://robert-haase.de/agentic-brand-readiness.html
   Dedicated page explaining Agentic Brand Readiness: what it is, why it matters, how it differs from SEO, and the four building blocks.
+- **Begriffe (Glossar aller Begriffe mit Definitionen und Daten)** — https://robert-haase.de/begriffe.html (EN: /en/glossary.html)
 - **Was sind Machine Readable Brands? (Definition)** — https://robert-haase.de/machine-readable-brands.html
 - **Die Analyse ist nicht mehr das Produkt.** — https://robert-haase.de/the-bet.html
 - **Agent Authority: Dein Agent hat Vollmacht.** — https://robert-haase.de/agent-authority.html
