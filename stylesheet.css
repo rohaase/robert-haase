@@ -98,6 +98,10 @@ nav a {
   font-size: 0.85rem;
 }
 
+nav a[aria-current="page"] {
+  color: var(--white);
+}
+
 nav a:hover {
   color: var(--white);
 }
