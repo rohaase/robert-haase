@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Begriffe | Robert Haase</title>
-  <meta name="description" content="Begriffe der Markenführung im KI-Zeitalter, die ich in meinen Texten verwende und definiere: Brand Infrastructure, Machine Readable Brands, Agent Authority und weitere.">
+  <meta name="description" content="Begriffe der Markenführung im KI-Zeitalter: eigene Prägungen wie Brand Infrastructure, Machine Readable Brands und Agent Authority, dazu erklärte Fachbegriffe wie GEO, llms.txt und Machine Customers.">
   <meta name="author" content="Robert Haase">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -54,11 +54,13 @@
     "@type": "DefinedTermSet",
     "@id": "https://robert-haase.de/begriffe.html#set",
     "name": "Begriffe der Markenführung im KI-Zeitalter",
-    "description": "Begriffe, die Robert Haase in seinen Texten verwendet und definiert. Jeder Eintrag nennt, seit wann der Begriff in dieser Bedeutung verwendet wird.",
-    "creator": { "@id": "https://robert-haase.de/#person" },
+    "description": "Begriffe, die Robert Haase in seinen Texten verwendet. Eigene Prägungen nennen, seit wann sie in dieser Bedeutung verwendet werden; fremde Fachbegriffe nennen ihre Herkunft.",
+    "creator": {
+      "@id": "https://robert-haase.de/#person"
+    },
     "url": "https://robert-haase.de/begriffe.html",
     "inLanguage": "de",
-    "dateModified": "2026-07-19T22:00:00+02:00",
+    "dateModified": "2026-07-20T01:00:00+02:00",
     "hasDefinedTerm": [
       {
         "@type": "DefinedTerm",
@@ -108,6 +110,90 @@
         "name": "Open Brand Repo",
         "description": "Die Marken-Spezifikation als öffentliches, versioniertes Repository: Identität, Sprache und Fakten lesbar für Agenten und prüfbar für Menschen, während die Grenzen der Agenten-Vollmacht intern bleiben. Eingeführt von Robert Haase, Juli 2026.",
         "url": "https://robert-haase.de/begriffe.html#open-brand-repo"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#marken-spezifikation",
+        "name": "Marken-Spezifikation",
+        "description": "Die Marke in einer Form, die sich anwenden lässt statt gedeutet werden zu müssen: Positionierung, Sprachregeln, Fakten und Grenzen. Der Gegenbegriff zum Brand Book. Verwendet und definiert von Robert Haase seit März 2026.",
+        "url": "https://robert-haase.de/machine-readable-brands.html"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#maschinen-konsens",
+        "name": "Maschinen-Konsens",
+        "description": "Das Markenbild, das KI-Systeme aus allen auffindbaren Quellen zusammensetzen. Nicht kontrollierbar, aber über die Quellen beeinflussbar. Verwendet und definiert von Robert Haase seit März 2026.",
+        "url": "https://robert-haase.de/agentic-brand-readiness.html"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#konsens-geschmack",
+        "name": "Konsens-Geschmack",
+        "description": "Geschmack, der sich aus vielen Beispielen lernen lässt und deshalb die Mitte dessen abbildet, was viele für gut halten. Eingeführt von Robert Haase, Juli 2026.",
+        "url": "https://robert-haase.de/taste-accountability.html"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#stateful",
+        "name": "Stateful",
+        "description": "Eigenschaft einer Marke, ihren gesamten Verlauf mitzutragen: jede Aussage wirkt gegen alles, was vorher gesagt wurde. Gegenbegriff zum zustandslosen Einzelabruf eines Sprachmodells. Verwendet von Robert Haase seit März 2026.",
+        "url": "https://robert-haase.de/begriffe.html#stateful"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#identitaetsdatei",
+        "name": "Identitätsdatei",
+        "description": "Die Datei, in der festgelegt ist, wer eine Marke ist und wonach sie handelt. Deutsche Entsprechung zu SOUL.md. Verwendet von Robert Haase seit März 2026.",
+        "url": "https://robert-haase.de/begriffe.html#identitaetsdatei"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#geo",
+        "name": "GEO",
+        "description": "Generative Engine Optimization: Optimierung von Inhalten für die Antwort generativer Systeme statt für ein Ranking in einer Ergebnisliste. Etablierter Fachbegriff, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#geo"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#answer-engine",
+        "name": "Answer Engine",
+        "description": "System, das eine Frage direkt beantwortet, statt Ergebnisse zu verlinken. AEO bezeichnet die Optimierung darauf. Etablierter Fachbegriff, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#answer-engine"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#llms-txt",
+        "name": "llms.txt",
+        "description": "Textdatei, die die wichtigsten Inhalte einer Website für Sprachmodelle zusammenfasst. Für Agenten nützlich, als Sichtbarkeits-Hebel gemessen wirkungslos. Etablierter Fachbegriff, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#llms-txt"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#schema-org",
+        "name": "Schema.org",
+        "description": "Gemeinsames Vokabular, mit dem Websites maschinenlesbar auszeichnen, wer oder was sie sind; JSON-LD ist das übliche Format. Etablierter Standard, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#schema-org"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#mcp",
+        "name": "Model Context Protocol",
+        "description": "Offener Standard, über den KI-Systeme auf externe Werkzeuge und Datenquellen zugreifen. Von Anthropic eingeführt, inzwischen bei einer neutralen Stiftung. Etablierter Standard, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#mcp"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#machine-customers",
+        "name": "Machine Customers",
+        "description": "Systeme, die eigenständig kaufen oder Kaufentscheidungen vorbereiten. Von Gartner geprägt, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#machine-customers"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#agentic-commerce",
+        "name": "Agentic Commerce",
+        "description": "Handel, bei dem auf mindestens einer Seite ein Agent vergleicht, verhandelt oder kauft. Etablierter Fachbegriff, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#agentic-commerce"
       }
     ]
   }
@@ -138,65 +224,169 @@
 
     <section class="glossary-index">
       <h2>Übersicht</h2>
+      <p class="index-label">Begriffe, die ich definiere</p>
       <p class="index-links">
         <a href="#brand-infrastructure">Brand Infrastructure</a>
+        <a href="#marken-spezifikation">Marken-Spezifikation</a>
         <a href="#machine-readable-brands">Machine Readable Brands</a>
         <a href="#agentic-brand-readiness">Agentic Brand Readiness</a>
-        <a href="#verantwortete-entscheidung">Verantwortete Entscheidung</a>
+        <a href="#maschinen-konsens">Maschinen-Konsens</a>
         <a href="#agent-authority">Agent Authority</a>
+        <a href="#verantwortete-entscheidung">Verantwortete Entscheidung</a>
+        <a href="#konsens-geschmack">Konsens-Geschmack</a>
         <a href="#scheiter-signal">Scheiter-Signal</a>
+        <a href="#stateful">Stateful</a>
+        <a href="#identitaetsdatei">Identitätsdatei</a>
         <a href="#open-brand-repo">Open Brand Repo</a>
+      </p>
+      <p class="index-label">Begriffe, die ich verwende</p>
+      <p class="index-links">
+        <a href="#geo">GEO</a>
+        <a href="#answer-engine">Answer Engine / AEO</a>
+        <a href="#llms-txt">llms.txt</a>
+        <a href="#schema-org">Schema.org / JSON-LD</a>
+        <a href="#mcp">Model Context Protocol</a>
+        <a href="#machine-customers">Machine Customers</a>
+        <a href="#agentic-commerce">Agentic Commerce</a>
       </p>
     </section>
 
     <section class="glossary">
-      <article class="glossary-entry" id="brand-infrastructure">
+      <h2 class="glossary-group">Begriffe, die ich definiere</h2>
+<article class="glossary-entry" id="brand-infrastructure">
         <h2>Brand Infrastructure</h2>
         <p class="glossary-def">Die maschinenlesbare Schicht der Marke: explizit, parametrisierbar, für Systeme.</p>
         <p class="glossary-body">Sie ergänzt die Brand Identity, die sich an Menschen richtet, und ersetzt sie nicht. Eine Marke braucht beides gleichzeitig: Identität für Menschen, Infrastruktur für Systeme. Ältere Verwendungen des Ausdrucks existieren in anderer Bedeutung, etwa für organisatorische Markenprozesse.</p>
         <p class="glossary-meta">Verwendet seit März 2026 · <a href="brand-infrastructure.html">Zum Artikel →</a></p>
       </article>
 
-      <article class="glossary-entry" id="machine-readable-brands">
+      <article class="glossary-entry" id="marken-spezifikation">
+        <h2>Marken-Spezifikation</h2>
+        <p class="glossary-def">Die Marke in einer Form, die sich anwenden lässt statt gedeutet werden zu müssen.</p>
+        <p class="glossary-body">Positionierung, Sprachregeln, Fakten und Grenzen, geschrieben für Menschen und Systeme zugleich. Ein Brand Book beschreibt eine Marke und überlässt die Auslegung dem Leser. Eine Spezifikation legt fest, was gilt, und lässt sich deshalb ausführen. Der Unterschied entscheidet, ob eine Marke in automatisierten Prozessen überhaupt vorkommt.</p>
+        <p class="glossary-meta">Verwendet seit März 2026 · <a href="machine-readable-brands.html">Zur Definitionsseite →</a></p>
+      </article>
+
+<article class="glossary-entry" id="machine-readable-brands">
         <h2>Machine Readable Brands</h2>
         <p class="glossary-def">Marken, deren Identität, Sprache und Designlogik als Spezifikation vorliegen, mit der Menschen und Systeme gleichermaßen arbeiten können.</p>
         <p class="glossary-body">Dritte Stufe eines Reifegradmodells: gelesen werden, mit KI produzieren, anwendbar werden. Ein Brand Book beschreibt eine Marke, eine Spezifikation lässt sich anwenden. Der Ausdruck wird seit Ende 2025 auch von anderen benutzt, meist beschreibend.</p>
         <p class="glossary-meta">Verwendet seit März 2026 · <a href="machine-readable-brands.html">Zur Definitionsseite →</a></p>
       </article>
 
-      <article class="glossary-entry" id="agentic-brand-readiness">
+<article class="glossary-entry" id="agentic-brand-readiness">
         <h2>Agentic Brand Readiness</h2>
         <p class="glossary-def">Der messbare Reifegrad einer Marke gegenüber KI-Systemen: gefunden, korrekt beschrieben und empfohlen werden.</p>
         <p class="glossary-body">Stufe eins der Leiter, und die einzige, die sich in zehn Minuten selbst testen lässt: drei Fragen an ChatGPT oder Perplexity, vier Punkte zur Auswertung.</p>
         <p class="glossary-meta">Verwendet seit März 2026 · <a href="agentic-brand-readiness.html">Zum Artikel →</a></p>
       </article>
 
-      <article class="glossary-entry" id="verantwortete-entscheidung">
-        <h2>Verantwortete Entscheidung</h2>
-        <p class="glossary-def">Das Urteil, welche Variante richtig ist: begründet, datiert, versioniert, mit einem Absender, der dafür geradesteht.</p>
-        <p class="glossary-body">Was von der Markenarbeit bleibt, wenn Maschinen die Ausführung übernehmen. Eine Meinung äußert man und geht weiter. Eine verantwortete Entscheidung trägt Konsequenzen. Meinungen gibt es umsonst, auch von Maschinen.</p>
-        <p class="glossary-meta">Verwendet seit Juli 2026 · <a href="taste-accountability.html">Zum Artikel →</a></p>
+      <article class="glossary-entry" id="maschinen-konsens">
+        <h2>Maschinen-Konsens</h2>
+        <p class="glossary-def">Das Markenbild, das KI-Systeme aus allen auffindbaren Quellen zusammensetzen.</p>
+        <p class="glossary-body">Nicht das, was eine Marke über sich sagt, sondern was Systeme aus Website, Fachpresse, Bewertungen und Foren synthetisieren. Für jeden, der eine KI befragt, ist dieser Konsens die Marke. Kontrollierbar ist er nicht, beeinflussbar schon: über die Quellen, die hineinlaufen.</p>
+        <p class="glossary-meta">Verwendet seit März 2026 · <a href="agentic-brand-readiness.html">Zum Artikel →</a></p>
       </article>
 
-      <article class="glossary-entry" id="agent-authority">
+<article class="glossary-entry" id="agent-authority">
         <h2>Agent Authority</h2>
         <p class="glossary-def">Die bewusst erteilte, begrenzte und verantwortete Handlungsvollmacht einer Marke an ihre Agenten.</p>
         <p class="glossary-body">Erteilt heißt: entschieden statt passiert. Begrenzt heißt: definiert, was der Agent zusagen darf und wo ein Mensch übernimmt. Verantwortet heißt: es gibt eine Adresse, die geradesteht. Der Ausdruck stammt aus dem Vollmachtsrecht und ist hier in den Markenkontext überführt.</p>
         <p class="glossary-meta">Verwendet seit Juli 2026 · <a href="agent-authority.html">Zum Artikel →</a></p>
       </article>
 
-      <article class="glossary-entry" id="scheiter-signal">
+<article class="glossary-entry" id="verantwortete-entscheidung">
+        <h2>Verantwortete Entscheidung</h2>
+        <p class="glossary-def">Das Urteil, welche Variante richtig ist: begründet, datiert, versioniert, mit einem Absender, der dafür geradesteht.</p>
+        <p class="glossary-body">Was von der Markenarbeit bleibt, wenn Maschinen die Ausführung übernehmen. Eine Meinung äußert man und geht weiter. Eine verantwortete Entscheidung trägt Konsequenzen. Meinungen gibt es umsonst, auch von Maschinen.</p>
+        <p class="glossary-meta">Verwendet seit Juli 2026 · <a href="taste-accountability.html">Zum Artikel →</a></p>
+      </article>
+
+      <article class="glossary-entry" id="konsens-geschmack">
+        <h2>Konsens-Geschmack</h2>
+        <p class="glossary-def">Geschmack, der sich aus vielen Beispielen lernen lässt und deshalb die Mitte abbildet.</p>
+        <p class="glossary-body">Was viele für gut halten, lässt sich trainieren. Kommt diese Mitte aus der Maschine, nennen wir sie Slop. Der Einwand richtet sich nicht gegen die Maschine, sondern gegen die Annahme, Geschmack sei ein Durchschnitt. Eine Entscheidung, die etwas riskiert, ist per Definition nicht die Mitte.</p>
+        <p class="glossary-meta">Verwendet seit Juli 2026 · <a href="taste-accountability.html">Zum Artikel →</a></p>
+      </article>
+
+<article class="glossary-entry" id="scheiter-signal">
         <h2>Scheiter-Signal</h2>
         <p class="glossary-def">Das benannte Ereignis, an dem eine Empfehlung erkennbar scheitert.</p>
         <p class="glossary-body">Ohne Scheiter-Signal ist ein Strategiepapier nicht fertig, sondern Plausibilität in schöner Form. Ein Scheiter-Signal ist ein Satz, kein Modell mit zwei Nachkommastellen: Woran erkennen wir in zwölf Monaten, dass diese Empfehlung nicht trägt? Die RAND Corporation nennt ein solches Signal Signpost.</p>
         <p class="glossary-meta">Verwendet seit Juli 2026 · <a href="the-bet.html">Zum Artikel →</a></p>
       </article>
 
-      <article class="glossary-entry" id="open-brand-repo">
+      <article class="glossary-entry" id="stateful">
+        <h2>Stateful</h2>
+        <p class="glossary-def">Eine Marke trägt ihren gesamten Verlauf mit. Jede Aussage wirkt gegen alles, was vorher gesagt wurde.</p>
+        <p class="glossary-body">Ein Sprachmodell ist stateless: jede Anfrage beginnt bei null, ohne Erinnerung an die letzte. Marken funktionieren umgekehrt. Wer heute etwas verspricht, wird daran gemessen, was er vor drei Jahren versprochen hat. Deshalb genügt es nicht, einem System zu sagen, wie eine Marke klingt. Es muss wissen, was sie bereits gesagt hat.</p>
+        <p class="glossary-meta">Verwendet seit März 2026 · Noch nicht ausgeführt</p>
+      </article>
+
+      <article class="glossary-entry" id="identitaetsdatei">
+        <h2>Identitätsdatei</h2>
+        <p class="glossary-def">Die Datei, in der festgelegt ist, wer eine Marke ist und wonach sie handelt.</p>
+        <p class="glossary-body">In der Softwarewelt kursiert dafür der Name SOUL.md. Identitätsdatei ist der genauere Ausdruck: weniger Pathos, klarer in der Sache. Sie ist kein Dokument über die Marke, sondern der Ort, an dem die Marke für Systeme existiert. Was nicht darin steht, wird nicht angewendet.</p>
+        <p class="glossary-meta">Verwendet seit März 2026 · Noch nicht ausgeführt</p>
+      </article>
+
+<article class="glossary-entry" id="open-brand-repo">
         <h2>Open Brand Repo</h2>
         <p class="glossary-def">Die Marken-Spezifikation als öffentliches, versioniertes Repository.</p>
         <p class="glossary-body">Identität, Sprache und Fakten lesbar für Agenten und prüfbar für Menschen, während die Grenzen dessen, was ein Agent zusagen darf, intern bleiben. Vertrauen durch Prüfbarkeit statt durch Behauptung. Jede Regel eine dokumentierte Entscheidung, mit Datum und Absender.</p>
         <p class="glossary-meta">Verwendet seit Juli 2026 · Artikel folgt</p>
+      </article>
+
+
+      <h2 class="glossary-group">Begriffe, die ich verwende</h2>
+      <p class="glossary-group-note">Fremde Fachbegriffe, die in meinen Texten vorkommen. Nicht von mir geprägt, hier nur erklärt.</p>
+      <article class="glossary-entry" id="geo">
+        <h2>GEO</h2>
+        <p class="glossary-def">Optimierung von Inhalten für die Antwort generativer Systeme statt für ein Ranking in einer Ergebnisliste.</p>
+        <p class="glossary-body">Generative Engine Optimization. SEO sorgt dafür, gefunden zu werden, GEO dafür, in der Antwort vorzukommen. Beides bleibt Arbeit an der Auffindbarkeit. Machine Readable Brands setzen eine Stufe früher an: bei der Frage, ob überhaupt etwas Anwendbares da ist, mit dem ein System arbeiten kann.</p>
+        <p class="glossary-meta">Verwendet in <a href="machine-readable-brands.html">Machine Readable Brands</a> und <a href="brand-infrastructure.html">Brand Infrastructure</a></p>
+      </article>
+
+      <article class="glossary-entry" id="answer-engine">
+        <h2>Answer Engine / AEO</h2>
+        <p class="glossary-def">System, das eine Frage direkt beantwortet, statt Ergebnisse zu verlinken. AEO ist die Optimierung darauf.</p>
+        <p class="glossary-body">Der Unterschied zur Suchmaschine ist die fehlende Liste: es gibt eine Antwort, keine zehn Optionen. Wer darin nicht vorkommt, kommt nicht vor. Praktisch überschneidet sich AEO stark mit GEO; die Trennung ist eher Vokabular des Marktes als eine inhaltliche.</p>
+        <p class="glossary-meta">Verwendet in <a href="agentic-brand-readiness.html">Agentic Brand Readiness</a></p>
+      </article>
+
+      <article class="glossary-entry" id="llms-txt">
+        <h2>llms.txt</h2>
+        <p class="glossary-def">Textdatei, die die wichtigsten Inhalte einer Website für Sprachmodelle zusammenfasst.</p>
+        <p class="glossary-body">Vorgeschlagen 2024, seither viel beworben. Für Coding- und Browser-Agenten, denen man die Datei gezielt gibt, ist sie nützlich. Als Sichtbarkeits-Hebel ist sie gemessen wirkungslos: eine Auswertung von 2026 fand, dass 97 Prozent aller llms.txt-Dateien keinen einzigen Zugriff durch ein KI-System bekommen. Diese Website hat eine, aus dem ersten Grund, nicht aus dem zweiten.</p>
+        <p class="glossary-meta">Verwendet in <a href="brand-infrastructure.html">Brand Infrastructure</a></p>
+      </article>
+
+      <article class="glossary-entry" id="schema-org">
+        <h2>Schema.org / JSON-LD</h2>
+        <p class="glossary-def">Gemeinsames Vokabular, mit dem Websites auszeichnen, wer oder was sie sind. JSON-LD ist das übliche Format dafür.</p>
+        <p class="glossary-body">Der unaufregendste und wirksamste Teil von Brand Infrastructure. Ein Mensch sieht einer Seite an, dass dort eine Person, ein Produkt oder ein Preis steht. Ein System muss es ausgezeichnet bekommen. Ohne diese Auszeichnung bleibt eine Aussage Fließtext, den ein System deuten muss, statt ihn zu übernehmen.</p>
+        <p class="glossary-meta">Verwendet in <a href="brand-infrastructure.html">Brand Infrastructure</a> und <a href="agentic-brand-readiness.html">Agentic Brand Readiness</a></p>
+      </article>
+
+      <article class="glossary-entry" id="mcp">
+        <h2>Model Context Protocol</h2>
+        <p class="glossary-def">Offener Standard, über den KI-Systeme auf externe Werkzeuge und Datenquellen zugreifen.</p>
+        <p class="glossary-body">Von Anthropic eingeführt, Ende 2025 als gemeinsamer Standard etabliert, inzwischen bei einer neutralen Stiftung. Für Marken ist weniger die Technik relevant als die Folge: es gibt jetzt einen üblichen Weg, auf dem ein Agent an Markendaten kommt. Wer nichts anzubieten hat, das über diesen Weg abrufbar wäre, ist für Agenten nicht vorhanden.</p>
+        <p class="glossary-meta">Verwendet in <a href="brand-infrastructure.html">Brand Infrastructure</a></p>
+      </article>
+
+      <article class="glossary-entry" id="machine-customers">
+        <h2>Machine Customers</h2>
+        <p class="glossary-def">Systeme, die eigenständig kaufen oder Kaufentscheidungen vorbereiten.</p>
+        <p class="glossary-body">Von Gartner geprägt. Die Prognose lautet, dass solche Systeme bis 2030 für 15 bis 20 Prozent des Umsatzes relevanter Kategorien stehen können. Entscheidend ist nicht die Zahl, sondern die Verschiebung des Adressaten: Markenkommunikation richtet sich dann an einen Kunden, der keine Bilder sieht.</p>
+        <p class="glossary-meta">Verwendet in <a href="brand-infrastructure.html">Brand Infrastructure</a></p>
+      </article>
+
+      <article class="glossary-entry" id="agentic-commerce">
+        <h2>Agentic Commerce</h2>
+        <p class="glossary-def">Handel, bei dem auf mindestens einer Seite ein Agent vergleicht, verhandelt oder kauft.</p>
+        <p class="glossary-body">Der tatsächliche Kauf durch einen Agenten ist derzeit der seltenste Fall. Häufiger und wirtschaftlich schon jetzt relevanter ist die Stufe davor: Agenten, die vergleichen, filtern und empfehlen. Die Empfehlung entscheidet früher als die Transaktion.</p>
+        <p class="glossary-meta">Verwendet in <a href="agent-authority.html">Agent Authority</a> und <a href="brand-infrastructure.html">Brand Infrastructure</a></p>
       </article>
 
     </section>

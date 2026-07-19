@@ -419,3 +419,27 @@ footer a:hover {
   section { padding: 2rem 0; }
   nav, main, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
 }
+
+.glossary-group {
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gray);
+  margin: 3.5rem 0 1.75rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+.glossary .glossary-group:first-child { margin-top: 0; }
+.glossary-group-note {
+  font-size: 0.95rem;
+  color: var(--gray);
+  margin: -1rem 0 2rem;
+  max-width: 42rem;
+}
+.index-label {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin: 1.5rem 0 0.5rem;
+}
+.glossary-index .index-label:first-of-type { margin-top: 0; }
