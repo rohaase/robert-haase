@@ -323,12 +323,95 @@ footer a:hover {
   color: var(--white);
 }
 
+
+/* Glossar — Begriffe sind hier die Hauptsache, nicht Sektions-Labels.
+   Deshalb h2 innerhalb .glossary-entry bewusst gegen den globalen Label-Stil gesetzt. */
+.glossary-index .index-links {
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.4rem;
+}
+
+.glossary-index .index-links a {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2px;
+  font-size: 0.95rem;
+  transition: border-color 0.15s ease;
+}
+
+.glossary-index .index-links a:hover {
+  border-bottom-color: var(--white);
+}
+
+.glossary-entry {
+  padding: 2.75rem 0;
+  border-bottom: 1px solid var(--border);
+  scroll-margin-top: 2rem;
+}
+
+.glossary-entry:first-child {
+  padding-top: 0;
+}
+
+.glossary-entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.glossary-entry h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: none;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  margin-bottom: 0.85rem;
+}
+
+.glossary-def {
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: var(--white);
+  margin-bottom: 0.9rem;
+  max-width: 640px;
+}
+
+.glossary-body {
+  color: var(--accent);
+  margin-bottom: 1.1rem;
+  max-width: 640px;
+}
+
+.glossary-meta {
+  font-size: 0.85rem;
+  color: var(--gray);
+  max-width: 640px;
+}
+
+.glossary-meta a {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1px;
+  transition: border-color 0.15s ease;
+}
+
+.glossary-meta a:hover {
+  border-bottom-color: var(--white);
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   html { font-size: 16px; }
   h1 { font-size: 2rem; }
   .hero { padding: 4rem 0 3rem; }
   .hero.with-portrait { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+  .glossary-entry h2 { font-size: 1.5rem; }
+  .glossary-def { font-size: 1.05rem; }
+  .glossary-entry { padding: 2rem 0; }
   section { padding: 2rem 0; }
   nav, main, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
 }
