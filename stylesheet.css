@@ -443,3 +443,10 @@ footer a:hover {
   margin: 1.5rem 0 0.5rem;
 }
 .glossary-index .index-label:first-of-type { margin-top: 0; }
+
+a.term {
+  text-decoration: none;
+  border-bottom: 1px dotted var(--gray);
+  color: inherit;
+}
+a.term:hover { border-bottom-color: var(--white); }
