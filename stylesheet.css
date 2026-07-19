@@ -444,9 +444,12 @@ footer a:hover {
 }
 .glossary-index .index-label:first-of-type { margin-top: 0; }
 
-a.term {
+/* Begriffs-Links: fuehren zur Definition, nicht zu einer Quelle.
+   Deshalb gepunktet statt durchgezogen unterstrichen. */
+.article-body a.term {
   text-decoration: none;
   border-bottom: 1px dotted var(--gray);
-  color: inherit;
 }
-a.term:hover { border-bottom-color: var(--white); }
+.article-body a.term:hover {
+  border-bottom-color: var(--white);
+}
