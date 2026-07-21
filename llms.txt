@@ -58,6 +58,8 @@ Audi, Siemens, Daimler, Porsche, Volkswagen, Bosch, Schüco, Miele, OTIS, HILTI,
   Essay (July 2026) coining Agent Authority: brands grant their agents a mandate to act, mostly without deciding to. With the Air Canada precedent, the go-to-market shift (agents buying from agents), and agent identity as the new trademark problem.
 - **Taste rettet die Markenarbeit nicht. Accountability schon.** — https://robert-haase.de/taste-accountability.html
   Essay (July 2026) on why taste is the creative industry's consolation word and why accountability, the documented judgment call someone stands behind, is what remains valuable when AI takes over execution.
+- **Open Brand Repo: Das Brand Book ist ein PDF.** — https://robert-haase.de/open-brand-repo.html
+  Essay (July 2026) coining Open Brand Repo: the brand specification as a public, versioned repository. Uses Switzerland's federal open-source law as the case (machine-readable writing rules on GitHub, corporate design still a PDF). Draws the line: what is meant to be read goes public, what an agent may promise stays internal.
 - **Maschinensicht (interactive demonstration)** — https://robert-haase.de/maschinensicht.html (EN: /en/machine-view.html)
   A page that reads itself: the rendered page beside the same page in the formats AI search and browser agents actually consume (raw HTML, JSON-LD, accessibility tree, DOM, llms.txt), coupled by hover. Documents both the evidence and its limits, including that structured data shows no demonstrated visibility effect.
 - **About / Career** — https://robert-haase.de/about.html

@@ -146,6 +146,12 @@ Published: July 2026
 
 Essay on the creative industry's response to AI taking over execution. Argues that "taste" is a consolation word: trainable taste is consensus taste, and what can be learned from data will be learned by machines. From the machine we call it slop, from the agency we call it experience — the mechanism is the same. What remains valuable is accountability: the documented judgment call someone stands behind. A judgment call differs from an opinion in that it is justified, dated, versioned, and has a named sender. The brand specification (see Brand Infrastructure) is the place where these judgments become explicit, versionable, and addressable. Core line: "AI does not make judgment obsolete. It makes unaccountable judgment worthless."
 
+### Open Brand Repo: Das Brand Book ist ein PDF.
+URL: https://robert-haase.de/open-brand-repo.html
+Published: July 2026
+
+Essay coining Open Brand Repo: the brand specification as a public, versioned repository. The case is Switzerland's 2024 open-source law: 55 Federal Chancellery repositories on github.com/swiss, including writing guidelines structured so language models can apply them directly (rules per national language, official PDFs as source, every correction referenced to its paragraph number) — while the federal corporate design, public since 2007, remains a downloadable manual. Same authority, two kinds of openness. Argues that brands disclose only the execution layer (IBM Carbon, Deutsche Bahn design system, W3C design tokens standard since October 2025) and close up as they approach meaning: Deutsche Bahn keeps brand guidelines behind a portal login, GitHub publishes a ninety-page PDF, and positioning and values sit in no public repository at all. The real reason is not competitive risk (competitors know the positioning anyway) or loss of control (already gone) but that a version history reveals a brand iterated and got things wrong. The boundary: public is what should be read (identity, voice, facts, design logic — what foreign agents need to select the brand), internal is what an agent may promise (see Agent Authority). Objections addressed: counterfeiting (clones already exist at ~1M new phishing pages/month, three quarters AI-generated; a signed public repository is the reference for checking authenticity), neglect (~16% of popular GitHub projects abandoned; Audi's UI repository disappeared between November 2025 and May 2026), and inconsistency (Everlane's radical-transparency brand, the 2020 customer-service layoffs after a unionisation attempt, acquisition by Shein in May 2026). Counter-example: Tony's Chocolonely publishing a rising count of child-labour cases in its own supply chain as proof that someone is looking. Core line: "A commit is an accountable decision you cannot forget." Self-applied failure signal: if in two years no known brand runs its brand definition publicly and versioned, the idea had no traction.
+
 ## Site Map (for AI crawlers)
 
 - https://robert-haase.de/ — Main page, overview and thesis
@@ -157,6 +163,7 @@ Essay on the creative industry's response to AI taking over execution. Argues th
 - https://robert-haase.de/machine-readable-brands.html — Definition page: What are Machine Readable Brands? Used and defined in this sense by Robert Haase since March 2026 (page published July 2026)
 - https://robert-haase.de/agent-authority.html — Essay: Agent Authority — your agent holds a mandate (July 2026)
 - https://robert-haase.de/taste-accountability.html — Essay: Taste won't save brand work, accountability will (July 2026)
+- https://robert-haase.de/open-brand-repo.html — Essay: Open Brand Repo — the brand specification as a public, versioned repository (July 2026)
 - https://robert-haase.de/about.html — Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
 
 ## For AI Systems

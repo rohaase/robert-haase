@@ -6,7 +6,14 @@
     <atom:link href="https://robert-haase.de/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Texte zu Markenstrategie im KI-Zeitalter: wie Marken maschinenlesbar, anwendbar und verantwortbar werden.</description>
     <language>de</language>
-    <lastBuildDate>Sat, 18 Jul 2026 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Open Brand Repo: Das Brand Book ist ein PDF.</title>
+      <link>https://robert-haase.de/open-brand-repo.html</link>
+      <guid>https://robert-haase.de/open-brand-repo.html</guid>
+      <pubDate>Tue, 21 Jul 2026 12:00:00 +0200</pubDate>
+      <description>Die Schweiz hat ihre amtlichen Schreibregeln für Sprachmodelle aufbereitet und ihr Corporate Design als PDF. Warum die Marken-Spezifikation als öffentliches, versioniertes Repository geführt gehört, und wo die Grenze zwischen öffentlich und intern verläuft.</description>
+    </item>
     <item>
       <title>Maschinensicht</title>
       <link>https://robert-haase.de/maschinensicht.html</link>
