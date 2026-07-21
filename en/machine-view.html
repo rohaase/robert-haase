@@ -358,7 +358,7 @@
 
         <p>The findings diverge. On Mind2Web, textual element selection leads numbered screenshot markers by around 18 percentage points, while still using the screenshot for planning. On WebVoyager the multimodal variant wins by 19 points. What holds: numbered screenshot markers are no safe bet for web interfaces, Skyvern stopped rendering them by default in June 2026, and the serious tooling works through structure.</p>
 
-        <p>That an accessible page produces measurably better agent results is unproven. The study is not findable. The number people pass around measures something else: there the agent had its mouse taken away, the website stayed the same. Since July 2026 there is at least a related experiment running two versions of the same site against each other, one built for humans, one for agents, 89.3 against 49.3 percent success. What varied there was machine clarity, not accessibility, and it is a self-built prototype. A pointer, not proof.</p>
+        <p>That an accessible page produces measurably better agent results is unproven. A number does circulate for it: agent success supposedly falls from 78 to 42 percent once a site's accessibility tree is degraded. The study behind it changed no website at all. It took the mouse away from the agent and made it work by keyboard alone. What was measured is how well an agent copes with restricted input, not how well a site is built. A study putting accessible pages against inaccessible ones is one I did not find. Since July 2026 there is at least a related experiment running two versions of the same site against each other, one built for humans, one for agents, 89.3 against 49.3 percent success. What varied there was machine clarity, not accessibility, and it is a self-built prototype. A pointer, not proof.</p>
 
         <p><strong>Three more things this page does not prove.</strong></p>
 
@@ -366,9 +366,11 @@
 
         <p><strong>Second, that agents ask permission.</strong> Google, OpenAI, Perplexity and Meta list their user-triggered fetches in their own documentation as an explicit exception to <code>robots.txt</code>. Anthropic is the counter case, with a caveat: the commitment there covers all three bots in general, no exception for user-initiated fetches is stated, but <code>Claude-User</code> is not named specifically. Blocking AI crawlers in <code>robots.txt</code> blocks training and indexing. The agents keep going.</p>
 
-        <p><strong>Third, that the rules are settled.</strong> The IETF draft for a language in which websites express their usage preferences has carried a note since April 2026 saying its content does not reflect working group consensus. It was added after the last call had been withdrawn. The draft for the technical transport lapsed in early May because nobody resubmitted it. Cloudflare meanwhile uses a technically incompatible vocabulary that it submitted to the IETF itself, without success. After fifteen months of working group there is no standard.</p>
+        <p><strong>Third, that the rules are settled.</strong> The IETF has been working for over a year on a language that lets a website state what its content may and may not be used for. The draft defining the terms has carried a warning since April 2026: the working group does not agree on its contents. The second draft, the one governing how a site actually transmits those statements, expired in May because nobody renewed it. Cloudflare meanwhile uses a technically incompatible vocabulary that it submitted to the IETF itself, without success. After fifteen months of working group there is no standard.</p>
 
         <p>On <code>llms.txt</code>, in my own case. It is here because it exists. That says nothing about its effect. A server log analysis across 137,210 domains shows that 97 percent of these files received no request at all in May 2026. A second study of nearly 300,000 domains finds no relationship with AI citations, though only 10.1 percent of those domains had a file at all. The format was invented against a context problem: context windows are too small for whole websites. Developer documentation is the first example in the specification, alongside company structure, legislation, CVs. Search engines, visibility and being cited appear nowhere in it. Where the file demonstrably works, it works modestly: in vendor Mintlify’s own benchmark, misses on non-existent addresses dropped from 1.42 to 0.11 per task. Accuracy stayed the same. Time was gained, nothing else.</p>
+
+        <p>This website is the easiest case imaginable, of course. Five pages, static, hand-written JSON-LD, no CMS, no legacy, a single script. On a grown brand site with a tag manager, a consent layer and three agencies involved, the right-hand column would look different. That is where the actual point sits: what can be done by hand here becomes a question of ownership and process there.</p>
 
         <p><strong>The honest remainder.</strong> Clean structure is the entry ticket. Nothing more. My own measurement series shows it. The question about the person is answered by all three tested systems with this website as the primary source. The recommendation question, who to hire for this topic, is answered by none of them with my name. Single measurements vary a lot and what counts is the trend over months. Between those two findings, though, there is no technical problem. What sits there is the question of what other people write about you.</p>
 
@@ -435,7 +437,7 @@
       label: 'Agent · a11y tree',
       title: 'Browser agent via the accessibility tree',
       sub: 'Playwright MCP format',
-      note: 'A reproduction of the YAML output of Playwright MCP 0.0.78. Chrome DevTools MCP works the same way. Stagehand mixes tree and DOM, browser-use leads with the DOM. This is the tree screen readers depend on too.'
+      note: 'A reproduction of the YAML output of Playwright MCP 0.0.78. Chrome DevTools MCP works the same way. Stagehand mixes tree and DOM, browser-use leads with the DOM. This is the tree screen readers depend on too. For comparison: 30.6 percent of all home pages worldwide carry buttons with no label.'
     },
     {
       id: 'dom',
@@ -767,7 +769,9 @@
         return r.text();
       })
       .then(function (txt) {
-        var rows = [{ group: '/llms.txt · ' + txt.length.toLocaleString('de-DE') + ' Zeichen' }];
+        state.llmsChars = txt.length;
+        state.llmsSections = (txt.match(/^#+ /gm) || []).length;
+        var rows = [{ group: '/llms.txt · ' + txt.length.toLocaleString('en-GB') + ' characters' }];
         txt.split('\n').slice(0, 120).forEach(function (line) {
           if (!line.trim()) return;
           rows.push({ raw: line, el: findByText(doc, line.replace(/^[#>\-*\s]+/, '')), kind: 'only' });
@@ -885,14 +889,14 @@
     } else if (state.view.id === 'llms') {
       setTally(
         [n, 'lines in the briefing'],
-        ['97%', 'of all llms.txt files get zero requests'],
-        ['0.11', 'misses per docs task instead of 1.42']
+        [(state.llmsChars || 0).toLocaleString('en-GB'), 'characters in the file'],
+        [state.llmsSections || 0, 'sections']
       );
     } else {
       setTally(
+        [n, 'lines in this view'],
         [controls, 'interactive elements'],
-        [nameless, 'of those without an accessible name'],
-        ['30.6%', 'of all home pages have empty buttons']
+        [nameless, 'of those without an accessible name']
       );
     }
   }

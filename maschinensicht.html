@@ -346,20 +346,20 @@
         <p>→ <strong>KI-Suche, roh.</strong> Was ChatGPT und Claude beim direkten, nutzerausgelösten Abruf bekommen: unausgeführtes HTML. Drei unabhängige Tests seit November 2025 kommen zum selben Ergebnis. Im jüngsten stand eine Köder-Telefonnummer im Quelltext, die echte war nur über JavaScript erreichbar. Alle getesteten US-Assistenten meldeten die Köder-Nummer. DeepSeek, Qwen und Mistral lieferten die echte. Technisch geht es also, die US-Anbieter tun es nur nicht. Für Perplexity ist die Lage dünner, dort scheiterte einer der Tests, und alle drei sind Momentaufnahmen mit einem Durchlauf je System. Dokumentiert hat es von den Anbietern nur Anthropic. OpenAI und Perplexity äußern sich zum Rendering überhaupt nicht. Und eine Unterscheidung, die fast überall fehlt: Der Direkt-Abruf rendert nicht, der Weg über einen Suchindex sehr wohl.<br>
         → <strong>Strukturierte Daten.</strong> Was diese Seite anbietet. Ob es ankommt, steht weiter unten.<br>
         → <strong>Accessibility-Tree.</strong> Playwright MCP und Chrome DevTools MCP geben dem Modell genau diesen Baum, also Rollen und Namen statt Layout. Denselben Baum brauchen Screenreader. Andere mischen. Stagehand nennt seine Momentaufnahme im Quellcode hybrid aus DOM und Baum, browser-use serialisiert primär den DOM. Alle vier verzichten auf Pixel, beim Rest gehen sie auseinander.<br>
-        → <strong>DOM.</strong> Getrimmtes HTML mit eingespritzten Element-IDs. Vollständiger, und je nach Modell besser oder schlechter.<br>
+        → <strong>DOM.</strong> Getrimmtes HTML mit injizierten Element-IDs. Vollständiger, und je nach Modell besser oder schlechter.<br>
         → <strong>Agenten-Briefing.</strong> Eine Datei, die Systemen sagen soll, worum es hier geht.</p>
 
         <h2>Was das belegt, und was nicht</h2>
 
         <p><strong>Ein Element ohne zugänglichen Namen existiert für einen Agenten nicht.</strong></p>
 
-        <p>Google schreibt es in der eigenen Entwicklerdokumentation ungewöhnlich direkt: Agenten stützen sich auf den Accessibility-Tree als primäres Datenmodell. Lighthouse prüft das seit Ende April 2026 in einer eigenen Kategorie, seit dem 7. Mai in der Standardkonfiguration, weiterhin als experimentell gekennzeichnet und ohne Note von null bis hundert. Ein Symbol-Button ohne Beschriftung erzeugt weder Rolle noch Namen. Für jeden baumbasierten Agenten ist er unsichtbar. Nach der Februar-Erhebung über eine Million Startseiten haben 30,6 Prozent leere Buttons, auf 51 Prozent fehlen Formularfeld-Beschriftungen, und auf Feldebene sind 33,1 Prozent der Felder nicht korrekt beschriftet.</p>
+        <p>Google schreibt es in der eigenen Entwicklerdokumentation ungewöhnlich direkt: Agenten stützen sich auf den Accessibility-Tree als primäres Datenmodell. Lighthouse prüft das seit Ende April 2026 in einer eigenen Kategorie, seit dem 7. Mai in der Standardkonfiguration, weiterhin als experimentell gekennzeichnet und ohne Note von null bis hundert. Ein Symbol-Button ohne Beschriftung erzeugt weder Rolle noch Namen. Für jeden Agenten, der über diesen Baum liest, ist er unsichtbar. Nach der Februar-Erhebung über eine Million Startseiten haben 30,6 Prozent leere Buttons, auf 51 Prozent fehlen Formularfeld-Beschriftungen, und auf Feldebene sind 33,1 Prozent der Felder nicht korrekt beschriftet.</p>
 
         <p><strong>Was ich nicht behaupte: dass Struktur die Pixel schlägt.</strong></p>
 
         <p>Die Befunde gehen auseinander. Auf Mind2Web liegt die textuelle Element-Auswahl rund 18 Prozentpunkte vor den nummerierten Screenshot-Markierungen, nutzt den Screenshot aber weiter zur Planung. Auf WebVoyager gewinnt umgekehrt die multimodale Variante, um 19 Prozentpunkte. Festhalten lässt sich: Nummerierte Screenshot-Markierungen sind für Weboberflächen kein sicherer Gewinn, Skyvern rendert sie seit Juni 2026 standardmäßig nicht mehr, und das ernstzunehmende Werkzeug arbeitet über die Struktur.</p>
 
-        <p>Dass eine barrierefreie Seite messbar bessere Agenten-Ergebnisse liefert, ist dagegen unbelegt. Die Studie ist nicht auffindbar. Die Zahl, die dafür herumgereicht wird, misst etwas anderes: Dort wurde dem Agenten die Maus entzogen, die Website blieb gleich. Seit Juli 2026 gibt es immerhin einen verwandten Versuch mit zwei Fassungen derselben Website, einer für Menschen, einer für Agenten, 89,3 gegen 49,3 Prozent Erfolg. Variiert wurde dort die maschinelle Klarheit, nicht die Barrierefreiheit, und es ist ein selbstgebauter Prototyp. Ein Fingerzeig, kein Beweis.</p>
+        <p>Dass eine barrierefreie Seite messbar bessere Agenten-Ergebnisse liefert, ist dagegen unbelegt. Eine Zahl kursiert dafür trotzdem: Der Erfolg von Agenten falle von 78 auf 42 Prozent, sobald der Accessibility-Baum einer Website beschädigt sei. Die Untersuchung dahinter hat aber keine einzige Website verändert. Sie hat dem Agenten die Maus weggenommen und ihn nur mit der Tastatur arbeiten lassen. Gemessen wurde also, wie gut ein Agent mit eingeschränkter Bedienung zurechtkommt, nicht wie gut eine Website gebaut ist. Eine Studie, die barrierefreie gegen nicht barrierefreie Seiten stellt, habe ich nicht gefunden. Seit Juli 2026 gibt es immerhin einen verwandten Versuch mit zwei Fassungen derselben Website, einer für Menschen, einer für Agenten, 89,3 gegen 49,3 Prozent Erfolg. Variiert wurde dort die maschinelle Klarheit, nicht die Barrierefreiheit, und es ist ein selbstgebauter Prototyp. Ein Fingerzeig, kein Beweis.</p>
 
         <p><strong>Drei weitere Dinge belegt diese Seite nicht.</strong></p>
 
@@ -367,9 +367,11 @@
 
         <p><strong>Zweitens, dass Agenten fragen, ob sie dürfen.</strong> Google, OpenAI, Perplexity und Meta führen ihre nutzergetriebenen Abrufe in der eigenen Dokumentation ausdrücklich als Ausnahme von <code>robots.txt</code>. Anthropic ist der Gegenfall, mit einer Einschränkung: Die Zusage gilt dort pauschal für alle drei Bots, eine Ausnahme für nutzerinitiierte Abrufe fehlt, <code>Claude-User</code> wird aber nicht eigens genannt. Wer KI-Crawler in der <code>robots.txt</code> blockiert, blockiert Training und Index. Die Agenten laufen weiter.</p>
 
-        <p><strong>Drittens, dass die Regeln stehen.</strong> Der IETF-Entwurf für eine Sprache, in der Websites ihre Nutzungspräferenzen ausdrücken, trägt seit April 2026 den Hinweis, dass sein Inhalt keinen Konsens der Arbeitsgruppe abbildet. Eingefügt wurde er, nachdem der Abschluss-Aufruf zurückgezogen worden war. Der Entwurf für den technischen Transport ist Anfang Mai verfallen, weil ihn niemand neu eingereicht hat. Cloudflare benutzt derweil ein technisch unvereinbares Vokabular, das es selbst erfolglos bei der IETF eingereicht hat. Nach fünfzehn Monaten Arbeitsgruppe steht kein Standard.</p>
+        <p><strong>Drittens, dass die Regeln stehen.</strong> Bei der IETF wird seit über einem Jahr an einer Sprache gearbeitet, mit der eine Website sagen kann, wofür ihre Inhalte verwendet werden dürfen und wofür nicht. Der Entwurf, der die Begriffe festlegt, trägt seit April 2026 einen Warnhinweis: Die Arbeitsgruppe ist sich über den Inhalt nicht einig. Der zweite Entwurf, der regelt, wie eine Website diese Angaben überhaupt mitschickt, ist im Mai abgelaufen, weil ihn niemand erneuert hat. Cloudflare benutzt derweil ein technisch unvereinbares Vokabular, das es selbst erfolglos bei der IETF eingereicht hat. Nach fünfzehn Monaten Arbeitsgruppe steht kein Standard.</p>
 
         <p>Zur <code>llms.txt</code> in eigener Sache. Sie steht hier, weil es sie gibt. Über ihre Wirkung sagt das nichts. Eine Server-Log-Auswertung über 137.210 Domains zeigt, dass 97 Prozent dieser Dateien im Mai 2026 keinen einzigen Zugriff bekamen. Eine zweite Untersuchung über knapp 300.000 Domains findet keinen Zusammenhang mit KI-Zitaten, dort hatten allerdings nur 10,1 Prozent überhaupt eine Datei. Erfunden wurde das Format gegen ein Kontextproblem: Kontextfenster sind zu klein für ganze Websites. Entwicklerdokumentation ist das erste Beispiel in der Spezifikation, daneben stehen Unternehmensstruktur, Gesetzestexte, Lebensläufe. Suchmaschinen, Sichtbarkeit und Zitiertwerden kommen dort an keiner Stelle vor. Wo die Datei nachweislich wirkt, wirkt sie bescheiden: Im Benchmark des Anbieters Mintlify sanken die Fehlgriffe auf nicht existierende Adressen von 1,42 auf 0,11 je Aufgabe. Die Trefferquote blieb gleich. Gewonnen wurde Zeit, sonst nichts.</p>
+
+        <p>Diese Website ist dabei der leichteste denkbare Fall. Fünf Seiten, statisch, handgeschriebenes JSON-LD, kein Redaktionssystem, keine Altlast, ein einziges Skript. Bei einer gewachsenen Marken-Site mit Tag-Manager, Consent-Schicht und drei beteiligten Agenturen sähe die rechte Spalte anders aus. Darin liegt der eigentliche Punkt: Was hier von Hand zu machen ist, wird dort eine Frage von Zuständigkeit und Prozess.</p>
 
         <p><strong>Der ehrliche Rest.</strong> Saubere Struktur ist die Eintrittskarte. Mehr nicht. Meine eigene Messreihe zeigt das. Die Frage nach der Person beantworten alle drei getesteten Systeme mit dieser Website als Hauptquelle. Die Empfehlungsfrage, wen man für dieses Thema beauftragen sollte, beantwortet keines mit meinem Namen. Einzelmessungen schwanken stark, es zählt der Trend über Monate. Zwischen beiden Befunden liegt aber kein technisches Problem. Da liegt die Frage, was Dritte über einen schreiben.</p>
 
@@ -437,14 +439,14 @@
       label: 'Agent · A11y-Tree',
       title: 'Browser-Agent über den Accessibility-Tree',
       sub: 'Format von Playwright MCP',
-      note: 'Nachbildung der YAML-Ausgabe von Playwright MCP 0.0.78. Chrome DevTools MCP arbeitet ebenso. Stagehand mischt Baum und DOM, browser-use setzt primär auf den DOM. Es ist der Baum, auf den auch Screenreader angewiesen sind.'
+      note: 'Nachbildung der YAML-Ausgabe von Playwright MCP 0.0.78. Chrome DevTools MCP arbeitet ebenso. Stagehand mischt Baum und DOM, browser-use setzt primär auf den DOM. Es ist der Baum, auf den auch Screenreader angewiesen sind. Zum Vergleich: Auf 30,6 Prozent aller Startseiten weltweit stehen Buttons ohne Beschriftung.'
     },
     {
       id: 'dom',
       label: 'Agent · DOM',
       title: 'Browser-Agent über das DOM',
       sub: 'Format von Stagehand und Skyvern',
-      note: 'Getrimmtes HTML, nur bedienbare Elemente, mit eingespritzter ID. Vollständiger als der A11y-Tree und teurer: In einem Vergleich auf WorkArena kostete die HTML-Ansicht das 8,4-Fache an Tokens. Ob sich das lohnt, hängt vom Modell ab. Starke Modelle arbeiten damit deutlich besser, schwache deutlich schlechter.'
+      note: 'Getrimmtes HTML, nur bedienbare Elemente, mit injizierter ID. Vollständiger als der A11y-Tree und teurer: In einem Vergleich auf WorkArena kostete die HTML-Ansicht das 8,4-Fache an Tokens. Ob sich das lohnt, hängt vom Modell ab. Starke Modelle arbeiten damit deutlich besser, schwache deutlich schlechter.'
     },
     {
       id: 'llms',
@@ -601,7 +603,7 @@
     return t.length > 90 ? t.slice(0, 87) + '…' : t;
   }
 
-  /* Bedienbare Elemente ohne zugaenglichen Namen: fuer baumbasierte Agenten unsichtbar. */
+  /* Bedienbare Elemente ohne zugaenglichen Namen: unsichtbar fuer alles, was ueber den Baum liest. */
   function namelessControls(doc) {
     var out = [];
     Array.prototype.forEach.call(
@@ -769,6 +771,8 @@
         return r.text();
       })
       .then(function (txt) {
+        state.llmsChars = txt.length;
+        state.llmsSections = (txt.match(/^#+ /gm) || []).length;
         var rows = [{ group: '/llms.txt · ' + txt.length.toLocaleString('de-DE') + ' Zeichen' }];
         txt.split('\n').slice(0, 120).forEach(function (line) {
           if (!line.trim()) return;
@@ -887,14 +891,14 @@
     } else if (state.view.id === 'llms') {
       setTally(
         [n, 'Zeilen im Briefing'],
-        ['97 %', 'aller llms.txt bekommen null Anfragen'],
-        ['0,11', 'Fehlgriffe je Doku-Aufgabe statt 1,42']
+        [(state.llmsChars || 0).toLocaleString('de-DE'), 'Zeichen in der Datei'],
+        [state.llmsSections || 0, 'Abschnitte']
       );
     } else {
       setTally(
+        [n, 'Zeilen in dieser Ansicht'],
         [controls, 'bedienbare Elemente'],
-        [nameless, 'davon ohne zugänglichen Namen'],
-        ['30,6 %', 'aller Startseiten haben leere Buttons']
+        [nameless, 'davon ohne zugänglichen Namen']
       );
     }
   }
