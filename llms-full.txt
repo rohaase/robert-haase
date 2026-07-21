@@ -98,6 +98,19 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 
 ## Key Publications
 
+### Maschinensicht / Machine View (interactive demonstration)
+URL: https://robert-haase.de/maschinensicht.html (EN: https://robert-haase.de/en/machine-view.html)
+Published: July 2026
+
+A self-inspecting page. The left panel loads a real page of this site in a frame; the right panel renders the same page in the formats machines actually consume, and hovering either side highlights the counterpart in the other. Five views: raw HTML as a direct fetch delivers it, JSON-LD structured data, an accessibility tree in Playwright MCP notation, a DOM view in Stagehand notation, and llms.txt.
+
+Positions stated on the page, each with its source and its limits:
+- An element without an accessible name does not exist for a tree-based agent. Google names the accessibility tree as agents' primary data model; Lighthouse has audited this since late April 2026.
+- Structured data has no demonstrated effect on AI visibility. A matched difference-in-differences test over 1,885 pages found no benefit and a significant negative in AI Overviews.
+- Whether structure beats pixels is unsettled: benchmark findings point in both directions, and no study compares agent success on accessible versus inaccessible sites.
+- User-triggered agent traffic largely ignores robots.txt at Google, OpenAI, Perplexity and Meta; Anthropic is the documented counter case.
+- The rule layer is unfinished: the IETF preference vocabulary carries an explicit non-consensus note, its transport draft lapsed in May 2026, and Cloudflare's parallel vocabulary is technically incompatible.
+
 ### Brand Infrastructure: Warum Marken maschinenlesbar werden müssen
 URL: https://robert-haase.de/brand-infrastructure.html
 Published: March 2026 · Updated: July 2026

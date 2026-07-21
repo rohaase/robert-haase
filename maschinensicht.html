@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maschinensicht | Robert Haase</title>
+  <meta name="description" content="Diese Seite liest sich selbst aus: links die Seite für Menschen, rechts dieselbe Seite so, wie KI-Suche und Browser-Agenten sie verarbeiten. Live aus dem Quelltext, nicht nachgebaut.">
+  <meta name="author" content="Robert Haase">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="canonical" href="https://robert-haase.de/maschinensicht.html">
+  <link rel="alternate" hreflang="de" href="https://robert-haase.de/maschinensicht.html">
+  <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-view.html">
+  <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/maschinensicht.html">
+  <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Robert Haase | Artikel">
+  <link rel="stylesheet" href="stylesheet.css">
+  <!-- Theme: gespeicherte Praeferenz vor dem ersten Paint anwenden (kein Flash) -->
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script src="/theme.js" defer></script>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Maschinensicht">
+  <meta property="og:description" content="Links die Seite für Menschen, rechts dieselbe Seite so, wie KI-Suche und Browser-Agenten sie verarbeiten. Live aus dem Quelltext gelesen.">
+  <meta property="og:url" content="https://robert-haase.de/maschinensicht.html">
+  <meta property="og:image" content="https://robert-haase.de/og-ms-de.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Robert Haase">
+  <meta property="article:author" content="https://www.linkedin.com/in/rohaase/">
+  <meta property="article:published_time" content="2026-07-21">
+  <meta property="article:modified_time" content="2026-07-21">
+
+  <!-- Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Maschinensicht">
+  <meta name="twitter:description" content="Links die Seite für Menschen, rechts dieselbe Seite so, wie KI-Suche und Browser-Agenten sie verarbeiten.">
+  <meta name="twitter:image" content="https://robert-haase.de/og-ms-de.png">
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://robert-haase.de/" },
+      { "@type": "ListItem", "position": 2, "name": "Maschinensicht", "item": "https://robert-haase.de/maschinensicht.html" }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": "https://robert-haase.de/maschinensicht.html#article",
+    "headline": "Maschinensicht",
+    "description": "Eine Seite, die sich selbst ausliest: links die Darstellung für Menschen, rechts dieselbe Seite in den vier Formaten, in denen KI-Suche und Browser-Agenten sie tatsächlich verarbeiten.",
+    "author": { "@id": "https://robert-haase.de/#person" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Robert Haase",
+      "url": "https://robert-haase.de",
+      "logo": { "@type": "ImageObject", "url": "https://robert-haase.de/og-image.png" }
+    },
+    "datePublished": "2026-07-21",
+    "dateModified": "2026-07-21",
+    "mainEntityOfPage": "https://robert-haase.de/maschinensicht.html",
+    "inLanguage": "de",
+    "keywords": ["Maschinenlesbarkeit", "Machine Readable Brands", "Brand Infrastructure", "Accessibility Tree", "strukturierte Daten", "Browser-Agenten", "KI-Suche"],
+    "articleSection": "Brand Strategy",
+    "isBasedOn": "https://robert-haase.de/",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".hero h1", ".article-body h2"]
+    }
+  }
+  </script>
+  <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
+
+  <style>
+    /* ---- Maschinensicht: seiteneigene Stile ----------------------------------
+       Bewusst additiv zum globalen Stylesheet. Zwei Signalfarben, mehr nicht:
+       „beide" (Mensch und Maschine) und „nur eine Seite". Beide Werte sind
+       fuer Dark und Light getrennt gesetzt, damit der Kontrast in beiden
+       Themes ueber 4.5:1 bleibt. */
+    :root {
+      --sig-both: #6fb3a8;
+      --sig-both-bg: rgba(111, 179, 168, 0.16);
+      --sig-only: #c08a4a;
+      --sig-only-bg: rgba(192, 138, 74, 0.16);
+      --panel: rgba(255, 255, 255, 0.03);
+    }
+    @media (prefers-color-scheme: light) {
+      :root:not([data-theme="dark"]) {
+        --sig-both: #2f7d70;
+        --sig-both-bg: rgba(47, 125, 112, 0.13);
+        --sig-only: #9a5f16;
+        --sig-only-bg: rgba(154, 95, 22, 0.13);
+        --panel: rgba(0, 0, 0, 0.025);
+      }
+    }
+    :root[data-theme="light"] {
+      --sig-both: #2f7d70;
+      --sig-both-bg: rgba(47, 125, 112, 0.13);
+      --sig-only: #9a5f16;
+      --sig-only-bg: rgba(154, 95, 22, 0.13);
+      --panel: rgba(0, 0, 0, 0.025);
+    }
+
+    /* Der Apparat darf breiter sein als der Lesetext. Deshalb bekommt main
+       auf dieser Seite mehr Breite, und der Fliesstext holt sich sein Mass
+       selbst zurueck. */
+    main { max-width: 1240px; }
+    main > article { max-width: 900px; margin-inline: auto; }
+    .ms-wide { padding: 3rem 0; border-bottom: 1px solid var(--border); }
+    .ms-wide > p { max-width: 640px; }
+
+    /* ---- Steuerleiste ---- */
+    .ms-controls {
+      display: flex; flex-wrap: wrap; gap: 1.5rem 2.5rem;
+      align-items: flex-end; margin-bottom: 1.25rem;
+    }
+    .ms-control-label {
+      display: block; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--gray); margin-bottom: 0.5rem;
+    }
+    .ms-seg { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .ms-seg button {
+      font: inherit; font-size: 0.82rem; line-height: 1.2;
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      background: none; color: var(--gray);
+      border: 1px solid var(--border); border-radius: 2px;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+    .ms-seg button:hover { color: var(--white); border-color: var(--gray); }
+    .ms-seg button[aria-pressed="true"] {
+      color: var(--black); background: var(--white); border-color: var(--white);
+    }
+
+    /* ---- Der Apparat ---- */
+    .ms-split {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+      background: var(--border); border: 1px solid var(--border);
+    }
+    .ms-pane { background: var(--black); display: flex; flex-direction: column; min-width: 0; }
+    .ms-pane-head {
+      display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+      padding: 0.7rem 1rem; border-bottom: 1px solid var(--border); background: var(--panel);
+    }
+    .ms-pane-title {
+      font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--white); font-weight: 600;
+    }
+    .ms-pane-sub { font-size: 0.72rem; color: var(--gray); text-align: right; }
+    .ms-pane-body { height: 30rem; overflow: auto; position: relative; }
+
+    /* Linke Seite: die echte Seite in einem iframe */
+    #ms-frame { width: 100%; height: 100%; border: 0; display: block; background: var(--black); }
+
+    /* Rechte Seite: die Maschinen-Zeilen */
+    .ms-rows {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.76rem; line-height: 1.55;
+    }
+    .ms-row {
+      display: block; width: 100%; text-align: left; font: inherit;
+      background: none; border: 0; border-left: 2px solid transparent;
+      color: var(--accent); padding: 0.12rem 1rem 0.12rem calc(1rem - 2px);
+      cursor: default; white-space: pre-wrap; word-break: break-word;
+    }
+    .ms-row[data-linked="1"] { cursor: pointer; }
+    .ms-row .ms-key { color: var(--gray); }
+    .ms-row.is-both { border-left-color: var(--sig-both); }
+    .ms-row.is-only { border-left-color: var(--sig-only); }
+    .ms-row.is-active,
+    .ms-row:hover[data-linked="1"],
+    .ms-row:focus-visible { background: var(--sig-both-bg); color: var(--white); outline: none; }
+    .ms-row.is-only.is-active,
+    .ms-row.is-only:hover[data-linked="1"] { background: var(--sig-only-bg); }
+
+    .ms-group {
+      padding: 0.9rem 1rem 0.3rem; font-size: 0.7rem; text-transform: uppercase;
+      letter-spacing: 0.09em; color: var(--gray);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    .ms-note {
+      padding: 0.8rem 1rem; font-size: 0.78rem; color: var(--gray);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      border-top: 1px solid var(--border);
+    }
+    .ms-note code { font-size: 0.9em; color: var(--accent); }
+
+    /* ---- Zählwerk ---- */
+    .ms-tally {
+      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px; background: var(--border);
+      border: 1px solid var(--border); border-top: 0;
+    }
+    .ms-tally div { background: var(--black); padding: 0.85rem 1rem; }
+    .ms-tally .n {
+      display: block; font-size: 1.5rem; font-weight: 700;
+      letter-spacing: -0.02em; line-height: 1.1;
+    }
+    .ms-tally .n.both { color: var(--sig-both); }
+    .ms-tally .n.only { color: var(--sig-only); }
+    .ms-tally .l { display: block; font-size: 0.74rem; color: var(--gray); margin-top: 0.15rem; }
+
+    .ms-legend {
+      display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem;
+      font-size: 0.78rem; color: var(--gray); margin-top: 0.9rem;
+    }
+    .ms-legend span::before {
+      content: ""; display: inline-block; width: 0.7rem; height: 0.7rem;
+      margin-right: 0.45rem; vertical-align: baseline; border-radius: 1px;
+    }
+    .ms-legend .k-both::before { background: var(--sig-both); }
+    .ms-legend .k-only::before { background: var(--sig-only); }
+
+    .ms-status {
+      font-size: 0.78rem; color: var(--gray); padding: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    .ms-status strong { color: var(--white); }
+
+    /* Panel-Umschalter nur auf schmalen Viewports */
+    .ms-mobile-switch { display: none; }
+
+    @media (max-width: 900px) {
+      .ms-wide { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .ms-split { grid-template-columns: 1fr; }
+      .ms-mobile-switch { display: block; margin-bottom: 1rem; }
+      .ms-split[data-show="mensch"] .ms-pane--maschine { display: none; }
+      .ms-split[data-show="maschine"] .ms-pane--mensch { display: none; }
+      .ms-pane-body { height: 24rem; }
+      .ms-tally { grid-template-columns: 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ms-seg button, .ms-row { transition: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header role="banner">
+    <nav aria-label="Hauptnavigation">
+      <a href="/" class="name">Robert Haase</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="begriffe.html">Begriffe</a>
+      <a href="about.html">Über</a>
+      <a href="/en/machine-view.html" hreflang="en" lang="en">EN</a>
+      <button class="theme-toggle" type="button" aria-label="Farbschema wechseln" title="Farbschema wechseln">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <section class="hero">
+        <h1>Maschinensicht</h1>
+        <p class="subtitle">Diese Seite liest sich selbst aus · Juli 2026 · Robert Haase</p>
+      </section>
+
+      <section class="article-body">
+        <p><strong>Links sehen Sie eine Seite dieser Website, wie ein Mensch sie sieht. Rechts dieselbe Seite, wie Maschinen sie verarbeiten. Nichts davon ist nachgebaut. Der Apparat öffnet die Seite, liest ihren Quelltext und zeigt, was übrig bleibt.</strong></p>
+
+        <p>Fahren Sie über eine Zeile rechts, und die zugehörige Stelle links wird markiert. Und umgekehrt. Was auf der anderen Seite keine Entsprechung hat, bleibt ungekoppelt. Diese Lücke ist der eigentliche Gegenstand.</p>
+      </section>
+    </article>
+
+    <section class="ms-wide" aria-labelledby="ms-h">
+      <h2 id="ms-h" class="ms-control-label" style="margin-bottom:1.25rem">Der Apparat</h2>
+
+      <div class="ms-controls">
+        <div>
+          <span class="ms-control-label" id="ms-page-label">Welche Seite</span>
+          <div class="ms-seg" role="group" aria-labelledby="ms-page-label" id="ms-pages"></div>
+        </div>
+        <div>
+          <span class="ms-control-label" id="ms-view-label">Welche Maschine</span>
+          <div class="ms-seg" role="group" aria-labelledby="ms-view-label" id="ms-views"></div>
+        </div>
+      </div>
+
+      <div class="ms-mobile-switch">
+        <span class="ms-control-label" id="ms-side-label">Ansicht</span>
+        <div class="ms-seg" role="group" aria-labelledby="ms-side-label" id="ms-sides">
+          <button type="button" data-side="mensch" aria-pressed="true">Mensch</button>
+          <button type="button" data-side="maschine" aria-pressed="false">Maschine</button>
+        </div>
+      </div>
+
+      <div class="ms-split" id="ms-split" data-show="mensch">
+        <div class="ms-pane ms-pane--mensch">
+          <div class="ms-pane-head">
+            <span class="ms-pane-title">Mensch</span>
+            <span class="ms-pane-sub" id="ms-human-sub">gerenderte Seite</span>
+          </div>
+          <div class="ms-pane-body">
+            <!-- sandbox ohne allow-scripts: die eingebettete Seite fuehrt kein
+                 JavaScript aus, das Auslesen von aussen bleibt durch
+                 allow-same-origin moeglich. Haertung fuer den Fall, dass die
+                 Site spaeter einmal Fremdskripte einbindet. -->
+            <iframe id="ms-frame" title="Live-Vorschau der ausgewählten Seite"
+                    sandbox="allow-same-origin" src="about:blank"></iframe>
+          </div>
+        </div>
+
+        <div class="ms-pane ms-pane--maschine">
+          <div class="ms-pane-head">
+            <span class="ms-pane-title" id="ms-machine-title">Maschine</span>
+            <span class="ms-pane-sub" id="ms-machine-sub"></span>
+          </div>
+          <div class="ms-pane-body">
+            <div class="ms-rows" id="ms-rows" role="list" aria-live="polite">
+              <p class="ms-status">Wird geladen …</p>
+            </div>
+          </div>
+          <p class="ms-note" id="ms-note"></p>
+        </div>
+      </div>
+
+      <div class="ms-tally">
+        <div><span class="n both" id="ms-n-0">–</span><span class="l" id="ms-l-0">&nbsp;</span></div>
+        <div><span class="n only" id="ms-n-1">–</span><span class="l" id="ms-l-1">&nbsp;</span></div>
+        <div><span class="n" id="ms-n-2">–</span><span class="l" id="ms-l-2">&nbsp;</span></div>
+      </div>
+
+      <p class="ms-legend">
+        <span class="k-both">beide Seiten</span>
+        <span class="k-only">nur eine Seite</span>
+      </p>
+    </section>
+
+    <article>
+      <section class="article-body">
+
+        <h2>Was hier zu sehen ist</h2>
+
+        <p><strong>Fünf Ansichten, fünf Formate. Ob eine Seite maschinenlesbar ist, hängt davon ab, welche Maschine liest.</strong></p>
+
+        <p>→ <strong>KI-Suche, roh.</strong> Was ChatGPT und Claude beim direkten, nutzerausgelösten Abruf bekommen: unausgeführtes HTML. Drei unabhängige Tests seit November 2025 kommen zum selben Ergebnis. Im jüngsten stand eine Köder-Telefonnummer im Quelltext, die echte war nur über JavaScript erreichbar. Alle getesteten US-Assistenten meldeten die Köder-Nummer. DeepSeek, Qwen und Mistral lieferten die echte. Technisch geht es also, die US-Anbieter tun es nur nicht. Für Perplexity ist die Lage dünner, dort scheiterte einer der Tests, und alle drei sind Momentaufnahmen mit einem Durchlauf je System. Dokumentiert hat es von den Anbietern nur Anthropic. OpenAI und Perplexity äußern sich zum Rendering überhaupt nicht. Und eine Unterscheidung, die fast überall fehlt: Der Direkt-Abruf rendert nicht, der Weg über einen Suchindex sehr wohl.<br>
+        → <strong>Strukturierte Daten.</strong> Was diese Seite anbietet. Ob es ankommt, steht weiter unten.<br>
+        → <strong>Accessibility-Tree.</strong> Playwright MCP und Chrome DevTools MCP geben dem Modell genau diesen Baum, also Rollen und Namen statt Layout. Denselben Baum brauchen Screenreader. Andere mischen. Stagehand nennt seine Momentaufnahme im Quellcode hybrid aus DOM und Baum, browser-use serialisiert primär den DOM. Alle vier verzichten auf Pixel, beim Rest gehen sie auseinander.<br>
+        → <strong>DOM.</strong> Getrimmtes HTML mit eingespritzten Element-IDs. Vollständiger, und je nach Modell besser oder schlechter.<br>
+        → <strong>Agenten-Briefing.</strong> Eine Datei, die Systemen sagen soll, worum es hier geht.</p>
+
+        <h2>Was das belegt, und was nicht</h2>
+
+        <p><strong>Ein Element ohne zugänglichen Namen existiert für einen Agenten nicht.</strong></p>
+
+        <p>Google schreibt es in der eigenen Entwicklerdokumentation ungewöhnlich direkt: Agenten stützen sich auf den Accessibility-Tree als primäres Datenmodell. Lighthouse prüft das seit Ende April 2026 in einer eigenen Kategorie, seit dem 7. Mai in der Standardkonfiguration, weiterhin als experimentell gekennzeichnet und ohne Note von null bis hundert. Ein Symbol-Button ohne Beschriftung erzeugt weder Rolle noch Namen. Für jeden baumbasierten Agenten ist er unsichtbar. Nach der Februar-Erhebung über eine Million Startseiten haben 30,6 Prozent leere Buttons, auf 51 Prozent fehlen Formularfeld-Beschriftungen, und auf Feldebene sind 33,1 Prozent der Felder nicht korrekt beschriftet.</p>
+
+        <p><strong>Was ich nicht behaupte: dass Struktur die Pixel schlägt.</strong></p>
+
+        <p>Die Befunde gehen auseinander. Auf Mind2Web liegt die textuelle Element-Auswahl rund 18 Prozentpunkte vor den nummerierten Screenshot-Markierungen, nutzt den Screenshot aber weiter zur Planung. Auf WebVoyager gewinnt umgekehrt die multimodale Variante, um 19 Prozentpunkte. Festhalten lässt sich: Nummerierte Screenshot-Markierungen sind für Weboberflächen kein sicherer Gewinn, Skyvern rendert sie seit Juni 2026 standardmäßig nicht mehr, und das ernstzunehmende Werkzeug arbeitet über die Struktur.</p>
+
+        <p>Dass eine barrierefreie Seite messbar bessere Agenten-Ergebnisse liefert, ist dagegen unbelegt. Die Studie ist nicht auffindbar. Die Zahl, die dafür herumgereicht wird, misst etwas anderes: Dort wurde dem Agenten die Maus entzogen, die Website blieb gleich. Seit Juli 2026 gibt es immerhin einen verwandten Versuch mit zwei Fassungen derselben Website, einer für Menschen, einer für Agenten, 89,3 gegen 49,3 Prozent Erfolg. Variiert wurde dort die maschinelle Klarheit, nicht die Barrierefreiheit, und es ist ein selbstgebauter Prototyp. Ein Fingerzeig, kein Beweis.</p>
+
+        <p><strong>Drei weitere Dinge belegt diese Seite nicht.</strong></p>
+
+        <p><strong>Erstens, dass strukturierte Daten Sichtbarkeit erzeugen.</strong> Der sauberste Test vergleicht 1.885 Seiten, die zwischen August 2025 und März 2026 JSON-LD ergänzt haben, mit 4.000 gepaarten Kontrollseiten. In ChatGPT und im Google-AI-Modus war der Effekt mit plus 2,2 und plus 2,4 Prozent nicht von null zu unterscheiden, in den AI Overviews lag er bei minus 4,6 Prozent und war statistisch signifikant. Die Autoren schränken ein, dass Seiten beim Schema-Einbau meist gleichzeitig anderes ändern und sich das nicht trennen lässt. Schema schadet also nicht nachweislich. Der erwartete Nutzen bleibt trotzdem aus. Google schreibt inzwischen selbst, für generative Suche seien keine besonderen Auszeichnungen nötig, rät im selben Absatz aber dazu, sie für die klassische Suche weiter zu pflegen. Ich lasse das Markup liegen, weil es das Fundament sauber hält. Einen Effekt verspreche ich damit nicht.</p>
+
+        <p><strong>Zweitens, dass Agenten fragen, ob sie dürfen.</strong> Google, OpenAI, Perplexity und Meta führen ihre nutzergetriebenen Abrufe in der eigenen Dokumentation ausdrücklich als Ausnahme von <code>robots.txt</code>. Anthropic ist der Gegenfall, mit einer Einschränkung: Die Zusage gilt dort pauschal für alle drei Bots, eine Ausnahme für nutzerinitiierte Abrufe fehlt, <code>Claude-User</code> wird aber nicht eigens genannt. Wer KI-Crawler in der <code>robots.txt</code> blockiert, blockiert Training und Index. Die Agenten laufen weiter.</p>
+
+        <p><strong>Drittens, dass die Regeln stehen.</strong> Der IETF-Entwurf für eine Sprache, in der Websites ihre Nutzungspräferenzen ausdrücken, trägt seit April 2026 den Hinweis, dass sein Inhalt keinen Konsens der Arbeitsgruppe abbildet. Eingefügt wurde er, nachdem der Abschluss-Aufruf zurückgezogen worden war. Der Entwurf für den technischen Transport ist Anfang Mai verfallen, weil ihn niemand neu eingereicht hat. Cloudflare benutzt derweil ein technisch unvereinbares Vokabular, das es selbst erfolglos bei der IETF eingereicht hat. Nach fünfzehn Monaten Arbeitsgruppe steht kein Standard.</p>
+
+        <p>Zur <code>llms.txt</code> in eigener Sache. Sie steht hier, weil es sie gibt. Über ihre Wirkung sagt das nichts. Eine Server-Log-Auswertung über 137.210 Domains zeigt, dass 97 Prozent dieser Dateien im Mai 2026 keinen einzigen Zugriff bekamen. Eine zweite Untersuchung über knapp 300.000 Domains findet keinen Zusammenhang mit KI-Zitaten, dort hatten allerdings nur 10,1 Prozent überhaupt eine Datei. Erfunden wurde das Format gegen ein Kontextproblem: Kontextfenster sind zu klein für ganze Websites. Entwicklerdokumentation ist das erste Beispiel in der Spezifikation, daneben stehen Unternehmensstruktur, Gesetzestexte, Lebensläufe. Suchmaschinen, Sichtbarkeit und Zitiertwerden kommen dort an keiner Stelle vor. Wo die Datei nachweislich wirkt, wirkt sie bescheiden: Im Benchmark des Anbieters Mintlify sanken die Fehlgriffe auf nicht existierende Adressen von 1,42 auf 0,11 je Aufgabe. Die Trefferquote blieb gleich. Gewonnen wurde Zeit, sonst nichts.</p>
+
+        <p><strong>Der ehrliche Rest.</strong> Saubere Struktur ist die Eintrittskarte. Mehr nicht. Meine eigene Messreihe zeigt das. Die Frage nach der Person beantworten alle drei getesteten Systeme mit dieser Website als Hauptquelle. Die Empfehlungsfrage, wen man für dieses Thema beauftragen sollte, beantwortet keines mit meinem Namen. Einzelmessungen schwanken stark, es zählt der Trend über Monate. Zwischen beiden Befunden liegt aber kein technisches Problem. Da liegt die Frage, was Dritte über einen schreiben.</p>
+
+        <h2>Wie der Apparat arbeitet</h2>
+
+        <p><strong>Alles passiert im Browser, ohne Server, ohne Abhängigkeiten.</strong></p>
+
+        <p>Die linke Seite ist die echte Seite, in einem Rahmen geladen. Der Apparat liest ihr JSON-LD direkt aus dem Dokument und holt <code>llms.txt</code> über die normale Netzwerkschnittstelle. Beides können Sie nachsehen: Quelltext öffnen, dieselben Daten finden. Die Zuordnung zwischen Text und Maschinen-Aussage entsteht durch Textabgleich, deshalb ist sie an den Rändern unscharf. Baum- und DOM-Ansicht sind Nachbildungen der Formate von Playwright MCP und Stagehand. Rollen und Namen berechnet dieser Apparat selbst, die Element-Nummern sind fortlaufend vergeben. Echte Agenten verwenden die internen Knoten-IDs des Browsers.</p>
+
+        <p>Begriffe aus diesem Text: <a href="/begriffe.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Zur Übersicht →</a> · Einordnung: <a href="machine-readable-brands.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Machine Readable Brands</a></p>
+
+      </section>
+
+      <section class="connect">
+        <h2>Kontakt</h2>
+        <p>
+          <a href="https://www.linkedin.com/in/rohaase/">LinkedIn</a> ·
+          <a href="mailto:hallo@robert-haase.de">E-Mail</a> ·
+          <a href="/">Startseite</a>
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p><a href="impressum.html">Impressum &amp; Datenschutz</a></p>
+  </footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ------------------------------------------------------------------ *
+   * Maschinensicht
+   * Liest die im iframe geladene Seite aus und stellt sie in vier
+   * Maschinen-Formaten dar. Kein Framework, keine Abhaengigkeiten.
+   * Voraussetzung: gleiche Herkunft (http/https). Ueber file:// sperrt
+   * der Browser den Zugriff auf das iframe-Dokument, dafuer gibt es
+   * den Hinweis in showError().
+   * ------------------------------------------------------------------ */
+
+  var PAGES = [
+    { label: 'Startseite',   url: '/' },
+    { label: 'Machine Readable Brands', url: 'machine-readable-brands.html' },
+    { label: 'Über',         url: 'about.html' }
+  ];
+
+  var VIEWS = [
+    {
+      id: 'raw',
+      label: 'KI-Suche · roh',
+      title: 'KI-Suche und Crawler',
+      sub: 'Text aus dem Quelltext, ohne JavaScript',
+      note: 'Was GPTBot, ClaudeBot und PerplexityBot beim Direkt-Abruf bekommen: rohes HTML, kein ausgeführtes JavaScript. Auf dieser Website ist das deckungsgleich mit dem Sichtbaren, weil sie statisch ist. Bei einer modernen Web-App wäre diese Spalte oft fast leer.'
+    },
+    {
+      id: 'crawler',
+      label: 'Strukturierte Daten',
+      title: 'Strukturierte Daten',
+      sub: 'JSON-LD nach schema.org',
+      note: 'Was diese Seite anbietet, nicht was nachweislich ankommt. Ein Wert, der allein im JSON-LD stand, wurde beim Direkt-Abruf von keinem von fünf Systemen gefunden. Absichtlich ungültiges Markup nutzten ChatGPT und Perplexity trotzdem als Quelle, die Ungültigkeit fiel also nicht auf.'
+    },
+    {
+      id: 'axtree',
+      label: 'Agent · A11y-Tree',
+      title: 'Browser-Agent über den Accessibility-Tree',
+      sub: 'Format von Playwright MCP',
+      note: 'Nachbildung der YAML-Ausgabe von Playwright MCP 0.0.78. Chrome DevTools MCP arbeitet ebenso. Stagehand mischt Baum und DOM, browser-use setzt primär auf den DOM. Es ist der Baum, auf den auch Screenreader angewiesen sind.'
+    },
+    {
+      id: 'dom',
+      label: 'Agent · DOM',
+      title: 'Browser-Agent über das DOM',
+      sub: 'Format von Stagehand und Skyvern',
+      note: 'Getrimmtes HTML, nur bedienbare Elemente, mit eingespritzter ID. Vollständiger als der A11y-Tree und teurer: In einem Vergleich auf WorkArena kostete die HTML-Ansicht das 8,4-Fache an Tokens. Ob sich das lohnt, hängt vom Modell ab. Starke Modelle arbeiten damit deutlich besser, schwache deutlich schlechter.'
+    },
+    {
+      id: 'llms',
+      label: 'Agenten-Briefing',
+      title: 'Agenten-Briefing',
+      sub: '/llms.txt',
+      note: 'Enthalten, weil die Datei existiert, nicht weil sie wirkt: 97 Prozent aller llms.txt-Dateien bekamen im Mai 2026 überhaupt keinen Zugriff (Ahrefs, Server-Logs über 137.210 Domains).'
+    }
+  ];
+
+  var state = { page: PAGES[0], view: VIEWS[0], rows: [], doc: null };
+
+  var $frame   = document.getElementById('ms-frame');
+  var $rows    = document.getElementById('ms-rows');
+  var $note    = document.getElementById('ms-note');
+  var $mTitle  = document.getElementById('ms-machine-title');
+  var $mSub    = document.getElementById('ms-machine-sub');
+  var $hSub    = document.getElementById('ms-human-sub');
+  var $split   = document.getElementById('ms-split');
+
+  /* ---------- Steuerleiste ------------------------------------------ */
+
+  function buildSeg(host, items, getActive, onPick) {
+    host.innerHTML = '';
+    items.forEach(function (item) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = item.label;
+      b.setAttribute('aria-pressed', String(getActive(item)));
+      b.addEventListener('click', function () { onPick(item); });
+      host.appendChild(b);
+    });
+  }
+
+  function refreshSeg(host, items, getActive) {
+    Array.prototype.forEach.call(host.children, function (b, i) {
+      b.setAttribute('aria-pressed', String(getActive(items[i])));
+    });
+  }
+
+  buildSeg(document.getElementById('ms-pages'), PAGES,
+    function (p) { return p === state.page; },
+    function (p) {
+      state.page = p;
+      refreshSeg(document.getElementById('ms-pages'), PAGES, function (x) { return x === state.page; });
+      $hSub.textContent = p.url;
+      loadPage();
+    });
+
+  buildSeg(document.getElementById('ms-views'), VIEWS,
+    function (v) { return v === state.view; },
+    function (v) {
+      state.view = v;
+      refreshSeg(document.getElementById('ms-views'), VIEWS, function (x) { return x === state.view; });
+      render();
+    });
+
+  Array.prototype.forEach.call(document.querySelectorAll('#ms-sides button'), function (b) {
+    b.addEventListener('click', function () {
+      $split.setAttribute('data-show', b.dataset.side);
+      Array.prototype.forEach.call(document.querySelectorAll('#ms-sides button'), function (o) {
+        o.setAttribute('aria-pressed', String(o === b));
+      });
+    });
+  });
+
+  /* ---------- Seite laden ------------------------------------------- */
+
+  function loadPage() {
+    clearRows('Wird geladen …');
+    $frame.src = state.page.url;
+  }
+
+  $frame.addEventListener('load', function () {
+    var doc;
+    try {
+      doc = $frame.contentDocument;
+      if (!doc || !doc.body) throw new Error('kein Dokument');
+      /* Zugriff testen, damit ein Origin-Fehler hier auffaellt und nicht erst spaeter. */
+      void doc.body.childNodes.length;
+    } catch (e) {
+      showError();
+      return;
+    }
+    state.doc = doc;
+    syncTheme(doc);
+    injectFrameStyles(doc);
+    wireFrameHover(doc);
+    render();
+  });
+
+  function showError() {
+    state.doc = null;
+    $rows.innerHTML = '<p class="ms-status"><strong>Kein Zugriff auf das eingebettete Dokument.</strong><br><br>' +
+      'Der Apparat liest die Seite über die normale Schnittstelle des Browsers. Das setzt gleiche Herkunft voraus. ' +
+      'Über <code>file://</code> ist der Zugriff gesperrt. Auf robert-haase.de funktioniert es.</p>';
+    setTally(['–', ''], ['–', ''], ['–', '']);
+  }
+
+  function syncTheme(doc) {
+    var t = document.documentElement.getAttribute('data-theme');
+    if (t) doc.documentElement.setAttribute('data-theme', t);
+    else doc.documentElement.removeAttribute('data-theme');
+    mirrorSignalColors(doc);
+  }
+
+  /* Signalfarben in den Rahmen spiegeln. Muss bei jedem Themewechsel neu
+     laufen, sonst behaelt die Markierung im Rahmen die Farben des alten
+     Themes und wird im Hellmodus unlesbar. */
+  function mirrorSignalColors(doc) {
+    var cs = getComputedStyle(document.documentElement);
+    ['--sig-both', '--sig-both-bg', '--sig-only', '--sig-only-bg'].forEach(function (v) {
+      doc.documentElement.style.setProperty(v.replace('--sig', '--ms'), cs.getPropertyValue(v));
+    });
+  }
+
+  /* Themewechsel auf dieser Seite in den Rahmen durchreichen. */
+  var themeBtn = document.querySelector('.theme-toggle');
+  if (themeBtn) themeBtn.addEventListener('click', function () {
+    setTimeout(function () { if (state.doc) syncTheme(state.doc); }, 0);
+  });
+
+  function injectFrameStyles(doc) {
+    if (doc.getElementById('ms-injected')) return;
+    var css = doc.createElement('style');
+    css.id = 'ms-injected';
+    css.textContent =
+      '.ms-hit{background:var(--ms-both-bg,rgba(111,179,168,.16));' +
+        'box-shadow:0 0 0 1px var(--ms-both,#6fb3a8);border-radius:2px}' +
+      '.ms-hit-only{background:var(--ms-only-bg,rgba(192,138,74,.16));' +
+        'box-shadow:0 0 0 1px var(--ms-only,#c08a4a);border-radius:2px}' +
+      '.ms-gap{outline:1px dashed var(--ms-only,#c08a4a);outline-offset:2px}' +
+      '@media (prefers-reduced-motion:no-preference){.ms-hit,.ms-hit-only{transition:background .12s ease}}';
+    doc.head.appendChild(css);
+  }
+
+  /* ---------- Hilfsfunktionen --------------------------------------- */
+
+  function norm(s) { return String(s).toLowerCase().replace(/\s+/g, ' ').trim(); }
+
+  function textOf(el) { return norm(el.textContent || ''); }
+
+  /* Vereinfachte accname-Berechnung nach W3C-Reihenfolge:
+     aria-label, dann natives Label, dann Name aus dem Inhalt, dann title. */
+  function accName(el) {
+    var n = el.getAttribute && (el.getAttribute('aria-label') || el.getAttribute('alt'));
+    if (!n && el.tagName === 'INPUT' && el.id) {
+      var lab = el.ownerDocument.querySelector('label[for="' + el.id + '"]');
+      if (lab) n = lab.textContent;
+    }
+    if (!n) n = el.textContent || '';
+    if (!n.trim() && el.getAttribute) n = el.getAttribute('title') || '';
+    var t = String(n).replace(/\s+/g, ' ').trim();
+    return t.length > 90 ? t.slice(0, 87) + '…' : t;
+  }
+
+  /* Bedienbare Elemente ohne zugaenglichen Namen: fuer baumbasierte Agenten unsichtbar. */
+  function namelessControls(doc) {
+    var out = [];
+    Array.prototype.forEach.call(
+      doc.querySelectorAll('a[href], button, input, select, textarea'),
+      function (el) { if (!accName(el)) out.push(el); }
+    );
+    return out;
+  }
+
+  var ROLES = {
+    A: 'link', BUTTON: 'button', NAV: 'navigation', MAIN: 'main', HEADER: 'banner',
+    FOOTER: 'contentinfo', UL: 'list', OL: 'list', LI: 'listitem', P: 'paragraph',
+    BLOCKQUOTE: 'blockquote', IMG: 'img', SECTION: 'region', ARTICLE: 'article',
+    INPUT: 'textbox', TEXTAREA: 'textbox', SELECT: 'combobox', FORM: 'form'
+  };
+
+  function roleOf(el) {
+    var explicit = el.getAttribute && el.getAttribute('role');
+    if (explicit) return explicit;
+    if (/^H[1-6]$/.test(el.tagName)) return 'heading';
+    return ROLES[el.tagName] || null;
+  }
+
+  function isInteractive(el) {
+    if (el.tagName === 'A' && el.hasAttribute('href')) return true;
+    if (['BUTTON', 'INPUT', 'SELECT', 'TEXTAREA'].indexOf(el.tagName) > -1) return true;
+    return el.hasAttribute && el.hasAttribute('onclick');
+  }
+
+  /* Kleinstes Element, dessen Text den Wert enthaelt. */
+  function findByText(doc, value) {
+    var v = norm(value);
+    if (v.length < 4) return null;
+    var scope = doc.querySelector('main') || doc.body;
+    var all = scope.querySelectorAll('p, li, h1, h2, h3, h4, blockquote, strong, a, span, td');
+    var best = null;
+    for (var i = 0; i < all.length; i++) {
+      if (textOf(all[i]).indexOf(v) > -1) {
+        if (!best || (all[i].textContent || '').length < (best.textContent || '').length) best = all[i];
+      }
+    }
+    return best;
+  }
+
+  /* ---------- Ansichten --------------------------------------------- */
+
+  function jsonldGraphs(doc) {
+    var out = [];
+    Array.prototype.forEach.call(doc.querySelectorAll('script[type="application/ld+json"]'), function (s) {
+      try { out.push(JSON.parse(s.textContent)); } catch (e) { /* defekte Blöcke überspringen */ }
+    });
+    return out;
+  }
+
+  function flatten(node, path, out) {
+    if (Array.isArray(node)) {
+      node.forEach(function (v, i) { flatten(v, path + '[' + i + ']', out); });
+      return;
+    }
+    if (node && typeof node === 'object') {
+      Object.keys(node).forEach(function (k) {
+        if (k === '@context') return;
+        flatten(node[k], path ? path + '.' + k : k, out);
+      });
+      return;
+    }
+    if (typeof node === 'string' || typeof node === 'number' || typeof node === 'boolean') {
+      out.push({ path: path, value: String(node) });
+    }
+  }
+
+  function viewRaw(doc) {
+    var rows = [{ group: 'Textinhalt aus dem Quelltext' }];
+    var scope = doc.querySelector('main') || doc.body;
+    var blocks = scope.querySelectorAll('h1, h2, h3, p, li, blockquote');
+    Array.prototype.forEach.call(blocks, function (b) {
+      var t = (b.textContent || '').replace(/\s+/g, ' ').trim();
+      if (!t) return;
+      var tag = b.tagName.toLowerCase();
+      rows.push({ raw: tag + '  ' + t, el: b, kind: 'both' });
+    });
+    if (rows.length === 1) rows.push({ group: 'Kein Textinhalt gefunden' });
+    return rows;
+  }
+
+  function viewCrawler(doc) {
+    var rows = [];
+    var graphs = jsonldGraphs(doc);
+    if (!graphs.length) {
+      rows.push({ group: 'Keine strukturierten Daten gefunden' });
+      return rows;
+    }
+    graphs.forEach(function (g) {
+      var leaves = [];
+      flatten(g, '', leaves);
+      var type = (g['@type'] || 'Objekt');
+      rows.push({ group: 'schema.org · ' + type });
+      leaves.forEach(function (l) {
+        var el = null;
+        if (!/^(https?:|mailto:)/.test(l.value) && l.path.indexOf('@type') === -1) {
+          el = findByText(doc, l.value);
+        }
+        rows.push({
+          key: l.path,
+          value: l.value,
+          el: el,
+          kind: el ? 'both' : 'only'
+        });
+      });
+    });
+    return rows;
+  }
+
+  function viewAxTree(doc) {
+    var rows = [{ group: 'Barrierefreiheits-Baum' }];
+    var ref = 0;
+    var scope = doc.body;
+    (function walk(el, depth) {
+      Array.prototype.forEach.call(el.children, function (child) {
+        if (['SCRIPT', 'STYLE', 'LINK', 'META'].indexOf(child.tagName) > -1) return;
+        var role = roleOf(child);
+        var name = accName(child);
+        var nextDepth = depth;
+        if (role) {
+          var line = '  '.repeat(depth) + '- ' + role;
+          if (/^H[1-6]$/.test(child.tagName)) line += ' [level=' + child.tagName[1] + ']';
+          if (name && child.children.length === 0) line += ': ' + name;
+          else if (name && (role === 'link' || role === 'button' || role === 'heading')) line += ' "' + name + '"';
+          line += ' [ref=e' + (++ref) + ']';
+          rows.push({ raw: line, el: child, kind: 'both' });
+          nextDepth = depth + 1;
+        }
+        if (child.children.length) walk(child, nextDepth);
+      });
+    })(scope, 0);
+    return rows;
+  }
+
+  function viewDom(doc) {
+    var rows = [{ group: 'Bedienbare Elemente' }];
+    var n = 0;
+    Array.prototype.forEach.call(doc.querySelectorAll('a, button, input, select, textarea'), function (el) {
+      var attrs = [];
+      ['href', 'type', 'name', 'aria-label', 'placeholder'].forEach(function (a) {
+        if (el.hasAttribute(a)) {
+          var v = el.getAttribute(a);
+          if (v.length > 40) v = v.slice(0, 37) + '…';
+          attrs.push(a + '="' + v + '"');
+        }
+      });
+      var label = accName(el);
+      var line = '[0-' + (++n) + ']<' + el.tagName.toLowerCase() +
+                 (attrs.length ? ' ' + attrs.join(' ') : '') + ' />' +
+                 (label ? '  ' + label : '');
+      rows.push({ raw: line, el: el, kind: 'both' });
+    });
+    if (n === 0) rows.push({ group: 'Keine bedienbaren Elemente' });
+    return rows;
+  }
+
+  function viewLlms(doc, done) {
+    fetch('/llms.txt', { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.text();
+      })
+      .then(function (txt) {
+        var rows = [{ group: '/llms.txt · ' + txt.length.toLocaleString('de-DE') + ' Zeichen' }];
+        txt.split('\n').slice(0, 120).forEach(function (line) {
+          if (!line.trim()) return;
+          rows.push({ raw: line, el: findByText(doc, line.replace(/^[#>\-*\s]+/, '')), kind: 'only' });
+        });
+        done(rows);
+      })
+      .catch(function () {
+        done([{ group: 'llms.txt nicht erreichbar' }]);
+      });
+  }
+
+  /* ---------- Rendern ----------------------------------------------- */
+
+  function clearRows(msg) {
+    $rows.innerHTML = '<p class="ms-status">' + msg + '</p>';
+  }
+
+  function setTally(a, b, c) {
+    [a, b, c].forEach(function (pair, i) {
+      document.getElementById('ms-n-' + i).textContent = pair[0];
+      document.getElementById('ms-l-' + i).textContent = pair[1];
+    });
+  }
+
+  function render() {
+    var v = state.view;
+    $mTitle.textContent = v.title;
+    $mSub.textContent = v.sub;
+    $note.textContent = v.note;
+
+    if (!state.doc) { showError(); return; }
+    clearInFrame();
+
+    if (v.id === 'llms') {
+      clearRows('llms.txt wird geladen …');
+      viewLlms(state.doc, paint);
+      return;
+    }
+    var rows = v.id === 'raw'     ? viewRaw(state.doc)
+             : v.id === 'crawler' ? viewCrawler(state.doc)
+             : v.id === 'axtree'  ? viewAxTree(state.doc)
+             : viewDom(state.doc);
+    paint(rows);
+  }
+
+  function paint(rows) {
+    state.rows = rows;
+    $rows.innerHTML = '';
+    var frag = document.createDocumentFragment();
+
+    rows.forEach(function (r, i) {
+      if (r.group) {
+        var g = document.createElement('p');
+        g.className = 'ms-group';
+        g.textContent = r.group;
+        frag.appendChild(g);
+        return;
+      }
+      var el = document.createElement(r.el ? 'button' : 'div');
+      el.className = 'ms-row ' + (r.kind === 'both' ? 'is-both' : 'is-only');
+      el.setAttribute('role', 'listitem');
+      if (r.el) {
+        el.type = 'button';
+        el.dataset.linked = '1';
+      }
+      if (r.raw) {
+        el.textContent = r.raw;
+      } else {
+        var k = document.createElement('span');
+        k.className = 'ms-key';
+        k.textContent = r.key + ': ';
+        el.appendChild(k);
+        el.appendChild(document.createTextNode(r.value));
+      }
+      r.node = el;
+      if (r.el) {
+        el.addEventListener('mouseenter', function () { highlight(r, true); });
+        el.addEventListener('mouseleave', function () { highlight(r, false); });
+        el.addEventListener('focus', function () { highlight(r, true); });
+        el.addEventListener('blur', function () { highlight(r, false); });
+        el.addEventListener('click', function () { scrollFrameTo(r.el); });
+      }
+      frag.appendChild(el);
+    });
+
+    $rows.appendChild(frag);
+    tally(rows);
+    markGaps(rows);
+  }
+
+  /* Das Zaehlwerk ist je Ansicht anders, weil in drei von vier Ansichten
+     per Konstruktion jede Zeile ein Element hat. Dort traegt eine andere
+     Kennzahl: bedienbare Elemente ohne zugaenglichen Namen. */
+  function tally(rows) {
+    var n = 0;
+    rows.forEach(function (r) { if (!r.group) n++; });
+    var gaps = countHumanOnly(rows);
+    var nameless = namelessControls(state.doc).length;
+    var controls = state.doc.querySelectorAll('a[href], button, input, select, textarea').length;
+
+    if (state.view.id === 'crawler') {
+      var both = 0;
+      rows.forEach(function (r) { if (!r.group && r.kind === 'both') both++; });
+      setTally(
+        [both, 'Aussagen, die auch im sichtbaren Text stehen'],
+        [n - both, 'Aussagen, die nur die Maschine sieht'],
+        [gaps, 'Textblöcke ohne maschinelle Entsprechung']
+      );
+    } else if (state.view.id === 'raw') {
+      setTally(
+        [n, 'Textblöcke im Quelltext'],
+        [0, 'Blöcke, die erst JavaScript erzeugt'],
+        [gaps, 'sichtbare Blöcke, die im Quelltext fehlen']
+      );
+    } else if (state.view.id === 'llms') {
+      setTally(
+        [n, 'Zeilen im Briefing'],
+        ['97 %', 'aller llms.txt bekommen null Anfragen'],
+        ['0,11', 'Fehlgriffe je Doku-Aufgabe statt 1,42']
+      );
+    } else {
+      setTally(
+        [controls, 'bedienbare Elemente'],
+        [nameless, 'davon ohne zugänglichen Namen'],
+        ['30,6 %', 'aller Startseiten haben leere Buttons']
+      );
+    }
+  }
+
+  /* Textbloecke, zu denen keine einzige Maschinen-Zeile zeigt. */
+  function countHumanOnly(rows) {
+    if (!state.doc) return '–';
+    var scope = state.doc.querySelector('main') || state.doc.body;
+    var blocks = scope.querySelectorAll('p, li, blockquote, h1, h2, h3');
+    var linked = [];
+    rows.forEach(function (r) { if (r.el) linked.push(r.el); });
+    var n = 0;
+    state.gapBlocks = [];
+    Array.prototype.forEach.call(blocks, function (b) {
+      if (!textOf(b)) return;
+      var hit = linked.some(function (e) { return b === e || b.contains(e) || e.contains(b); });
+      if (!hit) { n++; state.gapBlocks.push(b); }
+    });
+    return n;
+  }
+
+  function markGaps(rows) {
+    if (!state.gapBlocks) return;
+    state.gapBlocks.forEach(function (b) { b.classList.add('ms-gap'); });
+  }
+
+  function clearInFrame() {
+    if (!state.doc) return;
+    Array.prototype.forEach.call(
+      state.doc.querySelectorAll('.ms-hit, .ms-hit-only, .ms-gap'),
+      function (e) { e.classList.remove('ms-hit', 'ms-hit-only', 'ms-gap'); }
+    );
+  }
+
+  function highlight(r, on) {
+    if (!r.el) return;
+    var cls = r.kind === 'both' ? 'ms-hit' : 'ms-hit-only';
+    r.el.classList.toggle(cls, on);
+    if (r.node) r.node.classList.toggle('is-active', on);
+  }
+
+  function scrollFrameTo(el) {
+    try {
+      el.scrollIntoView({
+        block: 'center',
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+      });
+    } catch (e) { /* aeltere Engines */ }
+  }
+
+  /* Kopplung in der Gegenrichtung: Element im Rahmen -> Zeilen rechts. */
+  function wireFrameHover(doc) {
+    doc.addEventListener('mouseover', function (ev) {
+      var hits = state.rows.filter(function (r) {
+        return r.el && (r.el === ev.target || r.el.contains(ev.target));
+      });
+      if (!hits.length) return;
+      hits.forEach(function (r) {
+        if (r.node) {
+          r.node.classList.add('is-active');
+          r.node.scrollIntoView({ block: 'nearest' });
+        }
+      });
+    });
+    doc.addEventListener('mouseout', function () {
+      state.rows.forEach(function (r) { if (r.node) r.node.classList.remove('is-active'); });
+    });
+  }
+
+  /* ---------- Start -------------------------------------------------- */
+  $hSub.textContent = state.page.url;
+  loadPage();
+})();
+</script>
+
+</body>
+</html>

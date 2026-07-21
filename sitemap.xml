@@ -182,4 +182,20 @@
     <lastmod>2026-07-19</lastmod>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://robert-haase.de/maschinensicht.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/maschinensicht.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-view.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/maschinensicht.html"/>
+    <lastmod>2026-07-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/machine-view.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/maschinensicht.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-view.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/maschinensicht.html"/>
+    <lastmod>2026-07-21</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>

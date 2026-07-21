@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine View | Robert Haase</title>
+  <meta name="description" content="This page reads itself: on the left the page for humans, on the right the same page as AI search and browser agents process it. Read live from the source, not mocked up.">
+  <meta name="author" content="Robert Haase">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="canonical" href="https://robert-haase.de/en/machine-view.html">
+  <link rel="alternate" hreflang="de" href="https://robert-haase.de/maschinensicht.html">
+  <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-view.html">
+  <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/maschinensicht.html">
+  <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Robert Haase | Artikel">
+  <link rel="stylesheet" href="/stylesheet.css">
+  <!-- Theme: apply the stored preference before first paint (no flash) -->
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script src="/theme.js" defer></script>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Machine View">
+  <meta property="og:description" content="On the left the page for humans, on the right the same page as AI search and browser agents process it. Read live from the source.">
+  <meta property="og:url" content="https://robert-haase.de/en/machine-view.html">
+  <meta property="og:image" content="https://robert-haase.de/og-ms-en.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Robert Haase">
+  <meta property="article:author" content="https://www.linkedin.com/in/rohaase/">
+  <meta property="article:published_time" content="2026-07-21">
+  <meta property="article:modified_time" content="2026-07-21">
+
+  <!-- Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Machine View">
+  <meta name="twitter:description" content="On the left the page for humans, on the right the same page as AI search and browser agents process it.">
+  <meta name="twitter:image" content="https://robert-haase.de/og-ms-en.png">
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://robert-haase.de/en/" },
+      { "@type": "ListItem", "position": 2, "name": "Machine View", "item": "https://robert-haase.de/en/machine-view.html" }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": "https://robert-haase.de/en/machine-view.html#article",
+    "headline": "Machine View",
+    "description": "A page that reads itself: on the left the rendering for humans, on the right the same page in the formats AI search and browser agents actually process.",
+    "author": { "@id": "https://robert-haase.de/#person" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Robert Haase",
+      "url": "https://robert-haase.de",
+      "logo": { "@type": "ImageObject", "url": "https://robert-haase.de/og-image.png" }
+    },
+    "datePublished": "2026-07-21",
+    "dateModified": "2026-07-21",
+    "mainEntityOfPage": "https://robert-haase.de/en/machine-view.html",
+    "inLanguage": "en",
+    "keywords": ["machine readability", "Machine Readable Brands", "Brand Infrastructure", "accessibility tree", "structured data", "browser agents", "AI search"],
+    "articleSection": "Brand Strategy",
+    "isBasedOn": "https://robert-haase.de/en/",
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".hero h1", ".article-body h2"]
+    }
+  }
+  </script>
+  <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
+
+  <style>
+    /* ---- Machine View: page-specific styles ---------------------------------
+       Deliberately additive to the global stylesheet. Two signal colours, no
+       more: "both" (human and machine) and "one side only". Each value is set
+       separately for dark and light so contrast stays above 4.5:1 in both. */
+    :root {
+      --sig-both: #6fb3a8;
+      --sig-both-bg: rgba(111, 179, 168, 0.16);
+      --sig-only: #c08a4a;
+      --sig-only-bg: rgba(192, 138, 74, 0.16);
+      --panel: rgba(255, 255, 255, 0.03);
+    }
+    @media (prefers-color-scheme: light) {
+      :root:not([data-theme="dark"]) {
+        --sig-both: #2f7d70;
+        --sig-both-bg: rgba(47, 125, 112, 0.13);
+        --sig-only: #9a5f16;
+        --sig-only-bg: rgba(154, 95, 22, 0.13);
+        --panel: rgba(0, 0, 0, 0.025);
+      }
+    }
+    :root[data-theme="light"] {
+      --sig-both: #2f7d70;
+      --sig-both-bg: rgba(47, 125, 112, 0.13);
+      --sig-only: #9a5f16;
+      --sig-only-bg: rgba(154, 95, 22, 0.13);
+      --panel: rgba(0, 0, 0, 0.025);
+    }
+
+    /* The apparatus may be wider than the reading column, so main gets more
+       width on this page and the body copy takes its own measure back. */
+    main { max-width: 1240px; }
+    main > article { max-width: 900px; margin-inline: auto; }
+    .ms-wide { padding: 3rem 0; border-bottom: 1px solid var(--border); }
+    .ms-wide > p { max-width: 640px; }
+
+    /* ---- Controls ---- */
+    .ms-controls {
+      display: flex; flex-wrap: wrap; gap: 1.5rem 2.5rem;
+      align-items: flex-end; margin-bottom: 1.25rem;
+    }
+    .ms-control-label {
+      display: block; font-size: 0.72rem; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--gray); margin-bottom: 0.5rem;
+    }
+    .ms-seg { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .ms-seg button {
+      font: inherit; font-size: 0.82rem; line-height: 1.2;
+      padding: 0.45rem 0.75rem; cursor: pointer;
+      background: none; color: var(--gray);
+      border: 1px solid var(--border); border-radius: 2px;
+      transition: color 0.15s ease, border-color 0.15s ease;
+    }
+    .ms-seg button:hover { color: var(--white); border-color: var(--gray); }
+    .ms-seg button[aria-pressed="true"] {
+      color: var(--black); background: var(--white); border-color: var(--white);
+    }
+
+    /* ---- The apparatus ---- */
+    .ms-split {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+      background: var(--border); border: 1px solid var(--border);
+    }
+    .ms-pane { background: var(--black); display: flex; flex-direction: column; min-width: 0; }
+    .ms-pane-head {
+      display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+      padding: 0.7rem 1rem; border-bottom: 1px solid var(--border); background: var(--panel);
+    }
+    .ms-pane-title {
+      font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--white); font-weight: 600;
+    }
+    .ms-pane-sub { font-size: 0.72rem; color: var(--gray); text-align: right; }
+    .ms-pane-body { height: 30rem; overflow: auto; position: relative; }
+
+    /* Left side: the real page in an iframe */
+    #ms-frame { width: 100%; height: 100%; border: 0; display: block; background: var(--black); }
+
+    /* Right side: the machine lines */
+    .ms-rows {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.76rem; line-height: 1.55;
+    }
+    .ms-row {
+      display: block; width: 100%; text-align: left; font: inherit;
+      background: none; border: 0; border-left: 2px solid transparent;
+      color: var(--accent); padding: 0.12rem 1rem 0.12rem calc(1rem - 2px);
+      cursor: default; white-space: pre-wrap; word-break: break-word;
+    }
+    .ms-row[data-linked="1"] { cursor: pointer; }
+    .ms-row .ms-key { color: var(--gray); }
+    .ms-row.is-both { border-left-color: var(--sig-both); }
+    .ms-row.is-only { border-left-color: var(--sig-only); }
+    .ms-row.is-active,
+    .ms-row:hover[data-linked="1"],
+    .ms-row:focus-visible { background: var(--sig-both-bg); color: var(--white); outline: none; }
+    .ms-row.is-only.is-active,
+    .ms-row.is-only:hover[data-linked="1"] { background: var(--sig-only-bg); }
+
+    .ms-group {
+      padding: 0.9rem 1rem 0.3rem; font-size: 0.7rem; text-transform: uppercase;
+      letter-spacing: 0.09em; color: var(--gray);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    .ms-note {
+      padding: 0.8rem 1rem; font-size: 0.78rem; color: var(--gray);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      border-top: 1px solid var(--border);
+    }
+    .ms-note code { font-size: 0.9em; color: var(--accent); }
+
+    /* ---- Tally ---- */
+    .ms-tally {
+      display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1px; background: var(--border);
+      border: 1px solid var(--border); border-top: 0;
+    }
+    .ms-tally div { background: var(--black); padding: 0.85rem 1rem; }
+    .ms-tally .n {
+      display: block; font-size: 1.5rem; font-weight: 700;
+      letter-spacing: -0.02em; line-height: 1.1;
+    }
+    .ms-tally .n.both { color: var(--sig-both); }
+    .ms-tally .n.only { color: var(--sig-only); }
+    .ms-tally .l { display: block; font-size: 0.74rem; color: var(--gray); margin-top: 0.15rem; }
+
+    .ms-legend {
+      display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem;
+      font-size: 0.78rem; color: var(--gray); margin-top: 0.9rem;
+    }
+    .ms-legend span::before {
+      content: ""; display: inline-block; width: 0.7rem; height: 0.7rem;
+      margin-right: 0.45rem; vertical-align: baseline; border-radius: 1px;
+    }
+    .ms-legend .k-both::before { background: var(--sig-both); }
+    .ms-legend .k-only::before { background: var(--sig-only); }
+
+    .ms-status {
+      font-size: 0.78rem; color: var(--gray); padding: 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+    .ms-status strong { color: var(--white); }
+
+    /* Panel switcher on narrow viewports only */
+    .ms-mobile-switch { display: none; }
+
+    @media (max-width: 900px) {
+      .ms-wide { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .ms-split { grid-template-columns: 1fr; }
+      .ms-mobile-switch { display: block; margin-bottom: 1rem; }
+      .ms-split[data-show="mensch"] .ms-pane--maschine { display: none; }
+      .ms-split[data-show="maschine"] .ms-pane--mensch { display: none; }
+      .ms-pane-body { height: 24rem; }
+      .ms-tally { grid-template-columns: 1fr; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ms-seg button, .ms-row { transition: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <a href="/en/" class="name">Robert Haase</a>
+      <a href="articles.html">Articles</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <a href="/maschinensicht.html" hreflang="de" lang="de">DE</a>
+      <button class="theme-toggle" type="button" aria-label="Switch colour scheme" title="Switch colour scheme">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <section class="hero">
+        <h1>Machine View</h1>
+        <p class="subtitle">This page reads itself · July 2026 · Robert Haase</p>
+      </section>
+
+      <section class="article-body">
+        <p><strong>On the left, a page from this website as a human sees it. On the right, the same page as machines process it. None of it is mocked up. The apparatus opens the page, reads its source and shows what survives.</strong></p>
+
+        <p>Hover a line on the right and the matching spot on the left is highlighted. And the other way round. Whatever has no counterpart on the other side stays uncoupled. That gap is the actual subject.</p>
+
+      </section>
+    </article>
+
+    <section class="ms-wide" aria-labelledby="ms-h">
+      <h2 id="ms-h" class="ms-control-label" style="margin-bottom:1.25rem">The apparatus</h2>
+
+      <div class="ms-controls">
+        <div>
+          <span class="ms-control-label" id="ms-page-label">Which page</span>
+          <div class="ms-seg" role="group" aria-labelledby="ms-page-label" id="ms-pages"></div>
+        </div>
+        <div>
+          <span class="ms-control-label" id="ms-view-label">Which machine</span>
+          <div class="ms-seg" role="group" aria-labelledby="ms-view-label" id="ms-views"></div>
+        </div>
+      </div>
+
+      <div class="ms-mobile-switch">
+        <span class="ms-control-label" id="ms-side-label">View</span>
+        <div class="ms-seg" role="group" aria-labelledby="ms-side-label" id="ms-sides">
+          <button type="button" data-side="mensch" aria-pressed="true">Human</button>
+          <button type="button" data-side="maschine" aria-pressed="false">Machine</button>
+        </div>
+      </div>
+
+      <div class="ms-split" id="ms-split" data-show="mensch">
+        <div class="ms-pane ms-pane--mensch">
+          <div class="ms-pane-head">
+            <span class="ms-pane-title">Human</span>
+            <span class="ms-pane-sub" id="ms-human-sub">rendered page</span>
+          </div>
+          <div class="ms-pane-body">
+            <!-- sandbox without allow-scripts: the embedded page runs no
+                 JavaScript, while allow-same-origin keeps it readable from
+                 outside. Hardening in case the site ever loads third-party
+                 scripts. -->
+            <iframe id="ms-frame" title="Live preview of the selected page"
+                    sandbox="allow-same-origin" src="about:blank"></iframe>
+          </div>
+        </div>
+
+        <div class="ms-pane ms-pane--maschine">
+          <div class="ms-pane-head">
+            <span class="ms-pane-title" id="ms-machine-title">Machine</span>
+            <span class="ms-pane-sub" id="ms-machine-sub"></span>
+          </div>
+          <div class="ms-pane-body">
+            <div class="ms-rows" id="ms-rows" role="list" aria-live="polite">
+              <p class="ms-status">Loading …</p>
+            </div>
+          </div>
+          <p class="ms-note" id="ms-note"></p>
+        </div>
+      </div>
+
+      <div class="ms-tally">
+        <div><span class="n both" id="ms-n-0">–</span><span class="l" id="ms-l-0">&nbsp;</span></div>
+        <div><span class="n only" id="ms-n-1">–</span><span class="l" id="ms-l-1">&nbsp;</span></div>
+        <div><span class="n" id="ms-n-2">–</span><span class="l" id="ms-l-2">&nbsp;</span></div>
+      </div>
+
+      <p class="ms-legend">
+        <span class="k-both">both sides</span>
+        <span class="k-only">one side only</span>
+      </p>
+    </section>
+
+    <article>
+      <section class="article-body">
+
+        <h2>What you are looking at</h2>
+
+        <p><strong>Five views, five formats. Whether a page is machine readable depends on which machine is reading.</strong></p>
+
+        <p>→ <strong>AI search, raw.</strong> What ChatGPT and Claude get on a direct, user-triggered fetch: unexecuted HTML. Three independent tests since November 2025 reach the same result. In the most recent one a decoy phone number sat in the source while the real one was reachable only through JavaScript. Every US assistant tested reported the decoy. DeepSeek, Qwen and Mistral returned the real one. So it is technically possible, the US providers simply do not do it. For Perplexity the evidence is thinner, one of the tests failed there, and all three are snapshots with a single run per system. Among the providers only Anthropic documents this. OpenAI and Perplexity say nothing about rendering at all. And one distinction that is missing almost everywhere: the direct fetch does not render, the path through a search index does.<br>
+        → <strong>Structured data.</strong> What this page offers. Whether it arrives is further down.<br>
+        → <strong>Accessibility tree.</strong> Playwright MCP and Chrome DevTools MCP hand the model exactly this tree, roles and names instead of layout. Screen readers need the same tree. Others mix. Stagehand calls its snapshot a hybrid of DOM and tree in its own source, browser-use serialises the DOM first. All four skip the pixels, beyond that they part ways.<br>
+        → <strong>DOM.</strong> Trimmed HTML with injected element IDs. More complete, and depending on the model better or worse.<br>
+        → <strong>Agent briefing.</strong> A file meant to tell systems what this place is about.</p>
+
+        <h2>What this proves, and what it does not</h2>
+
+        <p><strong>An element without an accessible name does not exist for an agent.</strong></p>
+
+        <p>Google puts it unusually plainly in its own developer documentation: agents rely on the accessibility tree as their primary data model. Lighthouse has checked this in a category of its own since late April 2026, in the default configuration since 7 May, still marked experimental and without a score from zero to a hundred. An icon button with no label produces neither role nor name. To any tree-based agent it is invisible. In the February survey of one million home pages, 30.6 percent have empty buttons, 51 percent are missing form field labels, and at field level 33.1 percent of fields are not labelled correctly.</p>
+
+        <p><strong>What I am not claiming: that structure beats pixels.</strong></p>
+
+        <p>The findings diverge. On Mind2Web, textual element selection leads numbered screenshot markers by around 18 percentage points, while still using the screenshot for planning. On WebVoyager the multimodal variant wins by 19 points. What holds: numbered screenshot markers are no safe bet for web interfaces, Skyvern stopped rendering them by default in June 2026, and the serious tooling works through structure.</p>
+
+        <p>That an accessible page produces measurably better agent results is unproven. The study is not findable. The number people pass around measures something else: there the agent had its mouse taken away, the website stayed the same. Since July 2026 there is at least a related experiment running two versions of the same site against each other, one built for humans, one for agents, 89.3 against 49.3 percent success. What varied there was machine clarity, not accessibility, and it is a self-built prototype. A pointer, not proof.</p>
+
+        <p><strong>Three more things this page does not prove.</strong></p>
+
+        <p><strong>First, that structured data creates visibility.</strong> The cleanest test compares 1,885 pages that added JSON-LD between August 2025 and March 2026 with 4,000 matched control pages. In ChatGPT and Google AI Mode the effect was indistinguishable from zero at plus 2.2 and plus 2.4 percent; in AI Overviews it was minus 4.6 percent and statistically significant. The authors caution that pages adding schema usually change other things at the same time and that the two cannot be separated in this data. So schema does no demonstrable harm. The expected benefit fails to appear all the same. Google now writes itself that generative search needs no special markup, while advising in the same paragraph to keep it for classic search. I leave the markup in place because it keeps the foundation clean. I am not promising an effect.</p>
+
+        <p><strong>Second, that agents ask permission.</strong> Google, OpenAI, Perplexity and Meta list their user-triggered fetches in their own documentation as an explicit exception to <code>robots.txt</code>. Anthropic is the counter case, with a caveat: the commitment there covers all three bots in general, no exception for user-initiated fetches is stated, but <code>Claude-User</code> is not named specifically. Blocking AI crawlers in <code>robots.txt</code> blocks training and indexing. The agents keep going.</p>
+
+        <p><strong>Third, that the rules are settled.</strong> The IETF draft for a language in which websites express their usage preferences has carried a note since April 2026 saying its content does not reflect working group consensus. It was added after the last call had been withdrawn. The draft for the technical transport lapsed in early May because nobody resubmitted it. Cloudflare meanwhile uses a technically incompatible vocabulary that it submitted to the IETF itself, without success. After fifteen months of working group there is no standard.</p>
+
+        <p>On <code>llms.txt</code>, in my own case. It is here because it exists. That says nothing about its effect. A server log analysis across 137,210 domains shows that 97 percent of these files received no request at all in May 2026. A second study of nearly 300,000 domains finds no relationship with AI citations, though only 10.1 percent of those domains had a file at all. The format was invented against a context problem: context windows are too small for whole websites. Developer documentation is the first example in the specification, alongside company structure, legislation, CVs. Search engines, visibility and being cited appear nowhere in it. Where the file demonstrably works, it works modestly: in vendor Mintlify’s own benchmark, misses on non-existent addresses dropped from 1.42 to 0.11 per task. Accuracy stayed the same. Time was gained, nothing else.</p>
+
+        <p><strong>The honest remainder.</strong> Clean structure is the entry ticket. Nothing more. My own measurement series shows it. The question about the person is answered by all three tested systems with this website as the primary source. The recommendation question, who to hire for this topic, is answered by none of them with my name. Single measurements vary a lot and what counts is the trend over months. Between those two findings, though, there is no technical problem. What sits there is the question of what other people write about you.</p>
+
+        <h2>How the apparatus works</h2>
+
+        <p><strong>Everything happens in the browser, no server, no dependencies.</strong></p>
+
+        <p>The left side is the real page, loaded in a frame. The apparatus reads its JSON-LD straight from the document and fetches <code>llms.txt</code> over the normal network interface. You can check both: open the source, find the same data. The mapping between text and machine statement comes from text matching, which is why it is fuzzy at the edges. The tree and DOM views are reproductions of the formats emitted by Playwright MCP and Stagehand. Roles and names are computed by this apparatus itself, and the element numbers are sequential. Real agents use the browser’s internal node IDs.</p>
+
+        <p>Terms from this text: <a href="/en/glossary.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">To the overview →</a> · Context: <a href="machine-readable-brands.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Machine Readable Brands</a></p>
+
+      </section>
+
+      <section class="connect">
+        <h2>Contact</h2>
+        <p>
+          <a href="https://www.linkedin.com/in/rohaase/">LinkedIn</a> ·
+          <a href="mailto:hallo@robert-haase.de">E-Mail</a> ·
+          <a href="/en/">Home</a>
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p><a href="impressum.html">Legal notice &amp; privacy</a></p>
+  </footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ------------------------------------------------------------------ *
+   * Machine View
+   * Reads the page loaded in the iframe and renders it in several machine
+   * formats. No framework, no dependencies.
+   * Requires same origin (http/https). Over file:// the browser blocks
+   * access to the iframe document; showError() covers that case.
+   * ------------------------------------------------------------------ */
+
+  var PAGES = [
+    { label: 'Home', url: '/en/' },
+    { label: 'Machine Readable Brands', url: 'machine-readable-brands.html' },
+    { label: 'About', url: 'about.html' }
+  ];
+
+  var VIEWS = [
+    {
+      id: 'raw',
+      label: 'AI search · raw',
+      title: 'AI search and crawlers',
+      sub: 'Text from the source, no JavaScript',
+      note: 'What GPTBot, ClaudeBot and PerplexityBot get on a direct fetch: raw HTML, no JavaScript executed. On this website that matches what you see, because it is static. On a modern web app this column would often be nearly empty.'
+    },
+    {
+      id: 'crawler',
+      label: 'Structured data',
+      title: 'Structured data',
+      sub: 'JSON-LD per schema.org',
+      note: 'What this page offers, not what demonstrably arrives. A value held only in JSON-LD was found by none of five systems on a direct fetch. Deliberately invalid markup was still used as a source by ChatGPT and Perplexity, so the invalidity went unnoticed.'
+    },
+    {
+      id: 'axtree',
+      label: 'Agent · a11y tree',
+      title: 'Browser agent via the accessibility tree',
+      sub: 'Playwright MCP format',
+      note: 'A reproduction of the YAML output of Playwright MCP 0.0.78. Chrome DevTools MCP works the same way. Stagehand mixes tree and DOM, browser-use leads with the DOM. This is the tree screen readers depend on too.'
+    },
+    {
+      id: 'dom',
+      label: 'Agent · DOM',
+      title: 'Browser agent via the DOM',
+      sub: 'Stagehand and Skyvern format',
+      note: 'Trimmed HTML, interactive elements only, with an injected ID. More complete than the a11y tree and pricier: in a comparison on WorkArena the HTML view cost 8.4 times the tokens. Whether that pays off depends on the model. Strong models do markedly better with it, weak ones markedly worse.'
+    },
+    {
+      id: 'llms',
+      label: 'Agent briefing',
+      title: 'Agent briefing',
+      sub: '/llms.txt',
+      note: 'Included because the file exists, not because it works: 97 percent of all llms.txt files received no request at all in May 2026 (Ahrefs, server logs across 137,210 domains).'
+    }
+  ];
+
+  var state = { page: PAGES[0], view: VIEWS[0], rows: [], doc: null };
+
+  var $frame   = document.getElementById('ms-frame');
+  var $rows    = document.getElementById('ms-rows');
+  var $note    = document.getElementById('ms-note');
+  var $mTitle  = document.getElementById('ms-machine-title');
+  var $mSub    = document.getElementById('ms-machine-sub');
+  var $hSub    = document.getElementById('ms-human-sub');
+  var $split   = document.getElementById('ms-split');
+
+  /* ---------- Controls ---------------------------------------------- */
+
+  function buildSeg(host, items, getActive, onPick) {
+    host.innerHTML = '';
+    items.forEach(function (item) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = item.label;
+      b.setAttribute('aria-pressed', String(getActive(item)));
+      b.addEventListener('click', function () { onPick(item); });
+      host.appendChild(b);
+    });
+  }
+
+  function refreshSeg(host, items, getActive) {
+    Array.prototype.forEach.call(host.children, function (b, i) {
+      b.setAttribute('aria-pressed', String(getActive(items[i])));
+    });
+  }
+
+  buildSeg(document.getElementById('ms-pages'), PAGES,
+    function (p) { return p === state.page; },
+    function (p) {
+      state.page = p;
+      refreshSeg(document.getElementById('ms-pages'), PAGES, function (x) { return x === state.page; });
+      $hSub.textContent = p.url;
+      loadPage();
+    });
+
+  buildSeg(document.getElementById('ms-views'), VIEWS,
+    function (v) { return v === state.view; },
+    function (v) {
+      state.view = v;
+      refreshSeg(document.getElementById('ms-views'), VIEWS, function (x) { return x === state.view; });
+      render();
+    });
+
+  Array.prototype.forEach.call(document.querySelectorAll('#ms-sides button'), function (b) {
+    b.addEventListener('click', function () {
+      $split.setAttribute('data-show', b.dataset.side);
+      Array.prototype.forEach.call(document.querySelectorAll('#ms-sides button'), function (o) {
+        o.setAttribute('aria-pressed', String(o === b));
+      });
+    });
+  });
+
+  /* ---------- Load page --------------------------------------------- */
+
+  function loadPage() {
+    clearRows('Loading …');
+    $frame.src = state.page.url;
+  }
+
+  $frame.addEventListener('load', function () {
+    var doc;
+    try {
+      doc = $frame.contentDocument;
+      if (!doc || !doc.body) throw new Error('no document');
+      /* Probe access so an origin error surfaces here, not later. */
+      void doc.body.childNodes.length;
+    } catch (e) {
+      showError();
+      return;
+    }
+    state.doc = doc;
+    syncTheme(doc);
+    injectFrameStyles(doc);
+    wireFrameHover(doc);
+    render();
+  });
+
+  function showError() {
+    state.doc = null;
+    $rows.innerHTML = '<p class="ms-status"><strong>No access to the embedded document.</strong><br><br>' +
+      'The apparatus reads the page through the browser\'s normal interface, which requires same origin. ' +
+      'Over <code>file://</code> that access is blocked. On robert-haase.de it works.</p>';
+    setTally(['–', ''], ['–', ''], ['–', '']);
+  }
+
+  function syncTheme(doc) {
+    var t = document.documentElement.getAttribute('data-theme');
+    if (t) doc.documentElement.setAttribute('data-theme', t);
+    else doc.documentElement.removeAttribute('data-theme');
+    mirrorSignalColors(doc);
+  }
+
+  /* Mirror the signal colours into the frame. Must run on every theme
+     change, otherwise the highlight inside the frame keeps the old theme's
+     colours and becomes unreadable in light mode. */
+  function mirrorSignalColors(doc) {
+    var cs = getComputedStyle(document.documentElement);
+    ['--sig-both', '--sig-both-bg', '--sig-only', '--sig-only-bg'].forEach(function (v) {
+      doc.documentElement.style.setProperty(v.replace('--sig', '--ms'), cs.getPropertyValue(v));
+    });
+  }
+
+  /* Pass a theme change on this page through to the frame. */
+  var themeBtn = document.querySelector('.theme-toggle');
+  if (themeBtn) themeBtn.addEventListener('click', function () {
+    setTimeout(function () { if (state.doc) syncTheme(state.doc); }, 0);
+  });
+
+  function injectFrameStyles(doc) {
+    if (doc.getElementById('ms-injected')) return;
+    var css = doc.createElement('style');
+    css.id = 'ms-injected';
+    css.textContent =
+      '.ms-hit{background:var(--ms-both-bg,rgba(111,179,168,.16));' +
+        'box-shadow:0 0 0 1px var(--ms-both,#6fb3a8);border-radius:2px}' +
+      '.ms-hit-only{background:var(--ms-only-bg,rgba(192,138,74,.16));' +
+        'box-shadow:0 0 0 1px var(--ms-only,#c08a4a);border-radius:2px}' +
+      '.ms-gap{outline:1px dashed var(--ms-only,#c08a4a);outline-offset:2px}' +
+      '@media (prefers-reduced-motion:no-preference){.ms-hit,.ms-hit-only{transition:background .12s ease}}';
+    doc.head.appendChild(css);
+  }
+
+  /* ---------- Helpers ------------------------------------------------ */
+
+  function norm(s) { return String(s).toLowerCase().replace(/\s+/g, ' ').trim(); }
+
+  function textOf(el) { return norm(el.textContent || ''); }
+
+  /* Simplified accname computation in W3C order: aria-label, then native
+     label, then name from content, then title. */
+  function accName(el) {
+    var n = el.getAttribute && (el.getAttribute('aria-label') || el.getAttribute('alt'));
+    if (!n && el.tagName === 'INPUT' && el.id) {
+      var lab = el.ownerDocument.querySelector('label[for="' + el.id + '"]');
+      if (lab) n = lab.textContent;
+    }
+    if (!n) n = el.textContent || '';
+    if (!n.trim() && el.getAttribute) n = el.getAttribute('title') || '';
+    var t = String(n).replace(/\s+/g, ' ').trim();
+    return t.length > 90 ? t.slice(0, 87) + '…' : t;
+  }
+
+  /* Interactive elements without an accessible name: invisible to tree-based agents. */
+  function namelessControls(doc) {
+    var out = [];
+    Array.prototype.forEach.call(
+      doc.querySelectorAll('a[href], button, input, select, textarea'),
+      function (el) { if (!accName(el)) out.push(el); }
+    );
+    return out;
+  }
+
+  var ROLES = {
+    A: 'link', BUTTON: 'button', NAV: 'navigation', MAIN: 'main', HEADER: 'banner',
+    FOOTER: 'contentinfo', UL: 'list', OL: 'list', LI: 'listitem', P: 'paragraph',
+    BLOCKQUOTE: 'blockquote', IMG: 'img', SECTION: 'region', ARTICLE: 'article',
+    INPUT: 'textbox', TEXTAREA: 'textbox', SELECT: 'combobox', FORM: 'form'
+  };
+
+  function roleOf(el) {
+    var explicit = el.getAttribute && el.getAttribute('role');
+    if (explicit) return explicit;
+    if (/^H[1-6]$/.test(el.tagName)) return 'heading';
+    return ROLES[el.tagName] || null;
+  }
+
+  function isInteractive(el) {
+    if (el.tagName === 'A' && el.hasAttribute('href')) return true;
+    if (['BUTTON', 'INPUT', 'SELECT', 'TEXTAREA'].indexOf(el.tagName) > -1) return true;
+    return el.hasAttribute && el.hasAttribute('onclick');
+  }
+
+  /* Smallest element whose text contains the value. */
+  function findByText(doc, value) {
+    var v = norm(value);
+    if (v.length < 4) return null;
+    var scope = doc.querySelector('main') || doc.body;
+    var all = scope.querySelectorAll('p, li, h1, h2, h3, h4, blockquote, strong, a, span, td');
+    var best = null;
+    for (var i = 0; i < all.length; i++) {
+      if (textOf(all[i]).indexOf(v) > -1) {
+        if (!best || (all[i].textContent || '').length < (best.textContent || '').length) best = all[i];
+      }
+    }
+    return best;
+  }
+
+  /* ---------- Views -------------------------------------------------- */
+
+  function jsonldGraphs(doc) {
+    var out = [];
+    Array.prototype.forEach.call(doc.querySelectorAll('script[type="application/ld+json"]'), function (s) {
+      try { out.push(JSON.parse(s.textContent)); } catch (e) { /* skip malformed blocks */ }
+    });
+    return out;
+  }
+
+  function flatten(node, path, out) {
+    if (Array.isArray(node)) {
+      node.forEach(function (v, i) { flatten(v, path + '[' + i + ']', out); });
+      return;
+    }
+    if (node && typeof node === 'object') {
+      Object.keys(node).forEach(function (k) {
+        if (k === '@context') return;
+        flatten(node[k], path ? path + '.' + k : k, out);
+      });
+      return;
+    }
+    if (typeof node === 'string' || typeof node === 'number' || typeof node === 'boolean') {
+      out.push({ path: path, value: String(node) });
+    }
+  }
+
+  function viewRaw(doc) {
+    var rows = [{ group: 'Textinhalt aus dem Quelltext' }];
+    var scope = doc.querySelector('main') || doc.body;
+    var blocks = scope.querySelectorAll('h1, h2, h3, p, li, blockquote');
+    Array.prototype.forEach.call(blocks, function (b) {
+      var t = (b.textContent || '').replace(/\s+/g, ' ').trim();
+      if (!t) return;
+      var tag = b.tagName.toLowerCase();
+      rows.push({ raw: tag + '  ' + t, el: b, kind: 'both' });
+    });
+    if (rows.length === 1) rows.push({ group: 'No text content found' });
+    return rows;
+  }
+
+  function viewCrawler(doc) {
+    var rows = [];
+    var graphs = jsonldGraphs(doc);
+    if (!graphs.length) {
+      rows.push({ group: 'No structured data found' });
+      return rows;
+    }
+    graphs.forEach(function (g) {
+      var leaves = [];
+      flatten(g, '', leaves);
+      var type = (g['@type'] || 'Objekt');
+      rows.push({ group: 'schema.org · ' + type });
+      leaves.forEach(function (l) {
+        var el = null;
+        if (!/^(https?:|mailto:)/.test(l.value) && l.path.indexOf('@type') === -1) {
+          el = findByText(doc, l.value);
+        }
+        rows.push({
+          key: l.path,
+          value: l.value,
+          el: el,
+          kind: el ? 'both' : 'only'
+        });
+      });
+    });
+    return rows;
+  }
+
+  function viewAxTree(doc) {
+    var rows = [{ group: 'Accessibility tree' }];
+    var ref = 0;
+    var scope = doc.body;
+    (function walk(el, depth) {
+      Array.prototype.forEach.call(el.children, function (child) {
+        if (['SCRIPT', 'STYLE', 'LINK', 'META'].indexOf(child.tagName) > -1) return;
+        var role = roleOf(child);
+        var name = accName(child);
+        var nextDepth = depth;
+        if (role) {
+          var line = '  '.repeat(depth) + '- ' + role;
+          if (/^H[1-6]$/.test(child.tagName)) line += ' [level=' + child.tagName[1] + ']';
+          if (name && child.children.length === 0) line += ': ' + name;
+          else if (name && (role === 'link' || role === 'button' || role === 'heading')) line += ' "' + name + '"';
+          line += ' [ref=e' + (++ref) + ']';
+          rows.push({ raw: line, el: child, kind: 'both' });
+          nextDepth = depth + 1;
+        }
+        if (child.children.length) walk(child, nextDepth);
+      });
+    })(scope, 0);
+    return rows;
+  }
+
+  function viewDom(doc) {
+    var rows = [{ group: 'Interactive elements' }];
+    var n = 0;
+    Array.prototype.forEach.call(doc.querySelectorAll('a, button, input, select, textarea'), function (el) {
+      var attrs = [];
+      ['href', 'type', 'name', 'aria-label', 'placeholder'].forEach(function (a) {
+        if (el.hasAttribute(a)) {
+          var v = el.getAttribute(a);
+          if (v.length > 40) v = v.slice(0, 37) + '…';
+          attrs.push(a + '="' + v + '"');
+        }
+      });
+      var label = accName(el);
+      var line = '[0-' + (++n) + ']<' + el.tagName.toLowerCase() +
+                 (attrs.length ? ' ' + attrs.join(' ') : '') + ' />' +
+                 (label ? '  ' + label : '');
+      rows.push({ raw: line, el: el, kind: 'both' });
+    });
+    if (n === 0) rows.push({ group: 'No interactive elements' });
+    return rows;
+  }
+
+  function viewLlms(doc, done) {
+    fetch('/llms.txt', { cache: 'no-cache' })
+      .then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.text();
+      })
+      .then(function (txt) {
+        var rows = [{ group: '/llms.txt · ' + txt.length.toLocaleString('de-DE') + ' Zeichen' }];
+        txt.split('\n').slice(0, 120).forEach(function (line) {
+          if (!line.trim()) return;
+          rows.push({ raw: line, el: findByText(doc, line.replace(/^[#>\-*\s]+/, '')), kind: 'only' });
+        });
+        done(rows);
+      })
+      .catch(function () {
+        done([{ group: 'llms.txt not reachable' }]);
+      });
+  }
+
+  /* ---------- Render ------------------------------------------------- */
+
+  function clearRows(msg) {
+    $rows.innerHTML = '<p class="ms-status">' + msg + '</p>';
+  }
+
+  function setTally(a, b, c) {
+    [a, b, c].forEach(function (pair, i) {
+      document.getElementById('ms-n-' + i).textContent = pair[0];
+      document.getElementById('ms-l-' + i).textContent = pair[1];
+    });
+  }
+
+  function render() {
+    var v = state.view;
+    $mTitle.textContent = v.title;
+    $mSub.textContent = v.sub;
+    $note.textContent = v.note;
+
+    if (!state.doc) { showError(); return; }
+    clearInFrame();
+
+    if (v.id === 'llms') {
+      clearRows('Loading llms.txt …');
+      viewLlms(state.doc, paint);
+      return;
+    }
+    var rows = v.id === 'raw'     ? viewRaw(state.doc)
+             : v.id === 'crawler' ? viewCrawler(state.doc)
+             : v.id === 'axtree'  ? viewAxTree(state.doc)
+             : viewDom(state.doc);
+    paint(rows);
+  }
+
+  function paint(rows) {
+    state.rows = rows;
+    $rows.innerHTML = '';
+    var frag = document.createDocumentFragment();
+
+    rows.forEach(function (r, i) {
+      if (r.group) {
+        var g = document.createElement('p');
+        g.className = 'ms-group';
+        g.textContent = r.group;
+        frag.appendChild(g);
+        return;
+      }
+      var el = document.createElement(r.el ? 'button' : 'div');
+      el.className = 'ms-row ' + (r.kind === 'both' ? 'is-both' : 'is-only');
+      el.setAttribute('role', 'listitem');
+      if (r.el) {
+        el.type = 'button';
+        el.dataset.linked = '1';
+      }
+      if (r.raw) {
+        el.textContent = r.raw;
+      } else {
+        var k = document.createElement('span');
+        k.className = 'ms-key';
+        k.textContent = r.key + ': ';
+        el.appendChild(k);
+        el.appendChild(document.createTextNode(r.value));
+      }
+      r.node = el;
+      if (r.el) {
+        el.addEventListener('mouseenter', function () { highlight(r, true); });
+        el.addEventListener('mouseleave', function () { highlight(r, false); });
+        el.addEventListener('focus', function () { highlight(r, true); });
+        el.addEventListener('blur', function () { highlight(r, false); });
+        el.addEventListener('click', function () { scrollFrameTo(r.el); });
+      }
+      frag.appendChild(el);
+    });
+
+    $rows.appendChild(frag);
+    tally(rows);
+    markGaps(rows);
+  }
+
+  /* The tally differs per view, because in most views every line maps to an
+     element by construction. There a different figure carries: interactive
+     elements without an accessible name. */
+  function tally(rows) {
+    var n = 0;
+    rows.forEach(function (r) { if (!r.group) n++; });
+    var gaps = countHumanOnly(rows);
+    var nameless = namelessControls(state.doc).length;
+    var controls = state.doc.querySelectorAll('a[href], button, input, select, textarea').length;
+
+    if (state.view.id === 'crawler') {
+      var both = 0;
+      rows.forEach(function (r) { if (!r.group && r.kind === 'both') both++; });
+      setTally(
+        [both, 'statements that also appear in the visible text'],
+        [n - both, 'statements only the machine sees'],
+        [gaps, 'text blocks with no machine counterpart']
+      );
+    } else if (state.view.id === 'raw') {
+      setTally(
+        [n, 'text blocks in the source'],
+        [0, 'blocks created only by JavaScript'],
+        [gaps, 'visible blocks missing from the source']
+      );
+    } else if (state.view.id === 'llms') {
+      setTally(
+        [n, 'lines in the briefing'],
+        ['97%', 'of all llms.txt files get zero requests'],
+        ['0.11', 'misses per docs task instead of 1.42']
+      );
+    } else {
+      setTally(
+        [controls, 'interactive elements'],
+        [nameless, 'of those without an accessible name'],
+        ['30.6%', 'of all home pages have empty buttons']
+      );
+    }
+  }
+
+  /* Text blocks that no machine line points to. */
+  function countHumanOnly(rows) {
+    if (!state.doc) return '–';
+    var scope = state.doc.querySelector('main') || state.doc.body;
+    var blocks = scope.querySelectorAll('p, li, blockquote, h1, h2, h3');
+    var linked = [];
+    rows.forEach(function (r) { if (r.el) linked.push(r.el); });
+    var n = 0;
+    state.gapBlocks = [];
+    Array.prototype.forEach.call(blocks, function (b) {
+      if (!textOf(b)) return;
+      var hit = linked.some(function (e) { return b === e || b.contains(e) || e.contains(b); });
+      if (!hit) { n++; state.gapBlocks.push(b); }
+    });
+    return n;
+  }
+
+  function markGaps(rows) {
+    if (!state.gapBlocks) return;
+    state.gapBlocks.forEach(function (b) { b.classList.add('ms-gap'); });
+  }
+
+  function clearInFrame() {
+    if (!state.doc) return;
+    Array.prototype.forEach.call(
+      state.doc.querySelectorAll('.ms-hit, .ms-hit-only, .ms-gap'),
+      function (e) { e.classList.remove('ms-hit', 'ms-hit-only', 'ms-gap'); }
+    );
+  }
+
+  function highlight(r, on) {
+    if (!r.el) return;
+    var cls = r.kind === 'both' ? 'ms-hit' : 'ms-hit-only';
+    r.el.classList.toggle(cls, on);
+    if (r.node) r.node.classList.toggle('is-active', on);
+  }
+
+  function scrollFrameTo(el) {
+    try {
+      el.scrollIntoView({
+        block: 'center',
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+      });
+    } catch (e) { /* older engines */ }
+  }
+
+  /* Coupling the other way: element in the frame -> lines on the right. */
+  function wireFrameHover(doc) {
+    doc.addEventListener('mouseover', function (ev) {
+      var hits = state.rows.filter(function (r) {
+        return r.el && (r.el === ev.target || r.el.contains(ev.target));
+      });
+      if (!hits.length) return;
+      hits.forEach(function (r) {
+        if (r.node) {
+          r.node.classList.add('is-active');
+          r.node.scrollIntoView({ block: 'nearest' });
+        }
+      });
+    });
+    doc.addEventListener('mouseout', function () {
+      state.rows.forEach(function (r) { if (r.node) r.node.classList.remove('is-active'); });
+    });
+  }
+
+  /* ---------- Start -------------------------------------------------- */
+  $hSub.textContent = state.page.url;
+  loadPage();
+})();
+</script>
+
+</body>
+</html>
