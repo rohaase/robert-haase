@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bildseite (Musterseite für die Maschinensicht) | Robert Haase</title>
+  <meta name="description" content="Eine absichtlich bildlastige Musterseite. Jedes Bild zeigt einen anderen Fall, wie es für Maschinen ankommt oder verschwindet.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="canonical" href="https://robert-haase.de/bildseite.html">
+  <link rel="alternate" hreflang="de" href="https://robert-haase.de/bildseite.html">
+  <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/image-page.html">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script src="/theme.js" defer></script>
+  <style>
+    .bs-hero img { width: 100%; height: auto; display: block; }
+    .bs-band {
+      background-image: url('demo/bg.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 4rem 2rem;
+      margin: 3rem 0;
+      border: 1px solid var(--border);
+    }
+    .bs-band p { max-width: 34rem; margin: 0; }
+    .bs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin: 2rem 0;
+    }
+    .bs-grid img { width: 100%; height: auto; display: block; }
+    .bs-claim img { width: 100%; height: auto; display: block; margin: 2.5rem 0; }
+    .bs-rule img { width: 100%; height: auto; display: block; margin: 3rem 0; opacity: .6; }
+    .bs-case {
+      font-size: 0.85rem;
+      color: var(--gray);
+      margin: 0.6rem 0 2.5rem;
+    }
+    .bs-icon { display: flex; gap: 1.5rem; align-items: center; margin: 2rem 0; }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header role="banner">
+    <nav aria-label="Hauptnavigation">
+      <a href="/" class="name">Robert Haase</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="begriffe.html">Begriffe</a>
+      <a href="about.html">Über</a>
+      <button class="theme-toggle" type="button" aria-label="Farbschema wechseln" title="Farbschema wechseln">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <section class="hero">
+        <h1>Bildseite.</h1>
+        <p class="subtitle">Eine Musterseite für die <a href="maschinensicht.html">Maschinensicht</a>. Sie ist absichtlich bildlastig, und jedes Bild steht für einen anderen Fall. Nebeneinandergelegt zeigt sich, welche Bilder für eine Maschine existieren und welche nicht. Die Fehler auf dieser Seite sind gewollt, deshalb ist sie von der Indexierung ausgenommen.</p>
+      </section>
+
+      <section class="article-body">
+
+        <h2>Eins: Bild mit beschreibendem Alternativtext</h2>
+
+        <div class="bs-hero">
+          <img src="demo/hero.jpg" width="1600" height="900" alt="Neun senkrechte Balken in unterschiedlicher Höhe, rechts davon ein roter Kreis">
+        </div>
+        <p class="bs-case">Kommt an, als genau dieser eine Satz. Alles Weitere, Komposition, Farbigkeit, Wirkung, kommt nicht an.</p>
+
+        <h2>Zwei: Claim, der als Bild gesetzt ist</h2>
+
+        <div class="bs-claim">
+          <img src="demo/claim.jpg" width="1400" height="700" alt="Kampagnenmotiv">
+        </div>
+        <p class="bs-case">Der häufigste Fall in der Praxis. Der wichtigste Satz der Seite steht im Bild, nicht im Text. Der Alternativtext lautet „Kampagnenmotiv". Formal ist das Bild damit beschriftet, der Claim selbst kommt trotzdem nirgends an.</p>
+
+        <h2>Drei: Bildstrecke ohne Alternativtexte</h2>
+
+        <div class="bs-grid">
+          <img src="demo/tile-1.jpg" width="800" height="600">
+          <img src="demo/tile-2.jpg" width="800" height="600">
+          <img src="demo/tile-3.jpg" width="800" height="600">
+        </div>
+        <p class="bs-case">Drei Bilder ohne <code>alt</code>-Attribut. Im Baum stehen sie als namenlose Knoten. Ein System weiß, dass dort etwas ist, aber nicht, was.</p>
+
+        <h2>Vier: Dekoration, korrekt versteckt</h2>
+
+        <div class="bs-rule">
+          <img src="demo/rule.jpg" width="1200" height="120" alt="" role="presentation">
+        </div>
+        <p class="bs-case">Ein leeres <code>alt</code> plus <code>role="presentation"</code>. Das ist kein Fehler, sondern die richtige Behandlung für reinen Schmuck. Das Bild verschwindet absichtlich.</p>
+
+        <h2>Fünf: Hintergrundbild über CSS</h2>
+
+        <div class="bs-band">
+          <p>Dieser Absatz liegt auf einem Bild, das nur im Stylesheet steht.</p>
+        </div>
+        <p class="bs-case">Ein Bild, das gar nicht im Dokument vorkommt. Es gibt keinen Knoten, keinen Namen, keine Möglichkeit, es zu benennen. Für jede Maschine ist hier nichts.</p>
+
+        <h2>Sechs: Bild als Link, ohne Namen</h2>
+
+        <p><a href="machine-readable-brands.html"><img src="demo/tile-1.jpg" width="800" height="600" style="max-width:260px;height:auto;display:block"></a></p>
+        <p class="bs-case">Der schlechteste Fall. Das Bild ist bedienbar, aber unbenannt. In der DOM-Ansicht steht ein Link ohne Beschriftung, und ein Agent kann nur raten, wohin er führt.</p>
+
+        <h2>Sieben: Symbol als SVG, ohne Titel</h2>
+
+        <div class="bs-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M14 24h20M24 14v20" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+          <span>Symbol ohne Titel, hier bewusst als versteckt ausgezeichnet.</span>
+        </div>
+        <p class="bs-case">Ein SVG ohne <code>title</code> ist für eine Maschine leer. Mit <code>aria-hidden</code> ist das ehrlich, ohne wäre es ein stiller Verlust.</p>
+
+        <h2>Was die Gegenüberstellung zeigt</h2>
+
+        <p><strong>Von sieben Bildfällen auf dieser Seite kommt einer mit seiner Bedeutung an. Einer verschwindet absichtlich und richtig. Fünf gehen verloren.</strong></p>
+
+        <p>Das ist keine schlecht gebaute Seite, sondern eine normale. Die Fälle hier sind der Alltag: Claims in Bildern, Bildstrecken ohne Beschriftung, Hintergründe im Stylesheet, verlinkte Bilder ohne Namen. Wer eine Marke visuell führt, führt sie zu einem großen Teil außerhalb dessen, was Maschinen erreichen.</p>
+
+        <p>Der Schluss daraus ist nicht, jedes Bild ausführlich zu beschreiben. Alternativtext soll funktional sein, nicht erschöpfend. Der Schluss ist, dass tragende Aussagen nicht ausschließlich im Bild stehen dürfen. Was gelten soll, muss auch als Text existieren.</p>
+
+        <p>Zur Gegenprobe: <a href="maschinensicht.html">diese Seite in der Maschinensicht öffnen</a> und im Seitenwähler „Bildseite" auswählen.</p>
+
+      </section>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p><a href="impressum.html">Impressum &amp; Datenschutz</a></p>
+  </footer>
+
+</body>
+</html>

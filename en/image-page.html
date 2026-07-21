@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Page (specimen for Machine View) | Robert Haase</title>
+  <meta name="description" content="A deliberately image-heavy specimen page. Every image demonstrates a different case of what reaches a machine and what disappears.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="canonical" href="https://robert-haase.de/en/image-page.html">
+  <link rel="alternate" hreflang="de" href="https://robert-haase.de/bildseite.html">
+  <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/image-page.html">
+  <link rel="stylesheet" href="/stylesheet.css">
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script src="/theme.js" defer></script>
+  <style>
+    .bs-hero img { width: 100%; height: auto; display: block; }
+    .bs-band {
+      background-image: url('/demo/bg.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 4rem 2rem;
+      margin: 3rem 0;
+      border: 1px solid var(--border);
+    }
+    .bs-band p { max-width: 34rem; margin: 0; }
+    .bs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      margin: 2rem 0;
+    }
+    .bs-grid img { width: 100%; height: auto; display: block; }
+    .bs-claim img { width: 100%; height: auto; display: block; margin: 2.5rem 0; }
+    .bs-rule img { width: 100%; height: auto; display: block; margin: 3rem 0; opacity: .6; }
+    .bs-case {
+      font-size: 0.85rem;
+      color: var(--gray);
+      margin: 0.6rem 0 2.5rem;
+    }
+    .bs-icon { display: flex; gap: 1.5rem; align-items: center; margin: 2rem 0; }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header role="banner">
+    <nav aria-label="Main navigation">
+      <a href="/en/" class="name">Robert Haase</a>
+      <a href="articles.html">Articles</a>
+      <a href="glossary.html">Glossary</a>
+      <a href="about.html">About</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle color scheme" title="Toggle color scheme">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <section class="hero">
+        <h1>Image page.</h1>
+        <p class="subtitle">A specimen page for <a href="machine-view.html">Machine View</a>. It is deliberately image-heavy, and every image stands for a different case. Side by side it becomes visible which images exist for a machine and which do not. The faults on this page are intentional, which is why it is excluded from indexing.</p>
+      </section>
+
+      <section class="article-body">
+
+        <h2>One: image with descriptive alt text</h2>
+
+        <div class="bs-hero">
+          <img src="/demo/hero.jpg" width="1600" height="900" alt="Nine vertical bars of varying height, with a red circle to their right">
+        </div>
+        <p class="bs-case">It arrives, as exactly that one sentence. Everything else, composition, colour, effect, does not.</p>
+
+        <h2>Two: a claim set as an image</h2>
+
+        <div class="bs-claim">
+          <img src="/demo/claim.jpg" width="1400" height="700" alt="Campaign visual">
+        </div>
+        <p class="bs-case">The most common case in practice. The most important sentence on the page sits inside the image, not in the text. The alt text reads "Campaign visual". Formally the image is labelled, and the claim itself still arrives nowhere.</p>
+
+        <h2>Three: an image series with no alt text</h2>
+
+        <div class="bs-grid">
+          <img src="/demo/tile-1.jpg" width="800" height="600">
+          <img src="/demo/tile-2.jpg" width="800" height="600">
+          <img src="/demo/tile-3.jpg" width="800" height="600">
+        </div>
+        <p class="bs-case">Three images with no <code>alt</code> attribute. In the tree they appear as nameless nodes. A system knows something is there, but not what.</p>
+
+        <h2>Four: decoration, correctly hidden</h2>
+
+        <div class="bs-rule">
+          <img src="/demo/rule.jpg" width="1200" height="120" alt="" role="presentation">
+        </div>
+        <p class="bs-case">An empty <code>alt</code> plus <code>role="presentation"</code>. This is not a fault but the correct treatment for pure decoration. The image disappears on purpose.</p>
+
+        <h2>Five: background image via CSS</h2>
+
+        <div class="bs-band">
+          <p>This paragraph sits on an image that exists only in the stylesheet.</p>
+        </div>
+        <p class="bs-case">An image that does not appear in the document at all. There is no node, no name, no way to label it. For any machine, there is nothing here.</p>
+
+        <h2>Six: image as a link, with no name</h2>
+
+        <p><a href="machine-readable-brands.html"><img src="/demo/tile-1.jpg" width="800" height="600" style="max-width:260px;height:auto;display:block"></a></p>
+        <p class="bs-case">The worst case. The image is operable but unnamed. In the DOM view it shows as a link with no label, and an agent can only guess where it leads.</p>
+
+        <h2>Seven: icon as SVG, with no title</h2>
+
+        <div class="bs-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M14 24h20M24 14v20" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+          <span>Icon with no title, deliberately marked as hidden here.</span>
+        </div>
+        <p class="bs-case">An SVG with no <code>title</code> is empty to a machine. With <code>aria-hidden</code> that is honest; without it, it is a silent loss.</p>
+
+        <h2>What the comparison shows</h2>
+
+        <p><strong>Of the seven image cases on this page, one arrives carrying its meaning. One disappears deliberately and correctly. Five are lost.</strong></p>
+
+        <p>This is not a badly built page, it is an ordinary one. These cases are everyday practice: claims inside images, galleries without labels, backgrounds in the stylesheet, linked images without names. Anyone running a brand visually runs a large part of it outside what machines can reach.</p>
+
+        <p>The conclusion is not to describe every image at length. Alt text is meant to be functional, not exhaustive. The conclusion is that load-bearing statements must not live in the image alone. Whatever is meant to hold has to exist as text as well.</p>
+
+        <p>To check: <a href="machine-view.html">open this page in Machine View</a> and pick "Image page" in the page selector.</p>
+
+      </section>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p><a href="impressum.html">Imprint &amp; Privacy</a></p>
+  </footer>
+
+</body>
+</html>

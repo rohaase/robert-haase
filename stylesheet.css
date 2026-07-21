@@ -453,3 +453,10 @@ footer a:hover {
 .article-body a.term:hover {
   border-bottom-color: var(--white);
 }
+
+.subtitle a {
+  color: var(--white);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gray);
+}
+.subtitle a:hover { border-bottom-color: var(--white); }
