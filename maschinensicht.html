@@ -219,6 +219,11 @@
     .ms-legend .k-both::before { background: var(--sig-both); }
     .ms-legend .k-only::before { background: var(--sig-only); }
 
+    .ms-sr-status {
+      position: absolute; width: 1px; height: 1px;
+      margin: -1px; padding: 0; overflow: hidden;
+      clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+    }
     .ms-status {
       font-size: 0.78rem; color: var(--gray); padding: 1rem;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
@@ -316,7 +321,8 @@
             <span class="ms-pane-sub" id="ms-machine-sub"></span>
           </div>
           <div class="ms-pane-body">
-            <div class="ms-rows" id="ms-rows" role="list" aria-live="polite">
+            <p class="ms-sr-status" id="ms-sr-status" role="status" aria-live="polite"></p>
+            <div class="ms-rows" id="ms-rows" aria-busy="false">
               <p class="ms-status">Wird geladen …</p>
             </div>
           </div>
@@ -835,7 +841,6 @@
       }
       var el = document.createElement(r.el ? 'button' : 'div');
       el.className = 'ms-row ' + (r.kind === 'both' ? 'is-both' : 'is-only');
-      el.setAttribute('role', 'listitem');
       if (r.el) {
         el.type = 'button';
         el.dataset.linked = '1';
@@ -861,6 +866,7 @@
     });
 
     $rows.appendChild(frag);
+    announce(rows);
     tally(rows);
     markGaps(rows);
   }
@@ -868,6 +874,16 @@
   /* Das Zaehlwerk ist je Ansicht anders, weil in drei von vier Ansichten
      per Konstruktion jede Zeile ein Element hat. Dort traegt eine andere
      Kennzahl: bedienbare Elemente ohne zugaenglichen Namen. */
+  /* Kurze Statusmeldung statt Live-Region auf der ganzen Liste:
+     ein Wechsel ersetzt bis zu neunzig Zeilen, die vollstaendig
+     vorgelesen wuerden. Angesagt wird nur, was sich geaendert hat. */
+  function announce(rows) {
+    var n = 0;
+    rows.forEach(function (r) { if (!r.group) n++; });
+    var $s = document.getElementById('ms-sr-status');
+    if ($s) $s.textContent = state.view.title + ', ' + state.page.label + ', ' + n + ' Zeilen';
+  }
+
   function tally(rows) {
     var n = 0;
     rows.forEach(function (r) { if (!r.group) n++; });
