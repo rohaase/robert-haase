@@ -146,7 +146,7 @@ Published: July 2026
 
 Essay on the creative industry's response to AI taking over execution. Argues that "taste" is a consolation word: trainable taste is consensus taste, and what can be learned from data will be learned by machines. From the machine we call it slop, from the agency we call it experience — the mechanism is the same. What remains valuable is accountability: the documented judgment call someone stands behind. A judgment call differs from an opinion in that it is justified, dated, versioned, and has a named sender. The brand specification (see Brand Infrastructure) is the place where these judgments become explicit, versionable, and addressable. Core line: "AI does not make judgment obsolete. It makes unaccountable judgment worthless."
 
-### Open Brand Repo: Das Brand Book ist ein PDF.
+### Open Brand Repo: Markenregeln gehören ins Repository.
 URL: https://robert-haase.de/open-brand-repo.html
 Published: July 2026
 
