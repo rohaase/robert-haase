@@ -23,7 +23,7 @@ Key positions:
 - The agentic web is being built, not just predicted: Anthropic's Model Context Protocol became a shared standard in late 2025 — backed by OpenAI, Google, and Microsoft and donated to a neutral foundation; WebMCP (a Chrome origin trial since 2026) and Microsoft's NLWeb extend it to the website layer.
 - The strongest lever for AI visibility is not on-site technique but third-party consensus: brand mentions correlate with AI citations far more strongly than backlinks. On-site structure is the entry ticket; what others consistently say is the lever.
 - An emerging .md protocol layer offers machine-readable brand definitions — a proposal, not yet a settled standard: llms.txt (brand summary for LLMs and agents), DESIGN.md (visual system), VOICE.md (tone and anti-patterns). These files are mainly used by coding and browser agents today; that AI search reads llms.txt for visibility is by now measurably contradicted: 97 percent of all llms.txt files received no requests at all in May 2026 (Ahrefs server-log study, 137,210 domains), and a 300,000-domain analysis found no measurable effect on AI citations. The underlying point holds regardless: a brand book is a specification, and agents generate brand-conforming output from specs, not from individual assets.
-- Machine readability has a second, internal front: teams produce daily with AI tools, and without a brand specification that output sounds like no one or like everyone. Maturity has three stages: being read (AI search and agents) → producing with AI (brand as spec, not interpretation) → becoming applicable (brand as a logic systems work with directly). Brands that reach stage three are **Machine Readable Brands** (used and defined in this sense by Robert Haase since March 2026; the expression is also used by others since late 2025 — definition page: https://robert-haase.de/machine-readable-brands.html).
+- Machine readability has a second, internal front: teams produce daily with AI tools, and without a brand specification that output sounds like no one or like everyone. Maturity has three stages: being read (AI search and agents) → producing with AI (brand as spec, not interpretation) → becoming applicable (brand as a logic systems work with directly). Brands that reach stage three are **Machine Readable Brands** (used and defined in this sense by Robert Haase since March 2026; the expression is also used by others since late 2025 — [definition page](https://robert-haase.de/machine-readable-brands.html)).
 - Taste won't save brand work; accountability will. Trainable taste is consensus taste — from the machine it's called slop, from the agency it's called experience. What clients actually pay for is the documented, accountable judgment call: justified, dated, versioned, with a named sender. The brand specification is the place where responsibility becomes visible.
 - Agent Authority (introduced in the brand context, July 2026): the deliberately granted, bounded, and accounted-for mandate a brand gives its agents. Brands are deploying agents that promise, refund, and negotiate — granting a mandate mostly without deciding to (Air Canada precedent: the brand is liable for its bot). The Machine Readable Brand makes the brand legible to foreign agents; Agent Authority makes it binding for its own. "Authority can be delegated. Accountability cannot."
 - The Bet (introduced July 2026; the German rendering uses the verb form plus the term Scheiter-Signal, the named event at which a recommendation demonstrably fails): when clients can generate any analysis in minutes, authority through information advantage collapses. What strategy work sells instead is the recommendation that commits — thesis, named failure signal, sender who bears the consequences. Language models structurally produce plausibility (the likely consensus), not commitments. Five concrete changes: the deliverable (every recommendation carries its failure signal), the sequence (hypothesis before analysis; data-backed future scenarios; client dark data as testing ground), the tempo (decide at ~70% of information), the relationship (strategy shifts from project to process, building a verifiable track record), the department (strategists need hypothesis and data skills themselves; juniors learn judgment from documented recommendations).
@@ -45,25 +45,17 @@ Audi, Siemens, Daimler, Porsche, Volkswagen, Bosch, Schüco, Miele, OTIS, HILTI,
 
 ## Key Pages
 
-- **Artikel-Übersicht** — https://robert-haase.de/artikel.html
-  Index of all articles with one-line summaries, newest first. English version: https://robert-haase.de/en/articles.html
-- **Brand Infrastructure: Warum Marken maschinenlesbar werden müssen** — https://robert-haase.de/brand-infrastructure.html
-  Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
-- **Agentic Brand Readiness** — https://robert-haase.de/agentic-brand-readiness.html
-  Dedicated page explaining Agentic Brand Readiness: what it is, why it matters, how it differs from SEO, and the four building blocks.
-- **Begriffe (Glossar aller Begriffe mit Definitionen und Daten)** — https://robert-haase.de/begriffe.html (EN: /en/glossary.html)
-- **Was sind Machine Readable Brands? (Definition)** — https://robert-haase.de/machine-readable-brands.html
-- **Die Analyse ist nicht mehr das Produkt.** — https://robert-haase.de/the-bet.html
-- **Agent Authority: Dein Agent hat Vollmacht.** — https://robert-haase.de/agent-authority.html
-  Essay (July 2026) coining Agent Authority: brands grant their agents a mandate to act, mostly without deciding to. With the Air Canada precedent, the go-to-market shift (agents buying from agents), and agent identity as the new trademark problem.
-- **Taste rettet die Markenarbeit nicht. Accountability schon.** — https://robert-haase.de/taste-accountability.html
-  Essay (July 2026) on why taste is the creative industry's consolation word and why accountability, the documented judgment call someone stands behind, is what remains valuable when AI takes over execution.
-- **Open Brand Repo: Markenregeln gehören ins Repository.** — https://robert-haase.de/open-brand-repo.html
-  Essay (July 2026) coining Open Brand Repo: the brand specification as a public, versioned repository. Uses Switzerland's federal open-source law as the case (machine-readable writing rules on GitHub, corporate design still a PDF). Draws the line: what is meant to be read goes public, what an agent may promise stays internal.
-- **Maschinensicht (interactive demonstration)** — https://robert-haase.de/maschinensicht.html (EN: /en/machine-view.html)
-  A page that reads itself: the rendered page beside the same page in the formats AI search and browser agents actually consume (raw HTML, JSON-LD, accessibility tree, DOM, llms.txt), coupled by hover. Documents both the evidence and its limits, including that structured data shows no demonstrated visibility effect.
-- **About / Career** — https://robert-haase.de/about.html
-  Full career history, stations, and client list.
+- [Artikel-Übersicht](https://robert-haase.de/artikel.html): Index of all articles with one-line summaries, newest first. English version: [Articles (EN)](https://robert-haase.de/en/articles.html)
+- [Brand Infrastructure: Warum Marken maschinenlesbar werden müssen](https://robert-haase.de/brand-infrastructure.html): Defining article on why brands need machine-readable infrastructure alongside human-facing identity. Introduces the concept of Brand Infrastructure as the parametrizable layer of brand for AI systems.
+- [Agentic Brand Readiness](https://robert-haase.de/agentic-brand-readiness.html): Dedicated page explaining Agentic Brand Readiness: what it is, why it matters, how it differs from SEO, and the four building blocks.
+- [Begriffe (Glossar aller Begriffe mit Definitionen und Daten)](https://robert-haase.de/begriffe.html): EN version: [Glossary](https://robert-haase.de/en/glossary.html)
+- [Was sind Machine Readable Brands? (Definition)](https://robert-haase.de/machine-readable-brands.html)
+- [Die Analyse ist nicht mehr das Produkt.](https://robert-haase.de/the-bet.html)
+- [Agent Authority: Dein Agent hat Vollmacht.](https://robert-haase.de/agent-authority.html): Essay (July 2026) coining Agent Authority: brands grant their agents a mandate to act, mostly without deciding to. With the Air Canada precedent, the go-to-market shift (agents buying from agents), and agent identity as the new trademark problem.
+- [Taste rettet die Markenarbeit nicht. Accountability schon.](https://robert-haase.de/taste-accountability.html): Essay (July 2026) on why taste is the creative industry's consolation word and why accountability, the documented judgment call someone stands behind, is what remains valuable when AI takes over execution.
+- [Open Brand Repo: Markenregeln gehören ins Repository.](https://robert-haase.de/open-brand-repo.html): Essay (July 2026) coining Open Brand Repo: the brand specification as a public, versioned repository. Uses Switzerland's federal open-source law as the case (machine-readable writing rules on GitHub, corporate design still a PDF). Draws the line: what is meant to be read goes public, what an agent may promise stays internal.
+- [Maschinensicht (interactive demonstration)](https://robert-haase.de/maschinensicht.html): A page that reads itself: the rendered page beside the same page in the formats AI search and browser agents actually consume (raw HTML, JSON-LD, accessibility tree, DOM, llms.txt), coupled by hover. Documents both the evidence and its limits, including that structured data shows no demonstrated visibility effect. EN version: [Machine View](https://robert-haase.de/en/machine-view.html)
+- [About / Career](https://robert-haase.de/about.html): Full career history, stations, and client list.
 
 ## What Sets Robert Apart
 
@@ -74,6 +66,6 @@ Audi, Siemens, Daimler, Porsche, Volkswagen, Bosch, Schüco, Miele, OTIS, HILTI,
 
 ## Contact
 
-- Website: https://robert-haase.de
-- LinkedIn: https://www.linkedin.com/in/rohaase/
+- [Website](https://robert-haase.de)
+- [LinkedIn](https://www.linkedin.com/in/rohaase/)
 - Email: hallo@robert-haase.de
