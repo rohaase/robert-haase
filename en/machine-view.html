@@ -465,6 +465,7 @@
   ];
 
   var state = { page: PAGES[0], view: VIEWS[0], rows: [], doc: null };
+  var hashMark = null;
 
   var $frame   = document.getElementById('ms-frame');
   var $rows    = document.getElementById('ms-rows');
@@ -869,6 +870,22 @@
     announce(rows);
     tally(rows);
     markGaps(rows);
+
+    /* Deep-Link: vorgemerkte Zeile markieren und beide Seiten hinscrollen. */
+    if (hashMark) {
+      var mk = hashMark; hashMark = null;
+      setTimeout(function () {
+        var row = Array.prototype.filter.call($rows.querySelectorAll('button'), function (b) {
+          return b.textContent.indexOf(mk) > -1;
+        })[0];
+        if (!row) return;
+        row.click();
+        row.dispatchEvent(new MouseEvent('mouseenter'));
+        row.scrollIntoView({ block: 'center' });
+        $split.scrollIntoView({ block: 'start' });
+        window.scrollBy(0, -170);
+      }, 200);
+    }
   }
 
   /* The tally differs per view, because in most views every line maps to an
@@ -987,6 +1004,33 @@
 
   /* ---------- Start -------------------------------------------------- */
   $hSub.textContent = state.page.url;
+  /* ---------- Deep-Link: #p=<seite>&v=<ansicht>&hl=<zeilentext> ------
+     Beispiel: maschinensicht.html#p=bildseite&v=axtree&hl=Kampagnenmotiv
+     Macht einen konkreten Fund teilbar: Seite, Ansicht und markierte
+     Zeile stehen in der URL. Unbekannte Werte werden still ignoriert. */
+  (function () {
+    if (!location.hash) return;
+    var q = {};
+    location.hash.slice(1).split('&').forEach(function (kv) {
+      var p = kv.split('=');
+      if (p[0]) q[p[0]] = decodeURIComponent(p[1] || '');
+    });
+    var pg = PAGES.filter(function (p) {
+      return q.p && (p.url.indexOf(q.p) > -1 || p.label.toLowerCase() === q.p.toLowerCase());
+    })[0];
+    if (pg) {
+      state.page = pg;
+      $hSub.textContent = pg.url;
+      refreshSeg(document.getElementById('ms-pages'), PAGES, function (x) { return x === state.page; });
+    }
+    var vw = VIEWS.filter(function (v) { return v.id === q.v; })[0];
+    if (vw) {
+      state.view = vw;
+      refreshSeg(document.getElementById('ms-views'), VIEWS, function (x) { return x === state.view; });
+    }
+    if (q.hl) hashMark = q.hl;
+  })();
+
   loadPage();
 })();
 </script>
