@@ -69,6 +69,7 @@
         <div class="bs-hero">
           <img src="/demo/hero.jpg" width="1600" height="900" alt="Nine vertical bars of varying height, with a red circle to their right">
         </div>
+        <div class="bs-out"><span class="bs-out-label">What the machine receives</span>img: "Nine vertical bars of varying height, with a red circle to their right"</div>
         <p class="bs-case">The only image on this page that arrives, as exactly one sentence. The mood, the composition, the colour world, everything the image was chosen for, stays behind. (Technically: a descriptive alt text.)</p>
 
         <h2>Two: The claim</h2>
@@ -76,6 +77,7 @@
         <div class="bs-claim">
           <img src="/demo/claim-en.jpg" width="1400" height="700" alt="Campaign visual">
         </div>
+        <div class="bs-out"><span class="bs-out-label">What the machine receives</span>img: "Campaign visual"</div>
         <p class="bs-case">The most important sentence of the campaign sits inside the image. The machine reads only "Campaign visual". Formally everything is labelled, the message is still gone. The most common case on real brand pages. (Technically: alt text present, but without the claim.)</p>
 
         <h2>Three: The gallery</h2>
@@ -85,6 +87,9 @@
           <img src="/demo/tile-2.jpg" width="800" height="600">
           <img src="/demo/tile-3.jpg" width="800" height="600">
         </div>
+        <div class="bs-out"><span class="bs-out-label">What the machine receives</span>img
+img
+img</div>
         <p class="bs-case">Three carefully chosen motifs. The machine only knows: something hangs here, three times. The world these images open up does not arrive. (Technically: images without an <code>alt</code> attribute, nameless nodes in the tree.)</p>
 
         <h2>Four: The ornament</h2>
@@ -92,6 +97,7 @@
         <div class="bs-rule">
           <img src="/demo/rule.jpg" width="1200" height="120" alt="" role="presentation">
         </div>
+        <div class="bs-out"><span class="bs-out-label">What the machine receives</span>(no line. On purpose.)</div>
         <p class="bs-case">The ornament is not meant to say anything, and it says nothing. The one case on this page where disappearing is correct. (Technically: empty <code>alt</code> plus <code>role="presentation"</code>.)</p>
 
         <h2>Five: The backdrop</h2>
@@ -99,11 +105,13 @@
         <div class="bs-band">
           <p>This paragraph sits on an image that exists only in the stylesheet.</p>
         </div>
+        <div class="bs-out"><span class="bs-out-label">What the machine receives</span>(no line. The image does not appear in the document.)</div>
         <p class="bs-case">The large image behind the text carries the atmosphere. For the machine there is not even an image here, it lives only in the stylesheet, not in the document. (Technically: a CSS background image, no node, nothing to name.)</p>
 
         <h2>Six: The teaser image</h2>
 
         <p><a href="machine-readable-brands.html"><img src="/demo/tile-1.jpg" width="800" height="600" style="max-width:260px;height:auto;display:block"></a></p>
+        <div class="bs-out"><span class="bs-out-label">What the machine receives</span>&lt;a href="machine-readable-brands.html" /&gt;</div>
         <p class="bs-case">The image leads to the most important subpage on click. The machine sees a link with no name and can only guess where it goes. Operable but mute, the worst case. (Technically: a linked image without a label.)</p>
 
         <h2>Seven: The icon</h2>
@@ -115,9 +123,12 @@
           </svg>
           <span>Icon with no title, deliberately marked as hidden here.</span>
         </div>
+        <div class="bs-out"><span class="bs-out-label">What the machine receives</span>(no line.)</div>
         <p class="bs-case">The icon next to the text is ornament with meaning, for people. For the machine it is empty. Here it is deliberately marked as hidden; otherwise it would be a silent loss. (Technically: an SVG without a <code>title</code>, with <code>aria-hidden</code>.)</p>
 
         <h2>What the comparison shows</h2>
+
+        <p class="bs-tally"><strong>1</strong> arrives · <strong>1</strong> disappears correctly · <strong>5</strong> are lost</p>
 
         <p><strong>Of the seven image cases on this page, one arrives carrying its meaning. One disappears deliberately and correctly. Five are lost.</strong></p>
 

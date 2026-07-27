@@ -69,6 +69,7 @@
         <div class="bs-hero">
           <img src="demo/hero.jpg" width="1600" height="900" alt="Neun senkrechte Balken in unterschiedlicher Höhe, rechts davon ein roter Kreis">
         </div>
+        <div class="bs-out"><span class="bs-out-label">Was die Maschine bekommt</span>img: „Neun senkrechte Balken in unterschiedlicher Höhe, rechts davon ein roter Kreis"</div>
         <p class="bs-case">Das einzige Bild der Seite, das ankommt, und zwar als genau ein Satz. Die Stimmung, die Komposition, die Farbwelt, alles, wofür das Bild ausgesucht wurde, bleibt zurück. (Technisch: ein beschreibender Alternativtext.)</p>
 
         <h2>Zwei: Der Claim</h2>
@@ -76,6 +77,7 @@
         <div class="bs-claim">
           <img src="demo/claim.jpg" width="1400" height="700" alt="Kampagnenmotiv">
         </div>
+        <div class="bs-out"><span class="bs-out-label">Was die Maschine bekommt</span>img: „Kampagnenmotiv"</div>
         <p class="bs-case">Der wichtigste Satz der Kampagne steht im Bild. Die Maschine liest nur „Kampagnenmotiv". Formal ist alles beschriftet, die Botschaft ist trotzdem weg. Der häufigste Fall auf echten Markenseiten. (Technisch: Alt-Text vorhanden, aber ohne den Claim.)</p>
 
         <h2>Drei: Die Bildstrecke</h2>
@@ -85,6 +87,9 @@
           <img src="demo/tile-2.jpg" width="800" height="600">
           <img src="demo/tile-3.jpg" width="800" height="600">
         </div>
+        <div class="bs-out"><span class="bs-out-label">Was die Maschine bekommt</span>img
+img
+img</div>
         <p class="bs-case">Drei sorgfältig ausgewählte Motive. Die Maschine weiß nur: Hier hängt dreimal etwas. Welche Welt die Bilder aufmachen, kommt nicht an. (Technisch: Bilder ohne <code>alt</code>-Attribut, im Baum namenlose Knoten.)</p>
 
         <h2>Vier: Der Zierstreifen</h2>
@@ -92,6 +97,7 @@
         <div class="bs-rule">
           <img src="demo/rule.jpg" width="1200" height="120" alt="" role="presentation">
         </div>
+        <div class="bs-out"><span class="bs-out-label">Was die Maschine bekommt</span>(keine Zeile. Absichtlich.)</div>
         <p class="bs-case">Der Zierstreifen soll nichts sagen, und er sagt auch nichts. Der einzige Fall auf dieser Seite, in dem Verschwinden richtig ist. (Technisch: leeres <code>alt</code> plus <code>role="presentation"</code>.)</p>
 
         <h2>Fünf: Die Bühne</h2>
@@ -99,11 +105,13 @@
         <div class="bs-band">
           <p>Dieser Absatz liegt auf einem Bild, das nur im Stylesheet steht.</p>
         </div>
+        <div class="bs-out"><span class="bs-out-label">Was die Maschine bekommt</span>(keine Zeile. Das Bild kommt im Dokument nicht vor.)</div>
         <p class="bs-case">Das große Bild hinter dem Text trägt die Atmosphäre. Für die Maschine existiert hier nicht einmal ein Bild, es steht nur im Stylesheet, nicht im Dokument. (Technisch: CSS-Hintergrundbild, kein Knoten, nichts zu benennen.)</p>
 
         <h2>Sechs: Das Teaser-Bild</h2>
 
         <p><a href="machine-readable-brands.html"><img src="demo/tile-1.jpg" width="800" height="600" style="max-width:260px;height:auto;display:block"></a></p>
+        <div class="bs-out"><span class="bs-out-label">Was die Maschine bekommt</span>&lt;a href="machine-readable-brands.html" /&gt;</div>
         <p class="bs-case">Das Bild führt beim Klick zur wichtigsten Unterseite. Die Maschine sieht einen Link ohne Namen und kann nur raten, wohin er führt. Bedienbar, aber stumm, der schlechteste Fall. (Technisch: verlinktes Bild ohne Beschriftung.)</p>
 
         <h2>Sieben: Das Icon</h2>
@@ -115,9 +123,12 @@
           </svg>
           <span>Symbol ohne Titel, hier bewusst als versteckt ausgezeichnet.</span>
         </div>
+        <div class="bs-out"><span class="bs-out-label">Was die Maschine bekommt</span>(keine Zeile.)</div>
         <p class="bs-case">Das Symbol neben dem Text ist Schmuck mit Bedeutung, für Menschen. Für die Maschine ist es leer. Hier ist es bewusst als versteckt markiert, sonst wäre es ein stiller Verlust. (Technisch: SVG ohne <code>title</code>, mit <code>aria-hidden</code>.)</p>
 
         <h2>Was die Gegenüberstellung zeigt</h2>
+
+        <p class="bs-tally"><strong>1</strong> kommt an · <strong>1</strong> verschwindet richtig · <strong>5</strong> gehen verloren</p>
 
         <p><strong>Von sieben Bildfällen auf dieser Seite kommt einer mit seiner Bedeutung an. Einer verschwindet absichtlich und richtig. Fünf gehen verloren.</strong></p>
 

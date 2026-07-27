@@ -460,3 +460,36 @@ footer a:hover {
   border-bottom: 1px solid var(--gray);
 }
 .subtitle a:hover { border-bottom-color: var(--white); }
+
+/* Bildseite: Maschinen-Ausgabe je Fall */
+.bs-out {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--gray);
+  background: color-mix(in srgb, var(--white) 4%, transparent);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0.6rem 0.85rem;
+  margin: 0.75rem 0 0.5rem;
+  overflow-x: auto;
+  white-space: pre;
+}
+.bs-out-label {
+  font-size: 0.7rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  display: block;
+  margin-bottom: 0.35rem;
+  white-space: normal;
+}
+.bs-tally {
+  font-size: 0.95rem;
+  color: var(--gray);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 0;
+  margin: 2.5rem 0;
+}
+.bs-tally strong { color: var(--white); }
