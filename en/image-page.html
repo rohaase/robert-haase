@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Page (specimen for Machine View) | Robert Haase</title>
-  <meta name="description" content="A deliberately image-heavy specimen page. Every image demonstrates a different case of what reaches a machine and what disappears.">
+  <meta name="description" content="A page built like a brand's campaign page, and what a machine receives from each image. Seven cases; the faults are intentional.">
   <meta name="robots" content="noindex, follow">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="canonical" href="https://robert-haase.de/en/image-page.html">
@@ -59,54 +59,54 @@
     <article>
       <section class="hero">
         <h1>Image page.</h1>
-        <p class="subtitle">A specimen page for <a href="machine-view.html">Machine View</a>. It is deliberately image-heavy, and every image stands for a different case. Side by side it becomes visible which images exist for a machine and which do not. The faults on this page are intentional, which is why it is excluded from indexing.</p>
+        <p class="subtitle">This page is built like a brand's campaign page: mood image, claim, gallery, ornament. Next to it, <a href="machine-view.html">Machine View</a> shows what a machine receives from each of these images. Some arrive, most do not. The faults are intentional, which is why the page is excluded from indexing.</p>
       </section>
 
       <section class="article-body">
 
-        <h2>One: image with descriptive alt text</h2>
+        <h2>One: The mood image</h2>
 
         <div class="bs-hero">
           <img src="/demo/hero.jpg" width="1600" height="900" alt="Nine vertical bars of varying height, with a red circle to their right">
         </div>
-        <p class="bs-case">It arrives, as exactly that one sentence. Everything else, composition, colour, effect, does not.</p>
+        <p class="bs-case">The only image on this page that arrives, as exactly one sentence. The mood, the composition, the colour world, everything the image was chosen for, stays behind. (Technically: a descriptive alt text.)</p>
 
-        <h2>Two: a claim set as an image</h2>
+        <h2>Two: The claim</h2>
 
         <div class="bs-claim">
           <img src="/demo/claim-en.jpg" width="1400" height="700" alt="Campaign visual">
         </div>
-        <p class="bs-case">The most common case in practice. The most important sentence on the page sits inside the image, not in the text. The alt text reads "Campaign visual". Formally the image is labelled, and the claim itself still arrives nowhere.</p>
+        <p class="bs-case">The most important sentence of the campaign sits inside the image. The machine reads only "Campaign visual". Formally everything is labelled, the message is still gone. The most common case on real brand pages. (Technically: alt text present, but without the claim.)</p>
 
-        <h2>Three: an image series with no alt text</h2>
+        <h2>Three: The gallery</h2>
 
         <div class="bs-grid">
           <img src="/demo/tile-1.jpg" width="800" height="600">
           <img src="/demo/tile-2.jpg" width="800" height="600">
           <img src="/demo/tile-3.jpg" width="800" height="600">
         </div>
-        <p class="bs-case">Three images with no <code>alt</code> attribute. In the tree they appear as nameless nodes. A system knows something is there, but not what.</p>
+        <p class="bs-case">Three carefully chosen motifs. The machine only knows: something hangs here, three times. The world these images open up does not arrive. (Technically: images without an <code>alt</code> attribute, nameless nodes in the tree.)</p>
 
-        <h2>Four: decoration, correctly hidden</h2>
+        <h2>Four: The ornament</h2>
 
         <div class="bs-rule">
           <img src="/demo/rule.jpg" width="1200" height="120" alt="" role="presentation">
         </div>
-        <p class="bs-case">An empty <code>alt</code> plus <code>role="presentation"</code>. This is not a fault but the correct treatment for pure decoration. The image disappears on purpose.</p>
+        <p class="bs-case">The ornament is not meant to say anything, and it says nothing. The one case on this page where disappearing is correct. (Technically: empty <code>alt</code> plus <code>role="presentation"</code>.)</p>
 
-        <h2>Five: background image via CSS</h2>
+        <h2>Five: The backdrop</h2>
 
         <div class="bs-band">
           <p>This paragraph sits on an image that exists only in the stylesheet.</p>
         </div>
-        <p class="bs-case">An image that does not appear in the document at all. There is no node, no name, no way to label it. For any machine, there is nothing here.</p>
+        <p class="bs-case">The large image behind the text carries the atmosphere. For the machine there is not even an image here, it lives only in the stylesheet, not in the document. (Technically: a CSS background image, no node, nothing to name.)</p>
 
-        <h2>Six: image as a link, with no name</h2>
+        <h2>Six: The teaser image</h2>
 
         <p><a href="machine-readable-brands.html"><img src="/demo/tile-1.jpg" width="800" height="600" style="max-width:260px;height:auto;display:block"></a></p>
-        <p class="bs-case">The worst case. The image is operable but unnamed. In the DOM view it shows as a link with no label, and an agent can only guess where it leads.</p>
+        <p class="bs-case">The image leads to the most important subpage on click. The machine sees a link with no name and can only guess where it goes. Operable but mute, the worst case. (Technically: a linked image without a label.)</p>
 
-        <h2>Seven: icon as SVG, with no title</h2>
+        <h2>Seven: The icon</h2>
 
         <div class="bs-icon">
           <svg width="48" height="48" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
@@ -115,7 +115,7 @@
           </svg>
           <span>Icon with no title, deliberately marked as hidden here.</span>
         </div>
-        <p class="bs-case">An SVG with no <code>title</code> is empty to a machine. With <code>aria-hidden</code> that is honest; without it, it is a silent loss.</p>
+        <p class="bs-case">The icon next to the text is ornament with meaning, for people. For the machine it is empty. Here it is deliberately marked as hidden; otherwise it would be a silent loss. (Technically: an SVG without a <code>title</code>, with <code>aria-hidden</code>.)</p>
 
         <h2>What the comparison shows</h2>
 

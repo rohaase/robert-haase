@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bildseite (Musterseite für die Maschinensicht) | Robert Haase</title>
-  <meta name="description" content="Eine absichtlich bildlastige Musterseite. Jedes Bild zeigt einen anderen Fall, wie es für Maschinen ankommt oder verschwindet.">
+  <meta name="description" content="Eine Seite, gebaut wie die Kampagnenseite einer Marke, und was eine Maschine von jedem Bild bekommt. Sieben Fälle, die Fehler sind gewollt.">
   <meta name="robots" content="noindex, follow">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="canonical" href="https://robert-haase.de/bildseite.html">
@@ -59,54 +59,54 @@
     <article>
       <section class="hero">
         <h1>Bildseite.</h1>
-        <p class="subtitle">Eine Musterseite für die <a href="maschinensicht.html">Maschinensicht</a>. Sie ist absichtlich bildlastig, und jedes Bild steht für einen anderen Fall. Nebeneinandergelegt zeigt sich, welche Bilder für eine Maschine existieren und welche nicht. Die Fehler auf dieser Seite sind gewollt, deshalb ist sie von der Indexierung ausgenommen.</p>
+        <p class="subtitle">Diese Seite ist gebaut wie die Kampagnenseite einer Marke: Stimmungsbild, Claim, Bildstrecke, Schmuck. Daneben lässt sich in der <a href="maschinensicht.html">Maschinensicht</a> ansehen, was eine Maschine von jedem dieser Bilder bekommt. Manche kommen an, die meisten nicht. Die Fehler sind gewollt, deshalb ist die Seite von der Indexierung ausgenommen.</p>
       </section>
 
       <section class="article-body">
 
-        <h2>Eins: Bild mit beschreibendem Alternativtext</h2>
+        <h2>Eins: Das Stimmungsbild</h2>
 
         <div class="bs-hero">
           <img src="demo/hero.jpg" width="1600" height="900" alt="Neun senkrechte Balken in unterschiedlicher Höhe, rechts davon ein roter Kreis">
         </div>
-        <p class="bs-case">Kommt an, als genau dieser eine Satz. Alles Weitere, Komposition, Farbigkeit, Wirkung, kommt nicht an.</p>
+        <p class="bs-case">Das einzige Bild der Seite, das ankommt, und zwar als genau ein Satz. Die Stimmung, die Komposition, die Farbwelt, alles, wofür das Bild ausgesucht wurde, bleibt zurück. (Technisch: ein beschreibender Alternativtext.)</p>
 
-        <h2>Zwei: Claim, der als Bild gesetzt ist</h2>
+        <h2>Zwei: Der Claim</h2>
 
         <div class="bs-claim">
           <img src="demo/claim.jpg" width="1400" height="700" alt="Kampagnenmotiv">
         </div>
-        <p class="bs-case">Der häufigste Fall in der Praxis. Der wichtigste Satz der Seite steht im Bild, nicht im Text. Der Alternativtext lautet „Kampagnenmotiv". Formal ist das Bild damit beschriftet, der Claim selbst kommt trotzdem nirgends an.</p>
+        <p class="bs-case">Der wichtigste Satz der Kampagne steht im Bild. Die Maschine liest nur „Kampagnenmotiv". Formal ist alles beschriftet, die Botschaft ist trotzdem weg. Der häufigste Fall auf echten Markenseiten. (Technisch: Alt-Text vorhanden, aber ohne den Claim.)</p>
 
-        <h2>Drei: Bildstrecke ohne Alternativtexte</h2>
+        <h2>Drei: Die Bildstrecke</h2>
 
         <div class="bs-grid">
           <img src="demo/tile-1.jpg" width="800" height="600">
           <img src="demo/tile-2.jpg" width="800" height="600">
           <img src="demo/tile-3.jpg" width="800" height="600">
         </div>
-        <p class="bs-case">Drei Bilder ohne <code>alt</code>-Attribut. Im Baum stehen sie als namenlose Knoten. Ein System weiß, dass dort etwas ist, aber nicht, was.</p>
+        <p class="bs-case">Drei sorgfältig ausgewählte Motive. Die Maschine weiß nur: Hier hängt dreimal etwas. Welche Welt die Bilder aufmachen, kommt nicht an. (Technisch: Bilder ohne <code>alt</code>-Attribut, im Baum namenlose Knoten.)</p>
 
-        <h2>Vier: Dekoration, korrekt versteckt</h2>
+        <h2>Vier: Der Zierstreifen</h2>
 
         <div class="bs-rule">
           <img src="demo/rule.jpg" width="1200" height="120" alt="" role="presentation">
         </div>
-        <p class="bs-case">Ein leeres <code>alt</code> plus <code>role="presentation"</code>. Das ist kein Fehler, sondern die richtige Behandlung für reinen Schmuck. Das Bild verschwindet absichtlich.</p>
+        <p class="bs-case">Der Zierstreifen soll nichts sagen, und er sagt auch nichts. Der einzige Fall auf dieser Seite, in dem Verschwinden richtig ist. (Technisch: leeres <code>alt</code> plus <code>role="presentation"</code>.)</p>
 
-        <h2>Fünf: Hintergrundbild über CSS</h2>
+        <h2>Fünf: Die Bühne</h2>
 
         <div class="bs-band">
           <p>Dieser Absatz liegt auf einem Bild, das nur im Stylesheet steht.</p>
         </div>
-        <p class="bs-case">Ein Bild, das gar nicht im Dokument vorkommt. Es gibt keinen Knoten, keinen Namen, keine Möglichkeit, es zu benennen. Für jede Maschine ist hier nichts.</p>
+        <p class="bs-case">Das große Bild hinter dem Text trägt die Atmosphäre. Für die Maschine existiert hier nicht einmal ein Bild, es steht nur im Stylesheet, nicht im Dokument. (Technisch: CSS-Hintergrundbild, kein Knoten, nichts zu benennen.)</p>
 
-        <h2>Sechs: Bild als Link, ohne Namen</h2>
+        <h2>Sechs: Das Teaser-Bild</h2>
 
         <p><a href="machine-readable-brands.html"><img src="demo/tile-1.jpg" width="800" height="600" style="max-width:260px;height:auto;display:block"></a></p>
-        <p class="bs-case">Der schlechteste Fall. Das Bild ist bedienbar, aber unbenannt. In der DOM-Ansicht steht ein Link ohne Beschriftung, und ein Agent kann nur raten, wohin er führt.</p>
+        <p class="bs-case">Das Bild führt beim Klick zur wichtigsten Unterseite. Die Maschine sieht einen Link ohne Namen und kann nur raten, wohin er führt. Bedienbar, aber stumm, der schlechteste Fall. (Technisch: verlinktes Bild ohne Beschriftung.)</p>
 
-        <h2>Sieben: Symbol als SVG, ohne Titel</h2>
+        <h2>Sieben: Das Icon</h2>
 
         <div class="bs-icon">
           <svg width="48" height="48" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
@@ -115,7 +115,7 @@
           </svg>
           <span>Symbol ohne Titel, hier bewusst als versteckt ausgezeichnet.</span>
         </div>
-        <p class="bs-case">Ein SVG ohne <code>title</code> ist für eine Maschine leer. Mit <code>aria-hidden</code> ist das ehrlich, ohne wäre es ein stiller Verlust.</p>
+        <p class="bs-case">Das Symbol neben dem Text ist Schmuck mit Bedeutung, für Menschen. Für die Maschine ist es leer. Hier ist es bewusst als versteckt markiert, sonst wäre es ein stiller Verlust. (Technisch: SVG ohne <code>title</code>, mit <code>aria-hidden</code>.)</p>
 
         <h2>Was die Gegenüberstellung zeigt</h2>
 
