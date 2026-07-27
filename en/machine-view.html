@@ -429,7 +429,7 @@
   var VIEWS = [
     {
       id: 'raw',
-      label: 'AI search · raw',
+      label: 'AI search',
       title: 'AI search and crawlers',
       sub: 'Text from the source, no JavaScript',
       note: 'What GPTBot, ClaudeBot and PerplexityBot get on a direct fetch: raw HTML, no JavaScript executed. On this website that matches what you see, because it is static. On a modern web app this column would often be nearly empty.'
@@ -443,14 +443,14 @@
     },
     {
       id: 'axtree',
-      label: 'Agent · a11y tree',
+      label: 'Agent · tree',
       title: 'Browser agent via the accessibility tree',
       sub: 'Playwright MCP format',
       note: 'A reproduction of the YAML output of Playwright MCP 0.0.78. Chrome DevTools MCP works the same way. Stagehand mixes tree and DOM, browser-use leads with the DOM. This is the tree screen readers depend on too. For comparison: 30.6 percent of all home pages worldwide carry buttons with no label.'
     },
     {
       id: 'dom',
-      label: 'Agent · DOM',
+      label: 'Agent · HTML',
       title: 'Browser agent via the DOM',
       sub: 'Stagehand and Skyvern format',
       note: 'Trimmed HTML, interactive elements only, with an injected ID. More complete than the a11y tree and pricier: in a comparison on WorkArena the HTML view cost 8.4 times the tokens. Whether that pays off depends on the model. Strong models do markedly better with it, weak ones markedly worse.'

@@ -431,7 +431,7 @@
   var VIEWS = [
     {
       id: 'raw',
-      label: 'KI-Suche · roh',
+      label: 'KI-Suche',
       title: 'KI-Suche und Crawler',
       sub: 'Text aus dem Quelltext, ohne JavaScript',
       note: 'Was GPTBot, ClaudeBot und PerplexityBot beim Direkt-Abruf bekommen: rohes HTML, kein ausgeführtes JavaScript. Auf dieser Website ist das deckungsgleich mit dem Sichtbaren, weil sie statisch ist. Bei einer modernen Web-App wäre diese Spalte oft fast leer.'
@@ -445,14 +445,14 @@
     },
     {
       id: 'axtree',
-      label: 'Agent · A11y-Tree',
+      label: 'Agent · Baum',
       title: 'Browser-Agent über den Accessibility-Tree',
       sub: 'Format von Playwright MCP',
       note: 'Nachbildung der YAML-Ausgabe von Playwright MCP 0.0.78. Chrome DevTools MCP arbeitet ebenso. Stagehand mischt Baum und DOM, browser-use setzt primär auf den DOM. Es ist der Baum, auf den auch Screenreader angewiesen sind. Zum Vergleich: Auf 30,6 Prozent aller Startseiten weltweit stehen Buttons ohne Beschriftung.'
     },
     {
       id: 'dom',
-      label: 'Agent · DOM',
+      label: 'Agent · HTML',
       title: 'Browser-Agent über das DOM',
       sub: 'Format von Stagehand und Skyvern',
       note: 'Getrimmtes HTML, nur bedienbare Elemente, mit injizierter ID. Vollständiger als der A11y-Tree und teurer: In einem Vergleich auf WorkArena kostete die HTML-Ansicht das 8,4-Fache an Tokens. Ob sich das lohnt, hängt vom Modell ab. Starke Modelle arbeiten damit deutlich besser, schwache deutlich schlechter.'
