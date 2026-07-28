@@ -271,7 +271,7 @@
       <section class="article-body">
         <p><strong>On the left, a page from this website as a human sees it. On the right, the same page as machines process it. None of it is mocked up. The apparatus opens the page, reads its source and shows what survives.</strong></p>
 
-        <p>Hover a line on the right and the matching spot on the left is highlighted. And the other way round. Whatever has no counterpart on the other side stays uncoupled. That gap is the actual subject.</p>
+        <p>Hover a line on the right and the matching spot on the left lights up. And the other way round. Some lines never light up, because the other side simply never receives them. Those spots are what this is about.</p>
 
       </section>
     </article>
@@ -348,45 +348,53 @@
 
         <h2>What this page shows</h2>
 
-        <p><strong>Five views, five formats. Whether a page is machine readable depends on which machine is reading.</strong></p>
+        <p><strong>Five views, five ways of reading. Whether a page is machine-readable depends on which machine is reading.</strong></p>
 
-        <p>→ <strong>AI search, raw.</strong> What ChatGPT and Claude get on a direct, user-triggered fetch: unexecuted HTML. Three independent tests since November 2025 reach the same result. In the most recent one a decoy phone number sat in the source while the real one was reachable only through JavaScript. Every US assistant tested reported the decoy. DeepSeek, Qwen and Mistral returned the real one. So it is technically possible, the US providers simply do not do it. For Perplexity the evidence is thinner, one of the tests failed there, and all three are snapshots with a single run per system. Among the providers only Anthropic documents this. OpenAI and Perplexity say nothing about rendering at all. And one distinction that is missing almost everywhere: the direct fetch does not render, the path through a search index does.<br>
-        → <strong>Structured data.</strong> What this page offers. Whether it arrives is further down.<br>
-        → <strong>Accessibility tree.</strong> Playwright MCP and Chrome DevTools MCP hand the model exactly this tree, roles and names instead of layout. Screen readers need the same tree. Others mix. Stagehand calls its snapshot a hybrid of DOM and tree in its own source, browser-use serialises the DOM first. All four skip the pixels, beyond that they part ways.<br>
-        → <strong>DOM.</strong> Trimmed HTML with injected element IDs. More complete, and depending on the model better or worse.<br>
-        → <strong>Agent briefing.</strong> A file meant to tell systems what this place is about.</p>
+        <ul>
+          <li><strong>AI search:</strong> the source code as ChatGPT or Claude receive it on a direct fetch. No JavaScript. Whatever a script writes onto the page later is missing here.</li>
+          <li><strong>Structured data:</strong> what the page says about itself, in machine-readable form. Whether it arrives is covered below.</li>
+          <li><strong>Agent · tree:</strong> roles and names instead of layout. Browser agents like Playwright read through this tree, and screen readers depend on the same one.</li>
+          <li><strong>Agent · HTML:</strong> trimmed HTML, only the operable elements. More complete than the tree, and better or worse depending on the model.</li>
+          <li><strong>Agent briefing:</strong> llms.txt, a file meant to tell systems what this site is about.</li>
+        </ul>
 
-        <h2>What this proves, and what it does not</h2>
+        <p>The most important point: the big US assistants do not run JavaScript on a direct fetch. In one test a decoy phone number sat in the source code and the real one only appeared via script. ChatGPT and Claude reported the decoy. Three tests since late 2025 show the same picture; all three are single measurements. The route via a search index does render. Only the direct fetch does not.</p>
 
-        <p><strong>An element without an accessible name does not exist for an agent.</strong></p>
+        <h2>Why the tree matters</h2>
 
-        <p>Google puts it unusually plainly in its own developer documentation: agents rely on the accessibility tree as their primary data model. Lighthouse has checked this in a category of its own since late April 2026, in the default configuration since 7 May, still marked experimental and without a score from zero to a hundred. An icon button with no label produces neither role nor name. To any tree-based agent it is invisible. In the February survey of one million home pages, 30.6 percent have empty buttons, 51 percent are missing form field labels, and at field level 33.1 percent of fields are not labelled correctly.</p>
+        <p><strong>An element without a name does not exist for an agent.</strong></p>
 
-        <p><strong>What I am not claiming: that structure beats pixels.</strong></p>
+        <p>Google says it plainly: agents rely on the accessibility tree, the same tree screen readers use. Since spring 2026, Lighthouse even checks it in a category of its own. A button that consists only of an icon has no name in this tree. The agent can neither see it nor use it.</p>
 
-        <p>The findings diverge. On Mind2Web, textual element selection leads numbered screenshot markers by around 18 percentage points, while still using the screenshot for planning. On WebVoyager the multimodal variant wins by 19 points. What holds: numbered screenshot markers are no safe bet for web interfaces, Skyvern stopped rendering them by default in June 2026, and the serious tooling works through structure.</p>
+        <p>This is not an edge case. A survey of one million home pages found empty buttons on 30.6 percent, and on half of them form fields lack labels. The average website reads to an agent like a half-labelled form.</p>
 
-        <p>That an accessible page produces measurably better agent results is unproven. A number does circulate for it: agent success supposedly falls from 78 to 42 percent once a site's accessibility tree is degraded. The study behind it changed no website at all. It took the mouse away from the agent and made it work by keyboard alone. What was measured is how well an agent copes with restricted input, not how well a site is built. A study putting accessible pages against inaccessible ones is one I did not find. Since July 2026 there is at least a related experiment running two versions of the same site against each other, one built for humans, one for agents, 89.3 against 49.3 percent success. What varied there was machine clarity, not accessibility, and it is a self-built prototype. A pointer, not proof.</p>
+        <h2>What this page does not prove</h2>
 
-        <p><strong>Three more things this page does not prove.</strong></p>
+        <p><strong>Four claims are in circulation that this apparatus does not support.</strong></p>
 
-        <p><strong>First, that structured data creates visibility.</strong> The cleanest test compares 1,885 pages that added JSON-LD between August 2025 and March 2026 with 4,000 matched control pages. In ChatGPT and Google AI Mode the effect was indistinguishable from zero at plus 2.2 and plus 2.4 percent; in AI Overviews it was minus 4.6 percent and statistically significant. The authors caution that pages adding schema usually change other things at the same time and that the two cannot be separated in this data. So schema does no demonstrable harm. The expected benefit fails to appear all the same. Google now writes itself that generative search needs no special markup, while advising in the same paragraph to keep it for classic search. I leave the markup in place because it keeps the foundation clean. I am not promising an effect.</p>
+        <p><strong>That structure beats pixels.</strong> The studies disagree: sometimes the text-based variant wins clearly, sometimes the one with screenshots. What is certain is that the serious agent tools work through structure, not through screenshots.</p>
 
-        <p><strong>Second, that agents ask permission.</strong> Google, OpenAI, Perplexity and Meta list their user-triggered fetches in their own documentation as an explicit exception to <code>robots.txt</code>. Anthropic is the counter case, with a caveat: the commitment there covers all three bots in general, no exception for user-initiated fetches is stated, but <code>Claude-User</code> is not named specifically. Blocking AI crawlers in <code>robots.txt</code> blocks training and indexing. The agents keep going.</p>
+        <p><strong>That accessibility measurably helps agents.</strong> The number cited everywhere for this, success falling from 78 to 42 percent, comes from a study that did not change a single website. It took the mouse away from the agent. A real comparison of accessible versus inaccessible sites does not exist to this day. The link is plausible all the same: a first experiment with two versions of the same page, 89 versus 49 percent success, points that way. But it is a prototype.</p>
 
-        <p><strong>Third, that the rules are settled.</strong> The IETF has been working for over a year on a language that lets a website state what its content may and may not be used for. The draft defining the terms has carried a warning since April 2026: the working group does not agree on its contents. The second draft, the one governing how a site actually transmits those statements, expired in May because nobody renewed it. Cloudflare meanwhile uses a technically incompatible vocabulary that it submitted to the IETF itself, without success. After fifteen months of working group there is no standard.</p>
+        <p><strong>That structured data creates visibility.</strong> The cleanest test so far compared almost 2,000 pages after they added JSON-LD with matched control pages. Result: no measurable effect in ChatGPT and Google's AI mode, a slightly negative one in AI Overviews. I keep the markup anyway, because it keeps the foundation clean. I do not promise myself an effect from it.</p>
 
-        <p>On <code>llms.txt</code>, in my own case. It is here because it exists. That says nothing about its effect. A server log analysis across 137,210 domains shows that 97 percent of these files received no request at all in May 2026. A second study of nearly 300,000 domains finds no relationship with AI citations, though only 10.1 percent of those domains had a file at all. The format was invented against a context problem: context windows are too small for whole websites. Developer documentation is the first example in the specification, alongside company structure, legislation, CVs. Search engines, visibility and being cited appear nowhere in it. Where the file demonstrably works, it works modestly: in vendor Mintlify’s own benchmark, misses on non-existent addresses dropped from 1.42 to 0.11 per task. Accuracy stayed the same. Time was gained, nothing else.</p>
+        <p><strong>That there are rules everyone follows.</strong> Google, OpenAI, Perplexity, and Meta explicitly exempt their user-triggered fetches from robots.txt; Anthropic is the exception. Blocking AI crawlers blocks training and search. The agents keep running. And the standard meant to settle this has been stuck in a working group for over a year.</p>
 
-        <p>This website is the easiest case imaginable, of course. Five pages, static, hand-written JSON-LD, no CMS, no legacy, a single script. On a grown brand site with a tag manager, a consent layer and three agencies involved, the right-hand column would look different. That is where the actual point sits: what can be done by hand here becomes a question of ownership and process there.</p>
+        <p>As for this site's own llms.txt: it is here because it exists. 97 percent of these files get not a single request, server logs across 137,000 domains show. The format was invented for tool documentation, not for visibility. Where it demonstrably works, it saves agents time. Nothing more.</p>
 
-        <p><strong>The honest remainder.</strong> Clean structure is the entry ticket. Nothing more. My own measurement series shows it. The question about the person is answered by all three tested systems with this website as the primary source. The recommendation question, who to hire for this topic, is answered by none of them with my name. Single measurements vary a lot and what counts is the trend over months. Between those two findings, though, there is no technical problem. What sits there is the question of what third parties write.</p>
+        <h2>The easiest case</h2>
+
+        <p><strong>This website is the easiest case there is.</strong></p>
+
+        <p>Five pages, static, no CMS, a single script. On a grown brand site with a tag manager, a consent layer, and three agencies involved, the right-hand column would look different. What is handcraft here becomes a question of ownership and process there.</p>
+
+        <p>And clean structure is only the entry ticket. My own measurements show both sides: ask about me, and this website is the primary source. Ask whom to hire for this topic, and my name does not come up. Between those two results lies no technical problem. What lies there is what third parties write.</p>
 
         <h2>How the apparatus works</h2>
 
-        <p><strong>Everything happens in the browser, no server, no dependencies.</strong></p>
+        <p><strong>Everything happens in the browser, no server.</strong></p>
 
-        <p>The left side is the real page, loaded in a frame. The apparatus reads its JSON-LD straight from the document and fetches <code>llms.txt</code> over the normal network interface. Both can be checked: open the source, find the same data. The mapping between text and machine statement comes from text matching, which is why it is fuzzy at the edges. The tree and DOM views are reproductions of the formats emitted by Playwright MCP and Stagehand. Roles and names are computed by this apparatus itself, and the element numbers are sequential. Real agents use the browser’s internal node IDs.</p>
+        <p>On the left sits the real page, loaded in a frame. The apparatus reads its source, its JSON-LD, and the llms.txt, and sets them against the five views. The tree and HTML views are reproductions of the formats used by Playwright and Stagehand. The mapping between left and right comes from text matching and is fuzzy at the edges. To verify: open the source, find the same data.</p>
 
         <p>Terms from this text: <a href="/en/glossary.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">To the overview →</a> · Context: <a href="machine-readable-brands.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Machine Readable Brands</a></p>
 

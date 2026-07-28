@@ -273,7 +273,7 @@
       <section class="article-body">
         <p><strong>Links steht eine Seite dieser Website, wie ein Mensch sie sieht. Rechts dieselbe Seite, wie Maschinen sie verarbeiten. Nichts davon ist nachgebaut. Der Apparat öffnet die Seite, liest ihren Quelltext und zeigt, was übrig bleibt.</strong></p>
 
-        <p>Beim Überfahren einer Zeile rechts wird die zugehörige Stelle links markiert. Und umgekehrt. Was auf der anderen Seite keine Entsprechung hat, bleibt ungekoppelt. Diese Lücke ist der eigentliche Gegenstand.</p>
+        <p>Beim Überfahren einer Zeile rechts wird die zugehörige Stelle links markiert. Und umgekehrt. Manches leuchtet nie, weil es auf der anderen Seite gar nicht ankommt. Genau um diese Stellen geht es.</p>
       </section>
     </article>
 
@@ -349,45 +349,53 @@
 
         <h2>Was hier zu sehen ist</h2>
 
-        <p><strong>Fünf Ansichten, fünf Formate. Ob eine Seite maschinenlesbar ist, hängt davon ab, welche Maschine liest.</strong></p>
+        <p><strong>Fünf Ansichten, fünf Arten zu lesen. Ob eine Seite maschinenlesbar ist, hängt davon ab, welche Maschine liest.</strong></p>
 
-        <p>→ <strong>KI-Suche, roh.</strong> Was ChatGPT und Claude beim direkten, nutzerausgelösten Abruf bekommen: unausgeführtes HTML. Drei unabhängige Tests seit November 2025 kommen zum selben Ergebnis. Im jüngsten stand eine Köder-Telefonnummer im Quelltext, die echte war nur über JavaScript erreichbar. Alle getesteten US-Assistenten meldeten die Köder-Nummer. DeepSeek, Qwen und Mistral lieferten die echte. Technisch geht es also, die US-Anbieter tun es nur nicht. Für Perplexity ist die Lage dünner, dort scheiterte einer der Tests, und alle drei sind Momentaufnahmen mit einem Durchlauf je System. Dokumentiert hat es von den Anbietern nur Anthropic. OpenAI und Perplexity äußern sich zum Rendering überhaupt nicht. Und eine Unterscheidung, die fast überall fehlt: Der Direkt-Abruf rendert nicht, der Weg über einen Suchindex sehr wohl.<br>
-        → <strong>Strukturierte Daten.</strong> Was diese Seite anbietet. Ob es ankommt, steht weiter unten.<br>
-        → <strong>Accessibility-Tree.</strong> Playwright MCP und Chrome DevTools MCP geben dem Modell genau diesen Baum, also Rollen und Namen statt Layout. Denselben Baum brauchen Screenreader. Andere mischen. Stagehand nennt seine Momentaufnahme im Quellcode hybrid aus DOM und Baum, browser-use serialisiert primär den DOM. Alle vier verzichten auf Pixel, beim Rest gehen sie auseinander.<br>
-        → <strong>DOM.</strong> Getrimmtes HTML mit injizierten Element-IDs. Vollständiger, und je nach Modell besser oder schlechter.<br>
-        → <strong>Agenten-Briefing.</strong> Eine Datei, die Systemen sagen soll, worum es hier geht.</p>
+        <ul>
+          <li><strong>KI-Suche:</strong> der Quelltext, so wie ChatGPT oder Claude ihn beim direkten Abruf bekommen. Ohne JavaScript. Was erst ein Skript auf die Seite schreibt, fehlt hier.</li>
+          <li><strong>Strukturierte Daten:</strong> das, was die Seite über sich selbst sagt, in maschinenlesbarer Form. Ob es ankommt, steht weiter unten.</li>
+          <li><strong>Agent · Baum:</strong> Rollen und Namen statt Layout. Über diesen Baum lesen Browser-Agenten wie Playwright, und auf denselben Baum sind Screenreader angewiesen.</li>
+          <li><strong>Agent · HTML:</strong> gekürztes HTML, nur die bedienbaren Elemente. Vollständiger als der Baum, und je nach Modell besser oder schlechter.</li>
+          <li><strong>Agenten-Briefing:</strong> die llms.txt, eine Datei, die Systemen sagen soll, worum es auf dieser Website geht.</li>
+        </ul>
 
-        <h2>Was das belegt, und was nicht</h2>
+        <p>Der wichtigste Punkt dabei: Die großen US-Assistenten führen beim direkten Abruf kein JavaScript aus. In einem Test stand eine falsche Telefonnummer im Quelltext, die echte kam erst per Skript auf die Seite. ChatGPT und Claude meldeten die falsche. Drei Tests seit Ende 2025 zeigen dasselbe Bild, alle drei sind Einzelmessungen. Der Weg über den Suchindex rendert dagegen sehr wohl, nur der Direkt-Abruf nicht.</p>
 
-        <p><strong>Ein Element ohne zugänglichen Namen existiert für einen Agenten nicht.</strong></p>
+        <h2>Warum der Baum zählt</h2>
 
-        <p>Google schreibt es in der eigenen Entwicklerdokumentation ungewöhnlich direkt: Agenten stützen sich auf den Accessibility-Tree als primäres Datenmodell. Lighthouse prüft das seit Ende April 2026 in einer eigenen Kategorie, seit dem 7. Mai in der Standardkonfiguration, weiterhin als experimentell gekennzeichnet und ohne Note von null bis hundert. Ein Symbol-Button ohne Beschriftung erzeugt weder Rolle noch Namen. Für jeden Agenten, der über diesen Baum liest, ist er unsichtbar. Nach der Februar-Erhebung über eine Million Startseiten haben 30,6 Prozent leere Buttons, auf 51 Prozent fehlen Formularfeld-Beschriftungen, und auf Feldebene sind 33,1 Prozent der Felder nicht korrekt beschriftet.</p>
+        <p><strong>Ein Element ohne Namen existiert für einen Agenten nicht.</strong></p>
 
-        <p><strong>Was ich nicht behaupte: dass Struktur die Pixel schlägt.</strong></p>
+        <p>Google schreibt es selbst: Agenten stützen sich auf den Accessibility-Tree, denselben Baum, den Screenreader nutzen. Seit Frühjahr 2026 prüft Lighthouse das sogar in einer eigenen Kategorie. Ein Button, der nur aus einem Symbol besteht, hat in diesem Baum keinen Namen. Der Agent kann ihn weder sehen noch benutzen.</p>
 
-        <p>Die Befunde gehen auseinander. Auf Mind2Web liegt die textuelle Element-Auswahl rund 18 Prozentpunkte vor den nummerierten Screenshot-Markierungen, nutzt den Screenshot aber weiter zur Planung. Auf WebVoyager gewinnt umgekehrt die multimodale Variante, um 19 Prozentpunkte. Festhalten lässt sich: Nummerierte Screenshot-Markierungen sind für Weboberflächen kein sicherer Gewinn, Skyvern rendert sie seit Juni 2026 standardmäßig nicht mehr, und das ernstzunehmende Werkzeug arbeitet über die Struktur.</p>
+        <p>Das ist kein Randproblem. Eine Erhebung über eine Million Startseiten fand auf 30,6 Prozent leere Buttons, und auf der Hälfte fehlen Beschriftungen an Formularfeldern. Die durchschnittliche Website liest sich für einen Agenten wie ein halb beschriftetes Formular.</p>
 
-        <p>Dass eine barrierefreie Seite messbar bessere Agenten-Ergebnisse liefert, ist dagegen unbelegt. Eine Zahl kursiert dafür trotzdem: Der Erfolg von Agenten falle von 78 auf 42 Prozent, sobald der Accessibility-Baum einer Website beschädigt sei. Die Untersuchung dahinter hat aber keine einzige Website verändert. Sie hat dem Agenten die Maus weggenommen und ihn nur mit der Tastatur arbeiten lassen. Gemessen wurde also, wie gut ein Agent mit eingeschränkter Bedienung zurechtkommt, nicht wie gut eine Website gebaut ist. Eine Studie, die barrierefreie gegen nicht barrierefreie Seiten stellt, habe ich nicht gefunden. Seit Juli 2026 gibt es immerhin einen verwandten Versuch mit zwei Fassungen derselben Website, einer für Menschen, einer für Agenten, 89,3 gegen 49,3 Prozent Erfolg. Variiert wurde dort die maschinelle Klarheit, nicht die Barrierefreiheit, und es ist ein selbstgebauter Prototyp. Ein Fingerzeig, kein Beweis.</p>
+        <h2>Was diese Seite nicht beweist</h2>
 
-        <p><strong>Drei weitere Dinge belegt diese Seite nicht.</strong></p>
+        <p><strong>Vier Behauptungen kursieren, die dieser Apparat nicht stützt.</strong></p>
 
-        <p><strong>Erstens, dass strukturierte Daten Sichtbarkeit erzeugen.</strong> Der sauberste Test vergleicht 1.885 Seiten, die zwischen August 2025 und März 2026 JSON-LD ergänzt haben, mit 4.000 gepaarten Kontrollseiten. In ChatGPT und im Google-AI-Modus war der Effekt mit plus 2,2 und plus 2,4 Prozent nicht von null zu unterscheiden, in den AI Overviews lag er bei minus 4,6 Prozent und war statistisch signifikant. Die Autoren schränken ein, dass Seiten beim Schema-Einbau meist gleichzeitig anderes ändern und sich das nicht trennen lässt. Schema schadet also nicht nachweislich. Der erwartete Nutzen bleibt trotzdem aus. Google schreibt inzwischen selbst, für generative Suche seien keine besonderen Auszeichnungen nötig, rät im selben Absatz aber dazu, sie für die klassische Suche weiter zu pflegen. Ich lasse das Markup liegen, weil es das Fundament sauber hält. Einen Effekt verspreche ich damit nicht.</p>
+        <p><strong>Dass Struktur die Pixel schlägt.</strong> Die Studien widersprechen sich: Mal gewinnt die Text-Variante deutlich, mal die mit Screenshots. Sicher ist nur, dass die ernstzunehmenden Agenten-Werkzeuge über die Struktur arbeiten, nicht über Bildschirmfotos.</p>
 
-        <p><strong>Zweitens, dass Agenten fragen, ob sie dürfen.</strong> Google, OpenAI, Perplexity und Meta führen ihre nutzergetriebenen Abrufe in der eigenen Dokumentation ausdrücklich als Ausnahme von <code>robots.txt</code>. Anthropic ist der Gegenfall, mit einer Einschränkung: Die Zusage gilt dort pauschal für alle drei Bots, eine Ausnahme für nutzerinitiierte Abrufe fehlt, <code>Claude-User</code> wird aber nicht eigens genannt. Wer KI-Crawler in der <code>robots.txt</code> blockiert, blockiert Training und Index. Die Agenten laufen weiter.</p>
+        <p><strong>Dass Barrierefreiheit Agenten messbar hilft.</strong> Die Zahl, die dafür überall zitiert wird, Erfolg fällt von 78 auf 42 Prozent, stammt aus einer Studie, die keine einzige Website verändert hat. Sie hat dem Agenten die Maus weggenommen. Ein echter Vergleich barrierefrei gegen nicht barrierefrei fehlt bis heute. Plausibel ist der Zusammenhang trotzdem: Ein erster Versuch mit zwei Fassungen derselben Seite, 89 gegen 49 Prozent Erfolg, deutet dahin. Es ist aber ein Prototyp.</p>
 
-        <p><strong>Drittens, dass die Regeln stehen.</strong> Bei der IETF wird seit über einem Jahr an einer Sprache gearbeitet, mit der eine Website sagen kann, wofür ihre Inhalte verwendet werden dürfen und wofür nicht. Der Entwurf, der die Begriffe festlegt, trägt seit April 2026 einen Warnhinweis: Die Arbeitsgruppe ist sich über den Inhalt nicht einig. Der zweite Entwurf, der regelt, wie eine Website diese Angaben überhaupt mitschickt, ist im Mai abgelaufen, weil ihn niemand erneuert hat. Cloudflare benutzt derweil ein technisch unvereinbares Vokabular, das es selbst erfolglos bei der IETF eingereicht hat. Nach fünfzehn Monaten Arbeitsgruppe steht kein Standard.</p>
+        <p><strong>Dass strukturierte Daten sichtbar machen.</strong> Der bisher sauberste Test verglich fast 2.000 Seiten nach dem Einbau von JSON-LD mit Kontrollseiten. Ergebnis: kein messbarer Effekt in ChatGPT und im Google-AI-Modus, ein leicht negativer in den AI Overviews. Ich pflege das Markup trotzdem, weil es das Fundament sauber hält. Einen Effekt verspreche ich mir davon nicht.</p>
 
-        <p>Zur <code>llms.txt</code> in eigener Sache. Sie steht hier, weil es sie gibt. Über ihre Wirkung sagt das nichts. Eine Server-Log-Auswertung über 137.210 Domains zeigt, dass 97 Prozent dieser Dateien im Mai 2026 keinen einzigen Zugriff bekamen. Eine zweite Untersuchung über knapp 300.000 Domains findet keinen Zusammenhang mit KI-Zitaten, dort hatten allerdings nur 10,1 Prozent überhaupt eine Datei. Erfunden wurde das Format gegen ein Kontextproblem: Kontextfenster sind zu klein für ganze Websites. Entwicklerdokumentation ist das erste Beispiel in der Spezifikation, daneben stehen Unternehmensstruktur, Gesetzestexte, Lebensläufe. Suchmaschinen, Sichtbarkeit und Zitiertwerden kommen dort an keiner Stelle vor. Wo die Datei nachweislich wirkt, wirkt sie bescheiden: Im Benchmark des Anbieters Mintlify sanken die Fehlgriffe auf nicht existierende Adressen von 1,42 auf 0,11 je Aufgabe. Die Trefferquote blieb gleich. Gewonnen wurde Zeit, sonst nichts.</p>
+        <p><strong>Dass es Regeln gibt, an die sich alle halten.</strong> Google, OpenAI, Perplexity und Meta nehmen ihre nutzerausgelösten Abrufe ausdrücklich von der robots.txt aus, Anthropic ist die Ausnahme. Wer KI-Crawler blockiert, blockiert Training und Suche. Die Agenten laufen weiter. Und der Standard, der das regeln soll, hängt seit über einem Jahr in der Arbeitsgruppe fest.</p>
 
-        <p>Diese Website ist dabei der leichteste denkbare Fall. Fünf Seiten, statisch, handgeschriebenes JSON-LD, kein Redaktionssystem, keine Altlast, ein einziges Skript. Bei einer gewachsenen Marken-Site mit Tag-Manager, Consent-Schicht und drei beteiligten Agenturen sähe die rechte Spalte anders aus. Darin liegt der eigentliche Punkt: Was hier von Hand zu machen ist, wird dort eine Frage von Zuständigkeit und Prozess.</p>
+        <p>Zur llms.txt in eigener Sache: Sie liegt hier, weil es sie gibt. 97 Prozent dieser Dateien bekommen keinen einzigen Zugriff, das zeigen Server-Logs über 137.000 Domains. Erfunden wurde das Format für Werkzeug-Dokumentation, nicht für Sichtbarkeit. Wo es nachweislich wirkt, spart es Agenten Zeit. Mehr nicht.</p>
 
-        <p><strong>Der ehrliche Rest.</strong> Saubere Struktur ist die Eintrittskarte. Mehr nicht. Meine eigene Messreihe zeigt das. Die Frage nach der Person beantworten alle drei getesteten Systeme mit dieser Website als Hauptquelle. Die Empfehlungsfrage, wen man für dieses Thema beauftragen sollte, beantwortet keines mit meinem Namen. Einzelmessungen schwanken stark, es zählt der Trend über Monate. Zwischen beiden Befunden liegt aber kein technisches Problem. Da liegt die Frage, was Dritte über einen schreiben.</p>
+        <h2>Der leichteste Fall</h2>
+
+        <p><strong>Diese Website ist der einfachste Fall, den es gibt.</strong></p>
+
+        <p>Fünf Seiten, statisch, kein Redaktionssystem, ein einziges Skript. Bei einer gewachsenen Marken-Site mit Tag-Manager, Consent-Schicht und drei beteiligten Agenturen sähe die rechte Spalte anders aus. Was hier Handarbeit ist, wird dort eine Frage von Zuständigkeit und Prozess.</p>
+
+        <p>Und saubere Struktur ist nur die Eintrittskarte. Meine eigene Messreihe zeigt beides: Wer nach mir fragt, bekommt diese Website als Hauptquelle. Wer fragt, wen man für das Thema beauftragen sollte, bekommt meinen Namen nicht. Dazwischen liegt kein technisches Problem. Dazwischen liegt, was Dritte über einen schreiben.</p>
 
         <h2>Wie der Apparat arbeitet</h2>
 
-        <p><strong>Alles passiert im Browser, ohne Server, ohne Abhängigkeiten.</strong></p>
+        <p><strong>Alles passiert im Browser, ohne Server.</strong></p>
 
-        <p>Die linke Seite ist die echte Seite, in einem Rahmen geladen. Der Apparat liest ihr JSON-LD direkt aus dem Dokument und holt <code>llms.txt</code> über die normale Netzwerkschnittstelle. Beides lässt sich nachsehen: Quelltext öffnen, dieselben Daten finden. Die Zuordnung zwischen Text und Maschinen-Aussage entsteht durch Textabgleich, deshalb ist sie an den Rändern unscharf. Baum- und DOM-Ansicht sind Nachbildungen der Formate von Playwright MCP und Stagehand. Rollen und Namen berechnet dieser Apparat selbst, die Element-Nummern sind fortlaufend vergeben. Echte Agenten verwenden die internen Knoten-IDs des Browsers.</p>
+        <p>Links liegt die echte Seite, in einem Rahmen geladen. Der Apparat liest ihren Quelltext, ihr JSON-LD und die llms.txt und stellt sie den fünf Ansichten gegenüber. Baum- und HTML-Ansicht sind Nachbildungen der Formate von Playwright und Stagehand. Die Zuordnung zwischen links und rechts entsteht durch Textabgleich und ist an den Rändern unscharf. Wer es prüfen will: Quelltext öffnen, dieselben Daten finden.</p>
 
         <p>Begriffe aus diesem Text: <a href="/begriffe.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Zur Übersicht →</a> · Einordnung: <a href="machine-readable-brands.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Machine Readable Brands</a></p>
 
