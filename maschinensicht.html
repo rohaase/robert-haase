@@ -353,35 +353,41 @@
 
         <ul>
           <li><strong>KI-Suche:</strong> der Quelltext, so wie ChatGPT oder Claude ihn beim direkten Abruf bekommen. Ohne JavaScript. Was erst ein Skript auf die Seite schreibt, fehlt hier.</li>
-          <li><strong>Strukturierte Daten:</strong> das, was die Seite über sich selbst sagt, in maschinenlesbarer Form. Ob es ankommt, steht weiter unten.</li>
-          <li><strong>Agent · Baum:</strong> Rollen und Namen statt Layout. Über diesen Baum lesen Browser-Agenten wie Playwright, und auf denselben Baum sind Screenreader angewiesen.</li>
+          <li><strong>Strukturierte Daten:</strong> das, was die Seite über sich selbst sagt, in maschinenlesbarer Form. Ob das etwas bringt, steht weiter unten.</li>
+          <li><strong>Agent · Baum:</strong> Rollen und Namen statt Layout. So lesen Browser-Agenten, also Programme, die einen Browser fernsteuern und Aufgaben erledigen. Auf denselben Baum sind Screenreader angewiesen.</li>
           <li><strong>Agent · HTML:</strong> gekürztes HTML, nur die bedienbaren Elemente. Vollständiger als der Baum, und je nach Modell besser oder schlechter.</li>
-          <li><strong>Agenten-Briefing:</strong> die llms.txt, eine Datei, die Systemen sagen soll, worum es auf dieser Website geht.</li>
+          <li><strong>Agenten-Briefing:</strong> die llms.txt, eine Datei, die KI-Systemen sagen soll, worum es auf dieser Website geht. Ob sie überhaupt gelesen wird, dazu unten mehr.</li>
         </ul>
 
         <p>Der wichtigste Punkt dabei: Die großen US-Assistenten führen beim direkten Abruf kein JavaScript aus. In einem Test stand eine falsche Telefonnummer im Quelltext, die echte kam erst per Skript auf die Seite. ChatGPT und Claude meldeten die falsche. Drei Tests seit Ende 2025 zeigen dasselbe Bild, alle drei sind Einzelmessungen. Der Weg über den Suchindex rendert dagegen sehr wohl, nur der Direkt-Abruf nicht.</p>
+
+        <h2>Wie der Apparat arbeitet</h2>
+
+        <p><strong>Alles passiert im Browser, ohne Server.</strong></p>
+
+        <p>Links liegt die echte Seite, in einem Rahmen geladen. Der Apparat liest ihren Quelltext, ihre strukturierten Daten und die llms.txt und stellt sie den fünf Ansichten gegenüber. Baum- und HTML-Ansicht sind Nachbildungen der Formate von Playwright und Stagehand, den verbreitetsten Werkzeugen, mit denen Browser-Agenten gebaut werden. Die Zuordnung zwischen links und rechts entsteht durch Textabgleich und ist an den Rändern unscharf. Wer es prüfen will: Quelltext öffnen, dieselben Daten finden.</p>
 
         <h2>Warum der Baum zählt</h2>
 
         <p><strong>Ein Element ohne Namen existiert für einen Agenten nicht.</strong></p>
 
-        <p>Google schreibt es selbst: Agenten stützen sich auf den Accessibility-Tree, denselben Baum, den Screenreader nutzen. Seit Frühjahr 2026 prüft Lighthouse das sogar in einer eigenen Kategorie. Ein Button, der nur aus einem Symbol besteht, hat in diesem Baum keinen Namen. Der Agent kann ihn weder sehen noch benutzen.</p>
+        <p>Google schreibt es selbst: Agenten stützen sich auf den Accessibility-Baum, denselben Baum, den Screenreader nutzen. Seit Frühjahr 2026 prüft Lighthouse, Googles Prüfwerkzeug für Websites, das in einer eigenen Kategorie. Ein Button, der nur aus einem Symbol besteht, hat in diesem Baum keinen Namen. Der Agent kann ihn weder sehen noch benutzen.</p>
 
         <p>Das ist kein Randproblem. Eine Erhebung über eine Million Startseiten fand auf 30,6 Prozent leere Buttons, und auf der Hälfte fehlen Beschriftungen an Formularfeldern. Die durchschnittliche Website liest sich für einen Agenten wie ein halb beschriftetes Formular.</p>
 
-        <h2>Was diese Seite nicht beweist</h2>
+        <h2>Beobachtungen, keine Beweise</h2>
 
-        <p><strong>Vier Behauptungen kursieren, die dieser Apparat nicht stützt.</strong></p>
+        <p><strong>Vier Behauptungen kursieren zu diesem Thema. Keine ist so solide, wie sie klingt.</strong></p>
 
-        <p><strong>Dass Struktur die Pixel schlägt.</strong> Die Studien widersprechen sich: Mal gewinnt die Text-Variante deutlich, mal die mit Screenshots. Sicher ist nur, dass die ernstzunehmenden Agenten-Werkzeuge über die Struktur arbeiten, nicht über Bildschirmfotos.</p>
+        <p><strong>Struktur schlägt Pixel?</strong> Die Studien widersprechen sich: Mal gewinnt die Text-Variante deutlich, mal die mit Screenshots. Sicher ist nur, dass die ernstzunehmenden Agenten-Werkzeuge über die Struktur arbeiten, nicht über Bildschirmfotos.</p>
 
-        <p><strong>Dass Barrierefreiheit Agenten messbar hilft.</strong> Die Zahl, die dafür überall zitiert wird, Erfolg fällt von 78 auf 42 Prozent, stammt aus einer Studie, die keine einzige Website verändert hat. Sie hat dem Agenten die Maus weggenommen. Ein echter Vergleich barrierefrei gegen nicht barrierefrei fehlt bis heute. Plausibel ist der Zusammenhang trotzdem: Ein erster Versuch mit zwei Fassungen derselben Seite, 89 gegen 49 Prozent Erfolg, deutet dahin. Es ist aber ein Prototyp.</p>
+        <p><strong>Barrierefreiheit hilft Agenten?</strong> Die Zahl, die dafür überall zitiert wird, Erfolg fällt von 78 auf 42 Prozent, stammt aus einer Studie, die keine einzige Website verändert hat. Sie hat dem Agenten die Maus weggenommen. Ein echter Vergleich barrierefrei gegen nicht barrierefrei fehlt bis heute, genau den baue ich gerade parallel zu dieser Seite auf. Das Ergebnis erscheint hier, wie auch immer es ausfällt. Plausibel ist der Zusammenhang schon jetzt: Ein erster Versuch mit zwei Fassungen derselben Seite, 89 gegen 49 Prozent Erfolg, deutet dahin. Es ist aber ein Prototyp.</p>
 
-        <p><strong>Dass strukturierte Daten sichtbar machen.</strong> Der bisher sauberste Test verglich fast 2.000 Seiten nach dem Einbau von JSON-LD mit Kontrollseiten. Ergebnis: kein messbarer Effekt in ChatGPT und im Google-AI-Modus, ein leicht negativer in den AI Overviews. Ich pflege das Markup trotzdem, weil es das Fundament sauber hält. Einen Effekt verspreche ich mir davon nicht.</p>
+        <p><strong>Strukturierte Daten machen sichtbar?</strong> Der bisher sauberste Test verglich fast 2.000 Seiten nach dem Einbau von JSON-LD mit Kontrollseiten. Ergebnis: kein messbarer Effekt in ChatGPT und im Google-AI-Modus, ein leicht negativer in den AI Overviews. Ich pflege das Markup trotzdem, weil es das Fundament sauber hält. Einen Effekt verspreche ich mir davon nicht.</p>
 
-        <p><strong>Dass es Regeln gibt, an die sich alle halten.</strong> Google, OpenAI, Perplexity und Meta nehmen ihre nutzerausgelösten Abrufe ausdrücklich von der robots.txt aus, Anthropic ist die Ausnahme. Wer KI-Crawler blockiert, blockiert Training und Suche. Die Agenten laufen weiter. Und der Standard, der das regeln soll, hängt seit über einem Jahr in der Arbeitsgruppe fest.</p>
+        <p><strong>Es gibt Regeln, an die sich alle halten?</strong> Google, OpenAI, Perplexity und Meta nehmen ihre nutzerausgelösten Abrufe ausdrücklich von der robots.txt aus, Anthropic ist die Ausnahme. Wer KI-Crawler blockiert, blockiert Training und Suche. Die Agenten laufen weiter. Und der Standard, der das regeln soll, hängt seit über einem Jahr in der Arbeitsgruppe fest.</p>
 
-        <p>Zur llms.txt in eigener Sache: Sie liegt hier, weil es sie gibt. 97 Prozent dieser Dateien bekommen keinen einzigen Zugriff, das zeigen Server-Logs über 137.000 Domains. Erfunden wurde das Format für Werkzeug-Dokumentation, nicht für Sichtbarkeit. Wo es nachweislich wirkt, spart es Agenten Zeit. Mehr nicht.</p>
+        <p>Und die angekündigte Auflösung zur llms.txt: Sie liegt hier, weil es sie gibt. 97 Prozent dieser Dateien bekommen keinen einzigen Zugriff, das zeigen Server-Logs über 137.000 Domains. Erfunden wurde das Format für Werkzeug-Dokumentation, nicht für Sichtbarkeit. Wo es nachweislich wirkt, spart es Agenten Zeit. Mehr nicht.</p>
 
         <h2>Der leichteste Fall</h2>
 
@@ -391,13 +397,40 @@
 
         <p>Und saubere Struktur ist nur die Eintrittskarte. Meine eigene Messreihe zeigt beides: Wer nach mir fragt, bekommt diese Website als Hauptquelle. Wer fragt, wen man für das Thema beauftragen sollte, bekommt meinen Namen nicht. Dazwischen liegt kein technisches Problem. Dazwischen liegt, was Dritte über einen schreiben.</p>
 
-        <h2>Wie der Apparat arbeitet</h2>
+        <h2>Quellen</h2>
 
-        <p><strong>Alles passiert im Browser, ohne Server.</strong></p>
+        <p>Die Zahlen aus diesem Text, jeweils mit Beleg:</p>
 
-        <p>Links liegt die echte Seite, in einem Rahmen geladen. Der Apparat liest ihren Quelltext, ihr JSON-LD und die llms.txt und stellt sie den fünf Ansichten gegenüber. Baum- und HTML-Ansicht sind Nachbildungen der Formate von Playwright und Stagehand. Die Zuordnung zwischen links und rechts entsteht durch Textabgleich und ist an den Rändern unscharf. Wer es prüfen will: Quelltext öffnen, dieselben Daten finden.</p>
+        <ul>
+          <li><strong>JavaScript beim Direkt-Abruf:</strong> drei Tests, <a href="https://www.searchviu.com/en/schema-markup-and-ai-in-2025-what-chatgpt-claude-perplexity-gemini-really-see/">searchviu</a> (2025), <a href="https://think.resoneo.com/sentinel/geo-llm-crawler-report.html">Resoneo</a> (2026) und <a href="https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test">Search Engine World</a> (2026, der Test mit der Köder-Telefonnummer).</li>
+          <li><strong>Agenten lesen den Baum:</strong> <a href="https://developers.google.com/crawling/docs/crawlers-fetchers/google-agent">Google über den eigenen Agenten</a> und die <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring">Lighthouse-Kategorie „Agentic Browsing"</a>.</li>
+          <li><strong>30,6 Prozent leere Buttons:</strong> <a href="https://webaim.org/projects/million/">WebAIM Million 2026</a>, eine Erhebung über eine Million Startseiten.</li>
+          <li><strong>78 auf 42 Prozent:</strong> <a href="https://arxiv.org/abs/2602.09310">A11y-CUA</a> (CHI 2026). Die Studie verändert die Bedienung des Agenten, nicht die Websites.</li>
+          <li><strong>89 gegen 49 Prozent:</strong> <a href="https://arxiv.org/abs/2607.12056">Designing Agent-Ready Websites</a> (2026), Prototyp mit zwei Fassungen derselben Seite.</li>
+          <li><strong>JSON-LD-Test:</strong> <a href="https://ahrefs.com/blog/schema-ai-citations/">Ahrefs</a> (2026), 1.885 Seiten gegen 4.000 Kontrollseiten.</li>
+          <li><strong>Der feststeckende Standard:</strong> die <a href="https://datatracker.ietf.org/wg/aipref/about/">IETF-Arbeitsgruppe AIPREF</a>.</li>
+          <li><strong>97 Prozent ohne Zugriff:</strong> <a href="https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/">PPC Land</a> (2026), Server-Logs über 137.000 Domains.</li>
+        </ul>
 
-        <p>Begriffe aus diesem Text: <a href="/begriffe.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Zur Übersicht →</a> · Einordnung: <a href="machine-readable-brands.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Machine Readable Brands</a></p>
+        <h2>Kleines Glossar</h2>
+
+        <p>Die technischen Begriffe aus diesem Text, je in einem Satz:</p>
+
+        <ul>
+          <li><strong>Accessibility-Baum:</strong> die Struktur, die der Browser aus jeder Seite errechnet: alle Elemente mit Rolle und Name, ohne Layout. Grundlage für Screenreader und Agenten.</li>
+          <li><strong>Browser-Agent:</strong> Software, die einen Browser bedient wie ein Mensch: liest, klickt, tippt und erledigt Aufträge.</li>
+          <li><strong>Crawler:</strong> Programm, das Websites automatisch abruft, etwa für einen Suchindex oder für KI-Training.</li>
+          <li><strong>JSON-LD:</strong> unsichtbarer Block im Quelltext, in dem eine Seite in Datenform über sich Auskunft gibt: wer, was, wann. Die „strukturierten Daten" aus diesem Text.</li>
+          <li><strong>Lighthouse:</strong> Googles Prüfwerkzeug für Websites, in den Chrome-Browser eingebaut.</li>
+          <li><strong>llms.txt:</strong> Textdatei an fester Adresse, die KI-Systemen in Kurzform sagen soll, worum es auf einer Website geht.</li>
+          <li><strong>Playwright:</strong> das verbreitetste Werkzeug, mit dem Programme einen Browser fernsteuern. Viele Browser-Agenten bauen darauf auf.</li>
+          <li><strong>Quelltext:</strong> der HTML-Text, den der Server ausliefert, bevor der Browser etwas daraus macht.</li>
+          <li><strong>robots.txt:</strong> Textdatei, in der eine Website festlegt, welche Crawler zugreifen dürfen. Eine Konvention, kein Gesetz.</li>
+          <li><strong>Screenreader:</strong> Software, die eine Seite vorliest, für blinde und sehbehinderte Menschen.</li>
+          <li><strong>Stagehand:</strong> ein neueres Werkzeug derselben Art wie Playwright, speziell für KI-Agenten gebaut.</li>
+        </ul>
+
+        <p>Eigene Begriffe im Überblick: <a href="/begriffe.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Zur Übersicht →</a> · Einordnung: <a href="machine-readable-brands.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Machine Readable Brands</a></p>
 
       </section>
 
