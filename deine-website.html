@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deine Website mit Claude Code</title>
+  <meta name="description" content="Anleitung: eine persönliche Website mit GitHub Pages und Claude Code aufsetzen.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='1' y='1' width='14' height='14' rx='3' fill='%23347d5e'/></svg>">
+  <style>
+    :root {
+      --bg: #fbfbf9;
+      --text: #1f1f1d;
+      --muted: #6c6b66;
+      --accent: #2a6f53;
+      --border: #e4e2db;
+      --block: #f1f0ea;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #151514;
+        --text: #e8e6e1;
+        --muted: #9d9b93;
+        --accent: #7fc4a5;
+        --border: #2c2b28;
+        --block: #1e1e1c;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+      margin: 0 0 0.5rem;
+    }
+    h2 {
+      font-size: 1.3rem;
+      margin: 2.75rem 0 0.75rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+    h3 { font-size: 1.05rem; margin: 1.75rem 0 0.5rem; }
+    p { margin: 0 0 1rem; }
+    a { color: var(--accent); }
+    ol, ul { padding-left: 1.4rem; margin: 0 0 1rem; }
+    li { margin-bottom: 0.5rem; }
+    .lead { color: var(--muted); font-size: 1.1rem; margin-bottom: 2rem; }
+    .fuer {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.95rem;
+      margin: 0 0 0.4rem;
+    }
+    .hinweis {
+      background: var(--block);
+      border-radius: 8px;
+      padding: 0.85rem 1.1rem;
+      margin: 0 0 1rem;
+    }
+    code {
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.9em;
+      background: var(--block);
+      border-radius: 4px;
+      padding: 0.1em 0.35em;
+    }
+    .prompt {
+      position: relative;
+      margin: 0 0 1rem;
+    }
+    .prompt pre {
+      background: var(--block);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.1rem 1rem;
+      margin: 0;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.88rem;
+      line-height: 1.6;
+    }
+    .prompt button {
+      position: absolute;
+      top: 0.55rem;
+      right: 0.55rem;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--muted);
+      font: inherit;
+      font-size: 0.78rem;
+      border-radius: 6px;
+      padding: 0.2rem 0.6rem;
+      cursor: pointer;
+    }
+    .prompt button:hover { color: var(--accent); border-color: var(--accent); }
+    footer {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 0 1.25rem 3rem;
+      color: var(--muted);
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 1.6rem; }
+      .prompt button { position: static; margin-bottom: 0.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<main>
+  <p class="fuer">Für Basti</p>
+  <h1>Deine Website mit Claude Code</h1>
+  <p class="lead">Gleiches Setup wie meins: kein WordPress, kein CMS, keine
+  Updates. Deine Texte liegen als einfache Dateien in einem Ordner, und
+  Claude Code macht den Rest. Du sagst auf Deutsch, was du willst.</p>
+
+  <p>Vier Etappen. Nach Etappe 3 ist deine Seite online.</p>
+  <p>Plan dir für den ersten Durchgang zwei Stunden ein, nicht zwanzig
+  Minuten. Die Zeit steckt im Einrichten, danach dauert ein neuer
+  Blogbeitrag fünf Minuten.</p>
+
+  <h2>Etappe 0 — Die drei Accounts (15 Minuten)</h2>
+  <ol>
+    <li><strong>GitHub</strong> (kostenlos): auf
+      <a href="https://github.com/signup">github.com</a> auf „Sign up".
+      Der Benutzername taucht später in der Adresse deiner Seite auf, nimm
+      also <code>sebastiantrieb</code> und nicht <code>xXsebi92Xx</code>.</li>
+    <li><strong>Claude</strong>: auf <a href="https://claude.ai">claude.ai</a> anmelden.</li>
+    <li><strong>Claude Pro</strong>: hier musst du einmal ehrlich schlucken.
+      Claude Code ist im kostenlosen Tarif nicht enthalten, du brauchst
+      mindestens Pro. Das ist neben der Domain in Etappe 4 (ungefähr 10 bis
+      20 Euro im Jahr, und nur wenn du eine eigene Adresse willst) der
+      einzige Posten, der Geld kostet. Hosting: null. Deine Seite läuft
+      erst mal komplett kostenlos unter <code>deinbenutzername.github.io</code>.</li>
+  </ol>
+  <p>Falls du das erst sehen willst, bevor du zahlst: sag mir Bescheid,
+  dann bauen wir Etappe 1 und 2 zusammen im Browser, das geht auch ohne.
+  Aber der bequeme Weg ist dieser hier.</p>
+
+  <h2>Etappe 1 — Deine Seite entsteht (15 Minuten, alles im Browser)</h2>
+  <ol>
+    <li>Öffne meine Vorlage: <a href="https://github.com/rohaase/website-starter/generate"><strong>Neue
+      Website aus der Vorlage erstellen</strong></a>. („Repository", kurz
+      Repo, ist einfach der Ordner, in dem eine Website liegt. Der Link
+      bringt dich direkt in den Erstellen-Dialog.)</li>
+    <li>Als Namen nimmst du exakt:
+      <div class="prompt"><button type="button">Kopieren</button><pre>deinbenutzername.github.io</pre></div>
+      Also z.&nbsp;B. <code>sebastiantrieb.github.io</code>, mit deinem
+      Benutzernamen. Genau so, mit <code>.github.io</code> hinten dran:
+      daran erkennt GitHub, dass daraus eine Website werden soll.</li>
+    <li><strong>Public</strong> auswählen. Wichtig: Im kostenlosen
+      GitHub-Tarif baut GitHub aus einem privaten Repo gar keine Website.</li>
+    <li>Im neuen Repo: Settings → linke Spalte <strong>Pages</strong>. Bei
+      einem Repo, das <code>deinbenutzername.github.io</code> heißt,
+      schaltet GitHub die Website normalerweise von selbst scharf. Steht da
+      nichts: nicht schlimm, merk es dir. Claude Code prüft das gleich für
+      dich.</li>
+    <li>Zwei Minuten warten, dann
+      <code>https://deinbenutzername.github.io</code> aufrufen. Da stehen
+      jetzt die Platzhalter-Texte der Vorlage. Genau richtig.</li>
+  </ol>
+
+  <h2>Etappe 2 — Zwei Programme installieren (20 Minuten)</h2>
+
+  <h3>GitHub Desktop (<a href="https://desktop.github.com">desktop.github.com</a>)</h3>
+  <p>Das ist die Brücke zwischen dem Ordner auf deinem Rechner und der
+  Website im Netz. Installieren, mit deinem GitHub-Account einloggen, dann
+  „Clone a repository" → dein <code>deinbenutzername.github.io</code>
+  auswählen → Clone.</p>
+  <p>Jetzt liegt deine Website als ganz normaler Ordner auf deinem
+  Rechner. Merk dir, wo.</p>
+  <p>Warum dieses Programm: Es erledigt das Anmelden gegenüber GitHub mit
+  zwei Klicks. Ohne läuft man als Einsteiger fast garantiert in eine
+  Passwort-Fehlermeldung, die niemand versteht. Der Umweg spart dir eine
+  Stunde Frust.</p>
+
+  <h3>Claude Code (<a href="https://claude.com/download">claude.com/download</a>)</h3>
+  <p>Es gibt eine normale Desktop-App für Mac und Windows. Du brauchst
+  kein Terminal, keine Kommandozeile, nichts Schwarzes mit blinkendem
+  Cursor. Installieren, mit deinem Claude-Account einloggen, und dann den
+  Ordner öffnen, den GitHub Desktop gerade angelegt hat.</p>
+
+  <h2>Etappe 3 — Die erste Unterhaltung</h2>
+  <p>Jetzt der Teil, der sich komisch anfühlt und dann sofort klickt: Du
+  schreibst Claude Code einfach, was du willst.</p>
+  <p>Fang genau so an, kopier das rein:</p>
+
+  <div class="prompt"><button type="button">Kopieren</button><pre>Das hier ist meine persönliche Website, gehostet auf GitHub Pages. Ich habe null Vorerfahrung mit Code, Git oder Markdown.
+
+Schau dir zuerst an, wie dieses Projekt aufgebaut ist, und erklär mir in maximal zehn Sätzen: Welche Dateien enthalten die Texte, wo liegen die Blogbeiträge, und wo kommen Bilder hin? Keine technischen Hintergründe, nur was ich zum Arbeiten wissen muss.
+
+Danach warte auf mich. Arbeite ab jetzt immer nur einen Schritt auf einmal und frag mich, bevor du etwas Größeres änderst.</pre></div>
+
+  <p>Der letzte Absatz ist wichtig. Ohne ihn baut er dir mit Begeisterung
+  ein Fundament um, das du gar nicht anfassen wolltest.</p>
+  <p>Dann der Reihe nach, ein Prompt pro Baustein:</p>
+
+  <div class="prompt"><button type="button">Kopieren</button><pre>Ersetze das Intro auf der Startseite. Frag mich vorher der Reihe nach ab, was drinstehen soll — eine Frage pro Nachricht.</pre></div>
+
+  <div class="prompt"><button type="button">Kopieren</button><pre>Fülle die Seite mit meinen Stationen. Ich diktiere sie dir gleich als Rohtext, du bringst sie in die Struktur, die zu dieser Website passt.</pre></div>
+
+  <div class="prompt"><button type="button">Kopieren</button><pre>Lege einen Blogbeitrag an mit dem Titel [Titel]. Zeig mir vorher, wie die Datei heißen wird und wo sie landet.</pre></div>
+
+  <p>Und wenn es fertig aussieht:</p>
+
+  <div class="prompt"><button type="button">Kopieren</button><pre>Bring die Änderungen online und sag mir, wann ich sie sehen kann.</pre></div>
+
+  <p>Alternativ machst du das in GitHub Desktop selbst: unten links kurz
+  reinschreiben, was du geändert hast, „Commit to main", dann oben „Push
+  origin". Zwei Minuten später ist es live.</p>
+  <p>Das ist der ganze Kreislauf. Ändern → committen → pushen → live.
+  Mehr passiert bei dieser Art Website nie.</p>
+
+  <h2>Etappe 4 — Deine Domain draufsetzen (20 Minuten, machen wir zusammen)</h2>
+
+  <p class="hinweis">Falls du noch keine Domain hast: Hol dir eine, bevor
+  wir telefonieren. Ich bin bei Domain Factory
+  (<a href="https://www.df.eu">df.eu</a>), nimm am besten denselben
+  Anbieter, dann kann ich dich am Telefon durchs Kundenmenü führen. Eine
+  .de-Domain kostet ungefähr 10 bis 20 Euro im Jahr. Registrieren reicht,
+  kein Hosting-Paket dazubuchen: Die Seite liegt ja schon bei GitHub, wir
+  biegen nur die Adresse um.</p>
+
+  <p>Es ändern sich nur zwei Dinge.</p>
+  <p><strong>Bei GitHub:</strong> Settings → Pages → „Custom domain" →
+  deine Domain eintragen → Save. Dadurch entsteht im Repo eine Datei
+  namens <code>CNAME</code>. Die nicht löschen.</p>
+  <p><strong>Bei Domain Factory</strong> (Kundenmenü → DNS-Verwaltung):</p>
+  <ul>
+    <li>Vier A-Records für die nackte Domain: <code>185.199.108.153</code>,
+      <code>185.199.109.153</code>, <code>185.199.110.153</code>,
+      <code>185.199.111.153</code></li>
+    <li>Ein CNAME-Record für <code>www</code>, der auf
+      <code>deinbenutzername.github.io</code> zeigt.</li>
+  </ul>
+  <p>(Falls GitHub in seiner Doku andere Werte nennt: GitHub gewinnt.
+  Steht unter <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">„Managing
+  a custom domain for your GitHub Pages site"</a>.)</p>
+  <p>Danach kann es bis zu 24 Stunden dauern. Nicht nervös werden. Zum
+  Schluss bei GitHub noch „Enforce HTTPS" anhaken, dann hat deine Seite
+  das Schloss im Browser.</p>
+  <p>Ruf mich an, wenn du an dem Punkt bist. Das ist die einzige Stelle,
+  an der man wirklich etwas kaputtmachen kann.</p>
+
+  <h2>Die fünf Dinge, die den Unterschied machen</h2>
+  <ol>
+    <li><strong>Kleine Schritte.</strong> „Ändere das Intro" funktioniert.
+      „Bau mir die Seite neu" produziert zuverlässig Murks.</li>
+    <li><strong>Lies, bevor du bestätigst.</strong> Er zeigt dir, was er
+      ändern will. Ein Blick drauf, dann OK.</li>
+    <li><strong>Sag ihm, wenn dir etwas nicht gefällt.</strong> „Zu lang,
+      halbier das" ist ein völlig ausreichender Prompt.</li>
+    <li><strong>Wenn etwas kaputtgeht:</strong> einfach hinschreiben, was
+      du siehst. Fehlermeldung reinkopieren oder Screenshot. Das ist keine
+      Notlösung, das ist der normale Weg.</li>
+    <li><strong>Nichts geht verloren, sobald es einmal online war.</strong>
+      Jeder hochgeladene Stand liegt in GitHub, man kann immer zurück. Nur
+      was noch nie online gebracht wurde, kann weg sein — darum ruhig oft
+      online bringen. Trau dich, Dinge auszuprobieren.</li>
+  </ol>
+
+  <h2>Kurzfassung</h2>
+  <ol>
+    <li>GitHub-Account, Claude Pro.</li>
+    <li><a href="https://github.com/rohaase/website-starter/generate">Meine
+      Vorlage</a> nehmen, <code>deinname.github.io</code>, public.</li>
+    <li>GitHub Desktop + Claude Code installieren, Repo klonen, Ordner öffnen.</li>
+    <li>Mit dem Prompt aus Etappe 3 anfangen und dich durchfragen.</li>
+    <li>Eigene Domain holen und umbiegen — Anruf bei mir.</li>
+  </ol>
+
+  <p>Häng nicht am Design fest, bevor Text drinsteht. Eine schlichte Seite
+  mit gutem Intro schlägt eine schöne leere.</p>
+</main>
+
+<footer>
+  <p>— Robert</p>
+</footer>
+
+<script>
+  document.querySelectorAll('.prompt').forEach(function (block) {
+    var button = block.querySelector('button');
+    var pre = block.querySelector('pre');
+    button.addEventListener('click', function () {
+      navigator.clipboard.writeText(pre.innerText).then(function () {
+        button.textContent = 'Kopiert ✓';
+        setTimeout(function () { button.textContent = 'Kopieren'; }, 2000);
+      }).catch(function () {
+        button.textContent = 'Bitte manuell kopieren';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
