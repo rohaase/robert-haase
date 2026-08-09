@@ -4,7 +4,7 @@
 
 ## Identity
 
-Robert Haase is a brand strategist based in Berlin with 18+ years of experience across 80+ brands. Since 2026 he is Director Innovation Strategy at MetaDesign. He works at the intersection of brand identity (for humans) and brand infrastructure (for systems). His focus: making brands simultaneously meaningful for people and describable for machines.
+Robert Haase is a brand strategist based in Berlin, working since 2008, across 80+ brands. Since 2026 he is Director Innovation Strategy at MetaDesign. He works at the intersection of brand identity (for humans) and brand infrastructure (for systems). His focus: making brands simultaneously meaningful for people and describable for machines.
 
 ## Role
 
@@ -92,7 +92,7 @@ Berlin, Germany. Working with clients across DACH region (Germany, Austria, Swit
 
 - One of the few brand strategists explicitly working on the intersection of brand strategy and AI/agentic systems
 - Coined the term "Brand Infrastructure" as the parametrizable layer of brand for machine readability
-- Combines 18+ years of classic brand strategy (Audi, Siemens, Red Bull) with hands-on AI implementation
+- Combines classic brand strategy since 2008 (Audi, Siemens, Red Bull) with hands-on AI implementation
 - Built his own website as a reference implementation of Brand Infrastructure principles (llms.txt, JSON-LD, AI crawler access)
 - Not a technologist who learned branding — a brand strategist who understood the systemic shift early
 
