@@ -20,6 +20,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://robert-haase.de/die-luecke-die-nicht-antwortet.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/die-luecke-die-nicht-antwortet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/the-gap-that-doesnt-respond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/die-luecke-die-nicht-antwortet.html"/>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/the-gap-that-doesnt-respond.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/die-luecke-die-nicht-antwortet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/the-gap-that-doesnt-respond.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/die-luecke-die-nicht-antwortet.html"/>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://robert-haase.de/brand-infrastructure.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/brand-infrastructure.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/brand-infrastructure.html"/>

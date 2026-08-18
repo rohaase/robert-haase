@@ -6,7 +6,14 @@
     <atom:link href="https://robert-haase.de/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Texte zu Markenstrategie im KI-Zeitalter: wie Marken maschinenlesbar, anwendbar und verantwortbar werden.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 21 Jul 2026 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 12:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Die Lücke, die nicht antwortet.</title>
+      <link>https://robert-haase.de/die-luecke-die-nicht-antwortet.html</link>
+      <guid>https://robert-haase.de/die-luecke-die-nicht-antwortet.html</guid>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 +0200</pubDate>
+      <description>Warum das Ungesagte gegenüber Menschen wirkt und gegenüber Maschinen verschwindet. Antwort auf Erich Posselts „Die Glätte der Klarheit", zuerst erschienen bei The Business of Brand Management.</description>
+    </item>
     <item>
       <title>Open Brand Repo: Markenregeln gehören ins Repository.</title>
       <link>https://robert-haase.de/open-brand-repo.html</link>
