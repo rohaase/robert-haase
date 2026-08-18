@@ -209,6 +209,41 @@
         "name": "Agentic Commerce",
         "description": "Commerce in which an agent on at least one side compares, negotiates, or buys. Established term, explained here.",
         "url": "https://robert-haase.de/en/glossary.html#agentic-commerce"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/en/glossary.html#accessibility-tree",
+        "name": "Accessibility Tree",
+        "description": "The structure the browser computes from every page: all elements with role and name, no layout. Built for screen readers, per Google the primary interface for browser agents. Established term, explained here.",
+        "url": "https://robert-haase.de/en/glossary.html#accessibility-tree"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/en/glossary.html#agentic-browsing",
+        "name": "Agentic Browsing",
+        "description": "An audit category in Google's Lighthouse (since 2026) measuring how well agents can read and operate a website. Term by Google, explained here.",
+        "url": "https://robert-haase.de/en/glossary.html#agentic-browsing"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/en/glossary.html#browser-agent",
+        "name": "Browser Agent",
+        "description": "Software operating websites on a user's behalf: comparing, booking, buying. Distinct from a crawler (collects) and a chatbot (answers). Established term, explained here.",
+        "url": "https://robert-haase.de/en/glossary.html#browser-agent"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/en/glossary.html#canonical-link",
+        "name": "Canonical Link",
+        "description": "The machine-readable commitment declaring which version of a piece of content is the original (rel=canonical). Web standard, explained here.",
+        "url": "https://robert-haase.de/en/glossary.html#canonical-link"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/en/glossary.html#design-token",
+        "name": "Design Token",
+        "description": "The smallest machine-readable design decision: a color, a spacing, a typeface as a named, versionable value. W3C standard since October 2025. Established term, explained here.",
+        "url": "https://robert-haase.de/en/glossary.html#design-token"
       }
     ]
   }
@@ -262,6 +297,11 @@
         <a href="#answer-engine">Answer Engine / AEO</a>
         <a href="#llms-txt">llms.txt</a>
         <a href="#schema-org">Schema.org / JSON-LD</a>
+        <a href="#accessibility-tree">Accessibility Tree</a>
+        <a href="#agentic-browsing">Agentic Browsing</a>
+        <a href="#browser-agent">Browser Agent</a>
+        <a href="#canonical-link">Canonical Link</a>
+        <a href="#design-token">Design Token</a>
         <a href="#mcp">Model Context Protocol</a>
         <a href="#machine-customers">Machine Customers</a>
         <a href="#agentic-commerce">Agentic Commerce</a>
@@ -397,6 +437,41 @@
         <p class="glossary-def">A shared vocabulary for marking up who or what a website is. JSON-LD is the usual format for it.</p>
         <p class="glossary-body">The least exciting and most effective part of brand infrastructure. A person can see that a page holds a person, a product, or a price. A system has to be told. Without that markup, a statement stays prose a system has to interpret instead of adopt.</p>
         <p class="glossary-meta">Used in <a href="brand-infrastructure.html">Brand Infrastructure</a> and <a href="agentic-brand-readiness.html">Agentic Brand Readiness</a></p>
+      </article>
+
+      <article class="glossary-entry" id="accessibility-tree">
+        <h2>Accessibility Tree</h2>
+        <p class="glossary-def">The structure the browser computes from every page: all elements with role and name, no layout.</p>
+        <p class="glossary-body">Built for screen readers, and according to Google's developer documentation now the primary interface for browser agents. An element without an accessible name does not exist in this view, however prominently it is designed. Accessibility is no longer a niche; it is the ticket into the machine view.</p>
+        <p class="glossary-meta">Term from accessibility · Used in <a href="the-gap-that-doesnt-respond.html">The Gap That Doesn't Respond</a> and the <a href="machine-view.html">Machine View demonstration</a></p>
+      </article>
+
+      <article class="glossary-entry" id="agentic-browsing">
+        <h2>Agentic Browsing</h2>
+        <p class="glossary-def">An audit category in Google's Lighthouse measuring how well agents can read and operate a website.</p>
+        <p class="glossary-body">Introduced in 2026 as an experimental category in the tool built into every Chrome. Agent readability turns from claim into score. For context: a good score proves readability, not visibility, and Google itself states that AI search needs no special files.</p>
+        <p class="glossary-meta">Term by Google (Lighthouse), 2026 · Used in <a href="the-gap-that-doesnt-respond.html">The Gap That Doesn't Respond</a></p>
+      </article>
+
+      <article class="glossary-entry" id="browser-agent">
+        <h2>Browser Agent</h2>
+        <p class="glossary-def">Software operating websites on a user's behalf: comparing, booking, buying instead of just reading.</p>
+        <p class="glossary-body">Distinct from two neighbors: a crawler collects content for an index, a chatbot answers from what it has learned. A browser agent acts, in real time and with consequences. It reads pages through their structure, the accessibility tree, and takes literally what it finds there. For brands it is the new audience: the reader that fills in nothing.</p>
+        <p class="glossary-meta">Established term · Used in <a href="the-gap-that-doesnt-respond.html">The Gap That Doesn't Respond</a> and <a href="agent-authority.html">Agent Authority</a></p>
+      </article>
+
+      <article class="glossary-entry" id="canonical-link">
+        <h2>Canonical Link</h2>
+        <p class="glossary-def">The machine-readable commitment declaring which version of a piece of content is the original.</p>
+        <p class="glossary-body">A reference in a page's source code (rel=canonical) stating where its original lives. Search engines and AI systems then credit the original address; duplicates do no harm. This site applies it itself: the guest essay "The Gap That Doesn't Respond" lives here in the archive and points via canonical to its first publication at The Business of Brand Management.</p>
+        <p class="glossary-meta">Web standard · Applied in <a href="the-gap-that-doesnt-respond.html">The Gap That Doesn't Respond</a></p>
+      </article>
+
+      <article class="glossary-entry" id="design-token">
+        <h2>Design Token</h2>
+        <p class="glossary-def">The smallest machine-readable design decision: a color, a spacing, a typeface as a named value.</p>
+        <p class="glossary-body">Instead of "blue as in the PDF", a token holds a named, versionable value tools can apply directly. A W3C standard exists since October 2025. Tokens prove that a brand's execution layer can become machine-capable. For the layer of meaning, the counterpart is still missing.</p>
+        <p class="glossary-meta">Established term, W3C standard since 2025 · Used in <a href="open-brand-repo.html">Open Brand Repo</a></p>
       </article>
 
       <article class="glossary-entry" id="mcp">

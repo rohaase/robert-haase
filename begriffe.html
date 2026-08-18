@@ -208,6 +208,41 @@
         "name": "Agentic Commerce",
         "description": "Handel, bei dem auf mindestens einer Seite ein Agent vergleicht, verhandelt oder kauft. Etablierter Fachbegriff, hier erklärt.",
         "url": "https://robert-haase.de/begriffe.html#agentic-commerce"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#accessibility-baum",
+        "name": "Accessibility-Baum",
+        "description": "Die Struktur, die der Browser aus jeder Seite errechnet: alle Elemente mit Rolle und Name, ohne Layout. Gebaut für Screenreader, laut Google die primäre Schnittstelle für Browser-Agenten. Fachbegriff, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#accessibility-baum"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#agentic-browsing",
+        "name": "Agentic Browsing",
+        "description": "Prüfkategorie in Googles Lighthouse (seit 2026), die misst, wie gut Agenten eine Website lesen und bedienen können. Begriff von Google, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#agentic-browsing"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#browser-agent",
+        "name": "Browser-Agent",
+        "description": "Software, die im Auftrag eines Nutzers Websites bedient: vergleicht, bucht, kauft. Abzugrenzen von Crawler (sammelt) und Chatbot (antwortet). Fachbegriff, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#browser-agent"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#canonical-link",
+        "name": "Canonical-Link",
+        "description": "Die maschinenlesbare Festlegung, welche Version eines Inhalts das Original ist (rel=canonical). Webstandard, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#canonical-link"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://robert-haase.de/begriffe.html#design-token",
+        "name": "Design-Token",
+        "description": "Die kleinste maschinenlesbare Gestaltungsentscheidung: Farbe, Abstand oder Schrift als benannter, versionierbarer Wert. W3C-Standard seit Oktober 2025. Fachbegriff, hier erklärt.",
+        "url": "https://robert-haase.de/begriffe.html#design-token"
       }
     ]
   }
@@ -261,6 +296,11 @@
         <a href="#answer-engine">Answer Engine / AEO</a>
         <a href="#llms-txt">llms.txt</a>
         <a href="#schema-org">Schema.org / JSON-LD</a>
+        <a href="#accessibility-baum">Accessibility-Baum</a>
+        <a href="#agentic-browsing">Agentic Browsing</a>
+        <a href="#browser-agent">Browser-Agent</a>
+        <a href="#canonical-link">Canonical-Link</a>
+        <a href="#design-token">Design-Token</a>
         <a href="#mcp">Model Context Protocol</a>
         <a href="#machine-customers">Machine Customers</a>
         <a href="#agentic-commerce">Agentic Commerce</a>
@@ -396,6 +436,41 @@
         <p class="glossary-def">Gemeinsames Vokabular, mit dem Websites auszeichnen, wer oder was sie sind. JSON-LD ist das übliche Format dafür.</p>
         <p class="glossary-body">Der unaufregendste und wirksamste Teil von Brand Infrastructure. Ein Mensch sieht einer Seite an, dass dort eine Person, ein Produkt oder ein Preis steht. Ein System muss es ausgezeichnet bekommen. Ohne diese Auszeichnung bleibt eine Aussage Fließtext, den ein System deuten muss, statt ihn zu übernehmen.</p>
         <p class="glossary-meta">Verwendet in <a href="brand-infrastructure.html">Brand Infrastructure</a> und <a href="agentic-brand-readiness.html">Agentic Brand Readiness</a></p>
+      </article>
+
+      <article class="glossary-entry" id="accessibility-baum">
+        <h2>Accessibility-Baum</h2>
+        <p class="glossary-def">Die Struktur, die der Browser aus jeder Seite errechnet: alle Elemente mit Rolle und Name, ohne Layout.</p>
+        <p class="glossary-body">Gebaut für Screenreader, inzwischen laut Googles Entwickler-Dokumentation die primäre Schnittstelle für Browser-Agenten. Ein Element ohne zugänglichen Namen existiert in dieser Ansicht nicht, egal wie prominent es gestaltet ist. Barrierefreiheit ist damit keine Nische mehr, sondern die Eintrittskarte in die Maschinensicht.</p>
+        <p class="glossary-meta">Fachbegriff aus der Barrierefreiheit · Verwendet in <a href="die-luecke-die-nicht-antwortet.html">Die Lücke, die nicht antwortet</a> und der <a href="maschinensicht.html">Maschinensicht-Demonstration</a></p>
+      </article>
+
+      <article class="glossary-entry" id="agentic-browsing">
+        <h2>Agentic Browsing</h2>
+        <p class="glossary-def">Prüfkategorie in Googles Lighthouse, die misst, wie gut Agenten eine Website lesen und bedienen können.</p>
+        <p class="glossary-body">Seit 2026 als experimentelle Kategorie im Werkzeug, das in jedem Chrome steckt. Damit wird Agent-Lesbarkeit von der Behauptung zum Score. Wichtig für die Einordnung: Ein guter Score belegt Lesbarkeit, nicht Sichtbarkeit, und Google selbst betont, dass die KI-Suche keine besonderen Dateien braucht.</p>
+        <p class="glossary-meta">Begriff von Google (Lighthouse), 2026 · Verwendet in <a href="die-luecke-die-nicht-antwortet.html">Die Lücke, die nicht antwortet</a></p>
+      </article>
+
+      <article class="glossary-entry" id="browser-agent">
+        <h2>Browser-Agent</h2>
+        <p class="glossary-def">Software, die im Auftrag eines Nutzers Websites bedient: vergleicht, bucht, kauft, statt nur zu lesen.</p>
+        <p class="glossary-body">Abzugrenzen von zwei Nachbarn: Ein Crawler sammelt Inhalte für einen Index, ein Chatbot beantwortet Fragen aus Gelerntem. Ein Browser-Agent handelt, in Echtzeit und mit Folgen. Er liest Seiten über ihre Struktur, den Accessibility-Baum, und nimmt wörtlich, was dort steht. Für Marken ist er das neue Publikum: der Leser, der nichts ergänzt.</p>
+        <p class="glossary-meta">Fachbegriff · Verwendet in <a href="die-luecke-die-nicht-antwortet.html">Die Lücke, die nicht antwortet</a> und <a href="agent-authority.html">Agent Authority</a></p>
+      </article>
+
+      <article class="glossary-entry" id="canonical-link">
+        <h2>Canonical-Link</h2>
+        <p class="glossary-def">Die maschinenlesbare Festlegung, welche Version eines Inhalts das Original ist.</p>
+        <p class="glossary-body">Ein Verweis im Quelltext einer Seite (rel=canonical), mit dem sie erklärt, wo ihr Original liegt. Suchmaschinen und KI-Systeme werten dann die Original-Adresse, Doppelungen schaden nicht. Diese Site wendet das selbst an: Der Gastbeitrag „Die Lücke, die nicht antwortet" liegt hier im Archiv und zeigt per Canonical auf die Erstveröffentlichung bei The Business of Brand Management.</p>
+        <p class="glossary-meta">Webstandard · Angewendet bei <a href="die-luecke-die-nicht-antwortet.html">Die Lücke, die nicht antwortet</a></p>
+      </article>
+
+      <article class="glossary-entry" id="design-token">
+        <h2>Design-Token</h2>
+        <p class="glossary-def">Die kleinste maschinenlesbare Gestaltungsentscheidung: eine Farbe, ein Abstand, eine Schrift als benannter Wert.</p>
+        <p class="glossary-body">Statt „Blau wie im PDF" steht in einem Token ein benannter, versionierbarer Wert, den Werkzeuge direkt anwenden können. Seit Oktober 2025 gibt es dafür einen W3C-Standard. Tokens belegen, dass die Ausführungsschicht einer Marke maschinenfähig werden kann. Für die Bedeutungsschicht fehlt das Gegenstück bislang.</p>
+        <p class="glossary-meta">Fachbegriff, W3C-Standard seit 2025 · Verwendet in <a href="open-brand-repo.html">Open Brand Repo</a></p>
       </article>
 
       <article class="glossary-entry" id="mcp">
