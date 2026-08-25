@@ -1,33 +1,33 @@
 /* Robert Haase — Minimal One-Pager */
 
 :root {
-  --black: #0a0a0a;
-  --white: #f5f5f0;
-  --gray: #888;
-  --accent: #e0e0d8;
-  --border: #222;
-}
-
-/* Light Theme — Default folgt der Systemeinstellung, Toggle-Wahl (data-theme) gewinnt.
-   Variablennamen bleiben semantisch invertiert (--black = Hintergrund, --white = Text),
-   damit alle Inline-Styles in den HTML-Dateien ohne Anpassung funktionieren.
-   Werte in beiden Bloecken synchron halten. */
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) {
-    --black: #f4f4ef;
-    --white: #1a1a18;
-    --gray: #6b6b66;
-    --accent: #44443e;
-    --border: #ddddd6;
-  }
-}
-
-:root[data-theme="light"] {
   --black: #f4f4ef;
   --white: #1a1a18;
   --gray: #6b6b66;
   --accent: #44443e;
   --border: #ddddd6;
+}
+
+/* Dark Theme — Basis ist hell (seit 2026-08-25), Dunkel folgt der Systemeinstellung,
+   Toggle-Wahl (data-theme) gewinnt. Variablennamen bleiben semantisch invertiert
+   (--black = Hintergrund, --white = Text), damit alle Inline-Styles in den
+   HTML-Dateien ohne Anpassung funktionieren. Werte in beiden Bloecken synchron halten. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --black: #0a0a0a;
+    --white: #f5f5f0;
+    --gray: #888;
+    --accent: #e0e0d8;
+    --border: #222;
+  }
+}
+
+:root[data-theme="dark"] {
+  --black: #0a0a0a;
+  --white: #f5f5f0;
+  --gray: #888;
+  --accent: #e0e0d8;
+  --border: #222;
 }
 
 * {
@@ -156,24 +156,24 @@ main {
   display: block;
 }
 
-/* Porträt-Paar: schwarzgrundiges Foto im Dark-Theme, weißgrundiges im Light-Theme */
-.hero .portrait .portrait-light {
+/* Porträt-Paar: weißgrundiges Foto im Light-Theme (Basis), schwarzgrundiges im Dark-Theme */
+.hero .portrait .portrait-dark {
   display: none;
 }
 
-:root[data-theme="light"] .hero .portrait .portrait-dark {
+:root[data-theme="dark"] .hero .portrait .portrait-light {
   display: none;
 }
 
-:root[data-theme="light"] .hero .portrait .portrait-light {
+:root[data-theme="dark"] .hero .portrait .portrait-dark {
   display: block;
 }
 
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) .hero .portrait .portrait-dark {
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .hero .portrait .portrait-light {
     display: none;
   }
-  :root:not([data-theme="dark"]) .hero .portrait .portrait-light {
+  :root:not([data-theme="light"]) .hero .portrait .portrait-dark {
     display: block;
   }
 }
