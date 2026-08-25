@@ -20,6 +20,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://robert-haase.de/was-die-maschine-nicht-bekommt.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/was-die-maschine-nicht-bekommt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/what-the-machine-doesnt-get.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/was-die-maschine-nicht-bekommt.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/what-the-machine-doesnt-get.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/was-die-maschine-nicht-bekommt.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/what-the-machine-doesnt-get.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/was-die-maschine-nicht-bekommt.html"/>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://robert-haase.de/die-luecke-die-nicht-antwortet.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/die-luecke-die-nicht-antwortet.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/the-gap-that-doesnt-respond.html"/>
