@@ -182,6 +182,7 @@ The collection is deliberately unflattering to its own position where the eviden
 - [Agentic Brand Readiness](https://robert-haase.de/agentic-brand-readiness.html): Dedicated explainer: what Agentic Brand Readiness is, why it matters, how to build it
 - [The Bet](https://robert-haase.de/the-bet.html): Essay: The analysis is no longer the product — strategy as commitment (July 2026)
 - [Begriffe](https://robert-haase.de/begriffe.html): Glossary: all coined/defined terms with definitions, dates, and article links (EN: [Glossary](https://robert-haase.de/en/glossary.html))
+- [Netz der Begriffe](https://robert-haase.de/netz.html): The same 27 terms as a network of 36 named relations, in four groups — the brand as specification, being read, agents act, what remains (August 2026) (EN: [Network of Terms](https://robert-haase.de/en/network.html))
 - [Belege](https://robert-haase.de/belege.html): Reference collection of 28 checked figures on brand, AI search, and agents — each with primary source, sample size, date, and what it explicitly does not prove; several entries correct figures that circulate in overreached form (August 2026) (EN: [Evidence](https://robert-haase.de/en/evidence.html))
 - [Machine Readable Brands](https://robert-haase.de/machine-readable-brands.html): Definition page: What are Machine Readable Brands? Used and defined in this sense by Robert Haase since March 2026 (page published July 2026)
 - [Agent Authority](https://robert-haase.de/agent-authority.html): Essay: Agent Authority — your agent holds a mandate (July 2026)

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netz der Begriffe | Robert Haase</title>
+  <meta name="description" content="Die Begriffe der Markenführung im KI-Zeitalter als Netz: 27 Begriffe, 36 benannte Verbindungen. Jede Verbindung sagt, wie zwei Begriffe zusammenhängen.">
+  <meta name="author" content="Robert Haase">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="canonical" href="https://robert-haase.de/netz.html">
+  <link rel="alternate" hreflang="de" href="https://robert-haase.de/netz.html">
+  <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/network.html">
+  <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/netz.html">
+  <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Robert Haase | Artikel">
+  <link rel="stylesheet" href="stylesheet.css">
+  <!-- Theme: gespeicherte Praeferenz vor dem ersten Paint anwenden (kein Flash) -->
+  <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+  <script src="/theme.js" defer></script>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Netz der Begriffe">
+  <meta property="og:description" content="27 Begriffe, 36 benannte Verbindungen. Jede sagt, wie zwei Begriffe zusammenhängen.">
+  <meta property="og:url" content="https://robert-haase.de/netz.html">
+  <meta property="og:image" content="https://robert-haase.de/og-netz-de.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Robert Haase">
+
+  <!-- Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Netz der Begriffe">
+  <meta name="twitter:description" content="27 Begriffe, 36 benannte Verbindungen. Jede sagt, wie zwei Begriffe zusammenhängen.">
+  <meta name="twitter:image" content="https://robert-haase.de/og-netz-de.png">
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://robert-haase.de/" },
+      { "@type": "ListItem", "position": 2, "name": "Begriffe", "item": "https://robert-haase.de/begriffe.html" },
+      { "@type": "ListItem", "position": 3, "name": "Netz der Begriffe", "item": "https://robert-haase.de/netz.html" }
+    ]
+  }
+  </script>
+  <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
+
+  <style>
+    /* ---- Begriffs-Netz: seiteneigene Stile -----------------------------------
+       Vier Gruppenfarben, sonst nichts. Die Werte sind fuer Dark und Light
+       getrennt gesetzt, damit der Kontrast in beiden Themes traegt. Die Grafik
+       steht fest im Dokument; das Skript ergaenzt nur Hervorhebung und Tafel. */
+    :root {
+      --n-spec: #2f7d70;
+      --n-lesen: #9a5f16;
+      --n-agenten: #7a5ea8;
+      --n-haltung: #a8455e;
+      --n-linie: rgba(0, 0, 0, 0.22);
+      --n-flaeche: rgba(0, 0, 0, 0.025);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --n-spec: #6fb3a8;
+        --n-lesen: #c08a4a;
+        --n-agenten: #a893d4;
+        --n-haltung: #d4808f;
+        --n-linie: rgba(255, 255, 255, 0.22);
+        --n-flaeche: rgba(255, 255, 255, 0.03);
+      }
+    }
+    :root[data-theme="dark"] {
+      --n-spec: #6fb3a8;
+      --n-lesen: #c08a4a;
+      --n-agenten: #a893d4;
+      --n-haltung: #d4808f;
+      --n-linie: rgba(255, 255, 255, 0.22);
+      --n-flaeche: rgba(255, 255, 255, 0.03);
+    }
+
+    main { max-width: 1240px; }
+    main > article { max-width: 900px; margin-inline: auto; }
+    .netz-wide { padding: 2rem 0 3rem; border-bottom: 1px solid var(--border); }
+    .netz-wide > p { max-width: 640px; }
+
+    .netz-buehne {
+      border: 1px solid var(--border);
+      background: var(--n-flaeche);
+      padding: 0.5rem;
+    }
+    #netz { width: 100%; height: auto; display: block; }
+
+    /* Kanten */
+    .netz-kanten line {
+      stroke: var(--n-linie);
+      stroke-width: 1;
+      transition: stroke 0.15s ease, stroke-width 0.15s ease;
+    }
+    .netz-kanten line.ist-aktiv { stroke: var(--white); stroke-width: 2; }
+
+    /* Knoten */
+    .netz-knoten-a { cursor: pointer; }
+    .netz-knoten-a circle {
+      stroke-width: 2;
+      transition: r 0.15s ease, fill 0.15s ease;
+    }
+    .netz-knoten-a text {
+      font-size: 11.5px;
+      text-anchor: middle;
+      fill: var(--accent);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      pointer-events: none;
+      transition: fill 0.15s ease;
+    }
+    .g-spec circle    { stroke: var(--n-spec); }
+    .g-lesen circle   { stroke: var(--n-lesen); }
+    .g-agenten circle { stroke: var(--n-agenten); }
+    .g-haltung circle { stroke: var(--n-haltung); }
+    .ist-eigen.g-spec circle    { fill: var(--n-spec); }
+    .ist-eigen.g-lesen circle   { fill: var(--n-lesen); }
+    .ist-eigen.g-agenten circle { fill: var(--n-agenten); }
+    .ist-eigen.g-haltung circle { fill: var(--n-haltung); }
+    .ist-fremd circle { fill: var(--black); }
+
+    .netz-knoten-a:hover circle,
+    .netz-knoten-a:focus-visible circle,
+    .netz-knoten-a.ist-aktiv circle { r: 13; }
+    .netz-knoten-a:hover text,
+    .netz-knoten-a:focus-visible text,
+    .netz-knoten-a.ist-aktiv text { fill: var(--white); }
+    .netz-knoten-a:focus-visible circle { outline: 2px solid var(--white); outline-offset: 3px; }
+    .netz-knoten-a.ist-blass { opacity: 0.28; }
+
+    /* Tafel unter der Grafik */
+    .netz-tafel {
+      border: 1px solid var(--border); border-top: 0;
+      padding: 1rem 1.25rem; min-height: 5.5rem;
+      font-size: 0.95rem; line-height: 1.6;
+    }
+    .netz-tafel .t-name { color: var(--white); font-weight: 600; }
+    .netz-tafel .t-def { color: var(--accent); }
+    .netz-tafel .t-rel { color: var(--gray); font-size: 0.88rem; display: block; margin-top: 0.5rem; }
+    .netz-tafel .t-hint { color: var(--gray); }
+    .netz-tafel a { color: var(--white); text-decoration: none; border-bottom: 1px solid var(--border); }
+    .netz-tafel a:hover { border-bottom-color: var(--white); }
+
+    .netz-legende {
+      display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem;
+      font-size: 0.82rem; color: var(--gray); margin-top: 1rem;
+    }
+    .netz-key::before {
+      content: ""; display: inline-block; width: 0.7rem; height: 0.7rem;
+      margin-right: 0.45rem; border-radius: 50%; vertical-align: baseline;
+    }
+    .netz-key.k-spec::before    { background: var(--n-spec); }
+    .netz-key.k-lesen::before   { background: var(--n-lesen); }
+    .netz-key.k-agenten::before { background: var(--n-agenten); }
+    .netz-key.k-haltung::before { background: var(--n-haltung); }
+    .netz-key.k-eigen::before   { background: var(--gray); }
+    .netz-key.k-fremd::before   { background: none; border: 2px solid var(--gray); }
+
+    /* Vollstaendige Liste: traegt den Inhalt ohne SVG und ohne Skript */
+    .netz-liste { margin: 0 0 2rem; max-width: 640px; }
+    .netz-liste dt { margin-top: 1.1rem; }
+    .netz-liste dt a { color: var(--white); text-decoration: none; border-bottom: 1px solid var(--border); font-weight: 600; }
+    .netz-liste dt a:hover { border-bottom-color: var(--white); }
+    .netz-liste dd { margin: 0.2rem 0 0; color: var(--accent); }
+    .netz-verb { display: block; color: var(--gray); font-size: 0.87rem; margin-top: 0.2rem; }
+    .netz-verb em { font-style: normal; }
+
+    .netz-sr {
+      position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
+      overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+    }
+
+    @media (max-width: 900px) {
+      .netz-wide { padding-left: 1.5rem; padding-right: 1.5rem; }
+      .netz-knoten-a text { font-size: 15px; }
+      .netz-buehne { overflow-x: auto; }
+      #netz { min-width: 760px; }
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+  <header role="banner">
+    <nav aria-label="Hauptnavigation">
+      <a href="/" class="name">Robert Haase</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="begriffe.html">Begriffe</a>
+      <a href="belege.html">Belege</a>
+      <a href="about.html">Über</a>
+      <a href="/en/network.html" hreflang="en" lang="en">EN</a>
+      <button class="theme-toggle" type="button" aria-label="Farbschema wechseln" title="Farbschema wechseln">◐</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <section class="hero">
+        <h1>Netz der Begriffe.</h1>
+        <p class="subtitle">Ein Glossar ist eine Liste, und eine Liste verschweigt, was zusammenhängt. Hier stehen dieselben 27 Begriffe als Netz: 36 Verbindungen, jede mit einem Wort dafür, wie die beiden zusammenhängen.</p>
+      </section>
+
+      <section class="article-body">
+        <p>Zeig mit der Maus auf einen Begriff, dann treten er und seine Nachbarn hervor, und unter der Grafik steht, was er bedeutet und woran er hängt. Ein Klick führt zur ausführlichen Definition im Glossar, ein Doppelklick hält die Auswahl fest. Mit der Tastatur geht dasselbe über die Tabulator-Taste.</p>
+      </section>
+    </article>
+
+    <section class="netz-wide" aria-labelledby="netz-h">
+      <h2 id="netz-h" class="netz-sr">Das Netz</h2>
+
+      <div class="netz-buehne">
+      <svg id="netz" viewBox="0 0 1120 720" role="img" aria-labelledby="netz-titel netz-beschreibung" preserveAspectRatio="xMidYMid meet">
+        <title id="netz-titel">Netz der Begriffe</title>
+        <desc id="netz-beschreibung">Ein Netz aus 27 Begriffen in vier Gruppen. Jede Verbindung benennt, wie zwei Begriffe zusammenhängen. Die vollständige Liste mit Definitionen steht unter der Grafik.</desc>
+        <g class="netz-kanten">
+          <line x1="250" y1="110" x2="430" y2="70" data-a="brand-infrastructure" data-b="marken-spezifikation" data-rel="nimmt Form an als"><title>Brand Infrastructure — nimmt Form an als — Marken-Spezifikation</title></line>
+          <line x1="430" y1="70" x2="400" y2="210" data-a="marken-spezifikation" data-b="machine-readable-brands" data-rel="macht möglich"><title>Marken-Spezifikation — macht möglich — Machine Readable Brands</title></line>
+          <line x1="430" y1="70" x2="110" y2="210" data-a="marken-spezifikation" data-b="identitaetsdatei" data-rel="wird abgelegt als"><title>Marken-Spezifikation — wird abgelegt als — Identitätsdatei</title></line>
+          <line x1="430" y1="70" x2="120" y2="330" data-a="marken-spezifikation" data-b="open-brand-repo" data-rel="wird öffentlich als"><title>Marken-Spezifikation — wird öffentlich als — Open Brand Repo</title></line>
+          <line x1="400" y1="210" x2="900" y2="350" data-a="machine-readable-brands" data-b="agentic-brand-readiness" data-rel="Stufe eins davon"><title>Machine Readable Brands — Stufe eins davon — Agentic Brand Readiness</title></line>
+          <line x1="330" y1="330" x2="150" y2="440" data-a="ausfuehrungsschicht-bedeutungsschicht" data-b="design-token" data-rel="Ausführung ist maschinenfähig"><title>Ausführungsschicht / Bedeutungsschicht — Ausführung ist maschinenfähig — Design-Token</title></line>
+          <line x1="330" y1="330" x2="430" y2="70" data-a="ausfuehrungsschicht-bedeutungsschicht" data-b="marken-spezifikation" data-rel="Bedeutung braucht Text"><title>Ausführungsschicht / Bedeutungsschicht — Bedeutung braucht Text — Marken-Spezifikation</title></line>
+          <line x1="120" y1="330" x2="150" y2="440" data-a="open-brand-repo" data-b="design-token" data-rel="enthält"><title>Open Brand Repo — enthält — Design-Token</title></line>
+          <line x1="120" y1="330" x2="650" y2="520" data-a="open-brand-repo" data-b="agent-authority" data-rel="Grenzen bleiben intern"><title>Open Brand Repo — Grenzen bleiben intern — Agent Authority</title></line>
+          <line x1="110" y1="210" x2="290" y2="480" data-a="identitaetsdatei" data-b="stateful" data-rel="muss den Verlauf kennen"><title>Identitätsdatei — muss den Verlauf kennen — Stateful</title></line>
+          <line x1="250" y1="110" x2="640" y2="250" data-a="brand-infrastructure" data-b="schema-org" data-rel="wirksamster Teil"><title>Brand Infrastructure — wirksamster Teil — Schema.org / JSON-LD</title></line>
+          <line x1="250" y1="110" x2="820" y2="210" data-a="brand-infrastructure" data-b="llms-txt" data-rel="Teil, ohne Sichtbarkeits-Wirkung"><title>Brand Infrastructure — Teil, ohne Sichtbarkeits-Wirkung — llms.txt</title></line>
+          <line x1="250" y1="110" x2="1010" y2="560" data-a="brand-infrastructure" data-b="mcp" data-rel="Weg zu den Markendaten"><title>Brand Infrastructure — Weg zu den Markendaten — Model Context Protocol</title></line>
+          <line x1="790" y1="80" x2="980" y2="130" data-a="maschinensicht" data-b="accessibility-baum" data-rel="zeigt"><title>Maschinensicht — zeigt — Accessibility-Baum</title></line>
+          <line x1="790" y1="80" x2="640" y2="250" data-a="maschinensicht" data-b="schema-org" data-rel="zeigt"><title>Maschinensicht — zeigt — Schema.org / JSON-LD</title></line>
+          <line x1="790" y1="80" x2="820" y2="210" data-a="maschinensicht" data-b="llms-txt" data-rel="zeigt"><title>Maschinensicht — zeigt — llms.txt</title></line>
+          <line x1="980" y1="130" x2="830" y2="520" data-a="accessibility-baum" data-b="browser-agent" data-rel="ist dessen Schnittstelle"><title>Accessibility-Baum — ist dessen Schnittstelle — Browser-Agent</title></line>
+          <line x1="980" y1="130" x2="1000" y2="250" data-a="accessibility-baum" data-b="agentic-browsing" data-rel="wird dort gemessen"><title>Accessibility-Baum — wird dort gemessen — Agentic Browsing</title></line>
+          <line x1="1000" y1="250" x2="900" y2="350" data-a="agentic-browsing" data-b="agentic-brand-readiness" data-rel="macht sie zum Score"><title>Agentic Browsing — macht sie zum Score — Agentic Brand Readiness</title></line>
+          <line x1="610" y1="140" x2="720" y2="360" data-a="maschinen-konsens" data-b="answer-engine" data-rel="entsteht in"><title>Maschinen-Konsens — entsteht in — Answer Engine / AEO</title></line>
+          <line x1="610" y1="140" x2="790" y2="80" data-a="maschinen-konsens" data-b="maschinensicht" data-rel="speist sich aus"><title>Maschinen-Konsens — speist sich aus — Maschinensicht</title></line>
+          <line x1="560" y1="350" x2="720" y2="360" data-a="geo" data-b="answer-engine" data-rel="zielt auf"><title>GEO — zielt auf — Answer Engine / AEO</title></line>
+          <line x1="560" y1="350" x2="400" y2="210" data-a="geo" data-b="machine-readable-brands" data-rel="setzt später an"><title>GEO — setzt später an — Machine Readable Brands</title></line>
+          <line x1="900" y1="350" x2="610" y2="140" data-a="agentic-brand-readiness" data-b="maschinen-konsens" data-rel="misst ihn"><title>Agentic Brand Readiness — misst ihn — Maschinen-Konsens</title></line>
+          <line x1="650" y1="520" x2="830" y2="520" data-a="agent-authority" data-b="browser-agent" data-rel="begrenzt"><title>Agent Authority — begrenzt — Browser-Agent</title></line>
+          <line x1="650" y1="520" x2="880" y2="640" data-a="agent-authority" data-b="agentic-commerce" data-rel="wird nötig durch"><title>Agent Authority — wird nötig durch — Agentic Commerce</title></line>
+          <line x1="650" y1="520" x2="420" y2="570" data-a="agent-authority" data-b="verantwortete-entscheidung" data-rel="braucht eine Adresse"><title>Agent Authority — braucht eine Adresse — Verantwortete Entscheidung</title></line>
+          <line x1="830" y1="520" x2="880" y2="640" data-a="browser-agent" data-b="agentic-commerce" data-rel="handelt in"><title>Browser-Agent — handelt in — Agentic Commerce</title></line>
+          <line x1="690" y1="650" x2="880" y2="640" data-a="machine-customers" data-b="agentic-commerce" data-rel="sind dessen Käufer"><title>Machine Customers — sind dessen Käufer — Agentic Commerce</title></line>
+          <line x1="1010" y1="560" x2="650" y2="520" data-a="mcp" data-b="agent-authority" data-rel="gibt Agenten Zugriff"><title>Model Context Protocol — gibt Agenten Zugriff — Agent Authority</title></line>
+          <line x1="420" y1="570" x2="250" y2="650" data-a="verantwortete-entscheidung" data-b="scheiter-signal" data-rel="wird prüfbar durch"><title>Verantwortete Entscheidung — wird prüfbar durch — Scheiter-Signal</title></line>
+          <line x1="420" y1="570" x2="110" y2="560" data-a="verantwortete-entscheidung" data-b="konsens-geschmack" data-rel="ist nicht die Mitte"><title>Verantwortete Entscheidung — ist nicht die Mitte — Konsens-Geschmack</title></line>
+          <line x1="470" y1="440" x2="420" y2="570" data-a="zweite-liste" data-b="verantwortete-entscheidung" data-rel="jeder Punkt braucht eine"><title>Zweite Liste — jeder Punkt braucht eine — Verantwortete Entscheidung</title></line>
+          <line x1="470" y1="440" x2="110" y2="560" data-a="zweite-liste" data-b="konsens-geschmack" data-rel="entzieht sich ihm"><title>Zweite Liste — entzieht sich ihm — Konsens-Geschmack</title></line>
+          <line x1="290" y1="480" x2="610" y2="140" data-a="stateful" data-b="maschinen-konsens" data-rel="fehlt dort"><title>Stateful — fehlt dort — Maschinen-Konsens</title></line>
+          <line x1="1010" y1="440" x2="640" y2="250" data-a="canonical-link" data-b="schema-org" data-rel="Auszeichnung im Quelltext"><title>Canonical-Link — Auszeichnung im Quelltext — Schema.org / JSON-LD</title></line>
+        </g>
+        <g class="netz-knoten">
+          <a href="begriffe.html#brand-infrastructure" class="netz-knoten-a ist-eigen g-spec" data-id="brand-infrastructure" data-def="Die maschinenlesbare Schicht der Marke: explizit, parametrisierbar, für Systeme." data-name="Brand Infrastructure">
+            <circle cx="250" cy="110" r="9"/>
+            <text x="250" y="136">
+              <tspan x="250" dy="0">Brand</tspan>
+              <tspan x="250" dy="13">Infrastructure</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#marken-spezifikation" class="netz-knoten-a ist-eigen g-spec" data-id="marken-spezifikation" data-def="Die Marke in einer Form, die sich anwenden lässt statt gedeutet werden zu müssen." data-name="Marken-Spezifikation">
+            <circle cx="430" cy="70" r="9"/>
+            <text x="430" y="96">
+              <tspan x="430" dy="0">Marken-Spezifikation</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#machine-readable-brands" class="netz-knoten-a ist-eigen g-spec" data-id="machine-readable-brands" data-def="Marken, deren Identität, Sprache und Designlogik als Spezifikation vorliegen, mit der Menschen und Systeme gleichermaßen arbeiten können." data-name="Machine Readable Brands">
+            <circle cx="400" cy="210" r="9"/>
+            <text x="400" y="236">
+              <tspan x="400" dy="0">Machine Readable</tspan>
+              <tspan x="400" dy="13">Brands</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#identitaetsdatei" class="netz-knoten-a ist-eigen g-spec" data-id="identitaetsdatei" data-def="Die Datei, in der festgelegt ist, wer eine Marke ist und wonach sie handelt." data-name="Identitätsdatei">
+            <circle cx="110" cy="210" r="9"/>
+            <text x="110" y="236">
+              <tspan x="110" dy="0">Identitätsdatei</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#open-brand-repo" class="netz-knoten-a ist-eigen g-spec" data-id="open-brand-repo" data-def="Die Marken-Spezifikation als öffentliches, versioniertes Repository." data-name="Open Brand Repo">
+            <circle cx="120" cy="330" r="9"/>
+            <text x="120" y="356">
+              <tspan x="120" dy="0">Open Brand Repo</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#ausfuehrungsschicht-bedeutungsschicht" class="netz-knoten-a ist-eigen g-spec" data-id="ausfuehrungsschicht-bedeutungsschicht" data-def="Die zwei Schichten einer Marke: wie sie aussieht und klingt (Ausführung), und wer sie ist und was für sie gilt (Bedeutung)." data-name="Ausführungsschicht / Bedeutungsschicht">
+            <circle cx="330" cy="330" r="9"/>
+            <text x="330" y="356">
+              <tspan x="330" dy="0">Ausführungsschicht</tspan>
+              <tspan x="330" dy="13">/ Bedeutungsschicht</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#design-token" class="netz-knoten-a ist-fremd g-spec" data-id="design-token" data-def="Die kleinste maschinenlesbare Gestaltungsentscheidung: eine Farbe, ein Abstand, eine Schrift als benannter Wert." data-name="Design-Token">
+            <circle cx="150" cy="440" r="9"/>
+            <text x="150" y="466">
+              <tspan x="150" dy="0">Design-Token</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#maschinen-konsens" class="netz-knoten-a ist-eigen g-lesen" data-id="maschinen-konsens" data-def="Das Markenbild, das KI-Systeme aus allen auffindbaren Quellen zusammensetzen." data-name="Maschinen-Konsens">
+            <circle cx="610" cy="140" r="9"/>
+            <text x="610" y="166">
+              <tspan x="610" dy="0">Maschinen-Konsens</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#maschinensicht" class="netz-knoten-a ist-eigen g-lesen" data-id="maschinensicht" data-def="Der Blick auf eine Marke, wie Systeme sie verarbeiten: Quelltext, Struktur und Auszeichnung statt Gestaltung." data-name="Maschinensicht">
+            <circle cx="790" cy="80" r="9"/>
+            <text x="790" y="106">
+              <tspan x="790" dy="0">Maschinensicht</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#accessibility-baum" class="netz-knoten-a ist-fremd g-lesen" data-id="accessibility-baum" data-def="Die Struktur, die der Browser aus jeder Seite errechnet: alle Elemente mit Rolle und Name, ohne Layout." data-name="Accessibility-Baum">
+            <circle cx="980" cy="130" r="9"/>
+            <text x="980" y="156">
+              <tspan x="980" dy="0">Accessibility-Baum</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#schema-org" class="netz-knoten-a ist-fremd g-lesen" data-id="schema-org" data-def="Gemeinsames Vokabular, mit dem Websites auszeichnen, wer oder was sie sind. JSON-LD ist das übliche Format dafür." data-name="Schema.org / JSON-LD">
+            <circle cx="640" cy="250" r="9"/>
+            <text x="640" y="276">
+              <tspan x="640" dy="0">Schema.org /</tspan>
+              <tspan x="640" dy="13">JSON-LD</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#llms-txt" class="netz-knoten-a ist-fremd g-lesen" data-id="llms-txt" data-def="Textdatei, die die wichtigsten Inhalte einer Website für Sprachmodelle zusammenfasst." data-name="llms.txt">
+            <circle cx="820" cy="210" r="9"/>
+            <text x="820" y="236">
+              <tspan x="820" dy="0">llms.txt</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#agentic-browsing" class="netz-knoten-a ist-fremd g-lesen" data-id="agentic-browsing" data-def="Prüfkategorie in Googles Lighthouse, die misst, wie gut Agenten eine Website lesen und bedienen können." data-name="Agentic Browsing">
+            <circle cx="1000" cy="250" r="9"/>
+            <text x="1000" y="276">
+              <tspan x="1000" dy="0">Agentic Browsing</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#geo" class="netz-knoten-a ist-fremd g-lesen" data-id="geo" data-def="Optimierung von Inhalten für die Antwort generativer Systeme statt für ein Ranking in einer Ergebnisliste." data-name="GEO">
+            <circle cx="560" cy="350" r="9"/>
+            <text x="560" y="376">
+              <tspan x="560" dy="0">GEO</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#answer-engine" class="netz-knoten-a ist-fremd g-lesen" data-id="answer-engine" data-def="System, das eine Frage direkt beantwortet, statt Ergebnisse zu verlinken. AEO ist die Optimierung darauf." data-name="Answer Engine / AEO">
+            <circle cx="720" cy="360" r="9"/>
+            <text x="720" y="386">
+              <tspan x="720" dy="0">Answer Engine /</tspan>
+              <tspan x="720" dy="13">AEO</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#agentic-brand-readiness" class="netz-knoten-a ist-eigen g-lesen" data-id="agentic-brand-readiness" data-def="Der messbare Reifegrad einer Marke gegenüber KI-Systemen: gefunden, korrekt beschrieben und empfohlen werden." data-name="Agentic Brand Readiness">
+            <circle cx="900" cy="350" r="9"/>
+            <text x="900" y="376">
+              <tspan x="900" dy="0">Agentic Brand</tspan>
+              <tspan x="900" dy="13">Readiness</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#canonical-link" class="netz-knoten-a ist-fremd g-lesen" data-id="canonical-link" data-def="Die maschinenlesbare Festlegung, welche Version eines Inhalts das Original ist." data-name="Canonical-Link">
+            <circle cx="1010" cy="440" r="9"/>
+            <text x="1010" y="466">
+              <tspan x="1010" dy="0">Canonical-Link</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#browser-agent" class="netz-knoten-a ist-fremd g-agenten" data-id="browser-agent" data-def="Software, die im Auftrag eines Nutzers Websites bedient: vergleicht, bucht, kauft, statt nur zu lesen." data-name="Browser-Agent">
+            <circle cx="830" cy="520" r="9"/>
+            <text x="830" y="546">
+              <tspan x="830" dy="0">Browser-Agent</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#agent-authority" class="netz-knoten-a ist-eigen g-agenten" data-id="agent-authority" data-def="Die bewusst erteilte, begrenzte und verantwortete Handlungsvollmacht einer Marke an ihre Agenten." data-name="Agent Authority">
+            <circle cx="650" cy="520" r="9"/>
+            <text x="650" y="546">
+              <tspan x="650" dy="0">Agent Authority</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#agentic-commerce" class="netz-knoten-a ist-fremd g-agenten" data-id="agentic-commerce" data-def="Handel, bei dem auf mindestens einer Seite ein Agent vergleicht, verhandelt oder kauft." data-name="Agentic Commerce">
+            <circle cx="880" cy="640" r="9"/>
+            <text x="880" y="666">
+              <tspan x="880" dy="0">Agentic Commerce</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#machine-customers" class="netz-knoten-a ist-fremd g-agenten" data-id="machine-customers" data-def="Systeme, die eigenständig kaufen oder Kaufentscheidungen vorbereiten." data-name="Machine Customers">
+            <circle cx="690" cy="650" r="9"/>
+            <text x="690" y="676">
+              <tspan x="690" dy="0">Machine Customers</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#mcp" class="netz-knoten-a ist-fremd g-agenten" data-id="mcp" data-def="Offener Standard, über den KI-Systeme auf externe Werkzeuge und Datenquellen zugreifen." data-name="Model Context Protocol">
+            <circle cx="1010" cy="560" r="9"/>
+            <text x="1010" y="586">
+              <tspan x="1010" dy="0">Model Context</tspan>
+              <tspan x="1010" dy="13">Protocol</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#zweite-liste" class="netz-knoten-a ist-eigen g-haltung" data-id="zweite-liste" data-def="Die kurze Liste der Markenelemente, die eine Marke der Maschine bewusst entzieht." data-name="Zweite Liste">
+            <circle cx="470" cy="440" r="9"/>
+            <text x="470" y="466">
+              <tspan x="470" dy="0">Zweite Liste</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#verantwortete-entscheidung" class="netz-knoten-a ist-eigen g-haltung" data-id="verantwortete-entscheidung" data-def="Das Urteil, welche Variante richtig ist: begründet, datiert, versioniert, mit einem Absender, der dafür geradesteht." data-name="Verantwortete Entscheidung">
+            <circle cx="420" cy="570" r="9"/>
+            <text x="420" y="596">
+              <tspan x="420" dy="0">Verantwortete</tspan>
+              <tspan x="420" dy="13">Entscheidung</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#scheiter-signal" class="netz-knoten-a ist-eigen g-haltung" data-id="scheiter-signal" data-def="Das benannte Ereignis, an dem eine Empfehlung erkennbar scheitert." data-name="Scheiter-Signal">
+            <circle cx="250" cy="650" r="9"/>
+            <text x="250" y="676">
+              <tspan x="250" dy="0">Scheiter-Signal</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#konsens-geschmack" class="netz-knoten-a ist-eigen g-haltung" data-id="konsens-geschmack" data-def="Geschmack, der sich aus vielen Beispielen lernen lässt und deshalb die Mitte abbildet." data-name="Konsens-Geschmack">
+            <circle cx="110" cy="560" r="9"/>
+            <text x="110" y="586">
+              <tspan x="110" dy="0">Konsens-Geschmack</tspan>
+            </text>
+          </a>
+          <a href="begriffe.html#stateful" class="netz-knoten-a ist-eigen g-haltung" data-id="stateful" data-def="Eine Marke trägt ihren gesamten Verlauf mit. Jede Aussage wirkt gegen alles, was vorher gesagt wurde." data-name="Stateful">
+            <circle cx="290" cy="480" r="9"/>
+            <text x="290" y="506">
+              <tspan x="290" dy="0">Stateful</tspan>
+            </text>
+          </a>
+        </g>
+      </svg>
+      </div>
+
+      <p class="netz-tafel" id="netz-tafel"><span class="t-hint">Auf einen Begriff zeigen, um seine Verbindungen zu sehen. Die vollständige Liste steht unter der Grafik.</span></p>
+
+      <p class="netz-legende">
+        <span class="netz-key k-spec">Die Marke als Spezifikation</span>
+        <span class="netz-key k-lesen">Gelesen werden</span>
+        <span class="netz-key k-agenten">Agenten handeln</span>
+        <span class="netz-key k-haltung">Was bleibt</span>
+        <span class="netz-key k-eigen">eigene Prägung</span><span class="netz-key k-fremd">Fachbegriff</span>
+      </p>
+    </section>
+
+    <article>
+      <section class="article-body">
+        <h2>Alle Begriffe mit ihren Verbindungen</h2>
+        <p>Dieselbe Information als Text, für alle, die lieber lesen als zeigen, und für Systeme, die keine Grafik auswerten.</p>
+      <h3>Die Marke als Spezifikation</h3>
+      <dl class="netz-liste">
+        <dt id="liste-brand-infrastructure"><a href="begriffe.html#brand-infrastructure">Brand Infrastructure</a></dt>
+        <dd>Die maschinenlesbare Schicht der Marke: explizit, parametrisierbar, für Systeme.<span class="netz-verb">Verbunden mit: Marken-Spezifikation <em>(nimmt Form an als)</em>, Schema.org / JSON-LD <em>(wirksamster Teil)</em>, llms.txt <em>(Teil, ohne Sichtbarkeits-Wirkung)</em>, Model Context Protocol <em>(Weg zu den Markendaten)</em></span></dd>
+        <dt id="liste-marken-spezifikation"><a href="begriffe.html#marken-spezifikation">Marken-Spezifikation</a></dt>
+        <dd>Die Marke in einer Form, die sich anwenden lässt statt gedeutet werden zu müssen.<span class="netz-verb">Verbunden mit: Machine Readable Brands <em>(macht möglich)</em>, Identitätsdatei <em>(wird abgelegt als)</em>, Open Brand Repo <em>(wird öffentlich als)</em>, Brand Infrastructure <em>(nimmt Form an als)</em>, Ausführungsschicht / Bedeutungsschicht <em>(Bedeutung braucht Text)</em></span></dd>
+        <dt id="liste-machine-readable-brands"><a href="begriffe.html#machine-readable-brands">Machine Readable Brands</a></dt>
+        <dd>Marken, deren Identität, Sprache und Designlogik als Spezifikation vorliegen, mit der Menschen und Systeme gleichermaßen arbeiten können.<span class="netz-verb">Verbunden mit: Agentic Brand Readiness <em>(Stufe eins davon)</em>, Marken-Spezifikation <em>(macht möglich)</em>, GEO <em>(setzt später an)</em></span></dd>
+        <dt id="liste-identitaetsdatei"><a href="begriffe.html#identitaetsdatei">Identitätsdatei</a></dt>
+        <dd>Die Datei, in der festgelegt ist, wer eine Marke ist und wonach sie handelt.<span class="netz-verb">Verbunden mit: Stateful <em>(muss den Verlauf kennen)</em>, Marken-Spezifikation <em>(wird abgelegt als)</em></span></dd>
+        <dt id="liste-open-brand-repo"><a href="begriffe.html#open-brand-repo">Open Brand Repo</a></dt>
+        <dd>Die Marken-Spezifikation als öffentliches, versioniertes Repository.<span class="netz-verb">Verbunden mit: Design-Token <em>(enthält)</em>, Agent Authority <em>(Grenzen bleiben intern)</em>, Marken-Spezifikation <em>(wird öffentlich als)</em></span></dd>
+        <dt id="liste-ausfuehrungsschicht-bedeutungsschicht"><a href="begriffe.html#ausfuehrungsschicht-bedeutungsschicht">Ausführungsschicht / Bedeutungsschicht</a></dt>
+        <dd>Die zwei Schichten einer Marke: wie sie aussieht und klingt (Ausführung), und wer sie ist und was für sie gilt (Bedeutung).<span class="netz-verb">Verbunden mit: Design-Token <em>(Ausführung ist maschinenfähig)</em>, Marken-Spezifikation <em>(Bedeutung braucht Text)</em></span></dd>
+        <dt id="liste-design-token"><a href="begriffe.html#design-token">Design-Token</a></dt>
+        <dd>Die kleinste maschinenlesbare Gestaltungsentscheidung: eine Farbe, ein Abstand, eine Schrift als benannter Wert.<span class="netz-verb">Verbunden mit: Ausführungsschicht / Bedeutungsschicht <em>(Ausführung ist maschinenfähig)</em>, Open Brand Repo <em>(enthält)</em></span></dd>
+      </dl>
+      <h3>Gelesen werden</h3>
+      <dl class="netz-liste">
+        <dt id="liste-maschinen-konsens"><a href="begriffe.html#maschinen-konsens">Maschinen-Konsens</a></dt>
+        <dd>Das Markenbild, das KI-Systeme aus allen auffindbaren Quellen zusammensetzen.<span class="netz-verb">Verbunden mit: Answer Engine / AEO <em>(entsteht in)</em>, Maschinensicht <em>(speist sich aus)</em>, Agentic Brand Readiness <em>(misst ihn)</em>, Stateful <em>(fehlt dort)</em></span></dd>
+        <dt id="liste-maschinensicht"><a href="begriffe.html#maschinensicht">Maschinensicht</a></dt>
+        <dd>Der Blick auf eine Marke, wie Systeme sie verarbeiten: Quelltext, Struktur und Auszeichnung statt Gestaltung.<span class="netz-verb">Verbunden mit: Accessibility-Baum <em>(zeigt)</em>, Schema.org / JSON-LD <em>(zeigt)</em>, llms.txt <em>(zeigt)</em>, Maschinen-Konsens <em>(speist sich aus)</em></span></dd>
+        <dt id="liste-accessibility-baum"><a href="begriffe.html#accessibility-baum">Accessibility-Baum</a></dt>
+        <dd>Die Struktur, die der Browser aus jeder Seite errechnet: alle Elemente mit Rolle und Name, ohne Layout.<span class="netz-verb">Verbunden mit: Browser-Agent <em>(ist dessen Schnittstelle)</em>, Agentic Browsing <em>(wird dort gemessen)</em>, Maschinensicht <em>(zeigt)</em></span></dd>
+        <dt id="liste-schema-org"><a href="begriffe.html#schema-org">Schema.org / JSON-LD</a></dt>
+        <dd>Gemeinsames Vokabular, mit dem Websites auszeichnen, wer oder was sie sind. JSON-LD ist das übliche Format dafür.<span class="netz-verb">Verbunden mit: Brand Infrastructure <em>(wirksamster Teil)</em>, Maschinensicht <em>(zeigt)</em>, Canonical-Link <em>(Auszeichnung im Quelltext)</em></span></dd>
+        <dt id="liste-llms-txt"><a href="begriffe.html#llms-txt">llms.txt</a></dt>
+        <dd>Textdatei, die die wichtigsten Inhalte einer Website für Sprachmodelle zusammenfasst.<span class="netz-verb">Verbunden mit: Brand Infrastructure <em>(Teil, ohne Sichtbarkeits-Wirkung)</em>, Maschinensicht <em>(zeigt)</em></span></dd>
+        <dt id="liste-agentic-browsing"><a href="begriffe.html#agentic-browsing">Agentic Browsing</a></dt>
+        <dd>Prüfkategorie in Googles Lighthouse, die misst, wie gut Agenten eine Website lesen und bedienen können.<span class="netz-verb">Verbunden mit: Agentic Brand Readiness <em>(macht sie zum Score)</em>, Accessibility-Baum <em>(wird dort gemessen)</em></span></dd>
+        <dt id="liste-geo"><a href="begriffe.html#geo">GEO</a></dt>
+        <dd>Optimierung von Inhalten für die Antwort generativer Systeme statt für ein Ranking in einer Ergebnisliste.<span class="netz-verb">Verbunden mit: Answer Engine / AEO <em>(zielt auf)</em>, Machine Readable Brands <em>(setzt später an)</em></span></dd>
+        <dt id="liste-answer-engine"><a href="begriffe.html#answer-engine">Answer Engine / AEO</a></dt>
+        <dd>System, das eine Frage direkt beantwortet, statt Ergebnisse zu verlinken. AEO ist die Optimierung darauf.<span class="netz-verb">Verbunden mit: Maschinen-Konsens <em>(entsteht in)</em>, GEO <em>(zielt auf)</em></span></dd>
+        <dt id="liste-agentic-brand-readiness"><a href="begriffe.html#agentic-brand-readiness">Agentic Brand Readiness</a></dt>
+        <dd>Der messbare Reifegrad einer Marke gegenüber KI-Systemen: gefunden, korrekt beschrieben und empfohlen werden.<span class="netz-verb">Verbunden mit: Maschinen-Konsens <em>(misst ihn)</em>, Machine Readable Brands <em>(Stufe eins davon)</em>, Agentic Browsing <em>(macht sie zum Score)</em></span></dd>
+        <dt id="liste-canonical-link"><a href="begriffe.html#canonical-link">Canonical-Link</a></dt>
+        <dd>Die maschinenlesbare Festlegung, welche Version eines Inhalts das Original ist.<span class="netz-verb">Verbunden mit: Schema.org / JSON-LD <em>(Auszeichnung im Quelltext)</em></span></dd>
+      </dl>
+      <h3>Agenten handeln</h3>
+      <dl class="netz-liste">
+        <dt id="liste-browser-agent"><a href="begriffe.html#browser-agent">Browser-Agent</a></dt>
+        <dd>Software, die im Auftrag eines Nutzers Websites bedient: vergleicht, bucht, kauft, statt nur zu lesen.<span class="netz-verb">Verbunden mit: Agentic Commerce <em>(handelt in)</em>, Accessibility-Baum <em>(ist dessen Schnittstelle)</em>, Agent Authority <em>(begrenzt)</em></span></dd>
+        <dt id="liste-agent-authority"><a href="begriffe.html#agent-authority">Agent Authority</a></dt>
+        <dd>Die bewusst erteilte, begrenzte und verantwortete Handlungsvollmacht einer Marke an ihre Agenten.<span class="netz-verb">Verbunden mit: Browser-Agent <em>(begrenzt)</em>, Agentic Commerce <em>(wird nötig durch)</em>, Verantwortete Entscheidung <em>(braucht eine Adresse)</em>, Open Brand Repo <em>(Grenzen bleiben intern)</em>, Model Context Protocol <em>(gibt Agenten Zugriff)</em></span></dd>
+        <dt id="liste-agentic-commerce"><a href="begriffe.html#agentic-commerce">Agentic Commerce</a></dt>
+        <dd>Handel, bei dem auf mindestens einer Seite ein Agent vergleicht, verhandelt oder kauft.<span class="netz-verb">Verbunden mit: Agent Authority <em>(wird nötig durch)</em>, Browser-Agent <em>(handelt in)</em>, Machine Customers <em>(sind dessen Käufer)</em></span></dd>
+        <dt id="liste-machine-customers"><a href="begriffe.html#machine-customers">Machine Customers</a></dt>
+        <dd>Systeme, die eigenständig kaufen oder Kaufentscheidungen vorbereiten.<span class="netz-verb">Verbunden mit: Agentic Commerce <em>(sind dessen Käufer)</em></span></dd>
+        <dt id="liste-mcp"><a href="begriffe.html#mcp">Model Context Protocol</a></dt>
+        <dd>Offener Standard, über den KI-Systeme auf externe Werkzeuge und Datenquellen zugreifen.<span class="netz-verb">Verbunden mit: Agent Authority <em>(gibt Agenten Zugriff)</em>, Brand Infrastructure <em>(Weg zu den Markendaten)</em></span></dd>
+      </dl>
+      <h3>Was bleibt</h3>
+      <dl class="netz-liste">
+        <dt id="liste-zweite-liste"><a href="begriffe.html#zweite-liste">Zweite Liste</a></dt>
+        <dd>Die kurze Liste der Markenelemente, die eine Marke der Maschine bewusst entzieht.<span class="netz-verb">Verbunden mit: Verantwortete Entscheidung <em>(jeder Punkt braucht eine)</em>, Konsens-Geschmack <em>(entzieht sich ihm)</em></span></dd>
+        <dt id="liste-verantwortete-entscheidung"><a href="begriffe.html#verantwortete-entscheidung">Verantwortete Entscheidung</a></dt>
+        <dd>Das Urteil, welche Variante richtig ist: begründet, datiert, versioniert, mit einem Absender, der dafür geradesteht.<span class="netz-verb">Verbunden mit: Scheiter-Signal <em>(wird prüfbar durch)</em>, Konsens-Geschmack <em>(ist nicht die Mitte)</em>, Agent Authority <em>(braucht eine Adresse)</em>, Zweite Liste <em>(jeder Punkt braucht eine)</em></span></dd>
+        <dt id="liste-scheiter-signal"><a href="begriffe.html#scheiter-signal">Scheiter-Signal</a></dt>
+        <dd>Das benannte Ereignis, an dem eine Empfehlung erkennbar scheitert.<span class="netz-verb">Verbunden mit: Verantwortete Entscheidung <em>(wird prüfbar durch)</em></span></dd>
+        <dt id="liste-konsens-geschmack"><a href="begriffe.html#konsens-geschmack">Konsens-Geschmack</a></dt>
+        <dd>Geschmack, der sich aus vielen Beispielen lernen lässt und deshalb die Mitte abbildet.<span class="netz-verb">Verbunden mit: Verantwortete Entscheidung <em>(ist nicht die Mitte)</em>, Zweite Liste <em>(entzieht sich ihm)</em></span></dd>
+        <dt id="liste-stateful"><a href="begriffe.html#stateful">Stateful</a></dt>
+        <dd>Eine Marke trägt ihren gesamten Verlauf mit. Jede Aussage wirkt gegen alles, was vorher gesagt wurde.<span class="netz-verb">Verbunden mit: Maschinen-Konsens <em>(fehlt dort)</em>, Identitätsdatei <em>(muss den Verlauf kennen)</em></span></dd>
+      </dl>
+
+        <h2>Warum ein Netz und keine Liste</h2>
+        <p>Die Begriffe sind nicht nebeneinander entstanden, sondern auseinander. <a href="begriffe.html#marken-spezifikation">Marken-Spezifikation</a> ist die Form, die <a href="begriffe.html#brand-infrastructure">Brand Infrastructure</a> annimmt. <a href="begriffe.html#agent-authority">Agent Authority</a> wird nötig, weil Agenten handeln, und braucht am Ende dasselbe wie jede <a href="begriffe.html#verantwortete-entscheidung">verantwortete Entscheidung</a>: eine Adresse, die geradesteht. Eine alphabetische Liste zeigt davon nichts.</p>
+        <p>Jede Verbindung trägt ein Wort. Keine Linie ist dekorativ, und wo ich keinen Zusammenhang benennen kann, steht auch keine. Vier Gruppen ordnen das Bild: was eine Marke festlegen muss, was Systeme davon lesen, was Agenten damit tun, und was am Ende beim Menschen bleibt.</p>
+        <p>Weiter: <a href="begriffe.html">Begriffe im Einzelnen</a> · <a href="belege.html">Belege</a> · <a href="maschinensicht.html">Maschinensicht</a></p>
+      </section>
+
+      <section class="connect">
+        <h2>Kontakt</h2>
+        <p>
+          <a href="https://www.linkedin.com/in/rohaase/" target="_blank" rel="noopener" aria-label="LinkedIn (öffnet in neuem Tab)">LinkedIn</a> ·
+          <a href="mailto:hallo@robert-haase.de">E-Mail</a> ·
+          <a href="/">Startseite</a>
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer role="contentinfo">
+    <p><a href="impressum.html">Impressum &amp; Datenschutz</a></p>
+  </footer>
+
+<script>
+(function () {
+  'use strict';
+
+  /* Begriffs-Netz: Hervorhebung und Tafel.
+     Rein additiv. Ohne dieses Skript bleibt das Netz sichtbar, jeder Knoten
+     ist ein Link ins Glossar, und die vollstaendige Liste steht darunter. */
+
+  var svg = document.getElementById('netz');
+  var tafel = document.getElementById('netz-tafel');
+  if (!svg || !tafel) return;
+
+  var knoten = Array.prototype.slice.call(svg.querySelectorAll('.netz-knoten-a'));
+  var kanten = Array.prototype.slice.call(svg.querySelectorAll('.netz-kanten line'));
+  var grund = tafel.innerHTML;
+  var fix = null;
+
+  function nachbarn(id) {
+    var liste = [];
+    kanten.forEach(function (k) {
+      var a = k.getAttribute('data-a'), b = k.getAttribute('data-b');
+      if (a === id) liste.push({ id: b, rel: k.getAttribute('data-rel'), raus: true });
+      else if (b === id) liste.push({ id: a, rel: k.getAttribute('data-rel'), raus: false });
+    });
+    return liste;
+  }
+
+  function nameVon(id) {
+    var n = svg.querySelector('.netz-knoten-a[data-id="' + id + '"]');
+    return n ? n.getAttribute('data-name') : id;
+  }
+
+  function zeige(el) {
+    var id = el.getAttribute('data-id');
+    var nb = nachbarn(id);
+    var verwandt = {};
+    verwandt[id] = true;
+    nb.forEach(function (n) { verwandt[n.id] = true; });
+
+    knoten.forEach(function (k) {
+      var kid = k.getAttribute('data-id');
+      k.classList.toggle('ist-aktiv', kid === id);
+      k.classList.toggle('ist-blass', !verwandt[kid]);
+    });
+    kanten.forEach(function (k) {
+      k.classList.toggle('ist-aktiv', k.getAttribute('data-a') === id || k.getAttribute('data-b') === id);
+    });
+
+    var rel = nb.map(function (n) {
+      return n.raus
+        ? '<em>' + n.rel + '</em> ' + nameVon(n.id)
+        : nameVon(n.id) + ': <em>' + n.rel + '</em>';
+    }).join(' · ');
+
+    tafel.innerHTML = '<span class="t-name">' + el.getAttribute('data-name') + '</span> '
+      + '<span class="t-def">' + el.getAttribute('data-def') + '</span>'
+      + '<span class="t-rel">' + rel + '</span>';
+  }
+
+  function zurueck() {
+    if (fix) return;
+    knoten.forEach(function (k) { k.classList.remove('ist-aktiv', 'ist-blass'); });
+    kanten.forEach(function (k) { k.classList.remove('ist-aktiv'); });
+    tafel.innerHTML = grund;
+  }
+
+  knoten.forEach(function (el) {
+    el.addEventListener('mouseenter', function () { if (!fix) zeige(el); });
+    el.addEventListener('mouseleave', function () { if (!fix) zurueck(); });
+    el.addEventListener('focus', function () { fix = null; zeige(el); });
+    el.addEventListener('blur', function () { zurueck(); });
+    /* Ein Klick soll dem Link folgen. Nur ein zweiter Klick auf denselben
+       Knoten haelt die Auswahl fest, damit man die Tafel in Ruhe lesen kann. */
+    el.addEventListener('click', function (e) {
+      if (fix === el) { fix = null; return; }
+      if (e.detail > 1) { e.preventDefault(); fix = el; zeige(el); }
+    });
+  });
+
+  svg.addEventListener('mouseleave', function () { if (!fix) zurueck(); });
+})();
+</script>
+
+</body>
+</html>
