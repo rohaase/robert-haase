@@ -257,6 +257,37 @@
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
+  <style>
+    /* ---- Begriffs-Netz --------------------------------------------------
+       Die Positionen rechnet der Browser, deshalb steht hier nur Aussehen.
+       Ohne Skript bleibt der Bereich leer und das Glossar darunter vollstaendig. */
+    .netz-huelle { margin: 0 0 1rem; }
+    #netz { width: 100%; height: auto; display: block; touch-action: none; cursor: grab; }
+    #netz.zieht { cursor: grabbing; }
+    .netz-kante { stroke: var(--border); stroke-width: 1; }
+    .netz-kante.hell { stroke: var(--white); stroke-width: 1.5; }
+    .netz-punkt { stroke-width: 2; stroke: var(--gray); fill: var(--black); transition: fill .12s, stroke .12s; }
+    .netz-punkt.eigen { fill: var(--gray); }
+    .netz-knoten:hover .netz-punkt,
+    .netz-knoten:focus-visible .netz-punkt,
+    .netz-knoten.hell .netz-punkt { fill: var(--white); stroke: var(--white); }
+    .netz-name { font-size: 11px; text-anchor: middle; fill: var(--gray); pointer-events: none; transition: fill .12s; }
+    .netz-knoten:hover .netz-name,
+    .netz-knoten:focus-visible .netz-name,
+    .netz-knoten.hell .netz-name { fill: var(--white); }
+    .netz-knoten.blass { opacity: .25; }
+    .netz-knoten:focus-visible .netz-punkt { outline: 2px solid var(--white); outline-offset: 3px; }
+    .netz-rel { font-size: 10px; text-anchor: middle; fill: var(--gray); pointer-events: none; }
+    .netz-fuss { font-size: 0.8rem; color: var(--gray); margin: 0.35rem 0 0; min-height: 1.4em; }
+
+    /* Auf schmalen Schirmen wuerde das Netz auf ein Drittel schrumpfen und die
+       Namen unlesbar machen. Es behaelt deshalb seine Groesse und wird seitlich
+       gescrollt; die Seite selbst scrollt weiter nur senkrecht. */
+    @media (max-width: 860px) {
+      .netz-huelle { overflow-x: auto; }
+      #netz { min-width: 820px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -278,8 +309,10 @@
     <section class="hero">
       <h1>Glossary.</h1>
       <p class="subtitle">Terms that appear in my writing. Anyone who argues that brands should make their rules explicit should start with their own. The first part holds my own coinages, each with a date and a place it is developed. The second holds terms from the field that I use and that should be lookupable.</p>
-      <p class="subtitle">A list does not say what belongs together. For that, the same terms exist <a href="network.html">as a network</a>, with a word on every connection.</p>
+      <p class="subtitle">A list does not say what belongs together. The network below does: 36 connections, each carrying a word for how the two relate.</p>
     </section>
+
+    <section class="netz-huelle" id="netz-huelle" aria-label="Network of terms"></section>
 
     <section class="glossary-index">
       <h2>Overview</h2>
@@ -527,6 +560,232 @@
   <footer role="contentinfo">
     <p><a href="impressum.html">Imprint &amp; Privacy</a></p>
   </footer>
+
+
+<script>
+(function () {
+  'use strict';
+  var DATEN = {"k": [{"id": "accessibility-tree", "n": "Accessibility Tree", "e": 0}, {"id": "agent-authority", "n": "Agent Authority", "e": 1}, {"id": "agentic-brand-readiness", "n": "Agentic Brand Readiness", "e": 1}, {"id": "agentic-browsing", "n": "Agentic Browsing", "e": 0}, {"id": "agentic-commerce", "n": "Agentic Commerce", "e": 0}, {"id": "answer-engine", "n": "Answer Engine / AEO", "e": 0}, {"id": "execution-layer-layer-of-meaning", "n": "Execution Layer / Layer of Meaning", "e": 1}, {"id": "brand-infrastructure", "n": "Brand Infrastructure", "e": 1}, {"id": "browser-agent", "n": "Browser Agent", "e": 0}, {"id": "canonical-link", "n": "Canonical Link", "e": 0}, {"id": "design-token", "n": "Design Token", "e": 0}, {"id": "geo", "n": "GEO", "e": 0}, {"id": "identity-file", "n": "Identity File", "e": 1}, {"id": "consensus-taste", "n": "Consensus Taste", "e": 1}, {"id": "llms-txt", "n": "llms.txt", "e": 0}, {"id": "machine-customers", "n": "Machine Customers", "e": 0}, {"id": "machine-readable-brands", "n": "Machine Readable Brands", "e": 1}, {"id": "brand-specification", "n": "Brand Specification", "e": 1}, {"id": "machine-consensus", "n": "Machine Consensus", "e": 1}, {"id": "machine-view", "n": "Machine View", "e": 1}, {"id": "mcp", "n": "Model Context Protocol", "e": 0}, {"id": "open-brand-repo", "n": "Open Brand Repo", "e": 1}, {"id": "the-bet", "n": "The Bet", "e": 1}, {"id": "schema-org", "n": "Schema.org / JSON-LD", "e": 0}, {"id": "stateful", "n": "Stateful", "e": 1}, {"id": "accountable-decision", "n": "Accountable Decision", "e": 1}, {"id": "second-list", "n": "Second List", "e": 1}], "v": [{"a": "brand-infrastructure", "b": "brand-specification", "r": "takes shape as"}, {"a": "brand-specification", "b": "machine-readable-brands", "r": "makes possible"}, {"a": "brand-specification", "b": "identity-file", "r": "is stored as"}, {"a": "brand-specification", "b": "open-brand-repo", "r": "goes public as"}, {"a": "machine-readable-brands", "b": "agentic-brand-readiness", "r": "stage one of it"}, {"a": "execution-layer-layer-of-meaning", "b": "design-token", "r": "execution is machine-capable"}, {"a": "execution-layer-layer-of-meaning", "b": "brand-specification", "r": "meaning needs text"}, {"a": "open-brand-repo", "b": "design-token", "r": "contains"}, {"a": "open-brand-repo", "b": "agent-authority", "r": "limits stay internal"}, {"a": "identity-file", "b": "stateful", "r": "must know the history"}, {"a": "brand-infrastructure", "b": "schema-org", "r": "most effective part"}, {"a": "brand-infrastructure", "b": "llms-txt", "r": "part of it, no visibility effect"}, {"a": "brand-infrastructure", "b": "mcp", "r": "route to the brand data"}, {"a": "machine-view", "b": "accessibility-tree", "r": "shows"}, {"a": "machine-view", "b": "schema-org", "r": "shows"}, {"a": "machine-view", "b": "llms-txt", "r": "shows"}, {"a": "accessibility-tree", "b": "browser-agent", "r": "is its interface"}, {"a": "accessibility-tree", "b": "agentic-browsing", "r": "is measured there"}, {"a": "agentic-browsing", "b": "agentic-brand-readiness", "r": "turns it into a score"}, {"a": "machine-consensus", "b": "answer-engine", "r": "forms inside"}, {"a": "machine-consensus", "b": "machine-view", "r": "feeds on"}, {"a": "geo", "b": "answer-engine", "r": "aims at"}, {"a": "geo", "b": "machine-readable-brands", "r": "starts later"}, {"a": "agentic-brand-readiness", "b": "machine-consensus", "r": "measures it"}, {"a": "agent-authority", "b": "browser-agent", "r": "bounds"}, {"a": "agent-authority", "b": "agentic-commerce", "r": "becomes necessary through"}, {"a": "agent-authority", "b": "accountable-decision", "r": "needs an address"}, {"a": "browser-agent", "b": "agentic-commerce", "r": "acts within"}, {"a": "machine-customers", "b": "agentic-commerce", "r": "are its buyers"}, {"a": "mcp", "b": "agent-authority", "r": "gives agents access"}, {"a": "accountable-decision", "b": "the-bet", "r": "becomes testable through"}, {"a": "accountable-decision", "b": "consensus-taste", "r": "is not the middle"}, {"a": "second-list", "b": "accountable-decision", "r": "every item needs one"}, {"a": "second-list", "b": "consensus-taste", "r": "escapes it"}, {"a": "stateful", "b": "machine-consensus", "r": "is missing there"}, {"a": "canonical-link", "b": "schema-org", "r": "markup in the source"}]};
+  var huelle = document.getElementById('netz-huelle');
+  if (!huelle || !document.createElementNS) return;
+
+  var W = 900, H = 520, NS = 'http://www.w3.org/2000/svg';
+  var TEXT = {"aria": "Network of terms: 27 terms connected by 36 named relations. Every term appears with its definition in the list below the graphic.", "hinweis": "Point at a term to see its relations. Nodes can be dragged, a click jumps to the entry."};
+
+  var svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('id', 'netz');
+  svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+  svg.setAttribute('role', 'img');
+  svg.setAttribute('aria-label', TEXT.aria);
+  var gK = document.createElementNS(NS, 'g');
+  var gR = document.createElementNS(NS, 'g');
+  var gN = document.createElementNS(NS, 'g');
+  svg.appendChild(gK); svg.appendChild(gR); svg.appendChild(gN);
+
+  var fuss = document.createElement('p');
+  fuss.className = 'netz-fuss';
+  fuss.textContent = TEXT.hinweis;
+
+  /* Startlage auf einem Kreis: gleiche Ausgangsposition bei jedem Aufruf,
+     damit das Bild nicht bei jedem Laden anders aussieht. */
+  var N = DATEN.k.map(function (d, i) {
+    var w = i / DATEN.k.length * Math.PI * 2;
+    return { id: d.id, n: d.n, e: d.e, x: W / 2 + Math.cos(w) * 260, y: H / 2 + Math.sin(w) * 170, vx: 0, vy: 0 };
+  });
+  var idx = {}; N.forEach(function (n, i) { idx[n.id] = i; });
+  var V = DATEN.v.filter(function (v) { return idx[v.a] != null && idx[v.b] != null; })
+                 .map(function (v) { return { a: idx[v.a], b: idx[v.b], r: v.r }; });
+
+  var grad = {}; V.forEach(function (v) { grad[v.a] = (grad[v.a] || 0) + 1; grad[v.b] = (grad[v.b] || 0) + 1; });
+
+  var kEl = V.map(function () { var l = document.createElementNS(NS, 'line'); l.setAttribute('class', 'netz-kante'); gK.appendChild(l); return l; });
+  var rEl = V.map(function (v) { var t = document.createElementNS(NS, 'text'); t.setAttribute('class', 'netz-rel'); t.textContent = v.r; t.style.display = 'none'; gR.appendChild(t); return t; });
+
+  var nEl = N.map(function (n) {
+    var a = document.createElementNS(NS, 'a');
+    a.setAttribute('class', 'netz-knoten');
+    a.setAttribute('href', '#' + n.id);
+    var c = document.createElementNS(NS, 'circle');
+    c.setAttribute('class', 'netz-punkt' + (n.e ? ' eigen' : ''));
+    c.setAttribute('r', String(4 + Math.min(4, (grad[N.indexOf(n)] || 1))));
+    var t = document.createElementNS(NS, 'text');
+    t.setAttribute('class', 'netz-name');
+    t.textContent = n.n;
+    a.appendChild(c); a.appendChild(t); gN.appendChild(a);
+    return { a: a, c: c, t: t };
+  });
+
+  /* Kraeftesimulation: Knoten stossen sich ab, Kanten ziehen zusammen.
+     Die Abkuehlung stoppt die Rechnung, sobald das Bild ruhig liegt; ein Zug
+     am Knoten waermt sie wieder an. */
+  var k = Math.sqrt(W * H / N.length), temp = W / 4, laeuft = true, halt = null;
+  var MIN = 30; // senkrechter Mindestabstand, waagerecht entscheidet die Textbreite
+
+  function schritt() {
+    var i, j, dx, dy, d, f, n;
+    for (i = 0; i < N.length; i++) { N[i].vx = 0; N[i].vy = 0; }
+    /* Abstossung zwischen allen Knoten (k hoch zwei durch Abstand) */
+    for (i = 0; i < N.length; i++) {
+      for (j = i + 1; j < N.length; j++) {
+        dx = N[i].x - N[j].x; dy = N[i].y - N[j].y;
+        d = Math.sqrt(dx * dx + dy * dy) || 0.01;
+        f = k * k / d;
+        N[i].vx += dx / d * f; N[i].vy += dy / d * f;
+        N[j].vx -= dx / d * f; N[j].vy -= dy / d * f;
+      }
+    }
+    /* Anziehung entlang der Kanten (Abstand hoch zwei durch k) */
+    V.forEach(function (v) {
+      var a = N[v.a], b = N[v.b];
+      var ax = a.x - b.x, ay = a.y - b.y;
+      var ad = Math.sqrt(ax * ax + ay * ay) || 0.01;
+      var af = ad * ad / k;
+      a.vx -= ax / ad * af; a.vy -= ay / ad * af;
+      b.vx += ax / ad * af; b.vy += ay / ad * af;
+    });
+    for (i = 0; i < N.length; i++) {
+      n = N[i];
+      if (n === halt) continue;
+      /* Nur ein leichter Zug zur Mitte: staerker gewichtet reihen sich die
+         Knoten auf, weil die Kollisionsaufloesung sie dann seitlich ausrichtet. */
+      n.vx += (W / 2 - n.x) * 0.03; n.vy += (H / 2 - n.y) * 0.03;
+      var s = Math.sqrt(n.vx * n.vx + n.vy * n.vy) || 0.01;
+      var m = Math.min(s, temp);
+      n.x += n.vx / s * m; n.y += n.vy / s * m;
+    }
+    /* Zwei Knoten duerfen sich nicht ueberdecken, und ihre Namen auch nicht.
+       Geprueft wird deshalb ein Rechteck aus Textbreite und Zeilenhoehe, nicht
+       ein Kreis: „Ausfuehrungsschicht / Bedeutungsschicht" braucht seitlich
+       ein Vielfaches dessen, was es nach oben braucht. */
+    for (var runde = 0; runde < 3; runde++) {
+      for (i = 0; i < N.length; i++) {
+        for (j = i + 1; j < N.length; j++) {
+          var noetigX = (N[i].hw || 30) + (N[j].hw || 30);
+          dx = N[j].x - N[i].x; dy = N[j].y - N[i].y;
+          var ax = Math.abs(dx), ay = Math.abs(dy);
+          if (ax >= noetigX || ay >= MIN) continue;
+          /* In die Richtung ausweichen, die weniger Weg kostet. */
+          if ((noetigX - ax) / noetigX <= (MIN - ay) / MIN) {
+            var sx = (noetigX - ax) / 2 * (dx < 0 ? -1 : 1);
+            if (N[i] !== halt) N[i].x -= sx;
+            if (N[j] !== halt) N[j].x += sx;
+          } else {
+            var sy = (MIN - ay) / 2 * (dy < 0 ? -1 : 1);
+            if (N[i] !== halt) N[i].y -= sy;
+            if (N[j] !== halt) N[j].y += sy;
+          }
+        }
+      }
+    }
+    /* Am Rand zaehlt nicht der Punkt, sondern sein Name: ein breites Label
+       wie „Ausfuehrungsschicht / Bedeutungsschicht" wuerde sonst abgeschnitten. */
+    for (i = 0; i < N.length; i++) {
+      var rand = (N[i].hw || 30) + 4;
+      N[i].x = Math.max(rand, Math.min(W - rand, N[i].x));
+      N[i].y = Math.max(26, Math.min(H - 24, N[i].y));
+    }
+    temp *= 0.975;
+  }
+
+  function zeichne() {
+    V.forEach(function (v, i) {
+      var a = N[v.a], b = N[v.b];
+      kEl[i].setAttribute('x1', a.x); kEl[i].setAttribute('y1', a.y);
+      kEl[i].setAttribute('x2', b.x); kEl[i].setAttribute('y2', b.y);
+      if (rEl[i].style.display !== 'none') {
+        rEl[i].setAttribute('x', (a.x + b.x) / 2);
+        rEl[i].setAttribute('y', (a.y + b.y) / 2 - 4);
+      }
+    });
+    N.forEach(function (n, i) {
+      nEl[i].c.setAttribute('cx', n.x); nEl[i].c.setAttribute('cy', n.y);
+      nEl[i].t.setAttribute('x', n.x); nEl[i].t.setAttribute('y', n.y + 17);
+    });
+  }
+
+  function lauf() {
+    if (!laeuft) return;
+    schritt(); zeichne();
+    if (temp < 0.35 && !halt) { laeuft = false; return; }
+    requestAnimationFrame(lauf);
+  }
+  function anwaermen(t) {
+    temp = Math.max(temp, t || 6);
+    if (!laeuft) { laeuft = true; requestAnimationFrame(lauf); }
+  }
+
+  function hervor(i) {
+    var nah = {}; nah[i] = 1;
+    V.forEach(function (v, j) {
+      var an = v.a === i || v.b === i;
+      kEl[j].classList.toggle('hell', an);
+      rEl[j].style.display = an ? '' : 'none';
+      if (an) { nah[v.a] = 1; nah[v.b] = 1; }
+    });
+    nEl.forEach(function (e, j) {
+      e.a.classList.toggle('hell', j === i);
+      e.a.classList.toggle('blass', !nah[j]);
+    });
+    fuss.textContent = N[i].n;
+    zeichne();
+  }
+  function zurueck() {
+    kEl.forEach(function (l) { l.classList.remove('hell'); });
+    rEl.forEach(function (t) { t.style.display = 'none'; });
+    nEl.forEach(function (e) { e.a.classList.remove('hell', 'blass'); });
+    fuss.textContent = TEXT.hinweis;
+  }
+
+  var zieht = null, bewegt = 0;
+  function pos(ev) {
+    var r = svg.getBoundingClientRect();
+    return { x: (ev.clientX - r.left) / r.width * W, y: (ev.clientY - r.top) / r.height * H };
+  }
+  nEl.forEach(function (e, i) {
+    e.a.addEventListener('mouseenter', function () { if (!zieht) hervor(i); });
+    e.a.addEventListener('mouseleave', function () { if (!zieht) zurueck(); });
+    e.a.addEventListener('focus', function () { hervor(i); });
+    e.a.addEventListener('blur', function () { zurueck(); });
+    e.a.addEventListener('pointerdown', function (ev) {
+      zieht = i; bewegt = 0; halt = N[i];
+      svg.classList.add('zieht');
+      svg.setPointerCapture(ev.pointerId);
+      ev.preventDefault();
+    });
+    /* Ein Zug soll nicht als Klick gelten und die Seite verspringen lassen. */
+    e.a.addEventListener('click', function (ev) { if (bewegt > 3) ev.preventDefault(); });
+  });
+  svg.addEventListener('pointermove', function (ev) {
+    if (zieht == null) return;
+    var p = pos(ev);
+    bewegt += Math.abs(p.x - N[zieht].x) + Math.abs(p.y - N[zieht].y);
+    N[zieht].x = p.x; N[zieht].y = p.y;
+    anwaermen(4); zeichne();
+  });
+  function los() {
+    if (zieht == null) return;
+    zieht = null; halt = null;
+    svg.classList.remove('zieht');
+    anwaermen(8);
+  }
+  svg.addEventListener('pointerup', los);
+  svg.addEventListener('pointercancel', los);
+  svg.addEventListener('mouseleave', function () { if (zieht == null) zurueck(); });
+
+  huelle.appendChild(svg);
+  huelle.appendChild(fuss);
+  /* Wie breit ein Name wirklich ist, weiss erst der Browser. Die Breite geht
+     in die Kollisionspruefung ein, sonst ueberdecken sich lange Namen. */
+  N.forEach(function (n, i) {
+    var b = 60;
+    try { b = nEl[i].t.getComputedTextLength(); } catch (e) {}
+    n.hw = b / 2 + 5;
+  });
+  for (var i = 0; i < 420; i++) schritt();
+  zeichne();
+  requestAnimationFrame(lauf);
+})();
+</script>
 
 </body>
 </html>
