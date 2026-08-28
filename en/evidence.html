@@ -58,37 +58,409 @@
     "url": "https://robert-haase.de/en/evidence.html",
     "description": "A collection of verified numbers on brand, AI search, and agents. Every entry names its primary source, sample size, date, and the limit of the claim.",
     "inLanguage": "en",
-    "author": { "@id": "https://robert-haase.de/#person" },
+    "author": {
+      "@id": "https://robert-haase.de/#person"
+    },
     "datePublished": "2026-08-28",
     "dateModified": "2026-08-28",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "ItemList",
       "name": "Verified numbers on brand, AI search, and agents",
-      "numberOfItems": 22,
+      "numberOfItems": 28,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#llmstxt-abrufe", "text": "97 percent of all llms.txt files received no request at all in May 2026.", "citation": { "@type": "CreativeWork", "name": "Ahrefs, server-log analysis across 137,210 domains", "url": "https://ahrefs.com/blog/llmstxt-study/" } } },
-        { "@type": "ListItem", "position": 2, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#llmstxt-wirkung", "text": "An analysis across 300,000 domains found no measurable effect of llms.txt on citations in AI answers.", "citation": { "@type": "CreativeWork", "name": "SE Ranking, analysis across 300,000 domains", "url": "https://seranking.com/blog/llms-txt/" } } },
-        { "@type": "ListItem", "position": 3, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#google-leitfaden", "text": "Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search.", "citation": { "@type": "CreativeWork", "name": "Google Search Central, official guide", "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" } } },
-        { "@type": "ListItem", "position": 4, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#json-ld-test", "text": "Adding JSON-LD to 1,885 pages showed no measurable effect on AI citations against 4,000 control pages.", "citation": { "@type": "CreativeWork", "name": "Ahrefs, 1,885 pages against 4,000 control pages", "url": "https://ahrefs.com/blog/schema-ai-citations/" } } },
-        { "@type": "ListItem", "position": 5, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#mentions-vs-backlinks", "text": "Brand mentions correlate with AI visibility far more strongly than backlinks.", "citation": { "@type": "CreativeWork", "name": "Ahrefs, analysis across 75,000 brands", "url": "https://ahrefs.com/blog/ai-brand-visibility-correlations/" } } },
-        { "@type": "ListItem", "position": 6, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#inkonsistenz", "text": "Language models recommend widely varying brands when asked the identical question.", "citation": { "@type": "CreativeWork", "name": "SparkToro, research on the consistency of AI recommendations", "url": "https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/" } } },
-        { "@type": "ListItem", "position": 7, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#leere-buttons", "text": "On 30.6 percent of one million home pages surveyed, buttons had no accessible name.", "citation": { "@type": "CreativeWork", "name": "WebAIM Million, one million home pages", "url": "https://webaim.org/projects/million/" } } },
-        { "@type": "ListItem", "position": 8, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#agent-ready", "text": "In a prototype, an agent succeeded on 89.3 percent of tasks on the machine-legible version against 49.3 percent on the original.", "citation": { "@type": "CreativeWork", "name": "Designing Agent-Ready Websites, arXiv 2607.12056", "url": "https://arxiv.org/abs/2607.12056" } } },
-        { "@type": "ListItem", "position": 9, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#a11y-cua", "text": "The widely cited drop in agent success from 78 to 42 percent comes from a study that changed no website at all.", "citation": { "@type": "CreativeWork", "name": "A11y-CUA, CHI 2026, arXiv 2602.09310", "url": "https://arxiv.org/abs/2602.09310" } } },
-        { "@type": "ListItem", "position": 10, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#javascript", "text": "On direct fetch by AI systems, JavaScript is generally not executed.", "citation": { "@type": "CreativeWork", "name": "searchviu (2025), Resoneo (2026) and Search Engine World (2026)", "url": "https://www.searchviu.com/en/schema-markup-and-ai-in-2025-what-chatgpt-claude-perplexity-gemini-really-see/" } } },
-        { "@type": "ListItem", "position": 11, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#lighthouse", "text": "Lighthouse has audited machine readability for agents in its default configuration since version 13.3.0.", "citation": { "@type": "CreativeWork", "name": "Google, Lighthouse category Agentic Browsing", "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring" } } },
-        { "@type": "ListItem", "position": 12, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#a11y-tree", "text": "Google's own agent reads pages through the accessibility tree.", "citation": { "@type": "CreativeWork", "name": "Google, documentation on its own agent", "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-agent" } } },
-        { "@type": "ListItem", "position": 13, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#aipref", "text": "A common standard for how websites permit or refuse AI use of their content still does not exist.", "citation": { "@type": "CreativeWork", "name": "IETF, working group AIPREF", "url": "https://datatracker.ietf.org/wg/aipref/about/" } } },
-        { "@type": "ListItem", "position": 14, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#air-canada", "text": "Air Canada is liable for the refund its chatbot promised; the tribunal rejected the defence that the bot was a separate legal entity.", "citation": { "@type": "CreativeWork", "name": "British Columbia Civil Resolution Tribunal, Moffatt v. Air Canada", "url": "https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/" } } },
-        { "@type": "ListItem", "position": 15, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#cursor-bot", "text": "Cursor's support agent invented a company policy that never existed, appearing under a human name.", "citation": { "@type": "CreativeWork", "name": "The Register", "url": "https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/" } } },
-        { "@type": "ListItem", "position": 16, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#checkout-rueckbau", "text": "Buying directly inside the chat was rolled back half a year after launch; fewer than thirty merchants had it live.", "citation": { "@type": "CreativeWork", "name": "Forrester, analysis of the instant checkout rollback", "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/" } } },
-        { "@type": "ListItem", "position": 17, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#walmart-verhandlung", "text": "Walmart has an AI negotiate autonomously with more than 2,000 suppliers: three percent average savings, 68 percent closing rate.", "citation": { "@type": "CreativeWork", "name": "IEEE Spectrum, report on the negotiation system", "url": "https://spectrum.ieee.org/ai-contracts" } } },
-        { "@type": "ListItem", "position": 18, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#journey-start", "text": "44 percent of US online shoppers begin their journey wholly or partly inside a language model.", "citation": { "@type": "CreativeWork", "name": "Bain &amp; Company, US consumer survey", "url": "https://www.bain.com/insights/agentic-ai-in-retail-how-autonomous-shopping-redefining-customer-journey/" } } },
-        { "@type": "ListItem", "position": 19, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#kaufentscheidung", "text": "Consumers want AI help while shopping but mostly do not want AI to make the purchase decision.", "citation": { "@type": "CreativeWork", "name": "Gartner, consumer survey", "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions" } } },
-        { "@type": "ListItem", "position": 20, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#machine-customers", "text": "Gartner expects machine customers to account for 15 to 20 percent of revenue in relevant categories by 2030.", "citation": { "@type": "CreativeWork", "name": "Gartner, machine customers", "url": "https://www.gartner.com/en/experts/think-again-series/machine-customers" } } },
-        { "@type": "ListItem", "position": 21, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#ai-act", "text": "The EU AI Act transparency duties for chatbots and AI-generated content apply provisionally from 2 August 2026; the high-risk duties were postponed to December 2027 and August 2028.", "citation": { "@type": "CreativeWork", "name": "EU AI Act, Article 50, and the Digital Omnibus (May 2026)", "url": "https://artificialintelligenceact.eu/article/50/" } } },
-        { "@type": "ListItem", "position": 22, "item": { "@type": "Claim", "@id": "https://robert-haase.de/en/evidence.html#marktgroesse", "text": "The large user numbers circulating for AI search systems come mostly from the vendors themselves.", "citation": { "@type": "CreativeWork", "name": "Vendor figures, summarized at Fortune", "url": "https://fortune.com/2026/03/29/ai-agents-driving-your-revenue-are-you-invisible-brand/" } } }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#llmstxt-abrufe",
+            "text": "Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Ahrefs, 137,210 domains, 28 percent of them with an llms.txt",
+              "url": "https://ahrefs.com/blog/llmstxt-study/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#llmstxt-wirkung",
+            "text": "Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "SE Ranking, nearly 300,000 domains, 10.13 percent of them with an llms.txt",
+              "url": "https://seranking.com/blog/llms-txt/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#google-leitfaden",
+            "text": "Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Google Search Central, official guide",
+              "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#json-ld-test",
+            "text": "1,885 pages that added JSON-LD barely moved against 4,000 control pages: no effect distinguishable from zero in ChatGPT and Google AI Mode, and a statistically significant 4.6 percent decline in AI Overviews.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Ahrefs, 1,885 pages against 4,000 matched controls, markup added between August 2025 and March 2026",
+              "url": "https://ahrefs.com/blog/schema-ai-citations/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#mentions-vs-backlinks",
+            "text": "Third-party mentions correlate with visibility in AI answers far more strongly than the classic metrics of a brand's own site: 0.66 to 0.74 against 0.27 to 0.33 for domain authority and 0.19 for the number of pages.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Ahrefs, correlation analysis across 75,000 brands in ChatGPT, Google AI Mode, and AI Overviews",
+              "url": "https://ahrefs.com/blog/ai-brand-visibility-correlations/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#inkonsistenz",
+            "text": "Ask the identical question twice and the chance of getting the same list of brands is under one in a hundred.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "SparkToro with Gumshoe.ai, 600 participants, 12 prompts, 2,961 runs across ChatGPT, Claude, and Google AI",
+              "url": "https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#pew-klicks",
+            "text": "When an AI summary appears, users click a traditional search result on 8 percent of visits. Without a summary it is 15 percent.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Pew Research Center, passive browser tracking of 900 US adults, 68,879 Google searches in March 2025",
+              "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#geo-40-prozent",
+            "text": "The most quoted figure in the AI visibility business, \"up to 40 percent more visibility\", comes from a lab setup running a since-retired model and measures a purpose-built metric.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024",
+              "url": "https://arxiv.org/abs/2311.09735"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#ebu-nachrichten",
+            "text": "45 percent of answers from four AI assistants to news questions had at least one significant issue. In 31 percent it concerned the handling of sources.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "European Broadcasting Union and BBC, 22 media organisations across 18 countries and 14 languages (including ARD, ZDF, Deutsche Welle, and SRF), over 3,000 answers assessed",
+              "url": "https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#leere-buttons",
+            "text": "On 30.6 percent of one million home pages surveyed, buttons had no accessible name.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "WebAIM Million, eighth edition, one million home pages",
+              "url": "https://webaim.org/projects/million/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#agent-ready",
+            "text": "In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Elnaffar and Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 runs across three models",
+              "url": "https://arxiv.org/abs/2607.12056"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#a11y-cua",
+            "text": "The widely cited drop in agent success from 78 to 42 percent comes from a study that changed no website at all.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "A11y-CUA, arXiv 2602.09310, presented at CHI 2026",
+              "url": "https://arxiv.org/abs/2602.09310"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#javascript",
+            "text": "Seven widely used US AI assistants execute no JavaScript on a user-triggered fetch and read only the raw HTML. Five others do execute it.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Search Engine World, 12 assistants compared",
+              "url": "https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#lighthouse",
+            "text": "Since version 13.3.0 of 7 May 2026, Lighthouse ships an \"Agentic Browsing\" category in its default configuration.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Lighthouse release 13.3.0 of 7 May 2026, category in the default config",
+              "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#a11y-tree",
+            "text": "Google names three ways agents perceive a page: screenshots, raw HTML, and the accessibility tree. Modern agents combine them.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Google, Build agent-friendly websites (web.dev)",
+              "url": "https://web.dev/articles/ai-agent-site-ux"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#aipref",
+            "text": "A common standard for how websites permit or refuse AI use of their content still does not exist.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "IETF working group AIPREF, drafts of 18 August 2026",
+              "url": "https://datatracker.ietf.org/wg/aipref/about/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#checkout-rueckbau",
+            "text": "Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Forrester, analysis of the instant checkout rollback",
+              "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#airline-direktkanal",
+            "text": "In a flight-search test, language models went to the airline's own website directly in only about five percent of cases. They preferred booking portals.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Bain & Company, test across three carriers, three language models, and 60 prompts",
+              "url": "https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#walmart-verhandlung",
+            "text": "Walmart has supplier negotiations run by an AI system: 2,000 negotiations at once, around three percent average savings, and three out of four suppliers preferring to negotiate with the machine over a person.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Pactum figures via Bloomberg, April 2023",
+              "url": "https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#journey-start",
+            "text": "30 to 45 percent of US consumers use generative AI for product research and comparison. 17 percent said they would begin their holiday shopping on an AI platform.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Bain & Company, Consumer Lab survey, US",
+              "url": "https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#kaufentscheidung",
+            "text": "Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Gartner, survey of 322 US consumers in January 2026",
+              "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#air-canada",
+            "text": "Air Canada is liable for what its chatbot promised. The defence that the bot was responsible for its own actions was called \"a remarkable submission\" by the decision-maker.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal of British Columbia",
+              "url": "https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#cursor-bot",
+            "text": "Cursor's support agent invented a usage rule that never existed and replied under the name \"Sam\".",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "The Register, 18 April 2025 (invented rule, apology)",
+              "url": "https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#ai-act",
+            "text": "The EU AI Act transparency duties for chatbots and AI-generated content have applied since 2 August 2026. The high-risk duties were postponed to December 2027 and August 2028.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "EU AI Act, Article 50, applicable since 2 August 2026",
+              "url": "https://artificialintelligenceact.eu/article/50/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#olg-hamm",
+            "text": "A German higher regional court has ruled that a company is directly liable for the misleading statements of its own AI chatbot. The chatbot is not a third party in the meaning of the law.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25",
+              "url": "https://www.olg-hamm.nrw.de/behoerde/presse/Pressemitteilungen/zt-Archiv/2026_Pressearchiv/16_26_PE_KI-Chatbot/index.php"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#machine-customers",
+            "text": "In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Gartner, CEO survey, cited in the Think Again series",
+              "url": "https://www.gartner.com/en/experts/think-again-series/machine-customers"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#marktgroesse",
+            "text": "The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "Google, AI Mode blog post, 19 May 2026",
+              "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#ki-nutzung-deutschland",
+            "text": "26 percent of German companies with ten or more employees used AI technologies in 2025. Among large companies with 250 or more employees it is 57 percent, among small ones 23 percent.",
+            "citation": {
+              "@type": "CreativeWork",
+              "name": "German Federal Statistical Office, ICT usage survey, companies with 10 or more employees",
+              "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html"
+            }
+          }
+        }
       ]
     }
   }
@@ -257,7 +629,7 @@
 
     <section class="article-body">
       <p>Most numbers in this field circulate without a source, with the wrong denominator, or a year too late. I need them for my own writing, so I check them against the primary source. The result is here, including where it contradicts my own position.</p>
-      <p>A number is not the same as its interpretation. So every entry states what it explicitly does not prove. If you read a number differently or find an error, <a href="mailto:hallo@robert-haase.de">write to me</a> and I will correct it and note the date.</p>
+      <p>A number is not the same as its interpretation. So every entry states what it explicitly does not prove. Four entries exist for that reason alone: they correct figures that circulate in the field in overreached form, among them the 78-to-42-percent agent figure and the 40 percent of generative engine optimization. If you read a number differently or find an error, <a href="mailto:hallo@robert-haase.de">write to me</a> and I will correct it and note the date.</p>
     </section>
 
     <section class="ev-controls" aria-labelledby="ev-filter-label">
@@ -278,245 +650,311 @@
 
     <section id="ev-list">
 
-      <article class="ev-item" id="llmstxt-abrufe" data-topic="ki-suche" data-cite="97 percent of all llms.txt files received no request at all in May 2026 (Ahrefs, server-log analysis across 137,210 domains, May 2026). https://ahrefs.com/blog/llmstxt-study/">
+      <article class="ev-item" id="llmstxt-abrufe" data-topic="ki-suche" data-cite="Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026. (Ahrefs, 137,210 domains, 28 percent of them with an llms.txt · June 2026). https://ahrefs.com/blog/llmstxt-study/">
         <p class="ev-grade is-strong">Verified study</p>
-        <p class="ev-claim">97 percent of all llms.txt files received no request at all in May 2026.</p>
-        <p class="ev-limit"><strong>What the number does not say:</strong> It measures requests in server logs, not effect. The file remains useful for coding and browser agents. What is refuted is the claim that AI search reads llms.txt for its recommendations.</p>
-        <p class="ev-source">Ahrefs, server-log analysis across 137,210 domains · May 2026 · <a href="https://ahrefs.com/blog/llmstxt-study/">Source</a></p>
+        <p class="ev-claim">Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> It measures requests, not effect. The file remains useful for coding and browser agents. What is refuted is only the claim that AI search reads llms.txt for its recommendations. <strong>Mind the denominator:</strong> the 97 percent refer to the roughly 38,000 domains that have a file, not to all 137,210 studied. And the sample is not a cross-section of the web but the domains of one analytics vendor that had traffic in May.</p>
+        <p class="ev-source">Ahrefs, 137,210 domains, 28 percent of them with an llms.txt · June 2026 · <a href="https://ahrefs.com/blog/llmstxt-study/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#llmstxt-abrufe">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="llmstxt-wirkung" data-topic="ki-suche" data-cite="An analysis across 300,000 domains found no measurable effect of llms.txt on citations in AI answers (SE Ranking, 2026). https://seranking.com/blog/llms-txt/">
+      <article class="ev-item" id="llmstxt-wirkung" data-topic="ki-suche" data-cite="Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers. (SE Ranking, nearly 300,000 domains, 10.13 percent of them with an llms.txt · November 2025). https://seranking.com/blog/llms-txt/">
         <p class="ev-grade is-strong">Verified study</p>
-        <p class="ev-claim">An analysis across 300,000 domains found no measurable effect of llms.txt on citations in AI answers.</p>
-        <p class="ev-limit"><strong>What the number does not say:</strong> No effect in this measurement does not mean the file is useless. It is the second independent study with the same result, which makes it the sturdier half of the finding above.</p>
-        <p class="ev-source">SE Ranking, analysis across 300,000 domains · 2026 · <a href="https://seranking.com/blog/llms-txt/">Source</a></p>
+        <p class="ev-claim">Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> No relationship is not a measurement of effect. The study compares, it does not experiment, and it limits itself to the model and dataset tested. The comparison group is also smaller than the headline number suggests: only 10.13 percent of the domains had a file at all. Its weight comes from being the second independent study with the same result as the finding above.</p>
+        <p class="ev-source">SE Ranking, nearly 300,000 domains, 10.13 percent of them with an llms.txt · November 2025 · <a href="https://seranking.com/blog/llms-txt/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#llmstxt-wirkung">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="google-leitfaden" data-topic="ki-suche" data-cite="Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search (Google Search Central, Optimizing for generative AI features on Google Search, as of July 2026). https://developers.google.com/search/docs/fundamentals/ai-optimization-guide">
+      <article class="ev-item" id="google-leitfaden" data-topic="ki-suche" data-cite="Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search. (Google Search Central, official guide · as of 10 July 2026). https://developers.google.com/search/docs/fundamentals/ai-optimization-guide">
         <p class="ev-grade is-strong">Vendor documentation</p>
         <p class="ev-claim">Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search.</p>
-        <p class="ev-limit"><strong>What the statement does not say:</strong> It applies to Google, not to other systems, and it concerns visibility in search, not whether agents can use a page. From Google&#8217;s perspective, optimizing for AI search is still SEO.</p>
-        <p class="ev-source">Google Search Central, official guide · as of July 2026 · <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide">Source</a></p>
+        <p class="ev-limit"><strong>What the statement does not say:</strong> It applies to Google Search including its generative features, explicitly not to other systems — for services that do use such files, the same text calls them harmless. And on structured data Google does not say "useless" but keeps recommending it, because it qualifies pages for rich results in classic search. From Google&#8217;s perspective, optimizing for AI search is still SEO.</p>
+        <p class="ev-source">Google Search Central, official guide · as of 10 July 2026 · <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#google-leitfaden">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="json-ld-test" data-topic="ki-suche" data-cite="Adding JSON-LD to 1,885 pages showed no measurable effect on AI citations against 4,000 control pages (Ahrefs, 2026). https://ahrefs.com/blog/schema-ai-citations/">
+      <article class="ev-item" id="json-ld-test" data-topic="ki-suche" data-cite="1,885 pages that added JSON-LD barely moved against 4,000 control pages: no effect distinguishable from zero in ChatGPT and Google AI Mode, and a statistically significant 4.6 percent decline in AI Overviews. (Ahrefs, 1,885 pages against 4,000 matched controls, markup added between August 2025 and March 2026 · May 2026). https://ahrefs.com/blog/schema-ai-citations/">
         <p class="ev-grade is-weak">Single test</p>
-        <p class="ev-claim">Adding JSON-LD to 1,885 pages showed no measurable effect on AI citations against 4,000 control pages.</p>
-        <p class="ev-limit"><strong>What the test does not say:</strong> It measures citations in ChatGPT and Google AI Mode, not whether structured data is read at all. For rich results in classic search the markup remains uncontested. One test is not proof of no effect.</p>
-        <p class="ev-source">Ahrefs, 1,885 pages against 4,000 control pages · 2026 · <a href="https://ahrefs.com/blog/schema-ai-citations/">Source</a></p>
+        <p class="ev-claim">1,885 pages that added JSON-LD barely moved against 4,000 control pages: no effect distinguishable from zero in ChatGPT and Google AI Mode, and a statistically significant 4.6 percent decline in AI Overviews.</p>
+        <p class="ev-limit"><strong>What the test does not say:</strong> Only pages that were <strong>already heavily cited</strong> by AI were studied — each had over a hundred AI Overview citations in February 2025. The study says nothing about pages that do not appear at all, and the authors explicitly allow that markup may help there. It is an observational study with matched controls, not an experiment. For rich results in classic search the markup remains uncontested.</p>
+        <p class="ev-source">Ahrefs, 1,885 pages against 4,000 matched controls, markup added between August 2025 and March 2026 · May 2026 · <a href="https://ahrefs.com/blog/schema-ai-citations/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#json-ld-test">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="mentions-vs-backlinks" data-topic="ki-suche" data-cite="Brand mentions correlate with AI visibility far more strongly than backlinks (Ahrefs, analysis across 75,000 brands, 2026). https://ahrefs.com/blog/ai-brand-visibility-correlations/">
+      <article class="ev-item" id="mentions-vs-backlinks" data-topic="ki-suche" data-cite="Third-party mentions correlate with visibility in AI answers far more strongly than the classic metrics of a brand&#8217;s own site: 0.66 to 0.74 against 0.27 to 0.33 for domain authority and 0.19 for the number of pages. (Ahrefs, correlation analysis across 75,000 brands in ChatGPT, Google AI Mode, and AI Overviews · December 2025). https://ahrefs.com/blog/ai-brand-visibility-correlations/">
         <p class="ev-grade is-strong">Verified study</p>
-        <p class="ev-claim">Brand mentions correlate with AI visibility far more strongly than backlinks.</p>
-        <p class="ev-limit"><strong>What the number does not say:</strong> Correlation is not causation. Large brands are mentioned more often and cited more often without one causing the other. What holds is the ranking: what third parties write weighs more than your own technique.</p>
-        <p class="ev-source">Ahrefs, analysis across 75,000 brands · 2026 · <a href="https://ahrefs.com/blog/ai-brand-visibility-correlations/">Source</a></p>
+        <p class="ev-claim">Third-party mentions correlate with visibility in AI answers far more strongly than the classic metrics of a brand&#8217;s own site: 0.66 to 0.74 against 0.27 to 0.33 for domain authority and 0.19 for the number of pages.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> Correlation is not causation. Large brands are mentioned more often and cited more often without one causing the other. What holds is the ranking: what third parties write weighs more than your own technique. <strong>On the range:</strong> it combines two factors, mentions on YouTube (0.737) and mentions elsewhere on the web (0.656 to 0.709 depending on the system). The sample is also established brands with a domain rating above 40, not a cross-section.</p>
+        <p class="ev-source">Ahrefs, correlation analysis across 75,000 brands in ChatGPT, Google AI Mode, and AI Overviews · December 2025 · <a href="https://ahrefs.com/blog/ai-brand-visibility-correlations/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#mentions-vs-backlinks">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="inkonsistenz" data-topic="ki-suche" data-cite="Language models recommend widely varying brands when asked the identical question (SparkToro, 2026). https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/">
+      <article class="ev-item" id="inkonsistenz" data-topic="ki-suche" data-cite="Ask the identical question twice and the chance of getting the same list of brands is under one in a hundred. (SparkToro with Gumshoe.ai, 600 participants, 12 prompts, 2,961 runs across ChatGPT, Claude, and Google AI · January 2026). https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/">
         <p class="ev-grade is-strong">Verified study</p>
-        <p class="ev-claim">Language models recommend widely varying brands when asked the identical question.</p>
-        <p class="ev-limit"><strong>What follows from it:</strong> Anyone measuring AI visibility with a single run is mostly measuring noise. A measurement becomes meaningful only across several runs, several systems, and repeated points in time. That applies to the numbers visibility tools report, too.</p>
-        <p class="ev-source">SparkToro, research on the consistency of AI recommendations · 2026 · <a href="https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/">Source</a></p>
+        <p class="ev-claim">Ask the identical question twice and the chance of getting the same list of brands is under one in a hundred.</p>
+        <p class="ev-limit"><strong>What follows and what does not:</strong> Anyone measuring AI visibility with a single run is mostly measuring noise. The study explicitly does not conclude that measuring is pointless: across dozens to hundreds of prompts, run repeatedly, it considers a visibility share a reasonable metric. Citing it as "tracking is useless" goes further than the evidence.</p>
+        <p class="ev-source">SparkToro with Gumshoe.ai, 600 participants, 12 prompts, 2,961 runs across ChatGPT, Claude, and Google AI · January 2026 · <a href="https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#inkonsistenz">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="leere-buttons" data-topic="agenten" data-cite="On 30.6 percent of one million home pages surveyed, buttons had no accessible name (WebAIM Million, 2026). https://webaim.org/projects/million/">
+      <article class="ev-item" id="pew-klicks" data-topic="ki-suche" data-cite="When an AI summary appears, users click a traditional search result on 8 percent of visits. Without a summary it is 15 percent. (Pew Research Center, passive browser tracking of 900 US adults, 68,879 Google searches in March 2025 · July 2025). https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/">
+        <p class="ev-grade is-strong">Verified study</p>
+        <p class="ev-claim">When an AI summary appears, users click a traditional search result on 8 percent of visits. Without a summary it is 15 percent.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> It establishes no cause. Queries that trigger an AI summary are systematically different from those that do not, so the comparison runs between query types, not within the same query. It also shows no revenue loss and says nothing about commercial queries. <strong>The harder number sits beside it:</strong> a link <em>inside</em> the summary was clicked on one percent of visits. And the mix of sources in the summaries resembled ordinary search, which contradicts the popular story about concentration on Reddit and Wikipedia.</p>
+        <p class="ev-source">Pew Research Center, passive browser tracking of 900 US adults, 68,879 Google searches in March 2025 · July 2025 · <a href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#pew-klicks">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="geo-40-prozent" data-topic="ki-suche" data-cite="The most quoted figure in the AI visibility business, &quot;up to 40 percent more visibility&quot;, comes from a lab setup running a since-retired model and measures a purpose-built metric. (Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · submitted November 2023). https://arxiv.org/abs/2311.09735">
+        <p class="ev-grade is-weak">Usually miscited</p>
+        <p class="ev-claim">The most quoted figure in the AI visibility business, "up to 40 percent more visibility", comes from a lab setup running a since-retired model and measures a purpose-built metric.</p>
+        <p class="ev-limit"><strong>What the number actually covers:</strong> It measures a position-weighted share of words a source occupies in a generated answer. The "generative engine" was a two-stage build of the authors&#8217; own: fetch the top five Google results, then generate an answer with GPT-3.5. No commercial product, no current model. "Up to 40 percent" is also a maximum across the best-performing methods, not an average. It does not evidence more clicks, more revenue, or more mentions in ChatGPT or Google. The paper itself is careful and states its limits; the overreach happens in the citing.</p>
+        <p class="ev-source">Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · submitted November 2023 · <a href="https://arxiv.org/abs/2311.09735">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#geo-40-prozent">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="ebu-nachrichten" data-topic="ki-suche" data-cite="45 percent of answers from four AI assistants to news questions had at least one significant issue. In 31 percent it concerned the handling of sources. (European Broadcasting Union and BBC, 22 media organisations across 18 countries and 14 languages (including ARD, ZDF, Deutsche Welle, and SRF), over 3,000 answers assessed · October 2025). https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste">
+        <p class="ev-grade is-strong">Verified study</p>
+        <p class="ev-claim">45 percent of answers from four AI assistants to news questions had at least one significant issue. In 31 percent it concerned the handling of sources.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> What was tested was <strong>news content, not brands</strong>. Citing it as evidence for how often AI misrepresents companies transfers it illegitimately. The assessments came from journalists at the participating organisations, so not an independent body, and the models date from mid-2025. <strong>The sourcing finding is the brand-relevant part:</strong> almost a third of answers attributed statements to a source that does not support them. That is precisely the mechanism by which a brand gets miscited too.</p>
+        <p class="ev-source">European Broadcasting Union and BBC, 22 media organisations across 18 countries and 14 languages (including ARD, ZDF, Deutsche Welle, and SRF), over 3,000 answers assessed · October 2025 · <a href="https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#ebu-nachrichten">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="leere-buttons" data-topic="agenten" data-cite="On 30.6 percent of one million home pages surveyed, buttons had no accessible name. (WebAIM Million, eighth edition, one million home pages · February 2026 (29.6 percent the year before)). https://webaim.org/projects/million/">
         <p class="ev-grade is-strong">Verified study</p>
         <p class="ev-claim">On 30.6 percent of one million home pages surveyed, buttons had no accessible name.</p>
-        <p class="ev-limit"><strong>What the number does not say:</strong> It was made as an accessibility survey, not an agent test. The connection is direct nonetheless: a button without a name has no label in the accessibility tree, and agents working from that tree cannot name it. Home pages were measured, not entire websites.</p>
-        <p class="ev-source">WebAIM Million, one million home pages · 2026 · <a href="https://webaim.org/projects/million/">Source</a></p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> It was made as an accessibility survey, not an agent test. The connection is direct nonetheless: a button without a name has no label in the accessibility tree, and agents working from that tree cannot name it. Home pages were measured, not entire sites, and the share refers to pages carrying at least one such button, not to the share of all buttons.</p>
+        <p class="ev-source">WebAIM Million, eighth edition, one million home pages · February 2026 (29.6 percent the year before) · <a href="https://webaim.org/projects/million/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#leere-buttons">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="agent-ready" data-topic="agenten" data-cite="In a prototype, an agent succeeded on 89.3 percent of tasks on the machine-legible version against 49.3 percent on the original (Designing Agent-Ready Websites, arXiv 2607.12056, 2026). https://arxiv.org/abs/2607.12056">
+      <article class="ev-item" id="agent-ready" data-topic="agenten" data-cite="In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original. (Elnaffar and Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 runs across three models · July 2026). https://arxiv.org/abs/2607.12056">
         <p class="ev-grade is-weak">Preliminary, prototype</p>
-        <p class="ev-claim">In a prototype, an agent succeeded on 89.3 percent of tasks on the machine-legible version against 49.3 percent on the original.</p>
-        <p class="ev-limit"><strong>What the experiment does not say:</strong> What varied was machine clarity, not accessibility, and it is two versions of a single page in a lab setting. The connection is plausible but not transferable to arbitrary websites. It is the best available indication, not a proof.</p>
-        <p class="ev-source">Designing Agent-Ready Websites, arXiv 2607.12056 · July 2026 · <a href="https://arxiv.org/abs/2607.12056">Source</a></p>
+        <p class="ev-claim">In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original.</p>
+        <p class="ev-limit"><strong>What the experiment does not say:</strong> What varied was machine clarity, not accessibility, and these are two versions of a purpose-built shop prototype, not a real website. The authors state explicitly that this is a proof of concept whose results "should not be generalized to all domains, websites, or agent systems". The figure quoted is also the stricter of two success rates measured. It is the best available indication, not a proof.</p>
+        <p class="ev-source">Elnaffar and Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 runs across three models · July 2026 · <a href="https://arxiv.org/abs/2607.12056">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#agent-ready">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="a11y-cua" data-topic="agenten" data-cite="The widely cited drop in agent success from 78 to 42 percent comes from a study that changed no website at all (A11y-CUA, CHI 2026, arXiv 2602.09310). https://arxiv.org/abs/2602.09310">
+      <article class="ev-item" id="a11y-cua" data-topic="agenten" data-cite="The widely cited drop in agent success from 78 to 42 percent comes from a study that changed no website at all. (A11y-CUA, arXiv 2602.09310, presented at CHI 2026 · February 2026). https://arxiv.org/abs/2602.09310">
         <p class="ev-grade is-weak">Usually miscited</p>
         <p class="ev-claim">The widely cited drop in agent success from 78 to 42 percent comes from a study that changed no website at all.</p>
-        <p class="ev-limit"><strong>What actually varied:</strong> how the agent operates, not the accessibility of the pages. The study took the agent&#8217;s mouse away, so to speak. As evidence that accessible websites help agents it does not hold, although it is cited for exactly that everywhere. A clean comparison of accessible against inaccessible is still missing.</p>
-        <p class="ev-source">A11y-CUA, CHI 2026, arXiv 2602.09310 · 2026 · <a href="https://arxiv.org/abs/2602.09310">Source</a></p>
+        <p class="ev-limit"><strong>What actually varied:</strong> how the agent operates, not the accessibility of the pages. The study took the agent&#8217;s mouse away, restricting it to the keyboard. As evidence that accessible websites help agents it does not hold, although it is cited for exactly that everywhere. A clean comparison of accessible against inaccessible is still missing. <strong>The numbers are narrower than their citations too:</strong> they describe a single model (Claude Sonnet 4.5, precisely 78.33 to 41.67 percent), and the tasks span desktop applications, not only websites. A second, open model fell from 20 to 0 percent.</p>
+        <p class="ev-source">A11y-CUA, arXiv 2602.09310, presented at CHI 2026 · February 2026 · <a href="https://arxiv.org/abs/2602.09310">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#a11y-cua">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="javascript" data-topic="agenten" data-cite="On direct fetch by AI systems, JavaScript is generally not executed (three independent tests: searchviu 2025, Resoneo 2026, Search Engine World 2026). https://www.searchviu.com/en/schema-markup-and-ai-in-2025-what-chatgpt-claude-perplexity-gemini-really-see/">
-        <p class="ev-grade is-strong">Three independent tests</p>
-        <p class="ev-claim">On direct fetch by AI systems, JavaScript is generally not executed.</p>
-        <p class="ev-limit"><strong>What the finding does not say:</strong> It holds for the direct fetch, not for content that reaches an answer through the Google index. A telling side finding in the third test: with a phone number hidden behind JavaScript, some vendors returned it and others did not. That is a vendor decision, not a technical limit.</p>
-        <p class="ev-source">searchviu (2025), Resoneo (2026) and <a href="https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test">Search Engine World</a> (2026) · <a href="https://www.searchviu.com/en/schema-markup-and-ai-in-2025-what-chatgpt-claude-perplexity-gemini-really-see/">Source</a></p>
+      <article class="ev-item" id="javascript" data-topic="agenten" data-cite="Seven widely used US AI assistants execute no JavaScript on a user-triggered fetch and read only the raw HTML. Five others do execute it. (Search Engine World, 12 assistants compared · June 2026 · earlier test: searchVIU, December 2025). https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test">
+        <p class="ev-grade is-strong">Controlled test</p>
+        <p class="ev-claim">Seven widely used US AI assistants execute no JavaScript on a user-triggered fetch and read only the raw HTML. Five others do execute it.</p>
+        <p class="ev-limit"><strong>What the test shows and what it does not:</strong> The setup put a decoy value in the raw HTML and the real value behind JavaScript. ChatGPT, Claude, Gemini, Perplexity, Meta AI, Copilot, and Grok returned the decoy; DeepSeek, ERNIE, Qwen, Kimi, and Mistral returned the real value. <strong>The dividing line runs by vendor, not by technology</strong> — it is a decision, not a limit. The finding covers the direct fetch, not content that reaches an answer through the Google index. An earlier test in December 2025 still measured Gemini as the only system that rendered, so the picture moves.</p>
+        <p class="ev-source">Search Engine World, 12 assistants compared · June 2026 · earlier test: searchVIU, December 2025 · <a href="https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#javascript">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="lighthouse" data-topic="agenten" data-cite="Lighthouse has audited machine readability for agents in its default configuration since version 13.3.0 (Google, Agentic Browsing category, May 2026). https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring">
+      <article class="ev-item" id="lighthouse" data-topic="agenten" data-cite="Since version 13.3.0 of 7 May 2026, Lighthouse ships an &quot;Agentic Browsing&quot; category in its default configuration. (Lighthouse release 13.3.0 of 7 May 2026, category in the default config · Google&#8217;s documentation). https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0">
         <p class="ev-grade is-strong">Vendor documentation</p>
-        <p class="ev-claim">Lighthouse has audited machine readability for agents in its default configuration since version 13.3.0.</p>
-        <p class="ev-limit"><strong>What the score does not say:</strong> It measures agent readiness, explicitly not visibility in Google search. A good value is no ranking promise. What is notable is the direction: machine readability turns from a claim into a measured property.</p>
-        <p class="ev-source">Google, Lighthouse category Agentic Browsing · since May 2026 · <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring">Source</a></p>
+        <p class="ev-claim">Since version 13.3.0 of 7 May 2026, Lighthouse ships an "Agentic Browsing" category in its default configuration.</p>
+        <p class="ev-limit"><strong>What the score does not say:</strong> Google labels the category explicitly as experimental and based on proposed standards; it requires Chrome 150 or later, and the WebMCP audits require registering for the origin trial. It reports a pass rate, not a 0-to-100 score like performance or SEO. It measures agent readiness, explicitly not visibility in Google Search. What is notable is the direction: machine readability turns from a claim into a measured property.</p>
+        <p class="ev-source">Lighthouse release 13.3.0 of 7 May 2026, category in the default config · <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring">Google&#8217;s documentation</a> · <a href="https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#lighthouse">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="a11y-tree" data-topic="agenten" data-cite="Google&#39;s own agent reads pages through the accessibility tree (Google, crawler documentation, 2026). https://developers.google.com/crawling/docs/crawlers-fetchers/google-agent">
+      <article class="ev-item" id="a11y-tree" data-topic="agenten" data-cite="Google names three ways agents perceive a page: screenshots, raw HTML, and the accessibility tree. Modern agents combine them. (Google, Build agent-friendly websites (web.dev) · as of 1 April 2026). https://web.dev/articles/ai-agent-site-ux">
         <p class="ev-grade is-strong">Vendor documentation</p>
-        <p class="ev-claim">Google&#8217;s own agent reads pages through the accessibility tree.</p>
-        <p class="ev-limit"><strong>What does not follow:</strong> that every agent works this way. Among the common tools some read the tree, others work primarily from the DOM, others combine both. The generalization that all browser agents read the accessibility tree is false and circulates anyway.</p>
-        <p class="ev-source">Google, documentation on its own agent · 2026 · <a href="https://developers.google.com/crawling/docs/crawlers-fetchers/google-agent">Source</a></p>
+        <p class="ev-claim">Google names three ways agents perceive a page: screenshots, raw HTML, and the accessibility tree. Modern agents combine them.</p>
+        <p class="ev-limit"><strong>What does not follow:</strong> that agents work from the accessibility tree alone. That shortcut is exactly what circulates. Google describes the tree as a high-fidelity map that ignores visual noise, but says in the same text that agents cross-reference tree and DOM with a visual rendering. For practice this changes little: an element without an accessible name is missing from two of the three routes.</p>
+        <p class="ev-source">Google, Build agent-friendly websites (web.dev) · as of 1 April 2026 · <a href="https://web.dev/articles/ai-agent-site-ux">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#a11y-tree">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="aipref" data-topic="agenten" data-cite="A common standard for how websites permit or refuse AI use of their content still does not exist (IETF working group AIPREF). https://datatracker.ietf.org/wg/aipref/about/">
+      <article class="ev-item" id="aipref" data-topic="agenten" data-cite="A common standard for how websites permit or refuse AI use of their content still does not exist. (IETF working group AIPREF, drafts of 18 August 2026 · checked 28 August 2026). https://datatracker.ietf.org/wg/aipref/about/">
         <p class="ev-grade is-plain">State of standardization</p>
         <p class="ev-claim">A common standard for how websites permit or refuse AI use of their content still does not exist.</p>
-        <p class="ev-limit"><strong>What that means in practice:</strong> Anyone steering AI crawlers today does so through robots.txt and vendor-specific tokens that can change at any time. The IETF working group AIPREF is building a shared vocabulary; a single vendor push toward one expired without becoming binding.</p>
-        <p class="ev-source">IETF, working group AIPREF · ongoing · <a href="https://datatracker.ietf.org/wg/aipref/about/">Source</a></p>
+        <p class="ev-limit"><strong>How far the work has come:</strong> The IETF working group AIPREF is developing two building blocks, a vocabulary and an attachment mechanism. At the end of August 2026 both sit at draft status "I-D Exists", meaning they have not even been submitted for approval; there is no RFC, although the group&#8217;s own milestones are dated 31 August 2026. In practice: anyone steering AI crawlers today does so through robots.txt and vendor-specific tokens that can change at any time. In parallel, Cloudflare runs its own vendor-bound mechanism.</p>
+        <p class="ev-source">IETF working group AIPREF, drafts of 18 August 2026 · checked 28 August 2026 · <a href="https://datatracker.ietf.org/wg/aipref/about/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#aipref">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="air-canada" data-topic="haftung" data-cite="Air Canada is liable for the refund its chatbot promised; the tribunal rejected the defence that the bot was a separate legal entity (BC Civil Resolution Tribunal, Moffatt v. Air Canada, February 2024). https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/">
-        <p class="ev-grade is-strong">Court decision</p>
-        <p class="ev-claim">Air Canada is liable for the refund its chatbot promised; the tribunal rejected the defence that the bot was a separate legal entity.</p>
-        <p class="ev-limit"><strong>What the case is not:</strong> a German or European ruling. It comes from British Columbia and binds no one here. As a precedent for the underlying question it is still the most cited case: what the agent promises, the brand promises.</p>
-        <p class="ev-source">British Columbia Civil Resolution Tribunal, Moffatt v. Air Canada · February 2024 · <a href="https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/">Source</a></p>
-        <div class="ev-actions">
-          <button type="button" class="ev-copy">Copy quote</button>
-          <a class="ev-permalink" href="#air-canada">Permalink</a>
-        </div>
-      </article>
-
-      <article class="ev-item" id="cursor-bot" data-topic="haftung" data-cite="Cursor&#39;s support agent invented a company policy that never existed, appearing under a human name (The Register, April 2025). https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/">
-        <p class="ev-grade is-plain">Documented incident</p>
-        <p class="ev-claim">Cursor&#8217;s support agent invented a company policy that never existed, appearing under a human name.</p>
-        <p class="ev-limit"><strong>What the case shows:</strong> The damage came not from a wrong answer alone but from the fact that it sounded like a binding company rule. Cancellations and a public apology followed. A single incident, but with the same pattern as the others: the agent speaks as the brand.</p>
-        <p class="ev-source">The Register · April 2025 · <a href="https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/">Source</a></p>
-        <div class="ev-actions">
-          <button type="button" class="ev-copy">Copy quote</button>
-          <a class="ev-permalink" href="#cursor-bot">Permalink</a>
-        </div>
-      </article>
-
-      <article class="ev-item" id="checkout-rueckbau" data-topic="handel" data-cite="Buying directly inside the chat was rolled back half a year after launch; fewer than thirty merchants had it live (Forrester, 2026). https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/">
+      <article class="ev-item" id="checkout-rueckbau" data-topic="handel" data-cite="Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source. (Forrester, analysis of the instant checkout rollback · 7 March 2026 (launch: 29 September 2025)). https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/">
         <p class="ev-grade is-plain">Market observation</p>
-        <p class="ev-claim">Buying directly inside the chat was rolled back half a year after launch; fewer than thirty merchants had it live.</p>
-        <p class="ev-limit"><strong>What follows and what does not:</strong> The thesis that commerce moves wholesale into the chat is refuted for now. What is not refuted is the shift in discovery: found at the agent, bought at the brand. In parallel, several vendors are building protocols for agentic purchase.</p>
-        <p class="ev-source">Forrester, analysis of the instant checkout rollback · 2026 · <a href="https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/">Source</a></p>
+        <p class="ev-claim">Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source.</p>
+        <p class="ev-limit"><strong>What follows and what does not:</strong> The thesis that commerce moves wholesale into the chat is refuted for now. What is not refuted is the shift in discovery: found at the agent, bought at the brand. <strong>On the number:</strong> the source gives two conflicting figures, a dozen per a press report and "closer to 30 and climbing" per Shopify itself. Both cover Shopify merchants only, not all partners.</p>
+        <p class="ev-source">Forrester, analysis of the instant checkout rollback · 7 March 2026 (launch: 29 September 2025) · <a href="https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#checkout-rueckbau">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="walmart-verhandlung" data-topic="handel" data-cite="Walmart has an AI negotiate autonomously with more than 2,000 suppliers: three percent average savings, 68 percent closing rate (IEEE Spectrum). https://spectrum.ieee.org/ai-contracts">
-        <p class="ev-grade is-plain">Case report</p>
-        <p class="ev-claim">Walmart has an AI negotiate autonomously with more than 2,000 suppliers: three percent average savings, 68 percent closing rate.</p>
-        <p class="ev-limit"><strong>What the numbers are:</strong> figures from the reported programme, not an independent audit. The third number is the notable one: three quarters of suppliers said they preferred negotiating with the system over a person. That is mandate in procurement, quantified and in production.</p>
-        <p class="ev-source">IEEE Spectrum, report on the negotiation system · <a href="https://spectrum.ieee.org/ai-contracts">Source</a></p>
+      <article class="ev-item" id="airline-direktkanal" data-topic="handel" data-cite="In a flight-search test, language models went to the airline&#8217;s own website directly in only about five percent of cases. They preferred booking portals. (Bain & Company, test across three carriers, three language models, and 60 prompts · 16 March 2026). https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/">
+        <p class="ev-grade is-strong">Controlled test</p>
+        <p class="ev-claim">In a flight-search test, language models went to the airline&#8217;s own website directly in only about five percent of cases. They preferred booking portals.</p>
+        <p class="ev-limit"><strong>Why this matters for brands:</strong> The direct channel and the loyalty program, the most expensive distribution assets many brands own, are bypassed in the agent layer. The study&#8217;s explanation is remarkably unglamorous: portals deliver cleaner, more structured, more agent-readable data. <strong>Limits:</strong> three European carriers, their ten most relevant markets, three language models, 60 non-branded prompts. One industry, one point in time, no claim about other categories.</p>
+        <p class="ev-source">Bain &amp; Company, test across three carriers, three language models, and 60 prompts · 16 March 2026 · <a href="https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#airline-direktkanal">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="walmart-verhandlung" data-topic="handel" data-cite="Walmart has supplier negotiations run by an AI system: 2,000 negotiations at once, around three percent average savings, and three out of four suppliers preferring to negotiate with the machine over a person. (Pactum figures via Bloomberg, April 2023 · closing rate: Harvard Business Review, November 2022). https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html">
+        <p class="ev-grade is-plain">Vendor and company figures</p>
+        <p class="ev-claim">Walmart has supplier negotiations run by an AI system: 2,000 negotiations at once, around three percent average savings, and three out of four suppliers preferring to negotiate with the machine over a person.</p>
+        <p class="ev-limit"><strong>Where the numbers come from:</strong> the system&#8217;s vendor and Walmart itself, reported via Bloomberg. There is no independent audit. The closing rate of 68 percent often quoted alongside comes from an earlier Harvard Business Review case study. <strong>The third number remains the striking one:</strong> the preference for the machine comes from the other side of the table, not from the operator. That is mandate in procurement, quantified and in production.</p>
+        <p class="ev-source">Pactum figures via Bloomberg, April 2023 · closing rate: Harvard Business Review, November 2022 · <a href="https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#walmart-verhandlung">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="journey-start" data-topic="handel" data-cite="44 percent of US online shoppers begin their journey wholly or partly inside a language model (Bain, 2026). https://www.bain.com/insights/agentic-ai-in-retail-how-autonomous-shopping-redefining-customer-journey/">
+      <article class="ev-item" id="journey-start" data-topic="handel" data-cite="30 to 45 percent of US consumers use generative AI for product research and comparison. 17 percent said they would begin their holiday shopping on an AI platform. (Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent). https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/">
         <p class="ev-grade is-plain">Survey</p>
-        <p class="ev-claim">44 percent of US online shoppers begin their journey wholly or partly inside a language model.</p>
-        <p class="ev-limit"><strong>What the number does not say:</strong> It rests on self-reporting and covers the US, not the German-speaking market. A journey begun is also not a purchase. As an order of magnitude for the shift in discovery it is usable; as a revenue statement it is not.</p>
-        <p class="ev-source">Bain &amp; Company, US consumer survey · 2026 · <a href="https://www.bain.com/insights/agentic-ai-in-retail-how-autonomous-shopping-redefining-customer-journey/">Source</a></p>
+        <p class="ev-claim">30 to 45 percent of US consumers use generative AI for product research and comparison. 17 percent said they would begin their holiday shopping on an AI platform.</p>
+        <p class="ev-limit"><strong>What the numbers do not say:</strong> They rest on self-reporting and cover the US, not the German-speaking market. <strong>And the two figures measure different things:</strong> research and comparison is not the same as beginning the shopping journey. Merging them produces a number that does not exist. A journey begun is also not a purchase. As an order of magnitude for the shift in discovery they are usable; as a revenue statement they are not.</p>
+        <p class="ev-source">Bain &amp; Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent · <a href="https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#journey-start">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="kaufentscheidung" data-topic="handel" data-cite="Consumers want AI help while shopping but mostly do not want AI to make the purchase decision (Gartner survey, May 2026). https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions">
+      <article class="ev-item" id="kaufentscheidung" data-topic="handel" data-cite="Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies. (Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026). https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions">
         <p class="ev-grade is-plain">Survey</p>
-        <p class="ev-claim">Consumers want AI help while shopping but mostly do not want AI to make the purchase decision.</p>
-        <p class="ev-limit"><strong>Why it matters:</strong> It is the counterweight to the forecasts about autonomously buying agents. Stated preference and later behaviour do diverge regularly, and surveys are especially prone to it here because the experience is missing.</p>
-        <p class="ev-source">Gartner, consumer survey · May 2026 · <a href="https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions">Source</a></p>
+        <p class="ev-claim">Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies.</p>
+        <p class="ev-limit"><strong>What puts the number in perspective:</strong> Even willingness to accept mere <em>help</em> is not a majority: 31 percent would let AI narrow choices for household supplies, 28 percent for electronics. It is the counterweight to forecasts about autonomously buying agents. Stated preference and later behaviour do diverge regularly, especially where experience is missing. Sample: 322 US consumers.</p>
+        <p class="ev-source">Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026 · <a href="https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#kaufentscheidung">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="machine-customers" data-topic="markt" data-cite="Gartner expects machine customers to account for 15 to 20 percent of revenue in relevant categories by 2030 (Gartner, machine customers). https://www.gartner.com/en/experts/think-again-series/machine-customers">
-        <p class="ev-grade is-weak">Forecast</p>
-        <p class="ev-claim">Gartner expects machine customers to account for 15 to 20 percent of revenue in relevant categories by 2030.</p>
-        <p class="ev-limit"><strong>What this is:</strong> a forecast, not a measurement. It belongs in a presentation only with that word in front of it. Analyst forecasts for new categories are often wrong, usually in the timing rather than the direction.</p>
-        <p class="ev-source">Gartner, machine customers · <a href="https://www.gartner.com/en/experts/think-again-series/machine-customers">Source</a></p>
+      <article class="ev-item" id="air-canada" data-topic="haftung" data-cite="Air Canada is liable for what its chatbot promised. The defence that the bot was responsible for its own actions was called &quot;a remarkable submission&quot; by the decision-maker. (Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal of British Columbia · 14 February 2024 · full decision). https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/">
+        <p class="ev-grade is-strong">Tribunal decision</p>
+        <p class="ev-claim">Air Canada is liable for what its chatbot promised. The defence that the bot was responsible for its own actions was called "a remarkable submission" by the decision-maker.</p>
+        <p class="ev-limit"><strong>What the case is and is not:</strong> It concerns a bereavement fare and 650.88 Canadian dollars in damages, not a general refund practice. It was decided by the Civil Resolution Tribunal in British Columbia, <strong>not a court</strong>, and it binds no one in Europe. The load-bearing sentence still reaches far beyond the case: it makes no difference whether information comes from a static page or a chatbot. The pointed phrase "separate legal entity" is the decision-maker&#8217;s summary, not the airline&#8217;s wording.</p>
+        <p class="ev-source">Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal of British Columbia · 14 February 2024 · <a href="https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html">full decision</a> · <a href="https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
-          <a class="ev-permalink" href="#machine-customers">Permalink</a>
+          <a class="ev-permalink" href="#air-canada">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="ai-act" data-topic="haftung" data-cite="The EU AI Act transparency duties for chatbots and AI-generated content apply provisionally from 2 August 2026; the high-risk duties were postponed to December 2027 and August 2028. https://artificialintelligenceact.eu/article/50/">
-        <p class="ev-grade is-plain">Legal status, in motion</p>
-        <p class="ev-claim">The EU AI Act transparency duties for chatbots and AI-generated content apply provisionally from 2 August 2026; the high-risk duties were postponed to December 2027 and August 2028.</p>
-        <p class="ev-limit"><strong>Why provisionally is in that sentence:</strong> The deadlines have been moved repeatedly, most recently by the Digital Omnibus in May 2026. Anyone planning around these dates should re-check them before use. The direction is stable, the calendar is not.</p>
-        <p class="ev-source">EU AI Act, Article 50, and the Digital Omnibus (May 2026) · as of August 2026 · <a href="https://artificialintelligenceact.eu/article/50/">Source</a></p>
+      <article class="ev-item" id="cursor-bot" data-topic="haftung" data-cite="Cursor&#8217;s support agent invented a usage rule that never existed and replied under the name &quot;Sam&quot;. (The Register, 18 April 2025 (invented rule, apology) · Fortune, 19 April 2025 (the name &quot;Sam&quot;, cancellations)). https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/">
+        <p class="ev-grade is-plain">Documented incident</p>
+        <p class="ev-claim">Cursor&#8217;s support agent invented a usage rule that never existed and replied under the name "Sam".</p>
+        <p class="ev-limit"><strong>What the case shows:</strong> The damage came not from a wrong answer alone but from the fact that it sounded like a binding company rule. The co-founder publicly clarified that no such rule existed and apologized; users then reported cancelling subscriptions. No figure for that exists. A single incident, but with the same pattern as the others: the agent speaks as the brand.</p>
+        <p class="ev-source">The Register, 18 April 2025 (invented rule, apology) · <a href="https://fortune.com/article/customer-support-ai-cursor-went-rogue">Fortune, 19 April 2025</a> (the name "Sam", cancellations) · <a href="https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#cursor-bot">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="ai-act" data-topic="haftung" data-cite="The EU AI Act transparency duties for chatbots and AI-generated content have applied since 2 August 2026. The high-risk duties were postponed to December 2027 and August 2028. (EU AI Act, Article 50, applicable since 2 August 2026 · postponements via the Digital Omnibus, May 2026). https://artificialintelligenceact.eu/article/50/">
+        <p class="ev-grade is-plain">Legal status</p>
+        <p class="ev-claim">The EU AI Act transparency duties for chatbots and AI-generated content have applied since 2 August 2026. The high-risk duties were postponed to December 2027 and August 2028.</p>
+        <p class="ev-limit"><strong>What this means in practice:</strong> Anyone interacting with an AI system must be able to tell, unless it is obvious anyway, and synthetic content must carry machine-readable marking. Systems already in use get a four-month grace period for the marking requirement. <strong>On the calendar:</strong> deadlines have been moved repeatedly, most recently by the Digital Omnibus in May 2026 — though not this one. The direction is stable; the calendar was not.</p>
+        <p class="ev-source">EU AI Act, Article 50, applicable since 2 August 2026 · postponements via the Digital Omnibus, May 2026 · <a href="https://artificialintelligenceact.eu/article/50/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#ai-act">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="marktgroesse" data-topic="markt" data-cite="The large user numbers circulating for AI search systems come mostly from the vendors themselves (Fortune, 2026). https://fortune.com/2026/03/29/ai-agents-driving-your-revenue-are-you-invisible-brand/">
+      <article class="ev-item" id="olg-hamm" data-topic="haftung" data-cite="A German higher regional court has ruled that a company is directly liable for the misleading statements of its own AI chatbot. The chatbot is not a third party in the meaning of the law. (Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25). https://www.olg-hamm.nrw.de/behoerde/presse/Pressemitteilungen/zt-Archiv/2026_Pressearchiv/16_26_PE_KI-Chatbot/index.php">
+        <p class="ev-grade is-strong">Court ruling, not final</p>
+        <p class="ev-claim">A German higher regional court has ruled that a company is directly liable for the misleading statements of its own AI chatbot. The chatbot is not a third party in the meaning of the law.</p>
+        <p class="ev-limit"><strong>What the case is and is not:</strong> A clinic&#8217;s chatbot attributed medical specialist titles to its directors that they did not hold and that in part do not exist. The court held that it does not matter whether the company had the chatbot programmed with correct data only. <strong>Important limits:</strong> the judgment is <strong>not final</strong>; appeal to the Federal Court of Justice was allowed. It is competition law, so it concerns injunctive relief, not damages. And it covers the <strong>self-operated</strong> chatbot. Who is liable when a third-party system makes false claims about a brand is not decided by it.</p>
+        <p class="ev-source">Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25 · <a href="https://www.olg-hamm.nrw.de/behoerde/presse/Pressemitteilungen/zt-Archiv/2026_Pressearchiv/16_26_PE_KI-Chatbot/index.php">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#olg-hamm">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="machine-customers" data-topic="markt" data-cite="In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. (Gartner, CEO survey, cited in the Think Again series · archive snapshot July 2026). https://www.gartner.com/en/experts/think-again-series/machine-customers">
+        <p class="ev-grade is-weak">Self-assessment, forecast</p>
+        <p class="ev-claim">In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers.</p>
+        <p class="ev-limit"><strong>What this is:</strong> a self-assessment by surveyed executives about the future, not a measurement and not a Gartner house forecast. Citations routinely compress both into "Gartner expects". Estimates like this for new categories are often wrong, usually in the timing rather than the direction. <strong>On sourcing:</strong> the page blocks automated retrieval; the wording is evidenced through an archive and Gartner&#8217;s own video title, not through a direct fetch.</p>
+        <p class="ev-source">Gartner, CEO survey, cited in the Think Again series · archive snapshot July 2026 · <a href="https://www.gartner.com/en/experts/think-again-series/machine-customers">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#machine-customers">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="marktgroesse" data-topic="markt" data-cite="The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode. (Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026). https://blog.google/products-and-platforms/products/search/search-io-2026/">
         <p class="ev-grade is-weak">Vendor figures</p>
-        <p class="ev-claim">The large user numbers circulating for AI search systems come mostly from the vendors themselves.</p>
-        <p class="ev-limit"><strong>How to handle them:</strong> Figures quoted include around 900 million weekly active users for ChatGPT and roughly one billion for Google AI Mode, plus individual retailer claims about fast-growing referral traffic. None of them is independently audited. They work as an order of magnitude, not as evidence, and belong in a sentence that names the source.</p>
-        <p class="ev-source">Vendor figures, summarized at Fortune · 2026 · <a href="https://fortune.com/2026/03/29/ai-agents-driving-your-revenue-are-you-invisible-brand/">Source</a></p>
+        <p class="ev-claim">The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode.</p>
+        <p class="ev-limit"><strong>Why the comparison limps:</strong> One number counts <strong>weekly</strong>, the other <strong>monthly</strong>. Placed side by side they still read as equivalent, and that is exactly how they travel through presentations. Neither is independently audited. The Google figure is at least documented by the vendor directly; the ChatGPT figure circulates as a company statement in reports about it. Usable as an order of magnitude, not as evidence.</p>
+        <p class="ev-source">Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026 · <a href="https://blog.google/products-and-platforms/products/search/search-io-2026/">Source</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#marktgroesse">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="ki-nutzung-deutschland" data-topic="markt" data-cite="26 percent of German companies with ten or more employees used AI technologies in 2025. Among large companies with 250 or more employees it is 57 percent, among small ones 23 percent. (German Federal Statistical Office, ICT usage survey, companies with 10 or more employees · November 2025). https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html">
+        <p class="ev-grade is-strong">Official statistics</p>
+        <p class="ev-claim">26 percent of German companies with ten or more employees used AI technologies in 2025. Among large companies with 250 or more employees it is 57 percent, among small ones 23 percent.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> It is collected as a yes-or-no and says nothing about intensity, maturity, or effect, and it is not broken down by function — so it is no evidence about marketing or brand management. <strong>Why it belongs here anyway:</strong> it is the most methodologically rigorous German figure available and a sober anchor against industry-association surveys reporting markedly higher numbers for the same year. When two figures on the same question diverge widely, the cause lies in population and method, not in reality.</p>
+        <p class="ev-source">German Federal Statistical Office, ICT usage survey, companies with 10 or more employees · November 2025 · <a href="https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#ki-nutzung-deutschland">Permalink</a>
         </div>
       </article>
 

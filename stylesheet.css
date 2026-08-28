@@ -418,6 +418,14 @@ footer a:hover {
   .glossary-entry { padding: 2rem 0; }
   section { padding: 2rem 0; }
   nav, main, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
+
+  /* Seit dem fuenften Menuepunkt (Belege, 28.08.2026) passt die Leiste auf
+     schmalen Viewports nicht mehr in eine Zeile: space-between hat die
+     Abstaende auf null gedrueckt, „Belege" und „Ueber" beruehrten sich.
+     Der Name bekommt jetzt eine eigene Zeile, die Links darunter echten
+     Abstand. */
+  nav { flex-wrap: wrap; justify-content: flex-start; gap: 0.55rem 1.15rem; }
+  nav .name { flex-basis: 100%; }
 }
 
 .glossary-group {
