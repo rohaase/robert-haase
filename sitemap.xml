@@ -223,6 +223,22 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://robert-haase.de/belege.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/belege.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/belege.html"/>
+    <lastmod>2026-08-28</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/evidence.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/belege.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/evidence.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/belege.html"/>
+    <lastmod>2026-08-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://robert-haase.de/en/glossary.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/begriffe.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/glossary.html"/>
@@ -235,7 +251,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/maschinensicht.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-view.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/maschinensicht.html"/>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -243,7 +259,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/maschinensicht.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/machine-view.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/maschinensicht.html"/>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
