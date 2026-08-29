@@ -67,7 +67,7 @@
     "mainEntity": {
       "@type": "ItemList",
       "name": "Verified numbers on brand, AI search, and agents",
-      "numberOfItems": 28,
+      "numberOfItems": 30,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -459,6 +459,24 @@
               "name": "German Federal Statistical Office, ICT usage survey, companies with 10 or more employees",
               "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html"
             }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#dax-zutritt",
+            "text": "Twelve of 40 German blue-chip (DAX) home pages serve no content to an automated browser. They respond with a security check, an access denial, an error page or a timeout."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#dax-benennung",
+            "text": "Across the 28 DAX home pages that could be retrieved, 105 of 3,508 controls carry no name in the accessibility tree, or 3.0 percent. Sixteen of the 28 pages have no gap at all; the worst reaches 21.7 percent."
           }
         }
       ]
@@ -955,6 +973,28 @@
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#ki-nutzung-deutschland">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="dax-zutritt" data-topic="agenten" data-cite="Twelve of 40 German blue-chip (DAX) home pages serve no content to an automated browser. They respond with a security check, an access denial, an error page or a timeout. (Own measurement, 29 August 2026 · all 40 DAX home pages, Chrome 151 headless, three passes · same result in all three). https://robert-haase.de/en/evidence.html#dax-zutritt">
+        <p class="ev-grade is-strong">Own survey, reproducible</p>
+        <p class="ev-claim">Twelve of 40 German blue-chip (DAX) home pages serve no content to an automated browser. They respond with a security check, an access denial, an error page or a timeout.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> The measurement used a Chrome that identifies itself as automated in its user agent. An agent in an unremarkable browser gets further, so what is measured is the rejection of <em>recognisable</em> automation, not reachability for every agent. The blocks are also intermittent: RWE was measurable in one pass and blocked in the next. And it is not an accusation, bot defence also protects against abuse. The blocking sites were Adidas, Allianz, Bayer, Deutsche Post, E.ON, Hannover Re, Merck, RWE, SAP, Siemens, Volkswagen and Zalando.</p>
+        <p class="ev-source">Own measurement, 29 August 2026 · all 40 DAX home pages, Chrome 151 headless, three passes · same result in all three</p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#dax-zutritt">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="dax-benennung" data-topic="agenten" data-cite="Across the 28 DAX home pages that could be retrieved, 105 of 3,508 controls carry no name in the accessibility tree, or 3.0 percent. Sixteen of the 28 pages have no gap at all; the worst reaches 21.7 percent. (Own measurement, 29 August 2026 · Chrome's own accessibility tree, not a reimplementation · three passes, identical result on all 28 pages). https://robert-haase.de/en/evidence.html#dax-benennung">
+        <p class="ev-grade is-strong">Own survey, reproducible</p>
+        <p class="ev-claim">Across the 28 DAX home pages that could be retrieved, 105 of 3,508 controls carry no name in the accessibility tree, or 3.0 percent. Sixteen of the 28 pages have no gap at all; the worst reaches 21.7 percent.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> Blue-chip corporations are not the average of the web but its best-resourced end, with accessibility teams of their own. The widely cited 30.6 percent of empty buttons from WebAIM comes from one million home pages worldwide and is <em>not</em> comparable. What was measured are home pages as delivered, consent dialog included, not checkout flows or signed-in areas. It measures recognisability, not whether an agent completes its task. The gaps follow a pattern: carousel dots, icon links to social networks, and image links with an empty alt text.</p>
+        <p class="ev-source">Own measurement, 29 August 2026 · Chrome's own accessibility tree, not a reimplementation · three passes, identical result on all 28 pages</p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#dax-benennung">Permalink</a>
         </div>
       </article>
 
