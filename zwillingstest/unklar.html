@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Nordlicht Kaffee — Fassung ohne Auszeichnung</title>
+<meta name="description" content="Testfassung B des Zwillings-Tests: derselbe Inhalt, als div-Suppe gebaut.">
+<style>
+  :root { --bg:#f7f7f4; --fg:#1c1c1a; --mut:#6b6b66; --lin:#dcdcd5; --akz:#2f5d50; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:16px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--fg); }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+  .kopf { display:flex; justify-content:space-between; align-items:center; padding:1rem 0; border-bottom:1px solid var(--lin); }
+  .marke { font-weight:700; letter-spacing:.04em; }
+  .korb { font-size:1.3rem; line-height:1; background:none; border:0; padding:.3rem .5rem; cursor:pointer; color:var(--fg); }
+  h1,.h1 { font-size:1.9rem; font-weight:700; margin:2rem 0 .5rem; letter-spacing:-.02em; }
+  h2,.h2 { font-size:1.1rem; font-weight:700; margin:2.5rem 0 .75rem; }
+  p,.p { margin:.5rem 0; }
+  .mut { color:var(--mut); }
+  table,.tab { width:100%; border-collapse:collapse; margin:.5rem 0 1rem; }
+  th,td,.th,.td { text-align:left; padding:.6rem .5rem; border-bottom:1px solid var(--lin); }
+  .tr { display:flex; }
+  .th,.td { flex:1; }
+  .th { font-weight:700; }
+  .feld { margin:.75rem 0; }
+  .lab,label { display:block; font-size:.85rem; color:var(--mut); margin-bottom:.25rem; }
+  input[type=email],input[type=text] { width:100%; max-width:22rem; padding:.55rem .6rem; font:inherit;
+    border:1px solid var(--lin); border-radius:3px; background:#fff; color:var(--fg); }
+  select { padding:.55rem .6rem; font:inherit; border:1px solid var(--lin); border-radius:3px; background:#fff; color:var(--fg); }
+  .knopf,button[type=submit] { font:inherit; font-weight:600; padding:.6rem 1.1rem; border:0; border-radius:3px;
+    background:var(--akz); color:#fff; cursor:pointer; display:inline-block; }
+  .wahl { display:flex; gap:.5rem; flex-wrap:wrap; margin:.25rem 0 .5rem; }
+  .opt { padding:.45rem .9rem; border:1px solid var(--lin); border-radius:3px; background:#fff; cursor:pointer; font:inherit; }
+  .opt[aria-pressed=true],.opt.an { background:var(--akz); color:#fff; border-color:var(--akz); }
+  .hinweis { margin-top:1.5rem; padding:.75rem; background:#fff; border:1px solid var(--lin); border-radius:3px;
+    font-size:.85rem; color:var(--mut); }
+  .ergebnis { margin-top:1rem; font-weight:600; color:var(--akz); min-height:1.5rem; }
+  /* Der Telefon-Link soll aussehen wie Text: Unterschied allein in der Auszeichnung. */
+  a[href^=tel] { color:inherit; text-decoration:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kopf">
+    <div class="marke">Nordlicht Kaffee</div>
+    <div class="korb" onclick="warenkorb()">&#128722;</div>
+  </div>
+
+  <div>
+    <div class="h1">Kaffee im Abo</div>
+    <div class="p mut">Drei Pakete, jederzeit kündbar. Preise inklusive Versand.</div>
+
+    <div class="h2">Pakete und Preise</div>
+    <div class="tab">
+      <div class="p mut" style="padding:.4rem .5rem">Übersicht der Abo-Pakete</div>
+      <div class="tr"><div class="th">Paket</div><div class="th">Menge</div><div class="th">Preis</div></div>
+      <div class="tr"><div class="td">Probe</div><div class="td">3 x 250 g</div><div class="td">18,00 €</div></div>
+      <div class="tr"><div class="td">Standard</div><div class="td">6 x 250 g</div><div class="td">32,50 €</div></div>
+      <div class="tr"><div class="td">Vorrat</div><div class="td">12 x 250 g</div><div class="td">59,00 €</div></div>
+    </div>
+    <div class="knopf" onclick="warenkorb()">Standard in den Warenkorb</div>
+
+    <div class="h2">Lieferrhythmus</div>
+    <div class="lab">Wie oft sollen wir liefern?</div>
+    <div class="wahl">
+      <div class="opt" onclick="waehle(this)">Wöchentlich</div>
+      <div class="opt" onclick="waehle(this)">Monatlich</div>
+      <div class="opt" onclick="waehle(this)">Einmalig</div>
+    </div>
+    <div id="lieferung" class="p mut">Lieferung: noch nicht gewählt</div>
+
+    <div class="h2">Newsletter</div>
+    <div class="feld">
+      <div class="lab">E-Mail-Adresse</div>
+      <input type="text" id="mail">
+    </div>
+    <div class="knopf" onclick="absenden()">Anmelden</div>
+    <div id="ergebnis" class="ergebnis"></div>
+
+    <div class="h2">Kontakt</div>
+    <div class="p">Telefonisch erreichbar unter <span>030 555 01 88</span>, werktags 9 bis 17 Uhr.</div>
+  </div>
+
+  <div class="hinweis">
+    Testseite B des Zwillings-Tests von robert-haase.de. Inhalt und Aussehen sind mit Fassung A identisch;
+    unterschiedlich ist allein die Auszeichnung im Quelltext. Kein echtes Angebot.
+  </div>
+</div>
+<script>
+  function warenkorb(){ document.getElementById('ergebnis').textContent = 'Im Warenkorb: Standard'; }
+  function waehle(el){
+    var g = el.parentNode.children;
+    for (var i=0;i<g.length;i++){ g[i].classList.remove('an'); if(g[i].setAttribute) g[i].setAttribute('aria-pressed','false'); }
+    el.classList.add('an'); if(el.setAttribute) el.setAttribute('aria-pressed','true');
+    document.getElementById('lieferung').textContent = 'Lieferung: ' + el.textContent.trim();
+  }
+  function absenden(e){
+    if(e && e.preventDefault) e.preventDefault();
+    var f = document.getElementById('mail');
+    document.getElementById('ergebnis').textContent = f && f.value ? 'Gesendet an ' + f.value : 'Bitte E-Mail eintragen';
+    return false;
+  }
+</script>
+</body>
+</html>

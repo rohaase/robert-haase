@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="Robert Haase">
   <meta property="article:author" content="https://www.linkedin.com/in/rohaase/">
   <meta property="article:published_time" content="2026-07-21">
-  <meta property="article:modified_time" content="2026-08-28">
+  <meta property="article:modified_time" content="2026-08-29">
 
   <!-- Twitter/X -->
   <meta name="twitter:card" content="summary_large_image">
@@ -66,7 +66,7 @@
       "logo": { "@type": "ImageObject", "url": "https://robert-haase.de/og-image.png" }
     },
     "datePublished": "2026-07-21",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-08-29",
     "mainEntityOfPage": "https://robert-haase.de/maschinensicht.html",
     "inLanguage": "de",
     "keywords": ["Maschinenlesbarkeit", "Machine Readable Brands", "Brand Infrastructure", "Accessibility Tree", "strukturierte Daten", "Browser-Agenten", "KI-Suche"],
@@ -382,7 +382,9 @@
 
         <p><strong>Struktur schlägt Pixel?</strong> Die Studien widersprechen sich: Mal gewinnt die Text-Variante deutlich, mal die mit Screenshots. Sicher ist nur, dass die ernstzunehmenden Agenten-Werkzeuge über die Struktur arbeiten, nicht über Bildschirmfotos.</p>
 
-        <p><strong>Barrierefreiheit hilft Agenten?</strong> Die Zahl, die dafür überall zitiert wird, Erfolg fällt von 78 auf 42 Prozent, stammt aus einer Studie, die keine einzige Website verändert hat. Sie hat dem Agenten die Maus weggenommen. Ein echter Vergleich barrierefrei gegen nicht barrierefrei fehlt bis heute, genau den baue ich gerade parallel zu dieser Seite auf. Das Ergebnis erscheint hier, wie auch immer es ausfällt. Plausibel ist der Zusammenhang schon jetzt: Ein erster Versuch mit zwei Fassungen derselben Seite, 89 gegen 49 Prozent Erfolg, deutet dahin. Es ist aber ein Prototyp.</p>
+        <p><strong>Barrierefreiheit hilft Agenten?</strong> Die Zahl, die dafür überall zitiert wird, Erfolg fällt von 78 auf 42 Prozent, stammt aus einer Studie, die keine einzige Website verändert hat. Sie hat dem Agenten die Maus weggenommen. Den eigenen Vergleich, den ich hier angekündigt hatte, habe ich am 29. August 2026 gemacht — und er beantwortet eine engere Frage als die offene. Zwei Fassungen derselben Seite, aus einer einzigen Inhaltsdefinition erzeugt und bis auf acht von 1.265 Pixeln Höhe deckungsgleich, unterscheiden sich allein in der Auszeichnung: <a href="zwillingstest/klar.html">die eine sauber ausgezeichnet</a>, <a href="zwillingstest/unklar.html">die andere als Div-Suppe</a>. In der ersten trägt jedes der acht Bedienelemente eine Rolle und einen Namen. In der zweiten keines von sieben: Sechs Schaltflächen sind klickbar, erscheinen im Accessibility-Baum aber als namenlose Container, das Eingabefeld hat keine Beschriftung, und per Tastatur erreichbar ist statt acht Elementen genau eines. <strong>Technisch funktioniert die zweite Fassung einwandfrei</strong> — löst man die Schaltflächen programmatisch aus, tun sie exakt dasselbe. Der Unterschied liegt nicht in der Funktion, sondern darin, ob ein Agent die Bedienung überhaupt als Bedienung erkennt.</p>
+
+        <p><strong>Was dieser Test nicht ist.</strong> Er misst die Vorstufe, die Erkennbarkeit, nicht wie oft ein Agent die Aufgabe am Ende löst. Es ist ein konstruierter Fall, keine echte Website, gemessen mit einem Werkzeug. Ein Agent, der Bildschirmfotos auswertet statt des Baums, käme mit der zweiten Fassung möglicherweise zurecht. Der Vergleich, der wirklich fehlt, misst Erfolgsquoten über mehrere Agenten und echte Seiten; der bleibt offen. Was hier steht, ist der Baustein darunter: Ohne Rolle und Namen gibt es nichts, woran ein baumbasierter Agent ansetzen könnte.</p>
 
         <p><strong>Strukturierte Daten machen sichtbar?</strong> Der bisher sauberste Test verglich fast 2.000 Seiten nach dem Einbau von JSON-LD mit Kontrollseiten. Ergebnis: kein messbarer Effekt in ChatGPT und im Google-AI-Modus, ein leicht negativer in den AI Overviews. Ich pflege das Markup trotzdem, weil es das Fundament sauber hält. Einen Effekt verspreche ich mir davon nicht.</p>
 

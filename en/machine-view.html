@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="Robert Haase">
   <meta property="article:author" content="https://www.linkedin.com/in/rohaase/">
   <meta property="article:published_time" content="2026-07-21">
-  <meta property="article:modified_time" content="2026-08-28">
+  <meta property="article:modified_time" content="2026-08-29">
 
   <!-- Twitter/X -->
   <meta name="twitter:card" content="summary_large_image">
@@ -66,7 +66,7 @@
       "logo": { "@type": "ImageObject", "url": "https://robert-haase.de/og-image.png" }
     },
     "datePublished": "2026-07-21",
-    "dateModified": "2026-08-28",
+    "dateModified": "2026-08-29",
     "mainEntityOfPage": "https://robert-haase.de/en/machine-view.html",
     "inLanguage": "en",
     "keywords": ["machine readability", "Machine Readable Brands", "Brand Infrastructure", "accessibility tree", "structured data", "browser agents", "AI search"],
@@ -381,7 +381,9 @@
 
         <p><strong>Structure beats pixels?</strong> The studies disagree: sometimes the text-based variant wins clearly, sometimes the one with screenshots. What is certain is that the serious agent tools work through structure, not through screenshots.</p>
 
-        <p><strong>Accessibility helps agents?</strong> The number cited everywhere for this, success falling from 78 to 42 percent, comes from a study that did not change a single website. It took the mouse away from the agent. A real comparison of accessible versus inaccessible sites does not exist to this day; I am building exactly that comparison alongside this page. The result will appear here, whichever way it turns out. The link is plausible already: a first experiment with two versions of the same page, 89 versus 49 percent success, points that way. But it is a prototype.</p>
+        <p><strong>Accessibility helps agents?</strong> The number cited everywhere for this, success falling from 78 to 42 percent, comes from a study that did not change a single website. It took the mouse away from the agent. The comparison I announced here I ran on 29 August 2026 — and it answers a narrower question than the open one. Two versions of the same page, generated from a single content definition and identical to within eight of 1,265 pixels in height, differ in markup alone: <a href="../zwillingstest/klar.html">one properly marked up</a>, <a href="../zwillingstest/unklar.html">the other built as div soup</a>. In the first, each of the eight controls carries a role and a name. In the second, none of seven does: six buttons are clickable but appear in the accessibility tree as unnamed containers, the input field has no label, and where the first offers eight elements to the keyboard, the second offers one. <strong>The second version works perfectly well</strong> — trigger its buttons programmatically and they do exactly the same thing. The difference is not in the function but in whether an agent recognizes the controls as controls at all.</p>
+
+        <p><strong>What this test is not.</strong> It measures the precondition, recognizability, not how often an agent completes the task. It is a constructed case, not a real website, measured with one tool. An agent working from screenshots rather than the tree might well cope with the second version. The comparison that is genuinely missing measures success rates across several agents and real sites; that one stays open. What stands here is the layer beneath it: without role and name there is nothing for a tree-based agent to act on.</p>
 
         <p><strong>Structured data creates visibility?</strong> The cleanest test so far compared almost 2,000 pages after they added JSON-LD with matched control pages. Result: no measurable effect in ChatGPT and Google's AI mode, a slightly negative one in AI Overviews. I keep the markup anyway, because it keeps the foundation clean. I do not promise myself an effect from it.</p>
 
