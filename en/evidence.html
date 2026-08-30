@@ -62,12 +62,12 @@
       "@id": "https://robert-haase.de/#person"
     },
     "datePublished": "2026-08-28",
-    "dateModified": "2026-08-29",
+    "dateModified": "2026-08-30",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "ItemList",
       "name": "Verified numbers on brand, AI search, and agents",
-      "numberOfItems": 30,
+      "numberOfItems": 31,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -131,7 +131,7 @@
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/en/evidence.html#mentions-vs-backlinks",
-            "text": "Third-party mentions correlate with visibility in AI answers far more strongly than the classic metrics of a brand's own site: 0.66 to 0.74 against 0.27 to 0.33 for domain authority and 0.19 for the number of pages.",
+            "text": "Third-party mentions correlate with visibility in AI answers far more strongly than the classic metrics of a brand&#8217;s own site: 0.66 to 0.74 against 0.27 to 0.33 for domain authority and 0.19 for the number of pages.",
             "citation": {
               "@type": "CreativeWork",
               "name": "Ahrefs, correlation analysis across 75,000 brands in ChatGPT, Google AI Mode, and AI Overviews",
@@ -313,7 +313,7 @@
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/en/evidence.html#airline-direktkanal",
-            "text": "In a flight-search test, language models went to the airline's own website directly in only about five percent of cases. They preferred booking portals.",
+            "text": "In a flight-search test, language models went to the airline&#8217;s own website directly in only about five percent of cases. They preferred booking portals.",
             "citation": {
               "@type": "CreativeWork",
               "name": "Bain & Company, test across three carriers, three language models, and 60 prompts",
@@ -383,7 +383,7 @@
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/en/evidence.html#cursor-bot",
-            "text": "Cursor's support agent invented a usage rule that never existed and replied under the name \"Sam\".",
+            "text": "Cursor&#8217;s support agent invented a usage rule that never existed and replied under the name \"Sam\".",
             "citation": {
               "@type": "CreativeWork",
               "name": "The Register, 18 April 2025 (invented rule, apology)",
@@ -467,7 +467,7 @@
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/en/evidence.html#dax-zutritt",
-            "text": "Twelve of 40 German blue-chip (DAX) home pages serve no content to an automated browser. They respond with a security check, an access denial, an error page or a timeout."
+            "text": "Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. In every case it comes from Akamai or Cloudflare and detects from the TLS fingerprint that no ordinary browser is asking — not from the user agent."
           }
         },
         {
@@ -476,7 +476,16 @@
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/en/evidence.html#dax-benennung",
-            "text": "Across 27 DAX home pages that could be retrieved, 105 of 3,426 controls carry no name in the accessibility tree, or 3.1 percent. Fifteen of the 27 pages have no gap at all; the worst reaches 21.7 percent."
+            "text": "Across 135 home pages of German listed companies from the DAX, MDAX and SDAX, 456 of 13,527 controls carry no name in the accessibility tree, or 3.4 percent. The rate barely differs between the three indices: DAX 3.1, MDAX 3.8, SDAX 3.3 percent."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#dax-landmarken",
+            "text": "52 of 135 home pages of German listed companies have no main-content landmark. For a program reading the page, the marker for where content begins and navigation ends is missing."
           }
         }
       ]
@@ -976,25 +985,36 @@
         </div>
       </article>
 
-      <article class="ev-item" id="dax-zutritt" data-topic="agenten" data-cite="Twelve of 40 German blue-chip (DAX) home pages serve no content to an automated browser. They respond with a security check, an access denial, an error page or a timeout. (Own measurement, 29 August 2026 · all 40 DAX home pages, Chrome 151 headless, three passes · same result in all three). https://robert-haase.de/en/evidence.html#dax-zutritt">
+      <article class="ev-item" id="dax-zutritt" data-topic="agenten" data-cite="Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. In every case it comes from Akamai or Cloudflare and detects from the TLS fingerprint that no ordinary browser is asking — not from the user agent. (Own measurement, 30 August 2026 · cause checked per site at HTTP level, with an ordinary and with an automated browser string · same response on 18 of 22 pages). https://robert-haase.de/en/evidence.html#dax-zutritt">
         <p class="ev-grade is-strong">Own survey, reproducible</p>
-        <p class="ev-claim">Twelve of 40 German blue-chip (DAX) home pages serve no content to an automated browser. They respond with a security check, an access denial, an error page or a timeout.</p>
-        <p class="ev-limit"><strong>Refined after publication (30 Aug 2026); the figure is too high:</strong> An HTTP-level re-check shows that "serves nothing" lumps several causes together. <em>Genuine bot defence</em> accounts for about two thirds — it comes from Akamai and Cloudflare and detects, from the TLS fingerprint, that no ordinary browser is asking. <em>Not</em> from the user agent: on 18 of 22 pages checked, a plain HTTP client sending a normal browser string receives the same 403. The remaining cases are something else — a country selector instead of a home page, stale addresses in the directory, timeouts. <strong>And the decisive limit:</strong> a regular, remote-controlled Chrome got through several of these sites without trouble. The defence separates <em>tool</em> from <em>browser</em>, not human from machine; an agent driving a real browser would likely get further. So the claim "a third keeps agents out" would be wrong. The blocks are also intermittent: RWE was measurable in one pass and blocked in the next. And it is not an accusation, bot defence also protects against abuse. The blocking sites were Adidas, Allianz, Bayer, Deutsche Post, E.ON, Hannover Re, Merck, RWE, SAP, Siemens, Volkswagen and Zalando.</p>
-        <p class="ev-source">Own measurement, 29 August 2026 · all 40 DAX home pages, Chrome 151 headless, three passes · same result in all three</p>
+        <p class="ev-claim">Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. In every case it comes from Akamai or Cloudflare and detects from the TLS fingerprint that no ordinary browser is asking — not from the user agent.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> It measures the rejection of a retrieval tool, not reachability for agents. <strong>A regular, remote-controlled Chrome got through several of these sites without trouble</strong> — the defence separates tool from browser, not human from machine. An agent driving a real browser would likely get further; this was not tested, because testing it would have meant circumventing the detection. <strong>Not counted here are 13 further failures with other causes:</strong> four stale addresses in the directory, four technical errors, two country selectors instead of home pages, two empty responses, one unstable result. An earlier version of this figure said 30 percent and lumped all of that together.</p>
+        <p class="ev-source">Own measurement, 30 August 2026 · cause checked per site at HTTP level, with an ordinary and with an automated browser string · same response on 18 of 22 pages</p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#dax-zutritt">Permalink</a>
         </div>
       </article>
 
-      <article class="ev-item" id="dax-benennung" data-topic="agenten" data-cite="Across 27 DAX home pages that could be retrieved, 105 of 3,426 controls carry no name in the accessibility tree, or 3.1 percent. Fifteen of the 27 pages have no gap at all; the worst reaches 21.7 percent. (Own measurement, 29 August 2026 · Chrome's own accessibility tree, not a reimplementation · three passes, identical result on all pages). https://robert-haase.de/en/evidence.html#dax-benennung">
+      <article class="ev-item" id="dax-benennung" data-topic="agenten" data-cite="Across 135 home pages of German listed companies from the DAX, MDAX and SDAX, 456 of 13,527 controls carry no name in the accessibility tree, or 3.4 percent. The rate barely differs between the three indices: DAX 3.1, MDAX 3.8, SDAX 3.3 percent. (Own measurement, 30 August 2026 · 160 home pages from DAX, MDAX and SDAX requested, selection and address taken from Wikidata · Chrome's own accessibility tree · two passes, 135 of 136 pages with identical results). https://robert-haase.de/en/evidence.html#dax-benennung">
         <p class="ev-grade is-strong">Own survey, reproducible</p>
-        <p class="ev-claim">Across 27 DAX home pages that could be retrieved, 105 of 3,426 controls carry no name in the accessibility tree, or 3.1 percent. Fifteen of the 27 pages have no gap at all; the worst reaches 21.7 percent.</p>
-        <p class="ev-limit"><strong>What the number does not say:</strong> Blue-chip corporations are not the average of the web but its best-resourced end, with accessibility teams of their own. The widely cited 30.6 percent of empty buttons from WebAIM comes from one million home pages worldwide and is <em>not</em> comparable. What was measured are home pages as delivered, consent dialog included, not checkout flows or signed-in areas. It measures recognisability, not whether an agent completes its task. The gaps follow a pattern: carousel dots, icon links to social networks, and image links with an empty alt text. <strong>Corrected after publication:</strong> a 28th page (Brenntag) served a country selector rather than a home page and was removed — a list of 82 country names is fully labelled by its nature and would have flattered the result.</p>
-        <p class="ev-source">Own measurement, 29 August 2026 · Chrome's own accessibility tree, not a reimplementation · three passes, identical result on all pages</p>
+        <p class="ev-claim">Across 135 home pages of German listed companies from the DAX, MDAX and SDAX, 456 of 13,527 controls carry no name in the accessibility tree, or 3.4 percent. The rate barely differs between the three indices: DAX 3.1, MDAX 3.8, SDAX 3.3 percent.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> It measures what an agent finds, not whether it completes its task. These are home pages as delivered, consent dialog included — not checkout flows or signed-in areas, where the picture may differ. <strong>The comparison with WebAIM's 30.6 percent of empty buttons does not hold:</strong> that comes from one million home pages worldwide; this is 135 listed companies. <strong>The distribution is uneven:</strong> 57 of the 135 pages have no gap at all, 15 exceed 10 percent, the worst reaches 30.6. And nearly all gaps follow one pattern — logos and icons serving as links or buttons: brand and partner logos, social network icons, carousel arrows, play buttons.</p>
+        <p class="ev-source">Own measurement, 30 August 2026 · 160 home pages from DAX, MDAX and SDAX requested, selection and address taken from Wikidata · Chrome's own accessibility tree · two passes, 135 of 136 pages with identical results</p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#dax-benennung">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="dax-landmarken" data-topic="agenten" data-cite="52 of 135 home pages of German listed companies have no main-content landmark. For a program reading the page, the marker for where content begins and navigation ends is missing. (Own measurement, 30 August 2026 · counted the role “main” in Chrome's accessibility tree · two passes with identical results). https://robert-haase.de/en/evidence.html#dax-landmarken">
+        <p class="ev-grade is-strong">Own survey, reproducible</p>
+        <p class="ev-claim">52 of 135 home pages of German listed companies have no main-content landmark. For a program reading the page, the marker for where content begins and navigation ends is missing.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> A missing landmark does not render a page unusable — headings and text structure remain readable, and browsers partly infer a substitute structure. It indicates the care taken over markup, not a fault with immediate consequences. Home pages only, no subpages.</p>
+        <p class="ev-source">Own measurement, 30 August 2026 · counted the role “main” in Chrome's accessibility tree · two passes with identical results</p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#dax-landmarken">Permalink</a>
         </div>
       </article>
 
