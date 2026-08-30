@@ -52,31 +52,71 @@
 
   <!-- Structured Data: Article -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/en/machine-view.html#article",
+  "headline": "Machine View",
+  "description": "A page that reads itself: on the left the rendering for humans, on the right the same page in the formats AI search and browser agents actually process.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robert Haase",
+    "url": "https://robert-haase.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robert-haase.de/og-image.png"
+    }
+  },
+  "datePublished": "2026-07-21",
+  "dateModified": "2026-08-30",
+  "mainEntityOfPage": "https://robert-haase.de/en/machine-view.html",
+  "inLanguage": "en",
+  "keywords": [
+    "machine readability",
+    "Machine Readable Brands",
+    "Brand Infrastructure",
+    "accessibility tree",
+    "structured data",
+    "browser agents",
+    "AI search"
+  ],
+  "articleSection": "Brand Strategy",
+  "isBasedOn": "https://robert-haase.de/en/",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/en/machine-view.html#term"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/en/machine-view.html#term",
+  "name": "Machine View",
+  "description": "A brand as systems process it: source code, structure and markup instead of design. Introduced by Robert Haase, July 2026; since August 2026 also the title of his column at The Business of Brand Management.",
+  "url": "https://robert-haase.de/en/machine-view.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/en/glossary.html#set"
+  },
+  "subjectOf": {
     "@type": "Article",
     "@id": "https://robert-haase.de/en/machine-view.html#article",
-    "headline": "Machine View",
-    "description": "A page that reads itself: on the left the rendering for humans, on the right the same page in the formats AI search and browser agents actually process.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Robert Haase",
-      "url": "https://robert-haase.de",
-      "logo": { "@type": "ImageObject", "url": "https://robert-haase.de/og-image.png" }
-    },
     "datePublished": "2026-07-21",
-    "dateModified": "2026-08-30",
-    "mainEntityOfPage": "https://robert-haase.de/en/machine-view.html",
-    "inLanguage": "en",
-    "keywords": ["machine readability", "Machine Readable Brands", "Brand Infrastructure", "accessibility tree", "structured data", "browser agents", "AI search"],
-    "articleSection": "Brand Strategy",
-    "isBasedOn": "https://robert-haase.de/en/",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2"]
+    "author": {
+      "@id": "https://robert-haase.de/#person"
     }
   }
+}
   </script>
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
 

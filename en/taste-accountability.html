@@ -53,46 +53,76 @@
 
   <!-- Structured Data: Article -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "@id": "https://robert-haase.de/en/taste-accountability.html#article",
-    "headline": "Taste Won't Save Brand Work. Accountability Will.",
-    "description": "AI is taking over execution, and the industry consoles itself with taste. But trainable taste is consensus taste. What remains is the party that stands behind the decisions.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Robert Haase",
-      "url": "https://robert-haase.de",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://robert-haase.de/og-image.png"
-      }
-    },
-    "datePublished": "2026-07-10",
-    "dateModified": "2026-07-10T12:00:00+02:00",
-    "mainEntityOfPage": "https://robert-haase.de/en/taste-accountability.html",
-    "image": "https://robert-haase.de/og-taste-en.png",
-    "inLanguage": "en",
-    "keywords": ["Taste", "Accountability", "Judgment Call", "Brand Strategy", "AI Slop", "Creative Industry", "Brand Work", "Brand Infrastructure", "Judgment", "Brand Governance"],
-    "articleSection": "Brand Strategy",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2", ".article-body blockquote"]
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/en/taste-accountability.html#article",
+  "headline": "Taste Won't Save Brand Work. Accountability Will.",
+  "description": "AI is taking over execution, and the industry consoles itself with taste. But trainable taste is consensus taste. What remains is the party that stands behind the decisions.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robert Haase",
+    "url": "https://robert-haase.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robert-haase.de/og-image.png"
     }
+  },
+  "datePublished": "2026-07-10",
+  "dateModified": "2026-07-10T12:00:00+02:00",
+  "mainEntityOfPage": "https://robert-haase.de/en/taste-accountability.html",
+  "image": "https://robert-haase.de/og-taste-en.png",
+  "inLanguage": "en",
+  "keywords": [
+    "Taste",
+    "Accountability",
+    "Judgment Call",
+    "Brand Strategy",
+    "AI Slop",
+    "Creative Industry",
+    "Brand Work",
+    "Brand Infrastructure",
+    "Judgment",
+    "Brand Governance"
+  ],
+  "articleSection": "Brand Strategy",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2",
+      ".article-body blockquote"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/en/taste-accountability.html#term"
   }
+}
   </script>
   <!-- Structured Data: DefinedTerm -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "@id": "https://robert-haase.de/en/taste-accountability.html#term",
-    "name": "Accountable Decision",
-    "description": "The judgment about which option is right: justified, dated, versioned, with a named sender who stands behind it. What remains of brand work when machines take over execution. Introduced by Robert Haase, July 2026.",
-    "url": "https://robert-haase.de/en/taste-accountability.html",
-    "inDefinedTermSet": { "@id": "https://robert-haase.de/en/glossary.html#set" }
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/en/taste-accountability.html#term",
+  "name": "Accountable Decision",
+  "description": "The judgment about which option is right: justified, dated, versioned, with a named sender who stands behind it. What remains of brand work when machines take over execution. Introduced by Robert Haase, July 2026.",
+  "url": "https://robert-haase.de/en/taste-accountability.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/en/glossary.html#set"
+  },
+  "subjectOf": {
+    "@type": "Article",
+    "@id": "https://robert-haase.de/en/taste-accountability.html#article",
+    "datePublished": "2026-07-10",
+    "author": {
+      "@id": "https://robert-haase.de/#person"
+    }
   }
+}
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>

@@ -52,46 +52,76 @@
 
   <!-- Structured Data: Article -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "@id": "https://robert-haase.de/en/what-the-machine-doesnt-get.html#article",
-    "headline": "What the Machine Doesn't Get",
-    "description": "AI makes the everyday surface of every brand cheap, and value shifts to what is deliberately withheld. Why the price premium sits on the decision, not on the machine's inability, and what a brand's two lists look like.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Robert Haase",
-      "url": "https://robert-haase.de",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://robert-haase.de/og-image.png"
-      }
-    },
-    "datePublished": "2026-08-25",
-    "dateModified": "2026-08-25T12:00:00+02:00",
-    "mainEntityOfPage": "https://robert-haase.de/en/what-the-machine-doesnt-get.html",
-    "image": "https://robert-haase.de/og-bekommt-en.png?v=hell",
-    "inLanguage": "en",
-    "keywords": ["Price premium", "Second List", "AI and brands", "Brand management", "Machine Readable Brands", "Accountability", "Dynamic pricing", "Craft", "Luxury", "Brand strategy"],
-    "articleSection": "Brand Strategy",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2", ".article-body blockquote"]
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/en/what-the-machine-doesnt-get.html#article",
+  "headline": "What the Machine Doesn't Get",
+  "description": "AI makes the everyday surface of every brand cheap, and value shifts to what is deliberately withheld. Why the price premium sits on the decision, not on the machine's inability, and what a brand's two lists look like.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robert Haase",
+    "url": "https://robert-haase.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robert-haase.de/og-image.png"
     }
+  },
+  "datePublished": "2026-08-25",
+  "dateModified": "2026-08-25T12:00:00+02:00",
+  "mainEntityOfPage": "https://robert-haase.de/en/what-the-machine-doesnt-get.html",
+  "image": "https://robert-haase.de/og-bekommt-en.png?v=hell",
+  "inLanguage": "en",
+  "keywords": [
+    "Price premium",
+    "Second List",
+    "AI and brands",
+    "Brand management",
+    "Machine Readable Brands",
+    "Accountability",
+    "Dynamic pricing",
+    "Craft",
+    "Luxury",
+    "Brand strategy"
+  ],
+  "articleSection": "Brand Strategy",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2",
+      ".article-body blockquote"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/en/what-the-machine-doesnt-get.html#term"
   }
+}
   </script>
   <!-- Structured Data: DefinedTerm -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "@id": "https://robert-haase.de/en/what-the-machine-doesnt-get.html#term",
-    "name": "Second List",
-    "description": "The short list of brand elements a brand deliberately withholds from the machine. Every item needs two entries: an address that stands behind it, and proof that it actually works that way. Counterpart to the first list, which holds everything the machine may deliver. Introduced by Robert Haase, August 2026.",
-    "url": "https://robert-haase.de/en/what-the-machine-doesnt-get.html",
-    "inDefinedTermSet": { "@id": "https://robert-haase.de/en/glossary.html#set" }
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/en/what-the-machine-doesnt-get.html#term",
+  "name": "Second List",
+  "description": "The short list of brand elements a brand deliberately withholds from the machine. Every item needs two entries: an address that stands behind it, and proof that it actually works that way. Counterpart to the first list, which holds everything the machine may deliver. Introduced by Robert Haase, August 2026.",
+  "url": "https://robert-haase.de/en/what-the-machine-doesnt-get.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/en/glossary.html#set"
+  },
+  "subjectOf": {
+    "@type": "Article",
+    "@id": "https://robert-haase.de/en/what-the-machine-doesnt-get.html#article",
+    "datePublished": "2026-08-25",
+    "author": {
+      "@id": "https://robert-haase.de/#person"
+    }
   }
+}
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>

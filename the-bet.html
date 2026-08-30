@@ -52,46 +52,77 @@
 
   <!-- Structured Data: Article -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "@id": "https://robert-haase.de/the-bet.html#article",
-    "headline": "Die Analyse ist nicht mehr das Produkt",
-    "description": "Wenn Kunden jede Analyse in Minuten selbst generieren, kollabiert Autorität durch Wissensvorsprung. Was Strategiearbeit dann verkauft: die Empfehlung, die sich festlegt.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Robert Haase",
-      "url": "https://robert-haase.de",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://robert-haase.de/og-image.png"
-      }
-    },
-    "datePublished": "2026-07-18",
-    "dateModified": "2026-07-18T12:00:00+02:00",
-    "mainEntityOfPage": "https://robert-haase.de/the-bet.html",
-    "image": "https://robert-haase.de/og-bet-de.png",
-    "inLanguage": "de",
-    "keywords": ["Strategieberatung", "Evidenzbasierte Markenführung", "Falsifizierbarkeit", "Scheiter-Signal", "Festlegung", "Strategie als Hypothese", "KI und Beratung", "Markenstrategie", "Accountability", "Hypothese", "Verantwortete Entscheidung"],
-    "articleSection": "Brand Strategy",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2", ".article-body blockquote"]
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/the-bet.html#article",
+  "headline": "Die Analyse ist nicht mehr das Produkt",
+  "description": "Wenn Kunden jede Analyse in Minuten selbst generieren, kollabiert Autorität durch Wissensvorsprung. Was Strategiearbeit dann verkauft: die Empfehlung, die sich festlegt.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robert Haase",
+    "url": "https://robert-haase.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robert-haase.de/og-image.png"
     }
+  },
+  "datePublished": "2026-07-18",
+  "dateModified": "2026-07-18T12:00:00+02:00",
+  "mainEntityOfPage": "https://robert-haase.de/the-bet.html",
+  "image": "https://robert-haase.de/og-bet-de.png",
+  "inLanguage": "de",
+  "keywords": [
+    "Strategieberatung",
+    "Evidenzbasierte Markenführung",
+    "Falsifizierbarkeit",
+    "Scheiter-Signal",
+    "Festlegung",
+    "Strategie als Hypothese",
+    "KI und Beratung",
+    "Markenstrategie",
+    "Accountability",
+    "Hypothese",
+    "Verantwortete Entscheidung"
+  ],
+  "articleSection": "Brand Strategy",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2",
+      ".article-body blockquote"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/the-bet.html#term"
   }
+}
   </script>
   <!-- Structured Data: DefinedTerm -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "@id": "https://robert-haase.de/the-bet.html#term",
-    "name": "Scheiter-Signal",
-    "description": "Das benannte Ereignis, an dem eine Empfehlung erkennbar scheitert. Ohne Scheiter-Signal ist ein Strategiepapier nicht fertig, sondern Plausibilität in schöner Form. Eingeführt von Robert Haase, Juli 2026; die RAND Corporation nennt ein solches Signal Signpost.",
-    "url": "https://robert-haase.de/the-bet.html",
-    "inDefinedTermSet": { "@id": "https://robert-haase.de/begriffe.html#set" }
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/the-bet.html#term",
+  "name": "Scheiter-Signal",
+  "description": "Das benannte Ereignis, an dem eine Empfehlung erkennbar scheitert. Ohne Scheiter-Signal ist ein Strategiepapier nicht fertig, sondern Plausibilität in schöner Form. Eingeführt von Robert Haase, Juli 2026; die RAND Corporation nennt ein solches Signal Signpost.",
+  "url": "https://robert-haase.de/the-bet.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/begriffe.html#set"
+  },
+  "subjectOf": {
+    "@type": "Article",
+    "@id": "https://robert-haase.de/the-bet.html#article",
+    "datePublished": "2026-07-18",
+    "author": {
+      "@id": "https://robert-haase.de/#person"
+    }
   }
+}
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>

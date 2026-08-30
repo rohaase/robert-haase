@@ -53,31 +53,71 @@
 
   <!-- Structured Data: Article (first published at tbobm.com, which also holds the canonical) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/en/the-gap-that-doesnt-respond.html#article",
+  "headline": "The Gap That Doesn't Respond.",
+  "description": "Why the unsaid works on people and disappears for machines. A response to Erich Posselt's 'The Smoothness of Clarity'.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Business of Brand Management",
+    "url": "https://tbobm.com/"
+  },
+  "datePublished": "2026-08-12",
+  "dateModified": "2026-08-12",
+  "mainEntityOfPage": "https://tbobm.com/en/7888/the-gap-that-doesnt-respond/",
+  "sameAs": "https://tbobm.com/en/7888/the-gap-that-doesnt-respond/",
+  "image": "https://robert-haase.de/og-luecke-en.png",
+  "inLanguage": "en",
+  "keywords": [
+    "Machine View",
+    "Brand Management",
+    "AI Agents",
+    "Brand Infrastructure",
+    "Corporate Identity",
+    "Commitment",
+    "Accessibility Tree",
+    "Brand Strategy",
+    "Erich Posselt",
+    "Brand Book"
+  ],
+  "articleSection": "Brand Strategy",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/en/the-gap-that-doesnt-respond.html#term"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/en/the-gap-that-doesnt-respond.html#term",
+  "name": "Execution Layer / Layer of Meaning",
+  "description": "A brand's two layers: how it looks and sounds (execution layer, corporate design), and who it is and what holds for it (layer of meaning, corporate identity). Introduced by Robert Haase, August 2026.",
+  "url": "https://robert-haase.de/en/the-gap-that-doesnt-respond.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/en/glossary.html#set"
+  },
+  "subjectOf": {
     "@type": "Article",
     "@id": "https://robert-haase.de/en/the-gap-that-doesnt-respond.html#article",
-    "headline": "The Gap That Doesn't Respond.",
-    "description": "Why the unsaid works on people and disappears for machines. A response to Erich Posselt's 'The Smoothness of Clarity'.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Business of Brand Management",
-      "url": "https://tbobm.com/"
-    },
     "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
-    "mainEntityOfPage": "https://tbobm.com/en/7888/the-gap-that-doesnt-respond/",
-    "sameAs": "https://tbobm.com/en/7888/the-gap-that-doesnt-respond/",
-    "image": "https://robert-haase.de/og-luecke-en.png",
-    "inLanguage": "en",
-    "keywords": ["Machine View", "Brand Management", "AI Agents", "Brand Infrastructure", "Corporate Identity", "Commitment", "Accessibility Tree", "Brand Strategy", "Erich Posselt", "Brand Book"],
-    "articleSection": "Brand Strategy",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2"]
+    "author": {
+      "@id": "https://robert-haase.de/#person"
     }
   }
+}
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>

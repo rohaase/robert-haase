@@ -52,31 +52,71 @@
 
   <!-- Structured Data: Article (Erstveröffentlichung: tbobm.com, dort liegt auch der Canonical) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/die-luecke-die-nicht-antwortet.html#article",
+  "headline": "Die Lücke, die nicht antwortet.",
+  "description": "Warum das Ungesagte gegenüber Menschen wirkt und gegenüber Maschinen verschwindet. Antwort auf Erich Posselts „Die Glätte der Klarheit\".",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Business of Brand Management",
+    "url": "https://tbobm.com/"
+  },
+  "datePublished": "2026-08-12",
+  "dateModified": "2026-08-28",
+  "mainEntityOfPage": "https://tbobm.com/7884/die-luecke-die-nicht-antwortet/",
+  "sameAs": "https://tbobm.com/7884/die-luecke-die-nicht-antwortet/",
+  "image": "https://robert-haase.de/og-luecke-de.png",
+  "inLanguage": "de",
+  "keywords": [
+    "Maschinensicht",
+    "Markenführung",
+    "KI-Agenten",
+    "Brand Infrastructure",
+    "Corporate Identity",
+    "Festlegung",
+    "Accessibility-Baum",
+    "Markenstrategie",
+    "Erich Posselt",
+    "Brand Book"
+  ],
+  "articleSection": "Brand Strategy",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/die-luecke-die-nicht-antwortet.html#term"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/die-luecke-die-nicht-antwortet.html#term",
+  "name": "Ausführungsschicht / Bedeutungsschicht",
+  "description": "Die zwei Schichten einer Marke: wie sie aussieht und klingt (Ausführungsschicht, Corporate Design), und wer sie ist und was für sie gilt (Bedeutungsschicht, Corporate Identity). Eingeführt von Robert Haase, August 2026.",
+  "url": "https://robert-haase.de/die-luecke-die-nicht-antwortet.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/begriffe.html#set"
+  },
+  "subjectOf": {
     "@type": "Article",
     "@id": "https://robert-haase.de/die-luecke-die-nicht-antwortet.html#article",
-    "headline": "Die Lücke, die nicht antwortet.",
-    "description": "Warum das Ungesagte gegenüber Menschen wirkt und gegenüber Maschinen verschwindet. Antwort auf Erich Posselts „Die Glätte der Klarheit\".",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "The Business of Brand Management",
-      "url": "https://tbobm.com/"
-    },
     "datePublished": "2026-08-12",
-    "dateModified": "2026-08-28",
-    "mainEntityOfPage": "https://tbobm.com/7884/die-luecke-die-nicht-antwortet/",
-    "sameAs": "https://tbobm.com/7884/die-luecke-die-nicht-antwortet/",
-    "image": "https://robert-haase.de/og-luecke-de.png",
-    "inLanguage": "de",
-    "keywords": ["Maschinensicht", "Markenführung", "KI-Agenten", "Brand Infrastructure", "Corporate Identity", "Festlegung", "Accessibility-Baum", "Markenstrategie", "Erich Posselt", "Brand Book"],
-    "articleSection": "Brand Strategy",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2"]
+    "author": {
+      "@id": "https://robert-haase.de/#person"
     }
   }
+}
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>

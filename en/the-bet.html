@@ -53,46 +53,75 @@
 
   <!-- Structured Data: Article -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "@id": "https://robert-haase.de/en/the-bet.html#article",
-    "headline": "The Analysis Is No Longer the Product",
-    "description": "When clients can generate any analysis in minutes, authority through knowing more collapses. What strategy work sells instead: the recommendation that commits. The bet.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Robert Haase",
-      "url": "https://robert-haase.de",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://robert-haase.de/og-image.png"
-      }
-    },
-    "datePublished": "2026-07-18",
-    "dateModified": "2026-07-18T12:00:00+02:00",
-    "mainEntityOfPage": "https://robert-haase.de/en/the-bet.html",
-    "image": "https://robert-haase.de/og-bet-en.png",
-    "inLanguage": "en",
-    "keywords": ["Strategy Consulting", "Evidence-Based Marketing", "Falsifiability", "Strategy as a Bet", "AI and Consulting", "Brand Strategy", "Accountability", "Hypothesis", "Judgment Call"],
-    "articleSection": "Brand Strategy",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2", ".article-body blockquote"]
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/en/the-bet.html#article",
+  "headline": "The Analysis Is No Longer the Product",
+  "description": "When clients can generate any analysis in minutes, authority through knowing more collapses. What strategy work sells instead: the recommendation that commits. The bet.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robert Haase",
+    "url": "https://robert-haase.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robert-haase.de/og-image.png"
     }
+  },
+  "datePublished": "2026-07-18",
+  "dateModified": "2026-07-18T12:00:00+02:00",
+  "mainEntityOfPage": "https://robert-haase.de/en/the-bet.html",
+  "image": "https://robert-haase.de/og-bet-en.png",
+  "inLanguage": "en",
+  "keywords": [
+    "Strategy Consulting",
+    "Evidence-Based Marketing",
+    "Falsifiability",
+    "Strategy as a Bet",
+    "AI and Consulting",
+    "Brand Strategy",
+    "Accountability",
+    "Hypothesis",
+    "Judgment Call"
+  ],
+  "articleSection": "Brand Strategy",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2",
+      ".article-body blockquote"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/en/the-bet.html#term"
   }
+}
   </script>
   <!-- Structured Data: DefinedTerm -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "@id": "https://robert-haase.de/en/the-bet.html#term",
-    "name": "The Bet",
-    "description": "The recommendation that commits: thesis, named failure signal, sender who bears the consequences. What strategy work sells when analysis is available everywhere. Introduced by Robert Haase, July 2026.",
-    "url": "https://robert-haase.de/en/the-bet.html",
-    "inDefinedTermSet": { "@id": "https://robert-haase.de/en/glossary.html#set" }
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/en/the-bet.html#term",
+  "name": "The Bet",
+  "description": "The recommendation that commits: thesis, named failure signal, sender who bears the consequences. What strategy work sells when analysis is available everywhere. Introduced by Robert Haase, July 2026.",
+  "url": "https://robert-haase.de/en/the-bet.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/en/glossary.html#set"
+  },
+  "subjectOf": {
+    "@type": "Article",
+    "@id": "https://robert-haase.de/en/the-bet.html#article",
+    "datePublished": "2026-07-18",
+    "author": {
+      "@id": "https://robert-haase.de/#person"
+    }
   }
+}
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>

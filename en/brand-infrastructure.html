@@ -53,46 +53,77 @@
 
   <!-- Structured Data: Article -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "@id": "https://robert-haase.de/en/brand-infrastructure.html#article",
-    "headline": "Brand Infrastructure: Why Brands Must Become Machine-Readable",
-    "description": "AI agents are telling your brand story. Brand Infrastructure is the strategic answer: designing brand in two directions at once, for humans and for systems.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Robert Haase",
-      "url": "https://robert-haase.de",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://robert-haase.de/og-image.png"
-      }
-    },
-    "datePublished": "2026-03-07",
-    "dateModified": "2026-08-25T13:30:00+02:00",
-    "mainEntityOfPage": "https://robert-haase.de/en/brand-infrastructure.html",
-    "image": "https://robert-haase.de/og-bi-en.png",
-    "inLanguage": "en",
-    "keywords": ["Brand Infrastructure", "Markeninfrastruktur", "Agentic Economy", "Agentic Commerce", "Brand Strategy", "AEO", "GEO", "LLM Brand Visibility", "Model Context Protocol", "Maschinenlesbare Marke", "Machine Readable Brands"],
-    "articleSection": "Brand Strategy",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2", ".article-body blockquote"]
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/en/brand-infrastructure.html#article",
+  "headline": "Brand Infrastructure: Why Brands Must Become Machine-Readable",
+  "description": "AI agents are telling your brand story. Brand Infrastructure is the strategic answer: designing brand in two directions at once, for humans and for systems.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robert Haase",
+    "url": "https://robert-haase.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robert-haase.de/og-image.png"
     }
+  },
+  "datePublished": "2026-03-07",
+  "dateModified": "2026-08-25T13:30:00+02:00",
+  "mainEntityOfPage": "https://robert-haase.de/en/brand-infrastructure.html",
+  "image": "https://robert-haase.de/og-bi-en.png",
+  "inLanguage": "en",
+  "keywords": [
+    "Brand Infrastructure",
+    "Markeninfrastruktur",
+    "Agentic Economy",
+    "Agentic Commerce",
+    "Brand Strategy",
+    "AEO",
+    "GEO",
+    "LLM Brand Visibility",
+    "Model Context Protocol",
+    "Maschinenlesbare Marke",
+    "Machine Readable Brands"
+  ],
+  "articleSection": "Brand Strategy",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2",
+      ".article-body blockquote"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/en/brand-infrastructure.html#term"
   }
+}
   </script>
   <!-- Structured Data: DefinedTerm -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "DefinedTerm",
-    "@id": "https://robert-haase.de/en/brand-infrastructure.html#term",
-    "name": "Brand Infrastructure",
-    "description": "The machine-readable layer of a brand: explicit, parametrizable, for systems. It complements brand identity rather than replacing it. Introduced and defined in this sense by Robert Haase, March 2026; older uses of the expression exist in a different sense.",
-    "url": "https://robert-haase.de/en/brand-infrastructure.html",
-    "inDefinedTermSet": { "@id": "https://robert-haase.de/en/glossary.html#set" }
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/en/brand-infrastructure.html#term",
+  "name": "Brand Infrastructure",
+  "description": "The machine-readable layer of a brand: explicit, parametrizable, for systems. It complements brand identity rather than replacing it. Introduced and defined in this sense by Robert Haase, March 2026; older uses of the expression exist in a different sense.",
+  "url": "https://robert-haase.de/en/brand-infrastructure.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/en/glossary.html#set"
+  },
+  "subjectOf": {
+    "@type": "Article",
+    "@id": "https://robert-haase.de/en/brand-infrastructure.html#article",
+    "datePublished": "2026-03-07",
+    "author": {
+      "@id": "https://robert-haase.de/#person"
+    }
   }
+}
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>

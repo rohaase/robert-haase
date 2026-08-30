@@ -52,31 +52,71 @@
 
   <!-- Structured Data: Article -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": "https://robert-haase.de/maschinensicht.html#article",
+  "headline": "Maschinensicht",
+  "description": "Eine Seite, die sich selbst ausliest: links die Darstellung für Menschen, rechts dieselbe Seite in den vier Formaten, in denen KI-Suche und Browser-Agenten sie tatsächlich verarbeiten.",
+  "author": {
+    "@id": "https://robert-haase.de/#person"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Robert Haase",
+    "url": "https://robert-haase.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://robert-haase.de/og-image.png"
+    }
+  },
+  "datePublished": "2026-07-21",
+  "dateModified": "2026-08-30",
+  "mainEntityOfPage": "https://robert-haase.de/maschinensicht.html",
+  "inLanguage": "de",
+  "keywords": [
+    "Maschinenlesbarkeit",
+    "Machine Readable Brands",
+    "Brand Infrastructure",
+    "Accessibility Tree",
+    "strukturierte Daten",
+    "Browser-Agenten",
+    "KI-Suche"
+  ],
+  "articleSection": "Brand Strategy",
+  "isBasedOn": "https://robert-haase.de/",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".hero h1",
+      ".article-body h2"
+    ]
+  },
+  "about": {
+    "@id": "https://robert-haase.de/maschinensicht.html#term"
+  }
+}
+  </script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://robert-haase.de/maschinensicht.html#term",
+  "name": "Maschinensicht",
+  "description": "Der Blick auf eine Marke, wie Systeme sie verarbeiten: Quelltext, Struktur und Auszeichnung statt Gestaltung. Eingeführt von Robert Haase, Juli 2026; seit August 2026 Titel seiner Kolumne bei The Business of Brand Management.",
+  "url": "https://robert-haase.de/maschinensicht.html",
+  "inDefinedTermSet": {
+    "@id": "https://robert-haase.de/begriffe.html#set"
+  },
+  "subjectOf": {
     "@type": "Article",
     "@id": "https://robert-haase.de/maschinensicht.html#article",
-    "headline": "Maschinensicht",
-    "description": "Eine Seite, die sich selbst ausliest: links die Darstellung für Menschen, rechts dieselbe Seite in den vier Formaten, in denen KI-Suche und Browser-Agenten sie tatsächlich verarbeiten.",
-    "author": { "@id": "https://robert-haase.de/#person" },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Robert Haase",
-      "url": "https://robert-haase.de",
-      "logo": { "@type": "ImageObject", "url": "https://robert-haase.de/og-image.png" }
-    },
     "datePublished": "2026-07-21",
-    "dateModified": "2026-08-30",
-    "mainEntityOfPage": "https://robert-haase.de/maschinensicht.html",
-    "inLanguage": "de",
-    "keywords": ["Maschinenlesbarkeit", "Machine Readable Brands", "Brand Infrastructure", "Accessibility Tree", "strukturierte Daten", "Browser-Agenten", "KI-Suche"],
-    "articleSection": "Brand Strategy",
-    "isBasedOn": "https://robert-haase.de/",
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".hero h1", ".article-body h2"]
+    "author": {
+      "@id": "https://robert-haase.de/#person"
     }
   }
+}
   </script>
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
 
