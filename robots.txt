@@ -86,8 +86,11 @@ Allow: /
 # https://robert-haase.de/llms-full.txt (full profile)
 #
 # Structured data (JSON-LD) embedded in HTML:
-# WebSite, Person, ProfessionalService, FAQPage, Article, BreadcrumbList,
+# WebSite, Person, ProfessionalService, ProfilePage, Article, FAQPage, BreadcrumbList,
 # DefinedTerm, DefinedTermSet (coined terms: https://robert-haase.de/begriffe.html#set, EN: https://robert-haase.de/en/glossary.html)
+# CollectionPage with 47 Claim objects, each carrying its source and its stated limits:
+# https://robert-haase.de/belege.html (EN: https://robert-haase.de/en/evidence.html)
+# Free to reuse with attribution (CC BY 4.0); please cite the primary source, not this page.
 #
 # This site welcomes AI agents and crawlers.
 # No content is gated. No authentication required.

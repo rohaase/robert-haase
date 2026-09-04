@@ -127,6 +127,40 @@
   </script>
   <!-- Strip query parameters (prevents duplicate URLs like ?source=post_page) -->
   <script>if(location.search)history.replaceState(null,'',location.pathname+location.hash);</script>
+  <!-- Structured Data: FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "inLanguage": "en",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Brand Infrastructure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Brand Infrastructure is the machine-readable layer of a brand: explicit, parametrizable, built for systems. It complements brand identity, which addresses people, and makes the brand applicable to AI search, agents, and production tools."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who coined the term Brand Infrastructure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In the sense described here, brand as machine-readable infrastructure for AI systems and agents, Robert Haase introduced and defined the term in this article in 2026. Older uses exist in the literature with a different framing, for instance for organisational brand processes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What distinguishes Brand Identity from Brand Infrastructure?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Brand Identity is open, emotional, and made for people: meaning, stance, story. Brand Infrastructure is explicit, parametrizable, and made for systems: positioning, language rules, facts, design logic as applicable structure. A brand needs both at the same time."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -311,6 +345,18 @@
         </ul>
 
         <p>AI does not force worse brand work. It forces better brand work. A brand that cannot be made explicit may never have been fully understood.</p>
+
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p><strong>What is Brand Infrastructure?</strong><br>
+        The machine-readable layer of a brand: explicit, parametrizable, built for systems. It complements brand identity and makes the brand applicable to AI search, agents, and production tools.</p>
+
+        <p><strong>Who coined the term?</strong><br>
+        In the sense described here, brand as machine-readable infrastructure for AI systems and agents, I introduced and defined the term in this article in 2026. Older uses exist in the literature with a different framing, for instance for organisational brand processes.</p>
+
+        <p><strong>What distinguishes Brand Identity from Brand Infrastructure?</strong><br>
+        Identity is open, emotional, made for people: meaning, stance, story. Infrastructure is explicit, parametrizable, made for systems: positioning, language rules, facts, design logic as applicable structure. A brand needs both at the same time.</p>
 
         <p>Read next: <a href="taste-accountability.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Taste Won't Save Brand Work. Accountability Will. →</a></p>
 
