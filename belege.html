@@ -900,6 +900,15 @@
       color: var(--white); border-color: var(--gray);
     }
 
+    .ev-method {
+      margin-top: 3.5rem; padding-top: 2rem; border-top: 1px solid var(--border);
+    }
+    .ev-method h2 { font-size: 1.2rem; margin: 0 0 1.1rem; }
+    .ev-method p {
+      font-size: 0.92rem; color: var(--gray); line-height: 1.75; margin: 0 0 1rem;
+      max-width: 62ch;
+    }
+    .ev-method p strong { color: var(--white); font-weight: 600; }
     .ev-legend {
       display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem;
       font-size: 0.82rem; color: var(--gray); margin-top: 1.25rem;
@@ -950,8 +959,10 @@
 
     <section class="article-body">
       <p>Die meisten Zahlen zu diesem Thema kursieren ohne Quelle, mit falscher Bezugsgröße oder ein Jahr zu spät. Ich brauche sie selbst für meine Texte und prüfe sie deshalb an der Primärquelle. Das Ergebnis steht hier, auch dort, wo es meiner eigenen Position widerspricht.</p>
-      <p>Eine Zahl ist nicht dasselbe wie ihre Auslegung. Deshalb steht bei jedem Eintrag, was er ausdrücklich nicht belegt. Vier Einträge sind ausschließlich dafür da: Sie korrigieren Zahlen, die in der Branche in überdehnter Form kursieren, darunter die 78-auf-42-Prozent-Zahl zu Agenten und die 40 Prozent der KI-Sichtbarkeits-Optimierung. Wenn du eine Zahl anders liest oder einen Fehler findest: <a href="mailto:hallo@robert-haase.de">schreib mir</a>, ich korrigiere und vermerke das Datum.</p>
+      <p>Eine Zahl ist nicht dasselbe wie ihre Auslegung. Deshalb steht bei jedem Eintrag, was er ausdrücklich nicht belegt. Vier Einträge sind ausschließlich dafür da: Sie korrigieren Zahlen, die in der Branche in überdehnter Form kursieren, darunter die 78-auf-42-Prozent-Zahl zu Agenten und die 40 Prozent der KI-Sichtbarkeits-Optimierung. Wenn du eine Zahl anders liest oder einen Fehler findest: <a href="mailto:hallo@robert-haase.de">schreib mir</a>, ich korrigiere und vermerke das Datum. Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>.</p>
     </section>
+
+
 
     <section class="ev-controls" aria-labelledby="ev-filter-label">
       <span class="ev-control-label" id="ev-filter-label">Thema</span>
@@ -1507,6 +1518,20 @@
         <p>Verwendung frei mit Quellenangabe. Verlinke im Zweifel die Primärquelle, nicht diese Seite, sie ist der Weg dorthin und nicht der Beleg selbst.</p>
         <p>Zwei Kleinigkeiten zur Bedienung: Quellen öffnen in einem neuen Tab, damit Filter und Suchbegriff hier stehen bleiben. Und „Direktlink" legt die Adresse des einzelnen Eintrags in die Zwischenablage, du musst sie nicht aus der Adresszeile heraussuchen.</p>
         <p>Weiter: <a href="maschinensicht.html">Was Maschinen von einer Seite sehen</a> · <a href="begriffe.html">Begriffe</a> · <a href="artikel.html">Artikel</a></p>
+      </section>
+
+      <section class="ev-method" aria-labelledby="ev-method-heading">
+        <h2 id="ev-method-heading">Wie diese Sammlung entsteht</h2>
+
+        <p>Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat. Nicht bis zu dem Artikel, der sie zitiert, und nicht bis zu der Zusammenfassung, die sie weiterreicht. Die meisten Zahlen in diesem Feld laufen über mehrere Weitergaben, und auf diesem Weg verlieren sie zuerst ihre Bezugsgröße, dann ihre Einschränkung und zuletzt ihre Herkunft. Was hier steht, ist der Anfang dieser Kette.</p>
+
+        <p>Von den 47 Einträgen verlinken 41 die erhebende Stelle unmittelbar. Drei nennen einen Mittler, weil die Zahl nur über dessen Bericht zugänglich ist; das steht dann ausdrücklich in der Quellenzeile. Drei sind eigene Messungen und tragen ihre Methode mit, damit man sie wiederholen kann. Kein Eintrag beruht auf der Zusammenfassung einer Zusammenfassung.</p>
+
+        <p>Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus. Ein Beispiel aus eigener Sache: In einem meiner Artikel stand seit Juli 2026 die Zahl, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bei der Prüfung fand sie sich dort nicht. Es gibt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die auf dem Weg durch die Weitergaben zu einer verschmolzen waren. Beide stehen jetzt in dieser Sammlung, die 44 nicht. Ein zweiter Eintrag ist wieder verschwunden, weil er bei genauem Hinsehen nur belegte, was zuvor absichtlich hineingelegt worden war.</p>
+
+        <p>Jeder Eintrag trägt eine Einstufung, was für ein Beleg er ist: geprüfte Erhebung, kontrollierter Test, Feldexperiment, amtliche Statistik, Rechtslage, Herstellerdokumentation, Befragung, Selbsteinschätzung, Marktbeobachtung, Einzelfall. Diese Unterscheidung entscheidet, wie weit eine Zahl trägt, und sie steht deshalb über und nicht unter der Zahl.</p>
+
+        <p><strong>Wo das Verfahren an Grenzen stößt.</strong> Elf der 49 verlinkten Quellen weisen automatisierte Abrufe ab, darunter Bain, Gartner, ScienceDirect und Science. Sie sind im Browser erreichbar und wurden dort geprüft, ein Abrufwerkzeug bekommt sie nicht. Drei Einträge sind eigene Messungen, für die es bisher keine unabhängige Gegenprüfung gibt. Und diese Sammlung bildet den Forschungsstand nicht ab. Sie ist die Ablage der Zahlen, die ich für eigene Texte gebraucht habe. Was fehlt, fehlt aus diesem Grund und nicht, weil es nichts dazu gäbe.</p>
       </section>
 
       <section class="connect">
