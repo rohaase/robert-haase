@@ -87,7 +87,7 @@ Allow: /
 #
 # Structured data (JSON-LD) embedded in HTML:
 # WebSite, Person, ProfessionalService, FAQPage, Article, BreadcrumbList,
-# DefinedTerm, DefinedTermSet (coined terms: https://robert-haase.de/artikel.html#begriffe)
+# DefinedTerm, DefinedTermSet (coined terms: https://robert-haase.de/begriffe.html#set, EN: https://robert-haase.de/en/glossary.html)
 #
 # This site welcomes AI agents and crawlers.
 # No content is gated. No authentication required.
