@@ -67,7 +67,7 @@
     "mainEntity": {
       "@type": "ItemList",
       "name": "Verified numbers on brand, AI search, and agents",
-      "numberOfItems": 35,
+      "numberOfItems": 42,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -383,6 +383,69 @@
             "@id": "https://robert-haase.de/en/evidence.html#produkthaftung-komplexitaet",
             "text": "From 9 December 2026, software is explicitly a product under EU liability law — the new Product Liability Directive names it in Article 4 alongside electricity and raw materials. Article 10 shifts the evidential position: a court shall presume defectiveness where proof is “excessively difficult” for the claimant “in particular due to technical or scientific complexity” and they show only that it is likely. Defectiveness is also presumed if the defendant fails to disclose relevant evidence."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#metr-selbsteinschaetzung",
+            "text": "Experienced developers took 19 percent longer with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#jagged-frontier",
+            "text": "In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered 40 percent higher quality — as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#strategie-trendslop",
+            "text": "Seven language models faced seven fundamental strategic trade-offs across more than 15,000 runs. Instead of distributing by context, they picked the same side across all vendors: differentiation in 96 percent of cases, augmentation in 93. Neither more sophisticated prompting nor detailed company context dislodged the bias. The authors call the pattern “strategy trendslop” — the models predict the most socially desirable answer, not the one right for the case."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#cowan-standards",
+            "text": "A century of household technology did not reduce time spent on housework. The appliances mainly replaced work done by men, children and servants; the time saved went into rising standards of cleanliness and care. The expectation that automation frees up time has a documented precedent in which precisely that failed to happen."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#foresight-performance",
+            "text": "Corporations whose future preparedness was rated strong in 2008 reached 16 percent profitability by 2015, against 12 percent for the industry average — 33 percent more. On market capitalisation growth over the same seven years they stood at 75 percent against an average of 25. Firms with identified deficiencies came in 37 to 44 percent below average."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#prognose-mensch-maschine",
+            "text": "On a continuously updated forecasting leaderboard, the median of human superforecasters still leads. Language models without tools trail behind — and below the median of the general public. Allowed tools, scaffolding and ensembles, the best submissions come within a tenth of a point of humans. The operators project parity for September 2027, with an interval from July 2026 to October 2028."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#prognose-assistenz",
+            "text": "991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially."
+          }
         }
       ]
     }
@@ -564,6 +627,7 @@
         <button type="button" data-topic="handel" aria-pressed="false">Commerce</button>
         <button type="button" data-topic="haftung" aria-pressed="false">Liability</button>
         <button type="button" data-topic="markt" aria-pressed="false">Market size</button>
+        <button type="button" data-topic="urteil" aria-pressed="false">Judgement</button>
       </div>
       <label class="ev-sr-status" for="ev-search">Search the evidence</label>
       <input type="search" id="ev-search" class="ev-search" placeholder="Search, for example: llms.txt, liability, Gartner" hidden>
@@ -955,6 +1019,83 @@
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#produkthaftung-komplexitaet">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="metr-selbsteinschaetzung" data-topic="urteil" data-cite="Experienced developers took 19 percent longer with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed. (METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks). https://robert-haase.de/en/evidence.html#metr-selbsteinschaetzung">
+        <p class="ev-grade is-strong">Controlled trial</p>
+        <p class="ev-claim">Experienced developers took 19 percent <em>longer</em> with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> 16 developers, 246 tasks, exclusively in repositories they had known for five years on average. That familiarity explains part of the result — anyone who holds their own project in their head gains less from assistance. It does not transfer to unfamiliar code or other knowledge work, and the tools date from early 2025. <strong>What holds:</strong> the gap between measurement and self-assessment. It is the reason to distrust any productivity figure based on asking people.</p>
+        <p class="ev-source">METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener">to the study</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#metr-selbsteinschaetzung">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="jagged-frontier" data-topic="urteil" data-cite="In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered 40 percent higher quality — as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI. (Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, 2026 · 758 consultants, 18 realistic tasks). https://robert-haase.de/en/evidence.html#jagged-frontier">
+        <p class="ev-grade is-strong">Controlled trial</p>
+        <p class="ev-claim">In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered 40 percent higher quality — as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> Where the boundary runs was not visible to participants — the tasks looked alike. That is both the core finding and its limit: <em>one</em> deliberately out-of-range task was measured, not how often such cases occur in daily work. The experiment used GPT-4; where the frontier sits today is open. And consulting is not all knowledge work.</p>
+        <p class="ev-source">Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, 2026 · 758 consultants, 18 realistic tasks · <a href="https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf" target="_blank" rel="noopener">to the working paper</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#jagged-frontier">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="strategie-trendslop" data-topic="urteil" data-cite="Seven language models faced seven fundamental strategic trade-offs across more than 15,000 runs. Instead of distributing by context, they picked the same side across all vendors: differentiation in 96 percent of cases, augmentation in 93. Neither more sophisticated prompting nor detailed company context dislodged the bias. The authors call the pattern “strategy trendslop” — the models predict the most socially desirable answer, not the one right for the case. (Romasanta, Thomas and Levina, Harvard Business Review, 16 March 2026 · models tested: ChatGPT, Claude, DeepSeek, GPT-5, Gemini, Grok and Mistral). https://robert-haase.de/en/evidence.html#strategie-trendslop">
+        <p class="ev-grade is-plain">Editorially reviewed</p>
+        <p class="ev-claim">Seven language models faced seven fundamental strategic trade-offs across more than 15,000 runs. Instead of distributing by context, they picked the same side across all vendors: <strong>differentiation in 96 percent of cases, augmentation in 93</strong>. Neither more sophisticated prompting nor detailed company context dislodged the bias. The authors call the pattern “strategy trendslop” — the models predict the most socially desirable answer, not the one right for the case.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> Whether the preferred answers <em>are</em> wrong — differentiation is often right. The finding is that the answer does not depend on context, and so contributes nothing as decision support. ⚠️ <strong>On the source:</strong> published in Harvard Business Review, editorial rather than peer reviewed; there is no separate paper. <strong>The full text sits behind a paywall</strong> — authors and date are verified, the detailed figures come from accessible summaries and were not checked against the original.</p>
+        <p class="ev-source">Romasanta, Thomas and Levina, Harvard Business Review, 16 March 2026 · models tested: ChatGPT, Claude, DeepSeek, GPT-5, Gemini, Grok and Mistral · <a href="https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return" target="_blank" rel="noopener">to the article</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#strategie-trendslop">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="cowan-standards" data-topic="urteil" data-cite="A century of household technology did not reduce time spent on housework. The appliances mainly replaced work done by men, children and servants; the time saved went into rising standards of cleanliness and care. The expectation that automation frees up time has a documented precedent in which precisely that failed to happen. (Ruth Schwartz Cowan, “More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave”, 1983 · awarded the Dexter Prize of the Society for the History of Technology, 1984). https://robert-haase.de/en/evidence.html#cowan-standards">
+        <p class="ev-grade is-strong">Historical study</p>
+        <p class="ev-claim">A century of household technology did not reduce time spent on housework. The appliances mainly replaced work done by men, children and servants; the time saved went into rising standards of cleanliness and care. The expectation that automation frees up time has a documented precedent in which precisely that failed to happen.</p>
+        <p class="ev-limit"><strong>What the study does not say:</strong> It concerns households between the open hearth and the microwave, not knowledge work and not AI. Transferring it draws an analogy, not a proof. <strong>It serves as a corrective, not a forecast:</strong> it shows that labour saving through technology is an assumption that has historically failed once — not that it will fail again.</p>
+        <p class="ev-source">Ruth Schwartz Cowan, “More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave”, 1983 · awarded the Dexter Prize of the Society for the History of Technology, 1984 · <a href="https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave" target="_blank" rel="noopener">to the overview</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#cowan-standards">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="foresight-performance" data-topic="urteil" data-cite="Corporations whose future preparedness was rated strong in 2008 reached 16 percent profitability by 2015, against 12 percent for the industry average — 33 percent more. On market capitalisation growth over the same seven years they stood at 75 percent against an average of 25. Firms with identified deficiencies came in 37 to 44 percent below average. (Rohrbeck and Kum, “Corporate foresight and its impact on firm performance: A longitudinal analysis”, Technological Forecasting & Social Change 129, 2018 · preparedness measured 2008, performance 2015). https://robert-haase.de/en/evidence.html#foresight-performance">
+        <p class="ev-grade is-plain">Longitudinal study</p>
+        <p class="ev-claim">Corporations whose future preparedness was rated strong in 2008 reached 16 percent profitability by 2015, against 12 percent for the industry average — 33 percent more. On market capitalisation growth over the same seven years they stood at 75 percent against an average of 25. Firms with identified deficiencies came in 37 to 44 percent below average.</p>
+        <p class="ev-limit"><strong>What the widely cited figure omits:</strong> of 83 corporations surveyed, matching against performance data left <strong>70 for profitability and only 42 for market capitalisation growth</strong>. The authors themselves call this an important limitation. The “200 percent additional growth” circulating in the foresight industry therefore rests on 42 companies. <strong>And it is a correlation, not a cause:</strong> corporations that can afford futures work differ in other ways from those that cannot.</p>
+        <p class="ev-source">Rohrbeck and Kum, “Corporate foresight and its impact on firm performance: A longitudinal analysis”, Technological Forecasting & Social Change 129, 2018 · preparedness measured 2008, performance 2015 · <a href="https://www.sciencedirect.com/science/article/pii/S0040162517302287" target="_blank" rel="noopener">to the study</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#foresight-performance">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="prognose-mensch-maschine" data-topic="urteil" data-cite="On a continuously updated forecasting leaderboard, the median of human superforecasters still leads. Language models without tools trail behind — and below the median of the general public. Allowed tools, scaffolding and ensembles, the best submissions come within a tenth of a point of humans. The operators project parity for September 2027, with an interval from July 2026 to October 2028. (ForecastBench, Forecasting Research Institute, human and automatic evaluation leaderboards, as of 4 September 2026 · baseline figures from the accompanying paper, ICLR 2025). https://robert-haase.de/en/evidence.html#prognose-mensch-maschine">
+        <p class="ev-grade is-strong">Ongoing measurement</p>
+        <p class="ev-claim">On a continuously updated forecasting leaderboard, the median of human superforecasters still leads. Language models without tools trail behind — and below the median of the general public. Allowed tools, scaffolding and ensembles, the best submissions come within a tenth of a point of humans. The operators project parity for September 2027, with an interval from July 2026 to October 2028.</p>
+        <p class="ev-limit"><strong>What the leaderboard does not say:</strong> The scoring scale is a difficulty-adjusted Brier score in a presentation the documentation does not explain — <strong>the gaps therefore do not translate straightforwardly into percentages</strong>, though the ranking does. Tournament figures come from submissions, some anonymous. And forecasting dated events is not the same as judging a brand's strategy.</p>
+        <p class="ev-source">ForecastBench, Forecasting Research Institute, human and automatic evaluation leaderboards, as of 4 September 2026 · baseline figures from the accompanying paper, ICLR 2025 · <a href="https://www.forecastbench.org/" target="_blank" rel="noopener">to the leaderboard</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#prognose-mensch-maschine">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="prognose-assistenz" data-topic="urteil" data-cite="991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially. (Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants). https://robert-haase.de/en/evidence.html#prognose-assistenz">
+        <p class="ev-grade is-plain">Preregistered experiment</p>
+        <p class="ev-claim">991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially.</p>
+        <p class="ev-limit"><strong>What the result suggests but does not prove:</strong> That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer — but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base, and this is a preprint.</p>
+        <p class="ev-source">Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants · <a href="https://arxiv.org/abs/2402.07862" target="_blank" rel="noopener">to the study</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#prognose-assistenz">Permalink</a>
         </div>
       </article>
 
