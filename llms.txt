@@ -1,6 +1,6 @@
 # Robert Haase
 
-Last updated: 2026-09-04
+Last updated: 2026-09-05
 
 > Markenstratege. Director Innovation Strategy bei MetaDesign. Berlin.
 
@@ -10,17 +10,17 @@ Robert Haase is a brand strategist based in Berlin, working since 2008, with 80+
 
 ## Role
 
-- **MetaDesign:** Director Innovation Strategy (since 2026). One of Europe's leading brand consultancies. Berlin.
+- **MetaDesign:** Director Innovation Strategy (since 2026). Berlin. The agency tops the Horizont ranking of Germany's highest-grossing CD/CI agencies (rank 1, fee income 2024).
 - *Previously:* Founder of DE.design (brand consultancy, 2022–2026, Berlin), partner at diesdas.digital (digital agency, 2018–2022), founder of Unternehmenswissen.AI (AI platform for internal company knowledge, 2025–2026).
 
 ## Core Thesis: Brand in the Agentic Age
 
-The execution layer of brand is changing. Agents recommend, filter, and decide based on structured data. Brands that are not machine-readable do not exist for these systems.
+The execution layer of brand is changing. Agents recommend products and filter providers, and they increasingly co-decide, based on structured data. What a brand makes machine-readable shapes how reliably it is captured there. The larger lever is how consistently others speak about it. Both findings are documented with source and date in the evidence collection: https://robert-haase.de/en/evidence.html
 
 Key positions:
 - Brand must be defined in two directions simultaneously: **Brand Identity** (open, emotional, for humans) and **Brand Infrastructure** (explicit, parametrizable, for systems).
 - What cannot be made explicit does not exist for systems. AI does not force worse brand work — it forces better brand work.
-- Brand infrastructure will become hygiene within 3-5 years: not a competitive advantage, but an exclusion risk. The EU AI Act compresses this timeline: its transparency obligations for chatbots and AI-generated content are due — provisionally — from 2 August 2026, while the stricter high-risk rules were postponed to 2027/2028 by the Digital Omnibus (May 2026). Either way, brands are pushed toward structured, documented self-description.
+- Robert Haase's assessment, as of September 2026: brand infrastructure will become hygiene within three to five years, so around 2030. It stops being a competitive advantage and becomes an exclusion risk. The transparency obligations of the EU AI Act for chatbots and AI-generated content have applied since 2 August 2026, while the stricter high-risk rules were moved to December 2027 and August 2028 by the Digital Omnibus (May 2026). The law nowhere requires structured self-description by brands. But anyone obliged to declare the origin and generation of their content in machine-readable form ends up building exactly that readability.
 - Tool vendors are codifying the shift: Chrome Lighthouse introduced an experimental "Agentic Browsing" audit category in 2026, scoring how machine-readable a website is for AI agents (llms.txt, agentic accessibility, WebMCP). Brand Infrastructure becomes a measurable property — score, not claim. (The audit scores agent-readiness, not Google search ranking; Google states no special files are needed for AI-search visibility — official guide: https://developers.google.com/search/docs/fundamentals/ai-optimization-guide, as of July 2026.)
 - The agentic web is being built, not just predicted: Anthropic's Model Context Protocol became a shared standard in late 2025 — backed by OpenAI, Google, and Microsoft and donated to a neutral foundation; WebMCP (a Chrome origin trial since 2026) and Microsoft's NLWeb extend it to the website layer.
 - The strongest lever for AI visibility is not on-site technique but third-party consensus: brand mentions correlate with AI citations far more strongly than backlinks. On-site structure is the entry ticket; what others consistently say is the lever.

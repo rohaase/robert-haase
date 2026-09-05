@@ -31,7 +31,7 @@
   <meta property="og:site_name" content="Robert Haase">
   <meta property="article:author" content="https://www.linkedin.com/in/rohaase/">
   <meta property="article:published_time" content="2026-08-12">
-  <meta property="article:modified_time" content="2026-08-12">
+  <meta property="article:modified_time" content="2026-09-05">
 
   <!-- Twitter/X -->
   <meta name="twitter:card" content="summary_large_image">
@@ -68,7 +68,7 @@
     "url": "https://tbobm.com/"
   },
   "datePublished": "2026-08-12",
-  "dateModified": "2026-08-12",
+  "dateModified": "2026-09-05",
   "mainEntityOfPage": "https://tbobm.com/en/7888/the-gap-that-doesnt-respond/",
   "sameAs": "https://tbobm.com/en/7888/the-gap-that-doesnt-respond/",
   "image": "https://robert-haase.de/og-luecke-en.png",
@@ -228,7 +228,7 @@
 
         <p>This process is as old as brands. The industry has learned to administer it: with guidelines, with approval loops, with people who look at the result at the end of the process. This administration works because it has time. An approval cycle takes days. Within those days, someone can say: that is not what we meant.</p>
 
-        <p>Exactly this time is now disappearing. A presentation, a text, an ad, a reply to a customer now take minutes, in parts of the company that never produced anything before. Nobody decided this; the tool simply sits on every computer. Add to that a shift that was very much decided: more and more brands are bringing content production in-house. What used to pass through an agency now happens internally, faster and cheaper, but without the outside eye that asks whether this is still the brand.</p>
+        <p>Exactly this time is now disappearing. A presentation, a text, an ad, a reply to a customer now take minutes, in parts of the company that never produced anything before. Nobody decided this; the tool simply sits on every computer. Add to that a shift that was very much decided: brands are bringing content production in-house. Of 162 members of the US advertiser association ANA surveyed in 2023, 65 percent had moved work from an outside agency to an internal team in the three years before. Among the 92 percent of respondents who still also work with an outside agency, an average of 61 percent of all their company's work was handled internally; in the previous wave in 2018 the figure was 58 percent. There is no more recent measurement, and in 2025 some large brands cut their in-house teams back again. What used to pass through an agency now happens internally, faster and cheaper, but without the outside eye that asks whether this is still the brand.</p>
 
         <p>That changes the math. An imprecise rule used to cost the occasional correction loop. Today it is applied a thousand times before anyone looks. And the interpreting is now done by a system that doesn't know the discarded variants, never heard the discussion and when in doubt picks whatever is most likely. This is exactly where smoothness arises, not from bad intent but from a gap nobody closed.</p>
 
@@ -252,7 +252,7 @@
 
         <p>Up to this point, this is an argument and arguments deserve distrust, mine included. So now the evidence, including the inconvenient kind.</p>
 
-        <p><strong>Proven: structure is the interface.</strong> Google says it in its own developer documentation: agents orient themselves by the accessibility tree, the structure the browser computes from every page and that screen readers rely on as well: every element with role and name, no layout. Since spring, Google's testing tool Lighthouse has been checking this in a category of its own. An element without a name does not exist for an agent.</p>
+        <p><strong>Proven: agents perceive a page mainly through its structure.</strong> In its developer documentation, Google names <a href="evidence.html#a11y-tree" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">three ways</a> an agent sees a page: screenshots, raw HTML and the accessibility tree. The tree is the structure the browser computes from every page and that screen readers rely on as well: every element with role and name, no layout. Modern agents combine the three, Google writes, but they take the list of operable elements from the DOM and the accessibility tree and only then cross-reference it against the visual rendering. In its Lighthouse documentation, Google calls the tree the agents' primary data model, and since May 2026 Lighthouse has been checking it in <a href="evidence.html#lighthouse" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">a category of its own</a>, one Google itself labels experimental. An element without a name is therefore missing from two of the three ways. What remains is the screenshot, and Google treats that only as a fallback for when the structure is unclear. Google puts the consequence carefully: missing labels can keep agents from completing a task.</p>
 
         <p><strong>Proven, too: how widespread the defect is.</strong> A survey of one million home pages found unlabeled buttons on 30.6 percent of them; on half, form fields lack labels. The average website reads to a system like a half-labeled form.</p>
 
@@ -260,11 +260,11 @@
 
         <p><strong>Because a whole series of things currently being sold is not proven.</strong></p>
 
-        <p>Do accessible pages measurably help agents? It sounds plausible and is sold that way. It isn't cleanly proven. The figure usually cited for it in fact measures something else. And the real comparison, the same page once accessible and once not, exists only as an early prototype: 89 versus 49 percent success, across just five tasks.</p>
+        <p>Do accessible pages measurably help agents? It sounds plausible and is sold that way. It isn't cleanly proven. The figure usually cited for it in fact measures something else. And the comparison that would prove it, the same page once accessible and once not, is still missing. The closest thing to it is a <a href="evidence.html#agent-ready" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">purpose-built shop prototype</a>, where a version built for agents reached 89 versus 49 percent success, across just five tasks and on the stricter of two measured rates. Four things were changed there at once, accessibility markup only one of them, and which of them carried the effect the authors expressly leave open.</p>
 
         <p>Structured data, the machine-readable statements a page makes about itself, is considered the standard answer to the visibility question. The cleanest test so far compared about 1,900 pages that had added such data with about 4,000 matched control pages. The result: no measurable effect in ChatGPT or Google's AI Mode and in the AI Overviews even a slightly negative one. I still maintain the markup on my own pages, because it keeps the foundation clean. I don't expect an effect.</p>
 
-        <p>And the file currently touted as the ticket into AI search, llms.txt, receives not a single request in 97 percent of cases. Server logs across 137,000 domains show as much. The format was invented for tool documentation, not for visibility.</p>
+        <p>And the file currently touted as the ticket into AI search, llms.txt, went <a href="evidence.html#llmstxt-abrufe" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">entirely unrequested</a> in May 2026 on 97 percent of the domains that carry one. Ahrefs analysed the server logs of 137,210 domains for this; about 38,000 of them had such a file at all. The format was invented for tool documentation, not for visibility.</p>
 
         <p>So whoever expects clean structure to create visibility will be disappointed. It is the ticket in, not the result.</p>
 
@@ -301,13 +301,14 @@
         <p>Studies and data this article draws on:</p>
 
         <p>
+          → <a href="https://web.dev/articles/ai-agent-site-ux" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Google, "Build agent-friendly websites"</a> (the three ways agents perceive a page)<br>
           → <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/accessibility-for-agents" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Google, "Accessibility for agents"</a> (agents read the accessibility tree)<br>
           → <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Lighthouse, "Agentic Browsing" category</a><br>
           → <a href="https://webaim.org/projects/million/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">WebAIM Million 2026</a>, survey of one million home pages<br>
           → <a href="https://arxiv.org/abs/2602.09310" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">A11y-CUA, CHI 2026</a> (the most-cited study; it measures how the agent operates, not the accessibility of websites)<br>
-          → <a href="https://arxiv.org/abs/2607.12056" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Designing Agent-Ready Websites for AI Web Agents, 2026</a> (prototype, 89 versus 49 percent)<br>
+          → <a href="https://arxiv.org/abs/2607.12056" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Designing Agent-Ready Websites for AI Web Agents, 2026</a> (prototype, agent-friendly version against the original, 89 versus 49 percent)<br>
           → <a href="https://ahrefs.com/blog/schema-ai-citations/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Ahrefs, controlled test of structured data's effect on AI citations, 2026</a><br>
-          → <a href="https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">PPC Land on Ahrefs' server-log analysis of llms.txt</a> (137,000 domains)<br>
+          → <a href="https://ahrefs.com/blog/llmstxt-study/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Ahrefs, server-log analysis of llms.txt, June 2026</a> (137,210 domains, about 38,000 of them with such a file)<br>
           → <a href="https://ahrefs.com/blog/ai-brand-visibility-correlations/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Ahrefs, correlation analysis across 75,000 brands</a> on visibility in AI answers<br>
           → <a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Google, AP2 agent payments protocol</a> (agents buying from agents)<br>
           → The comparison described in this text is public: <a href="machine-view.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">robert-haase.de/en/machine-view.html</a>

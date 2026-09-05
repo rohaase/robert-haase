@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="Robert Haase">
   <meta property="article:author" content="https://www.linkedin.com/in/rohaase/">
   <meta property="article:published_time" content="2026-07-21">
-  <meta property="article:modified_time" content="2026-09-04">
+  <meta property="article:modified_time" content="2026-09-05">
 
   <!-- Twitter/X -->
   <meta name="twitter:card" content="summary_large_image">
@@ -71,7 +71,7 @@
     }
   },
   "datePublished": "2026-07-21",
-  "dateModified": "2026-09-04",
+  "dateModified": "2026-09-05",
   "mainEntityOfPage": "https://robert-haase.de/en/machine-view.html",
   "inLanguage": "en",
   "keywords": [
@@ -399,19 +399,19 @@
           <li><strong>Agent briefing:</strong> llms.txt, a file meant to tell AI systems what this site is about. Whether it gets read at all: more on that below.</li>
         </ul>
 
-        <p>The most important point: the big US assistants do not run JavaScript on a direct fetch. In one test a decoy phone number sat in the source code and the real one only appeared via script. ChatGPT and Claude reported the decoy. Three tests since late 2025 show the same picture; all three are single measurements. The route via a search index does render. Only the direct fetch does not.</p>
+        <p>The most important point: the big US assistants do not run JavaScript on a direct fetch. In one test a decoy internal reference number sat in the source code and the real one only appeared via script. ChatGPT and Claude reported the decoy. For those two, three tests since late 2025 arrive at the same result. For the other systems the line keeps moving, and always in the same direction: Gemini was the only system to find the script-loaded value in December 2025 and rendered nothing in either later test, while Copilot and Grok still rendered in January 2026 and no longer did in June. In the most recent test all seven US assistants examined read raw HTML only, and five systems from China and Europe ran the script. All three tests are single measurements. Scope and limits are on the <a href="evidence.html#javascript">evidence page</a>. The route via a search index does render. Only the direct fetch does not.</p>
 
         <h2>How the apparatus works</h2>
 
         <p><strong>Everything happens in the browser, no server.</strong></p>
 
-        <p>On the left sits the real page, loaded in a frame. The apparatus reads its source, its structured data, and the llms.txt, and sets them against the five views. The tree and HTML views are reproductions of the formats used by Playwright and Stagehand, the most common tools browser agents are built with. The mapping between left and right comes from text matching and is fuzzy at the edges. To verify: open the source, find the same data.</p>
+        <p>On the left sits the real page, loaded in a frame. The apparatus reads its source, its structured data, and the llms.txt, and sets them against the five views. The tree and HTML views reproduce formats that are in real use. The tree follows the output of Playwright, the most common tool for remote-controlling a browser. The HTML view follows the format of Stagehand and Skyvern, two tools built specifically for AI agents. Which tool is most widely used for building browser agents cannot be measured cleanly from public sources. The mapping between left and right comes from text matching and is fuzzy at the edges. To verify: open the source, find the same data.</p>
 
         <h2>Why the tree matters</h2>
 
         <p><strong>An element without a name does not exist for an agent.</strong></p>
 
-        <p>Google says it plainly: agents rely on the accessibility tree, the same tree screen readers use. Since spring 2026, Lighthouse, Google's website testing tool, checks it in a category of its own. A button that consists only of an icon has no name in this tree. The agent can neither see it nor use it.</p>
+        <p>Google says it plainly: agents rely on the accessibility tree, the same tree screen readers use. Since spring 2026, Lighthouse, Google's website testing tool, checks it in a category of its own. A button that consists only of an icon has no name in this tree until someone gives it one. The agent can neither see it nor use it.</p>
 
         <p>This is not an edge case. A survey of one million home pages found empty buttons on 30.6 percent, and on half of them form fields lack labels. The average website reads to an agent like a half-labelled form.</p>
 
@@ -419,7 +419,7 @@
 
         <p><strong>Four claims circulate on this topic. None is as solid as it sounds.</strong></p>
 
-        <p><strong>Structure beats pixels?</strong> The studies disagree: sometimes the text-based variant wins clearly, sometimes the one with screenshots. What is certain is that the serious agent tools work through structure, not through screenshots.</p>
+        <p><strong>Structure beats pixels?</strong> The studies disagree: sometimes the text-based variant wins clearly, sometimes the one with screenshots. What can be shown is the tool layer: Playwright and Stagehand, two widely used kits for building browser agents, work through the accessibility tree by default and switch screenshots on only on request. Finished agents are a different matter. Google describes them as reconciling the tree, the DOM and a visual rendering, as recorded on the <a href="evidence.html#a11y-tree">evidence page</a>.</p>
 
         <p><strong>Accessibility helps agents?</strong> The number cited everywhere for this, success falling from 78 to 42 percent, comes from a study that did not change a single website. It took the mouse away from the agent. <strong>The comparison I announced here is still outstanding.</strong> What I built on 29 August 2026 is something smaller: an illustration. Two versions of the same page, generated from one content definition and identical to within eight of 1,265 pixels in height — <a href="../zwillingstest/klar.html">one properly marked up</a>, <a href="../zwillingstest/unklar.html">the other built as div soup</a>. In the first, each of the eight controls carries a role and a name; in the second, none of seven does, and where the first offers eight elements to the keyboard, the second offers one. The second version works perfectly well: trigger its buttons programmatically and they do exactly the same thing.</p>
 
@@ -431,17 +431,17 @@
 
         <p><strong>Where gaps remain, they are almost always logos and icons</strong> serving as links or buttons: Talanx links its six group brands as unnamed logos, GFT its partners, Atoss its social profiles. Add carousel arrows and play buttons. Fix that, and most of the gaps close with a single measure. One case shows how narrowly you can miss: MBB links its subsidiaries with a carefully maintained title attribute — but because the link text is a non-breaking space, the link stays nameless in the tree.</p>
 
-        <p><strong>Structure is the weaker point:</strong> 52 of the 135 pages have no main-content landmark, so the marker for where content begins and navigation ends is missing. And of 3,979 images, 1,662 carry no name — though five sixths of those are SVG icons merely lacking the marker that would declare them decorative.</p>
+        <p><strong>Structure is the weaker point:</strong> 52 of the 135 pages have no main-content landmark, so the marker for where content begins and navigation ends is missing. And of 3,979 images, 1,662 carry no name, or 41.8 percent. The composition softens the figure: 86 percent of them are SVG icons that merely lack the marker declaring them decorative, and 13 percent are content images without a description. That split rests on a sample, because the measuring tool classifies at most 80 unnamed images per page.</p>
 
-        <p><strong>On admission, where I had to correct myself:</strong> twelve of the 160 pages reject automated retrieval, 7.5 percent. That is bot defence from Akamai and Cloudflare, detecting from the TLS fingerprint that no ordinary browser is asking. A regular, remote-controlled Chrome got through several of these sites — the defence separates tool from browser, not human from machine. An earlier version of this page said a third, lumping together bot defence, stale addresses, country selectors and technical errors.</p>
+        <p><strong>On admission, where I had to correct myself:</strong> twelve of the 160 pages reject automated retrieval, 7.5 percent. That is commercial bot defence, from Akamai or Cloudflare on ten of the pages and from Amazon CloudFront on two. It mostly detects from the TLS fingerprint and the order of the HTTP headers that no ordinary browser is asking; at Siemens and Hannover Rück the browser string alone is enough. A regular, remote-controlled Chrome got through several of these sites: the defence separates tool from browser, not human from machine. An earlier version of this page said a third, lumping together bot defence, stale addresses, country selectors and technical errors.</p>
 
-        <p><strong>What this survey does not answer either:</strong> whether an agent completes its task. It measures what it finds, not what it achieves. The original question — does better markup improve success? — remains open. All figures, with their limits, are on the <a href="evidence.html">evidence page</a>.</p>
+        <p><strong>What this survey does not answer either:</strong> whether an agent completes its task. It measures what it finds, not what it achieves. The original question remains open: does better markup improve success? The figures from this survey are on the <a href="evidence.html">evidence page</a> with their limits, apart from the image figure, whose limit is stated above.</p>
 
-        <p><strong>Structured data creates visibility?</strong> The cleanest test so far compared almost 2,000 pages after they added JSON-LD with matched control pages. Result: no measurable effect in ChatGPT and Google's AI mode, a slightly negative one in AI Overviews. I keep the markup anyway, because it keeps the foundation clean. I do not promise myself an effect from it.</p>
+        <p><strong>Structured data creates visibility?</strong> Ahrefs tracked 1,885 pages that added JSON-LD between August 2025 and March 2026 and compared them with 4,000 control pages at a similar citation level. In ChatGPT and Google's AI mode the effect was indistinguishable from zero. In AI Overviews the pages that added markup lost 4.6 percent against the controls. The study looked only at pages that were already heavily cited, each with more than a hundred mentions in AI Overviews. For pages that do not appear at all it says nothing, and the authors expressly allow for a benefit there. I keep the markup because it keeps the foundation clean. The figures and their limits are on the <a href="evidence.html#json-ld-test">evidence page</a>.</p>
 
         <p><strong>There are rules everyone follows?</strong> Google, OpenAI, Perplexity, and Meta explicitly exempt their user-triggered fetches from robots.txt; Anthropic is the exception. Blocking AI crawlers blocks training and search. The agents keep running. And the standard meant to settle this has been stuck in a working group for over a year.</p>
 
-        <p>And the promised answer on llms.txt: it is here because it exists. 97 percent of these files get not a single request, server logs across 137,000 domains show. The format was invented for tool documentation, not for visibility. Where it demonstrably works, it saves agents time. Nothing more.</p>
+        <p>And the promised answer on llms.txt: it is here because it exists. 97 percent of these files get not a single request, server logs across 137,000 domains show. The format was invented for tool documentation, not for visibility. Where it works, it saves agents time. That is shown for documentation sites: in a <a href="https://www.mintlify.com/blog/llms-txt-agent-benchmark">test across 20 of them and 2,400 runs</a>, response time and token use fell by about a fifth once the pages pointed to their llms.txt, measured against the same pages in markdown without that pointer. The measurement comes from Mintlify, a vendor that serves such documentation itself and has published the set-up along with the <a href="https://github.com/mintlify/docs-url-discovery-bench">raw data</a>. I know of no independent measurement. For brand websites, nothing is shown.</p>
 
         <h2>The easiest case</h2>
 
@@ -449,7 +449,7 @@
 
         <p>About thirty pages, static, no CMS, a single external script. On a grown brand site with a tag manager, a consent layer, and three agencies involved, the right-hand column would look different. What is handcraft here becomes a question of ownership and process there.</p>
 
-        <p>And clean structure is only the entry ticket. My own measurements show both sides: ask about me, and this website is the primary source. Ask whom to hire for this topic, and my name does not come up. Between those two results lies no technical problem. What lies there is what third parties write.</p>
+        <p>And clean structure is only the entry ticket. My own measurements show both sides: ask about me, and two of three systems name this website as the most-cited source. In Google's AI mode, since late August, the trade publication I write for leads instead. Ask whom to hire for this topic, and my name does not come up, in four measurements since July not once. Between those two results lies no technical problem. What lies there is what third parties write, and that correlates with visibility in AI answers <a href="evidence.html#mentions-vs-backlinks">far more strongly than the classic metrics of one's own site</a>. That was measured on established brands; applying it to a query about a person is a transfer.</p>
 
         <h2>Sources</h2>
 

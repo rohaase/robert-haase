@@ -30,7 +30,7 @@
   <meta property="og:site_name" content="Robert Haase">
   <meta property="article:author" content="https://www.linkedin.com/in/rohaase/">
   <meta property="article:published_time" content="2026-08-12">
-  <meta property="article:modified_time" content="2026-08-28">
+  <meta property="article:modified_time" content="2026-09-05">
 
   <!-- Twitter/X -->
   <meta name="twitter:card" content="summary_large_image">
@@ -67,7 +67,7 @@
     "url": "https://tbobm.com/"
   },
   "datePublished": "2026-08-12",
-  "dateModified": "2026-08-28",
+  "dateModified": "2026-09-05",
   "mainEntityOfPage": "https://tbobm.com/7884/die-luecke-die-nicht-antwortet/",
   "sameAs": "https://tbobm.com/7884/die-luecke-die-nicht-antwortet/",
   "image": "https://robert-haase.de/og-luecke-de.png",
@@ -227,7 +227,7 @@
 
         <p>Diesen Vorgang gibt es, seit es Marken gibt, und die Branche hat gelernt, ihn zu verwalten: durch Guidelines, durch Freigabeschleifen, durch Menschen, die am Ende des Prozesses draufschauen. Diese Verwaltung funktioniert, weil sie Zeit hat. Ein Freigabezyklus dauert Tage und in diesen Tagen kann jemand sagen: So haben wir das nicht gemeint.</p>
 
-        <p>Genau diese Zeit fällt gerade weg. Eine Präsentation, ein Text, eine Anzeige, eine Antwort an einen Kunden entstehen in Minuten, und zwar auch an Stellen im Unternehmen, die früher gar nichts produziert haben. Niemand hat das entschieden, das Werkzeug liegt einfach auf jedem Rechner. Dazu kommt eine Bewegung, die sehr wohl entschieden ist: Immer mehr Marken holen die Produktion ihrer Inhalte ins eigene Haus. Was früher durch eine Agentur lief, entsteht jetzt intern, schneller und billiger, aber ohne den Blick von außen, der fragt, ob das noch die Marke ist.</p>
+        <p>Genau diese Zeit fällt gerade weg. Eine Präsentation, ein Text, eine Anzeige, eine Antwort an einen Kunden entstehen in Minuten, und zwar auch an Stellen im Unternehmen, die früher gar nichts produziert haben. Niemand hat das entschieden, das Werkzeug liegt einfach auf jedem Rechner. Dazu kommt eine Bewegung, die sehr wohl entschieden ist: Marken holen die Produktion ihrer Inhalte ins eigene Haus. Von 162 Mitgliedern des US-Werbeverbands ANA, die 2023 befragt wurden, hatten 65 Prozent in den drei Jahren davor Arbeit von einer externen Agentur nach innen verlagert. Bei den 92 Prozent der Befragten, die weiterhin auch mit einer externen Agentur arbeiten, wurden im Mittel 61 Prozent der gesamten Arbeit ihres Unternehmens intern erledigt, in der Vorgängerwelle von 2018 waren es 58 Prozent. Eine neuere Messung gibt es nicht, und 2025 haben einzelne große Marken ihre internen Teams wieder verkleinert. Was früher durch eine Agentur lief, entsteht jetzt intern, schneller und billiger, aber ohne den Blick von außen, der fragt, ob das noch die Marke ist.</p>
 
         <p>Damit ändert sich die Rechnung. Eine unpräzise Regel kostete früher gelegentlich eine Korrekturschleife. Heute wird sie tausendfach angewendet, bevor jemand hinschaut. Und die Auslegung übernimmt jetzt ein System, das die verworfenen Varianten nicht kennt, die Diskussion nicht gehört hat und im Zweifel das Wahrscheinliche wählt. Genau hier entsteht Glattheit, nicht aus schlechtem Willen, sondern aus einer Lücke, die niemand geschlossen hat.</p>
 
@@ -251,7 +251,7 @@
 
         <p>Bis hierhin ist das ein Argument und Argumente verdienen Misstrauen, meine eingeschlossen. Deshalb jetzt die Belege, auch die unbequemen.</p>
 
-        <p><strong>Belegt ist, dass die Struktur die Schnittstelle ist.</strong> Google schreibt es in seiner Entwickler-Dokumentation selbst: Agenten orientieren sich am Accessibility-Baum, also an jener Struktur, die der Browser aus jeder Seite errechnet und die auch Screenreader nutzen: alle Elemente mit Rolle und Name, ohne Layout. Seit dem Frühjahr prüft Googles Werkzeug Lighthouse das in einer eigenen Kategorie. Ein Element ohne Namen existiert für einen Agenten nicht.</p>
+        <p><strong>Belegt ist, dass Agenten eine Seite vor allem über ihre Struktur wahrnehmen.</strong> Google nennt in seiner Entwickler-Dokumentation <a href="belege.html#a11y-tree" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">drei Wege</a>, auf denen ein Agent eine Seite sieht: Bildschirmfotos, rohes HTML und den Accessibility-Baum. Der Baum ist jene Struktur, die der Browser aus jeder Seite errechnet und die auch Screenreader nutzen: alle Elemente mit Rolle und Name, ohne Layout. Moderne Agenten kombinieren die Wege, schreibt Google, holen die Liste der bedienbaren Elemente aber aus DOM und Accessibility-Baum und gleichen sie erst danach mit dem Bild ab. In seiner Lighthouse-Dokumentation nennt Google den Baum das primäre Datenmodell der Agenten, und seit Mai 2026 prüft Lighthouse ihn in <a href="belege.html#lighthouse" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">einer eigenen Kategorie</a>, die Google selbst als experimentell führt. Ein Element ohne Namen fehlt damit in zwei der drei Wege. Es bleibt das Bildschirmfoto, und das führt Google selbst nur als Rückfallweg, wenn die Struktur unklar ist. Die Folge formuliert Google vorsichtig: Fehlende Beschriftungen können Agenten daran hindern, eine Aufgabe abzuschließen.</p>
 
         <p><strong>Belegt ist auch, wie weit verbreitet der Mangel ist.</strong> Eine Erhebung über eine Million Startseiten fand auf 30,6 Prozent Schaltflächen ohne Beschriftung und auf der Hälfte aller Seiten fehlen Beschriftungen an Formularfeldern. Die durchschnittliche Website liest sich für ein System wie ein halb beschriftetes Formular.</p>
 
@@ -259,11 +259,11 @@
 
         <p><strong>Denn nicht belegt ist eine ganze Reihe von Dingen, die derzeit verkauft werden.</strong></p>
 
-        <p>Dass barrierefreie Seiten auch Agenten messbar helfen, klingt plausibel und wird so verkauft. Sauber belegt ist es nicht. Die Zahl, die dafür meist zitiert wird, misst in Wahrheit etwas anderes. Und der echte Vergleich, dieselbe Seite einmal barrierefrei und einmal nicht, existiert erst als früher Prototyp: 89 gegen 49 Prozent Erfolg, bei gerade einmal fünf Aufgaben.</p>
+        <p>Dass barrierefreie Seiten auch Agenten messbar helfen, klingt plausibel und wird so verkauft. Sauber belegt ist es nicht. Die Zahl, die dafür meist zitiert wird, misst in Wahrheit etwas anderes. Und der Vergleich, der das belegen würde, dieselbe Seite einmal barrierefrei und einmal nicht, fehlt bis heute. Am nächsten kommt ihm ein <a href="belege.html#agent-ready" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">eigens gebauter Shop-Prototyp</a>, auf dem eine für Agenten gebaute Fassung 89 gegen 49 Prozent Erfolg erreichte, bei gerade einmal fünf Aufgaben und nach der strengeren von zwei gemessenen Quoten. Geändert wurden dort vier Dinge auf einmal, Auszeichnungen für Barrierefreiheit nur als eines davon, und welche davon die Wirkung trug, lassen die Autoren ausdrücklich offen.</p>
 
         <p>Strukturierte Daten, also die maschinenlesbaren Angaben, die eine Seite über sich selbst macht, gelten als Standardantwort auf die Sichtbarkeitsfrage. Der bislang sauberste Test verglich rund 1.900 Seiten, die solche Daten ergänzt hatten, mit rund 4.000 gepaarten Kontrollseiten. Ergebnis: kein messbarer Effekt in ChatGPT und im KI-Modus der Google-Suche, in den KI-Übersichten sogar ein leicht negativer. Ich pflege diese Auszeichnung auf meinen eigenen Seiten weiter, weil sie das Fundament sauber hält. Eine Wirkung verspreche ich mir davon nicht.</p>
 
-        <p>Und die Datei, die derzeit als Eintrittskarte in die KI-Suche gehandelt wird, llms.txt, bekommt in 97 Prozent der Fälle keinen einzigen Zugriff. Das zeigen Server-Logs über 137.000 Domains. Erfunden wurde das Format für Werkzeug-Dokumentation, nicht für Sichtbarkeit.</p>
+        <p>Und die Datei, die derzeit als Eintrittskarte in die KI-Suche gehandelt wird, llms.txt, bekam im Mai 2026 bei 97 Prozent der Domains, die eine führen, <a href="belege.html#llmstxt-abrufe" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">keinen einzigen Abruf</a>. Ahrefs hat dafür die Server-Logs von 137.210 Domains ausgewertet, rund 38.000 davon hatten überhaupt eine solche Datei. Erfunden wurde das Format für Werkzeug-Dokumentation, nicht für Sichtbarkeit.</p>
 
         <p>Wer also erwartet, dass saubere Struktur Sichtbarkeit erzeugt, wird enttäuscht. Sie ist die Eintrittskarte, nicht das Ergebnis.</p>
 
@@ -300,13 +300,14 @@
         <p>Studien und Daten, auf die sich dieser Artikel bezieht:</p>
 
         <p>
+          → <a href="https://web.dev/articles/ai-agent-site-ux" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Google, „Build agent-friendly websites"</a> (die drei Wege, auf denen Agenten eine Seite wahrnehmen)<br>
           → <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/accessibility-for-agents" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Google, „Accessibility for agents"</a> (Agenten lesen den Accessibility-Baum)<br>
           → <a href="https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Lighthouse, Kategorie „Agentic Browsing"</a><br>
           → <a href="https://webaim.org/projects/million/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">WebAIM Million 2026</a>, Erhebung über eine Million Startseiten<br>
           → <a href="https://arxiv.org/abs/2602.09310" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">A11y-CUA, CHI 2026</a> (die meist zitierte Studie; sie misst die Bedienung des Agenten, nicht die Barrierefreiheit der Websites)<br>
-          → <a href="https://arxiv.org/abs/2607.12056" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Designing Agent-Ready Websites for AI Web Agents, 2026</a> (Prototyp, 89 gegen 49 Prozent)<br>
+          → <a href="https://arxiv.org/abs/2607.12056" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Designing Agent-Ready Websites for AI Web Agents, 2026</a> (Prototyp, agentenfreundliche Fassung gegen Ausgangsfassung, 89 gegen 49 Prozent)<br>
           → <a href="https://ahrefs.com/blog/schema-ai-citations/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Ahrefs, kontrollierter Test zu strukturierten Daten und KI-Zitationen, 2026</a><br>
-          → <a href="https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">PPC Land über die Ahrefs-Server-Log-Auswertung zu llms.txt</a> (137.000 Domains)<br>
+          → <a href="https://ahrefs.com/blog/llmstxt-study/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Ahrefs, Server-Log-Auswertung zu llms.txt, Juni 2026</a> (137.210 Domains, davon rund 38.000 mit einer solchen Datei)<br>
           → <a href="https://ahrefs.com/blog/ai-brand-visibility-correlations/" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Ahrefs, Korrelationsanalyse über 75.000 Marken</a> zur Sichtbarkeit in KI-Antworten<br>
           → <a href="https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">Google, Agent-Payments-Protokoll AP2</a> (Agenten kaufen bei Agenten)<br>
           → Die im Text beschriebene Gegenüberstellung ist öffentlich: <a href="maschinensicht.html" style="color: var(--white); border-bottom: 1px solid var(--gray); text-decoration: none; padding-bottom: 1px;">robert-haase.de/maschinensicht.html</a>

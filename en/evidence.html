@@ -62,7 +62,7 @@
       "@id": "https://robert-haase.de/#person"
     },
     "datePublished": "2026-08-28",
-    "dateModified": "2026-09-04",
+    "dateModified": "2026-09-05",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "ItemList",
@@ -495,7 +495,7 @@
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/en/evidence.html#dax-zutritt",
-            "text": "Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. In every case it comes from Akamai or Cloudflare and detects from the TLS fingerprint that no ordinary browser is asking — not from the user agent.",
+            "text": "Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. It comes from Akamai or Cloudflare on ten of the twelve pages, and from Amazon CloudFront at Siemens and Hannover Rück. On 18 of 22 pages checked at HTTP level the same rejection came regardless of the browser string; there the detection works from the TLS fingerprint and the order of the HTTP headers. On the two CloudFront pages the browser string alone decides.",
             "appearance": {
               "@type": "CreativeWork",
               "name": "Own measurement, 30 August 2026 · cause checked per site at HTTP level, with an ordinary and with an automated browser string · same response on 18 of 22 pages",
@@ -624,11 +624,11 @@
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/en/evidence.html#jagged-frontier",
-            "text": "In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered 40 percent higher quality — as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI.",
+            "text": "In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered more than 30 percent higher quality, as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI.",
             "appearance": {
               "@type": "CreativeWork",
-              "name": "Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, 2026 · 758 consultants, 18 realistic tasks",
-              "url": "https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf"
+              "name": "Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent",
+              "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf"
             },
             "disambiguatingDescription": "What the number does not say: Where the boundary runs was not visible to participants — the tasks looked alike. That is both the core finding and its limit: one deliberately out-of-range task was measured, not how often such cases occur in daily work. The experiment used GPT-4; where the frontier sits today is open. And consulting is not all knowledge work."
           }
@@ -1292,9 +1292,9 @@
         </div>
       </article>
 
-      <article class="ev-item" id="dax-zutritt" data-topic="agenten" data-cite="Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. In every case it comes from Akamai or Cloudflare and detects from the TLS fingerprint that no ordinary browser is asking — not from the user agent. (Own measurement, 30 August 2026 · cause checked per site at HTTP level, with an ordinary and with an automated browser string · same response on 18 of 22 pages). https://robert-haase.de/en/evidence.html#dax-zutritt">
+      <article class="ev-item" id="dax-zutritt" data-topic="agenten" data-cite="Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. It comes from Akamai or Cloudflare on ten of the twelve pages, and from Amazon CloudFront at Siemens and Hannover Rück. On 18 of 22 pages checked at HTTP level the same rejection came regardless of the browser string; there the detection works from the TLS fingerprint and the order of the HTTP headers. On the two CloudFront pages the browser string alone decides. (Own measurement, 30 August 2026 · cause checked per site at HTTP level, with an ordinary and with an automated browser string · same response on 18 of 22 pages). https://robert-haase.de/en/evidence.html#dax-zutritt">
         <p class="ev-grade is-strong">Own survey, reproducible</p>
-        <p class="ev-claim">Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. In every case it comes from Akamai or Cloudflare and detects from the TLS fingerprint that no ordinary browser is asking — not from the user agent.</p>
+        <p class="ev-claim">Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. It comes from Akamai or Cloudflare on ten of the twelve pages, and from Amazon CloudFront at Siemens and Hannover Rück. On 18 of 22 pages checked at HTTP level the same rejection came regardless of the browser string; there the detection works from the TLS fingerprint and the order of the HTTP headers. On the two CloudFront pages the browser string alone decides.</p>
         <p class="ev-limit"><strong>What the number does not say:</strong> It measures the rejection of a retrieval tool, not reachability for agents. <strong>A regular, remote-controlled Chrome got through several of these sites without trouble</strong> — the defence separates tool from browser, not human from machine. An agent driving a real browser would likely get further; this was not tested, because testing it would have meant circumventing the detection. <strong>Not counted here are 13 further failures with other causes:</strong> four stale addresses in the directory, four technical errors, two country selectors instead of home pages, two empty responses, one unstable result. An earlier version of this figure said 30 percent and lumped all of that together.</p>
         <p class="ev-source">Own measurement, 30 August 2026 · cause checked per site at HTTP level, with an ordinary and with an automated browser string · same response on 18 of 22 pages</p>
         <div class="ev-actions">
@@ -1380,11 +1380,11 @@
         </div>
       </article>
 
-      <article class="ev-item" id="jagged-frontier" data-topic="urteil" data-cite="In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered 40 percent higher quality — as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI. (Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, 2026 · 758 consultants, 18 realistic tasks). https://robert-haase.de/en/evidence.html#jagged-frontier">
+      <article class="ev-item" id="jagged-frontier" data-topic="urteil" data-cite="In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered more than 30 percent higher quality, as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI. (Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent). https://robert-haase.de/en/evidence.html#jagged-frontier">
         <p class="ev-grade is-strong">Controlled trial</p>
-        <p class="ev-claim">In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered 40 percent higher quality — as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI.</p>
+        <p class="ev-claim">In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered more than 30 percent higher quality, as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI.</p>
         <p class="ev-limit"><strong>What the number does not say:</strong> Where the boundary runs was not visible to participants — the tasks looked alike. That is both the core finding and its limit: <em>one</em> deliberately out-of-range task was measured, not how often such cases occur in daily work. The experiment used GPT-4; where the frontier sits today is open. And consulting is not all knowledge work.</p>
-        <p class="ev-source">Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, 2026 · 758 consultants, 18 realistic tasks · <a href="https://mitsloan.mit.edu/sites/default/files/2023-10/SSRN-id4573321.pdf" target="_blank" rel="noopener">to the working paper</a></p>
+        <p class="ev-source">Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent · <a href="https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf" target="_blank" rel="noopener">to the peer-reviewed version</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#jagged-frontier">Permalink</a>
