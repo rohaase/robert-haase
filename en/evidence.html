@@ -62,12 +62,12 @@
       "@id": "https://robert-haase.de/#person"
     },
     "datePublished": "2026-08-28",
-    "dateModified": "2026-09-05",
+    "dateModified": "2026-09-06",
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "ItemList",
       "name": "Verified numbers on brand, AI search, and agents",
-      "numberOfItems": 47,
+      "numberOfItems": 52,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -782,6 +782,81 @@
             },
             "disambiguatingDescription": "On the figures: these are from the verified working paper of March 2023, which states it is not peer reviewed. The peer-reviewed version appeared later in Science with differing numbers — 453 participants and “40 percent time saved” circulate; that version sits behind a paywall and was not inspected. What the figures do not say: these were short, isolated writing tasks, not projects spanning weeks."
           }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#aio-klickrate",
+            "text": "Where an AI summary sits above the results, the click-through rate of the first organic position is about 58 percent lower. At position 2 it is 50.8 percent, at position 3 46.4 percent.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Ahrefs, Ryan Law, 300,000 keywords, 150,000 with and 150,000 without an AI summary, data from December 2025 · 4 February 2026",
+              "url": "https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/"
+            },
+            "disambiguatingDescription": "What the number does not say: Two different keyword sets are compared, not two states of the same query. That establishes no cause. The comparison also spans two years, December 2023 against December 2025, so every other change to search is folded in. Ahrefs sells search engine optimization tools. The self-limitation is worth noting: the authors point to competing studies with diverging results, among them Seer Interactive, Kevin Indig and Authoritas. Their own earlier study from April 2025 still put position 1 at 34.5 percent."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#seer-klickrate",
+            "text": "For informational queries carrying an AI summary, the organic click-through rate fell from 1.76 to 0.61 percent, a drop of 61 percent. For queries without a summary it fell from 2.74 to 1.62 percent over the same period, a drop of 41 percent.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025",
+              "url": "https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update"
+            },
+            "disambiguatingDescription": "What the number does not say: The second half is the more important one and is almost always dropped when the figure is quoted. Even without an AI summary the click-through rate collapsed by 41 percent. The decline therefore cannot be attributed to the summaries alone; search behaviour is shifting as a whole. Seer itself writes that no proof of cause is possible, and reports standard deviations of 0.8 to 1.2 percentage points between individual queries. Only informational queries were studied, no commercial ones; the paid sample, at 1.1 million impressions, is much smaller than the organic one."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#reddit-zitate",
+            "text": "Reddit’s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days. On 8 August 2026 ChatGPT’s use of the site: operator rose from 0.37 to 16.8 percent of its derived search queries.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Promptwatch, Klaas Foppen, comparing 18 July to 7 August against 14 to 17 August 2026 · 20 August 2026 · reported by Axios the same day",
+              "url": "https://promptwatch.com/blog/chatgpt-stop-citing-reddit"
+            },
+            "disambiguatingDescription": "What the number does not say: It comes from a vendor of visibility tools, so from a party with an interest of its own, and that vendor qualifies it twice. On the size of the drop: a data-collection issue cannot be ruled out, and the figure should be treated as provisional. On comparability: the exact percentages depend on method, on which brands are sampled and how a citation is counted; direction and timing are the reliable parts. The measurement base is not disclosed. What the case does show: on Google’s AI surfaces Reddit fell by only 11 to 30 percent over the same period. The collapse hangs on one vendor’s source selection, not on the source itself."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#astryx-agenten",
+            "text": "Meta open-sourced its design system in June 2026, after eight years of internal growth, and justifies how it is built expressly by agents: design systems were historically made for human consumption, and as more code is written by agents, their structure has to be rethought. The system is operated from the command line or over MCP.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Astryx by Meta, “Introducing Astryx”, 18 June 2026, and “Who needs a Figma Library?”, 5 August 2026 · repository under MIT licence",
+              "url": "https://astryx.atmeta.com/blog/introducing-astryx"
+            },
+            "disambiguatingDescription": "What this does not say: These are vendor figures, not independently audited. The reach of more than 13,000 applications refers to Meta’s own estate, not to the market, and the system is labelled beta. The second figure, the one that travels, needs placing: the 95 percent drop in the weekly insertion rate from the accompanying Figma library is an internal observation at Meta, not an industry value. And the library was not abandoned but published in August as an experiment, built and kept current by a cron job connected to the Figma MCP."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/en/evidence.html#designsysteme-maschinenschnittstelle",
+            "text": "Of 20 open-source design systems surveyed, 17 ship a first-party MCP server, 17 official agent skills and 14 an llms.txt. The survey sums it up: “Nobody is still arguing about whether to ship a machine interface.”",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Kaelig Deloumeau-Prigent, 20 open-source design systems, data collected 26 to 28 July 2026 · report 1 September 2026 · CC BY 4.0 · the narrower figures sit in the essay section of the site",
+              "url": "https://state-of-ai-in-design-systems.netlify.app/"
+            },
+            "disambiguatingDescription": "What the number does not say, and this is the first stumbling block when you check: The survey carries two series. The essay counts first-party, official offerings only and arrives at 17, 17 and 14; the systems table on the landing page counts community offerings too and arrives at 19, 18 and 14. Both are correct, they measure different things. Anyone quoting the narrower figure has to say “first-party”. The weightier caveat: what was measured are design systems, so components and code for developers, not brand guidelines. The survey says nothing about brands outside the software industry. It is also a three-day snapshot and the work of a single person, not an institute."
+          }
         }
       ]
     }
@@ -1061,6 +1136,39 @@
         </div>
       </article>
 
+      <article class="ev-item" id="aio-klickrate" data-topic="ki-suche" data-cite="Where an AI summary sits above the results, the click-through rate of the first organic position is about 58 percent lower. At position 2 it is 50.8 percent, at position 3 46.4 percent. (Ahrefs, Ryan Law, 300,000 keywords, 150,000 with and 150,000 without an AI summary, data from December 2025 · 4 February 2026). https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/">
+        <p class="ev-grade is-strong">Verified study</p>
+        <p class="ev-claim">Where an AI summary sits above the results, the click-through rate of the first organic position is about 58 percent lower. At position 2 it is 50.8 percent, at position 3 46.4 percent.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> Two different keyword sets are compared, not two states of the same query. That establishes no cause. The comparison also spans two years, December 2023 against December 2025, so every other change to search is folded in. Ahrefs sells search engine optimization tools. <strong>The self-limitation is worth noting:</strong> the authors point to competing studies with diverging results, among them Seer Interactive, Kevin Indig and Authoritas. Their own earlier study from April 2025 still put position 1 at 34.5 percent.</p>
+        <p class="ev-source">Ahrefs, Ryan Law, 300,000 keywords, 150,000 with and 150,000 without an AI summary, data from December 2025 · 4 February 2026 · <a href="https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/" target="_blank" rel="noopener" aria-label="Source (opens in a new tab)">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#aio-klickrate">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="seer-klickrate" data-topic="ki-suche" data-cite="For informational queries carrying an AI summary, the organic click-through rate fell from 1.76 to 0.61 percent, a drop of 61 percent. For queries without a summary it fell from 2.74 to 1.62 percent over the same period, a drop of 41 percent. (Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025). https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update">
+        <p class="ev-grade is-strong">Verified study</p>
+        <p class="ev-claim">For informational queries carrying an AI summary, the organic click-through rate fell from 1.76 to 0.61 percent, a drop of 61 percent. For queries without a summary it fell from 2.74 to 1.62 percent over the same period, a drop of 41 percent.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> The second half is the more important one and is almost always dropped when the figure is quoted. Even without an AI summary the click-through rate collapsed by 41 percent. The decline therefore cannot be attributed to the summaries alone; search behaviour is shifting as a whole. Seer itself writes that no proof of cause is possible, and reports standard deviations of 0.8 to 1.2 percentage points between individual queries. Only informational queries were studied, no commercial ones; the paid sample, at 1.1 million impressions, is much smaller than the organic one.</p>
+        <p class="ev-source">Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025 · <a href="https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update" target="_blank" rel="noopener" aria-label="Source (opens in a new tab)">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#seer-klickrate">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="reddit-zitate" data-topic="ki-suche" data-cite="Reddit’s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days. On 8 August 2026 ChatGPT’s use of the site: operator rose from 0.37 to 16.8 percent of its derived search queries. (Promptwatch, Klaas Foppen, comparing 18 July to 7 August against 14 to 17 August 2026 · 20 August 2026 · reported by Axios the same day). https://promptwatch.com/blog/chatgpt-stop-citing-reddit">
+        <p class="ev-grade is-weak">Vendor measurement, preliminary</p>
+        <p class="ev-claim">Reddit&#8217;s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days. On 8 August 2026 ChatGPT&#8217;s use of the site: operator rose from 0.37 to 16.8 percent of its derived search queries.</p>
+        <p class="ev-limit"><strong>What the number does not say:</strong> It comes from a vendor of visibility tools, so from a party with an interest of its own, and that vendor qualifies it twice. On the size of the drop: a data-collection issue cannot be ruled out, and the figure should be treated as provisional. On comparability: the exact percentages depend on method, on which brands are sampled and how a citation is counted; direction and timing are the reliable parts. The measurement base is not disclosed. <strong>What the case does show:</strong> on Google&#8217;s AI surfaces Reddit fell by only 11 to 30 percent over the same period. The collapse hangs on one vendor&#8217;s source selection, not on the source itself.</p>
+        <p class="ev-source">Promptwatch, Klaas Foppen, comparing 18 July to 7 August against 14 to 17 August 2026 · 20 August 2026 · reported by Axios the same day · <a href="https://promptwatch.com/blog/chatgpt-stop-citing-reddit" target="_blank" rel="noopener" aria-label="Source (opens in a new tab)">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#reddit-zitate">Permalink</a>
+        </div>
+      </article>
+
       <article class="ev-item" id="geo-40-prozent" data-topic="ki-suche" data-cite="The most quoted figure in the AI visibility business, &quot;up to 40 percent more visibility&quot;, comes from a lab setup running a since-retired model and measures a purpose-built metric. (Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · submitted November 2023). https://arxiv.org/abs/2311.09735">
         <p class="ev-grade is-weak">Usually miscited</p>
         <p class="ev-claim">The most quoted figure in the AI visibility business, "up to 40 percent more visibility", comes from a lab setup running a since-retired model and measures a purpose-built metric.</p>
@@ -1146,6 +1254,28 @@
         <div class="ev-actions">
           <button type="button" class="ev-copy">Copy quote</button>
           <a class="ev-permalink" href="#a11y-tree">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="astryx-agenten" data-topic="agenten" data-cite="Meta open-sourced its design system in June 2026, after eight years of internal growth, and justifies how it is built expressly by agents: design systems were historically made for human consumption, and as more code is written by agents, their structure has to be rethought. The system is operated from the command line or over MCP. (Astryx by Meta, “Introducing Astryx”, 18 June 2026, and “Who needs a Figma Library?”, 5 August 2026 · repository under MIT licence). https://astryx.atmeta.com/blog/introducing-astryx">
+        <p class="ev-grade is-strong">Vendor documentation</p>
+        <p class="ev-claim">Meta open-sourced its design system in June 2026, after eight years of internal growth, and justifies how it is built expressly by agents: design systems were historically made for human consumption, and as more code is written by agents, their structure has to be rethought. The system is operated from the command line or over MCP.</p>
+        <p class="ev-limit"><strong>What this does not say:</strong> These are vendor figures, not independently audited. The reach of more than 13,000 applications refers to Meta&#8217;s own estate, not to the market, and the system is labelled beta. <strong>The second figure, the one that travels, needs placing:</strong> the 95 percent drop in the weekly insertion rate from the accompanying Figma library is an internal observation at Meta, not an industry value. And the library was not abandoned but published in August as an experiment, built and kept current by a cron job connected to the Figma MCP.</p>
+        <p class="ev-source">Astryx by Meta, &#8220;Introducing Astryx&#8221;, 18 June 2026, and &#8220;Who needs a Figma Library?&#8221;, 5 August 2026 · repository under MIT licence · <a href="https://astryx.atmeta.com/blog/introducing-astryx" target="_blank" rel="noopener" aria-label="Source (opens in a new tab)">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#astryx-agenten">Permalink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="designsysteme-maschinenschnittstelle" data-topic="agenten" data-cite="Of 20 open-source design systems surveyed, 17 ship a first-party MCP server, 17 official agent skills and 14 an llms.txt. The survey sums it up: “Nobody is still arguing about whether to ship a machine interface.” (Kaelig Deloumeau-Prigent, 20 open-source design systems, data collected 26 to 28 July 2026 · report 1 September 2026 · CC BY 4.0 · the narrower figures sit in the essay section of the site). https://state-of-ai-in-design-systems.netlify.app/">
+        <p class="ev-grade is-strong">Verified study</p>
+        <p class="ev-claim">Of 20 open-source design systems surveyed, 17 ship a first-party MCP server, 17 official agent skills and 14 an llms.txt. The survey sums it up: &#8220;Nobody is still arguing about whether to ship a machine interface.&#8221;</p>
+        <p class="ev-limit"><strong>What the number does not say, and this is the first stumbling block when you check:</strong> The survey carries two series. The essay counts first-party, official offerings only and arrives at 17, 17 and 14; the systems table on the landing page counts community offerings too and arrives at 19, 18 and 14. Both are correct, they measure different things. Anyone quoting the narrower figure has to say &#8220;first-party&#8221;. <strong>The weightier caveat:</strong> what was measured are <em>design systems</em>, so components and code for developers, not brand guidelines. The survey says nothing about brands outside the software industry. It is also a three-day snapshot and the work of a single person, not an institute.</p>
+        <p class="ev-source">Kaelig Deloumeau-Prigent, 20 open-source design systems, data collected 26 to 28 July 2026 · report 1 September 2026 · CC BY 4.0 · the narrower figures sit in the essay section of the site · <a href="https://state-of-ai-in-design-systems.netlify.app/" target="_blank" rel="noopener" aria-label="Source (opens in a new tab)">Source</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#designsysteme-maschinenschnittstelle">Permalink</a>
         </div>
       </article>
 
@@ -1526,7 +1656,7 @@
 
         <p>Every figure is traced back to the body that measured it. Not to the article citing it, and not to the summary passing it along. Most figures in this field travel through several hands, and along the way they lose their denominator first, then their caveat, and finally their origin. What stands here is the start of that chain.</p>
 
-        <p>Of the 47 entries, 41 link the measuring body directly. Three name an intermediary, because the figure is only accessible through their report; where that is the case, the source line says so. Three are own measurements and carry their method with them, so they can be repeated. No entry rests on a summary of a summary.</p>
+        <p>Of the 52 entries, 46 link the measuring body directly. Three name an intermediary, because the figure is only accessible through their report; where that is the case, the source line says so. Three are own measurements and carry their method with them, so they can be repeated. No entry rests on a summary of a summary.</p>
 
         <p>What does not survive the check does not get in, or gets removed. An example from my own work: one of my articles carried the claim, from July 2026 onward, that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. On checking, it was not there. What exists are two other figures, 17 percent and 30 to 45 percent, which had merged into one on their way through the retellings. Both are in this collection now; the 44 is not. A second entry has since been removed, because on closer inspection it only demonstrated what had deliberately been put there in the first place.</p>
 
