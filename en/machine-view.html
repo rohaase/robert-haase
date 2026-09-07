@@ -781,7 +781,7 @@
   }
 
   function viewRaw(doc) {
-    var rows = [{ group: 'Textinhalt aus dem Quelltext' }];
+    var rows = [{ group: 'Text content from the source' }];
     var scope = doc.querySelector('main') || doc.body;
     var blocks = scope.querySelectorAll('h1, h2, h3, p, li, blockquote');
     Array.prototype.forEach.call(blocks, function (b) {
@@ -804,7 +804,7 @@
     graphs.forEach(function (g) {
       var leaves = [];
       flatten(g, '', leaves);
-      var type = (g['@type'] || 'Objekt');
+      var type = (g['@type'] || 'Object');
       rows.push({ group: 'schema.org · ' + type });
       leaves.forEach(function (l) {
         var el = null;
