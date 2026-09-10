@@ -1039,7 +1039,7 @@
 
     <section class="ev-controls" aria-label="Search and filter the evidence">
       <label class="ev-sr-status" for="ev-search">Search the evidence</label>
-      <input type="search" id="ev-search" class="ev-search" placeholder="Search: llms.txt, liability, Gartner, agents …" hidden>
+      <input type="search" id="ev-search" class="ev-search" placeholder="Search: llms.txt, Bain, Gartner, liability …" hidden>
 
       <span class="ev-control-label" id="ev-filter-label">Topic</span>
       <div class="ev-seg" role="group" aria-labelledby="ev-filter-label" id="ev-filters" hidden>
@@ -1703,8 +1703,17 @@
   var topic = 'alle';
   var query = '';
 
+  /* Das Thema gehoert in den Suchindex: Wer "Haftung" tippt, meint die
+     Gruppe, nicht nur die Karten, in denen das Wort zufaellig vorkommt. */
+  var themenNamen = {};
+  Array.prototype.slice.call(filters.querySelectorAll('button')).forEach(function (b) {
+    var t = b.getAttribute('data-topic');
+    if (t && t !== 'alle') themenNamen[t] = (b.textContent || '').toLowerCase();
+  });
+
   items.forEach(function (el) {
-    el.searchText = (el.textContent || '').toLowerCase();
+    var t = el.getAttribute('data-topic') || '';
+    el.searchText = ((el.textContent || '') + ' ' + t + ' ' + (themenNamen[t] || '')).toLowerCase();
   });
 
   function apply() {
