@@ -67,7 +67,7 @@
     "mainEntity": {
       "@type": "ItemList",
       "name": "Geprüfte Zahlen zu Marke, KI-Suche und Agenten",
-      "numberOfItems": 60,
+      "numberOfItems": 91,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -254,6 +254,66 @@
           "position": 13,
           "item": {
             "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#aio-top10-uneinig",
+            "text": "Wie viele der in Googles KI-Übersichten zitierten Quellen zugleich organisch in den Top 10 stehen, messen die beiden großen Anbieter unvereinbar: BrightEdge rund 17 Prozent im Februar 2026, Ahrefs 37,1 Prozent im März 2026. Im einzigen Monat, den beide Reihen abdecken, ist der Abstand am größten: für Juli 2025 weist BrightEdge 16,6 Prozent aus, Ahrefs 76,1 Prozent.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Ahrefs, Louise Linehan, 863.000 Keyword-SERPs und 4 Millionen zitierte Adressen, organisch 37,1 Prozent, Schlagzeile 37,9 Prozent einschließlich Anzeigen und SERP-Features · 2. März 2026 · dieselbe Reihe, 1,9 Millionen Zitate aus 1 Million Übersichten, nur die drei sichtbarsten je Übersicht · 21. Juli 2025 · BrightEdge, AI Catalyst und Generative Parser, wöchentliche Messung, Umfang nicht offengelegt, Überschneidungstabelle Februar bis Juli 2025 · 12. Februar 2026",
+              "url": "https://ahrefs.com/blog/ai-overview-citations-top-10/"
+            },
+            "disambiguatingDescription": "Woher der Abstand kommt: nicht aus dem Zeitversatz. Ahrefs zählte 2025 nur die drei sichtbarsten Zitate je Übersicht, 2026 alle zitierten Adressen, bei nach eigener Angabe geändertem Parsing. Der Sprung von 76 auf 37 ist damit zu unbekanntem Anteil ein Verfahrensartefakt und kein Verlauf. Ahrefs zählt Adressen, BrightEdge nennt seine Einheit nur sources und sagt nirgends, ob Adressen oder Domains gemeint sind. Was offen bleibt: BrightEdge legt die Größe seines Keyword-Sets nicht offen, Ahrefs keinen Erhebungszeitraum, Sprache und Land nennt keine der drei Erhebungen. Beide Häuser verkaufen Werkzeuge für KI-Sichtbarkeit und messen auf eigenen Indizes. Und keine der Zahlen sagt, ob eine Nennung Besuche oder Umsatz bringt."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#llmstxt-nutzen",
+            "text": "Auf 20 Dokumentationsseiten arbeiteten zwei Coding-Agenten deutlich sparsamer, sobald die Seiten ganz oben auf ihre llms.txt verwiesen. Claude Code brauchte 25,4 statt 30,8 Sekunden und 175.000 statt 215.000 Tokens je Aufgabe, Codex 45,1 statt 57,1 Sekunden und 115.000 statt 156.000 Tokens. Das sind 18 bis 26 Prozent weniger.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Mintlify, Docs URL Discovery Bench · 20 Dokumentationsseiten, 5 Fragen je Seite, 4 Auslieferungsvarianten, 3 Durchläufe, 2.400 gewertete Läufe bei n=300 je Zelle · Juli 2026",
+              "url": "https://github.com/mintlify/docs-url-discovery-bench"
+            },
+            "disambiguatingDescription": "Was die Zahlen nicht sagen: Für Marken-Websites ist damit nichts belegt. Gemessen wurden zwei Coding-Agenten auf Entwicklerdokumentation, die der Anbieter selbst ausliefert und als Leistung verkauft. Gewonnen wird außerdem Effizienz, nicht Richtigkeit: Die Trefferquote bewegt sich über alle vier Varianten kaum, 94 bis 99 Prozent. Und der Vergleich ist hergestellt: Die gute Variante ist die unveränderte Auslieferung, die schlechte entsteht erst, indem der Testaufbau den Verweis herausschneidet und die llms.txt mit einem künstlichen 404 sperrt. Gemessen ist eine Wegnahme. Auf Signifikanz geprüft hat der Anbieter allein Fehlabrufe und Abrufzahl, nicht Zeit und Tokens."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#markenstatur-sichtbarkeit",
+            "text": "Fragt man KI-Suchsysteme nach einer Kategorie, ohne den Markennamen zu nennen, erscheinen global bekannte Marken im ersten Messlauf in 72,9 Prozent der Antworten, etablierte Mittelstands- und Regionalmarken in 43,6 Prozent, kleine und Nischenmarken in 11,4 Prozent. Von den Quellenangaben führen 2,9 Prozent auf die Website der Marke selbst, 75,2 Prozent auf die anderer Unternehmen derselben Kategorie.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Pratyush Kumar (Mitgründer von Ranqo), Generative Engine Optimization at Scale: Measuring Brand Visibility Across AI Search Engines, arXiv:2606.20065v1, Preprint ohne Begutachtung, 14 Seiten · 102 Marken, 3.508 abgeschlossene Messläufe, 102.025 Antworten von fünf Systemen (ChatGPT, Gemini, Perplexity, Claude, Grok), 149.912 Quellenangaben aus Antworten, in denen die Marke vorkam, erhoben auf der Plattform Ranqo zwischen März und Mai 2026 · eingereicht 18. Juni 2026",
+              "url": "https://arxiv.org/abs/2606.20065"
+            },
+            "disambiguatingDescription": "Was die Zahlen nicht sagen: Sie belegen keine Ursache. Die drei Stufen sind von Hand nach Wikipedia-Artikel, Presseecho und Finanzierung vergeben, also nach Hilfsgrößen für Web-Prominenz; gemessen wird danach eine aus dem Web gespeiste Sichtbarkeit. Den Zirkel benennt der Autor selbst. Die Stufen umfassen 11, 36 und 55 Marken, das 95-Prozent-Intervall der untersten reicht von 4,2 bis 20,3 Prozent. Wer gemessen hat: Der Autor ist Mitgründer von Ranqo und hält Anteile daran, die untersuchten Marken sind Kunden der Plattform, der Text ein Preprint ohne Begutachtung. Wer die oft zitierten 78 Prozent Unternehmensseiten liest, als trage die eigene Website die Sichtbarkeit, dreht den Befund um."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#zitier-position",
+            "text": "Von 18.012 Zitierungen, die ChatGPT aus Webseiten übernahm, stammen 44,2 Prozent aus den ersten 30 Prozent des Textes. Der mittlere Abschnitt, mit 40 Prozent Textlänge der breiteste, trägt 31,1 Prozent, der Schluss 24,7 Prozent. In einer zweiten Auswertung über 11.022 Zitierungen erreichten zitierte Einleitungen eine Eigennamen-Dichte von 20,6 Prozent, gegenüber 5 bis 8 Prozent, die der Autor ohne Fundstelle für gängigen englischen Text veranschlagt.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Kevin Indig, Growth Memo, Daten von Gauge · 18.012 Zitierungen für die Positionsanalyse, 11.022 für die Sprachanalyse, aus rund 3 Millionen ChatGPT-Antworten · 16. Februar 2026 · Original hinter Bezahlschranke, Volltext im Internet Archive",
+              "url": "http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention"
+            },
+            "disambiguatingDescription": "Was die Zahlen nicht sagen: Gemessen ist, woher ChatGPT zitiert hat. Niemand hat Texte umgeschrieben und danach geprüft, ob sie häufiger zitiert werden. Auf Absatzebene gilt die Regel nicht: Dort stammen 53 Prozent der Zitierungen aus der Mitte des Absatzes, nur 24,5 Prozent aus dem ersten Satz. Erhebungszeitraum und Modellstand fehlen, gemessen wurde ausschließlich englischer Text. Woher die Daten kommen: nicht vom Auswerter. Alleinige Quelle ist der Anbieter Gauge, der KI-Sichtbarkeits-Software verkauft; derselbe Absatz wirbt mit einem Rabattcode für dessen Verkaufsgespräch. Welcher Satz zitiert wurde, ist über Textvektoren geschätzt."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "item": {
+            "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#leere-buttons",
             "text": "Auf 30,6 Prozent von einer Million untersuchten Startseiten fanden sich Buttons ohne zugänglichen Namen, auf 51 Prozent Formularfelder ohne Beschriftung.",
             "appearance": {
@@ -266,7 +326,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 14,
+          "position": 18,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#agent-ready",
@@ -281,7 +341,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 15,
+          "position": 19,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#a11y-cua",
@@ -296,7 +356,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 16,
+          "position": 20,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#javascript",
@@ -311,7 +371,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 17,
+          "position": 21,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#lighthouse",
@@ -326,7 +386,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 18,
+          "position": 22,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#a11y-tree",
@@ -341,7 +401,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 19,
+          "position": 23,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#astryx-agenten",
@@ -356,7 +416,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 20,
+          "position": 24,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#designsysteme-maschinenschnittstelle",
@@ -371,7 +431,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 21,
+          "position": 25,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#gitlab-markenrepo",
@@ -386,7 +446,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 22,
+          "position": 26,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#aipref",
@@ -401,7 +461,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 23,
+          "position": 27,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#checkout-rueckbau",
@@ -416,7 +476,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 24,
+          "position": 28,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#airline-direktkanal",
@@ -431,7 +491,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 25,
+          "position": 29,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#walmart-verhandlung",
@@ -446,7 +506,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 26,
+          "position": 30,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#journey-start",
@@ -461,7 +521,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 27,
+          "position": 31,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#kaufentscheidung",
@@ -476,7 +536,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 28,
+          "position": 32,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#air-canada",
@@ -491,7 +551,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 29,
+          "position": 33,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#cursor-bot",
@@ -506,7 +566,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 30,
+          "position": 34,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#ai-act",
@@ -521,7 +581,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 31,
+          "position": 35,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#olg-hamm",
@@ -536,7 +596,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 32,
+          "position": 36,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#machine-customers",
@@ -551,7 +611,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 33,
+          "position": 37,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#marktgroesse",
@@ -566,7 +626,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 34,
+          "position": 38,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#ki-nutzung-deutschland",
@@ -581,7 +641,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 35,
+          "position": 39,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#dax-zutritt",
@@ -599,7 +659,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 36,
+          "position": 40,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#dax-benennung",
@@ -617,7 +677,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 37,
+          "position": 41,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#dax-landmarken",
@@ -635,7 +695,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 38,
+          "position": 42,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#dax-bilder",
@@ -653,7 +713,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 39,
+          "position": 43,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#agenten-erfolg",
@@ -668,7 +728,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 40,
+          "position": 44,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#nicht-menschlicher-verkehr",
@@ -683,7 +743,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 41,
+          "position": 45,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
@@ -698,7 +758,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 42,
+          "position": 46,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#produkthaftung-komplexitaet",
@@ -713,7 +773,112 @@
         },
         {
           "@type": "ListItem",
-          "position": 43,
+          "position": 47,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#ai-overview-muenchen",
+            "text": "Ein deutsches Landgericht hat Google im Eilverfahren untersagt, in seiner KI-Übersicht acht Behauptungen über ein Verlagshaus und sieben über dessen Tochtergesellschaft zu verbreiten, darunter Betrugsmasche und Abo-Falle. Es sah darin eigene, Google zurechenbare Inhalte statt bloßer Suchergebnisse, hielt Google für eine unmittelbare Störerin und verneinte die Haftungsprivilegien für Hostprovider und Suchmaschinen. Nach Googles Berufung endete der Streit durch Vergleich, das Urteil ist gegenstandslos.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "LG München I, Endurteil vom 28. Mai 2026, Az. 26 O 869/26, einstweiliges Verfügungsverfahren, Unterlassung nach Unternehmenspersönlichkeitsrecht · Berufung OLG München, Az. 18 U 1744/26 Pre e, durch Vergleich beendet, Urteil gegenstandslos laut redaktioneller Anmerkung bei BAYERN.RECHT · Fundstellen NJW 2026, 2271 und MMR 2026, 814 · geprüft am 10. September 2026",
+              "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860"
+            },
+            "disambiguatingDescription": "Was der Fall ist und was nicht: Der Vergleich hat das Urteil beseitigt, bevor eine höhere Instanz es prüfen konnte. Es bindet niemanden, die Rechtsfrage bleibt offen. Es war zudem ein Eilverfahren: Das Gericht hat nicht festgestellt, dass die KI-Antworten falsch waren, sondern dass Google ihren Wahrheitsgehalt nicht glaubhaft machen konnte. Zugesprochen wurde Unterlassung, kein Schadenersatz. Wo dieser Status steht: nur als redaktionelle Anmerkung der Rechtsprechungsdatenbank, nicht im Urteil. Die geprüfte Fachberichterstattung erwähnt weder Berufung noch Vergleich."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#auftragsverarbeitung-weisung",
+            "text": "Für Verarbeitung im Auftrag verlangt die Datenschutz-Grundverordnung einen Vertrag, der vorsieht, dass der Auftragsverarbeiter personenbezogene Daten nur auf dokumentierte Weisung des Verantwortlichen verarbeitet (Art. 28 Abs. 3 lit. a); unmittelbar bindet Art. 29, nachweispflichtig ist der Verantwortliche (Art. 24 Abs. 1). Die Kippgrenze zieht Art. 28 Abs. 10: Ein Auftragsverarbeiter, der unter Verstoß gegen die Verordnung die Zwecke und Mittel der Verarbeitung bestimmt, gilt in Bezug auf diese Verarbeitung als Verantwortlicher.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Verordnung (EU) 2016/679 (Datenschutz-Grundverordnung), Art. 28 Abs. 3 lit. a, Art. 29, Art. 24 Abs. 1 und Art. 28 Abs. 10 · an der Amtsblattfassung geprüft und gegen die konsolidierte Fassung 02016R0679 abgeglichen, von den drei Berichtigungen (ABl. L 314/2016, L 127/2018, L 74/2021) ist keine der vier Stellen berührt; in Kraft getretene Änderungen gibt es bis heute nicht, der Digital Omnibus liegt als Vorschlag vor und betrifft Art. 28 und 29 nicht · Amtsblatt L 119 vom 4. Mai 2016",
+              "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/deu"
+            },
+            "disambiguatingDescription": "Was die Rechtslage nicht sagt: Sie regelt personenbezogene Daten, nicht Markenaussagen; die Übertragung auf Agenten ist eine Analogie ohne Rechtsprechung und bricht an Art. 28 Abs. 10: Ein Agent, der Zwecke und Mittel selbst bestimmt, wäre kein Weisungsempfänger mehr. Was beim Zitieren wegfällt: Adressat des Art. 28 Abs. 10 ist ein Auftragsverarbeiter, und das Bestimmen muss „unter Verstoß gegen diese Verordnung“ geschehen; der allgemeine Satz in Art. 4 Nr. 7 ist eine Definition, keine Kippregel. Gesetzliche Verarbeitungspflichten bleiben unberührt."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#chevrolet-dollar",
+            "text": "Der ChatGPT-gestützte Chatbot eines Chevrolet-Händlers sagte den Verkauf eines neuen Tahoe für einen Dollar zu und nannte das ein rechtlich bindendes Angebot ohne Rücktrittsmöglichkeit. Diese Formel hatte der Nutzer dem Chatbot im selben Gespräch wörtlich vorgegeben. Kurz darauf ging der Chatbot offline. Eingefordert hat das Angebot niemand.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "GM Authority, Jonathan Lopez, 18. Dezember 2023 (Wortlaut beider Seiten, Abschaltung, GM-Stellungnahme) · Business Insider, Katie Notopoulos, Dezember 2023 (Anbieter- und GM-Stellungnahme; gelesen in der lizenzierten Yahoo-Übernahme vom 19. Dezember 2023, da businessinsider.com den Artikel nicht ausliefert) · Originalbeleg: Beitrag von Chris Bakke auf X, 17. Dezember 2023, mit Screenshot",
+              "url": "https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/"
+            },
+            "disambiguatingDescription": "Was der Fall nicht belegt: weder eine Haftungsfolge noch ihr Ausbleiben. Es gab keinen Kaufversuch, keine Forderung, kein Verfahren. Die verbreitete Angabe, der Händler habe den Kauf nicht anerkannt, steht in keiner zeitgenössischen Quelle, sondern erst in nachgelagerten Zusammenfassungen. Die Haftungsfrage wurde hier nicht verneint, sie wurde nie gestellt. Zur Quellenlage: Der Chatbot gehört einem unabhängigen Händler und stammt von Fullpath; GM stellte nach Erscheinen klar, dass Händler dieses Werkzeug eigenständig beschaffen. Belegt ist der Verlauf allein über einen Screenshot des Nutzers. Ob Händler oder Anbieter abschaltete, berichten die Quellen unterschiedlich; ein Preis fehlt, weil die Angaben zwischen 60.000 und 81.000 Dollar schwanken."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#dpd-chatbot",
+            "text": "Der Chatbot des Paketdienstes DPD nannte das eigene Unternehmen „the worst delivery firm in the world\", nachdem ein Kunde ihn aufgefordert hatte, bessere Zusteller zu empfehlen und in seinem Hass zu übertreiben. DPD teilte mit, das KI-Element sei sofort abgeschaltet worden.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Tom Gerken, BBC News · Stellungnahme von DPD an die Redaktion, Wortlaut der Bot-Antworten aus Screenshots des Kunden · 19. Januar 2024 · Gegenprobe: Guardian, 20. Januar 2024",
+              "url": "https://www.bbc.com/news/technology-68025677"
+            },
+            "disambiguatingDescription": "Woher die Sätze stammen: Die Bot-Antworten hat die BBC nicht selbst erhoben. Sie stehen auf Screenshots des Kunden, die Bildunterschrift vermerkt eine nachträgliche Verpixelung. Direkt an die Redaktion ging allein die Firmenstellungnahme, und die sagt zur Ursache nur „An error occurred after a system update yesterday\", also eine Zeitangabe. Dass das Update den Fehler verursacht habe, formuliert die BBC, nicht DPD. Was der Fall nicht zeigt: Der Bot wandte sich nicht von selbst gegen die eigene Marke, er wurde dazu angewiesen. Es gibt keinen Anspruch, kein Gericht, keinen bezifferten Schaden und keine Messung des Normalbetriebs. Die einzige Zahl, 800.000 Aufrufe des Kundenbeitrags in 24 Stunden, ist ein Zähler der Plattform."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#nyc-mycity",
+            "text": "New Yorks amtlicher MyCity-Chatbot riet Unternehmen zu Handlungen, die in der Stadt verboten sind: bargeldlos zu arbeiten, Trinkgeld der Beschäftigten einzubehalten und Mieter mit Wohngutscheinen abzuweisen. Zehn Mitglieder der Redaktion stellten dieselbe Frage, alle zehn bekamen dieselbe falsche Antwort. Die Stadt verteidigte ihn als Pilotprogramm und ließ ihn fast zwei weitere Jahre laufen, abgeschaltet wurde er Anfang Februar 2026 als Sparposten.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Colin Lecher, The Markup, copubliziert mit Documented und THE CITY · Stichprobentests am MyCity-Chatbot der Stadt New York · 29. März 2024 · Abschaltung bestätigt in der Aktualisierung des Folgeartikels vom 4. Februar 2026; chat.nyc.gov leitet seit dem 3. Februar 2026 auf eine Seite der Stadt weiter, Überschrift dort „The Chatbot beta test has ended.\"",
+              "url": "https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law"
+            },
+            "disambiguatingDescription": "Was der Fall ist und was nicht: eine journalistische Stichprobe ohne Grundgesamtheit und ohne Fehlerquote. Der Bot antwortete nicht immer gleich, einem Reporter gab er dieselbe Frage richtig. Ob jemand danach gehandelt hat, ist unbekannt. Zwei der drei Verbote kennen Ausnahmen: Trinkgeld darf unter Umständen auf den Mindestlohn angerechnet werden, das Diskriminierungsverbot gilt nicht für kleine selbstbewohnte Häuser. Was die Abschaltung nicht ist: ein Eingeständnis, dass die Auskünfte rechtswidrig waren. Anlass war ein Haushaltsloch von 12 Milliarden Dollar. Die Berichterstattung brachte ihn auf die Sparliste, entschieden hat der Haushalt."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#perplexity-cfaa",
+            "text": "Ein US-Bundesberufungsgericht hat am 4. August 2026 die einstweilige Verfügung gegen Perplexity aufgehoben und die Sache zurückverwiesen. Setzt jemand einen Einkaufsagenten ein, dann greift nach dem Computer Fraud and Abuse Act der Nutzer auf die fremde Website zu, der Agent ist dabei sein Werkzeug, und der Anbieter des Agenten greift selbst nicht zu.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026, Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66, Aktenstand 21. August 2026",
+              "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
+            },
+            "disambiguatingDescription": "Was die Entscheidung ist und was nicht: Sie ist vorläufig, geprüft wurden Erfolgsaussichten im einstweiligen Rechtsschutz. Amazon hat am 18. August 2026 die Wiederaufnahme vor einem erweiterten Senat beantragt; der öffentliche Aktenstand weist dazu keine Entscheidung aus. Es ist US-Recht und bindet in Europa niemanden. Was das Gericht offen lässt: Es errichte keine neue Rechtsordnung für agentische KI, es entscheide nichts über eine Haftung aus Delikt, und bei anderer Aktenlage könne der Anbieter so viel Kontrolle über den Agenten ausüben, dass er selbst zugreift. Der Fall betrifft den fremden Agenten auf der eigenen Seite, nicht die Haftung einer Marke für ihren eigenen. Die Nutzungsbedingungen der Website bleiben unberührt."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#screenshot-metadaten",
+            "text": "Ein Screenshot enthält die C2PA-Herkunftsdaten des Originals nicht: Die Angaben liegen in der Datei, ein Screenshot erzeugt eine neue. Umgekehrt signiert eine C2PA-fähige Kamera, die ein KI-Bild abfotografiert, die Aufnahme gültig und ohne Hinweis auf den KI-Ursprung. Sie hält Gerät, Zeit und Ort fest und kann den Bildinhalt nicht analysieren.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Content Authenticity Initiative (Adobe), Entwicklerdokumentation · FAQ, sieben Fragen · Stand 10. September 2026",
+              "url": "https://opensource.contentauthenticity.org/docs/getting-started/faqs/"
+            },
+            "disambiguatingDescription": "Was der Beleg nicht sagt: Er trifft nur die Metadaten-Schicht, nicht Wasserzeichen im Bildsignal. Dieselbe Seite führt Wasserzeichen als Technik, die „cropping, rotation, or screen capture“ übersteht, und nennt die Wiederherstellung entfernter Metadaten über eine Wasserzeichen-Kennung oder einen Fingerabdruck. Wer hier liest, Kennzeichnung sei per Screenshot generell aushebelbar, liest gegen die eigene Quelle. Wer das sagt: Die Seite steht unter Adobes Copyright, und die Einschränkung steht unmittelbar neben dem Verweis auf die eigene Abhilfe, die Durable Content Credentials. Beide Robustheitsangaben sind Selbstauskunft ohne Messung."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#frontify-mcp",
@@ -728,7 +893,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 44,
+          "position": 55,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#canva-mcp",
@@ -743,7 +908,112 @@
         },
         {
           "@type": "ListItem",
-          "position": 45,
+          "position": 56,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#klarna-700",
+            "text": "Klarnas meistzitierte KI-Zahl ist eine Schätzung, kein Personalstand: Die Pressemitteilung von Februar 2024 nennt „the equivalent work of 700 full-time agents“. Derselbe Wert steht im Börsenprospekt von September 2025 bei über 700, im Geschäftsbericht von Februar 2026 bei über 850, und an einer zweiten Stelle desselben Berichts wieder bei über 700. Die echte Zahl steht daneben: 5.527 Beschäftigte Ende 2022, 2.831 Ende 2025.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Klarna Group plc, eigene Angaben in Pressemitteilung, Börsenprospekt (Formular F-1/A) und Geschäftsbericht (Formular 20-F) bei der SEC · 27. Februar 2024 bis 26. Februar 2026",
+              "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm"
+            },
+            "disambiguatingDescription": "Was die Zahl wirklich ist: eine Hochrechnung aus dem durchschnittlichen monatlichen Rückgang an Chat- und Telefongesprächen, im Prospekt auf Basis 2024, im Bericht auf Basis 2025. Die beiden Werte widersprechen sich deshalb nicht, sie stehen nur unkommentiert nebeneinander, beide im Präsens. Kein Rückbau von KI: Klarna nennt es einen „dual-track approach“, hielt die menschliche Option schon 2024 offen und erwartet laut beiden Börsenpapieren weiter sinkende Beschäftigtenzahlen. Wer den Fall als Rückkehr zum Menschen zitiert, zitiert gegen die Quelle."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#mcp-primitive",
+            "text": "Das Model Context Protocol kennt drei Server-Bausteine und nennt für jeden eine vorgesehene Steuerungsinstanz: Werkzeuge (Tools) ruft das Modell auf, Ressourcen (Resources) steuert die Anwendung, Vorlagen (Prompts) wählt der Nutzer aus. Verbindlich ist diese Zuordnung nicht. Alle drei Kapitel der Spezifikation schließen mit demselben Satz: Das Protokoll schreibe kein bestimmtes Interaktionsmodell vor.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Model Context Protocol, getragen von Model Context Protocol a Series of LF Projects, LLC, Spezifikation Revision 2026-07-28, Kapitel Tools, Resources und Prompts, jeweils Abschnitt „User Interaction Model\", dazu der Erklärtext „Understanding MCP servers\" · Revisionsliste und Methodenwechsel als eigene Pfad- und Textprobe · 10. September 2026",
+              "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+            },
+            "disambiguatingDescription": "Warum der griffige Dreiklang so nicht in der Norm steht: Die Tabelle „Who controls it\" mit Model, Application, User stammt aus dem Erklärtext „Understanding MCP servers\". Normativ heißen Werkzeuge „model-controlled\" und Vorlagen „user-controlled\", Ressourcen aber „application-driven\". Und kein Server muss alle drei anbieten: „Servers offer any of the following features\". Und er altert schnell, gemessen: Seit dem 5. November 2024 gibt es fünf Revisionen, zwei davon seit November 2025. Methoden werden dabei ersetzt: resources/subscribe steht in den Revisionen 2025-06-18 und 2025-11-25 je zweimal im Ressourcen-Kapitel, in 2026-07-28 kein einziges Mal, dort dreimal subscriptions/listen."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#mcp-tool-poisoning",
+            "text": "In einer Werkzeugbeschreibung versteckte Anweisungen bringen einen Agenten dazu, den privaten SSH-Schlüssel zu lesen und über einen Parameter namens „sidenote“ an einen fremden Server zu schicken; im Bestätigungsdialog steht nur der Name eines Additionswerkzeugs. Eine Benchmark auf 45 echten MCP-Servern mit 353 Werkzeugen misst über 20 Modelleinstellungen im Mittel 36,5 Prozent Angriffserfolg, höchstens 72,8.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Invariant Labs (inzwischen Snyk), Luca Beurer-Kellner und Marc Fischer, zwei Versuche mit dem MCP-Client Cursor, 1. April 2025, Nachträge 7. und 11. April 2025 · Zhiqiang Wang und acht weitere, „MCPTox“, 45 MCP-Server, 353 Werkzeuge, 1.312 Testfälle, 20 Modelleinstellungen, Zahlen aus Abschnitt 4.2 und Tabelle 2, arXiv:2508.14925v1, 19. August 2025, ohne Begutachtung",
+              "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks"
+            },
+            "disambiguatingDescription": "Was das nicht sagt: Der Nutzer klickt mit. Verborgen ist nur der Inhalt der Freigabe, Cursor blendet den Schlüssel selbst im Dialog aus. Kein Server war kompromittiert, das vergiftete Werkzeug steht im System-Prompt. Der Erfolgsbegriff ist eng: Gezählt wird nur, wenn der Agent ein zweites, legitimes Werkzeug missbraucht; ruft er das vergiftete selbst auf, gilt das als Misserfolg. Bezugsgröße sind die gültigen Ausgaben, nicht die 1.312 Testfälle. Der Rest ist keine Abwehrquote, verweigert hat selbst das beste Modell in unter 3 Prozent. Invariant verkauft Sicherheitswerkzeuge und veröffentlichte zehn Tage vor dem eigenen Scanner, die Benchmark ist ein Preprint ohne Begutachtung."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 59,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#monotype-mcp",
+            "text": "Monotype hat am 15. Juli 2026 eine Beta seines Enterprise MCP Connectors angekündigt. Er verbindet KI-Werkzeuge mit Schriftbibliothek, Lizenzangaben und Produktionsfreigaben eines Kunden: Er gleicht KI-Entwürfe gegen die Bibliothek ab, prüft referenzierte Schriften gegen die Produktionsschriftliste und gibt CSS im Chat zurück, sofern die Projektschriften zur Bibliothek gehören. Er läuft über das Model Context Protocol, zunächst in Claude und Claude Design.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Monotype Labs, „Bringing font governance into AI-native content creation“, Ablauf der Beta in sieben Schritten, 15. Juli 2026 · Pressemitteilung „Monotype Introduces Enterprise Connector Beta“, Woburn, Massachusetts, 15. Juli 2026 · Produktseite „Monotype Enterprise Connector“ mit Status „Now in BETA“ und Zugangsvoraussetzungen, abgerufen 10. September 2026 · Negativprobe an der Pressemitteilungsliste, 15. Juli bis 10. September 2026 ohne Statusänderung",
+              "url": "https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation"
+            },
+            "disambiguatingDescription": "Was die Angabe nicht sagt: Sie stammt vom Anbieter, jede auffindbare Meldung gibt dieselbe Pressemitteilung weiter. Die Prüfung meldet und verweigert nicht: Nicht freigegebene Schriften werden laut Produktseite markiert, und der Labs-Beitrag verneint ausdrücklich, dass der Connector die Marken-, Rechts- oder Produktionsprüfung ersetzt. Wer freigibt, ist der Kunde: Vorausgesetzt sind freigegebene Produktionsschriften in seiner Instanz, die der Connector nur umsetzt. Gegenstand ist eine Schrift, keine Aussage. Web und HTML sind die erste Ausbaustufe, der Zugang auf ausgewählte Bestandskunden beschränkt, Zahlen zu Nutzung oder Wirkung fehlen."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 60,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#pulumi-brand-mcp",
+            "text": "Pulumi veröffentlicht die eigenen Markenrichtlinien als MCP-Server unter brand.pulumi.com/mcp. Er antwortete am 10. September 2026 ohne Anmeldung und führt 13 Ressourcen, eine Vorlage, 11 Werkzeuge und 3 Prompts, darunter Markenstimme, Schreibregeln und verbindliche Produktnamen. Eine Ressource regelt generative KI im Klartext, gerichtet an den Menschen: „never ship raw model output as a finished piece“, „never publish anything without a human reviewing it first“.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Eigener Abruf des Pulumi Brand MCP Server, Fassung 0.1.0, Protokoll 2025-06-18, per JSON-RPC über Streamable HTTP · Methoden initialize, resources/list, resources/templates/list, tools/list, prompts/list, resources/read auf brand://guidelines und tools/call auf check_color_accessibility · alle Aufrufe HTTP 200 ohne Authentifizierungskopf, keine Liste mit nextCursor, Zählungen dreimal wiederholt und stabil · brand://guidelines im Volltext, 3.053 Zeichen, text/markdown · Herstellerdokumentation brand.pulumi.com/mcp-server für die Einordnung der Prompts, Textkörper 16.842 Zeichen · abgerufen am 10. September 2026",
+              "url": "https://brand.pulumi.com/mcp"
+            },
+            "disambiguatingDescription": "Was die Zahlen nicht sagen: Gemessen sind Erreichbarkeit und Umfang, nicht Nutzung, Wirkung oder ob sich jemand an die Regeln hält. Der Inhalt ist die ungeprüfte Selbstdarstellung einer einzelnen Softwarefirma über die eigene Marke. Was der Server durchaus entscheidet: Drei Prompts sagen eine strukturierte Bewertung von Text, Bild und Design zu, werden laut Hersteller aber vom Menschen ausgelöst und expandieren in eine vorbereitete Modellanfrage. Selbst gerechnet wird ein Urteil, Farbkontrast gegen veröffentlichte APCA-Schwellen, im Test Lc 86,4. Über die Güte einer Aussage befindet ein Mensch, so verlangt es der Regeltext."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 61,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#statista-mcp",
+            "text": "Statista betreibt einen MCP-Server unter api.statista.ai/v1/mcp mit sechs dokumentierten Werkzeugen. Jeder Aufruf wird einzeln in Credits abgerechnet, gestaffelt nach Antwortart: Suchen kostet 0 oder 1 Credit, das Abrufen der Zahlen selbst 10 bis 15. Ohne Schlüssel antwortet der Server mit 401 Unauthorized.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Statista, Entwicklerdokumentation MCP Server und Credit Logic, sechs Werkzeuge und Kreditkosten einzeln ausgezählt · eigene Abfrage des Endpunkts ohne Schlüssel · abgerufen am 10. September 2026",
+              "url": "https://docs.platform.statista.ai/pricing/credit-logic"
+            },
+            "disambiguatingDescription": "Was die Staffelung nicht sagt: Was ein Credit in Geld kostet, steht in der gesamten Dokumentation nirgends, die einzige Preisseite nennt Verhältnisse. Belegt ist, was teuer ist, nicht wie teuer. Vier der sechs Werkzeuge liefern Prognosen und Umfragedaten, keine Vergangenheitszahlen. Was der Eintrag nicht belegt: Herstellerangaben über das eigene Produkt. Unabhängig gemessen ist allein, dass der Endpunkt antwortet und ohne Schlüssel abweist, nichts über Verbreitung oder Nutzung. Die Bestandszahlen der Pressemitteilung sind bewusst nicht verwendet: eine Million Statistiken aus 50.000 Quellen steht dort neben 1,5 Millionen im selben Text."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 62,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#veeva-mlr",
+            "text": "Im regulierten Pharma-Freigabeverfahren ist die maschinelle Vorprüfung von Markenvorgaben ausgeliefertes Produkt. Veeva meldet am 3. Dezember 2025 einen Quick Check Agent, der Inhalte anhand redaktioneller, Marken-, Markt-, Kanal- und Compliance-Vorgaben prüft, bevor die eigentliche MLR-Freigabe beginnt. Am 23. Juni 2026 übernimmt Veeva den Anbieter Copli und startet ihn als Falcon MLR, mit dem erklärten Potenzial, binnen fünf Jahren 70 Prozent oder mehr der Handarbeit zu beseitigen.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Veeva Systems, Pressemitteilungen zur Verfügbarkeit der Veeva AI Agents und zur Übernahme von Copli, beide im Volltext geprüft · 3. Dezember 2025 und 23. Juni 2026 · Altersnachweis der 57 Prozent: Veeva-Datenblatt „PromoMats for EU“, PDF-Erstellungsdatum 2. Mai 2017",
+              "url": "https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/"
+            },
+            "disambiguatingDescription": "Was der Eintrag nicht belegt: eine Wirkung. Die 70 Prozent sind Absicht unter ausdrücklichem Zukunftsvorbehalt. Alle Angaben stammen vom Anbieter, geprüft ist nur, dass er sie macht. Der Agent prüft gegen hinterlegte Vorgaben und entscheidet nichts, und die Freigabe ist hier gesetzlich vorgeschrieben, die Übertragung auf andere Marken bleibt Analogie. Die Werbezahl trägt das nicht: 57 Prozent kürzere Prüfzyklen stehen ohne Stichprobe, Ausgangswert und Rechenvorschrift wortgleich im Datenblatt vom 2. Mai 2017, acht Jahre vor dem ersten Agenten, in einer Unterlage, die KI kein einziges Mal erwähnt."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 63,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#mcp-verbreitung",
@@ -753,12 +1023,162 @@
               "name": "Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025",
               "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
             },
-            "disambiguatingDescription": "Was die Zahl nicht sagt: Sie steht im Beitrag des MCP-Entwicklers über die eigene Spende, in einer Aufzählung unter der Überschrift „incredible adoption“, ohne jede Erhebungsvorschrift: kein Verzeichnis, kein Stichtag, keine Definition von „aktiv“. Gegenprüfen hilft nur begrenzt, ein maßgebliches Verzeichnis gibt es nicht: Im offiziellen MCP-Verzeichnis waren am 10. September 2026 mindestens 7.900 distinkte Server auslesbar, 7.737 davon im Status „aktiv“, dann brach die Zählung mit einem Serverfehler ab. Das ist eine Untergrenze. Ein Server ist kein Nutzer. Vorsicht beim Weiterreichen: Die Linux Foundation nennt dieselbe Zahl „published“, aus aktiven werden veröffentlichte Server. Zur Mitgliederliste: Platin-Mitgliedschaft ist bezahlt: Dass AWS, Google, Microsoft und OpenAI die Governance mittragen, belegt keinen Einsatz in ihren Produkten. Die Stiftung schreibt „include“, die Liste ist nicht abschließend. Stand Dezember 2025."
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Sie steht im Beitrag des MCP-Entwicklers über die eigene Spende, in einer Aufzählung unter der Überschrift „incredible adoption“, ohne jede Erhebungsvorschrift: kein Verzeichnis, kein Stichtag, keine Definition von „aktiv“. Gegenprüfen hilft nur begrenzt, ein maßgebliches Verzeichnis gibt es nicht: Ein vollständiger Abzug des offiziellen Verzeichnisses am 10. September 2026 ergibt 30.363 eingetragene Server, davon 30.031 im Status „aktiv“. Gegen die Herstellerzahl rechnen lässt sich das nicht: Anthropic nennt keine Zählweise und meint einen anderen Gegenstand, ein Wachstumswert ergibt sich daraus nicht. Und das Verzeichnis zählt Einträge, die jemand angelegt hat, nicht benutzte Server; es ist als Vorschau gekennzeichnet und geht selbst von „minimal-to-no moderation“ aus. Ein Server ist kein Nutzer. Vorsicht beim Weiterreichen: Die Linux Foundation nennt dieselbe Zahl „published“, aus aktiven werden veröffentlichte Server. Zur Mitgliederliste: Platin-Mitgliedschaft ist bezahlt: Dass AWS, Google, Microsoft und OpenAI die Governance mittragen, belegt keinen Einsatz in ihren Produkten. Die Stiftung schreibt „include“, die Liste ist nicht abschließend. Stand Dezember 2025."
           }
         },
         {
           "@type": "ListItem",
-          "position": 46,
+          "position": 64,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#agentenhandel-2030",
+            "text": "Morgan Stanley veranschlagt für 2030 zwischen 190 und 385 Milliarden Dollar US-Onlinehandel durch „agentic shoppers“, also 10 bis 20 Prozent Marktanteil. Bain nennt neun Tage später 300 bis 500 Milliarden Dollar für „agentic commerce“, rund 15 bis 25 Prozent. Nur Bain nennt eine Einschlussregel, und sie zählt Käufe mit, die ein Agent lediglich beeinflusst hat.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Morgan Stanley Research, „Here Come the Shopping Bots“, Hausprognose zum US-Onlinehandel · 8. Dezember 2025 · Bain & Company, Snap Chart, Hausprognose zum US-Onlinehandel · 17. Dezember 2025 · bain.com weist automatisierte Abrufe ab, belegt über drei Archivfassungen",
+              "url": "https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook"
+            },
+            "disambiguatingDescription": "Warum die Überlappung keine Übereinstimmung ist: Bain zählt Käufe, die Agenten „initiated, influenced, or completed“ haben, und nimmt nur reine KI-Suche aus. Morgan Stanley nennt keine Regel und beschreibt seine Agenten als Assistenten, die suchen, Preise vergleichen und Wiederkäufe vorwegnehmen. Eigene Nachrechnung: Beide unterstellen rund zwei Billionen Dollar US-Onlinehandel, der Unterschied sitzt also ganz im Zähler. Was keine der Zahlen sagt: wie viel der Agent selbst abschließt. Bain trennt das im Schlusssatz und nennt dafür bis zu ein Viertel der Transaktionen. Beide Häuser verkaufen Beratung zu diesem Wandel, keines legt seine Annahmen offen, und beide Zahlen gelten allein für die USA."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 65,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#cmo-ki-anteil",
+            "text": "US-Marketingverantwortliche schätzten im Januar 2026, dass ihr Unternehmen in 24,2 Prozent der Zeit KI oder maschinelles Lernen im Marketing einsetzt. 2024 waren es 13,1 Prozent. Für generative KI allein stieg der Wert von 7,0 auf 22,4 Prozent. In drei Jahren erwarten die Befragten 55,9 Prozent.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "The CMO Survey, 35. Ausgabe, Duke University Fuqua School of Business mit Deloitte und der American Marketing Association als Sponsoren · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Chart 21 (KI und maschinelles Lernen), Chart 23 (generative KI)",
+              "url": "https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf"
+            },
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Gemessen ist ein selbst geschätzter Zeitanteil, gemittelt über die Antwortenden, erhoben allein in US-Unternehmen, ohne Abgleich mit Systemdaten. Weder ein Anteil der Unternehmen steckt darin noch ein Budgetanteil. Wer daraus „ein Viertel der Unternehmen nutzt KI“ macht, verwechselt die Bezugsgröße. Die 55,9 Prozent sind eine Erwartung derselben Befragten. Die Branchenwerte gehören zu zwei Fragen: Die 24,2 Prozent gelten für KI insgesamt, die 22,4 Prozent für generative KI. Die oft nebeneinandergestellten Randwerte stammen aus je einer davon: die Spitze von 36,1 Prozent aus der Gesamtfrage, der Tiefstwert von 8,7 Prozent aus der zu generativer KI. Zur Gesamtfrage nennt der Bericht gar keinen Tiefstwert, hinter den Randbranchen stehen rund vier bis neun Unternehmen."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 66,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#cmo-survey-2026",
+            "text": "Marketingverantwortliche in US-Unternehmen setzen KI oder maschinelles Lernen nach eigener Angabe in 24,2 Prozent der Zeit ein, in der sie Marketing optimieren und automatisieren. Das typische Unternehmen nennt 20 Prozent. Zwei Erhebungen zuvor waren es 13,1 Prozent (September 2024) und 17,2 Prozent (Anfang 2025). Für die kommenden drei Jahre erwarten dieselben Befragten 55,9 Prozent.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 eingeladene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, davon 191 zu dieser Frage · Feldzeit 7. bis 29. Januar 2026, Zeitreihe im Highlights Report S. 21, Kennzahlen im Topline Report S. 12",
+              "url": "https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf"
+            },
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Gefragt war nach dem Anteil der Zeit, nicht nach dem Anteil der Marketingarbeit. Der Bericht selbst schreibt das mehrfach in „Anteil der Marketingaktivitäten\" um. 24,2 ist der Mittelwert einer rechtsschiefen Verteilung, der Median liegt bei 20. Die Frage beantwortet haben 191 der 2.111 Eingeladenen, rund 9 Prozent. Warum die Erwartung wenig wiegt: Dieselbe Frage ergab in den zwei Wellen zuvor 34,5 und 44,2 Prozent, je für die folgenden drei Jahre. Die Erwartung wandert mit jeder Welle nach oben, geprüft wurde bisher keine. Eingeladen wird über eine Liste, in die man sich selbst eintragen kann; 97 Prozent der Antwortenden sind VP-Ebene oder höher."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 67,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#dark-data-55",
+            "text": "Die meistzitierte Zahl zu ungenutzten Unternehmensdaten, 55 Prozent, ist ein Durchschnitt aus Schätzungen der 1.357 Befragten über das eigene Haus. Erhoben hat sie 2018/19 die Research-Einheit der PR-Agentur FleishmanHillard im Auftrag von Splunk, einem Anbieter von Software zur Auswertung genau dieser Daten.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "TRUE Global Intelligence (FleishmanHillard) im Auftrag von Splunk, The State of Dark Data, 1.357 Befragte aus IT und Fachbereich in sieben Ländern · erhoben Oktober 2018 bis Januar 2019, Bericht Mai 2019",
+              "url": "https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf"
+            },
+            "disambiguatingDescription": "Wofür die Zahl wirklich gilt: Prozent wovon bleibt offen, der Bericht nennt weder Einheit noch Zeitraum. Als Definition lag den Befragten nur vor: „Information that can be captured, quantified and analyzed“. Auf Seite 3 und 12 steht sie als Tatsache über Datenbestände, erst die Länderkapitel geben sie als Schätzung zu erkennen: USA 56 Prozent, Deutschland 53, China 50 „compared with a global 55 percent“. Ein Durchschnitt über Organisationen ist kein Anteil an einem Gesamtbestand. Was regelmäßig damit vermengt wird: 60 Prozent der Befragten sagen, die Hälfte oder mehr ihrer Daten sei dunkel, 33 Prozent sagen mehr als 75 Prozent. Das sind Anteile von Befragten, keine Anteile von Daten. Splunk führt die Zahl bis heute ohne Jahr und ohne Stichprobe, am 26. März 2025 als „recent“."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 68,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#geo-verbreitung",
+            "text": "78 von 188 US-Unternehmen, die diese Frage beantwortet haben, setzen KI für Generative Engine Optimization ein, also dafür, dass eigene Inhalte in KI-erzeugten Suchantworten auftauchen. Das sind 41,5 Prozent, bei einem 95-Prozent-Intervall von plus/minus 7,1 Prozentpunkten.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "The CMO Survey, 35. Ausgabe, Duke University Fuqua School of Business mit Deloitte und der American Marketing Association · Topline Report 2026, Seite 12, Antwortoption „GEO (i.e., Generative Engine Optimization to get content to appear in AI-generated search results)“: 78 von 188 Fällen, 41,5 Prozent, plus/minus 7,1 Prozentpunkte · 308 Antwortende von 2.111 angeschriebenen Marketingverantwortlichen US-amerikanischer For-Profit-Unternehmen · Feldzeit 7. bis 29. Januar 2026 · beim Nachschlagen aufpassen: Die Zeile darüber, „Predictive analytics for customer insights“, trägt denselben Wert von 41,5 Prozent bei ebenfalls 78 Fällen",
+              "url": "https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf"
+            },
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Sie ist eine Selbstauskunft aus einer Mehrfachauswahl und misst allein, dass etwas getan wird, nicht mit welchem Ergebnis. Die Bezugsgröße ist die Falle: Nenner sind nicht die 308 Antwortenden, sondern die 188, die diese Frage beantwortet haben. Wer auf 308 rechnet, kommt auf 128 Unternehmen statt auf 78. Mit dem Intervall reicht der Bereich von 34 bis 49 Prozent, das trägt gut vier von zehn, nicht jede zweite. Wer gefragt wurde: ausschließlich US-Unternehmen, 97 Prozent auf VP-Ebene oder darüber, 308 von 2.111 Angeschriebenen, 14,6 Prozent Rücklauf. Auf den deutschen Markt ist die Zahl nicht übertragbar. Die Frage wurde erstmals gestellt, es gibt keine Zeitreihe. Alle 188 haben mindestens ein Feld angekreuzt, ob Unternehmen ohne jeden KI-Einsatz im Nenner stehen, sagen die Berichte nicht."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 69,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#in-house-verlagerung",
+            "text": "In der Mitgliederbefragung des US-Werbeverbands ANA gaben 2023 82 Prozent der befragten Mitglieder an, eine eigene Inhouse-Agentur zu haben, nach 78 Prozent 2018, 58 Prozent 2013 und 42 Prozent 2008. Die Verlagerung selbst hat den Höhepunkt hinter sich: Dass sie in den drei Jahren davor laufendes Geschäft von einer externen Agentur nach innen geholt hatten, sagten 2023 65 Prozent, 2018 waren es 70, 2013 erst 56.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Association of National Advertisers, Mitgliederbefragung „The Continued Rise of the In-House Agency: 2023 Edition“, 162 Antwortende, erhoben im Februar und März 2023 · Pressemitteilung vom 2. Mai 2023, der Bericht selbst liegt hinter der Mitgliederschranke · Vergleichswerte und Basisangaben aus dem Vorgängerbericht vom Oktober 2018, 412 Antwortende, 57 Seiten",
+              "url": "https://www.ana.net/content/show/id/79185"
+            },
+            "disambiguatingDescription": "Was die Zahlen nicht sagen: Gemessen ist, wo Arbeit sitzt, nicht ob sie besser oder markenkonformer wird. Ein Branchenverband befragt hier freiwillig teilnehmende eigene Mitglieder, die laut Bericht selbst zur Inhouse-Agentur gehören können. Vorsicht bei den 65 Prozent: Die ANA weist ihre Basis je Frage aus, und sie ist regelmäßig kleiner als die Teilnehmerzahl. 2018 lag sie bei genau dieser Frage bei 166 von 412 Befragten, für 2023 ist sie nicht veröffentlicht. Der Wert darf deshalb nicht mit den 162 Teilnehmern verrechnet werden. Der ANA-Bericht vom Juni 2026 setzt die Reihe nicht fort, er befragt Juroren des verbandseigenen Preises; die nächste Mitgliederwelle wäre 2028."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 70,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#ki-anteil-artikel",
+            "text": "Von den englischsprachigen Artikeln, die im ersten Quartal 2026 neu erschienen, waren 49,9 Prozent überwiegend KI-generiert. Seit Anfang 2025 liegt der Anteil nahe 50 Prozent, ohne weiter zu steigen.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Graphite, Wachstumsagentur · rund 55.400 zufällig aus Common Crawl gezogene englischsprachige Artikel mit Artikel-Markup und mindestens 100 Wörtern, veröffentlicht zwischen Januar 2020 und März 2026 · Klassifizierung als Mittelwert aus drei Detektoren (Pangram, Copyleaks, GPTZero), deren Falsch-Positiv-Raten von 1,844, 1,836 und 1,355 Prozent an rund 15.700 vor ChatGPT erschienenen Artikeln derselben Stichprobe gemessen wurden · Quartalsdaten offen einsehbar · Mai 2026",
+              "url": "https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do"
+            },
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Gemessen sind neu veröffentlichte englischsprachige Artikel und Listicles mit Artikel-Markup und mindestens 100 Wörtern, gezogen aus Common Crawl. Über das Netz insgesamt, über andere Sprachen, Social Media oder Video sagt sie nichts. Und nichts über Reichweite: Graphite selbst maß im Oktober 2025, dass 86 Prozent der in Google rankenden und 82 Prozent der von ChatGPT und Perplexity zitierten Artikel von Menschen stammen. Wie tragfähig die 50 Prozent sind: Der Wert ist ein Mittel aus drei Detektoren, die im selben Quartal um 6,4 Punkte auseinanderliegen (Pangram 47,7, Copyleaks 48,1, GPTZero 54,1). Die Spanne ist größer als der Abstand zur 50-Prozent-Marke, und zwei der drei sehen die Menschen vorn. Texte aus Mensch-Maschine-Mischung zählen dabei auf der KI-Seite."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 71,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#ki-verkehrsanteil",
+            "text": "Drei Anbieter von Analysewerkzeugen beziffern, welcher Anteil der Website-Besuche aus einem KI-Assistenten kommt: Contentsquare 0,2 Prozent im vierten Quartal 2025, Semrush 0,14 Prozent für das Jahr 2025, Conductor 1,08 Prozent für Mai bis September 2025. Drei getrennt erhobene Messungen, dieselbe Größenordnung: Bruchteile eines Prozents bis gut ein Prozent.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, Mai bis September 2025 · Stand 6. Juli 2026",
+              "url": "https://www.semrush.com/blog/traffic-channel-mix-study/"
+            },
+            "disambiguatingDescription": "Was die Zahlen nicht sagen: Gezählt sind Klicks, die mit erkennbarer Herkunft aus einem Assistenten ankommen, nicht wie oft eine Marke in Antworten genannt wird. Google AI Mode liegt außerhalb der Werte: Semrush führt ihn als eigenen Kanal mit 0,01 Prozent, Conductor vermerkt, dass Google Analytics ihn nicht von organischem Verkehr trennt. Warum die drei Werte nicht nebeneinandergehören: Contentsquare misst 6.500 Websites weltweit, Semrush über 50.000 weltweit, Conductor 1.215 eigene Kundendomains in den USA und nennt seine Werte ausdrücklich Durchschnitte. Der Faktor fünf ist zu gutem Teil eine Frage der Auswahl. Alle drei verkaufen Analysewerkzeuge und messen den eigenen Bestand; unabhängig geprüft ist keiner der Werte."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 72,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#markenklone",
+            "text": "Der Takedown-Anbieter Netcraft gibt an, zwischen März 2024 und März 2025 gegen 1,3 Millionen Phishing-Seiten vorgegangen zu sein, die mehr als 16.000 Organisationen nachahmten.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Netcraft, Leitfaden zu Erkennung und Abschaltung von Phishing-Seiten, eigene Vorgänge des Anbieters von März 2024 bis März 2025 · 12. Dezember 2025, zuletzt geändert 12. März 2026",
+              "url": "https://www.netcraft.com/guide/phishing-website-detection-disruption"
+            },
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Sie sagt nicht, dass diese Seiten verschwunden sind. Netcraft schreibt „disrupted“ und fasst darunter Sperren und Entfernen zusammen, wie sich die 1,3 Millionen aufteilen, steht nirgends. Dieselbe Seite rät Lesern, Anbieter genau danach zu fragen. Sie sagt auch nichts darüber, ob eine offengelegte Markenspezifikation das Klonen erleichtert oder erschwert, dafür fehlt jede Vergleichsgruppe. Belegt ist nur, dass Klone auch ohne offene Spezifikation massenhaft existieren. Wer gezählt hat: Netcraft selbst, die eigenen Vorgänge, auf einer Verkaufsseite für diesen Dienst. Unabhängig geprüft ist nichts. Der oft mitzitierte Weltanteil von rund einem Drittel steht deshalb nicht in der Aussage: Die Seite beziffert die Weltmenge nirgends und widerspricht sich selbst, einmal Anteil an den Abschaltungen, einmal an den Angriffen. Auch die 16.000 Organisationen sind keine Marktgröße."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 73,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#suchmarkt-wachstum",
+            "text": "Zwischen dem ersten Quartal 2023 und dem vierten Quartal 2025 ist die Summe aus Suchmaschinen-Besuchen und suchähnlichen KI-Sitzungen weltweit um 26 Prozent gestiegen, von 82,0 auf 103,2 Milliarden im Monat. Googles Anteil fällt dabei von 89 auf 71 Prozent, ChatGPT kommt auf 20 Prozent.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Graphite (Ethan Smith) · Auswertung von Similarweb-Schätzdaten zu Web-Besuchen und App-Sitzungen weltweit, Juli 2020 bis Dezember 2025, Rohdaten offen · März 2026",
+              "url": "https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think"
+            },
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Sie zählt keine Suchvorgänge, sondern Website-Besuche und App-Sitzungen; ein Google-Besuch enthält im Mittel 6,7 Seitenabrufe, eine App-Sitzung unbekannt viele Prompts. Von der KI-Nutzung zählt nur der als „Asking\" eingestufte Anteil von 52 Prozent, aus einer ChatGPT-Studie übertragen und fortgeschrieben; die Autoren nennen das eine Obergrenze. Die 71 Prozent sind Google Search und Gemini zusammen, und je Tag gerechnet bleiben statt 26 nur 23,1 Prozent. Woher die Daten kommen: Similarweb-Schätzungen, keine Servermessung, gegengeprüft nur fürs Web, an acht Websites. Für Apps, wo 83 Prozent der KI-Nutzung liegen, heißt es „We do not have access to mobile app data\". Der Autor verkauft Suchmaschinen-Sichtbarkeit und legt das offen. Die Rohdaten liegen offen und sind nachgerechnet."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 74,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#metr-selbsteinschaetzung",
@@ -773,7 +1193,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 47,
+          "position": 75,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#jagged-frontier",
@@ -788,7 +1208,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 48,
+          "position": 76,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#homogenisierung",
@@ -803,7 +1223,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 49,
+          "position": 77,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#strategie-trendslop",
@@ -818,7 +1238,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 50,
+          "position": 78,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#sykophanz",
@@ -833,7 +1253,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 51,
+          "position": 79,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#markenspezifikation-wirkung",
@@ -851,7 +1271,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 52,
+          "position": 80,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#cowan-standards",
@@ -866,7 +1286,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 53,
+          "position": 81,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#foresight-performance",
@@ -881,7 +1301,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 54,
+          "position": 82,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
@@ -896,7 +1316,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 55,
+          "position": 83,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#prognose-assistenz",
@@ -911,7 +1331,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 56,
+          "position": 84,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#abbott-zustaendigkeit",
@@ -926,7 +1346,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 57,
+          "position": 85,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#esposito-kommunikation",
@@ -941,7 +1361,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 58,
+          "position": 86,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#drei-arbeitsweisen",
@@ -956,7 +1376,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 59,
+          "position": 87,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#kompetenz-nivellierung",
@@ -971,7 +1391,7 @@
         },
         {
           "@type": "ListItem",
-          "position": 60,
+          "position": 88,
           "item": {
             "@type": "Claim",
             "@id": "https://robert-haase.de/belege.html#aufwand-statt-koennen",
@@ -982,6 +1402,51 @@
               "url": "https://www.science.org/doi/10.1126/science.adh2586"
             },
             "disambiguatingDescription": "Zur Zahl selbst: Hier stehen die Werte der geprüften Arbeitspapier-Fassung vom März 2023, die ausdrücklich nicht begutachtet ist. Die begutachtete Fassung erschien später in Science und trägt abweichende Angaben — in Umlauf sind 453 Teilnehmende und „40 Prozent Zeitersparnis“; diese Fassung liegt hinter einer Bezahlschranke und wurde nicht im Original eingesehen. Was die Zahl nicht sagt: Es waren kurze, isolierte Schreibaufgaben, keine Projekte über Wochen."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 89,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#boussioux-neuheit-wert",
+            "text": "In einem Ideenwettbewerb zur Kreislaufwirtschaft bewerteten 300 geprüfte Bewerter je 13 von 234 Lösungen, zusammen 3.900 Bewertungen: 54 von Menschen, 180 von GPT-4 mit menschlich gesteuerten Prompts. Die menschlichen galten als neuartiger (minus 0,140 auf einer Skala von 1 bis 5), die maschinellen als strategisch tragfähiger, ökologisch und finanziell wertvoller und insgesamt besser (plus 0,088 bis 0,160). Am oberen Rand kippt das Bild: Die Höchstnote für Neuheit bekamen die KI-Lösungen 7,9 Prozentpunkte seltener, ihr Wertvorsprung verschwand dort in allen vier Dimensionen.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Boussioux, Lane, Zhang, Jacimovic und Lakhani, „The Crowdless Future? Generative AI and Creative Problem-Solving“, Organization Science 35(5), S. 1589 bis 1607 · 234 bewertete Lösungen, 300 Bewerter, 3.900 Bewertungen, Wettbewerb 30. Januar bis 15. Mai 2023 · angenommen 26. Juni 2024, erschienen September 2024 · das Arbeitspapier von 2023 nannte 7,4 Prozentpunkte und keinen gesicherten Neuheitsunterschied im Mittel",
+              "url": "https://doi.org/10.1287/orsc.2023.18430"
+            },
+            "disambiguatingDescription": "Was die Zahlen nicht sagen: Verglichen wurde nicht Mensch gegen Maschine, sondern Menge gegen menschlich geführte KI mit eigens gebauten Prompts. Wurde das Modell iterativ zum Differenzieren angehalten, war der Rückstand im Mittel nicht mehr nachweisbar (minus 0,056) und blieb nur bei der Höchstnote. Woran sie hängen: Urteile über Texte, keine realisierten Ideen. GPT-4 im Stand von Mitte 2023, ein Aufgabenfeld, je Block zehn KI- gegen drei Menschenlösungen. Mitautor Jacimovic gründete die beteiligte KI-Firma."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 90,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#mintzberg-muster",
+            "text": "Henry Mintzberg definierte Strategie 1978 als „ein Muster in einem Strom von Entscheidungen“: Gebildet ist sie, sobald eine Folge von Entscheidungen über die Zeit Konsistenz zeigt. Damit werden auch die Strategien untersuchbar, die sich trotz der Absichten einstellten oder ganz ohne Absicht entstanden. Gezeigt hat er das an zwei Langzeitfällen, dem Volkswagenwerk und den USA in Vietnam von 1950 bis 1973.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Henry Mintzberg, „Patterns in Strategy Formation“, Management Science, Vol. 24, No. 9, S. 934 bis 948 · vier finanzierte Hauptstudien und über zwanzig studentische Arbeiten, davon zwei vorgeführt: Volkswagenwerk 1934 bis 1974 laut Abstract und 1920 bis 1974 laut Abschnittsüberschrift, USA in Vietnam 1950 bis 1973 · Manuskript eingegangen am 19. April 1976, gedruckt Mai 1978",
+              "url": "https://doi.org/10.1287/mnsc.24.9.934"
+            },
+            "disambiguatingDescription": "Was der Aufsatz nicht misst: Er bildet Begriffe und beschreibt. Dass eine gewachsene Strategie zu besseren Ergebnissen führt als eine geplante, belegt er nirgends. Mintzberg greift die Planungslehre durchaus an, ihre Trennung von Formulierung und Umsetzung ruhe auf zwei oft falschen Annahmen. Geprüft hat er das nicht. Der Unterbau ist größer als das Gezeigte: Die allgemeinen Schlüsse stützen sich auf vier finanzierte Hauptstudien und über zwanzig studentische Arbeiten, die im Text nicht dokumentiert sind. Beide gezeigten Fälle sind historisch, liegen außerhalb der Markenführung und wurden rückblickend von demselben Forscher rekonstruiert, der festlegte, was als Muster zählt."
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 91,
+          "item": {
+            "@type": "Claim",
+            "@id": "https://robert-haase.de/belege.html#wahrgenommene-differenzierung",
+            "text": "Über 17 Warengruppen in Australien und Großbritannien halten im Schnitt 11 Prozent der aktuellen Verwender ihre eigene Marke für anders und 10 Prozent für einzigartig; 17 Prozent nennen wenigstens eines von beidem. Gekauft wird die Marke trotzdem. Die Autoren empfehlen stattdessen Wiedererkennbarkeit.",
+            "appearance": {
+              "@type": "CreativeWork",
+              "name": "Jenni Romaniuk, Byron Sharp und Andrew Ehrenberg, Ehrenberg-Bass-Institut, Australasian Marketing Journal 15 (2), Seiten 42 bis 54 · Befragung aktueller Markenverwender in 17 Warengruppen, sieben in Australien per Telefon, zehn in Großbritannien aus dem Brand Asset Valuator von Young & Rubicam, erhoben 1999 · 2007",
+              "url": "https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf"
+            },
+            "disambiguatingDescription": "Was die Zahl nicht sagt: Sie belegt nicht, dass Käufer in einer Warengruppe gar keine Unterschiede sehen. Im Schnitt 54 Prozent sprechen wenigstens einer Marke ihrer Kategorie eines der Merkmale zu, bei Erfrischungsgetränken in Großbritannien 76 Prozent. Die niedrigen Einzelwerte entstehen, weil jeder Befragte nur ein oder zwei Marken so einstuft, und jeder andere. Die Spanne je Warengruppe reicht von 8 bis 36 Prozent. Wer erhoben und wer bezahlt hat: Gezählt wurden nur aktuelle Verwender; die Fallzahlen fehlen im zugänglichen Text. Zehn der 17 Datensätze und das Messverfahren kommen von der Werbeagentur Young & Rubicam, erhoben 1999; das Institut nennt als Geldgeber unter anderem Coca-Cola, Mars und Nielsen. Über maschinelle Auswahl sagt sie nichts, sie ist älter als jeder Agent."
           }
         }
       ]
@@ -1324,6 +1789,50 @@
         </div>
       </article>
 
+      <article class="ev-item" id="aio-top10-uneinig" data-topic="ki-suche" data-cite="Wie viele der in Googles KI-Übersichten zitierten Quellen zugleich organisch in den Top 10 stehen, messen die beiden großen Anbieter unvereinbar: BrightEdge rund 17 Prozent im Februar 2026, Ahrefs 37,1 Prozent im März 2026. Im einzigen Monat, den beide Reihen abdecken, ist der Abstand am größten: für Juli 2025 weist BrightEdge 16,6 Prozent aus, Ahrefs 76,1 Prozent. (Ahrefs, 863.000 Keyword-SERPs, 2. März 2026, und BrightEdge, wöchentliche Messung, 12. Februar 2026). https://ahrefs.com/blog/ai-overview-citations-top-10/">
+        <p class="ev-grade is-weak">Anbietermessungen, nicht vergleichbar</p>
+        <p class="ev-claim">Wie viele der in Googles KI-Übersichten zitierten Quellen zugleich organisch in den Top 10 stehen, messen die beiden großen Anbieter unvereinbar: BrightEdge rund 17 Prozent im Februar 2026, Ahrefs 37,1 Prozent im März 2026. Im einzigen Monat, den beide Reihen abdecken, ist der Abstand am größten: für Juli 2025 weist BrightEdge 16,6 Prozent aus, Ahrefs 76,1 Prozent.</p>
+        <p class="ev-limit"><strong>Woher der Abstand kommt:</strong> nicht aus dem Zeitversatz. Ahrefs zählte 2025 nur die drei sichtbarsten Zitate je Übersicht, 2026 alle zitierten Adressen, bei nach eigener Angabe geändertem Parsing. Der Sprung von 76 auf 37 ist damit zu unbekanntem Anteil ein Verfahrensartefakt und kein Verlauf. Ahrefs zählt Adressen, BrightEdge nennt seine Einheit nur sources und sagt nirgends, ob Adressen oder Domains gemeint sind. <strong>Was offen bleibt:</strong> BrightEdge legt die Größe seines Keyword-Sets nicht offen, Ahrefs keinen Erhebungszeitraum, Sprache und Land nennt keine der drei Erhebungen. Beide Häuser verkaufen Werkzeuge für KI-Sichtbarkeit und messen auf eigenen Indizes. Und keine der Zahlen sagt, ob eine Nennung Besuche oder Umsatz bringt.</p>
+        <p class="ev-source">Ahrefs, Louise Linehan, 863.000 Keyword-SERPs und 4 Millionen zitierte Adressen, organisch 37,1 Prozent, Schlagzeile 37,9 Prozent einschließlich Anzeigen und SERP-Features · 2. März 2026 · dieselbe Reihe, 1,9 Millionen Zitate aus 1 Million Übersichten, nur die drei sichtbarsten je Übersicht · 21. Juli 2025 · BrightEdge, AI Catalyst und Generative Parser, wöchentliche Messung, Umfang nicht offengelegt, Überschneidungstabelle Februar bis Juli 2025 · 12. Februar 2026 · <a href="https://ahrefs.com/blog/ai-overview-citations-top-10/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#aio-top10-uneinig">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="llmstxt-nutzen" data-topic="ki-suche" data-cite="Auf 20 Dokumentationsseiten sanken Antwortzeit und Tokenverbrauch zweier Coding-Agenten um 18 bis 26 Prozent, sobald die Seiten ganz oben auf ihre llms.txt verwiesen. (Mintlify, Docs URL Discovery Bench, 2.400 gewertete Läufe bei n=300 je Zelle · Juli 2026). https://github.com/mintlify/docs-url-discovery-bench">
+        <p class="ev-grade is-plain">Kontrollierter Test des Anbieters, Rohdaten offen</p>
+        <p class="ev-claim">Auf 20 Dokumentationsseiten arbeiteten zwei Coding-Agenten deutlich sparsamer, sobald die Seiten ganz oben auf ihre llms.txt verwiesen. Claude Code brauchte 25,4 statt 30,8 Sekunden und 175.000 statt 215.000 Tokens je Aufgabe, Codex 45,1 statt 57,1 Sekunden und 115.000 statt 156.000 Tokens. Das sind 18 bis 26 Prozent weniger.</p>
+        <p class="ev-limit"><strong>Was die Zahlen nicht sagen:</strong> Für Marken-Websites ist damit nichts belegt. Gemessen wurden zwei Coding-Agenten auf Entwicklerdokumentation, die der Anbieter selbst ausliefert und als Leistung verkauft. Gewonnen wird außerdem Effizienz, nicht Richtigkeit: Die Trefferquote bewegt sich über alle vier Varianten kaum, 94 bis 99 Prozent. <strong>Und der Vergleich ist hergestellt:</strong> Die gute Variante ist die unveränderte Auslieferung, die schlechte entsteht erst, indem der Testaufbau den Verweis herausschneidet und die llms.txt mit einem künstlichen 404 sperrt. Gemessen ist eine Wegnahme. Auf Signifikanz geprüft hat der Anbieter allein Fehlabrufe und Abrufzahl, nicht Zeit und Tokens.</p>
+        <p class="ev-source">Mintlify, Docs URL Discovery Bench · 20 Dokumentationsseiten, 5 Fragen je Seite, 4 Auslieferungsvarianten, 3 Durchläufe, 2.400 gewertete Läufe bei n=300 je Zelle · Juli 2026 · <a href="https://github.com/mintlify/docs-url-discovery-bench" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#llmstxt-nutzen">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="markenstatur-sichtbarkeit" data-topic="ki-suche" data-cite="Fragt man KI-Suchsysteme nach einer Kategorie, ohne den Markennamen zu nennen, erscheinen global bekannte Marken im ersten Messlauf in 72,9 Prozent der Antworten, etablierte Mittelstands- und Regionalmarken in 43,6 Prozent, kleine und Nischenmarken in 11,4 Prozent. Von den Quellenangaben führen 2,9 Prozent auf die Website der Marke selbst, 75,2 Prozent auf die anderer Unternehmen derselben Kategorie. (Pratyush Kumar, Mitgründer von Ranqo, Generative Engine Optimization at Scale, arXiv:2606.20065v1, Preprint ohne Begutachtung · 102 Marken, 102.025 Antworten von fünf Systemen, 149.912 Quellenangaben, erhoben März bis Mai 2026 · eingereicht 18. Juni 2026). https://arxiv.org/abs/2606.20065">
+        <p class="ev-grade is-weak">Anbietermessung, Preprint ohne Begutachtung</p>
+        <p class="ev-claim">Fragt man KI-Suchsysteme nach einer Kategorie, ohne den Markennamen zu nennen, erscheinen global bekannte Marken im ersten Messlauf in 72,9 Prozent der Antworten, etablierte Mittelstands- und Regionalmarken in 43,6 Prozent, kleine und Nischenmarken in 11,4 Prozent. Von den Quellenangaben führen 2,9 Prozent auf die Website der Marke selbst, 75,2 Prozent auf die anderer Unternehmen derselben Kategorie.</p>
+        <p class="ev-limit"><strong>Was die Zahlen nicht sagen:</strong> Sie belegen keine Ursache. Die drei Stufen sind von Hand nach Wikipedia-Artikel, Presseecho und Finanzierung vergeben, also nach Hilfsgrößen für Web-Prominenz; gemessen wird danach eine aus dem Web gespeiste Sichtbarkeit. Den Zirkel benennt der Autor selbst. Die Stufen umfassen 11, 36 und 55 Marken, das 95-Prozent-Intervall der untersten reicht von 4,2 bis 20,3 Prozent. <strong>Wer gemessen hat:</strong> Der Autor ist Mitgründer von Ranqo und hält Anteile daran, die untersuchten Marken sind Kunden der Plattform, der Text ein Preprint ohne Begutachtung. Wer die oft zitierten 78 Prozent Unternehmensseiten liest, als trage die eigene Website die Sichtbarkeit, dreht den Befund um.</p>
+        <p class="ev-source">Pratyush Kumar (Mitgründer von Ranqo), Generative Engine Optimization at Scale: Measuring Brand Visibility Across AI Search Engines, arXiv:2606.20065v1, Preprint ohne Begutachtung, 14 Seiten · 102 Marken, 3.508 abgeschlossene Messläufe, 102.025 Antworten von fünf Systemen (ChatGPT, Gemini, Perplexity, Claude, Grok), 149.912 Quellenangaben aus Antworten, in denen die Marke vorkam, erhoben auf der Plattform Ranqo zwischen März und Mai 2026 · eingereicht 18. Juni 2026 · <a href="https://arxiv.org/abs/2606.20065" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#markenstatur-sichtbarkeit">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="zitier-position" data-topic="ki-suche" data-cite="Von 18.012 Zitierungen, die ChatGPT aus Webseiten übernahm, stammen 44,2 Prozent aus den ersten 30 Prozent des Textes, 31,1 Prozent aus dem mittleren Abschnitt und 24,7 Prozent aus dem Schluss. (Kevin Indig, Growth Memo, Daten von Gauge, 16. Februar 2026). http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention">
+        <p class="ev-grade is-weak">Anbietermessung, vorläufig</p>
+        <p class="ev-claim">Von 18.012 Zitierungen, die ChatGPT aus Webseiten übernahm, stammen 44,2 Prozent aus den ersten 30 Prozent des Textes. Der mittlere Abschnitt, mit 40 Prozent Textlänge der breiteste, trägt 31,1 Prozent, der Schluss 24,7 Prozent. In einer zweiten Auswertung über 11.022 Zitierungen erreichten zitierte Einleitungen eine Eigennamen-Dichte von 20,6 Prozent, gegenüber 5 bis 8 Prozent, die der Autor ohne Fundstelle für gängigen englischen Text veranschlagt.</p>
+        <p class="ev-limit"><strong>Was die Zahlen nicht sagen:</strong> Gemessen ist, woher ChatGPT zitiert hat. Niemand hat Texte umgeschrieben und danach geprüft, ob sie häufiger zitiert werden. Auf Absatzebene gilt die Regel nicht: Dort stammen 53 Prozent der Zitierungen aus der Mitte des Absatzes, nur 24,5 Prozent aus dem ersten Satz. Erhebungszeitraum und Modellstand fehlen, gemessen wurde ausschließlich englischer Text. <strong>Woher die Daten kommen:</strong> nicht vom Auswerter. Alleinige Quelle ist der Anbieter Gauge, der KI-Sichtbarkeits-Software verkauft; derselbe Absatz wirbt mit einem Rabattcode für dessen Verkaufsgespräch. Welcher Satz zitiert wurde, ist über Textvektoren geschätzt.</p>
+        <p class="ev-source">Kevin Indig, Growth Memo, Daten von Gauge · 18.012 Zitierungen für die Positionsanalyse, 11.022 für die Sprachanalyse, aus rund 3 Millionen ChatGPT-Antworten · 16. Februar 2026 · Original hinter Bezahlschranke, Volltext im Internet Archive · <a href="http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#zitier-position">Direktlink</a>
+        </div>
+      </article>
+
       <article class="ev-item" id="leere-buttons" data-topic="agenten" data-cite="Auf 30,6 Prozent von einer Million untersuchten Startseiten fanden sich Buttons ohne zugänglichen Namen, auf 51 Prozent Formularfelder ohne Beschriftung. (WebAIM Million, achte Ausgabe, WAVE-Prüfung von einer Million Startseiten aus dem Tranco-Ranking, Daten von Februar 2026; dieselbe Erhebung zählt getrennt 33,1 Prozent aller Formularfelder ohne Beschriftung). https://webaim.org/projects/million/">
         <p class="ev-grade is-strong">Geprüfte Erhebung</p>
         <p class="ev-claim">Auf 30,6 Prozent von einer Million untersuchten Startseiten fanden sich Buttons ohne zugänglichen Namen, auf 51 Prozent Formularfelder ohne Beschriftung.</p>
@@ -1654,6 +2163,83 @@
         </div>
       </article>
 
+      <article class="ev-item" id="ai-overview-muenchen" data-topic="haftung" data-cite="Ein deutsches Landgericht hat Google im Eilverfahren untersagt, in seiner KI-Übersicht acht Behauptungen über ein Verlagshaus und sieben über dessen Tochtergesellschaft zu verbreiten; es sah darin eigene, Google zurechenbare Inhalte statt bloßer Suchergebnisse und verneinte die Haftungsprivilegien für Hostprovider und Suchmaschinen. (LG München I, Endurteil vom 28. Mai 2026, Az. 26 O 869/26, nach Berufung durch Vergleich beendet und damit gegenstandslos). https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860">
+        <p class="ev-grade is-weak">Einstweilige Verfügung, durch Vergleich gegenstandslos</p>
+        <p class="ev-claim">Ein deutsches Landgericht hat Google im Eilverfahren untersagt, in seiner KI-Übersicht acht Behauptungen über ein Verlagshaus und sieben über dessen Tochtergesellschaft zu verbreiten, darunter Betrugsmasche und Abo-Falle. Es sah darin eigene, Google zurechenbare Inhalte statt bloßer Suchergebnisse, hielt Google für eine unmittelbare Störerin und verneinte die Haftungsprivilegien für Hostprovider und Suchmaschinen. Nach Googles Berufung endete der Streit durch Vergleich, das Urteil ist gegenstandslos.</p>
+        <p class="ev-limit"><strong>Was der Fall ist und was nicht:</strong> Der Vergleich hat das Urteil beseitigt, bevor eine höhere Instanz es prüfen konnte. Es bindet niemanden, die Rechtsfrage bleibt offen. Es war zudem ein Eilverfahren: Das Gericht hat nicht festgestellt, dass die KI-Antworten falsch waren, sondern dass Google ihren Wahrheitsgehalt nicht glaubhaft machen konnte. Zugesprochen wurde Unterlassung, kein Schadenersatz. <strong>Wo dieser Status steht:</strong> nur als redaktionelle Anmerkung der Rechtsprechungsdatenbank, nicht im Urteil. Die geprüfte Fachberichterstattung erwähnt weder Berufung noch Vergleich.</p>
+        <p class="ev-source">LG München I, Endurteil vom 28. Mai 2026, Az. 26 O 869/26, einstweiliges Verfügungsverfahren, Unterlassung nach Unternehmenspersönlichkeitsrecht · Berufung OLG München, Az. 18 U 1744/26 Pre e, durch Vergleich beendet, Urteil gegenstandslos laut redaktioneller Anmerkung bei BAYERN.RECHT · Fundstellen NJW 2026, 2271 und MMR 2026, 814 · geprüft am 10. September 2026 · <a href="https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#ai-overview-muenchen">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="auftragsverarbeitung-weisung" data-topic="haftung" data-cite="Für Verarbeitung im Auftrag verlangt die Datenschutz-Grundverordnung einen Vertrag, der vorsieht, dass der Auftragsverarbeiter personenbezogene Daten nur auf dokumentierte Weisung des Verantwortlichen verarbeitet (Art. 28 Abs. 3 lit. a); unmittelbar bindet Art. 29, nachweispflichtig ist der Verantwortliche (Art. 24 Abs. 1). Die Kippgrenze zieht Art. 28 Abs. 10: Ein Auftragsverarbeiter, der unter Verstoß gegen die Verordnung die Zwecke und Mittel der Verarbeitung bestimmt, gilt in Bezug auf diese Verarbeitung als Verantwortlicher. (Verordnung (EU) 2016/679, Datenschutz-Grundverordnung, Art. 28 Abs. 3 lit. a, Art. 29, Art. 24 Abs. 1 und Art. 28 Abs. 10 · Amtsblatt L 119 vom 4. Mai 2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/deu">
+        <p class="ev-grade is-plain">Rechtslage</p>
+        <p class="ev-claim">Für Verarbeitung im Auftrag verlangt die Datenschutz-Grundverordnung einen Vertrag, der vorsieht, dass der Auftragsverarbeiter personenbezogene Daten nur auf dokumentierte Weisung des Verantwortlichen verarbeitet (Art. 28 Abs. 3 lit. a); unmittelbar bindet Art. 29, nachweispflichtig ist der Verantwortliche (Art. 24 Abs. 1). Die Kippgrenze zieht Art. 28 Abs. 10: Ein Auftragsverarbeiter, der unter Verstoß gegen die Verordnung die Zwecke und Mittel der Verarbeitung bestimmt, gilt in Bezug auf diese Verarbeitung als Verantwortlicher.</p>
+        <p class="ev-limit"><strong>Was die Rechtslage nicht sagt:</strong> Sie regelt personenbezogene Daten, nicht Markenaussagen; die Übertragung auf Agenten ist eine Analogie ohne Rechtsprechung und bricht an Art. 28 Abs. 10: Ein Agent, der Zwecke und Mittel selbst bestimmt, wäre kein Weisungsempfänger mehr. <strong>Was beim Zitieren wegfällt:</strong> Adressat des Art. 28 Abs. 10 ist ein Auftragsverarbeiter, und das Bestimmen muss „unter Verstoß gegen diese Verordnung“ geschehen; der allgemeine Satz in Art. 4 Nr. 7 ist eine Definition, keine Kippregel. Gesetzliche Verarbeitungspflichten bleiben unberührt.</p>
+        <p class="ev-source">Verordnung (EU) 2016/679 (Datenschutz-Grundverordnung), Art. 28 Abs. 3 lit. a, Art. 29, Art. 24 Abs. 1 und Art. 28 Abs. 10 · an der Amtsblattfassung geprüft und gegen die konsolidierte Fassung 02016R0679 abgeglichen, von den drei Berichtigungen (ABl. L 314/2016, L 127/2018, L 74/2021) ist keine der vier Stellen berührt; in Kraft getretene Änderungen gibt es bis heute nicht, der Digital Omnibus liegt als Vorschlag vor und betrifft Art. 28 und 29 nicht · Amtsblatt L 119 vom 4. Mai 2016 · <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj/deu" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#auftragsverarbeitung-weisung">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="chevrolet-dollar" data-topic="haftung" data-cite="Der ChatGPT-gestützte Chatbot eines Chevrolet-Händlers sagte den Verkauf eines neuen Tahoe für einen Dollar zu und nannte das ein rechtlich bindendes Angebot ohne Rücktrittsmöglichkeit. Diese Formel hatte der Nutzer dem Chatbot im selben Gespräch wörtlich vorgegeben. Kurz darauf ging der Chatbot offline. Eingefordert hat das Angebot niemand. (GM Authority, Jonathan Lopez, 18. Dezember 2023 · Business Insider, Katie Notopoulos, Dezember 2023). https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/">
+        <p class="ev-grade is-plain">Dokumentierter Vorfall</p>
+        <p class="ev-claim">Der ChatGPT-gestützte Chatbot eines Chevrolet-Händlers sagte den Verkauf eines neuen Tahoe für einen Dollar zu und nannte das ein rechtlich bindendes Angebot ohne Rücktrittsmöglichkeit. Diese Formel hatte der Nutzer dem Chatbot im selben Gespräch wörtlich vorgegeben. Kurz darauf ging der Chatbot offline. Eingefordert hat das Angebot niemand.</p>
+        <p class="ev-limit"><strong>Was der Fall nicht belegt:</strong> weder eine Haftungsfolge noch ihr Ausbleiben. Es gab keinen Kaufversuch, keine Forderung, kein Verfahren. Die verbreitete Angabe, der Händler habe den Kauf nicht anerkannt, steht in keiner zeitgenössischen Quelle, sondern erst in nachgelagerten Zusammenfassungen. Die Haftungsfrage wurde hier nicht verneint, sie wurde nie gestellt. <strong>Zur Quellenlage:</strong> Der Chatbot gehört einem unabhängigen Händler und stammt von Fullpath; GM stellte nach Erscheinen klar, dass Händler dieses Werkzeug eigenständig beschaffen. Belegt ist der Verlauf allein über einen Screenshot des Nutzers. Ob Händler oder Anbieter abschaltete, berichten die Quellen unterschiedlich; ein Preis fehlt, weil die Angaben zwischen 60.000 und 81.000 Dollar schwanken.</p>
+        <p class="ev-source">GM Authority, Jonathan Lopez, 18. Dezember 2023 (Wortlaut beider Seiten, Abschaltung, GM-Stellungnahme) · Business Insider, Katie Notopoulos, Dezember 2023 (Anbieter- und GM-Stellungnahme; gelesen in der lizenzierten Yahoo-Übernahme vom 19. Dezember 2023, da businessinsider.com den Artikel nicht ausliefert) · Originalbeleg: Beitrag von Chris Bakke auf X, 17. Dezember 2023, mit Screenshot · <a href="https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#chevrolet-dollar">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="dpd-chatbot" data-topic="haftung" data-cite="Der Chatbot des Paketdienstes DPD nannte das eigene Unternehmen den schlechtesten Zusteller der Welt, nachdem ein Kunde ihn aufgefordert hatte, bessere Zusteller zu empfehlen und in seinem Hass zu übertreiben. DPD teilte mit, das KI-Element sei sofort abgeschaltet worden. (Tom Gerken, BBC News · 19. Januar 2024). https://www.bbc.com/news/technology-68025677">
+        <p class="ev-grade is-plain">Dokumentierter Vorfall</p>
+        <p class="ev-claim">Der Chatbot des Paketdienstes DPD nannte das eigene Unternehmen „the worst delivery firm in the world", nachdem ein Kunde ihn aufgefordert hatte, bessere Zusteller zu empfehlen und in seinem Hass zu übertreiben. DPD teilte mit, das KI-Element sei sofort abgeschaltet worden.</p>
+        <p class="ev-limit"><strong>Woher die Sätze stammen:</strong> Die Bot-Antworten hat die BBC nicht selbst erhoben. Sie stehen auf Screenshots des Kunden, die Bildunterschrift vermerkt eine nachträgliche Verpixelung. Direkt an die Redaktion ging allein die Firmenstellungnahme, und die sagt zur Ursache nur „An error occurred after a system update yesterday", also eine Zeitangabe. Dass das Update den Fehler verursacht habe, formuliert die BBC, nicht DPD. <strong>Was der Fall nicht zeigt:</strong> Der Bot wandte sich nicht von selbst gegen die eigene Marke, er wurde dazu angewiesen. Es gibt keinen Anspruch, kein Gericht, keinen bezifferten Schaden und keine Messung des Normalbetriebs. Die einzige Zahl, 800.000 Aufrufe des Kundenbeitrags in 24 Stunden, ist ein Zähler der Plattform.</p>
+        <p class="ev-source">Tom Gerken, BBC News · Stellungnahme von DPD an die Redaktion, Wortlaut der Bot-Antworten aus Screenshots des Kunden · 19. Januar 2024 · Gegenprobe: Guardian, 20. Januar 2024 · <a href="https://www.bbc.com/news/technology-68025677" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#dpd-chatbot">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="nyc-mycity" data-topic="haftung" data-cite="New Yorks amtlicher MyCity-Chatbot riet Unternehmen zu Handlungen, die in der Stadt verboten sind: bargeldlos zu arbeiten, Trinkgeld der Beschäftigten einzubehalten und Mieter mit Wohngutscheinen abzuweisen. Zehn Mitglieder der Redaktion stellten dieselbe Frage, alle zehn bekamen dieselbe falsche Antwort. (Colin Lecher, The Markup, copubliziert mit Documented und THE CITY, 29. März 2024). https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law">
+        <p class="ev-grade is-plain">Dokumentierter Vorfall</p>
+        <p class="ev-claim">New Yorks amtlicher MyCity-Chatbot riet Unternehmen zu Handlungen, die in der Stadt verboten sind: bargeldlos zu arbeiten, Trinkgeld der Beschäftigten einzubehalten und Mieter mit Wohngutscheinen abzuweisen. Zehn Mitglieder der Redaktion stellten dieselbe Frage, alle zehn bekamen dieselbe falsche Antwort. Die Stadt verteidigte ihn als Pilotprogramm und ließ ihn fast zwei weitere Jahre laufen, abgeschaltet wurde er Anfang Februar 2026 als Sparposten.</p>
+        <p class="ev-limit"><strong>Was der Fall ist und was nicht:</strong> eine journalistische Stichprobe ohne Grundgesamtheit und ohne Fehlerquote. Der Bot antwortete nicht immer gleich, einem Reporter gab er dieselbe Frage richtig. Ob jemand danach gehandelt hat, ist unbekannt. Zwei der drei Verbote kennen Ausnahmen: Trinkgeld darf unter Umständen auf den Mindestlohn angerechnet werden, das Diskriminierungsverbot gilt nicht für kleine selbstbewohnte Häuser. <strong>Was die Abschaltung nicht ist:</strong> ein Eingeständnis, dass die Auskünfte rechtswidrig waren. Anlass war ein Haushaltsloch von 12 Milliarden Dollar. Die Berichterstattung brachte ihn auf die Sparliste, entschieden hat der Haushalt.</p>
+        <p class="ev-source">Colin Lecher, The Markup, copubliziert mit Documented und THE CITY · Stichprobentests am MyCity-Chatbot der Stadt New York · 29. März 2024 · Abschaltung bestätigt in der Aktualisierung des Folgeartikels vom 4. Februar 2026; chat.nyc.gov leitet seit dem 3. Februar 2026 auf eine Seite der Stadt weiter, Überschrift dort „The Chatbot beta test has ended." · <a href="https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#nyc-mycity">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="perplexity-cfaa" data-topic="haftung" data-cite="Ein US-Bundesberufungsgericht hat am 4. August 2026 die einstweilige Verfügung gegen Perplexity aufgehoben und die Sache zurückverwiesen. Setzt jemand einen Einkaufsagenten ein, dann greift nach dem Computer Fraud and Abuse Act der Nutzer auf die fremde Website zu, der Agent ist dabei sein Werkzeug, und der Anbieter des Agenten greift selbst nicht zu. (Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Urteil vom 4. August 2026, FOR PUBLICATION · Rehearing en banc beantragt am 18. August 2026, unentschieden). https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf">
+        <p class="ev-grade is-strong">Gerichtsurteil, nicht endgültig</p>
+        <p class="ev-claim">Ein US-Bundesberufungsgericht hat am 4. August 2026 die einstweilige Verfügung gegen Perplexity aufgehoben und die Sache zurückverwiesen. Setzt jemand einen Einkaufsagenten ein, dann greift nach dem Computer Fraud and Abuse Act der Nutzer auf die fremde Website zu, der Agent ist dabei sein Werkzeug, und der Anbieter des Agenten greift selbst nicht zu.</p>
+        <p class="ev-limit"><strong>Was die Entscheidung ist und was nicht:</strong> Sie ist vorläufig, geprüft wurden Erfolgsaussichten im einstweiligen Rechtsschutz. Amazon hat am 18. August 2026 die Wiederaufnahme vor einem erweiterten Senat beantragt; der öffentliche Aktenstand weist dazu keine Entscheidung aus. Es ist US-Recht und bindet in Europa niemanden. <strong>Was das Gericht offen lässt:</strong> Es errichte keine neue Rechtsordnung für agentische KI, es entscheide nichts über eine Haftung aus Delikt, und bei anderer Aktenlage könne der Anbieter so viel Kontrolle über den Agenten ausüben, dass er selbst zugreift. Der Fall betrifft den fremden Agenten auf der eigenen Seite, nicht die Haftung einer Marke für ihren eigenen. Die Nutzungsbedingungen der Website bleiben unberührt.</p>
+        <p class="ev-source">Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026, Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66, Aktenstand 21. August 2026 · <a href="https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#perplexity-cfaa">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="screenshot-metadaten" data-topic="haftung" data-cite="Ein Screenshot enthält die C2PA-Herkunftsdaten des Originals nicht, und eine C2PA-fähige Kamera, die ein KI-Bild abfotografiert, signiert die Aufnahme gültig und ohne Hinweis auf den KI-Ursprung. (Content Authenticity Initiative (Adobe), Entwicklerdokumentation, FAQ, Stand 10. September 2026). https://opensource.contentauthenticity.org/docs/getting-started/faqs/">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">Ein Screenshot enthält die C2PA-Herkunftsdaten des Originals nicht: Die Angaben liegen in der Datei, ein Screenshot erzeugt eine neue. Umgekehrt signiert eine C2PA-fähige Kamera, die ein KI-Bild abfotografiert, die Aufnahme gültig und ohne Hinweis auf den KI-Ursprung. Sie hält Gerät, Zeit und Ort fest und kann den Bildinhalt nicht analysieren.</p>
+        <p class="ev-limit"><strong>Was der Beleg nicht sagt:</strong> Er trifft nur die Metadaten-Schicht, nicht Wasserzeichen im Bildsignal. Dieselbe Seite führt Wasserzeichen als Technik, die „cropping, rotation, or screen capture“ übersteht, und nennt die Wiederherstellung entfernter Metadaten über eine Wasserzeichen-Kennung oder einen Fingerabdruck. Wer hier liest, Kennzeichnung sei per Screenshot generell aushebelbar, liest gegen die eigene Quelle. <strong>Wer das sagt:</strong> Die Seite steht unter Adobes Copyright, und die Einschränkung steht unmittelbar neben dem Verweis auf die eigene Abhilfe, die Durable Content Credentials. Beide Robustheitsangaben sind Selbstauskunft ohne Messung.</p>
+        <p class="ev-source">Content Authenticity Initiative (Adobe), Entwicklerdokumentation · FAQ, sieben Fragen · Stand 10. September 2026 · <a href="https://opensource.contentauthenticity.org/docs/getting-started/faqs/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#screenshot-metadaten">Direktlink</a>
+        </div>
+      </article>
+
       <article class="ev-item" id="frontify-mcp" data-topic="agenten" data-cite="Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server, der am 10. September 2026 54 Werkzeuge in zehn Paketen führt, vom rein lesenden Zugriff bis zum vollen Verwaltungszugriff. (Frontify, MCP-Server-Übersicht und Paketseiten, Werkzeuge einzeln ausgezählt, abgerufen am 10. September 2026; die Herstellerdokumentation nennt 52). https://mcp.frontify-integrations.com/">
         <p class="ev-grade is-strong">Herstellerdokumentation</p>
         <p class="ev-claim">Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 10. September 2026 führt er, einzeln aufgeführt, 54 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff. Das lesende Discovery-Paket enthält 24 Werkzeuge, das Admin-Paket alle 54, zwei davon sind als destruktiv gekennzeichnet.</p>
@@ -1676,14 +2262,203 @@
         </div>
       </article>
 
+      <article class="ev-item" id="klarna-700" data-topic="agenten" data-cite="Klarnas meistzitierte KI-Zahl ist eine Schätzung, kein Personalstand: 700 Vollzeitkräfte in der Pressemitteilung von Februar 2024, über 700 im Börsenprospekt von September 2025, über 850 im Geschäftsbericht von Februar 2026 und an zweiter Stelle desselben Berichts wieder über 700. Die Belegschaft fiel derweil von 5.527 Ende 2022 auf 2.831 Ende 2025. (Klarna Group plc, eigene Angaben in Pressemitteilung, Börsenprospekt F-1/A und Geschäftsbericht 20-F bei der SEC · 27. Februar 2024 bis 26. Februar 2026). https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm">
+        <p class="ev-grade is-weak">Wird meist falsch zitiert</p>
+        <p class="ev-claim">Klarnas meistzitierte KI-Zahl ist eine Schätzung, kein Personalstand: Die Pressemitteilung von Februar 2024 nennt „the equivalent work of 700 full-time agents“. Derselbe Wert steht im Börsenprospekt von September 2025 bei über 700, im Geschäftsbericht von Februar 2026 bei über 850, und an einer zweiten Stelle desselben Berichts wieder bei über 700. Die echte Zahl steht daneben: 5.527 Beschäftigte Ende 2022, 2.831 Ende 2025.</p>
+        <p class="ev-limit"><strong>Was die Zahl wirklich ist:</strong> eine Hochrechnung aus dem durchschnittlichen monatlichen Rückgang an Chat- und Telefongesprächen, im Prospekt auf Basis 2024, im Bericht auf Basis 2025. Die beiden Werte widersprechen sich deshalb nicht, sie stehen nur unkommentiert nebeneinander, beide im Präsens. <strong>Kein Rückbau von KI:</strong> Klarna nennt es einen „dual-track approach“, hielt die menschliche Option schon 2024 offen und erwartet laut beiden Börsenpapieren weiter sinkende Beschäftigtenzahlen. Wer den Fall als Rückkehr zum Menschen zitiert, zitiert gegen die Quelle.</p>
+        <p class="ev-source">Klarna Group plc, eigene Angaben in Pressemitteilung, Börsenprospekt (Formular F-1/A) und Geschäftsbericht (Formular 20-F) bei der SEC · 27. Februar 2024 bis 26. Februar 2026 · <a href="https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#klarna-700">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="mcp-primitive" data-topic="agenten" data-cite="Das Model Context Protocol kennt drei Server-Bausteine mit je einer vorgesehenen Steuerungsinstanz: Werkzeuge ruft das Modell auf, Ressourcen steuert die Anwendung, Vorlagen wählt der Nutzer aus. Verbindlich ist das nicht, alle drei Kapitel der Spezifikation schreiben ausdrücklich kein Interaktionsmodell vor. (Model Context Protocol, Spezifikation Revision 2026-07-28, Kapitel Tools, Resources und Prompts · 10. September 2026). https://modelcontextprotocol.io/specification/2026-07-28/server/tools">
+        <p class="ev-grade is-plain">Stand der Normung</p>
+        <p class="ev-claim">Das Model Context Protocol kennt drei Server-Bausteine und nennt für jeden eine vorgesehene Steuerungsinstanz: Werkzeuge (Tools) ruft das Modell auf, Ressourcen (Resources) steuert die Anwendung, Vorlagen (Prompts) wählt der Nutzer aus. Verbindlich ist diese Zuordnung nicht. Alle drei Kapitel der Spezifikation schließen mit demselben Satz: Das Protokoll schreibe kein bestimmtes Interaktionsmodell vor.</p>
+        <p class="ev-limit"><strong>Warum der griffige Dreiklang so nicht in der Norm steht:</strong> Die Tabelle „Who controls it" mit Model, Application, User stammt aus dem Erklärtext „Understanding MCP servers". Normativ heißen Werkzeuge „model-controlled" und Vorlagen „user-controlled", Ressourcen aber „application-driven". Und kein Server muss alle drei anbieten: „Servers offer any of the following features". <strong>Und er altert schnell, gemessen:</strong> Seit dem 5. November 2024 gibt es fünf Revisionen, zwei davon seit November 2025. Methoden werden dabei ersetzt: resources/subscribe steht in den Revisionen 2025-06-18 und 2025-11-25 je zweimal im Ressourcen-Kapitel, in 2026-07-28 kein einziges Mal, dort dreimal subscriptions/listen.</p>
+        <p class="ev-source">Model Context Protocol, getragen von Model Context Protocol a Series of LF Projects, LLC, Spezifikation Revision 2026-07-28, Kapitel Tools, Resources und Prompts, jeweils Abschnitt „User Interaction Model", dazu der Erklärtext „Understanding MCP servers" · Revisionsliste und Methodenwechsel als eigene Pfad- und Textprobe · 10. September 2026 · <a href="https://modelcontextprotocol.io/specification/2026-07-28/server/tools" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#mcp-primitive">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="mcp-tool-poisoning" data-topic="agenten" data-cite="In einer Werkzeugbeschreibung versteckte Anweisungen bringen einen Agenten dazu, den privaten SSH-Schlüssel zu lesen und über einen harmlos benannten Parameter an einen fremden Server zu schicken; im Bestätigungsdialog steht nur der Name eines Additionswerkzeugs. Eine Benchmark auf 45 echten MCP-Servern mit 353 Werkzeugen misst über 20 Modelleinstellungen im Mittel 36,5 Prozent Angriffserfolg, höchstens 72,8. (Invariant Labs, zwei Versuche mit dem Client Cursor, 1. April 2025 · MCPTox, arXiv:2508.14925v1, 19. August 2025, ohne Begutachtung). https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks">
+        <p class="ev-grade is-plain">Kontrollierter Test, nicht begutachtet</p>
+        <p class="ev-claim">In einer Werkzeugbeschreibung versteckte Anweisungen bringen einen Agenten dazu, den privaten SSH-Schlüssel zu lesen und über einen Parameter namens „sidenote“ an einen fremden Server zu schicken; im Bestätigungsdialog steht nur der Name eines Additionswerkzeugs. Eine Benchmark auf 45 echten MCP-Servern mit 353 Werkzeugen misst über 20 Modelleinstellungen im Mittel 36,5 Prozent Angriffserfolg, höchstens 72,8.</p>
+        <p class="ev-limit"><strong>Was das nicht sagt:</strong> Der Nutzer klickt mit. Verborgen ist nur der Inhalt der Freigabe, Cursor blendet den Schlüssel selbst im Dialog aus. Kein Server war kompromittiert, das vergiftete Werkzeug steht im System-Prompt. <strong>Der Erfolgsbegriff ist eng:</strong> Gezählt wird nur, wenn der Agent ein zweites, legitimes Werkzeug missbraucht; ruft er das vergiftete selbst auf, gilt das als Misserfolg. Bezugsgröße sind die gültigen Ausgaben, nicht die 1.312 Testfälle. Der Rest ist keine Abwehrquote, verweigert hat selbst das beste Modell in unter 3 Prozent. Invariant verkauft Sicherheitswerkzeuge und veröffentlichte zehn Tage vor dem eigenen Scanner, die Benchmark ist ein Preprint ohne Begutachtung.</p>
+        <p class="ev-source">Invariant Labs (inzwischen Snyk), Luca Beurer-Kellner und Marc Fischer, zwei Versuche mit dem MCP-Client Cursor, 1. April 2025, Nachträge 7. und 11. April 2025 · Zhiqiang Wang und acht weitere, „MCPTox“, 45 MCP-Server, 353 Werkzeuge, 1.312 Testfälle, 20 Modelleinstellungen, Zahlen aus Abschnitt 4.2 und Tabelle 2, arXiv:2508.14925v1, 19. August 2025, ohne Begutachtung · <a href="https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#mcp-tool-poisoning">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="monotype-mcp" data-topic="agenten" data-cite="Monotype hat am 15. Juli 2026 eine Beta seines Enterprise MCP Connectors angekündigt: Er prüft im KI-Werkzeug referenzierte Schriften gegen die Produktionsschriftliste des Kunden und markiert nicht freigegebene, ersetzt die Marken-, Rechts- und Produktionsprüfung nach eigener Angabe aber nicht. (Monotype Labs und Pressemitteilung, 15. Juli 2026 · Produktseite abgerufen 10. September 2026). https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">Monotype hat am 15. Juli 2026 eine Beta seines Enterprise MCP Connectors angekündigt. Er verbindet KI-Werkzeuge mit Schriftbibliothek, Lizenzangaben und Produktionsfreigaben eines Kunden: Er gleicht KI-Entwürfe gegen die Bibliothek ab, prüft referenzierte Schriften gegen die Produktionsschriftliste und gibt CSS im Chat zurück, sofern die Projektschriften zur Bibliothek gehören. Er läuft über das Model Context Protocol, zunächst in Claude und Claude Design.</p>
+        <p class="ev-limit"><strong>Was die Angabe nicht sagt:</strong> Sie stammt vom Anbieter, jede auffindbare Meldung gibt dieselbe Pressemitteilung weiter. Die Prüfung meldet und verweigert nicht: Nicht freigegebene Schriften werden laut Produktseite markiert, und der Labs-Beitrag verneint ausdrücklich, dass der Connector die Marken-, Rechts- oder Produktionsprüfung ersetzt. <strong>Wer freigibt, ist der Kunde:</strong> Vorausgesetzt sind freigegebene Produktionsschriften in seiner Instanz, die der Connector nur umsetzt. Gegenstand ist eine Schrift, keine Aussage. Web und HTML sind die erste Ausbaustufe, der Zugang auf ausgewählte Bestandskunden beschränkt, Zahlen zu Nutzung oder Wirkung fehlen.</p>
+        <p class="ev-source">Monotype Labs, „Bringing font governance into AI-native content creation“, Ablauf der Beta in sieben Schritten, 15. Juli 2026 · Pressemitteilung „Monotype Introduces Enterprise Connector Beta“, Woburn, Massachusetts, 15. Juli 2026 · Produktseite „Monotype Enterprise Connector“ mit Status „Now in BETA“ und Zugangsvoraussetzungen, abgerufen 10. September 2026 · Negativprobe an der Pressemitteilungsliste, 15. Juli bis 10. September 2026 ohne Statusänderung · <a href="https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#monotype-mcp">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="pulumi-brand-mcp" data-topic="agenten" data-cite="Pulumi veröffentlicht die eigenen Markenrichtlinien als MCP-Server unter brand.pulumi.com/mcp, am 10. September 2026 ohne Anmeldung erreichbar, mit 13 Ressourcen, einer Vorlage, 11 Werkzeugen und 3 Prompts; eine Ressource regelt generative KI im Klartext und verlangt vor der Veröffentlichung einen Menschen. (Eigener Abruf des Servers per JSON-RPC, Fassung 0.1.0, 10. September 2026) https://brand.pulumi.com/mcp">
+        <p class="ev-grade is-strong">Eigene Erhebung, reproduzierbar</p>
+        <p class="ev-claim">Pulumi veröffentlicht die eigenen Markenrichtlinien als MCP-Server unter brand.pulumi.com/mcp. Er antwortete am 10. September 2026 ohne Anmeldung und führt 13 Ressourcen, eine Vorlage, 11 Werkzeuge und 3 Prompts, darunter Markenstimme, Schreibregeln und verbindliche Produktnamen. Eine Ressource regelt generative KI im Klartext, gerichtet an den Menschen: „never ship raw model output as a finished piece“, „never publish anything without a human reviewing it first“.</p>
+        <p class="ev-limit"><strong>Was die Zahlen nicht sagen:</strong> Gemessen sind Erreichbarkeit und Umfang, nicht Nutzung, Wirkung oder ob sich jemand an die Regeln hält. Der Inhalt ist die ungeprüfte Selbstdarstellung einer einzelnen Softwarefirma über die eigene Marke. <strong>Was der Server durchaus entscheidet:</strong> Drei Prompts sagen eine strukturierte Bewertung von Text, Bild und Design zu, werden laut Hersteller aber vom Menschen ausgelöst und expandieren in eine vorbereitete Modellanfrage. Selbst gerechnet wird ein Urteil, Farbkontrast gegen veröffentlichte APCA-Schwellen, im Test Lc 86,4. Über die Güte einer Aussage befindet ein Mensch, so verlangt es der Regeltext.</p>
+        <p class="ev-source">Eigener Abruf des Pulumi Brand MCP Server, Fassung 0.1.0, Protokoll 2025-06-18, per JSON-RPC über Streamable HTTP · Methoden initialize, resources/list, resources/templates/list, tools/list, prompts/list, resources/read auf brand://guidelines und tools/call auf check_color_accessibility · alle Aufrufe HTTP 200 ohne Authentifizierungskopf, keine Liste mit nextCursor, Zählungen dreimal wiederholt und stabil · brand://guidelines im Volltext, 3.053 Zeichen, text/markdown · Herstellerdokumentation brand.pulumi.com/mcp-server für die Einordnung der Prompts, Textkörper 16.842 Zeichen · abgerufen am 10. September 2026 · <a href="https://brand.pulumi.com/mcp" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#pulumi-brand-mcp">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="statista-mcp" data-topic="agenten" data-cite="Statista rechnet jeden Aufruf seines MCP-Servers einzeln in Credits ab: Suchen kostet 0 oder 1 Credit, das Abrufen der Zahlen selbst 10 bis 15. (Statista, Entwicklerdokumentation Credit Logic, sechs Werkzeuge und Kreditkosten einzeln ausgezählt, abgerufen am 10. September 2026). https://docs.platform.statista.ai/pricing/credit-logic">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">Statista betreibt einen MCP-Server unter api.statista.ai/v1/mcp mit sechs dokumentierten Werkzeugen. Jeder Aufruf wird einzeln in Credits abgerechnet, gestaffelt nach Antwortart: Suchen kostet 0 oder 1 Credit, das Abrufen der Zahlen selbst 10 bis 15. Ohne Schlüssel antwortet der Server mit 401 Unauthorized.</p>
+        <p class="ev-limit"><strong>Was die Staffelung nicht sagt:</strong> Was ein Credit in Geld kostet, steht in der gesamten Dokumentation nirgends, die einzige Preisseite nennt Verhältnisse. Belegt ist, was teuer ist, nicht wie teuer. Vier der sechs Werkzeuge liefern Prognosen und Umfragedaten, keine Vergangenheitszahlen. <strong>Was der Eintrag nicht belegt:</strong> Herstellerangaben über das eigene Produkt. Unabhängig gemessen ist allein, dass der Endpunkt antwortet und ohne Schlüssel abweist, nichts über Verbreitung oder Nutzung. Die Bestandszahlen der Pressemitteilung sind bewusst nicht verwendet: eine Million Statistiken aus 50.000 Quellen steht dort neben 1,5 Millionen im selben Text.</p>
+        <p class="ev-source">Statista, Entwicklerdokumentation MCP Server und Credit Logic, sechs Werkzeuge und Kreditkosten einzeln ausgezählt · eigene Abfrage des Endpunkts ohne Schlüssel · abgerufen am 10. September 2026 · <a href="https://docs.platform.statista.ai/pricing/credit-logic" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#statista-mcp">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="veeva-mlr" data-topic="agenten" data-cite="Veeva meldet am 3. Dezember 2025 einen Quick Check Agent, der Inhalte anhand redaktioneller, Marken-, Markt-, Kanal- und Compliance-Vorgaben prüft, bevor die MLR-Freigabe beginnt, und übernimmt am 23. Juni 2026 den Anbieter Copli für Falcon MLR. (Veeva Systems, Pressemitteilungen vom 3. Dezember 2025 und 23. Juni 2026, beide im Volltext geprüft; die beworbenen 57 Prozent kürzerer Prüfzyklen stehen wortgleich schon im Datenblatt vom 2. Mai 2017 und tragen keine Methodik). https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">Im regulierten Pharma-Freigabeverfahren ist die maschinelle Vorprüfung von Markenvorgaben ausgeliefertes Produkt. Veeva meldet am 3. Dezember 2025 einen Quick Check Agent, der Inhalte anhand redaktioneller, Marken-, Markt-, Kanal- und Compliance-Vorgaben prüft, bevor die eigentliche MLR-Freigabe beginnt. Am 23. Juni 2026 übernimmt Veeva den Anbieter Copli und startet ihn als Falcon MLR, mit dem erklärten Potenzial, binnen fünf Jahren 70 Prozent oder mehr der Handarbeit zu beseitigen.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> eine Wirkung. Die 70 Prozent sind Absicht unter ausdrücklichem Zukunftsvorbehalt. Alle Angaben stammen vom Anbieter, geprüft ist nur, dass er sie macht. Der Agent prüft gegen hinterlegte Vorgaben und entscheidet nichts, und die Freigabe ist hier gesetzlich vorgeschrieben, die Übertragung auf andere Marken bleibt Analogie. <strong>Die Werbezahl trägt das nicht:</strong> 57 Prozent kürzere Prüfzyklen stehen ohne Stichprobe, Ausgangswert und Rechenvorschrift wortgleich im Datenblatt vom 2. Mai 2017, acht Jahre vor dem ersten Agenten, in einer Unterlage, die KI kein einziges Mal erwähnt.</p>
+        <p class="ev-source">Veeva Systems, Pressemitteilungen zur Verfügbarkeit der Veeva AI Agents und zur Übernahme von Copli, beide im Volltext geprüft · 3. Dezember 2025 und 23. Juni 2026 · Altersnachweis der 57 Prozent: Veeva-Datenblatt „PromoMats for EU“, PDF-Erstellungsdatum 2. Mai 2017 · <a href="https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#veeva-mlr">Direktlink</a>
+        </div>
+      </article>
+
       <article class="ev-item" id="mcp-verbreitung" data-topic="markt" data-cite="Anthropic nennt zur Übergabe des Model Context Protocol an die Linux Foundation am 9. Dezember 2025 mehr als 10.000 aktive öffentliche MCP-Server und über 97 Millionen monatliche SDK-Downloads für Python und TypeScript. (Anthropic, 9. Dezember 2025; Anbieterangabe ohne Erhebungsvorschrift). https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation">
         <p class="ev-grade is-weak">Anbieterangaben</p>
         <p class="ev-claim">Anthropic nennt zur Übergabe des Model Context Protocol an die Linux Foundation am 9. Dezember 2025 mehr als 10.000 aktive öffentliche MCP-Server und über 97 Millionen monatliche SDK-Downloads für Python und TypeScript. Zu den Platin-Mitgliedern der neuen Agentic AI Foundation zählt die Stiftung AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft und OpenAI.</p>
-        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Sie steht im Beitrag des MCP-Entwicklers über die eigene Spende, in einer Aufzählung unter der Überschrift „incredible adoption“, ohne jede Erhebungsvorschrift: kein Verzeichnis, kein Stichtag, keine Definition von „aktiv“. Gegenprüfen hilft nur begrenzt, ein maßgebliches Verzeichnis gibt es nicht: Im offiziellen MCP-Verzeichnis waren am 10. September 2026 mindestens 7.900 distinkte Server auslesbar, 7.737 davon im Status „aktiv“, dann brach die Zählung mit einem Serverfehler ab. Das ist eine Untergrenze. Ein Server ist kein Nutzer. <strong>Vorsicht beim Weiterreichen:</strong> Die Linux Foundation nennt dieselbe Zahl „published“, aus aktiven werden veröffentlichte Server. <strong>Zur Mitgliederliste:</strong> Platin-Mitgliedschaft ist bezahlt: Dass AWS, Google, Microsoft und OpenAI die Governance mittragen, belegt keinen Einsatz in ihren Produkten. Die Stiftung schreibt „include“, die Liste ist nicht abschließend. Stand Dezember 2025.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Sie steht im Beitrag des MCP-Entwicklers über die eigene Spende, in einer Aufzählung unter der Überschrift „incredible adoption“, ohne jede Erhebungsvorschrift: kein Verzeichnis, kein Stichtag, keine Definition von „aktiv“. Gegenprüfen hilft nur begrenzt, ein maßgebliches Verzeichnis gibt es nicht: Ein vollständiger Abzug des offiziellen Verzeichnisses am 10. September 2026 ergibt 30.363 eingetragene Server, davon 30.031 im Status „aktiv“. Gegen die Herstellerzahl rechnen lässt sich das nicht: Anthropic nennt keine Zählweise und meint einen anderen Gegenstand, ein Wachstumswert ergibt sich daraus nicht. Und das Verzeichnis zählt Einträge, die jemand angelegt hat, nicht benutzte Server; es ist als Vorschau gekennzeichnet und geht selbst von „minimal-to-no moderation“ aus. Ein Server ist kein Nutzer. <strong>Vorsicht beim Weiterreichen:</strong> Die Linux Foundation nennt dieselbe Zahl „published“, aus aktiven werden veröffentlichte Server. <strong>Zur Mitgliederliste:</strong> Platin-Mitgliedschaft ist bezahlt: Dass AWS, Google, Microsoft und OpenAI die Governance mittragen, belegt keinen Einsatz in ihren Produkten. Die Stiftung schreibt „include“, die Liste ist nicht abschließend. Stand Dezember 2025.</p>
         <p class="ev-source">Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025, erhebende Stelle für beide Zahlen · Linux Foundation, Pressemitteilung zur Gründung der Agentic AI Foundation, 9. Dezember 2025, für die Mitgliederliste (<a href="https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation" target="_blank" rel="noopener" aria-label="Pressemitteilung (öffnet in neuem Tab)">Pressemitteilung</a>) · eigene Gegenprobe am offiziellen Verzeichnis registry.modelcontextprotocol.io am 10. September 2026 · <a href="https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
         <div class="ev-actions">
           <button type="button" class="ev-copy">Zitat kopieren</button>
           <a class="ev-permalink" href="#mcp-verbreitung">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="agentenhandel-2030" data-topic="markt" data-cite="Morgan Stanley veranschlagt für 2030 10 bis 20 Prozent des US-Onlinehandels für agentische Einkaufsassistenten, Bain neun Tage später 15 bis 25 Prozent für agentischen Handel; nur Bain nennt eine Einschlussregel und zählt beeinflusste Käufe mit. (Morgan Stanley Research, 8. Dezember 2025 · Bain &amp; Company, 17. Dezember 2025). https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook">
+        <p class="ev-grade is-weak">Hausprognosen, nicht vergleichbar</p>
+        <p class="ev-claim">Morgan Stanley veranschlagt für 2030 zwischen 190 und 385 Milliarden Dollar US-Onlinehandel durch „agentic shoppers“, also 10 bis 20 Prozent Marktanteil. Bain nennt neun Tage später 300 bis 500 Milliarden Dollar für „agentic commerce“, rund 15 bis 25 Prozent. Nur Bain nennt eine Einschlussregel, und sie zählt Käufe mit, die ein Agent lediglich beeinflusst hat.</p>
+        <p class="ev-limit"><strong>Warum die Überlappung keine Übereinstimmung ist:</strong> Bain zählt Käufe, die Agenten „initiated, influenced, or completed“ haben, und nimmt nur reine KI-Suche aus. Morgan Stanley nennt keine Regel und beschreibt seine Agenten als Assistenten, die suchen, Preise vergleichen und Wiederkäufe vorwegnehmen. Eigene Nachrechnung: Beide unterstellen rund zwei Billionen Dollar US-Onlinehandel, der Unterschied sitzt also ganz im Zähler. <strong>Was keine der Zahlen sagt:</strong> wie viel der Agent selbst abschließt. Bain trennt das im Schlusssatz und nennt dafür bis zu ein Viertel der Transaktionen. Beide Häuser verkaufen Beratung zu diesem Wandel, keines legt seine Annahmen offen, und beide Zahlen gelten allein für die USA.</p>
+        <p class="ev-source">Morgan Stanley Research, „Here Come the Shopping Bots“, Hausprognose zum US-Onlinehandel · 8. Dezember 2025 · Bain &amp; Company, Snap Chart, Hausprognose zum US-Onlinehandel · 17. Dezember 2025 · bain.com weist automatisierte Abrufe ab, belegt über drei Archivfassungen · <a href="https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#agentenhandel-2030">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="cmo-ki-anteil" data-topic="markt" data-cite="US-Marketingverantwortliche schätzten im Januar 2026, dass ihr Unternehmen in 24,2 Prozent der Zeit KI oder maschinelles Lernen im Marketing einsetzt, 2024 waren es 13,1 Prozent. In drei Jahren erwarten sie 55,9 Prozent. (The CMO Survey, 35. Ausgabe, Duke University Fuqua School of Business mit Deloitte und der American Marketing Association · 308 Marketingverantwortliche in US-Unternehmen, Feldzeit Januar 2026 · Chart 21). https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf">
+        <p class="ev-grade is-plain">Befragung</p>
+        <p class="ev-claim">US-Marketingverantwortliche schätzten im Januar 2026, dass ihr Unternehmen in 24,2 Prozent der Zeit KI oder maschinelles Lernen im Marketing einsetzt. 2024 waren es 13,1 Prozent. Für generative KI allein stieg der Wert von 7,0 auf 22,4 Prozent. In drei Jahren erwarten die Befragten 55,9 Prozent.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Gemessen ist ein selbst geschätzter Zeitanteil, gemittelt über die Antwortenden, erhoben allein in US-Unternehmen, ohne Abgleich mit Systemdaten. Weder ein Anteil der Unternehmen steckt darin noch ein Budgetanteil. Wer daraus „ein Viertel der Unternehmen nutzt KI“ macht, verwechselt die Bezugsgröße. Die 55,9 Prozent sind eine Erwartung derselben Befragten. <strong>Die Branchenwerte gehören zu zwei Fragen:</strong> Die 24,2 Prozent gelten für KI insgesamt, die 22,4 Prozent für generative KI. Die oft nebeneinandergestellten Randwerte stammen aus je einer davon: die Spitze von 36,1 Prozent aus der Gesamtfrage, der Tiefstwert von 8,7 Prozent aus der zu generativer KI. Zur Gesamtfrage nennt der Bericht gar keinen Tiefstwert, hinter den Randbranchen stehen rund vier bis neun Unternehmen.</p>
+        <p class="ev-source">The CMO Survey, 35. Ausgabe, Duke University Fuqua School of Business mit Deloitte und der American Marketing Association als Sponsoren · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Chart 21 (KI und maschinelles Lernen), Chart 23 (generative KI) · <a href="https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#cmo-ki-anteil">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="cmo-survey-2026" data-topic="markt" data-cite="Marketingverantwortliche in US-Unternehmen setzen KI oder maschinelles Lernen nach eigener Angabe in 24,2 Prozent der Zeit ein, in der sie Marketing optimieren und automatisieren; der Median liegt bei 20 Prozent. Zwei Erhebungen zuvor waren es 13,1 und 17,2 Prozent. (The CMO Survey, 35. Ausgabe, Christine Moorman, Fuqua School of Business, Duke University · 2.111 Eingeladene, 308 Antworten, davon 191 zu dieser Frage · Januar 2026). https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf">
+        <p class="ev-grade is-plain">Befragung</p>
+        <p class="ev-claim">Marketingverantwortliche in US-Unternehmen setzen KI oder maschinelles Lernen nach eigener Angabe in 24,2 Prozent der Zeit ein, in der sie Marketing optimieren und automatisieren. Das typische Unternehmen nennt 20 Prozent. Zwei Erhebungen zuvor waren es 13,1 Prozent (September 2024) und 17,2 Prozent (Anfang 2025). Für die kommenden drei Jahre erwarten dieselben Befragten 55,9 Prozent.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Gefragt war nach dem Anteil der Zeit, nicht nach dem Anteil der Marketingarbeit. Der Bericht selbst schreibt das mehrfach in „Anteil der Marketingaktivitäten" um. 24,2 ist der Mittelwert einer rechtsschiefen Verteilung, der Median liegt bei 20. Die Frage beantwortet haben 191 der 2.111 Eingeladenen, rund 9 Prozent. <strong>Warum die Erwartung wenig wiegt:</strong> Dieselbe Frage ergab in den zwei Wellen zuvor 34,5 und 44,2 Prozent, je für die folgenden drei Jahre. Die Erwartung wandert mit jeder Welle nach oben, geprüft wurde bisher keine. Eingeladen wird über eine Liste, in die man sich selbst eintragen kann; 97 Prozent der Antwortenden sind VP-Ebene oder höher.</p>
+        <p class="ev-source">The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 eingeladene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, davon 191 zu dieser Frage · Feldzeit 7. bis 29. Januar 2026, Zeitreihe im Highlights Report S. 21, Kennzahlen im Topline Report S. 12 · <a href="https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#cmo-survey-2026">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="dark-data-55" data-topic="markt" data-cite="Die meistzitierte Zahl zu ungenutzten Unternehmensdaten, 55 Prozent, ist ein Durchschnitt aus Schätzungen der 1.357 Befragten über das eigene Haus. Erhoben hat sie 2018/19 die Research-Einheit der PR-Agentur FleishmanHillard im Auftrag von Splunk, einem Anbieter von Software zur Auswertung genau dieser Daten. (TRUE Global Intelligence für Splunk, The State of Dark Data, 1.357 Befragte in sieben Ländern · erhoben Oktober 2018 bis Januar 2019). https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf">
+        <p class="ev-grade is-weak">Wird meist falsch zitiert</p>
+        <p class="ev-claim">Die meistzitierte Zahl zu ungenutzten Unternehmensdaten, 55 Prozent, ist ein Durchschnitt aus Schätzungen der 1.357 Befragten über das eigene Haus. Erhoben hat sie 2018/19 die Research-Einheit der PR-Agentur FleishmanHillard im Auftrag von Splunk, einem Anbieter von Software zur Auswertung genau dieser Daten.</p>
+        <p class="ev-limit"><strong>Wofür die Zahl wirklich gilt:</strong> Prozent wovon bleibt offen, der Bericht nennt weder Einheit noch Zeitraum. Als Definition lag den Befragten nur vor: „Information that can be captured, quantified and analyzed“. Auf Seite 3 und 12 steht sie als Tatsache über Datenbestände, erst die Länderkapitel geben sie als Schätzung zu erkennen: USA 56 Prozent, Deutschland 53, China 50 „compared with a global 55 percent“. Ein Durchschnitt über Organisationen ist kein Anteil an einem Gesamtbestand. <strong>Was regelmäßig damit vermengt wird:</strong> 60 Prozent der Befragten sagen, die Hälfte oder mehr ihrer Daten sei dunkel, 33 Prozent sagen mehr als 75 Prozent. Das sind Anteile von Befragten, keine Anteile von Daten. Splunk führt die Zahl bis heute ohne Jahr und ohne Stichprobe, am 26. März 2025 als „recent“.</p>
+        <p class="ev-source">TRUE Global Intelligence (FleishmanHillard) im Auftrag von Splunk, The State of Dark Data, 1.357 Befragte aus IT und Fachbereich in sieben Ländern · erhoben Oktober 2018 bis Januar 2019, Bericht Mai 2019 · <a href="https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#dark-data-55">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="geo-verbreitung" data-topic="markt" data-cite="78 von 188 befragten US-Unternehmen setzen KI dafür ein, dass eigene Inhalte in KI-erzeugten Suchantworten auftauchen, das sind 41,5 Prozent bei plus/minus 7,1 Prozentpunkten. (The CMO Survey, 35. Ausgabe, Duke University Fuqua School of Business mit Deloitte und der American Marketing Association, Topline Report 2026, Seite 12, Feldzeit Januar 2026). https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf">
+        <p class="ev-grade is-plain">Befragung</p>
+        <p class="ev-claim">78 von 188 US-Unternehmen, die diese Frage beantwortet haben, setzen KI für Generative Engine Optimization ein, also dafür, dass eigene Inhalte in KI-erzeugten Suchantworten auftauchen. Das sind 41,5 Prozent, bei einem 95-Prozent-Intervall von plus/minus 7,1 Prozentpunkten.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Sie ist eine Selbstauskunft aus einer Mehrfachauswahl und misst allein, dass etwas getan wird, nicht mit welchem Ergebnis. Die Bezugsgröße ist die Falle: Nenner sind nicht die 308 Antwortenden, sondern die 188, die diese Frage beantwortet haben. Wer auf 308 rechnet, kommt auf 128 Unternehmen statt auf 78. Mit dem Intervall reicht der Bereich von 34 bis 49 Prozent, das trägt gut vier von zehn, nicht jede zweite. <strong>Wer gefragt wurde:</strong> ausschließlich US-Unternehmen, 97 Prozent auf VP-Ebene oder darüber, 308 von 2.111 Angeschriebenen, 14,6 Prozent Rücklauf. Auf den deutschen Markt ist die Zahl nicht übertragbar. Die Frage wurde erstmals gestellt, es gibt keine Zeitreihe. Alle 188 haben mindestens ein Feld angekreuzt, ob Unternehmen ohne jeden KI-Einsatz im Nenner stehen, sagen die Berichte nicht.</p>
+        <p class="ev-source">The CMO Survey, 35. Ausgabe, Duke University Fuqua School of Business mit Deloitte und der American Marketing Association · Topline Report 2026, Seite 12, Antwortoption „GEO (i.e., Generative Engine Optimization to get content to appear in AI-generated search results)“: 78 von 188 Fällen, 41,5 Prozent, plus/minus 7,1 Prozentpunkte · 308 Antwortende von 2.111 angeschriebenen Marketingverantwortlichen US-amerikanischer For-Profit-Unternehmen · Feldzeit 7. bis 29. Januar 2026 · beim Nachschlagen aufpassen: Die Zeile darüber, „Predictive analytics for customer insights“, trägt denselben Wert von 41,5 Prozent bei ebenfalls 78 Fällen · <a href="https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#geo-verbreitung">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="in-house-verlagerung" data-topic="markt" data-cite="In der Mitgliederbefragung des US-Werbeverbands ANA gaben 2023 82 Prozent der befragten Mitglieder an, eine eigene Inhouse-Agentur zu haben, nach 78 Prozent 2018, 58 Prozent 2013 und 42 Prozent 2008. Dass sie in den drei Jahren davor laufendes Geschäft von einer externen Agentur nach innen geholt hatten, sagten 65 Prozent, 2018 waren es 70. (Association of National Advertisers, Mitgliederbefragung mit 162 Antwortenden, Februar und März 2023 · Pressemitteilung vom 2. Mai 2023; die Basis der 65 Prozent ist nicht veröffentlicht). https://www.ana.net/content/show/id/79185">
+        <p class="ev-grade is-plain">Befragung</p>
+        <p class="ev-claim">In der Mitgliederbefragung des US-Werbeverbands ANA gaben 2023 82 Prozent der befragten Mitglieder an, eine eigene Inhouse-Agentur zu haben, nach 78 Prozent 2018, 58 Prozent 2013 und 42 Prozent 2008. Die Verlagerung selbst hat den Höhepunkt hinter sich: Dass sie in den drei Jahren davor laufendes Geschäft von einer externen Agentur nach innen geholt hatten, sagten 2023 65 Prozent, 2018 waren es 70, 2013 erst 56.</p>
+        <p class="ev-limit"><strong>Was die Zahlen nicht sagen:</strong> Gemessen ist, wo Arbeit sitzt, nicht ob sie besser oder markenkonformer wird. Ein Branchenverband befragt hier freiwillig teilnehmende eigene Mitglieder, die laut Bericht selbst zur Inhouse-Agentur gehören können. <strong>Vorsicht bei den 65 Prozent:</strong> Die ANA weist ihre Basis je Frage aus, und sie ist regelmäßig kleiner als die Teilnehmerzahl. 2018 lag sie bei genau dieser Frage bei 166 von 412 Befragten, für 2023 ist sie nicht veröffentlicht. Der Wert darf deshalb nicht mit den 162 Teilnehmern verrechnet werden. Der ANA-Bericht vom Juni 2026 setzt die Reihe nicht fort, er befragt Juroren des verbandseigenen Preises; die nächste Mitgliederwelle wäre 2028.</p>
+        <p class="ev-source">Association of National Advertisers, Mitgliederbefragung „The Continued Rise of the In-House Agency: 2023 Edition“, 162 Antwortende, erhoben im Februar und März 2023 · Pressemitteilung vom 2. Mai 2023, der Bericht selbst liegt hinter der Mitgliederschranke · Vergleichswerte und Basisangaben aus dem Vorgängerbericht vom Oktober 2018, 412 Antwortende, 57 Seiten · <a href="https://www.ana.net/content/show/id/79185" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#in-house-verlagerung">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="ki-anteil-artikel" data-topic="markt" data-cite="Von den englischsprachigen Artikeln, die im ersten Quartal 2026 neu erschienen, waren 49,9 Prozent überwiegend KI-generiert. (Graphite, rund 55.400 zufällig aus Common Crawl gezogene Artikel, Klassifizierung als Mittelwert aus drei Detektoren, Mai 2026). https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do">
+        <p class="ev-grade is-strong">Geprüfte Erhebung</p>
+        <p class="ev-claim">Von den englischsprachigen Artikeln, die im ersten Quartal 2026 neu erschienen, waren 49,9 Prozent überwiegend KI-generiert. Seit Anfang 2025 liegt der Anteil nahe 50 Prozent, ohne weiter zu steigen.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Gemessen sind neu veröffentlichte englischsprachige Artikel und Listicles mit Artikel-Markup und mindestens 100 Wörtern, gezogen aus Common Crawl. Über das Netz insgesamt, über andere Sprachen, Social Media oder Video sagt sie nichts. Und nichts über Reichweite: Graphite selbst maß im Oktober 2025, dass 86 Prozent der in Google rankenden und 82 Prozent der von ChatGPT und Perplexity zitierten Artikel von Menschen stammen. <strong>Wie tragfähig die 50 Prozent sind:</strong> Der Wert ist ein Mittel aus drei Detektoren, die im selben Quartal um 6,4 Punkte auseinanderliegen (Pangram 47,7, Copyleaks 48,1, GPTZero 54,1). Die Spanne ist größer als der Abstand zur 50-Prozent-Marke, und zwei der drei sehen die Menschen vorn. Texte aus Mensch-Maschine-Mischung zählen dabei auf der KI-Seite.</p>
+        <p class="ev-source">Graphite, Wachstumsagentur · rund 55.400 zufällig aus Common Crawl gezogene englischsprachige Artikel mit Artikel-Markup und mindestens 100 Wörtern, veröffentlicht zwischen Januar 2020 und März 2026 · Klassifizierung als Mittelwert aus drei Detektoren (Pangram, Copyleaks, GPTZero), deren Falsch-Positiv-Raten von 1,844, 1,836 und 1,355 Prozent an rund 15.700 vor ChatGPT erschienenen Artikeln derselben Stichprobe gemessen wurden · Quartalsdaten offen einsehbar · Mai 2026 · <a href="https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#ki-anteil-artikel">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="ki-verkehrsanteil" data-topic="markt" data-cite="Drei Anbieter von Analysewerkzeugen beziffern den Anteil der Website-Besuche aus einem KI-Assistenten: Contentsquare 0,2 Prozent im vierten Quartal 2025, Semrush 0,14 Prozent für 2025, Conductor 1,08 Prozent für Mai bis September 2025. (Contentsquare, 2026 Digital Experience Benchmarks, 6.500 Websites weltweit, 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites weltweit, 27. April 2026 · Conductor, AEO/GEO Benchmarks, 1.215 US-Kundendomains, Stand 6. Juli 2026). https://www.semrush.com/blog/traffic-channel-mix-study/">
+        <p class="ev-grade is-weak">Drei Anbietermessungen</p>
+        <p class="ev-claim">Drei Anbieter von Analysewerkzeugen beziffern, welcher Anteil der Website-Besuche aus einem KI-Assistenten kommt: Contentsquare 0,2 Prozent im vierten Quartal 2025, Semrush 0,14 Prozent für das Jahr 2025, Conductor 1,08 Prozent für Mai bis September 2025. Drei getrennt erhobene Messungen, dieselbe Größenordnung: Bruchteile eines Prozents bis gut ein Prozent.</p>
+        <p class="ev-limit"><strong>Was die Zahlen nicht sagen:</strong> Gezählt sind Klicks, die mit erkennbarer Herkunft aus einem Assistenten ankommen, nicht wie oft eine Marke in Antworten genannt wird. Google AI Mode liegt außerhalb der Werte: Semrush führt ihn als eigenen Kanal mit 0,01 Prozent, Conductor vermerkt, dass Google Analytics ihn nicht von organischem Verkehr trennt.
+
+<strong>Warum die drei Werte nicht nebeneinandergehören:</strong> Contentsquare misst 6.500 Websites weltweit, Semrush über 50.000 weltweit, Conductor 1.215 eigene Kundendomains in den USA und nennt seine Werte ausdrücklich Durchschnitte. Der Faktor fünf ist zu gutem Teil eine Frage der Auswahl. Alle drei verkaufen Analysewerkzeuge und messen den eigenen Bestand; unabhängig geprüft ist keiner der Werte.</p>
+        <p class="ev-source">Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, Mai bis September 2025 · Stand 6. Juli 2026 · <a href="https://www.semrush.com/blog/traffic-channel-mix-study/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#ki-verkehrsanteil">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="markenklone" data-topic="markt" data-cite="Der Takedown-Anbieter Netcraft gibt an, zwischen März 2024 und März 2025 gegen 1,3 Millionen Phishing-Seiten vorgegangen zu sein, die mehr als 16.000 Organisationen nachahmten. (Netcraft, Leitfaden zu Erkennung und Abschaltung von Phishing-Seiten, eigene Vorgänge des Anbieters von März 2024 bis März 2025 · 12. Dezember 2025, zuletzt geändert 12. März 2026). https://www.netcraft.com/guide/phishing-website-detection-disruption">
+        <p class="ev-grade is-weak">Anbieterangaben</p>
+        <p class="ev-claim">Der Takedown-Anbieter Netcraft gibt an, zwischen März 2024 und März 2025 gegen 1,3 Millionen Phishing-Seiten vorgegangen zu sein, die mehr als 16.000 Organisationen nachahmten.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Sie sagt nicht, dass diese Seiten verschwunden sind. Netcraft schreibt „disrupted“ und fasst darunter Sperren und Entfernen zusammen, wie sich die 1,3 Millionen aufteilen, steht nirgends. Dieselbe Seite rät Lesern, Anbieter genau danach zu fragen. Sie sagt auch nichts darüber, ob eine offengelegte Markenspezifikation das Klonen erleichtert oder erschwert, dafür fehlt jede Vergleichsgruppe. Belegt ist nur, dass Klone auch ohne offene Spezifikation massenhaft existieren. <strong>Wer gezählt hat:</strong> Netcraft selbst, die eigenen Vorgänge, auf einer Verkaufsseite für diesen Dienst. Unabhängig geprüft ist nichts. Der oft mitzitierte Weltanteil von rund einem Drittel steht deshalb nicht in der Aussage: Die Seite beziffert die Weltmenge nirgends und widerspricht sich selbst, einmal Anteil an den Abschaltungen, einmal an den Angriffen. Auch die 16.000 Organisationen sind keine Marktgröße.</p>
+        <p class="ev-source">Netcraft, Leitfaden zu Erkennung und Abschaltung von Phishing-Seiten, eigene Vorgänge des Anbieters von März 2024 bis März 2025 · 12. Dezember 2025, zuletzt geändert 12. März 2026 · <a href="https://www.netcraft.com/guide/phishing-website-detection-disruption" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#markenklone">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="suchmarkt-wachstum" data-topic="markt" data-cite="Zwischen dem ersten Quartal 2023 und dem vierten Quartal 2025 ist die Summe aus Suchmaschinen-Besuchen und suchähnlichen KI-Sitzungen weltweit um 26 Prozent gestiegen, von 82,0 auf 103,2 Milliarden im Monat; Googles Anteil fällt von 89 auf 71 Prozent. (Graphite, Ethan Smith · Auswertung von Similarweb-Schätzdaten zu Web-Besuchen und App-Sitzungen weltweit, Juli 2020 bis Dezember 2025 · März 2026). https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think">
+        <p class="ev-grade is-weak">Marktbeobachtung auf Schätzdaten</p>
+        <p class="ev-claim">Zwischen dem ersten Quartal 2023 und dem vierten Quartal 2025 ist die Summe aus Suchmaschinen-Besuchen und suchähnlichen KI-Sitzungen weltweit um 26 Prozent gestiegen, von 82,0 auf 103,2 Milliarden im Monat. Googles Anteil fällt dabei von 89 auf 71 Prozent, ChatGPT kommt auf 20 Prozent.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Sie zählt keine Suchvorgänge, sondern Website-Besuche und App-Sitzungen; ein Google-Besuch enthält im Mittel 6,7 Seitenabrufe, eine App-Sitzung unbekannt viele Prompts. Von der KI-Nutzung zählt nur der als „Asking" eingestufte Anteil von 52 Prozent, aus einer ChatGPT-Studie übertragen und fortgeschrieben; die Autoren nennen das eine Obergrenze. Die 71 Prozent sind Google Search und Gemini zusammen, und je Tag gerechnet bleiben statt 26 nur 23,1 Prozent. <strong>Woher die Daten kommen:</strong> Similarweb-Schätzungen, keine Servermessung, gegengeprüft nur fürs Web, an acht Websites. Für Apps, wo 83 Prozent der KI-Nutzung liegen, heißt es „We do not have access to mobile app data". Der Autor verkauft Suchmaschinen-Sichtbarkeit und legt das offen. Die Rohdaten liegen offen und sind nachgerechnet.</p>
+        <p class="ev-source">Graphite (Ethan Smith) · Auswertung von Similarweb-Schätzdaten zu Web-Besuchen und App-Sitzungen weltweit, Juli 2020 bis Dezember 2025, Rohdaten offen · März 2026 · <a href="https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#suchmarkt-wachstum">Direktlink</a>
         </div>
       </article>
 
@@ -1849,6 +2624,39 @@
         <div class="ev-actions">
           <button type="button" class="ev-copy">Zitat kopieren</button>
           <a class="ev-permalink" href="#aufwand-statt-koennen">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="boussioux-neuheit-wert" data-topic="urteil" data-cite="In einem Ideenwettbewerb zur Kreislaufwirtschaft bewerteten 300 geprüfte Bewerter je 13 von 234 Lösungen, 54 von Menschen und 180 von GPT-4 mit menschlich gesteuerten Prompts. Die menschlichen galten als neuartiger, die maschinellen als strategisch tragfähiger, wertvoller und insgesamt besser. Am oberen Rand kippt das Bild: Die Höchstnote für Neuheit bekamen die KI-Lösungen 7,9 Prozentpunkte seltener, ihr Wertvorsprung verschwand dort in allen vier Dimensionen. (Boussioux, Lane, Zhang, Jacimovic und Lakhani, „The Crowdless Future? Generative AI and Creative Problem-Solving“, Organization Science 35(5), September 2024, S. 1589 bis 1607 · 3.900 Bewertungen · das Arbeitspapier von 2023 nannte noch 7,4 Prozentpunkte). https://doi.org/10.1287/orsc.2023.18430">
+        <p class="ev-grade is-strong">Kontrollierter Test</p>
+        <p class="ev-claim">In einem Ideenwettbewerb zur Kreislaufwirtschaft bewerteten 300 geprüfte Bewerter je 13 von 234 Lösungen, zusammen 3.900 Bewertungen: 54 von Menschen, 180 von GPT-4 mit menschlich gesteuerten Prompts. Die menschlichen galten als neuartiger (minus 0,140 auf einer Skala von 1 bis 5), die maschinellen als strategisch tragfähiger, ökologisch und finanziell wertvoller und insgesamt besser (plus 0,088 bis 0,160). Am oberen Rand kippt das Bild: Die Höchstnote für Neuheit bekamen die KI-Lösungen 7,9 Prozentpunkte seltener, ihr Wertvorsprung verschwand dort in allen vier Dimensionen.</p>
+        <p class="ev-limit"><strong>Was die Zahlen nicht sagen:</strong> Verglichen wurde nicht Mensch gegen Maschine, sondern Menge gegen menschlich geführte KI mit eigens gebauten Prompts. Wurde das Modell iterativ zum Differenzieren angehalten, war der Rückstand im Mittel nicht mehr nachweisbar (minus 0,056) und blieb nur bei der Höchstnote. <strong>Woran sie hängen:</strong> Urteile über Texte, keine realisierten Ideen. GPT-4 im Stand von Mitte 2023, ein Aufgabenfeld, je Block zehn KI- gegen drei Menschenlösungen. Mitautor Jacimovic gründete die beteiligte KI-Firma.</p>
+        <p class="ev-source">Boussioux, Lane, Zhang, Jacimovic und Lakhani, „The Crowdless Future? Generative AI and Creative Problem-Solving“, Organization Science 35(5), S. 1589 bis 1607 · 234 bewertete Lösungen, 300 Bewerter, 3.900 Bewertungen, Wettbewerb 30. Januar bis 15. Mai 2023 · angenommen 26. Juni 2024, erschienen September 2024 · das Arbeitspapier von 2023 nannte 7,4 Prozentpunkte und keinen gesicherten Neuheitsunterschied im Mittel · <a href="https://doi.org/10.1287/orsc.2023.18430" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#boussioux-neuheit-wert">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="mintzberg-muster" data-topic="urteil" data-cite="Henry Mintzberg definierte Strategie 1978 als „ein Muster in einem Strom von Entscheidungen“: Gebildet ist sie, sobald eine Folge von Entscheidungen über die Zeit Konsistenz zeigt. Damit werden auch die Strategien untersuchbar, die sich trotz der Absichten einstellten oder ganz ohne Absicht entstanden. Gezeigt hat er das an zwei Langzeitfällen, dem Volkswagenwerk und den USA in Vietnam von 1950 bis 1973. (Henry Mintzberg, „Patterns in Strategy Formation“, Management Science, Vol. 24, No. 9, S. 934 bis 948 · vier finanzierte Hauptstudien und über zwanzig studentische Arbeiten, davon zwei vorgeführt: Volkswagenwerk 1934 bis 1974 laut Abstract und 1920 bis 1974 laut Abschnittsüberschrift, USA in Vietnam 1950 bis 1973 · Manuskript eingegangen am 19. April 1976, gedruckt Mai 1978). https://doi.org/10.1287/mnsc.24.9.934">
+        <p class="ev-grade is-plain">Explorative Fallstudien, begriffsbildend</p>
+        <p class="ev-claim">Henry Mintzberg definierte Strategie 1978 als „ein Muster in einem Strom von Entscheidungen“: Gebildet ist sie, sobald eine Folge von Entscheidungen über die Zeit Konsistenz zeigt. Damit werden auch die Strategien untersuchbar, die sich trotz der Absichten einstellten oder ganz ohne Absicht entstanden. Gezeigt hat er das an zwei Langzeitfällen, dem Volkswagenwerk und den USA in Vietnam von 1950 bis 1973.</p>
+        <p class="ev-limit"><strong>Was der Aufsatz nicht misst:</strong> Er bildet Begriffe und beschreibt. Dass eine gewachsene Strategie zu besseren Ergebnissen führt als eine geplante, belegt er nirgends. Mintzberg greift die Planungslehre durchaus an, ihre Trennung von Formulierung und Umsetzung ruhe auf zwei oft falschen Annahmen. Geprüft hat er das nicht. <strong>Der Unterbau ist größer als das Gezeigte:</strong> Die allgemeinen Schlüsse stützen sich auf vier finanzierte Hauptstudien und über zwanzig studentische Arbeiten, die im Text nicht dokumentiert sind. Beide gezeigten Fälle sind historisch, liegen außerhalb der Markenführung und wurden rückblickend von demselben Forscher rekonstruiert, der festlegte, was als Muster zählt.</p>
+        <p class="ev-source">Henry Mintzberg, „Patterns in Strategy Formation“, Management Science, Vol. 24, No. 9, S. 934 bis 948 · vier finanzierte Hauptstudien und über zwanzig studentische Arbeiten, davon zwei vorgeführt: Volkswagenwerk 1934 bis 1974 laut Abstract und 1920 bis 1974 laut Abschnittsüberschrift, USA in Vietnam 1950 bis 1973 · Manuskript eingegangen am 19. April 1976, gedruckt Mai 1978 · <a href="https://doi.org/10.1287/mnsc.24.9.934" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#mintzberg-muster">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="wahrgenommene-differenzierung" data-topic="urteil" data-cite="Über 17 Warengruppen in Australien und Großbritannien halten im Schnitt 11 Prozent der aktuellen Verwender ihre eigene Marke für anders und 10 Prozent für einzigartig; 17 Prozent nennen wenigstens eines von beidem. Gekauft wird die Marke trotzdem. (Romaniuk, Sharp und Ehrenberg, Ehrenberg-Bass-Institut, Australasian Marketing Journal 15 (2), 2007, Seiten 42 bis 54, Zahlen aus Tabelle 2 auf Seite 47 · Befragung aktueller Markenverwender in 17 Warengruppen, die zehn britischen Datensätze erhoben 1999). https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf">
+        <p class="ev-grade is-plain">Befragung</p>
+        <p class="ev-claim">Über 17 Warengruppen in Australien und Großbritannien halten im Schnitt 11 Prozent der aktuellen Verwender ihre eigene Marke für anders und 10 Prozent für einzigartig; 17 Prozent nennen wenigstens eines von beidem. Gekauft wird die Marke trotzdem. Die Autoren empfehlen stattdessen Wiedererkennbarkeit.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Sie belegt nicht, dass Käufer in einer Warengruppe gar keine Unterschiede sehen. Im Schnitt 54 Prozent sprechen wenigstens einer Marke ihrer Kategorie eines der Merkmale zu, bei Erfrischungsgetränken in Großbritannien 76 Prozent. Die niedrigen Einzelwerte entstehen, weil jeder Befragte nur ein oder zwei Marken so einstuft, und jeder andere. Die Spanne je Warengruppe reicht von 8 bis 36 Prozent. <strong>Wer erhoben und wer bezahlt hat:</strong> Gezählt wurden nur aktuelle Verwender; die Fallzahlen fehlen im zugänglichen Text. Zehn der 17 Datensätze und das Messverfahren kommen von der Werbeagentur Young &amp; Rubicam, erhoben 1999; das Institut nennt als Geldgeber unter anderem Coca-Cola, Mars und Nielsen. Über maschinelle Auswahl sagt sie nichts, sie ist älter als jeder Agent.</p>
+        <p class="ev-source">Jenni Romaniuk, Byron Sharp und Andrew Ehrenberg, Ehrenberg-Bass-Institut, Australasian Marketing Journal 15 (2), Seiten 42 bis 54 · Befragung aktueller Markenverwender in 17 Warengruppen, sieben in Australien per Telefon, zehn in Großbritannien aus dem Brand Asset Valuator von Young &amp; Rubicam, erhoben 1999 · 2007 · <a href="https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a></p>
+        <div class="ev-actions">
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#wahrgenommene-differenzierung">Direktlink</a>
         </div>
       </article>
 
