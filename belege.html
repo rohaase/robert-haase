@@ -14,7 +14,7 @@
   <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/belege.html">
   <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Robert Haase | Artikel">
   <link rel="stylesheet" href="stylesheet.css">
-  <!-- Theme: gespeicherte Praeferenz vor dem ersten Paint anwenden (kein Flash) -->
+  <!-- Theme: gespeicherte Präferenz vor dem ersten Paint anwenden (kein Flash) -->
   <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
   <script src="/theme.js" defer></script>
 
@@ -1442,9 +1442,9 @@
 
   <style>
     /* ---- Belege: seiteneigene Stile -----------------------------------------
-       Additiv zum globalen Stylesheet. Die Guete-Marken sind der einzige Ort
-       mit Farbe: gepruefte Erhebung gegen alles, was schwaecher ist. Werte
-       fuer Dark und Light getrennt, damit der Kontrast in beiden ueber 4.5:1
+       Additiv zum globalen Stylesheet. Die Güte-Marken sind der einzige Ort
+       mit Farbe: geprüfte Erhebung gegen alles, was schwächer ist. Werte
+       für Dark und Light getrennt, damit der Kontrast in beiden über 4.5:1
        bleibt (gleiche Paare wie auf der Maschinensicht-Seite). */
     :root {
       --ev-strong: #6fb3a8;
@@ -2685,7 +2685,7 @@
 
   /* Belege: Filter, Suche, Zitat-Kopie.
      Alles rein additiv. Ohne JavaScript sind alle Belege sichtbar, die
-     Steuerelemente bleiben ausgeblendet. Eine Seite ueber Maschinenlesbarkeit
+     Steuerelemente bleiben ausgeblendet. Eine Seite über Maschinenlesbarkeit
      sollte ihren Inhalt nicht hinter einem Skript verstecken. */
 
   var list = document.getElementById('ev-list');
@@ -2700,8 +2700,8 @@
   var topic = 'alle';
   var query = '';
 
-  /* Das Thema gehoert in den Suchindex: Wer "Haftung" tippt, meint die
-     Gruppe, nicht nur die Karten, in denen das Wort zufaellig vorkommt. */
+  /* Das Thema gehört in den Suchindex: Wer „Haftung“ tippt, meint die
+     Gruppe, nicht nur die Karten, in denen das Wort zufällig vorkommt. */
   var themenNamen = {};
   Array.prototype.slice.call(filters.querySelectorAll('button')).forEach(function (b) {
     var t = b.getAttribute('data-topic');
@@ -2749,8 +2749,8 @@
   });
 
   /* Zitat kopieren: Aussage plus Quelle plus URL, also die Form, in der man
-     es in ein Dokument einfuegt. Clipboard-API mit Fallback fuer aeltere
-     Browser und fuer Kontexte ohne Schreibrecht. */
+     es in ein Dokument einfügt. Clipboard-API mit Fallback für ältere
+     Browser und für Kontexte ohne Schreibrecht. */
   function copyText(text, btn, okLabel, okStatus) {
     var done = function (ok) {
       var original = btn.getAttribute('data-label') || btn.textContent;
@@ -2777,7 +2777,7 @@
     };
     /* Die Clipboard-API kann vorhanden sein und trotzdem ablehnen, etwa ohne
        Nutzergeste oder in einem Rahmen ohne Schreibrecht. Dann greift der
-       aeltere Weg, statt dem Leser gleich das Scheitern zu melden. */
+       ältere Weg, statt dem Leser gleich das Scheitern zu melden. */
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(text).then(
         function () { done(true); },
@@ -2796,10 +2796,10 @@
       copyText(item.getAttribute('data-cite'), btn);
       return;
     }
-    /* Direktlink: Ohne JavaScript ist es ein gewoehnlicher Ankersprung, der
+    /* Direktlink: Ohne JavaScript ist es ein gewöhnlicher Ankersprung, der
        die Adresse in die Zeile schreibt und den Eintrag ansteuert. Mit
        JavaScript nimmt der Klick dem Leser den zweiten Schritt ab und legt
-       die vollstaendige Adresse gleich in die Zwischenablage. */
+       die vollständige Adresse gleich in die Zwischenablage. */
     var link = e.target.closest('.ev-permalink');
     if (!link) return;
     var el = link.closest('.ev-item');

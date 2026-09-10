@@ -14,7 +14,7 @@
   <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/maschinensicht.html">
   <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Robert Haase | Artikel">
   <link rel="stylesheet" href="stylesheet.css">
-  <!-- Theme: gespeicherte Praeferenz vor dem ersten Paint anwenden (kein Flash) -->
+  <!-- Theme: gespeicherte Präferenz vor dem ersten Paint anwenden (kein Flash) -->
   <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
   <script src="/theme.js" defer></script>
 
@@ -152,8 +152,8 @@
     }
 
     /* Der Apparat darf breiter sein als der Lesetext. Deshalb bekommt main
-       auf dieser Seite mehr Breite, und der Fliesstext holt sich sein Mass
-       selbst zurueck. */
+       auf dieser Seite mehr Breite, und der Fließtext holt sich sein Maß
+       selbst zurück. */
     main { max-width: 1240px; }
     main > article { max-width: 900px; margin-inline: auto; }
     .ms-wide { padding: 3rem 0; border-bottom: 1px solid var(--border); }
@@ -350,10 +350,10 @@
             <span class="ms-pane-sub" id="ms-human-sub">gerenderte Seite</span>
           </div>
           <div class="ms-pane-body">
-            <!-- sandbox ohne allow-scripts: die eingebettete Seite fuehrt kein
-                 JavaScript aus, das Auslesen von aussen bleibt durch
-                 allow-same-origin moeglich. Haertung fuer den Fall, dass die
-                 Site spaeter einmal Fremdskripte einbindet. -->
+            <!-- sandbox ohne allow-scripts: die eingebettete Seite führt kein
+                 JavaScript aus, das Auslesen von außen bleibt durch
+                 allow-same-origin möglich. Härtung für den Fall, dass die
+                 Site später einmal Fremdskripte einbindet. -->
             <iframe id="ms-frame" title="Live-Vorschau der ausgewählten Seite"
                     sandbox="allow-same-origin" src="about:blank"></iframe>
           </div>
@@ -513,9 +513,9 @@
   /* ------------------------------------------------------------------ *
    * Maschinensicht
    * Liest die im iframe geladene Seite aus und stellt sie in vier
-   * Maschinen-Formaten dar. Kein Framework, keine Abhaengigkeiten.
-   * Voraussetzung: gleiche Herkunft (http/https). Ueber file:// sperrt
-   * der Browser den Zugriff auf das iframe-Dokument, dafuer gibt es
+   * Maschinen-Formaten dar. Kein Framework, keine Abhängigkeiten.
+   * Voraussetzung: gleiche Herkunft (http/https). Über file:// sperrt
+   * der Browser den Zugriff auf das iframe-Dokument, dafür gibt es
    * den Hinweis in showError().
    * ------------------------------------------------------------------ */
 
@@ -633,7 +633,7 @@
     try {
       doc = $frame.contentDocument;
       if (!doc || !doc.body) throw new Error('kein Dokument');
-      /* Zugriff testen, damit ein Origin-Fehler hier auffaellt und nicht erst spaeter. */
+      /* Zugriff testen, damit ein Origin-Fehler hier auffällt und nicht erst später. */
       void doc.body.childNodes.length;
     } catch (e) {
       showError();
@@ -662,7 +662,7 @@
   }
 
   /* Signalfarben in den Rahmen spiegeln. Muss bei jedem Themewechsel neu
-     laufen, sonst behaelt die Markierung im Rahmen die Farben des alten
+     laufen, sonst behält die Markierung im Rahmen die Farben des alten
      Themes und wird im Hellmodus unlesbar. */
   function mirrorSignalColors(doc) {
     var cs = getComputedStyle(document.documentElement);
@@ -711,7 +711,7 @@
     return t.length > 90 ? t.slice(0, 87) + '…' : t;
   }
 
-  /* Bedienbare Elemente ohne zugaenglichen Namen: unsichtbar fuer alles, was ueber den Baum liest. */
+  /* Bedienbare Elemente ohne zugänglichen Namen: unsichtbar für alles, was über den Baum liest. */
   function namelessControls(doc) {
     var out = [];
     Array.prototype.forEach.call(
@@ -741,7 +741,7 @@
     return el.hasAttribute && el.hasAttribute('onclick');
   }
 
-  /* Kleinstes Element, dessen Text den Wert enthaelt. */
+  /* Kleinstes Element, dessen Text den Wert enthält. */
   function findByText(doc, value) {
     var v = norm(value);
     if (v.length < 4) return null;
@@ -988,12 +988,12 @@
     }
   }
 
-  /* Das Zaehlwerk ist je Ansicht anders, weil in drei von vier Ansichten
-     per Konstruktion jede Zeile ein Element hat. Dort traegt eine andere
-     Kennzahl: bedienbare Elemente ohne zugaenglichen Namen. */
+  /* Das Zählwerk ist je Ansicht anders, weil in drei von vier Ansichten
+     per Konstruktion jede Zeile ein Element hat. Dort trägt eine andere
+     Kennzahl: bedienbare Elemente ohne zugänglichen Namen. */
   /* Kurze Statusmeldung statt Live-Region auf der ganzen Liste:
-     ein Wechsel ersetzt bis zu neunzig Zeilen, die vollstaendig
-     vorgelesen wuerden. Angesagt wird nur, was sich geaendert hat. */
+     ein Wechsel ersetzt bis zu neunzig Zeilen, die vollständig
+     vorgelesen würden. Angesagt wird nur, was sich geändert hat. */
   function announce(rows) {
     var n = 0;
     rows.forEach(function (r) { if (!r.group) n++; });
@@ -1037,7 +1037,7 @@
     }
   }
 
-  /* Textbloecke, zu denen keine einzige Maschinen-Zeile zeigt. */
+  /* Textblöcke, zu denen keine einzige Maschinen-Zeile zeigt. */
   function countHumanOnly(rows) {
     if (!state.doc) return '–';
     var scope = state.doc.querySelector('main') || state.doc.body;
@@ -1080,7 +1080,7 @@
         block: 'center',
         behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
       });
-    } catch (e) { /* aeltere Engines */ }
+    } catch (e) { /* ältere Engines */ }
   }
 
   /* Kopplung in der Gegenrichtung: Element im Rahmen -> Zeilen rechts. */

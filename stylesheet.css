@@ -11,7 +11,7 @@
 /* Dark Theme — Basis ist hell (seit 2026-08-25), Dunkel folgt der Systemeinstellung,
    Toggle-Wahl (data-theme) gewinnt. Variablennamen bleiben semantisch invertiert
    (--black = Hintergrund, --white = Text), damit alle Inline-Styles in den
-   HTML-Dateien ohne Anpassung funktionieren. Werte in beiden Bloecken synchron halten. */
+   HTML-Dateien ohne Anpassung funktionieren. Werte in beiden Blöcken synchron halten. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --black: #0a0a0a;
@@ -41,9 +41,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Wer im System „Bewegung reduzieren" gewaehlt hat, bekommt keine
-   Scroll-Animation. Auf der Belege-Seite laege sonst ein Ankersprung von
-   ueber 14.000 Pixeln als Fahrt vor Augen. Nebeneffekt: Der Sprung sitzt
+/* Wer im System „Bewegung reduzieren“ gewählt hat, bekommt keine
+   Scroll-Animation. Auf der Belege-Seite läge sonst ein Ankersprung von
+   über 14.000 Pixeln als Fahrt vor Augen. Nebeneffekt: Der Sprung sitzt
    sofort statt animiert, also auch robuster. */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
@@ -76,7 +76,7 @@ body {
   top: 1rem;
 }
 
-/* Sichtbarer Fokus-Indikator fuer Tastatur-Navigation */
+/* Sichtbarer Fokus-Indikator für Tastatur-Navigation */
 a:focus-visible,
 button:focus-visible {
   outline: 2px solid var(--accent);
@@ -427,9 +427,9 @@ footer a:hover {
   section { padding: 2rem 0; }
   nav, main, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
 
-  /* Seit dem fuenften Menuepunkt (Belege, 28.08.2026) passt die Leiste auf
+  /* Seit dem fünften Menüpunkt (Belege, 28.08.2026) passt die Leiste auf
      schmalen Viewports nicht mehr in eine Zeile: space-between hat die
-     Abstaende auf null gedrueckt, „Belege" und „Ueber" beruehrten sich.
+     Abstände auf null gedrückt, „Belege“ und „Über“ berührten sich.
      Der Name bekommt jetzt eine eigene Zeile, die Links darunter echten
      Abstand. */
   nav { flex-wrap: wrap; justify-content: flex-start; gap: 0.55rem 1.15rem; }
@@ -460,7 +460,7 @@ footer a:hover {
 }
 .glossary-index .index-label:first-of-type { margin-top: 0; }
 
-/* Begriffs-Links: fuehren zur Definition, nicht zu einer Quelle.
+/* Begriffs-Links: führen zur Definition, nicht zu einer Quelle.
    Deshalb gepunktet statt durchgezogen unterstrichen. */
 .article-body a.term {
   text-decoration: none;
