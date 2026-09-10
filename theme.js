@@ -1,4 +1,4 @@
-/* Theme Toggle — Basis ist hell (seit 2026-08-25), Dunkel folgt der Systemeinstellung.
+/* Theme Toggle: Basis ist hell (seit 2026-08-25), Dunkel folgt der Systemeinstellung.
    Ein Klick setzt eine explizite Wahl (data-theme + localStorage), die ab dann gewinnt. */
 document.addEventListener('DOMContentLoaded', function () {
   var btn = document.querySelector('.theme-toggle');

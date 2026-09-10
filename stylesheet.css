@@ -1,4 +1,4 @@
-/* Robert Haase — Minimal One-Pager */
+/* Robert Haase: Minimal One-Pager */
 
 :root {
   --black: #f4f4ef;
@@ -8,7 +8,7 @@
   --border: #ddddd6;
 }
 
-/* Dark Theme — Basis ist hell (seit 2026-08-25), Dunkel folgt der Systemeinstellung,
+/* Dark Theme: Basis ist hell (seit 2026-08-25), Dunkel folgt der Systemeinstellung,
    Toggle-Wahl (data-theme) gewinnt. Variablennamen bleiben semantisch invertiert
    (--black = Hintergrund, --white = Text), damit alle Inline-Styles in den
    HTML-Dateien ohne Anpassung funktionieren. Werte in beiden Blöcken synchron halten. */
@@ -58,7 +58,7 @@ body {
   transition: background 0.25s ease, color 0.25s ease;
 }
 
-/* Skip-Link — Accessibility: erst sichtbar bei Tastatur-Fokus */
+/* Skip-Link für Accessibility: erst sichtbar bei Tastatur-Fokus */
 .skip-link {
   position: absolute;
   left: -9999px;
@@ -114,7 +114,7 @@ nav a:hover {
   color: var(--white);
 }
 
-/* Theme Toggle — Light/Dark-Schalter in der Navigation */
+/* Theme Toggle: Light/Dark-Schalter in der Navigation */
 .theme-toggle {
   background: none;
   border: none;
@@ -291,7 +291,7 @@ strong {
   border-color: var(--white);
 }
 
-/* Article body links — fix color contrast on dark background */
+/* Article body links: fix color contrast on dark background */
 .article-body a {
   color: var(--accent);
   text-decoration: underline;
@@ -336,7 +336,7 @@ footer a:hover {
 }
 
 
-/* Glossar — Begriffe sind hier die Hauptsache, nicht Sektions-Labels.
+/* Glossar: Begriffe sind hier die Hauptsache, nicht Sektions-Labels.
    Deshalb h2 innerhalb .glossary-entry bewusst gegen den globalen Label-Stil gesetzt. */
 .glossary-index .index-links {
   max-width: none;
