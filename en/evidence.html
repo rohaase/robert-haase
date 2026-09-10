@@ -898,7 +898,7 @@
     }
 
     /* ---- Steuerleiste ---- */
-    .ev-controls { padding-bottom: 0.5rem; }
+    .ev-controls { padding-bottom: 0.5rem; margin-bottom: 1rem; }
     .ev-control-label {
       display: block; font-size: 0.72rem; text-transform: uppercase;
       letter-spacing: 0.1em; color: var(--gray); margin-bottom: 0.6rem;
@@ -916,13 +916,16 @@
       color: var(--black); background: var(--white); border-color: var(--white);
     }
     .ev-search {
-      font: inherit; font-size: 0.95rem; width: 100%; max-width: 24rem;
-      padding: 0.55rem 0.7rem; margin-top: 1.25rem;
+      font: inherit; font-size: 1.05rem; width: 100%; max-width: 34rem;
+      padding: 0.85rem 1rem; margin: 0 0 1.75rem;
       color: var(--white); background: none;
-      border: 1px solid var(--border); border-radius: 2px;
+      border: 1px solid var(--gray); border-radius: 2px;
     }
+    .ev-search::placeholder { color: var(--gray); opacity: 0.75; }
+    .ev-search:hover { border-color: var(--white); }
     .ev-search:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; }
     .ev-count { font-size: 0.85rem; color: var(--gray); margin-top: 1rem; }
+    .ev-note { font-size: 0.78rem; color: var(--gray); margin: 0.9rem 0 0; }
 
     /* ---- Ein Beleg ---- */
     .ev-item {
@@ -986,9 +989,10 @@
     }
     .ev-method p strong { color: var(--white); font-weight: 600; }
     .ev-legend {
-      display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem;
-      font-size: 0.82rem; color: var(--gray); margin-top: 1.25rem;
-      padding-top: 1.25rem; border-top: 1px solid var(--border);
+      display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem;
+      font-size: 0.78rem; color: var(--gray);
+      margin-top: 1.1rem; padding-top: 1.1rem;
+      border-top: 1px solid var(--border);
     }
     .ev-legend span::before {
       content: ""; display: inline-block; width: 0.7rem; height: 0.7rem;
@@ -1030,17 +1034,13 @@
   <main id="main">
     <section class="hero">
       <h1>Evidence.</h1>
-      <p class="subtitle">Numbers on brand, AI search, and agents that you can cite in a presentation without having to take them back later. Every entry names the primary source, the sample, the date, and the limit of what it proves. Ready to copy, with attribution.</p>
+      <p class="subtitle">Numbers on brand, AI search, and agents that you can cite without having to take them back later. Every entry names its source, sample, date, and limit. Including where the result contradicts my own position.</p>
     </section>
 
-    <section class="article-body">
-      <p>Most numbers in this field circulate without a source, with the wrong denominator, or a year too late. I need them for my own writing, so I check them against the primary source. The result is here, including where it contradicts my own position.</p>
-      <p>A number is not the same as its interpretation. So every entry states what it explicitly does not prove. Four entries exist for that reason alone: they correct figures that circulate in the field in overreached form, among them the 78-to-42-percent agent figure and the 40 percent of generative engine optimization. If you read a number differently or find an error, <a href="mailto:hallo@robert-haase.de">write to me</a> and I will correct it and note the date. How the checking works is described <a href="#ev-method-heading">at the end of this page</a>.</p>
-    </section>
+    <section class="ev-controls" aria-label="Search and filter the evidence">
+      <label class="ev-sr-status" for="ev-search">Search the evidence</label>
+      <input type="search" id="ev-search" class="ev-search" placeholder="Search: llms.txt, liability, Gartner, agents …" hidden>
 
-
-
-    <section class="ev-controls" aria-labelledby="ev-filter-label">
       <span class="ev-control-label" id="ev-filter-label">Topic</span>
       <div class="ev-seg" role="group" aria-labelledby="ev-filter-label" id="ev-filters" hidden>
         <button type="button" data-topic="alle" aria-pressed="true">All</button>
@@ -1051,8 +1051,15 @@
         <button type="button" data-topic="markt" aria-pressed="false">Market size</button>
         <button type="button" data-topic="urteil" aria-pressed="false">Judgement</button>
       </div>
-      <label class="ev-sr-status" for="ev-search">Search the evidence</label>
-      <input type="search" id="ev-search" class="ev-search" placeholder="Search, for example: llms.txt, liability, Gartner" hidden>
+
+      <div class="ev-legend">
+        <span class="k-strong">Verified study, vendor documentation, or court decision</span>
+        <span class="k-weak">Preliminary: prototype, single test, forecast, or vendor figure</span>
+        <span class="k-plain">Status, case report, or market observation</span>
+      </div>
+
+      <p class="ev-note">How the checking works, and where the method reaches its limits, is <a href="#ev-method-heading">at the end of this page</a>.</p>
+
       <p class="ev-count" id="ev-count" hidden></p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>
     </section>
@@ -1633,24 +1640,9 @@
 
       <p class="ev-empty" id="ev-empty" hidden>No entry matches this selection.</p>
 
-      <div class="ev-legend">
-        <span class="k-strong">Verified study, vendor documentation, or court decision</span>
-        <span class="k-weak">Preliminary: prototype, single test, forecast, or vendor figure</span>
-        <span class="k-plain">Status, case report, or market observation</span>
-      </div>
     </section>
 
     <article>
-      <section class="article-body">
-        <h2>How this collection is built</h2>
-        <p>An entry is added only after I have checked it against the primary source for a text of my own. No entry rests on a summary of a summary. Where only a report about a study was available to me, the report is named as the source, not the study.</p>
-        <p>The limit belongs to the number. The most common error in this field is not the wrong number but the right number carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more.</p>
-        <p>This page ages. Every entry carries its date, the page carries its state. Numbers that are superseded get replaced, not quietly deleted.</p>
-        <p>Free to use with attribution. When in doubt link the primary source rather than this page: it is the route there, not the evidence itself.</p>
-        <p>Two small things about using this page: sources open in a new tab so your filter and search term stay put here. And "Permalink" puts the address of the single entry on your clipboard, so you do not have to fish it out of the address bar.</p>
-        <p>Next: <a href="machine-view.html">what machines see of a page</a> · <a href="glossary.html">Glossary</a> · <a href="articles.html">Articles</a></p>
-      </section>
-
       <section class="ev-method" aria-labelledby="ev-method-heading">
         <h2 id="ev-method-heading">How this collection is built</h2>
 
@@ -1658,11 +1650,21 @@
 
         <p>As a rule, an entry links the body that measured. Where a figure is only accessible through a third party's report, that intermediary is named in the source line. Own measurements carry their method with them, so they can be repeated. No entry rests on a summary of a summary.</p>
 
+        <p><strong>The limit belongs to the number.</strong> The most common error in this field is not the wrong number but the right number carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more.</p>
+
+        <p>Every entry carries a grade for what kind of evidence it is: verified study, controlled test, field experiment, official statistics, legal status, vendor documentation, survey, self-assessment, market observation, single case. That distinction decides how far a figure carries, which is why it sits above the figure rather than below it. The colour key at the top sums up the three groups.</p>
+
         <p>What does not survive the check does not get in, or gets removed. An example from my own work: one of my articles carried the claim, from July 2026 onward, that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. On checking, it was not there. What exists are two other figures, 17 percent and 30 to 45 percent, which had merged into one on their way through the retellings. Both are in this collection now; the 44 is not. A second entry has since been removed, because on closer inspection it only demonstrated what had deliberately been put there in the first place.</p>
 
-        <p>Every entry carries a grade for what kind of evidence it is: verified study, controlled test, field experiment, official statistics, legal status, vendor documentation, survey, self-assessment, market observation, single case. That distinction decides how far a figure carries, which is why it sits above the figure rather than below it.</p>
+        <p>This page ages. Every entry carries its date, the page carries its state. Numbers that are superseded get replaced, not quietly deleted. If you read a number differently or find an error, <a href="mailto:hallo@robert-haase.de">write to me</a> and I will correct it and note the date.</p>
 
         <p><strong>Where the method reaches its limits.</strong> Some sources refuse automated retrieval, among them publishers and analyst houses. They open in a browser and were checked there; a retrieval tool does not get through. The own measurements have no independent verification yet. And this collection does not map the state of the research. It is the shelf where I keep the figures I needed for my own texts. What is missing is missing for that reason, and not because nothing exists on it.</p>
+
+        <p>Free to use with attribution. When in doubt link the primary source rather than this page: it is the route there, not the evidence itself.</p>
+
+        <p>Two small things about using this page: sources open in a new tab so your filter and search term stay put here. And "Permalink" puts the address of the single entry on your clipboard, so you do not have to fish it out of the address bar.</p>
+
+        <p>Next: <a href="machine-view.html">what machines see of a page</a> · <a href="glossary.html">Glossary</a> · <a href="articles.html">Articles</a></p>
       </section>
 
       <section class="connect">

@@ -898,7 +898,7 @@
     }
 
     /* ---- Steuerleiste ---- */
-    .ev-controls { padding-bottom: 0.5rem; }
+    .ev-controls { padding-bottom: 0.5rem; margin-bottom: 1rem; }
     .ev-control-label {
       display: block; font-size: 0.72rem; text-transform: uppercase;
       letter-spacing: 0.1em; color: var(--gray); margin-bottom: 0.6rem;
@@ -916,13 +916,16 @@
       color: var(--black); background: var(--white); border-color: var(--white);
     }
     .ev-search {
-      font: inherit; font-size: 0.95rem; width: 100%; max-width: 24rem;
-      padding: 0.55rem 0.7rem; margin-top: 1.25rem;
+      font: inherit; font-size: 1.05rem; width: 100%; max-width: 34rem;
+      padding: 0.85rem 1rem; margin: 0 0 1.75rem;
       color: var(--white); background: none;
-      border: 1px solid var(--border); border-radius: 2px;
+      border: 1px solid var(--gray); border-radius: 2px;
     }
+    .ev-search::placeholder { color: var(--gray); opacity: 0.75; }
+    .ev-search:hover { border-color: var(--white); }
     .ev-search:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; }
     .ev-count { font-size: 0.85rem; color: var(--gray); margin-top: 1rem; }
+    .ev-note { font-size: 0.78rem; color: var(--gray); margin: 0.9rem 0 0; }
 
     /* ---- Ein Beleg ---- */
     .ev-item {
@@ -986,9 +989,10 @@
     }
     .ev-method p strong { color: var(--white); font-weight: 600; }
     .ev-legend {
-      display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem;
-      font-size: 0.82rem; color: var(--gray); margin-top: 1.25rem;
-      padding-top: 1.25rem; border-top: 1px solid var(--border);
+      display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem;
+      font-size: 0.78rem; color: var(--gray);
+      margin-top: 1.1rem; padding-top: 1.1rem;
+      border-top: 1px solid var(--border);
     }
     .ev-legend span::before {
       content: ""; display: inline-block; width: 0.7rem; height: 0.7rem;
@@ -1030,17 +1034,13 @@
   <main id="main">
     <section class="hero">
       <h1>Belege.</h1>
-      <p class="subtitle">Zahlen zu Marke, KI-Suche und Agenten, die du in einer Präsentation zitieren kannst, ohne sie später zurücknehmen zu müssen. Jeder Eintrag nennt die Primärquelle, den Erhebungsumfang, das Datum und die Grenze dessen, was er belegt. Zum Kopieren, mit Quellenangabe.</p>
+      <p class="subtitle">Zahlen zu Marke, KI-Suche und Agenten, die du zitieren kannst, ohne sie später zurücknehmen zu müssen. Jeder Eintrag nennt Quelle, Umfang, Datum und seine Grenze. Auch dort, wo das Ergebnis meiner eigenen Position widerspricht.</p>
     </section>
 
-    <section class="article-body">
-      <p>Die meisten Zahlen zu diesem Thema kursieren ohne Quelle, mit falscher Bezugsgröße oder ein Jahr zu spät. Ich brauche sie selbst für meine Texte und prüfe sie deshalb an der Primärquelle. Das Ergebnis steht hier, auch dort, wo es meiner eigenen Position widerspricht.</p>
-      <p>Eine Zahl ist nicht dasselbe wie ihre Auslegung. Deshalb steht bei jedem Eintrag, was er ausdrücklich nicht belegt. Vier Einträge sind ausschließlich dafür da: Sie korrigieren Zahlen, die in der Branche in überdehnter Form kursieren, darunter die 78-auf-42-Prozent-Zahl zu Agenten und die 40 Prozent der KI-Sichtbarkeits-Optimierung. Wenn du eine Zahl anders liest oder einen Fehler findest: <a href="mailto:hallo@robert-haase.de">schreib mir</a>, ich korrigiere und vermerke das Datum. Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>.</p>
-    </section>
+    <section class="ev-controls" aria-label="Belege durchsuchen und filtern">
+      <label class="ev-sr-status" for="ev-search">Belege durchsuchen</label>
+      <input type="search" id="ev-search" class="ev-search" placeholder="Durchsuchen: llms.txt, Haftung, Gartner, Agenten …" hidden>
 
-
-
-    <section class="ev-controls" aria-labelledby="ev-filter-label">
       <span class="ev-control-label" id="ev-filter-label">Thema</span>
       <div class="ev-seg" role="group" aria-labelledby="ev-filter-label" id="ev-filters" hidden>
         <button type="button" data-topic="alle" aria-pressed="true">Alle</button>
@@ -1051,8 +1051,15 @@
         <button type="button" data-topic="markt" aria-pressed="false">Marktgröße</button>
         <button type="button" data-topic="urteil" aria-pressed="false">Urteil</button>
       </div>
-      <label class="ev-sr-status" for="ev-search">Belege durchsuchen</label>
-      <input type="search" id="ev-search" class="ev-search" placeholder="Durchsuchen, etwa: llms.txt, Haftung, Gartner" hidden>
+
+      <div class="ev-legend">
+        <span class="k-strong">Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung</span>
+        <span class="k-weak">Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe</span>
+        <span class="k-plain">Sachstand, Fallbericht oder Marktbeobachtung</span>
+      </div>
+
+      <p class="ev-note">Wie geprüft wird und wo das Verfahren an Grenzen stößt, steht <a href="#ev-method-heading">am Ende der Seite</a>.</p>
+
       <p class="ev-count" id="ev-count" hidden></p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>
     </section>
@@ -1633,24 +1640,9 @@
 
       <p class="ev-empty" id="ev-empty" hidden>Kein Beleg passt zu dieser Auswahl.</p>
 
-      <div class="ev-legend">
-        <span class="k-strong">Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung</span>
-        <span class="k-weak">Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe</span>
-        <span class="k-plain">Sachstand, Fallbericht oder Marktbeobachtung</span>
-      </div>
     </section>
 
     <article>
-      <section class="article-body">
-        <h2>Wie diese Sammlung entsteht</h2>
-        <p>Aufgenommen wird nur, was ich für einen eigenen Text an der Primärquelle geprüft habe. Kein Eintrag beruht auf einer Zusammenfassung einer Zusammenfassung. Wo mir nur ein Bericht über eine Studie vorlag, steht der Bericht als Quelle da, nicht die Studie.</p>
-        <p>Die Grenze gehört zur Zahl. Der häufigste Fehler in diesem Feld ist nicht die falsche Zahl, sondern die richtige Zahl mit einer Aussage darüber, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere.</p>
-        <p>Diese Seite altert. Jeder Eintrag trägt sein Datum, die Seite ihren Stand. Zahlen, die überholt sind, werden ersetzt und nicht still gelöscht.</p>
-        <p>Verwendung frei mit Quellenangabe. Verlinke im Zweifel die Primärquelle, nicht diese Seite, sie ist der Weg dorthin und nicht der Beleg selbst.</p>
-        <p>Zwei Kleinigkeiten zur Bedienung: Quellen öffnen in einem neuen Tab, damit Filter und Suchbegriff hier stehen bleiben. Und „Direktlink" legt die Adresse des einzelnen Eintrags in die Zwischenablage, du musst sie nicht aus der Adresszeile heraussuchen.</p>
-        <p>Weiter: <a href="maschinensicht.html">Was Maschinen von einer Seite sehen</a> · <a href="begriffe.html">Begriffe</a> · <a href="artikel.html">Artikel</a></p>
-      </section>
-
       <section class="ev-method" aria-labelledby="ev-method-heading">
         <h2 id="ev-method-heading">Wie diese Sammlung entsteht</h2>
 
@@ -1658,11 +1650,21 @@
 
         <p>Der Regelfall ist der Link auf die erhebende Stelle. Wo eine Zahl allein über den Bericht eines Dritten zugänglich ist, steht dieser Mittler ausdrücklich in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, damit man sie wiederholen kann. Kein Eintrag beruht auf der Zusammenfassung einer Zusammenfassung.</p>
 
+        <p><strong>Die Grenze gehört zur Zahl.</strong> Der häufigste Fehler in diesem Feld ist nicht die falsche Zahl, sondern die richtige Zahl mit einer Aussage darüber, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere.</p>
+
+        <p>Jeder Eintrag trägt eine Einstufung, was für ein Beleg er ist: geprüfte Erhebung, kontrollierter Test, Feldexperiment, amtliche Statistik, Rechtslage, Herstellerdokumentation, Befragung, Selbsteinschätzung, Marktbeobachtung, Einzelfall. Diese Unterscheidung entscheidet, wie weit eine Zahl trägt, und sie steht deshalb über und nicht unter der Zahl. Der Farbcode oben fasst die drei Gruppen zusammen.</p>
+
         <p>Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus. Ein Beispiel aus eigener Sache: In einem meiner Artikel stand seit Juli 2026 die Zahl, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bei der Prüfung fand sie sich dort nicht. Es gibt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die auf dem Weg durch die Weitergaben zu einer verschmolzen waren. Beide stehen jetzt in dieser Sammlung, die 44 nicht. Ein zweiter Eintrag ist wieder verschwunden, weil er bei genauem Hinsehen nur belegte, was zuvor absichtlich hineingelegt worden war.</p>
 
-        <p>Jeder Eintrag trägt eine Einstufung, was für ein Beleg er ist: geprüfte Erhebung, kontrollierter Test, Feldexperiment, amtliche Statistik, Rechtslage, Herstellerdokumentation, Befragung, Selbsteinschätzung, Marktbeobachtung, Einzelfall. Diese Unterscheidung entscheidet, wie weit eine Zahl trägt, und sie steht deshalb über und nicht unter der Zahl.</p>
+        <p>Diese Seite altert. Jeder Eintrag trägt sein Datum, die Seite ihren Stand. Zahlen, die überholt sind, werden ersetzt und nicht still gelöscht. Wenn du eine Zahl anders liest oder einen Fehler findest: <a href="mailto:hallo@robert-haase.de">schreib mir</a>, ich korrigiere und vermerke das Datum.</p>
 
         <p><strong>Wo das Verfahren an Grenzen stößt.</strong> Ein Teil der Quellen weist automatisierte Abrufe ab, darunter Verlage und Analysehäuser. Sie sind im Browser erreichbar und wurden dort geprüft, ein Abrufwerkzeug bekommt sie nicht. Die eigenen Messungen haben bisher keine unabhängige Gegenprüfung. Und diese Sammlung bildet den Forschungsstand nicht ab. Sie ist die Ablage der Zahlen, die ich für eigene Texte gebraucht habe. Was fehlt, fehlt aus diesem Grund und nicht, weil es nichts dazu gäbe.</p>
+
+        <p>Verwendung frei mit Quellenangabe. Verlinke im Zweifel die Primärquelle, nicht diese Seite, sie ist der Weg dorthin und nicht der Beleg selbst.</p>
+
+        <p>Zwei Kleinigkeiten zur Bedienung: Quellen öffnen in einem neuen Tab, damit Filter und Suchbegriff hier stehen bleiben. Und „Direktlink" legt die Adresse des einzelnen Eintrags in die Zwischenablage, du musst sie nicht aus der Adresszeile heraussuchen.</p>
+
+        <p>Weiter: <a href="maschinensicht.html">Was Maschinen von einer Seite sehen</a> · <a href="begriffe.html">Begriffe</a> · <a href="artikel.html">Artikel</a></p>
       </section>
 
       <section class="connect">
