@@ -245,7 +245,7 @@ ul li {
 }
 
 ul li::before {
-  content: "—";
+  content: "–";
   position: absolute;
   left: -0.5rem;
   color: var(--gray);
