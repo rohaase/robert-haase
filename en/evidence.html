@@ -13,6 +13,8 @@
   <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/evidence.html">
   <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/belege.html">
   <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Robert Haase | Articles">
+  <link rel="alternate" type="text/markdown" href="https://robert-haase.de/en/evidence.md" title="Evidence as text, one file per topic">
+  <link rel="alternate" type="application/json" href="https://robert-haase.de/en/evidence.json" title="Evidence as JSON">
   <link rel="stylesheet" href="/stylesheet.css">
   <!-- Theme: gespeicherte Präferenz vor dem ersten Paint anwenden (kein Flash) -->
   <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
@@ -1502,6 +1504,12 @@
     .ev-search:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; }
     .ev-count { font-size: 0.85rem; color: var(--gray); margin-top: 1rem; }
     .ev-note { font-size: 0.78rem; color: var(--gray); margin: 0.9rem 0 0; }
+    .ev-note a {
+      color: inherit; text-decoration: none;
+      border-bottom: 1px solid var(--border); padding-bottom: 1px;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+    .ev-note a:hover { color: var(--white); border-bottom-color: var(--white); }
 
     /* ---- Ein Beleg ---- */
     .ev-item {
@@ -1634,7 +1642,7 @@
         <span class="k-plain">Status, case report, or market observation</span>
       </div>
 
-      <p class="ev-note">How the checking works is <a href="#ev-method-heading">at the end of this page</a>.</p>
+      <p class="ev-note">How the checking works is <a href="#ev-method-heading">at the end of this page</a>. For agents and scripts, the full collection is also available as text, one file per topic (<a href="https://robert-haase.de/en/evidence-ai-search.md">AI search</a>, <a href="https://robert-haase.de/en/evidence-agents.md">Agents</a>, <a href="https://robert-haase.de/en/evidence-commerce.md">Commerce</a>, <a href="https://robert-haase.de/en/evidence-liability.md">Liability</a>, <a href="https://robert-haase.de/en/evidence-market.md">Market size</a>, <a href="https://robert-haase.de/en/evidence-judgement.md">Judgement</a>), plus an <a href="https://robert-haase.de/en/evidence.md">overview of all claims</a> and the data as <a href="https://robert-haase.de/en/evidence.json">JSON</a>.</p>
 
       <p class="ev-count" id="ev-count" hidden></p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>

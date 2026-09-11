@@ -13,6 +13,8 @@
   <link rel="alternate" hreflang="en" href="https://robert-haase.de/en/evidence.html">
   <link rel="alternate" hreflang="x-default" href="https://robert-haase.de/belege.html">
   <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Robert Haase | Artikel">
+  <link rel="alternate" type="text/markdown" href="https://robert-haase.de/belege.md" title="Belege als Text, je Thema eine Datei">
+  <link rel="alternate" type="application/json" href="https://robert-haase.de/belege.json" title="Belege als JSON">
   <link rel="stylesheet" href="stylesheet.css">
   <!-- Theme: gespeicherte Präferenz vor dem ersten Paint anwenden (kein Flash) -->
   <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
@@ -1502,6 +1504,12 @@
     .ev-search:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; }
     .ev-count { font-size: 0.85rem; color: var(--gray); margin-top: 1rem; }
     .ev-note { font-size: 0.78rem; color: var(--gray); margin: 0.9rem 0 0; }
+    .ev-note a {
+      color: inherit; text-decoration: none;
+      border-bottom: 1px solid var(--border); padding-bottom: 1px;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+    .ev-note a:hover { color: var(--white); border-bottom-color: var(--white); }
 
     /* ---- Ein Beleg ---- */
     .ev-item {
@@ -1634,7 +1642,7 @@
         <span class="k-plain">Sachstand, Fallbericht oder Marktbeobachtung</span>
       </div>
 
-      <p class="ev-note">Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>.</p>
+      <p class="ev-note">Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>. Für Agenten und Skripte gibt es die ganze Sammlung auch als Text, eine Datei je Thema (<a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, <a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, <a href="https://robert-haase.de/belege-handel.md">Handel</a>, <a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, <a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, <a href="https://robert-haase.de/belege-urteil.md">Urteil</a>), dazu eine <a href="https://robert-haase.de/belege.md">Übersicht aller Aussagen</a> und die Daten als <a href="https://robert-haase.de/belege.json">JSON</a>.</p>
 
       <p class="ev-count" id="ev-count" hidden></p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>
