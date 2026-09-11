@@ -169,7 +169,7 @@ Guest essay responding to Erich Posselt's "Die Glätte der Klarheit" (tbobm.com,
 ### Belege / Evidence (reference collection)
 URL: https://robert-haase.de/belege.html (EN: https://robert-haase.de/en/evidence.html)
 Published: 28 August 2026
-As files, generated from the page and each small enough for a single fetch: Markdown index https://robert-haase.de/belege.md with one file per topic, JSON https://robert-haase.de/belege.json (EN: https://robert-haase.de/en/evidence.md, https://robert-haase.de/en/evidence.json)
+As files, generated from the page: Markdown index https://robert-haase.de/belege.md with one file per topic, each small enough for a single fetch; JSON with all entries for scripts, too large for a single fetch, https://robert-haase.de/belege.json (EN: https://robert-haase.de/en/evidence.md, https://robert-haase.de/en/evidence.json)
 
 A curated, growing collection of checked figures on brand, AI search, and agents, built for citation. Every entry carries four things: the claim in one sentence, an explicit statement of what it does not prove, the primary source with sample size and date, and a copy button that yields claim plus source plus URL. Entries are graded: verified study, vendor documentation, or court decision; preliminary (prototype, single test, forecast, vendor figure); or status, case report, and market observation. Free to reuse with attribution; the page asks readers to link the primary source rather than the page itself.
 

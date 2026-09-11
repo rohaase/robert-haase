@@ -1445,14 +1445,17 @@
   <style>
     /* ---- Belege: seiteneigene Stile -----------------------------------------
        Additiv zum globalen Stylesheet. Die Güte-Marken sind der einzige Ort
-       mit Farbe: geprüfte Erhebung gegen alles, was schwächer ist. Werte
-       für Dark und Light getrennt, damit der Kontrast in beiden über 4.5:1
-       bleibt (gleiche Paare wie auf der Maschinensicht-Seite). */
+       mit Farbe: geprüfte Erhebung gegen alles, was schwächer ist. Aufbau wie
+       im globalen Stylesheet: hell als Basis, dunkel per Systemeinstellung
+       oder Schalter. Die Marken sind kleine Schrift auf getönter Fläche,
+       deshalb im Hellen dunklere Töne als auf der Maschinensicht-Seite, die
+       dieselben Farben nur für Linien und große Zahlen nutzt. Kontrast in
+       beiden Schemata über 4,5:1 (hell 4,66 und 4,68, dunkel 6,52 und 5,44). */
     :root {
-      --ev-strong: #6fb3a8;
-      --ev-strong-bg: rgba(111, 179, 168, 0.16);
-      --ev-weak: #c08a4a;
-      --ev-weak-bg: rgba(192, 138, 74, 0.16);
+      --ev-strong: #296c61;
+      --ev-strong-bg: rgba(41, 108, 97, 0.13);
+      --ev-weak: #8a5514;
+      --ev-weak-bg: rgba(138, 85, 20, 0.13);
     }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) {
@@ -1461,12 +1464,6 @@
         --ev-weak: #c08a4a;
         --ev-weak-bg: rgba(192, 138, 74, 0.16);
       }
-    }
-    :root:not([data-theme="dark"]) {
-      --ev-strong: #2f7d70;
-      --ev-strong-bg: rgba(47, 125, 112, 0.13);
-      --ev-weak: #9a5f16;
-      --ev-weak-bg: rgba(154, 95, 22, 0.13);
     }
     :root[data-theme="dark"] {
       --ev-strong: #6fb3a8;
