@@ -27,37 +27,275 @@
       "id": "ki-suche",
       "name": "AI search",
       "numberOfItems": 16,
-      "textFile": "https://robert-haase.de/en/evidence-ai-search.md"
+      "textFile": "https://robert-haase.de/en/evidence-ai-search.md",
+      "ids": [
+        "llmstxt-abrufe",
+        "llmstxt-wirkung",
+        "google-leitfaden",
+        "json-ld-test",
+        "mentions-vs-backlinks",
+        "inkonsistenz",
+        "pew-klicks",
+        "aio-klickrate",
+        "seer-klickrate",
+        "reddit-zitate",
+        "geo-40-prozent",
+        "ebu-nachrichten",
+        "aio-top10-uneinig",
+        "llmstxt-nutzen",
+        "markenstatur-sichtbarkeit",
+        "zitier-position"
+      ],
+      "groups": {
+        "strong": [
+          "llmstxt-abrufe",
+          "llmstxt-wirkung",
+          "google-leitfaden",
+          "mentions-vs-backlinks",
+          "inkonsistenz",
+          "pew-klicks",
+          "aio-klickrate",
+          "seer-klickrate",
+          "ebu-nachrichten"
+        ],
+        "weak": [
+          "json-ld-test",
+          "reddit-zitate",
+          "geo-40-prozent",
+          "aio-top10-uneinig",
+          "markenstatur-sichtbarkeit",
+          "zitier-position"
+        ],
+        "plain": [
+          "llmstxt-nutzen"
+        ]
+      }
     },
     {
       "id": "agenten",
       "name": "Agents",
       "numberOfItems": 24,
-      "textFile": "https://robert-haase.de/en/evidence-agents.md"
+      "textFile": "https://robert-haase.de/en/evidence-agents.md",
+      "ids": [
+        "leere-buttons",
+        "agent-ready",
+        "a11y-cua",
+        "javascript",
+        "lighthouse",
+        "a11y-tree",
+        "astryx-agenten",
+        "designsysteme-maschinenschnittstelle",
+        "gitlab-markenrepo",
+        "aipref",
+        "dax-zutritt",
+        "dax-benennung",
+        "dax-landmarken",
+        "dax-bilder",
+        "agenten-erfolg",
+        "frontify-mcp",
+        "canva-mcp",
+        "klarna-700",
+        "mcp-primitive",
+        "mcp-tool-poisoning",
+        "monotype-mcp",
+        "pulumi-brand-mcp",
+        "statista-mcp",
+        "veeva-mlr"
+      ],
+      "groups": {
+        "strong": [
+          "leere-buttons",
+          "javascript",
+          "lighthouse",
+          "a11y-tree",
+          "astryx-agenten",
+          "designsysteme-maschinenschnittstelle",
+          "dax-zutritt",
+          "dax-benennung",
+          "dax-landmarken",
+          "dax-bilder",
+          "agenten-erfolg",
+          "frontify-mcp",
+          "canva-mcp",
+          "mcp-tool-poisoning",
+          "pulumi-brand-mcp",
+          "statista-mcp"
+        ],
+        "weak": [
+          "agent-ready",
+          "a11y-cua",
+          "klarna-700",
+          "monotype-mcp",
+          "veeva-mlr"
+        ],
+        "plain": [
+          "gitlab-markenrepo",
+          "aipref",
+          "mcp-primitive"
+        ]
+      }
     },
     {
       "id": "handel",
       "name": "Commerce",
       "numberOfItems": 6,
-      "textFile": "https://robert-haase.de/en/evidence-commerce.md"
+      "textFile": "https://robert-haase.de/en/evidence-commerce.md",
+      "ids": [
+        "checkout-rueckbau",
+        "airline-direktkanal",
+        "walmart-verhandlung",
+        "journey-start",
+        "kaufentscheidung",
+        "ucp-gremium-ohne-zahlen"
+      ],
+      "groups": {
+        "strong": [
+          "airline-direktkanal"
+        ],
+        "weak": [],
+        "plain": [
+          "checkout-rueckbau",
+          "walmart-verhandlung",
+          "journey-start",
+          "kaufentscheidung",
+          "ucp-gremium-ohne-zahlen"
+        ]
+      }
     },
     {
       "id": "haftung",
       "name": "Liability",
       "numberOfItems": 12,
-      "textFile": "https://robert-haase.de/en/evidence-liability.md"
+      "textFile": "https://robert-haase.de/en/evidence-liability.md",
+      "ids": [
+        "air-canada",
+        "cursor-bot",
+        "ai-act",
+        "olg-hamm",
+        "produkthaftung-komplexitaet",
+        "ai-overview-muenchen",
+        "auftragsverarbeitung-weisung",
+        "chevrolet-dollar",
+        "dpd-chatbot",
+        "nyc-mycity",
+        "perplexity-cfaa",
+        "screenshot-metadaten"
+      ],
+      "groups": {
+        "strong": [
+          "air-canada",
+          "olg-hamm",
+          "perplexity-cfaa",
+          "screenshot-metadaten"
+        ],
+        "weak": [
+          "ai-overview-muenchen"
+        ],
+        "plain": [
+          "cursor-bot",
+          "ai-act",
+          "produkthaftung-komplexitaet",
+          "auftragsverarbeitung-weisung",
+          "chevrolet-dollar",
+          "dpd-chatbot",
+          "nyc-mycity"
+        ]
+      }
     },
     {
       "id": "markt",
       "name": "Market size",
       "numberOfItems": 14,
-      "textFile": "https://robert-haase.de/en/evidence-market.md"
+      "textFile": "https://robert-haase.de/en/evidence-market.md",
+      "ids": [
+        "machine-customers",
+        "marktgroesse",
+        "ki-nutzung-deutschland",
+        "nicht-menschlicher-verkehr",
+        "mcp-verbreitung",
+        "agentenhandel-2030",
+        "cmo-ki-anteil",
+        "dark-data-55",
+        "geo-verbreitung",
+        "in-house-verlagerung",
+        "ki-anteil-artikel",
+        "ki-verkehrsanteil",
+        "markenklone",
+        "suchmarkt-wachstum"
+      ],
+      "groups": {
+        "strong": [
+          "ki-nutzung-deutschland",
+          "ki-anteil-artikel"
+        ],
+        "weak": [
+          "machine-customers",
+          "marktgroesse",
+          "mcp-verbreitung",
+          "agentenhandel-2030",
+          "dark-data-55",
+          "ki-verkehrsanteil",
+          "markenklone",
+          "suchmarkt-wachstum"
+        ],
+        "plain": [
+          "nicht-menschlicher-verkehr",
+          "cmo-ki-anteil",
+          "geo-verbreitung",
+          "in-house-verlagerung"
+        ]
+      }
     },
     {
       "id": "urteil",
       "name": "Judgement",
       "numberOfItems": 18,
-      "textFile": "https://robert-haase.de/en/evidence-judgement.md"
+      "textFile": "https://robert-haase.de/en/evidence-judgement.md",
+      "ids": [
+        "metr-selbsteinschaetzung",
+        "jagged-frontier",
+        "homogenisierung",
+        "strategie-trendslop",
+        "sykophanz",
+        "markenspezifikation-wirkung",
+        "cowan-standards",
+        "foresight-performance",
+        "prognose-mensch-maschine",
+        "prognose-assistenz",
+        "abbott-zustaendigkeit",
+        "esposito-kommunikation",
+        "drei-arbeitsweisen",
+        "kompetenz-nivellierung",
+        "aufwand-statt-koennen",
+        "boussioux-neuheit-wert",
+        "mintzberg-muster",
+        "wahrgenommene-differenzierung"
+      ],
+      "groups": {
+        "strong": [
+          "metr-selbsteinschaetzung",
+          "jagged-frontier",
+          "homogenisierung",
+          "sykophanz",
+          "cowan-standards",
+          "kompetenz-nivellierung",
+          "boussioux-neuheit-wert"
+        ],
+        "weak": [],
+        "plain": [
+          "strategie-trendslop",
+          "markenspezifikation-wirkung",
+          "foresight-performance",
+          "prognose-mensch-maschine",
+          "prognose-assistenz",
+          "abbott-zustaendigkeit",
+          "esposito-kommunikation",
+          "drei-arbeitsweisen",
+          "aufwand-statt-koennen",
+          "mintzberg-muster",
+          "wahrgenommene-differenzierung"
+        ]
+      }
     }
   ],
   "gradeGroups": [
@@ -74,6 +312,11 @@
       "name": "Status, case report, or market observation"
     }
   ],
+  "method": {
+    "name": "How this collection is built",
+    "encodingFormat": "text/markdown",
+    "text": "Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.\n\n**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.\n\nWhat does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.\n\nThis page ages. Every entry carries its date; superseded numbers get replaced, not quietly deleted. If you find an error, [write to me](mailto:hallo@robert-haase.de) and I will correct it and note the date.\n\nThe collection does not map the state of the research, only the figures I needed for my own texts. Free to use with attribution. When in doubt, link the primary source rather than this page."
+  },
   "claims": [
     {
       "@type": "Claim",

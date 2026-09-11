@@ -27,37 +27,275 @@
       "id": "ki-suche",
       "name": "KI-Suche",
       "numberOfItems": 16,
-      "textFile": "https://robert-haase.de/belege-ki-suche.md"
+      "textFile": "https://robert-haase.de/belege-ki-suche.md",
+      "ids": [
+        "llmstxt-abrufe",
+        "llmstxt-wirkung",
+        "google-leitfaden",
+        "json-ld-test",
+        "mentions-vs-backlinks",
+        "inkonsistenz",
+        "pew-klicks",
+        "aio-klickrate",
+        "seer-klickrate",
+        "reddit-zitate",
+        "geo-40-prozent",
+        "ebu-nachrichten",
+        "aio-top10-uneinig",
+        "llmstxt-nutzen",
+        "markenstatur-sichtbarkeit",
+        "zitier-position"
+      ],
+      "groups": {
+        "strong": [
+          "llmstxt-abrufe",
+          "llmstxt-wirkung",
+          "google-leitfaden",
+          "mentions-vs-backlinks",
+          "inkonsistenz",
+          "pew-klicks",
+          "aio-klickrate",
+          "seer-klickrate",
+          "ebu-nachrichten"
+        ],
+        "weak": [
+          "json-ld-test",
+          "reddit-zitate",
+          "geo-40-prozent",
+          "aio-top10-uneinig",
+          "markenstatur-sichtbarkeit",
+          "zitier-position"
+        ],
+        "plain": [
+          "llmstxt-nutzen"
+        ]
+      }
     },
     {
       "id": "agenten",
       "name": "Agenten",
       "numberOfItems": 24,
-      "textFile": "https://robert-haase.de/belege-agenten.md"
+      "textFile": "https://robert-haase.de/belege-agenten.md",
+      "ids": [
+        "leere-buttons",
+        "agent-ready",
+        "a11y-cua",
+        "javascript",
+        "lighthouse",
+        "a11y-tree",
+        "astryx-agenten",
+        "designsysteme-maschinenschnittstelle",
+        "gitlab-markenrepo",
+        "aipref",
+        "dax-zutritt",
+        "dax-benennung",
+        "dax-landmarken",
+        "dax-bilder",
+        "agenten-erfolg",
+        "frontify-mcp",
+        "canva-mcp",
+        "klarna-700",
+        "mcp-primitive",
+        "mcp-tool-poisoning",
+        "monotype-mcp",
+        "pulumi-brand-mcp",
+        "statista-mcp",
+        "veeva-mlr"
+      ],
+      "groups": {
+        "strong": [
+          "leere-buttons",
+          "javascript",
+          "lighthouse",
+          "a11y-tree",
+          "astryx-agenten",
+          "designsysteme-maschinenschnittstelle",
+          "dax-zutritt",
+          "dax-benennung",
+          "dax-landmarken",
+          "dax-bilder",
+          "agenten-erfolg",
+          "frontify-mcp",
+          "canva-mcp",
+          "mcp-tool-poisoning",
+          "pulumi-brand-mcp",
+          "statista-mcp"
+        ],
+        "weak": [
+          "agent-ready",
+          "a11y-cua",
+          "klarna-700",
+          "monotype-mcp",
+          "veeva-mlr"
+        ],
+        "plain": [
+          "gitlab-markenrepo",
+          "aipref",
+          "mcp-primitive"
+        ]
+      }
     },
     {
       "id": "handel",
       "name": "Handel",
       "numberOfItems": 6,
-      "textFile": "https://robert-haase.de/belege-handel.md"
+      "textFile": "https://robert-haase.de/belege-handel.md",
+      "ids": [
+        "checkout-rueckbau",
+        "airline-direktkanal",
+        "walmart-verhandlung",
+        "journey-start",
+        "kaufentscheidung",
+        "ucp-gremium-ohne-zahlen"
+      ],
+      "groups": {
+        "strong": [
+          "airline-direktkanal"
+        ],
+        "weak": [],
+        "plain": [
+          "checkout-rueckbau",
+          "walmart-verhandlung",
+          "journey-start",
+          "kaufentscheidung",
+          "ucp-gremium-ohne-zahlen"
+        ]
+      }
     },
     {
       "id": "haftung",
       "name": "Haftung",
       "numberOfItems": 12,
-      "textFile": "https://robert-haase.de/belege-haftung.md"
+      "textFile": "https://robert-haase.de/belege-haftung.md",
+      "ids": [
+        "air-canada",
+        "cursor-bot",
+        "ai-act",
+        "olg-hamm",
+        "produkthaftung-komplexitaet",
+        "ai-overview-muenchen",
+        "auftragsverarbeitung-weisung",
+        "chevrolet-dollar",
+        "dpd-chatbot",
+        "nyc-mycity",
+        "perplexity-cfaa",
+        "screenshot-metadaten"
+      ],
+      "groups": {
+        "strong": [
+          "air-canada",
+          "olg-hamm",
+          "perplexity-cfaa",
+          "screenshot-metadaten"
+        ],
+        "weak": [
+          "ai-overview-muenchen"
+        ],
+        "plain": [
+          "cursor-bot",
+          "ai-act",
+          "produkthaftung-komplexitaet",
+          "auftragsverarbeitung-weisung",
+          "chevrolet-dollar",
+          "dpd-chatbot",
+          "nyc-mycity"
+        ]
+      }
     },
     {
       "id": "markt",
       "name": "Marktgröße",
       "numberOfItems": 14,
-      "textFile": "https://robert-haase.de/belege-markt.md"
+      "textFile": "https://robert-haase.de/belege-markt.md",
+      "ids": [
+        "machine-customers",
+        "marktgroesse",
+        "ki-nutzung-deutschland",
+        "nicht-menschlicher-verkehr",
+        "mcp-verbreitung",
+        "agentenhandel-2030",
+        "cmo-ki-anteil",
+        "dark-data-55",
+        "geo-verbreitung",
+        "in-house-verlagerung",
+        "ki-anteil-artikel",
+        "ki-verkehrsanteil",
+        "markenklone",
+        "suchmarkt-wachstum"
+      ],
+      "groups": {
+        "strong": [
+          "ki-nutzung-deutschland",
+          "ki-anteil-artikel"
+        ],
+        "weak": [
+          "machine-customers",
+          "marktgroesse",
+          "mcp-verbreitung",
+          "agentenhandel-2030",
+          "dark-data-55",
+          "ki-verkehrsanteil",
+          "markenklone",
+          "suchmarkt-wachstum"
+        ],
+        "plain": [
+          "nicht-menschlicher-verkehr",
+          "cmo-ki-anteil",
+          "geo-verbreitung",
+          "in-house-verlagerung"
+        ]
+      }
     },
     {
       "id": "urteil",
       "name": "Urteil",
       "numberOfItems": 18,
-      "textFile": "https://robert-haase.de/belege-urteil.md"
+      "textFile": "https://robert-haase.de/belege-urteil.md",
+      "ids": [
+        "metr-selbsteinschaetzung",
+        "jagged-frontier",
+        "homogenisierung",
+        "strategie-trendslop",
+        "sykophanz",
+        "markenspezifikation-wirkung",
+        "cowan-standards",
+        "foresight-performance",
+        "prognose-mensch-maschine",
+        "prognose-assistenz",
+        "abbott-zustaendigkeit",
+        "esposito-kommunikation",
+        "drei-arbeitsweisen",
+        "kompetenz-nivellierung",
+        "aufwand-statt-koennen",
+        "boussioux-neuheit-wert",
+        "mintzberg-muster",
+        "wahrgenommene-differenzierung"
+      ],
+      "groups": {
+        "strong": [
+          "metr-selbsteinschaetzung",
+          "jagged-frontier",
+          "homogenisierung",
+          "sykophanz",
+          "cowan-standards",
+          "kompetenz-nivellierung",
+          "boussioux-neuheit-wert"
+        ],
+        "weak": [],
+        "plain": [
+          "strategie-trendslop",
+          "markenspezifikation-wirkung",
+          "foresight-performance",
+          "prognose-mensch-maschine",
+          "prognose-assistenz",
+          "abbott-zustaendigkeit",
+          "esposito-kommunikation",
+          "drei-arbeitsweisen",
+          "aufwand-statt-koennen",
+          "mintzberg-muster",
+          "wahrgenommene-differenzierung"
+        ]
+      }
     }
   ],
   "gradeGroups": [
@@ -74,6 +312,11 @@
       "name": "Sachstand, Fallbericht oder Marktbeobachtung"
     }
   ],
+  "method": {
+    "name": "Wie diese Sammlung entsteht",
+    "encodingFormat": "text/markdown",
+    "text": "Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.\n\n**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.\n\nWas der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.\n\nDiese Seite altert. Jeder Eintrag trägt sein Datum, überholte Zahlen werden ersetzt und nicht still gelöscht. Wenn du einen Fehler findest: [schreib mir](mailto:hallo@robert-haase.de), ich korrigiere und vermerke das Datum.\n\nDie Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich für eigene Texte gebraucht habe. Verwendung frei mit Quellenangabe. Verlinke im Zweifel die Primärquelle, nicht diese Seite."
+  },
   "claims": [
     {
       "@type": "Claim",

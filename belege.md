@@ -10,6 +10,18 @@ Lizenz: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Bitte die Prim
 
 Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die Seite.
 
+## Wie diese Sammlung entsteht
+
+Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
+
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+
+Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
+
+Diese Seite altert. Jeder Eintrag trägt sein Datum, überholte Zahlen werden ersetzt und nicht still gelöscht. Wenn du einen Fehler findest: [schreib mir](mailto:hallo@robert-haase.de), ich korrigiere und vermerke das Datum.
+
+Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich für eigene Texte gebraucht habe. Verwendung frei mit Quellenangabe. Verlinke im Zweifel die Primärquelle, nicht diese Seite.
+
 ## Themendateien
 
 - KI-Suche, 16 Einträge: https://robert-haase.de/belege-ki-suche.md
@@ -20,6 +32,10 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 - Urteil, 18 Einträge: https://robert-haase.de/belege-urteil.md
 
 ## KI-Suche (16)
+
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (6) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position
++ Sachstand, Fallbericht oder Marktbeobachtung (1) → llmstxt-nutzen
 
 - **llmstxt-abrufe** · Geprüfte Erhebung · Von rund 38.000 Domains mit einer llms.txt erhielten 97 Prozent im Mai 2026 keinerlei Abruf der Datei. → https://robert-haase.de/belege-ki-suche.md
 - **llmstxt-wirkung** · Geprüfte Erhebung · Bei knapp 300.000 untersuchten Domains fand sich kein Zusammenhang zwischen einer llms.txt und der Häufigkeit, mit der eine Domain in KI-Antworten als Quelle auftauchte. → https://robert-haase.de/belege-ki-suche.md
@@ -39,6 +55,10 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 - **zitier-position** · Anbietermessung, vorläufig · Von 18.012 Zitierungen ChatGPTs aus Webseiten stammen 44,2 Prozent aus den ersten 30 Prozent des Textes. Der mittlere Abschnitt, mit 40 Prozent Textlänge der breiteste, trägt 31,1 Prozent, der Schluss 24,7 Prozent. In einer zweiten Auswertung über 11.022 Zitierungen lag die Eigennamen-Dichte zitierter Einleitungen bei 20,6 Prozent, gegenüber 5 bis 8 Prozent, die der Autor aus Standardkorpora ableitet (Brown Corpus, Penn Treebank), ohne Rechenweg. → https://robert-haase.de/belege-ki-suche.md
 
 ## Agenten (24)
+
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
++ Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 - **leere-buttons** · Geprüfte Erhebung · Auf 30,6 Prozent von einer Million untersuchten Startseiten fanden sich Buttons ohne zugänglichen Namen, auf 51 Prozent Formularfelder ohne Beschriftung. → https://robert-haase.de/belege-agenten.md
 - **agent-ready** · Vorläufig, Prototyp · In einem kontrollierten Versuch erreichten drei Browser-Agenten auf der agentenfreundlich gebauten Fassung eine strikte Erfolgsquote von 89,3 Prozent gegenüber 49,3 Prozent auf der Ausgangsfassung. → https://robert-haase.de/belege-agenten.md
@@ -67,6 +87,10 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 ## Handel (6)
 
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (1) → airline-direktkanal
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
++ Sachstand, Fallbericht oder Marktbeobachtung (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
+
 - **checkout-rueckbau** · Marktbeobachtung · Der Kauf direkt im Chat wurde gut fünf Monate nach dem Start zurückgebaut. Live waren zu dem Zeitpunkt je nach Quelle ein Dutzend oder knapp dreißig Shopify-Händler. → https://robert-haase.de/belege-handel.md
 - **airline-direktkanal** · Kontrollierter Test · In einem Test der Flugsuche steuerten Sprachmodelle die Website der Airline nur in etwa fünf Prozent der Fälle direkt an. Bevorzugt wurden Buchungsportale. → https://robert-haase.de/belege-handel.md
 - **walmart-verhandlung** · Anbieter- und Unternehmensangaben · Walmart lässt Lieferantenverhandlungen von einem KI-System führen: 2.000 Verhandlungen gleichzeitig, rund drei Prozent durchschnittliche Einsparung, drei von vier Lieferanten verhandeln lieber mit der Maschine als mit einem Menschen. → https://robert-haase.de/belege-handel.md
@@ -75,6 +99,10 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 - **ucp-gremium-ohne-zahlen** · Stand der Normung · Der Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden. → https://robert-haase.de/belege-handel.md
 
 ## Haftung (12)
+
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → ai-overview-muenchen
++ Sachstand, Fallbericht oder Marktbeobachtung (7) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity
 
 - **air-canada** · Tribunal-Entscheidung · Air Canada haftet für die Zusage seines Chatbots. Die Verteidigung, der Bot sei für sein Handeln selbst verantwortlich, nannte der Entscheider „a remarkable submission“. → https://robert-haase.de/belege-haftung.md
 - **cursor-bot** · Dokumentierter Vorfall · Der Support-Agent von Cursor erfand eine Nutzungsregel, die es nie gab, und antwortete unter dem Namen „Sam“. → https://robert-haase.de/belege-haftung.md
@@ -90,6 +118,10 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 - **screenshot-metadaten** · Herstellerdokumentation · Ein Screenshot enthält die C2PA-Herkunftsdaten des Originals nicht: Sie liegen in der Datei, er erzeugt eine neue. Umgekehrt signiert eine C2PA-fähige Kamera, die ein KI-Bild abfotografiert, die Aufnahme, ohne Hinweis auf den KI-Ursprung. Im Regelfall hält sie Gerät, Zeit und Ort in den Metadaten fest und kann den Bildinhalt nicht analysieren; was eingetragen wird, liegt laut derselben Seite beim Hersteller. → https://robert-haase.de/belege-haftung.md
 
 ## Marktgröße (14)
+
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
++ Sachstand, Fallbericht oder Marktbeobachtung (4) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung
 
 - **machine-customers** · Selbsteinschätzung, Prognose · In einer Gartner-Befragung schätzen Vorstandschefs, dass bis 2030 15 bis 20 Prozent ihres Umsatzes von Maschinen als Kunden kommen. → https://robert-haase.de/belege-markt.md
 - **marktgroesse** · Anbieterangaben · Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: rund 900 Millionen wöchentlich aktive Nutzer bei ChatGPT, über eine Milliarde monatliche Nutzer bei Googles AI Mode. → https://robert-haase.de/belege-markt.md
@@ -107,6 +139,10 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 - **suchmarkt-wachstum** · Marktbeobachtung auf Schätzdaten · Zwischen dem ersten Quartal 2023 und dem vierten Quartal 2025 ist die Summe aus Suchmaschinen-Besuchen und suchähnlichen KI-Sitzungen weltweit um 26 Prozent gestiegen, von 82,0 auf 103,2 Milliarden im Monat. Googles Anteil fällt von 89 auf 71 Prozent, ChatGPT kommt auf 20 Prozent. → https://robert-haase.de/belege-markt.md
 
 ## Urteil (18)
+
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
++ Sachstand, Fallbericht oder Marktbeobachtung (11) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung
 
 - **metr-selbsteinschaetzung** · Kontrollierter Test · Erfahrene Entwickler brauchten mit KI-Werkzeugen 19 Prozent *länger*, hielten sich dabei aber für 20 Prozent schneller. Vorher hatten sie 24 Prozent Beschleunigung erwartet. Zwischen gemessener und empfundener Wirkung liegen 43 Prozentpunkte, mit umgekehrtem Vorzeichen. → https://robert-haase.de/belege-urteil.md
 - **jagged-frontier** · Kontrollierter Test · In einem präregistrierten Experiment mit 758 Unternehmensberatern erledigten die KI-Nutzer 12,2 Prozent mehr Aufgaben, arbeiteten 25,1 Prozent schneller und lieferten über 30 Prozent bessere Qualität, solange die Aufgabe innerhalb der Modellfähigkeit lag. Bei einer Aufgabe knapp außerhalb lagen sie 19 Prozentpunkte häufiger falsch als die Gruppe ohne KI. → https://robert-haase.de/belege-urteil.md

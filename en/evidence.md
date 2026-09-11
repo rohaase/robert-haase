@@ -10,6 +10,18 @@ License: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Please cite t
 
 This file is generated from the page. Where the two differ, the page applies.
 
+## How this collection is built
+
+Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
+
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+
+What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
+
+This page ages. Every entry carries its date; superseded numbers get replaced, not quietly deleted. If you find an error, [write to me](mailto:hallo@robert-haase.de) and I will correct it and note the date.
+
+The collection does not map the state of the research, only the figures I needed for my own texts. Free to use with attribution. When in doubt, link the primary source rather than this page.
+
 ## Topic files
 
 - AI search, 16 entries: https://robert-haase.de/en/evidence-ai-search.md
@@ -20,6 +32,10 @@ This file is generated from the page. Where the two differ, the page applies.
 - Judgement, 18 entries: https://robert-haase.de/en/evidence-judgement.md
 
 ## AI search (16)
+
++ Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
++ Preliminary: prototype, single test, forecast, or vendor figure (6) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position
++ Status, case report, or market observation (1) → llmstxt-nutzen
 
 - **llmstxt-abrufe** · Verified study · Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026. → https://robert-haase.de/en/evidence-ai-search.md
 - **llmstxt-wirkung** · Verified study · Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers. → https://robert-haase.de/en/evidence-ai-search.md
@@ -39,6 +55,10 @@ This file is generated from the page. Where the two differ, the page applies.
 - **zitier-position** · Vendor measurement, preliminary · Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text. The middle section, the widest at 40 percent of the text, carries 31.1 percent, the closing section 24.7 percent. In a second analysis of 11,022 citations, cited introductions reached a proper-noun density of 20.6 percent, against the 5 to 8 percent the author derives from standard corpora (Brown Corpus, Penn Treebank), with no arithmetic shown. → https://robert-haase.de/en/evidence-ai-search.md
 
 ## Agents (24)
+
++ Verified study, vendor documentation, or court decision (16) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
++ Preliminary: prototype, single test, forecast, or vendor figure (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
++ Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 - **leere-buttons** · Verified study · On 30.6 percent of one million home pages surveyed, buttons had no accessible name; on 51 percent, form fields had no label. → https://robert-haase.de/en/evidence-agents.md
 - **agent-ready** · Preliminary, prototype · In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original. → https://robert-haase.de/en/evidence-agents.md
@@ -67,6 +87,10 @@ This file is generated from the page. Where the two differ, the page applies.
 
 ## Commerce (6)
 
++ Verified study, vendor documentation, or court decision (1) → airline-direktkanal
++ Preliminary: prototype, single test, forecast, or vendor figure (0)
++ Status, case report, or market observation (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
+
 - **checkout-rueckbau** · Market observation · Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source. → https://robert-haase.de/en/evidence-commerce.md
 - **airline-direktkanal** · Controlled test · In a flight-search test, language models went to the airline’s own website directly in only about five percent of cases. They preferred booking portals. → https://robert-haase.de/en/evidence-commerce.md
 - **walmart-verhandlung** · Vendor and company figures · Walmart has supplier negotiations run by an AI system: 2,000 negotiations at once, around three percent average savings, and three out of four suppliers preferring to negotiate with the machine over a person. → https://robert-haase.de/en/evidence-commerce.md
@@ -75,6 +99,10 @@ This file is generated from the page. Where the two differ, the page applies.
 - **ucp-gremium-ohne-zahlen** · Standards status · The Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they include Amazon, Meta, Microsoft, Stripe and Salesforce alongside Google, Shopify, Etsy, Target and Wayfair. How many merchants actually run the protocol is stated by none of the companies involved. Google names example merchants — Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden — attached to the word “soon”. → https://robert-haase.de/en/evidence-commerce.md
 
 ## Liability (12)
+
++ Verified study, vendor documentation, or court decision (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
++ Preliminary: prototype, single test, forecast, or vendor figure (1) → ai-overview-muenchen
++ Status, case report, or market observation (7) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity
 
 - **air-canada** · Tribunal decision · Air Canada is liable for what its chatbot promised. The defence that the bot was responsible for its own actions was called "a remarkable submission" by the decision-maker. → https://robert-haase.de/en/evidence-liability.md
 - **cursor-bot** · Documented incident · Cursor’s support agent invented a usage rule that never existed and replied under the name "Sam". → https://robert-haase.de/en/evidence-liability.md
@@ -90,6 +118,10 @@ This file is generated from the page. Where the two differ, the page applies.
 - **screenshot-metadaten** · Vendor documentation · A screenshot does not carry the original’s C2PA provenance data: the record lives in the file, and a screenshot creates a new one. Conversely, a C2PA-enabled camera photographing an AI image signs that shot, with no trace of its AI origin. As a rule it records device, time and place in metadata and cannot analyse the content of the image; what goes in is up to the implementer, the same page says. → https://robert-haase.de/en/evidence-liability.md
 
 ## Market size (14)
+
++ Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
++ Preliminary: prototype, single test, forecast, or vendor figure (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
++ Status, case report, or market observation (4) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung
 
 - **machine-customers** · Self-assessment, forecast · In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. → https://robert-haase.de/en/evidence-market.md
 - **marktgroesse** · Vendor figures · The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode. → https://robert-haase.de/en/evidence-market.md
@@ -107,6 +139,10 @@ This file is generated from the page. Where the two differ, the page applies.
 - **suchmarkt-wachstum** · Market observation on estimated data · Between the first quarter of 2023 and the fourth quarter of 2025, search engine visits and search-like AI sessions combined grew by 26 percent worldwide, from 82.0 to 103.2 billion per month. Google’s share falls from 89 to 71 percent, ChatGPT reaches 20 percent. → https://robert-haase.de/en/evidence-market.md
 
 ## Judgement (18)
+
++ Verified study, vendor documentation, or court decision (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
++ Preliminary: prototype, single test, forecast, or vendor figure (0)
++ Status, case report, or market observation (11) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung
 
 - **metr-selbsteinschaetzung** · Controlled trial · Experienced developers took 19 percent *longer* with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed. → https://robert-haase.de/en/evidence-judgement.md
 - **jagged-frontier** · Controlled trial · In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered more than 30 percent higher quality, as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI. → https://robert-haase.de/en/evidence-judgement.md

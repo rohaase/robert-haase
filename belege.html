@@ -1501,6 +1501,24 @@
     .ev-search:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; }
     .ev-count { font-size: 0.85rem; color: var(--gray); margin-top: 1rem; }
     .ev-note { font-size: 0.78rem; color: var(--gray); margin: 0.9rem 0 0; }
+    /* Ohne JavaScript bleiben Filter, Suche und ihre Beschriftung aus; die
+       display-Regeln oben würden das hidden-Attribut sonst aufheben. */
+    .ev-controls [hidden] { display: none; }
+    /* Eintragskarte und Schlusszeile, erzeugt von belege-export.py. */
+    .ev-map { font-size: 0.78rem; color: var(--gray); margin: 0.6rem 0 0; max-width: 640px; }
+    .ev-map summary { cursor: pointer; width: fit-content; }
+    .ev-map summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .ev-map p { margin: 0.45rem 0 0; line-height: 1.6; overflow-wrap: anywhere; }
+    .ev-map a {
+      color: inherit; text-decoration: none;
+      border-bottom: 1px solid var(--border); padding-bottom: 1px;
+    }
+    .ev-map a:hover { color: var(--white); border-bottom-color: var(--white); }
+    .ev-end { font-size: 0.78rem; color: var(--gray); margin: 2rem 0 0; }
+    /* Direktlinks springen sofort. Eine animierte Fahrt über bis zu 100.000
+       Pixel lässt das Ziel sekundenlang außer Sicht, für Menschen wie für
+       Agenten, die ein Bildschirmfoto nehmen. */
+    html { scroll-behavior: auto; }
     .ev-note a {
       color: inherit; text-decoration: none;
       border-bottom: 1px solid var(--border); padding-bottom: 1px;
@@ -1622,10 +1640,10 @@
     </section>
 
     <section class="ev-controls" aria-label="Belege durchsuchen und filtern">
-      <label class="ev-sr-status" for="ev-search">Belege durchsuchen</label>
+      <label class="ev-sr-status" for="ev-search" id="ev-search-label" hidden>Belege durchsuchen</label>
       <input type="search" id="ev-search" class="ev-search" placeholder="Durchsuchen: llms.txt, Bain, Gartner, Haftung …" hidden>
 
-      <span class="ev-control-label" id="ev-filter-label">Thema</span>
+      <span class="ev-control-label" id="ev-filter-label" hidden>Thema</span>
       <div class="ev-seg" role="group" aria-labelledby="ev-filter-label" id="ev-filters" hidden>
         <button type="button" data-topic="alle" aria-pressed="true">Alle</button>
         <button type="button" data-topic="ki-suche" aria-pressed="false">KI-Suche</button>
@@ -1642,13 +1660,27 @@
         <span class="k-plain">Sachstand, Fallbericht oder Marktbeobachtung</span>
       </div>
 
-      <p class="ev-note">Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>. Für Agenten und Skripte gibt es die ganze Sammlung auch als Text, eine Datei je Thema (<a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, <a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, <a href="https://robert-haase.de/belege-handel.md">Handel</a>, <a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, <a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, <a href="https://robert-haase.de/belege-urteil.md">Urteil</a>), dazu eine <a href="https://robert-haase.de/belege.md">Übersicht aller Aussagen</a> und die Daten als <a href="https://robert-haase.de/belege.json">JSON</a>.</p>
+      <p class="ev-note">Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>. Für Agenten und Skripte gibt es die ganze Sammlung auch als Text, eine Datei je Thema (<a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, <a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, <a href="https://robert-haase.de/belege-handel.md">Handel</a>, <a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, <a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, <a href="https://robert-haase.de/belege-urteil.md">Urteil</a>), dazu eine <a href="https://robert-haase.de/belege.md">Übersicht aller Aussagen</a> und für Skripte die Daten als <a href="https://robert-haase.de/belege.json">JSON</a>.</p>
 
-      <p class="ev-count" id="ev-count" hidden></p>
+      <p class="ev-count" id="ev-count">90 Belege in 6 Themen: KI-Suche 16 · Agenten 24 · Handel 6 · Haftung 12 · Marktgröße 14 · Urteil 18.</p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>
+
+      <!-- ev-karte -->
+      <p class="ev-note">Für Agenten: Die Liste endet mit einer Schlusszeile, die die Zahl der Einträge nennt. Fehlt sie in deinem Text, ist er gekürzt oder gefiltert; vollständig sind die Themendateien.</p>
+      <details class="ev-map" id="ev-map">
+        <summary>Anker aller 90 Einträge, nach Thema</summary>
+        <p>Den Anker eines Eintrags hier suchen; die Datei am Zeilenanfang enthält den Eintrag vollständig.</p>
+        <p><a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, 16: llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, json-ld-test, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, reddit-zitate, geo-40-prozent, ebu-nachrichten, aio-top10-uneinig, llmstxt-nutzen, markenstatur-sichtbarkeit, zitier-position</p>
+        <p><a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, 24: leere-buttons, agent-ready, a11y-cua, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, gitlab-markenrepo, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, agenten-erfolg, frontify-mcp, canva-mcp, klarna-700, mcp-primitive, mcp-tool-poisoning, monotype-mcp, pulumi-brand-mcp, statista-mcp, veeva-mlr</p>
+        <p><a href="https://robert-haase.de/belege-handel.md">Handel</a>, 6: checkout-rueckbau, airline-direktkanal, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen</p>
+        <p><a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, 12: air-canada, cursor-bot, ai-act, olg-hamm, produkthaftung-komplexitaet, ai-overview-muenchen, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, perplexity-cfaa, screenshot-metadaten</p>
+        <p><a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, 14: machine-customers, marktgroesse, ki-nutzung-deutschland, nicht-menschlicher-verkehr, mcp-verbreitung, agentenhandel-2030, cmo-ki-anteil, dark-data-55, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, markenklone, suchmarkt-wachstum</p>
+        <p><a href="https://robert-haase.de/belege-urteil.md">Urteil</a>, 18: metr-selbsteinschaetzung, jagged-frontier, homogenisierung, strategie-trendslop, sykophanz, markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, kompetenz-nivellierung, aufwand-statt-koennen, boussioux-neuheit-wert, mintzberg-muster, wahrgenommene-differenzierung</p>
+      </details>
+      <!-- /ev-karte -->
     </section>
 
-    <section id="ev-list">
+    <section id="ev-list" aria-label="Belege">
 
       <article class="ev-item" id="llmstxt-abrufe" data-topic="ki-suche" data-cite="Von rund 38.000 Domains mit einer llms.txt erhielten 97 Prozent im Mai 2026 keinerlei Abruf der Datei. (Ahrefs, 137.210 Domains, davon 28 Prozent mit llms.txt · Juni 2026). https://ahrefs.com/blog/llmstxt-study/">
         <p class="ev-grade is-strong">Geprüfte Erhebung</p>
@@ -2728,11 +2760,13 @@
         </div>
       </article>
 
+      <p class="ev-end" id="ev-end">Ende der Liste: 90 von 90 Einträgen. Letzter Eintrag: wahrgenommene-differenzierung.</p>
+
       <p class="ev-empty" id="ev-empty" hidden>Kein Beleg passt zu dieser Auswahl.</p>
 
     </section>
 
-    <article>
+    <div>
       <section class="ev-method" aria-labelledby="ev-method-heading">
         <h2 id="ev-method-heading">Wie diese Sammlung entsteht</h2>
 
@@ -2757,7 +2791,7 @@
           <a href="/">Startseite</a>
         </p>
       </section>
-    </article>
+    </div>
   </main>
 
   <footer role="contentinfo">
@@ -2780,6 +2814,9 @@
   var count = document.getElementById('ev-count');
   var status = document.getElementById('ev-status');
   var empty = document.getElementById('ev-empty');
+  var ende = document.getElementById('ev-end');
+  var filterLabel = document.getElementById('ev-filter-label');
+  var searchLabel = document.getElementById('ev-search-label');
   if (!list || !items.length || !filters || !search) return;
 
   var topic = 'alle';
@@ -2793,9 +2830,14 @@
     if (t && t !== 'alle') themenNamen[t] = (b.textContent || '').toLowerCase();
   });
 
+  /* Gesucht wird in Einstufung, Aussage, Grenze und Quelle, dazu Anker und
+     Thema. Die Buttons zählen nicht mit, sonst träfe „Quelle“ jeden Eintrag. */
   items.forEach(function (el) {
     var t = el.getAttribute('data-topic') || '';
-    el.searchText = ((el.textContent || '') + ' ' + t + ' ' + (themenNamen[t] || '')).toLowerCase();
+    var teile = Array.prototype.map.call(
+      el.querySelectorAll('.ev-grade, .ev-claim, .ev-limit, .ev-source'),
+      function (p) { return p.textContent || ''; });
+    el.searchText = (teile.join(' ') + ' ' + el.id + ' ' + t + ' ' + (themenNamen[t] || '')).toLowerCase();
   });
 
   function apply() {
@@ -2808,6 +2850,9 @@
       if (visible) shown++;
     });
     empty.hidden = shown !== 0;
+    if (ende) ende.hidden = !(topic === 'alle' && !query);
+    var ziel = location.hash && document.getElementById(location.hash.slice(1));
+    if (ziel && ziel.hidden && history.replaceState) history.replaceState(null, '', location.pathname + location.search);
     count.textContent = shown === items.length
       ? items.length + ' Belege'
       : shown + ' von ' + items.length + ' Belegen';
@@ -2901,10 +2946,35 @@
     copyText(url, link, 'Kopiert', 'Adresse in die Zwischenablage kopiert.');
   });
 
+  /* Direktlink auf einen Eintrag, den Filter oder Suche gerade ausblenden:
+     Auswahl zurücksetzen, damit der Sprung nicht ins Leere geht. Danach
+     immer zum Ziel scrollen: Beim Vor- und Zurückblättern stellt der Browser
+     sonst eine Position wieder her, die er unter dem Filter gemerkt hat. */
+  function zeigeZiel() {
+    var id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch (err) { return; }
+    var el = id && document.getElementById(id);
+    if (!el) return;
+    if (el.classList.contains('ev-item') && el.hidden) {
+      query = '';
+      search.value = '';
+      topic = 'alle';
+      Array.prototype.forEach.call(filters.querySelectorAll('button'), function (b) {
+        b.setAttribute('aria-pressed', b.getAttribute('data-topic') === 'alle' ? 'true' : 'false');
+      });
+      apply();
+    }
+    if (el.getClientRects().length) el.scrollIntoView();
+  }
+  window.addEventListener('hashchange', zeigeZiel);
+
   filters.hidden = false;
   search.hidden = false;
   count.hidden = false;
+  if (filterLabel) filterLabel.hidden = false;
+  if (searchLabel) searchLabel.hidden = false;
   apply();
+  zeigeZiel();
 })();
 </script>
 
