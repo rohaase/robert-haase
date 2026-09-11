@@ -60,7 +60,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 **What the number does not say:** For the majority claim Cloudflare states *neither what traffic was measured* — page requests, all requests? — *nor over what period*. It rests on their own network, which is large but is not the Internet. The crawler figure is dated and carries a prior-year comparison, making it the more usable of the two. **Care when reusing:** secondary sources circulate the figure as “57.5 percent” — that number appears nowhere at Cloudflare.
 
-**Source:** Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · [to the source](https://blog.cloudflare.com/agentic-internet-bot-report/)
+**Source:** Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · [Source](https://blog.cloudflare.com/agentic-internet-bot-report/)
 
 **Grade:** Market observation · Group: Status, case report, or market observation
 

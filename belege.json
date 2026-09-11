@@ -429,14 +429,14 @@
         "name": "Anbietermessungen, nicht vergleichbar",
         "group": "weak"
       },
-      "sourceText": "Ahrefs, Louise Linehan, 863.000 Keyword-SERPs und 4 Millionen zitierte Adressen, organisch 37,1 Prozent, Schlagzeile 37,9 Prozent einschließlich Anzeigen und SERP-Features, kein Erhebungszeitraum genannt · veröffentlicht 2. März 2026 · dieselbe Reihe, 1,9 Millionen Zitate aus 1 Million Übersichten, nur die drei sichtbarsten je Übersicht · veröffentlicht 21. Juli 2025 · BrightEdge, AI Catalyst und Generative Parser, wöchentliche Messung, Umfang nicht offengelegt, angegebener Erhebungszeitraum Februar 2025 bis Februar 2026, veröffentlichte Überschneidungstabelle nur Februar bis Juli 2025 · veröffentlicht 12. Februar 2026 · Zur BrightEdge-Quelle · Zur Quelle",
+      "sourceText": "Ahrefs, Louise Linehan, 863.000 Keyword-SERPs und 4 Millionen zitierte Adressen, organisch 37,1 Prozent, Schlagzeile 37,9 Prozent einschließlich Anzeigen und SERP-Features, kein Erhebungszeitraum genannt · veröffentlicht 2. März 2026 · dieselbe Reihe, 1,9 Millionen Zitate aus 1 Million Übersichten, nur die drei sichtbarsten je Übersicht · veröffentlicht 21. Juli 2025 · BrightEdge, AI Catalyst und Generative Parser, wöchentliche Messung, Umfang nicht offengelegt, angegebener Erhebungszeitraum Februar 2025 bis Februar 2026, veröffentlichte Überschneidungstabelle nur Februar bis Juli 2025 · veröffentlicht 12. Februar 2026 · Zur BrightEdge-Quelle · Zur Ahrefs-Quelle",
       "sourceLinks": [
         {
           "name": "Zur BrightEdge-Quelle",
           "url": "https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing"
         },
         {
-          "name": "Zur Quelle",
+          "name": "Zur Ahrefs-Quelle",
           "url": "https://ahrefs.com/blog/ai-overview-citations-top-10/"
         }
       ],
@@ -761,14 +761,14 @@
         "name": "Dokumentierter Einzelfall",
         "group": "plain"
       },
-      "sourceText": "GitLab Handbook, öffentliches Repository gitlab-com/content-sites/handbook, geprüft am 10. September 2026 · Markenstimme mit den drei Merkmalen in content/handbook/marketing/brand-experience/content-style-guide.md, Namensregeln in naming.md, Markenzeichen-Richtlinien in trademark-guidelines.md, Werte in content/handbook/values/_index.md, Mission in content/handbook/company/mission.md · Commit e692ba4b vom 22. Mai 2025, 17:11 Uhr UTC, Merge Request 13766 · abweichende Fassung derselben Merkmale im Design-System-Repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md (Design-System-Repository) · zum Commit",
+      "sourceText": "GitLab Handbook, öffentliches Repository gitlab-com/content-sites/handbook, geprüft am 10. September 2026 · Markenstimme mit den drei Merkmalen in content/handbook/marketing/brand-experience/content-style-guide.md, Namensregeln in naming.md, Markenzeichen-Richtlinien in trademark-guidelines.md, Werte in content/handbook/values/_index.md, Mission in content/handbook/company/mission.md · Commit e692ba4b vom 22. Mai 2025, 17:11 Uhr UTC, Merge Request 13766 · abweichende Fassung derselben Merkmale im Design-System-Repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md (Design-System-Repository) · Zum Commit",
       "sourceLinks": [
         {
           "name": "Design-System-Repository",
           "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
         },
         {
-          "name": "zum Commit",
+          "name": "Zum Commit",
           "url": "https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1"
         }
       ],
@@ -1055,15 +1055,15 @@
         "name": "Gerichtsurteil, rechtskräftig",
         "group": "strong"
       },
-      "sourceText": "OLG Hamm, Urteil vom 12. Mai 2026, Az. 4 UKl 3/25 (Verbraucherzentrale Nordrhein-Westfalen gegen Aesthetify GmbH) · Rechtskraft seit 21. Juni 2026 laut Verbandsklageregister des Bundesamts für Justiz · Urteil im Volltext · Verbandsklageregister",
+      "sourceText": "OLG Hamm, Urteil vom 12. Mai 2026, Az. 4 UKl 3/25 (Verbraucherzentrale Nordrhein-Westfalen gegen Aesthetify GmbH) · Rechtskraft seit 21. Juni 2026 laut Verbandsklageregister des Bundesamts für Justiz · Verbandsklageregister · Urteil im Volltext",
       "sourceLinks": [
-        {
-          "name": "Urteil im Volltext",
-          "url": "https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html"
-        },
         {
           "name": "Verbandsklageregister",
           "url": "https://www.bundesjustizamt.de/DE/Themen/Verbraucherrechte/VerbandsklageregisterMusterfeststellungsklagenregister/Verbandsklagenregister/Unterlassungsklagen/Klagen/2025/172/UKlag_172_2025_node.html"
+        },
+        {
+          "name": "Urteil im Volltext",
+          "url": "https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html"
         }
       ],
       "citationText": "Ein deutsches Oberlandesgericht hat rechtskräftig entschieden, dass ein Unternehmen für die irreführenden Aussagen seines eigenen KI-Chatbots unmittelbar haftet. Der Chatbot sei kein Dritter im Sinne des Gesetzes. (OLG Hamm, Urteil vom 12. Mai 2026, Az. 4 UKl 3/25, Verbraucherzentrale NRW gegen Aesthetify GmbH · rechtskräftig seit 21. Juni 2026). https://robert-haase.de/belege.html#olg-hamm"
@@ -1267,15 +1267,15 @@
         "name": "Geprüfte Erhebung",
         "group": "strong"
       },
-      "sourceText": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · zur Quelle · zur Bestenliste",
+      "sourceText": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · zur Bestenliste · Zur Quelle",
       "sourceLinks": [
-        {
-          "name": "zur Quelle",
-          "url": "https://arxiv.org/abs/2504.01382"
-        },
         {
           "name": "zur Bestenliste",
           "url": "https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://arxiv.org/abs/2504.01382"
         }
       ],
       "citationText": "Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in zehn Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im Oktober 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig. (Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites). https://robert-haase.de/belege.html#agenten-erfolg"
@@ -1298,10 +1298,10 @@
         "name": "Marktbeobachtung",
         "group": "plain"
       },
-      "sourceText": "Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · zur Quelle",
+      "sourceText": "Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · Zur Quelle",
       "sourceLinks": [
         {
-          "name": "zur Quelle",
+          "name": "Zur Quelle",
           "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
         }
       ],
@@ -1325,15 +1325,15 @@
         "name": "Stand der Normung",
         "group": "plain"
       },
-      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · zur Quelle · zu Googles Ankündigung",
+      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · zu Googles Ankündigung · Zur Quelle",
       "sourceLinks": [
-        {
-          "name": "zur Quelle",
-          "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
-        },
         {
           "name": "zu Googles Ankündigung",
           "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
         }
       ],
       "citationText": "Der Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden. (Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung). https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen"
@@ -1356,7 +1356,7 @@
         "name": "Rechtslage",
         "group": "plain"
       },
-      "sourceText": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 10. September 2026: Bundestagsdrucksache 21/4297 vom 25. Februar 2026 (zur Drucksache), Wortprotokoll 21/31 des Ausschusses für Recht und Verbraucherschutz zur öffentlichen Anhörung am 13. April 2026, Beratungsvorgang BR-Drs. 775/25 und die Tagesordnungen der Bundesratssitzungen 1061 bis 1068 (zum Beratungsvorgang), BMJV-Verfahrensseite mit Status „Entwurf“ und letzter Aktualisierung vom 5. März 2026 · zum Richtlinientext",
+      "sourceText": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 10. September 2026: Bundestagsdrucksache 21/4297 vom 25. Februar 2026 (zur Drucksache), Wortprotokoll 21/31 des Ausschusses für Recht und Verbraucherschutz zur öffentlichen Anhörung am 13. April 2026, Beratungsvorgang BR-Drs. 775/25 und die Tagesordnungen der Bundesratssitzungen 1061 bis 1068 (zum Beratungsvorgang), BMJV-Verfahrensseite mit Status „Entwurf“ und letzter Aktualisierung vom 5. März 2026 · Zum Richtlinientext",
       "sourceLinks": [
         {
           "name": "zur Drucksache",
@@ -1367,7 +1367,7 @@
           "url": "https://www.bundesrat.de/bv.html?id=0775-25"
         },
         {
-          "name": "zum Richtlinientext",
+          "name": "Zum Richtlinientext",
           "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
         }
       ],
@@ -2141,10 +2141,10 @@
         "name": "Kontrollierter Test",
         "group": "strong"
       },
-      "sourceText": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · zur Studie",
+      "sourceText": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · Zur Studie",
       "sourceLinks": [
         {
-          "name": "zur Studie",
+          "name": "Zur Studie",
           "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
         }
       ],
@@ -2168,10 +2168,10 @@
         "name": "Kontrollierter Test",
         "group": "strong"
       },
-      "sourceText": "Dell'Acqua u. a., „Navigating the Jagged Technological Frontier“, Feldexperiment mit der Boston Consulting Group · Organization Science, online seit 11. März 2026, DOI 10.1287/orsc.2025.21838 · 758 Berater, 18 realistische Aufgaben · das Arbeitspapier von 2023 nannte für die Qualität noch über 40 Prozent · zur begutachteten Fassung",
+      "sourceText": "Dell'Acqua u. a., „Navigating the Jagged Technological Frontier“, Feldexperiment mit der Boston Consulting Group · Organization Science, online seit 11. März 2026, DOI 10.1287/orsc.2025.21838 · 758 Berater, 18 realistische Aufgaben · das Arbeitspapier von 2023 nannte für die Qualität noch über 40 Prozent · Zur begutachteten Fassung",
       "sourceLinks": [
         {
-          "name": "zur begutachteten Fassung",
+          "name": "Zur begutachteten Fassung",
           "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf"
         }
       ],
@@ -2195,10 +2195,10 @@
         "name": "Kontrollierter Test",
         "group": "strong"
       },
-      "sourceText": "Doshi und Hauser, „Generative AI enhances individual creativity but reduces the collective diversity of novel content“, Science Advances, Band 10, Ausgabe 28, eadn5290, 12. Juli 2024, DOI 10.1126/sciadv.adn5290 · präregistriert, 293 Schreibende und 600 Bewertende auf Prolific, 3.519 Einzelbewertungen, Ideen von GPT-4 · die Verlagsseite science.org wehrt automatisierte Abrufe ab, geprüft wurde am offenen Volltext bei Europe PMC · zum Volltext",
+      "sourceText": "Doshi und Hauser, „Generative AI enhances individual creativity but reduces the collective diversity of novel content“, Science Advances, Band 10, Ausgabe 28, eadn5290, 12. Juli 2024, DOI 10.1126/sciadv.adn5290 · präregistriert, 293 Schreibende und 600 Bewertende auf Prolific, 3.519 Einzelbewertungen, Ideen von GPT-4 · die Verlagsseite science.org wehrt automatisierte Abrufe ab, geprüft wurde am offenen Volltext bei Europe PMC · Zum Volltext",
       "sourceLinks": [
         {
-          "name": "zum Volltext",
+          "name": "Zum Volltext",
           "url": "https://europepmc.org/article/MED/38996021"
         }
       ],
@@ -2222,10 +2222,10 @@
         "name": "Redaktionell geprüft",
         "group": "plain"
       },
-      "sourceText": "Angelo Romasanta, Llewellyn D. W. Thomas und Natalia Levina, „Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.“, Harvard Business Review, 16. März 2026, HBR Digital Article H093GG · getestet wurden ChatGPT, Claude, DeepSeek, GPT-5 über die API, Gemini, Grok und Mistral, je 50 Durchläufe pro Modell und Frage; die beiden Blöcke mit über 15.000 Durchläufen liefen allein auf ChatGPT-5 · Volltext mit 15.613 Zeichen aus den strukturierten Daten der Seite, gegengeprüft an zwei Archivfassungen · zum Beitrag",
+      "sourceText": "Angelo Romasanta, Llewellyn D. W. Thomas und Natalia Levina, „Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.“, Harvard Business Review, 16. März 2026, HBR Digital Article H093GG · getestet wurden ChatGPT, Claude, DeepSeek, GPT-5 über die API, Gemini, Grok und Mistral, je 50 Durchläufe pro Modell und Frage; die beiden Blöcke mit über 15.000 Durchläufen liefen allein auf ChatGPT-5 · Volltext mit 15.613 Zeichen aus den strukturierten Daten der Seite, gegengeprüft an zwei Archivfassungen · Zum Beitrag",
       "sourceLinks": [
         {
-          "name": "zum Beitrag",
+          "name": "Zum Beitrag",
           "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
         }
       ],
@@ -2249,14 +2249,14 @@
         "name": "Kontrollierter Test und Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "Sharma, Tong u. a., „Towards Understanding Sycophancy in Language Models“, arXiv:2310.13548v4 vom 10. Mai 2025, erste Fassung 20. Oktober 2023, begutachtet und als Poster auf der ICLR 2024 angenommen · Kennzahl aus Abschnitt 4.1: 15.000 zufällig gezogene Antwortpaare aus der Helpfulness-Teilmenge von Anthropics hh-rlhf-Datensatz, 23 Merkmale, Bayessche logistische Regression, Holdout-Genauigkeit 71,3 Prozent · getestet wurden Claude 1.3, Claude 2, GPT-3.5, GPT-4 und LLaMA 2 · dazu OpenAI, „Sycophancy in GPT-4o“, 29. April 2025, und „Expanding on what we missed with sycophancy“, 2. Mai 2025; Update vom 25. April, Rücknahme ab dem 28. April (OpenAI-Mitteilung) · zum Papier",
+      "sourceText": "Sharma, Tong u. a., „Towards Understanding Sycophancy in Language Models“, arXiv:2310.13548v4 vom 10. Mai 2025, erste Fassung 20. Oktober 2023, begutachtet und als Poster auf der ICLR 2024 angenommen · Kennzahl aus Abschnitt 4.1: 15.000 zufällig gezogene Antwortpaare aus der Helpfulness-Teilmenge von Anthropics hh-rlhf-Datensatz, 23 Merkmale, Bayessche logistische Regression, Holdout-Genauigkeit 71,3 Prozent · getestet wurden Claude 1.3, Claude 2, GPT-3.5, GPT-4 und LLaMA 2 · dazu OpenAI, „Sycophancy in GPT-4o“, 29. April 2025, und „Expanding on what we missed with sycophancy“, 2. Mai 2025; Update vom 25. April, Rücknahme ab dem 28. April (OpenAI-Mitteilung) · Zum Papier",
       "sourceLinks": [
         {
           "name": "OpenAI-Mitteilung",
           "url": "https://openai.com/index/sycophancy-in-gpt-4o/"
         },
         {
-          "name": "zum Papier",
+          "name": "Zum Papier",
           "url": "https://arxiv.org/abs/2310.13548"
         }
       ],
@@ -2314,10 +2314,10 @@
         "name": "Historische Untersuchung",
         "group": "strong"
       },
-      "sourceText": "Ruth Schwartz Cowan, „More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave“, 1983 · ausgezeichnet mit dem Dexter Prize der Society for the History of Technology, 1984 · zur Übersicht",
+      "sourceText": "Ruth Schwartz Cowan, „More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave“, 1983 · ausgezeichnet mit dem Dexter Prize der Society for the History of Technology, 1984 · Zur Übersicht",
       "sourceLinks": [
         {
-          "name": "zur Übersicht",
+          "name": "Zur Übersicht",
           "url": "https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave"
         }
       ],
@@ -2341,10 +2341,10 @@
         "name": "Längsschnittstudie",
         "group": "plain"
       },
-      "sourceText": "Rohrbeck und Kum, „Corporate foresight and its impact on firm performance: A longitudinal analysis“, Technological Forecasting & Social Change 129, 2018 · Vorbereitung 2008 erhoben, Leistung 2015 · zur Studie",
+      "sourceText": "Rohrbeck und Kum, „Corporate foresight and its impact on firm performance: A longitudinal analysis“, Technological Forecasting & Social Change 129, 2018 · Vorbereitung 2008 erhoben, Leistung 2015 · Zur Studie",
       "sourceLinks": [
         {
-          "name": "zur Studie",
+          "name": "Zur Studie",
           "url": "https://www.sciencedirect.com/science/article/pii/S0040162517302287"
         }
       ],
@@ -2395,10 +2395,10 @@
         "name": "Präregistriertes Experiment",
         "group": "plain"
       },
-      "sourceText": "Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · zur Studie",
+      "sourceText": "Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · Zur Studie",
       "sourceLinks": [
         {
-          "name": "zur Studie",
+          "name": "Zur Studie",
           "url": "https://arxiv.org/abs/2402.07862"
         }
       ],
@@ -2422,10 +2422,10 @@
         "name": "Standardwerk",
         "group": "plain"
       },
-      "sourceText": "Andrew Abbott, „The System of Professions: An Essay on the Division of Expert Labor“, University of Chicago Press, 1988 · zum Verlag",
+      "sourceText": "Andrew Abbott, „The System of Professions: An Essay on the Division of Expert Labor“, University of Chicago Press, 1988 · Zum Verlag",
       "sourceLinks": [
         {
-          "name": "zum Verlag",
+          "name": "Zum Verlag",
           "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html"
         }
       ],
@@ -2449,10 +2449,10 @@
         "name": "Fachbuch",
         "group": "plain"
       },
-      "sourceText": "Elena Esposito, „Artificial Communication: How Algorithms Produce Social Intelligence“, MIT Press, 24. Mai 2022 · 200 Seiten, Open-Access-Ausgabe verfügbar · zum Verlag",
+      "sourceText": "Elena Esposito, „Artificial Communication: How Algorithms Produce Social Intelligence“, MIT Press, 24. Mai 2022 · 200 Seiten, Open-Access-Ausgabe verfügbar · Zum Verlag",
       "sourceLinks": [
         {
-          "name": "zum Verlag",
+          "name": "Zum Verlag",
           "url": "https://mitpress.mit.edu/9780262046664/artificial-communication/"
         }
       ],
@@ -2476,10 +2476,10 @@
         "name": "Feldstudie, Arbeitspapier",
         "group": "plain"
       },
-      "sourceText": "Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon und Lakhani, „Cyborgs, Centaurs and Self-Automators“, Harvard Business School Working Paper 26-036, 2025 · 244 Berater der Boston Consulting Group · zum Arbeitspapier",
+      "sourceText": "Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon und Lakhani, „Cyborgs, Centaurs and Self-Automators“, Harvard Business School Working Paper 26-036, 2025 · 244 Berater der Boston Consulting Group · Zum Arbeitspapier",
       "sourceLinks": [
         {
-          "name": "zum Arbeitspapier",
+          "name": "Zum Arbeitspapier",
           "url": "https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf"
         }
       ],
@@ -2503,10 +2503,10 @@
         "name": "Feldexperiment",
         "group": "strong"
       },
-      "sourceText": "Brynjolfsson, Li und Raymond, „Generative AI at Work“, NBER Working Paper 31161, April 2023, überarbeitet November 2023 · 5.179 Kundendienst-Mitarbeitende · zum Arbeitspapier",
+      "sourceText": "Brynjolfsson, Li und Raymond, „Generative AI at Work“, NBER Working Paper 31161, April 2023, überarbeitet November 2023 · 5.179 Kundendienst-Mitarbeitende · Zum Arbeitspapier",
       "sourceLinks": [
         {
-          "name": "zum Arbeitspapier",
+          "name": "Zum Arbeitspapier",
           "url": "https://www.nber.org/papers/w31161"
         }
       ],
@@ -2530,10 +2530,10 @@
         "name": "Präregistriertes Experiment",
         "group": "plain"
       },
-      "sourceText": "Noy und Zhang, „Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence“, MIT, Arbeitspapier vom 2. März 2023 · begutachtete Fassung in Science 381, 2023, S. 187–192 · zur Veröffentlichung",
+      "sourceText": "Noy und Zhang, „Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence“, MIT, Arbeitspapier vom 2. März 2023 · begutachtete Fassung in Science 381, 2023, S. 187–192 · Zur Veröffentlichung",
       "sourceLinks": [
         {
-          "name": "zur Veröffentlichung",
+          "name": "Zur Veröffentlichung",
           "url": "https://www.science.org/doi/10.1126/science.adh2586"
         }
       ],

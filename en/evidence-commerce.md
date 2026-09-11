@@ -88,7 +88,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 **What the number does not say:** A seat on a council is not an implementation. That Amazon, Meta and Microsoft help shape the protocol says nothing about whether they use it in their own stores. **The missing adoption figure is a negative finding:** it is absent from the primary sources checked — the UCP announcements in the project repository and two Google posts from 19 March and 19 May 2026. It may exist elsewhere. **Care with secondary sources:** they widely reproduce Google's sentence without the “soon”, turning an announcement into a fact.
 
-**Source:** Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · [to the source](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379) · [to Google's announcement](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/)
+**Source:** Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · [to Google’s announcement](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Source](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
 **Grade:** Standards status · Group: Status, case report, or market observation
 

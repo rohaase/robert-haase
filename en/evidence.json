@@ -429,14 +429,14 @@
         "name": "Vendor measurements, not comparable",
         "group": "weak"
       },
-      "sourceText": "Ahrefs, Louise Linehan, 863,000 keyword SERPs and 4 million cited URLs, organic figure 37.1 percent, headline 37.9 percent including ads and SERP features, no collection period stated · published 2 March 2026 · same series, 1.9 million citations from 1 million overviews, top three most visible per overview only · published 21 July 2025 · BrightEdge, AI Catalyst and Generative Parser, weekly measurement, sample size not disclosed, stated tracking period February 2025 to February 2026, published overlap table only February to July 2025 · published 12 February 2026 · BrightEdge source · Source",
+      "sourceText": "Ahrefs, Louise Linehan, 863,000 keyword SERPs and 4 million cited URLs, organic figure 37.1 percent, headline 37.9 percent including ads and SERP features, no collection period stated · published 2 March 2026 · same series, 1.9 million citations from 1 million overviews, top three most visible per overview only · published 21 July 2025 · BrightEdge, AI Catalyst and Generative Parser, weekly measurement, sample size not disclosed, stated tracking period February 2025 to February 2026, published overlap table only February to July 2025 · published 12 February 2026 · BrightEdge source · Ahrefs source",
       "sourceLinks": [
         {
           "name": "BrightEdge source",
           "url": "https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing"
         },
         {
-          "name": "Source",
+          "name": "Ahrefs source",
           "url": "https://ahrefs.com/blog/ai-overview-citations-top-10/"
         }
       ],
@@ -761,14 +761,14 @@
         "name": "Documented single case",
         "group": "plain"
       },
-      "sourceText": "GitLab Handbook, public repository gitlab-com/content-sites/handbook, checked 10 September 2026 · brand voice with the three traits in content/handbook/marketing/brand-experience/content-style-guide.md, naming rules in naming.md, trademark guidelines in trademark-guidelines.md, values in content/handbook/values/_index.md, mission in content/handbook/company/mission.md · commit e692ba4b of 22 May 2025, 17:11 UTC, merge request 13766 · diverging version of the same traits in the design system repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md (design system repository) · to the commit",
+      "sourceText": "GitLab Handbook, public repository gitlab-com/content-sites/handbook, checked 10 September 2026 · brand voice with the three traits in content/handbook/marketing/brand-experience/content-style-guide.md, naming rules in naming.md, trademark guidelines in trademark-guidelines.md, values in content/handbook/values/_index.md, mission in content/handbook/company/mission.md · commit e692ba4b of 22 May 2025, 17:11 UTC, merge request 13766 · diverging version of the same traits in the design system repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md (design system repository) · Commit",
       "sourceLinks": [
         {
           "name": "design system repository",
           "url": "https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com"
         },
         {
-          "name": "to the commit",
+          "name": "Commit",
           "url": "https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1"
         }
       ],
@@ -1055,15 +1055,15 @@
         "name": "Court judgment, final",
         "group": "strong"
       },
-      "sourceText": "Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25 (Verbraucherzentrale Nordrhein-Westfalen v. Aesthetify GmbH) · final since 21 June 2026 per the class action register of the Federal Office of Justice · full judgment · class action register",
+      "sourceText": "Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25 (Verbraucherzentrale Nordrhein-Westfalen v. Aesthetify GmbH) · final since 21 June 2026 per the class action register of the Federal Office of Justice · class action register · Full judgment",
       "sourceLinks": [
-        {
-          "name": "full judgment",
-          "url": "https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html"
-        },
         {
           "name": "class action register",
           "url": "https://www.bundesjustizamt.de/DE/Themen/Verbraucherrechte/VerbandsklageregisterMusterfeststellungsklagenregister/Verbandsklagenregister/Unterlassungsklagen/Klagen/2025/172/UKlag_172_2025_node.html"
+        },
+        {
+          "name": "Full judgment",
+          "url": "https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html"
         }
       ],
       "citationText": "A German higher regional court has ruled, with the judgment now final, that a company is directly liable for the misleading statements of its own AI chatbot. The chatbot is not a third party in the sense of the law. (Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25, Verbraucherzentrale NRW v. Aesthetify GmbH · final since 21 June 2026). https://robert-haase.de/en/evidence.html#olg-hamm"
@@ -1267,15 +1267,15 @@
         "name": "Verified study",
         "group": "strong"
       },
-      "sourceText": "Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites · to the source · to the leaderboard",
+      "sourceText": "Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites · to the leaderboard · Source",
       "sourceLinks": [
-        {
-          "name": "to the source",
-          "url": "https://arxiv.org/abs/2504.01382"
-        },
         {
           "name": "to the leaderboard",
           "url": "https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard"
+        },
+        {
+          "name": "Source",
+          "url": "https://arxiv.org/abs/2504.01382"
         }
       ],
       "citationText": "Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in ten months. When the benchmark was first evaluated in October 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely. (Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites). https://robert-haase.de/en/evidence.html#agenten-erfolg"
@@ -1298,10 +1298,10 @@
         "name": "Market observation",
         "group": "plain"
       },
-      "sourceText": "Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · to the source",
+      "sourceText": "Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · Source",
       "sourceLinks": [
         {
-          "name": "to the source",
+          "name": "Source",
           "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
         }
       ],
@@ -1325,15 +1325,15 @@
         "name": "Standards status",
         "group": "plain"
       },
-      "sourceText": "Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · to the source · to Google's announcement",
+      "sourceText": "Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · to Google’s announcement · Source",
       "sourceLinks": [
         {
-          "name": "to the source",
-          "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
+          "name": "to Google’s announcement",
+          "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/"
         },
         {
-          "name": "to Google's announcement",
-          "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/"
+          "name": "Source",
+          "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
         }
       ],
       "citationText": "The Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they include Amazon, Meta, Microsoft, Stripe and Salesforce alongside Google, Shopify, Etsy, Target and Wayfair. How many merchants actually run the protocol is stated by none of the companies involved. Google names example merchants — Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden — attached to the word “soon”. (Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure). https://robert-haase.de/en/evidence.html#ucp-gremium-ohne-zahlen"
@@ -1356,7 +1356,7 @@
         "name": "Legal position",
         "group": "plain"
       },
-      "sourceText": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 10 September 2026: Bundestag printed paper 21/4297 of 25 February 2026 (printed paper), verbatim record 21/31 of the committee on legal affairs and consumer protection for the public hearing of 13 April 2026, legislative file BR-Drs. 775/25 and the agendas of Bundesrat sittings 1061 to 1068 (legislative file), Federal Ministry of Justice procedure page with status “Entwurf” and last update 5 March 2026 · to the directive",
+      "sourceText": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 10 September 2026: Bundestag printed paper 21/4297 of 25 February 2026 (printed paper), verbatim record 21/31 of the committee on legal affairs and consumer protection for the public hearing of 13 April 2026, legislative file BR-Drs. 775/25 and the agendas of Bundesrat sittings 1061 to 1068 (legislative file), Federal Ministry of Justice procedure page with status “Entwurf” and last update 5 March 2026 · Directive",
       "sourceLinks": [
         {
           "name": "printed paper",
@@ -1367,7 +1367,7 @@
           "url": "https://www.bundesrat.de/bv.html?id=0775-25"
         },
         {
-          "name": "to the directive",
+          "name": "Directive",
           "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
         }
       ],
@@ -2141,10 +2141,10 @@
         "name": "Controlled trial",
         "group": "strong"
       },
-      "sourceText": "METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · to the study",
+      "sourceText": "METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · Study",
       "sourceLinks": [
         {
-          "name": "to the study",
+          "name": "Study",
           "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
         }
       ],
@@ -2168,10 +2168,10 @@
         "name": "Controlled trial",
         "group": "strong"
       },
-      "sourceText": "Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent · to the peer-reviewed version",
+      "sourceText": "Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent · Peer-reviewed version",
       "sourceLinks": [
         {
-          "name": "to the peer-reviewed version",
+          "name": "Peer-reviewed version",
           "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf"
         }
       ],
@@ -2195,10 +2195,10 @@
         "name": "Controlled experiment",
         "group": "strong"
       },
-      "sourceText": "Doshi and Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content”, Science Advances, vol. 10, issue 28, eadn5290, 12 July 2024, DOI 10.1126/sciadv.adn5290 · pre-registered, 293 writers and 600 raters on Prolific, 3,519 individual ratings, ideas from GPT-4 · the publisher site science.org refuses automated requests, so the check ran on the open full text at Europe PMC · to the full text",
+      "sourceText": "Doshi and Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content”, Science Advances, vol. 10, issue 28, eadn5290, 12 July 2024, DOI 10.1126/sciadv.adn5290 · pre-registered, 293 writers and 600 raters on Prolific, 3,519 individual ratings, ideas from GPT-4 · the publisher site science.org refuses automated requests, so the check ran on the open full text at Europe PMC · Full text",
       "sourceLinks": [
         {
-          "name": "to the full text",
+          "name": "Full text",
           "url": "https://europepmc.org/article/MED/38996021"
         }
       ],
@@ -2222,10 +2222,10 @@
         "name": "Editorially reviewed",
         "group": "plain"
       },
-      "sourceText": "Angelo Romasanta, Llewellyn D. W. Thomas and Natalia Levina, “Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.”, Harvard Business Review, 16 March 2026, HBR Digital Article H093GG · models tested: ChatGPT, Claude, DeepSeek, GPT-5 via the API, Gemini, Grok and Mistral, 50 runs per model and question; the two blocks of more than 15,000 runs ran on ChatGPT-5 alone · full text of 15,613 characters from the structured data of the page, cross-checked against two archive copies · to the article",
+      "sourceText": "Angelo Romasanta, Llewellyn D. W. Thomas and Natalia Levina, “Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.”, Harvard Business Review, 16 March 2026, HBR Digital Article H093GG · models tested: ChatGPT, Claude, DeepSeek, GPT-5 via the API, Gemini, Grok and Mistral, 50 runs per model and question; the two blocks of more than 15,000 runs ran on ChatGPT-5 alone · full text of 15,613 characters from the structured data of the page, cross-checked against two archive copies · Article",
       "sourceLinks": [
         {
-          "name": "to the article",
+          "name": "Article",
           "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
         }
       ],
@@ -2249,14 +2249,14 @@
         "name": "Controlled experiment and vendor documentation",
         "group": "strong"
       },
-      "sourceText": "Sharma, Tong et al., “Towards Understanding Sycophancy in Language Models”, arXiv:2310.13548v4 of 10 May 2025, first version 20 October 2023, peer reviewed and accepted as a poster at ICLR 2024 · key figure from section 4.1: 15,000 randomly drawn response pairs from the helpfulness subset of Anthropic’s hh-rlhf dataset, 23 features, Bayesian logistic regression, holdout accuracy 71.3 percent · models tested: Claude 1.3, Claude 2, GPT-3.5, GPT-4 and LLaMA 2 · plus OpenAI, “Sycophancy in GPT-4o”, 29 April 2025, and “Expanding on what we missed with sycophancy”, 2 May 2025; update of 25 April, rollback from 28 April (OpenAI statement) · to the paper",
+      "sourceText": "Sharma, Tong et al., “Towards Understanding Sycophancy in Language Models”, arXiv:2310.13548v4 of 10 May 2025, first version 20 October 2023, peer reviewed and accepted as a poster at ICLR 2024 · key figure from section 4.1: 15,000 randomly drawn response pairs from the helpfulness subset of Anthropic’s hh-rlhf dataset, 23 features, Bayesian logistic regression, holdout accuracy 71.3 percent · models tested: Claude 1.3, Claude 2, GPT-3.5, GPT-4 and LLaMA 2 · plus OpenAI, “Sycophancy in GPT-4o”, 29 April 2025, and “Expanding on what we missed with sycophancy”, 2 May 2025; update of 25 April, rollback from 28 April (OpenAI statement) · Paper",
       "sourceLinks": [
         {
           "name": "OpenAI statement",
           "url": "https://openai.com/index/sycophancy-in-gpt-4o/"
         },
         {
-          "name": "to the paper",
+          "name": "Paper",
           "url": "https://arxiv.org/abs/2310.13548"
         }
       ],
@@ -2314,10 +2314,10 @@
         "name": "Historical study",
         "group": "strong"
       },
-      "sourceText": "Ruth Schwartz Cowan, “More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave”, 1983 · awarded the Dexter Prize of the Society for the History of Technology, 1984 · to the overview",
+      "sourceText": "Ruth Schwartz Cowan, “More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave”, 1983 · awarded the Dexter Prize of the Society for the History of Technology, 1984 · Overview",
       "sourceLinks": [
         {
-          "name": "to the overview",
+          "name": "Overview",
           "url": "https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave"
         }
       ],
@@ -2341,10 +2341,10 @@
         "name": "Longitudinal study",
         "group": "plain"
       },
-      "sourceText": "Rohrbeck and Kum, “Corporate foresight and its impact on firm performance: A longitudinal analysis”, Technological Forecasting & Social Change 129, 2018 · preparedness measured 2008, performance 2015 · to the study",
+      "sourceText": "Rohrbeck and Kum, “Corporate foresight and its impact on firm performance: A longitudinal analysis”, Technological Forecasting & Social Change 129, 2018 · preparedness measured 2008, performance 2015 · Study",
       "sourceLinks": [
         {
-          "name": "to the study",
+          "name": "Study",
           "url": "https://www.sciencedirect.com/science/article/pii/S0040162517302287"
         }
       ],
@@ -2368,10 +2368,10 @@
         "name": "Ongoing measurement",
         "group": "plain"
       },
-      "sourceText": "ForecastBench, Forecasting Research Institute, tournament and base leaderboards, retrieved 10 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · to the leaderboard",
+      "sourceText": "ForecastBench, Forecasting Research Institute, tournament and base leaderboards, retrieved 10 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · Leaderboard",
       "sourceLinks": [
         {
-          "name": "to the leaderboard",
+          "name": "Leaderboard",
           "url": "https://www.forecastbench.org/leaderboards/"
         }
       ],
@@ -2395,10 +2395,10 @@
         "name": "Preregistered experiment",
         "group": "plain"
       },
-      "sourceText": "Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants · to the study",
+      "sourceText": "Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants · Study",
       "sourceLinks": [
         {
-          "name": "to the study",
+          "name": "Study",
           "url": "https://arxiv.org/abs/2402.07862"
         }
       ],
@@ -2422,10 +2422,10 @@
         "name": "Standard reference",
         "group": "plain"
       },
-      "sourceText": "Andrew Abbott, “The System of Professions: An Essay on the Division of Expert Labor”, University of Chicago Press, 1988 · to the publisher",
+      "sourceText": "Andrew Abbott, “The System of Professions: An Essay on the Division of Expert Labor”, University of Chicago Press, 1988 · Publisher",
       "sourceLinks": [
         {
-          "name": "to the publisher",
+          "name": "Publisher",
           "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html"
         }
       ],
@@ -2449,10 +2449,10 @@
         "name": "Scholarly book",
         "group": "plain"
       },
-      "sourceText": "Elena Esposito, “Artificial Communication: How Algorithms Produce Social Intelligence”, MIT Press, 24 May 2022 · 200 pages, open access edition available · to the publisher",
+      "sourceText": "Elena Esposito, “Artificial Communication: How Algorithms Produce Social Intelligence”, MIT Press, 24 May 2022 · 200 pages, open access edition available · Publisher",
       "sourceLinks": [
         {
-          "name": "to the publisher",
+          "name": "Publisher",
           "url": "https://mitpress.mit.edu/9780262046664/artificial-communication/"
         }
       ],
@@ -2476,10 +2476,10 @@
         "name": "Field study, working paper",
         "group": "plain"
       },
-      "sourceText": "Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon and Lakhani, “Cyborgs, Centaurs and Self-Automators”, Harvard Business School Working Paper 26-036, 2025 · 244 Boston Consulting Group consultants · to the working paper",
+      "sourceText": "Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon and Lakhani, “Cyborgs, Centaurs and Self-Automators”, Harvard Business School Working Paper 26-036, 2025 · 244 Boston Consulting Group consultants · Working paper",
       "sourceLinks": [
         {
-          "name": "to the working paper",
+          "name": "Working paper",
           "url": "https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf"
         }
       ],
@@ -2503,10 +2503,10 @@
         "name": "Field experiment",
         "group": "strong"
       },
-      "sourceText": "Brynjolfsson, Li and Raymond, “Generative AI at Work”, NBER Working Paper 31161, April 2023, revised November 2023 · 5,179 customer support agents · to the working paper",
+      "sourceText": "Brynjolfsson, Li and Raymond, “Generative AI at Work”, NBER Working Paper 31161, April 2023, revised November 2023 · 5,179 customer support agents · Working paper",
       "sourceLinks": [
         {
-          "name": "to the working paper",
+          "name": "Working paper",
           "url": "https://www.nber.org/papers/w31161"
         }
       ],
@@ -2530,10 +2530,10 @@
         "name": "Preregistered experiment",
         "group": "plain"
       },
-      "sourceText": "Noy and Zhang, “Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence”, MIT, working paper of 2 March 2023 · peer-reviewed version in Science 381, 2023, pp. 187–192 · to the publication",
+      "sourceText": "Noy and Zhang, “Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence”, MIT, working paper of 2 March 2023 · peer-reviewed version in Science 381, 2023, pp. 187–192 · Publication",
       "sourceLinks": [
         {
-          "name": "to the publication",
+          "name": "Publication",
           "url": "https://www.science.org/doi/10.1126/science.adh2586"
         }
       ],

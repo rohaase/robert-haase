@@ -18,7 +18,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Zahl nicht sagt:** 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. **Was bleibt:** die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.
 
-**Quelle:** METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · [zur Studie](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+**Quelle:** METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · [Zur Studie](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
 **Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -32,7 +32,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Zahl nicht sagt:** Wo die Grenze verläuft, war den Teilnehmern nicht erkennbar. Die Aufgaben sahen einander ähnlich. Das ist der Kern des Befunds und zugleich seine Einschränkung: Gemessen wurde *eine* bewusst außerhalb platzierte Aufgabe, nicht die Häufigkeit solcher Fälle im Arbeitsalltag. Das Experiment lief mit GPT-4; wo die Grenze heute liegt, ist offen. Beratungsarbeit ist außerdem nicht jede Wissensarbeit.
 
-**Quelle:** Dell'Acqua u. a., „Navigating the Jagged Technological Frontier“, Feldexperiment mit der Boston Consulting Group · Organization Science, online seit 11. März 2026, DOI 10.1287/orsc.2025.21838 · 758 Berater, 18 realistische Aufgaben · das Arbeitspapier von 2023 nannte für die Qualität noch über 40 Prozent · [zur begutachteten Fassung](https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf)
+**Quelle:** Dell'Acqua u. a., „Navigating the Jagged Technological Frontier“, Feldexperiment mit der Boston Consulting Group · Organization Science, online seit 11. März 2026, DOI 10.1287/orsc.2025.21838 · 758 Berater, 18 realistische Aufgaben · das Arbeitspapier von 2023 nannte für die Qualität noch über 40 Prozent · [Zur begutachteten Fassung](https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf)
 
 **Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -46,7 +46,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Zahl nicht sagt:** Die 0,871 Punkte gelten für den Zugang zu einer Idee. Bei bis zu fünf Ideen war die Angleichung kleiner, 0,718 Punkte und 8,9 Prozent, der Kreativitätsgewinn größer. „Mehr KI, mehr Gleichheit“ liest gegen die Daten. **Gemessen ist der Zugang, nicht die Nutzung:** In der Ein-Ideen-Bedingung riefen 82 von 100 überhaupt eine Idee ab, in der zweiten im Mittel 2,55, die vollen fünf nur 24,5 Prozent. **Die eindrucksvollere Zahl ist die weichere:** Die 10,7 Prozent sind ein Anteil an den 8,10 Punkten zwischen höchstem und niedrigstem Wert ohne KI, hängen also an zwei Extremwerten. Dieselben 10,7 Prozent stehen im Papier ein zweites Mal, als Neuartigkeits-Gewinn der am wenigsten kreativen Schreibenden, ohne Bezug dazu. Gemessen ist die Kosinus-Ähnlichkeit von Texteinbettungen einer Gruppe, nicht ob Ergebnisse schlechter sind. „Kreativer“ urteilen Laienleser, im Selbsturteil der Schreibenden gab es keinen statistisch signifikanten Unterschied. Acht Sätze ohne Dialog mit dem Modell, britische Prolific-Teilnehmende statt Berufsautoren: Kurzgeschichten sind keine Strategiepapiere.
 
-**Quelle:** Doshi und Hauser, „Generative AI enhances individual creativity but reduces the collective diversity of novel content“, Science Advances, Band 10, Ausgabe 28, eadn5290, 12. Juli 2024, DOI 10.1126/sciadv.adn5290 · präregistriert, 293 Schreibende und 600 Bewertende auf Prolific, 3.519 Einzelbewertungen, Ideen von GPT-4 · die Verlagsseite science.org wehrt automatisierte Abrufe ab, geprüft wurde am offenen Volltext bei Europe PMC · [zum Volltext](https://europepmc.org/article/MED/38996021)
+**Quelle:** Doshi und Hauser, „Generative AI enhances individual creativity but reduces the collective diversity of novel content“, Science Advances, Band 10, Ausgabe 28, eadn5290, 12. Juli 2024, DOI 10.1126/sciadv.adn5290 · präregistriert, 293 Schreibende und 600 Bewertende auf Prolific, 3.519 Einzelbewertungen, Ideen von GPT-4 · die Verlagsseite science.org wehrt automatisierte Abrufe ab, geprüft wurde am offenen Volltext bei Europe PMC · [Zum Volltext](https://europepmc.org/article/MED/38996021)
 
 **Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -60,7 +60,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Korrigiert am 10.09.2026:** Bis dahin standen hier „96 Prozent Differenzierung“ und „93 Prozent Augmentierung“. Beide Werte stehen nirgends im Beitrag; der Volltext nennt keinen Anteilswert, nur Verschiebungen gegenüber der Ausgangslage, und die Zahlen stammen aus Blog-Zusammenfassungen, vermutlich aus einer Abbildung abgelesen. Ebenfalls korrigiert: Die über 15.000 Durchläufe gelten nicht für die sieben Modelle. Beide 15.000er-Blöcke sind Nachuntersuchungen an einem einzigen Modell, ChatGPT-5; die Sieben-Modelle-Messung beruht auf 50 Durchläufen je Modell und Frage, eine Gesamtzahl nennen die Autoren nicht. **Was die Zahlen nicht sagen:** Die Unempfindlichkeit gilt nur für zwei der sieben Fragen; bei den übrigen fünf verschob besseres Prompten die Antworten im Mittel um 22 Prozent in beide Richtungen, am stärksten wirkte die Reihenfolge der Optionen mit 19 Prozent. Ob die bevorzugte Antwort falsch ist, sagt der Befund nicht, gemessen ist allein die Unempfindlichkeit gegen den Kontext. **Zur Quelle:** ein HBR Digital Article ohne Begutachtung, ein eigenständiges Paper gibt es nicht; ein Repositorium führt ihn als begutachtet, das ist ein Katalogartefakt. Die bezahlgeschränkte Seite liefert den Volltext in ihren strukturierten Daten mit aus, zeichengleich in Archivfassungen vom 17. März und 14. Juli 2026.
 
-**Quelle:** Angelo Romasanta, Llewellyn D. W. Thomas und Natalia Levina, „Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.“, Harvard Business Review, 16. März 2026, HBR Digital Article H093GG · getestet wurden ChatGPT, Claude, DeepSeek, GPT-5 über die API, Gemini, Grok und Mistral, je 50 Durchläufe pro Modell und Frage; die beiden Blöcke mit über 15.000 Durchläufen liefen allein auf ChatGPT-5 · Volltext mit 15.613 Zeichen aus den strukturierten Daten der Seite, gegengeprüft an zwei Archivfassungen · [zum Beitrag](https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return)
+**Quelle:** Angelo Romasanta, Llewellyn D. W. Thomas und Natalia Levina, „Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.“, Harvard Business Review, 16. März 2026, HBR Digital Article H093GG · getestet wurden ChatGPT, Claude, DeepSeek, GPT-5 über die API, Gemini, Grok und Mistral, je 50 Durchläufe pro Modell und Frage; die beiden Blöcke mit über 15.000 Durchläufen liefen allein auf ChatGPT-5 · Volltext mit 15.613 Zeichen aus den strukturierten Daten der Seite, gegengeprüft an zwei Archivfassungen · [Zum Beitrag](https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return)
 
 **Einstufung:** Redaktionell geprüft · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -74,7 +74,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Zahl nicht sagt:** Die Untersuchung stammt von Anthropic, zwei der fünf getesteten Assistenten und das analysierte Belohnungsmodell sind eigene, alle Modelle sind von 2023. Wahrhaftigkeit ist ebenfalls belohnt, je nach Versuchsbedingung ist Übereinstimmung nicht das stärkste Merkmal. Geprüft sind Faktenfragen und Freitextaufgaben, nicht Strategieempfehlungen. Gemessen ist, was die Daten belohnen, nicht wie oft ein Assistent im Betrieb schmeichelt; die OpenAI-Rücknahme zeigt nur, dass der Effekt dort auftreten und bemerkt werden kann, nicht wie stark er heute ist. **Vorsicht bei der meistzitierten Zahl:** Im Teilversuch an 266 Fehlannahmen sind die zustimmenden Antworten eigens erzeugt: ein Modell sollte subtil täuschen, aus 4.096 Ziehungen wurde die überzeugendste gewählt. Die 95 Prozent sind das Urteil des Claude-2-Präferenzmodells, nicht das von Menschen, gemessen gegen die beste von drei kurzen, menschlich geschriebenen Widerspruchsantworten, ausgewählt von ebendiesem Modell. Für die menschlichen Bewerter nennt das Papier keine Zahl; sie zogen die korrigierende Antwort überwiegend vor, mit steigender Schwierigkeit seltener, aus der Abbildung abgelesen rund 3 Prozent auf der leichtesten und rund 21 Prozent auf der schwersten Stufe. Das ist die Mehrheit mehrerer Laien ohne Nachschlagemöglichkeit, der einzelne Bewerter liegt im Mittel darüber. Die Autoren nennen den Datensatz einen Machbarkeitsnachweis.
 
-**Quelle:** Sharma, Tong u. a., „Towards Understanding Sycophancy in Language Models“, arXiv:2310.13548v4 vom 10. Mai 2025, erste Fassung 20. Oktober 2023, begutachtet und als Poster auf der ICLR 2024 angenommen · Kennzahl aus Abschnitt 4.1: 15.000 zufällig gezogene Antwortpaare aus der Helpfulness-Teilmenge von Anthropics hh-rlhf-Datensatz, 23 Merkmale, Bayessche logistische Regression, Holdout-Genauigkeit 71,3 Prozent · getestet wurden Claude 1.3, Claude 2, GPT-3.5, GPT-4 und LLaMA 2 · dazu OpenAI, „Sycophancy in GPT-4o“, 29. April 2025, und „Expanding on what we missed with sycophancy“, 2. Mai 2025; Update vom 25. April, Rücknahme ab dem 28. April ([OpenAI-Mitteilung](https://openai.com/index/sycophancy-in-gpt-4o/)) · [zum Papier](https://arxiv.org/abs/2310.13548)
+**Quelle:** Sharma, Tong u. a., „Towards Understanding Sycophancy in Language Models“, arXiv:2310.13548v4 vom 10. Mai 2025, erste Fassung 20. Oktober 2023, begutachtet und als Poster auf der ICLR 2024 angenommen · Kennzahl aus Abschnitt 4.1: 15.000 zufällig gezogene Antwortpaare aus der Helpfulness-Teilmenge von Anthropics hh-rlhf-Datensatz, 23 Merkmale, Bayessche logistische Regression, Holdout-Genauigkeit 71,3 Prozent · getestet wurden Claude 1.3, Claude 2, GPT-3.5, GPT-4 und LLaMA 2 · dazu OpenAI, „Sycophancy in GPT-4o“, 29. April 2025, und „Expanding on what we missed with sycophancy“, 2. Mai 2025; Update vom 25. April, Rücknahme ab dem 28. April ([OpenAI-Mitteilung](https://openai.com/index/sycophancy-in-gpt-4o/)) · [Zum Papier](https://arxiv.org/abs/2310.13548)
 
 **Einstufung:** Kontrollierter Test und Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -102,7 +102,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Untersuchung nicht sagt:** Sie handelt von Haushalten zwischen offener Feuerstelle und Mikrowelle, nicht von Wissensarbeit und nicht von KI. Wer sie überträgt, zieht eine Analogie, keinen Beweis. **Sie taugt als Korrektiv, nicht als Prognose:** Sie zeigt, dass Arbeitsersparnis durch Technik eine Annahme ist, die historisch schon einmal nicht eingetreten ist. Dass sie wieder ausbleibt, zeigt die Untersuchung nicht.
 
-**Quelle:** Ruth Schwartz Cowan, „More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave“, 1983 · ausgezeichnet mit dem Dexter Prize der Society for the History of Technology, 1984 · [zur Übersicht](https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave)
+**Quelle:** Ruth Schwartz Cowan, „More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave“, 1983 · ausgezeichnet mit dem Dexter Prize der Society for the History of Technology, 1984 · [Zur Übersicht](https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave)
 
 **Einstufung:** Historische Untersuchung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -116,7 +116,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die vielzitierte Zahl verschweigt:** Von 83 befragten Konzernen blieben nach dem Abgleich mit Leistungsdaten **70 für die Profitabilität und nur 42 für das Marktkapitalisierungswachstum**. Die Autoren nennen das selbst eine wesentliche Einschränkung. Die „200 Prozent zusätzliches Wachstum“, die in der Foresight-Branche kursieren, stehen damit auf 42 Unternehmen. **Und es ist ein Zusammenhang, keine Ursache:** Konzerne, die sich Zukunftsarbeit leisten, unterscheiden sich auch sonst von denen, die es nicht tun.
 
-**Quelle:** Rohrbeck und Kum, „Corporate foresight and its impact on firm performance: A longitudinal analysis“, Technological Forecasting & Social Change 129, 2018 · Vorbereitung 2008 erhoben, Leistung 2015 · [zur Studie](https://www.sciencedirect.com/science/article/pii/S0040162517302287)
+**Quelle:** Rohrbeck und Kum, „Corporate foresight and its impact on firm performance: A longitudinal analysis“, Technological Forecasting & Social Change 129, 2018 · Vorbereitung 2008 erhoben, Leistung 2015 · [Zur Studie](https://www.sciencedirect.com/science/article/pii/S0040162517302287)
 
 **Einstufung:** Längsschnittstudie · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -144,7 +144,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was das Ergebnis nahelegt und nicht beweist:** Dass auch der schlechte Assistent wirkte, spricht dafür, dass ein Teil des Gewinns aus dem Vorgang des Befragens stammt und nicht aus der Güte der Maschinenantwort. Bewiesen ist das nicht. Die Autoren weisen selbst darauf hin, dass Ausreißer das Bild beeinflussen und die Robustheit zu prüfen bleibt. Sechs Fragen sind eine schmale Grundlage, und es ist ein Preprint.
 
-**Quelle:** Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · [zur Studie](https://arxiv.org/abs/2402.07862)
+**Quelle:** Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · [Zur Studie](https://arxiv.org/abs/2402.07862)
 
 **Einstufung:** Präregistriertes Experiment · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -158,7 +158,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Untersuchung nicht sagt:** Sie stammt von 1988 und behandelt klassische Professionen (Medizin, Recht, Buchhaltung), nicht Beratung und nicht KI. Ihre Übertragung auf heutige Berufsbilder ist eine Deutung. **Und sie erklärt nicht, wie man eine Zuständigkeit gewinnt**, sondern beschreibt, worum konkurriert wird. Als Beleg taugt sie für die Frage, was Definitionsmacht bedeutet, und nicht als Anleitung.
 
-**Quelle:** Andrew Abbott, „The System of Professions: An Essay on the Division of Expert Labor“, University of Chicago Press, 1988 · [zum Verlag](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html)
+**Quelle:** Andrew Abbott, „The System of Professions: An Essay on the Division of Expert Labor“, University of Chicago Press, 1988 · [Zum Verlag](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html)
 
 **Einstufung:** Standardwerk · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -172,7 +172,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was das Buch nicht ist:** keine Messung, sondern ein theoretischer Vorschlag aus der Systemtheorie. Es belegt keine Zahl und lässt sich nicht widerlegen wie ein Experiment. **Und es handelt nicht von Marken:** Espositos Beispiele sind Empfehlungslisten, Profilbildung und das Recht auf Vergessen. Die Übertragung auf die Frage, ob eine Marke für Maschinen lesbar ist, ist eine Deutung: eine naheliegende, aber keine, die im Buch steht.
 
-**Quelle:** Elena Esposito, „Artificial Communication: How Algorithms Produce Social Intelligence“, MIT Press, 24. Mai 2022 · 200 Seiten, Open-Access-Ausgabe verfügbar · [zum Verlag](https://mitpress.mit.edu/9780262046664/artificial-communication/)
+**Quelle:** Elena Esposito, „Artificial Communication: How Algorithms Produce Social Intelligence“, MIT Press, 24. Mai 2022 · 200 Seiten, Open-Access-Ausgabe verfügbar · [Zum Verlag](https://mitpress.mit.edu/9780262046664/artificial-communication/)
 
 **Einstufung:** Fachbuch · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -186,7 +186,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Studie nicht sagt:** Sie vergleicht *nicht* die Qualität der Ergebnisse. Im Abstract steht keine Aussage darüber, welche Arbeitsweise genauere Empfehlungen hervorbringt; **anderslautende Zusammenfassungen im Umlauf gehen über die Quelle hinaus.** Gemessen ist der Kompetenzaufbau, nicht das Ergebnis. Außerdem: ein Arbeitspapier in Entwurfsform, nicht begutachtet, und die Befragten kommen alle aus einer einzigen Beratung.
 
-**Quelle:** Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon und Lakhani, „Cyborgs, Centaurs and Self-Automators“, Harvard Business School Working Paper 26-036, 2025 · 244 Berater der Boston Consulting Group · [zum Arbeitspapier](https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf)
+**Quelle:** Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon und Lakhani, „Cyborgs, Centaurs and Self-Automators“, Harvard Business School Working Paper 26-036, 2025 · 244 Berater der Boston Consulting Group · [Zum Arbeitspapier](https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf)
 
 **Einstufung:** Feldstudie, Arbeitspapier · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -200,7 +200,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Zahl nicht sagt:** Kundendienst ist stark strukturierte Arbeit mit wiederkehrenden Fällen. Die Übertragung auf Strategie oder Gestaltung ist offen. **Und es ist ein Arbeitspapier**, laut Deckblatt ausdrücklich nicht begutachtet. Gemessen wurde außerdem Menge, nicht Güte: gelöste Anliegen pro Stunde, nicht wie gut sie gelöst wurden, auch wenn die Kundenstimmung sich mitverbesserte.
 
-**Quelle:** Brynjolfsson, Li und Raymond, „Generative AI at Work“, NBER Working Paper 31161, April 2023, überarbeitet November 2023 · 5.179 Kundendienst-Mitarbeitende · [zum Arbeitspapier](https://www.nber.org/papers/w31161)
+**Quelle:** Brynjolfsson, Li und Raymond, „Generative AI at Work“, NBER Working Paper 31161, April 2023, überarbeitet November 2023 · 5.179 Kundendienst-Mitarbeitende · [Zum Arbeitspapier](https://www.nber.org/papers/w31161)
 
 **Einstufung:** Feldexperiment · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -214,7 +214,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Zur Zahl selbst:** Hier stehen die Werte der geprüften Arbeitspapier-Fassung vom März 2023, die ausdrücklich nicht begutachtet ist. **Die begutachtete Fassung erschien später in *Science* und trägt abweichende Angaben:** In Umlauf sind 453 Teilnehmende und „40 Prozent Zeitersparnis“; diese Fassung liegt hinter einer Bezahlschranke und wurde nicht im Original eingesehen. **Was die Zahl nicht sagt:** Es waren kurze, isolierte Schreibaufgaben, keine Projekte über Wochen.
 
-**Quelle:** Noy und Zhang, „Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence“, MIT, Arbeitspapier vom 2. März 2023 · begutachtete Fassung in Science 381, 2023, S. 187–192 · [zur Veröffentlichung](https://www.science.org/doi/10.1126/science.adh2586)
+**Quelle:** Noy und Zhang, „Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence“, MIT, Arbeitspapier vom 2. März 2023 · begutachtete Fassung in Science 381, 2023, S. 187–192 · [Zur Veröffentlichung](https://www.science.org/doi/10.1126/science.adh2586)
 
 **Einstufung:** Präregistriertes Experiment · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 

@@ -60,7 +60,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Zahl nicht sagt:** Cloudflare nennt für die Hälfte-Aussage *weder die Art des gemessenen Verkehrs noch den Zeitraum*. Ob Seitenabrufe gemeint sind oder alle Anfragen, bleibt offen. Sie beruht auf dem eigenen Netz, das groß, aber nicht das Internet ist. Die Crawler-Zahl ist dagegen datiert und mit Vorjahreswert versehen und deshalb die brauchbarere von beiden. **Achtung bei der Weiterverwendung:** In Sekundärquellen kursiert die Angabe als „57,5 Prozent“. Diese Zahl steht bei Cloudflare nirgends.
 
-**Quelle:** Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · [zur Quelle](https://blog.cloudflare.com/agentic-internet-bot-report/)
+**Quelle:** Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · [Zur Quelle](https://blog.cloudflare.com/agentic-internet-bot-report/)
 
 **Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 

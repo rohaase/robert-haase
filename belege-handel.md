@@ -88,7 +88,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 **Was die Zahl nicht sagt:** Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. **Die fehlende Verbreitungszahl ist ein Negativbefund:** Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. **Vorsicht bei Sekundärquellen:** Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug.
 
-**Quelle:** Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · [zur Quelle](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379) · [zu Googles Ankündigung](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/)
+**Quelle:** Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · [zu Googles Ankündigung](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Zur Quelle](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
 **Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
