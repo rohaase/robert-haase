@@ -88,7 +88,7 @@ Allow: /
 # Structured data (JSON-LD) embedded in HTML:
 # WebSite, Person, ProfessionalService, ProfilePage, Article, FAQPage, BreadcrumbList,
 # DefinedTerm, DefinedTermSet (coined terms: https://robert-haase.de/begriffe.html#set, EN: https://robert-haase.de/en/glossary.html)
-# CollectionPage with 90 Claim objects, each carrying its source and its stated limits:
+# CollectionPage with 92 Claim objects, each carrying its source and its stated limits:
 # https://robert-haase.de/belege.html (EN: https://robert-haase.de/en/evidence.html)
 # The same entries as files generated from the page:
 # Markdown, one file per topic, each small enough for one fetch, index at https://robert-haase.de/belege.md (EN: https://robert-haase.de/en/evidence.md)

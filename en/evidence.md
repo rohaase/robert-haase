@@ -1,6 +1,6 @@
-# Evidence: all 90 claims
+# Evidence: all 92 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 10 September 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 12 September 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -25,7 +25,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Topic files
 
 - AI search, 16 entries: https://robert-haase.de/en/evidence-ai-search.md
-- Agents, 24 entries: https://robert-haase.de/en/evidence-agents.md
+- Agents, 26 entries: https://robert-haase.de/en/evidence-agents.md
 - Commerce, 6 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 12 entries: https://robert-haase.de/en/evidence-liability.md
 - Market size, 14 entries: https://robert-haase.de/en/evidence-market.md
@@ -54,9 +54,9 @@ The collection does not map the state of the research, only the figures I needed
 - **markenstatur-sichtbarkeit** · Vendor measurement, preprint without peer review · Ask an AI search engine a category question without naming the brand, and globally known brands appear on average in 72.9 percent of answers on the first tracking run, established mid-market and regional brands in 43.6 percent, small and niche brands in 11.4 percent. Of all 149,912 citations counted, 2.9 percent point at the brand’s own website and 75.2 percent at those of other companies in the same category. → https://robert-haase.de/en/evidence-ai-search.md
 - **zitier-position** · Vendor measurement, preliminary · Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text. The middle section, the widest at 40 percent of the text, carries 31.1 percent, the closing section 24.7 percent. In a second analysis of 11,022 citations, cited introductions reached a proper-noun density of 20.6 percent, against the 5 to 8 percent the author derives from standard corpora (Brown Corpus, Penn Treebank), with no arithmetic shown. → https://robert-haase.de/en/evidence-ai-search.md
 
-## Agents (24)
+## Agents (26)
 
-+ Verified study, vendor documentation, or court decision (16) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
++ Verified study, vendor documentation, or court decision (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
 + Preliminary: prototype, single test, forecast, or vendor figure (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
 + Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
 
@@ -74,6 +74,8 @@ The collection does not map the state of the research, only the figures I needed
 - **dax-benennung** · Own survey, reproducible · Across 135 home pages of German listed companies from the DAX, MDAX and SDAX, 456 of 13,527 controls carry no name in the accessibility tree, or 3.4 percent. The rate barely differs between the three indices: DAX 3.1, MDAX 3.8, SDAX 3.3 percent. → https://robert-haase.de/en/evidence-agents.md
 - **dax-landmarken** · Own survey, reproducible · 52 of 135 home pages of German listed companies have no main-content landmark. For a program reading the page, the marker for where content begins and navigation ends is missing. → https://robert-haase.de/en/evidence-agents.md
 - **dax-bilder** · Own measurement, reproducible · Across 135 home pages of German listed companies from DAX, MDAX and SDAX, 1,662 of the 3,979 images Chrome exposes in the accessibility tree carry no name, so 41.8 percent. Among the unnamed images then inspected by element type, 86 percent are inline SVG graphics and 13 percent classic img elements. → https://robert-haase.de/en/evidence-agents.md
+- **verlage-robots** · Own survey, reproducible · Of 76 assessable German-language news and trade media, 44 block at least one training crawler in their robots.txt, or 57.9 percent. 38 of them block GPTBot, exactly half, 40 block CCBot and 36 Bytespider. Far fewer block the same provider’s search bot: OAI-SearchBot appears on 8 outlets’ lists, or 10.5 percent. 11 outlets block training without blocking a single AI search bot or user-triggered fetch. → https://robert-haase.de/en/evidence-agents.md
+- **marken-robots** · Own survey, reproducible · Of 148 assessable home pages of the companies in DAX, MDAX and SDAX, 10 block at least one training crawler, or 6.8 percent; 4 block GPTBot. 138 block no AI access at all, among them 14 that serve no robots.txt whatsoever. 7 companies write an express permission for an AI crawler into the file, 6 of which block none at the same time: there are almost as many invitations as blocks. The only reservation of text and data mining rights to be found in the index sits with an academic publisher, and that publisher blocks no crawler at all. → https://robert-haase.de/en/evidence-agents.md
 - **agenten-erfolg** · Verified study · Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in ten months. When the benchmark was first evaluated in October 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely. → https://robert-haase.de/en/evidence-agents.md
 - **frontify-mcp** · Vendor documentation · Frontify opens its brand portal through an MCP server it runs itself. On 10 September 2026 it lists 54 tools one by one in ten packs, graded from read-only to full administrative access. The read-only Discovery pack holds 24 tools, the Admin pack all 54, two of them flagged as destructive. → https://robert-haase.de/en/evidence-agents.md
 - **canva-mcp** · Vendor documentation · Canva runs an official MCP server and documents 33 tools for it. 27 are available on every plan, among them creating and exporting designs. Four require at least Canva Pro, among them listing brand kits and using brand templates. Two are reserved for Enterprise: autofilling a template with data and reading the associated dataset. Every user authenticates individually, and an agent holds the permissions of the human signed in. → https://robert-haase.de/en/evidence-agents.md
@@ -163,4 +165,4 @@ The collection does not map the state of the research, only the figures I needed
 - **mintzberg-muster** · Exploratory case studies, concept-forming · Henry Mintzberg defined strategy in 1978 as “a pattern in a stream of decisions”: a strategy has formed once a sequence of decisions shows consistency over time. That opens to research the strategies which came about despite intentions, or with no intention at all. He showed it on two long-run cases, Volkswagenwerk and the United States in Vietnam from 1950 to 1973. → https://robert-haase.de/en/evidence-judgement.md
 - **wahrgenommene-differenzierung** · Survey · Across 17 product categories in Australia and the UK, an average of 11 percent of a brand’s current users consider it different and 10 percent consider it unique; 17 percent name at least one of the two. They buy the brand anyway. The authors recommend distinctiveness instead. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 90 of 90 claims in 6 topics.
+End of overview: 92 of 92 claims in 6 topics.

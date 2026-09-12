@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-24 von 90 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 10. September 2026.
+26 von 92 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
 + Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
 
@@ -224,6 +224,34 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
+## verlage-robots
+
+**Aussage:** Von 76 auswertbaren deutschsprachigen Nachrichten- und Fachmedien sperren 44 in ihrer robots.txt mindestens einen Trainings-Crawler, also 57,9 Prozent. GPTBot sperren 38 von ihnen, also genau die Hälfte, CCBot 40 und Bytespider 36. Den Suchbot desselben Anbieters sperren weit weniger: OAI-SearchBot steht bei 8 Medien auf der Liste, das sind 10,5 Prozent. 11 Medien sperren das Training, ohne einen KI-Suchbot oder einen Abruf auf Nutzerfrage zu sperren.
+
+**Was die Zahl nicht sagt:** robots.txt verbietet nichts, sie bittet. Gemessen ist eine Absichtserklärung, kein Zugriffsschutz: Der Standard RFC 9309 stellt die Befolgung ausdrücklich frei, und OpenAI schreibt für den Abruf auf Nutzerfrage selbst, dass die Regeln dort nicht gelten müssen. **Eine Sperre gegen das Training sagt deshalb nichts über die Sichtbarkeit in KI-Antworten**, solange die Suchbots offen bleiben. **Offen heißt hier nicht erlaubt:** Gemessen ist die Abwesenheit einer Sperre, nicht eine ausgesprochene Erlaubnis; genau 2 der 76 Medien schreiben einem KI-Bot eine ausdrückliche Erlaubnis in die Datei. **Drei der gezählten Namen sind gar keine Crawler:** Google-Extended, Applebot-Extended und Webzio-Extended holen keine Seite, sie steuern nur, was mit bereits geholten Daten geschehen darf. Bei Apple und Microsoft lassen sich Suche und KI technisch nicht trennen, beide führen dafür keinen eigenen Namen. **Und der Name muss genau stimmen:** Ein Fachtitel sperrt „ChatGPT“, eine Kennung, die OpenAI nicht führt, deshalb greift die Regel nicht. **Und die Stichprobe ist offengelegt, aber nicht repräsentativ:** 14 der 77 Titel stammen aus einer externen Rangliste, der Rest folgt benannten Regeln. Die Nachrichtenagenturen fehlen, und sie sind der stärkste Einwand: dpa, AFP, epd, APA und Keystone-SDA sperren zusammen keinen einzigen KI-Crawler, weil ihre Inhalte über Verträge geschützt sind und nicht über diese Datei.
+
+**Quelle:** Eigene Erhebung, 12. September 2026 · 77 Titel angefragt, 76 auswertbar · Nachrichtenteil nach dem Diagramm „Weekly reach online“ der Länderseite Deutschland im Reuters Institute Digital News Report 2026, Fachmedien sowie Österreich und die Schweiz nach benannter Regel · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 3 Titeln · zwei Durchläufe mit identischem Urteil
+
+**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#verlage-robots
+
+---
+
+## marken-robots
+
+**Aussage:** Von 148 auswertbaren Startseiten der Unternehmen aus DAX, MDAX und SDAX sperren 10 mindestens einen Trainings-Crawler, also 6,8 Prozent; GPTBot sperren 4. 138 sperren keinen einzigen KI-Zugriff, darunter 14, die gar keine robots.txt ausliefern. 7 Unternehmen schreiben einem KI-Crawler eine ausdrückliche Erlaubnis in die Datei, 6 davon sperren zugleich keinen: Es gibt fast so viele Einladungen wie Sperren. Die einzige Reservierung von Rechten für Text und Data Mining, die sich im Index finden ließ, steht bei einem Wissenschaftsverlag, und der sperrt keinen einzigen Crawler.
+
+**Was die Zahl nicht sagt:** Sie misst eine Bitte, keinen Zugriffsschutz; wie viele derselben Seiten einen automatisierten Abruf technisch abweisen, steht als eigener Beleg auf dieser Seite. **Von den zehn Sperren sind acht namentlich.** Eine Seite sperrt alles Unbenannte und lässt die großen Anbieter ausdrücklich herein, eine sperrt alle Crawler einschließlich Google, was keine Entscheidung über KI ist, und eine zählt nur mit, weil ein KI-Crawler in einer übernommenen Sammelliste von 139 unerwünschten Bots steht. **Eine fehlende Sperre ist keine Entscheidung für KI:** 14 Seiten haben gar keine Datei und damit nichts entschieden. **12 Seiten waren nicht auswertbar**, sechs weisen den Abruf ab, sechs antworten nicht; in welche Richtung das die Quote verschiebt, bleibt offen, denn nach RFC 9309 gilt eine nicht erreichbare robots.txt als Erlaubnis. Gemessen ist die Startseite: Wer tiefer im Angebot andere Regeln setzt, erscheint hier als offen. **Die Reservierung der Rechte ist nur technisch gesucht**, in der dafür vorgesehenen Datei, im Kopf der Seite und im Seitenquelltext; 134 der 160 Seiten haben darauf eindeutig geantwortet. Ein Vorbehalt in den Nutzungsbedingungen, die in Deutschland übliche Form, ist damit nicht erfasst.
+
+**Quelle:** Eigene Erhebung, 12. September 2026 · dieselbe Liste wie die Erhebung vom 30. August, 160 Startseiten aus DAX, MDAX und SDAX, Index-Mitglieder aus Wikipedia, Adresse aus Wikidata · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 2 Seiten · zwei Durchläufe, 160 von 160 Seiten mit identischem Urteil
+
+**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#marken-robots
+
+---
+
 ## agenten-erfolg
 
 **Aussage:** Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in zehn Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im Oktober 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.
@@ -364,4 +392,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 24 von 24 Einträgen zum Thema Agenten. Letzter Eintrag: veeva-mlr.
+Ende der Datei: 26 von 26 Einträgen zum Thema Agenten. Letzter Eintrag: veeva-mlr.

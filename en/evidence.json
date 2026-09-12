@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-10",
+  "dateModified": "2026-09-12",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 90,
+  "numberOfItems": 92,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -74,7 +74,7 @@
     {
       "id": "agenten",
       "name": "Agents",
-      "numberOfItems": 24,
+      "numberOfItems": 26,
       "textFile": "https://robert-haase.de/en/evidence-agents.md",
       "ids": [
         "leere-buttons",
@@ -91,6 +91,8 @@
         "dax-benennung",
         "dax-landmarken",
         "dax-bilder",
+        "verlage-robots",
+        "marken-robots",
         "agenten-erfolg",
         "frontify-mcp",
         "canva-mcp",
@@ -114,6 +116,8 @@
           "dax-benennung",
           "dax-landmarken",
           "dax-bilder",
+          "verlage-robots",
+          "marken-robots",
           "agenten-erfolg",
           "frontify-mcp",
           "canva-mcp",
@@ -1494,6 +1498,56 @@
     },
     {
       "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#verlage-robots",
+      "text": "Of 76 assessable German-language news and trade media, 44 block at least one training crawler in their robots.txt, or 57.9 percent. 38 of them block GPTBot, exactly half, 40 block CCBot and 36 Bytespider. Far fewer block the same provider’s search bot: OAI-SearchBot appears on 8 outlets’ lists, or 10.5 percent. 11 outlets block training without blocking a single AI search bot or user-triggered fetch.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Own survey, 12 September 2026 · 77 titles requested, 76 assessable · news part per the “Weekly reach online” chart on the Germany page of the Reuters Institute Digital News Report 2026, trade media and the Austrian and Swiss titles by a stated rule · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 3 titles · two runs with identical verdicts",
+        "url": "https://robert-haase.de/en/evidence.html#verlage-robots"
+      },
+      "disambiguatingDescription": "What the number does not say: robots.txt forbids nothing, it asks. What is measured is a declaration of intent, not access control: RFC 9309 expressly leaves compliance optional, and OpenAI itself writes that the rules may not apply to user-triggered retrieval. Blocking training therefore says nothing about visibility in AI answers while the search bots stay open. Open does not mean permitted here: what is measured is the absence of a block, not a stated permission; exactly 2 of the 76 outlets write an express allow for an AI bot into the file. Three of the names counted are not crawlers at all: Google-Extended, Applebot-Extended and Webzio-Extended fetch no page, they only govern what may happen to data already fetched. At Apple and Microsoft, search and AI cannot be separated technically, neither runs a separate name for it. And the name has to be exact: one trade title blocks “ChatGPT”, a token OpenAI does not run, so the rule does not apply. And the sample is disclosed but not representative: 14 of the 77 titles come from an external ranking, the rest follow stated rules. The news agencies are missing, and they are the strongest objection: dpa, AFP, epd, APA and Keystone-SDA together block not a single AI crawler, because their content is protected by contract rather than by this file.",
+      "author": {
+        "@id": "https://robert-haase.de/#person"
+      },
+      "position": 43,
+      "id": "verlage-robots",
+      "url": "https://robert-haase.de/en/evidence.html#verlage-robots",
+      "topic": "agenten",
+      "grade": {
+        "name": "Own survey, reproducible",
+        "group": "strong"
+      },
+      "sourceText": "Own survey, 12 September 2026 · 77 titles requested, 76 assessable · news part per the “Weekly reach online” chart on the Germany page of the Reuters Institute Digital News Report 2026, trade media and the Austrian and Swiss titles by a stated rule · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 3 titles · two runs with identical verdicts",
+      "sourceLinks": [],
+      "citationText": "Of 76 assessable German-language news and trade media, 44 block at least one training crawler in their robots.txt, or 57.9 percent. 38 of them block GPTBot, exactly half, 40 block CCBot and 36 Bytespider. Far fewer block the same provider’s search bot: OAI-SearchBot appears on 8 outlets’ lists, or 10.5 percent. 11 outlets block training without blocking a single AI search bot or user-triggered fetch. (Own survey, 12 September 2026 · 77 titles requested, 76 assessable · news part per the “Weekly reach online” chart on the Germany page of the Reuters Institute Digital News Report 2026, trade media and the Austrian and Swiss titles by a stated rule · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 3 titles · two runs with identical verdicts). https://robert-haase.de/en/evidence.html#verlage-robots"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#marken-robots",
+      "text": "Of 148 assessable home pages of the companies in DAX, MDAX and SDAX, 10 block at least one training crawler, or 6.8 percent; 4 block GPTBot. 138 block no AI access at all, among them 14 that serve no robots.txt whatsoever. 7 companies write an express permission for an AI crawler into the file, 6 of which block none at the same time: there are almost as many invitations as blocks. The only reservation of text and data mining rights to be found in the index sits with an academic publisher, and that publisher blocks no crawler at all.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Own survey, 12 September 2026 · the same list as the survey of 30 August, 160 home pages from DAX, MDAX and SDAX, index membership from Wikipedia, address from Wikidata · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 2 pages · two runs, 160 of 160 pages with identical verdicts",
+        "url": "https://robert-haase.de/en/evidence.html#marken-robots"
+      },
+      "disambiguatingDescription": "What the number does not say: It measures a request, not access control; how many of the same pages technically reject an automated retrieval is a separate entry on this page. Of the ten blocks, eight are by name. One page blocks everything unnamed and expressly admits the large providers, one blocks every crawler including Google, which is no decision about AI, and one counts only because an AI crawler sits in an inherited list of 139 unwanted bots. A missing block is not a decision for AI: 14 pages have no file at all and have therefore decided nothing. Twelve pages were not assessable, six reject the retrieval and six do not answer; which way that moves the rate is open, because under RFC 9309 an unreachable robots.txt counts as permission. What is measured is the home page: anyone setting different rules deeper in the site appears open here. The rights reservation was sought only in technical form, in the file provided for it, in the response header and in the page source; 134 of the 160 pages answered that clearly. A reservation in the terms of use, the form common in Germany, is therefore not covered.",
+      "author": {
+        "@id": "https://robert-haase.de/#person"
+      },
+      "position": 44,
+      "id": "marken-robots",
+      "url": "https://robert-haase.de/en/evidence.html#marken-robots",
+      "topic": "agenten",
+      "grade": {
+        "name": "Own survey, reproducible",
+        "group": "strong"
+      },
+      "sourceText": "Own survey, 12 September 2026 · the same list as the survey of 30 August, 160 home pages from DAX, MDAX and SDAX, index membership from Wikipedia, address from Wikidata · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 2 pages · two runs, 160 of 160 pages with identical verdicts",
+      "sourceLinks": [],
+      "citationText": "Of 148 assessable home pages of the companies in DAX, MDAX and SDAX, 10 block at least one training crawler, or 6.8 percent; 4 block GPTBot. 138 block no AI access at all, among them 14 that serve no robots.txt whatsoever. 7 companies write an express permission for an AI crawler into the file, 6 of which block none at the same time: there are almost as many invitations as blocks. The only reservation of text and data mining rights to be found in the index sits with an academic publisher, and that publisher blocks no crawler at all. (Own survey, 12 September 2026 · the same list as the survey of 30 August, 160 home pages from DAX, MDAX and SDAX, index membership from Wikipedia, address from Wikidata · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 2 pages · two runs, 160 of 160 pages with identical verdicts). https://robert-haase.de/en/evidence.html#marken-robots"
+    },
+    {
+      "@type": "Claim",
       "@id": "https://robert-haase.de/en/evidence.html#agenten-erfolg",
       "text": "Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in ten months. When the benchmark was first evaluated in October 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely.",
       "appearance": {
@@ -1502,7 +1556,7 @@
         "url": "https://arxiv.org/abs/2504.01382"
       },
       "disambiguatingDescription": "What the number does not say: The current figures come from four leaderboard entries, submitted by the agents' own vendors and checked by the benchmark team — not an independent survey. And a warning sits on the leaderboard itself: the tasks have been public since April 2025, and the team explicitly asks that they not be used as training data. Whether the scores show capability or familiarity with known tasks is therefore undecided. What is measured is whether a task was completed, not how well — and not whether the brand was represented correctly along the way.",
-      "position": 43,
+      "position": 45,
       "id": "agenten-erfolg",
       "url": "https://robert-haase.de/en/evidence.html#agenten-erfolg",
       "topic": "agenten",
@@ -1533,7 +1587,7 @@
         "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
       },
       "disambiguatingDescription": "What the number does not say: For the majority claim Cloudflare states neither what traffic was measured — page requests, all requests? — nor over what period. It rests on their own network, which is large but is not the Internet. The crawler figure is dated and carries a prior-year comparison, making it the more usable of the two. Care when reusing: secondary sources circulate the figure as “57.5 percent” — that number appears nowhere at Cloudflare.",
-      "position": 44,
+      "position": 46,
       "id": "nicht-menschlicher-verkehr",
       "url": "https://robert-haase.de/en/evidence.html#nicht-menschlicher-verkehr",
       "topic": "markt",
@@ -1560,7 +1614,7 @@
         "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
       },
       "disambiguatingDescription": "What the number does not say: A seat on a council is not an implementation. That Amazon, Meta and Microsoft help shape the protocol says nothing about whether they use it in their own stores. The missing adoption figure is a negative finding: it is absent from the primary sources checked — the UCP announcements in the project repository and two Google posts from 19 March and 19 May 2026. It may exist elsewhere. Care with secondary sources: they widely reproduce Google's sentence without the “soon”, turning an announcement into a fact.",
-      "position": 45,
+      "position": 47,
       "id": "ucp-gremium-ohne-zahlen",
       "url": "https://robert-haase.de/en/evidence.html#ucp-gremium-ohne-zahlen",
       "topic": "handel",
@@ -1591,7 +1645,7 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
       },
       "disambiguatingDescription": "What this entry does not establish: liability. The directive does not apply directly and covers only products placed on the market after 9 December 2026; Article 21 repeals the old Directive 85/374/EEC on the same date but keeps it in force for products placed on the market earlier. Article 10(4) applies only “notwithstanding the disclosure of evidence pursuant to Article 9”, and under Article 10(5) the defendant may rebut every presumption: an evidential disadvantage, not strict liability. There can be no case law on “excessively difficult” yet, because the rule applies to no product. On the calendar, as of 10 September 2026: three months before the deadline, Germany has not cleared parliament. The government bill has been before the Bundestag as printed paper 21/4297 since 25 February 2026, first reading 4 March, expert hearing 13 April, no evidenced step after that; it appears on no Bundesrat agenda after 30 January 2026, including the draft agenda for 25 September. Entry into force under the bill: 9 December 2026. Limit of our own check: the Bundestag’s information interface requires a key; it ran instead through the agendas of the Bundesrat, which every adopted statute must pass. A decision taken in the sitting week of 8 to 11 September would not be visible there.",
-      "position": 46,
+      "position": 48,
       "id": "produkthaftung-komplexitaet",
       "url": "https://robert-haase.de/en/evidence.html#produkthaftung-komplexitaet",
       "topic": "haftung",
@@ -1626,7 +1680,7 @@
         "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860"
       },
       "disambiguatingDescription": "What the case is and is not: The settlement removed the judgment before any higher court could review it; it binds no one, and the legal question stays open. The standard was prima facie evidence, not a full hearing: in part the claimants substantiated the falsity by sworn declaration, in part Google could not substantiate the truth. Of ten and nine points sought, eight and seven were granted; the rest was dismissed. Damages were neither sought nor available in summary proceedings. Where that status appears: as an editorial note in the case-law database, not in the judgment; it points to a practitioner comment (Veelken, GRUR-Prax 2026, 426) that was not checked.",
-      "position": 47,
+      "position": 49,
       "id": "ai-overview-muenchen",
       "url": "https://robert-haase.de/en/evidence.html#ai-overview-muenchen",
       "topic": "haftung",
@@ -1653,7 +1707,7 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
       },
       "disambiguatingDescription": "What the law does not say: It governs personal data, not brand claims; carrying it over to agents is an analogy without case law, and it breaks at Art. 28(10): an agent that determines purposes and means itself would no longer be taking instructions. What gets dropped when quoted: Art. 28(10) addresses a processor, and the determining must amount to infringing the Regulation; the general rule in Art. 4(7) is a definition, not a tipping rule. Statutory obligations to process remain unaffected.",
-      "position": 48,
+      "position": 50,
       "id": "auftragsverarbeitung-weisung",
       "url": "https://robert-haase.de/en/evidence.html#auftragsverarbeitung-weisung",
       "topic": "haftung",
@@ -1680,7 +1734,7 @@
         "url": "https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/"
       },
       "disambiguatingDescription": "What the case does not prove: neither a liability consequence nor the absence of one. None of the sources reports an attempt to buy, a claim or a proceeding. The widely repeated statement that the dealer refused to honour the deal appears in no contemporaneous source, only in later summaries. The liability question was not answered in the negative here, it was never asked. On the sourcing: the chatbot came from the vendor Fullpath, which also operated it on a Chevrolet dealer’s site; after publication GM stated that dealers procure this tool on their own. The exchange is evidenced solely by the user’s screenshot. Whether the dealer or the vendor switched the bot off is reported differently; no price appears here because neither source states one and the figures in later coverage diverge.",
-      "position": 49,
+      "position": 51,
       "id": "chevrolet-dollar",
       "url": "https://robert-haase.de/en/evidence.html#chevrolet-dollar",
       "topic": "haftung",
@@ -1707,7 +1761,7 @@
         "url": "https://www.bbc.com/news/technology-68025677"
       },
       "disambiguatingDescription": "Where the sentences come from: The BBC did not observe the bot’s answers itself. They appear in screenshots taken by the customer, and the caption notes that pixelation was added. Only the company statement comes from DPD itself. In its quoted wording the cause is no more than a point in time, “An error occurred after a system update yesterday”; the causal version is reported by both the BBC and the Guardian as DPD’s own account. What the case does not show: The bot did not turn against its own brand by itself, it was instructed to. There is no claim, no court, no quantified damage and no measurement of normal operation. The only figure, 800,000 views of the customer’s post in 24 hours, is a platform counter.",
-      "position": 50,
+      "position": 52,
       "id": "dpd-chatbot",
       "url": "https://robert-haase.de/en/evidence.html#dpd-chatbot",
       "topic": "haftung",
@@ -1734,7 +1788,7 @@
         "url": "https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law"
       },
       "disambiguatingDescription": "What the case is and what it is not: a journalistic spot check with no stated population and no error rate. It did not always answer the same way; one reporter got the correct answer. Whether anyone acted on it is unknown. All three prohibitions have exceptions: small owner-occupied buildings under the anti-discrimination rule; telephone, mail and internet purchases paid off the premises under the cash rule. Separately, an employer may count tips against the minimum wage but may not keep them. The city did respond: disclaimers, corrected answers, fewer questions answered. What the shutdown is not: an admission of illegality. The trigger was a $12 billion budget gap. Defending the bot and shutting it down were two different administrations; the second took office in early 2026.",
-      "position": 51,
+      "position": 53,
       "id": "nyc-mycity",
       "url": "https://robert-haase.de/en/evidence.html#nyc-mycity",
       "topic": "haftung",
@@ -1765,7 +1819,7 @@
         "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
       },
       "disambiguatingDescription": "What the ruling is and is not: It is preliminary, only the prospects of success at the injunction stage were tested. On 18 August 2026 Amazon petitioned for rehearing en banc; the public docket mirror records no decision on that up to its last refresh on 21 August 2026, and later entries are not ruled out. It is US law and binds no one in Europe. What the court leaves open: It says nothing about server-side agents, it establishes no new legal regime for agentic AI, it decides nothing about liability in tort, and on a different record the provider might exercise enough control to gain entry itself. The case concerns someone else’s agent on your site, not liability for your own. The site’s terms of service remain untouched.",
-      "position": 52,
+      "position": 54,
       "id": "perplexity-cfaa",
       "url": "https://robert-haase.de/en/evidence.html#perplexity-cfaa",
       "topic": "haftung",
@@ -1792,7 +1846,7 @@
         "url": "https://opensource.contentauthenticity.org/docs/getting-started/faqs/"
       },
       "disambiguatingDescription": "What the evidence does not say: The same answer first records that missing history is flagged: the screenshot stays recognisable as a file without provenance. The page itself limits how much that says, calling Content Credentials a positive signal and not a negative one. The evidence concerns the metadata layer only: it lists watermarking as a technique that survives “cropping, rotation, or screen capture”, and the C2PA specification provides for recovering stripped metadata through a lookup against a watermarked ID or a fingerprint. Who says so: The page carries Adobe’s copyright and points alongside to its own remedy, Durable Content Credentials. The watermarking claim is self-reported and unmeasured, the recovery a possibility of the specification, not evidenced routine.",
-      "position": 53,
+      "position": 55,
       "id": "screenshot-metadaten",
       "url": "https://robert-haase.de/en/evidence.html#screenshot-metadaten",
       "topic": "haftung",
@@ -1819,7 +1873,7 @@
         "url": "https://mcp.frontify-integrations.com/"
       },
       "disambiguatingDescription": "What the number does not say: 54 is a snapshot of a product in beta, and it moves. The vendor’s documentation says 52 in two places and 25 rather than 24 for the read-only pack: anyone quoting 52 is quoting the documentation, not the counted system. None of the four Frontify sources gives a reason. The pack figures are overlapping subsets of the 54 and must not be added up. The Frontify guide’s headline announces the server with ten tools, meaning ten packs, off by more than fivefold. What this entry does not establish: what is established is a vendor’s own account of its own product, independently verified nowhere: the size of an interface, not its spread, its use, its effect or the quality of the brand rules it serves. No tool decides a claim, the packs read, write and administer. An access log is not evidenced: “Audit trail of AI interactions” is a selection criterion for buyers at Frontify, and the word audit does not appear in the repository, the server pages or the help centre. The server is not on by default, access runs through customer support, currently free with pricing subject to change. Frontify states that it does not control how the connected AI provider processes the data.",
-      "position": 54,
+      "position": 56,
       "id": "frontify-mcp",
       "url": "https://robert-haase.de/en/evidence.html#frontify-mcp",
       "topic": "agenten",
@@ -1858,7 +1912,7 @@
         "url": "https://www.canva.dev/docs/mcp/tools/"
       },
       "disambiguatingDescription": "Where the plan boundary lies: the overview page appears to put the brand-related part on Enterprise; the tool list governs, and “Pro and above” there means Pro, Business and Enterprise. What this entry does not establish: a vendor’s own statements, with no independent check. It establishes the existence and scope of the interface, not its spread, its use or its effect. No tool checks a claim against brand rules; brand kits are read and filled in. Export runs on every plan, but free plans only at standard quality, and premium elements can make it fail on any plan with license_required. Shelf life: the 33 holds as of the retrieval date, and the documentation carries no version stamp. The server itself needs only a Canva account on any plan; your own integration needs clearance from Canva.",
-      "position": 55,
+      "position": 57,
       "id": "canva-mcp",
       "url": "https://robert-haase.de/en/evidence.html#canva-mcp",
       "topic": "agenten",
@@ -1889,7 +1943,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm"
       },
       "disambiguatingDescription": "What the number actually is: an extrapolation from the average monthly drop in chat and telephone conversations, based on 2024 in the prospectus and in the business section of the report, on 2025 in the operating review. The two values therefore do not contradict each other, they simply stand side by side without comment: the older figure in the present tense, the newer one as a statement about the year 2025. Not a retreat from AI: Klarna calls it a “dual-track approach”, kept the human option open as early as 2024, and expects employee numbers to keep falling according to both filings. Citing the case as a return to humans cites against the source.",
-      "position": 56,
+      "position": 58,
       "id": "klarna-700",
       "url": "https://robert-haase.de/en/evidence.html#klarna-700",
       "topic": "agenten",
@@ -1916,7 +1970,7 @@
         "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
       },
       "disambiguatingDescription": "The triad is in the overview, not in the rules: The table with Model, Application, User appears in the explainer “Understanding MCP servers” and again in the specification overview “Server Features”. Neither page carries MUST or SHOULD rules; in the three chapters that do, resources are “application-driven”. No server has to offer all three: “Servers offer any of the following features to clients”. And it ages fast: since 5 November 2024 there have been five revisions, two of them since November 2025. Methods get replaced: resources/subscribe appears twice in the resources chapter of 2025-06-18 and 2025-11-25, and not once in 2026-07-28, which uses subscriptions/listen three times.",
-      "position": 57,
+      "position": 59,
       "id": "mcp-primitive",
       "url": "https://robert-haase.de/en/evidence.html#mcp-primitive",
       "topic": "agenten",
@@ -1943,7 +1997,7 @@
         "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks"
       },
       "disambiguatingDescription": "What this does not say: The user still clicks. Only the content of the approval is hidden, Cursor conceals the key even inside the dialog. No server was compromised, the poisoned tool sits in the system prompt. Success is narrowly defined: it counts only when the agent misuses a second, legitimate tool; if it calls the poisoned tool itself, the paper scores that as a failure. What is scored is the model’s tool call in a single turn, nothing is executed. The 36.5 percent are measured against valid outputs, not against the 1,348 test cases. The remainder is no defence rate, even the most refusal-prone model, Claude-3.7-Sonnet, refused in under 3 percent. Invariant sells agent security tools and published ten days before its own scanner.",
-      "position": 58,
+      "position": 60,
       "id": "mcp-tool-poisoning",
       "url": "https://robert-haase.de/en/evidence.html#mcp-tool-poisoning",
       "topic": "agenten",
@@ -1974,7 +2028,7 @@
         "url": "https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation"
       },
       "disambiguatingDescription": "What the statement does not say: it comes from the vendor, and no report to be found checks anything itself. The check flags, it does not refuse: the product page says unapproved fonts are flagged, and the Labs post expressly denies that the connector replaces brand, legal or production review. The customer is the one who approves: the prerequisite is approved production fonts configured in the customer’s own instance, which the connector merely enforces. The object is a typeface, not a claim. Web and HTML are the first stage, access is limited to selected enterprise Monotype Fonts customers, and there are no figures on use or effect.",
-      "position": 59,
+      "position": 61,
       "id": "monotype-mcp",
       "url": "https://robert-haase.de/en/evidence.html#monotype-mcp",
       "topic": "agenten",
@@ -2001,7 +2055,7 @@
         "url": "https://brand.pulumi.com/mcp-server/"
       },
       "disambiguatingDescription": "What the numbers do not say: What was measured is availability and scope, not usage, effect, or whether anyone follows the rules. The content is one software company’s unverified account of its own brand. What the server does decide: Three prompts promise a structured evaluation of copy, image and design, but the vendor states they are user-invoked and expand into a prepared model request. The server itself computes two judgements: colour contrast against published APCA thresholds, Lc 86.4 for violet-700 on white in our test, and the nearest brand colour together with a replacement recommendation. A human judges whether a statement is any good, and the rule text demands it.",
-      "position": 60,
+      "position": 62,
       "id": "pulumi-brand-mcp",
       "url": "https://robert-haase.de/en/evidence.html#pulumi-brand-mcp",
       "topic": "agenten",
@@ -2028,7 +2082,7 @@
         "url": "https://docs.platform.statista.ai/pricing/credit-logic"
       },
       "disambiguatingDescription": "What the tiering does not say: What a credit costs in money appears nowhere in the documentation; the only pricing page gives ratios. It shows what is expensive, not how expensive. Four of the six tools cover Market and Consumer Insights, market forecasts and survey data rather than the statistics catalogue; only two of them return data, the other two return search hits. What this entry does not prove: Vendor statements about a vendor’s own product. The only independent measurement is that the endpoint answers and refuses without a key, nothing about reach or use. The stock figures from the press release of 20 November 2025 are unused: over one million statistics is the share reachable through MCP there, 1.5 million the full database, both vendor figures without a counting rule.",
-      "position": 61,
+      "position": 63,
       "id": "statista-mcp",
       "url": "https://robert-haase.de/en/evidence.html#statista-mcp",
       "topic": "agenten",
@@ -2059,7 +2113,7 @@
         "url": "https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/"
       },
       "disambiguatingDescription": "What this entry does not establish: any effect. The 70 per cent is an intention filed under a forward-looking disclaimer. Every statement comes from the vendor, and all that is verified is that the vendor makes it. The agent checks against stored rules and decides nothing; approval here is a regulator-driven process, so the transfer to other brands remains an analogy. The marketing number will not carry it: Veeva advertises 57 per cent shorter review cycles on its product page today, with no sample, no baseline and no method; the same wording already appears in a datasheet dated 2 May 2017 and the same figure in one dated 21 March 2016, at least nine years before the first agent, in documents that never once mention AI.",
-      "position": 62,
+      "position": 64,
       "id": "veeva-mlr",
       "url": "https://robert-haase.de/en/evidence.html#veeva-mlr",
       "topic": "agenten",
@@ -2090,7 +2144,7 @@
         "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
       },
       "disambiguatingDescription": "What the number does not say: it sits in the developer’s own donation post, in a list under the heading “incredible adoption”, with no counting rule at all: no registry, no as-of date, no definition of “active”. Cross-checking helps only so far, since no authoritative registry exists: a complete dump of the official registry on 10 September 2026 gives 30,363 registered servers, 30,031 of them in state “active”. It cannot be set against the vendor figure: Anthropic gives no counting rule and means a different object, so no growth rate follows. And the registry counts entries someone created, not servers in use; it is marked a preview and states itself that one should assume “minimal-to-no moderation”. And a server is not a user. Care when passing it on: the Linux Foundation calls the same figure “published”, turning active servers into published ones. On the membership list: platinum membership is paid: that AWS, Google, Microsoft and OpenAI carry the governance does not establish that they use the protocol in their products. The foundation writes “include”, so the list is not exhaustive. State of play: December 2025.",
-      "position": 63,
+      "position": 65,
       "id": "mcp-verbreitung",
       "url": "https://robert-haase.de/en/evidence.html#mcp-verbreitung",
       "topic": "markt",
@@ -2121,7 +2175,7 @@
         "url": "https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook"
       },
       "disambiguatingDescription": "Why the overlap is not agreement: Bain counts purchases “initiated, influenced, or completed” by agents and excludes only journeys using nothing but AI-assisted search or discovery. Morgan Stanley states no rule; its assistants search, compare prices and anticipate repeat purchases, with minimal user intervention. Recalculated: both imply roughly two trillion dollars of online retail, so the difference sits largely in the numerator. What no figure says: how much the agent closes itself. Bain’s closing line puts AI at “up to a quarter of transactions”, the same upper bound as the share figure, counted in transactions rather than sales. Both sell advice on this, neither gives a base or a method for 2030, only adoption figures are sourced, both figures cover the US only.",
-      "position": 64,
+      "position": 66,
       "id": "agentenhandel-2030",
       "url": "https://robert-haase.de/en/evidence.html#agentenhandel-2030",
       "topic": "markt",
@@ -2152,7 +2206,7 @@
         "url": "https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf"
       },
       "disambiguatingDescription": "What the number does not say: It measures a self-estimated share of time, averaged across respondents and never checked against system data. It is neither a share of companies nor a share of budget. 24.2 is the mean of a right-skewed distribution; the median is 20. The question was answered by 191 of the 2,111 people invited, about 9 percent, the expectation question by 188. The same question produced 34.5 and then 44.2 percent in the two preceding waves; the expectation climbs with every wave and none has ever been checked. The sector figures belong to two questions: The 36.1 percent comes from the overall question and the largest sector cell (40 companies), the 8.7 percent from the generative AI one and one of the smallest (3). For the overall question the report gives no low at all.",
-      "position": 65,
+      "position": 67,
       "id": "cmo-ki-anteil",
       "url": "https://robert-haase.de/en/evidence.html#cmo-ki-anteil",
       "topic": "markt",
@@ -2183,7 +2237,7 @@
         "url": "https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf"
       },
       "disambiguatingDescription": "What the number actually covers: Percent of what stays open, and the report names neither unit nor period nor the statistic used. The only definition put to respondents was “Information that can be captured, quantified and analyzed”. On pages 3 and 12 it reads as a fact, only the regional and country sections from page 10 onwards reveal it as an estimate: US 56 percent, Germany 53, China 50 “compared with a global 55 percent”. An estimate across organisations is not a share of any total, and 1,357 is the sum of the market samples, while the report says 1,300 respondents. What gets routinely mixed in with it: 60 percent of respondents say half or more of their data is dark, 33 percent say 75 percent or more. Those are shares of respondents, not shares of data. Splunk still circulates the figure without a year, on 26 March 2025 as “recent” and there without a sample either.",
-      "position": 66,
+      "position": 68,
       "id": "dark-data-55",
       "url": "https://robert-haase.de/en/evidence.html#dark-data-55",
       "topic": "markt",
@@ -2210,7 +2264,7 @@
         "url": "https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf"
       },
       "disambiguatingDescription": "What the number does not say: It is self-reported, comes from a check-all-that-apply question and records the doing, not the result. The denominator is the trap: it is not the 308 respondents but the 188 who answered this question; all 188 ticked at least one box (response percent 100.0). No company using no AI at all sits in the denominator, so the 41.5 percent is a share among AI users. Computing against 308 yields 128 instead of 78. With the interval the range runs from 34 to 49 percent: a good four in ten, not one in two. Who was asked: US companies only, 97 percent at VP level or above, 308 of 2,111 people contacted, a 14.6 percent response rate. The figure does not transfer to the German market. What is new is the answer option, not the question: GEO was on the list for the first time in 2026 and has no comparison value, while the question itself is reported as a time series against Fall 2023.",
-      "position": 67,
+      "position": 69,
       "id": "geo-verbreitung",
       "url": "https://robert-haase.de/en/evidence.html#geo-verbreitung",
       "topic": "markt",
@@ -2237,7 +2291,7 @@
         "url": "https://www.ana.net/content/show/id/79185"
       },
       "disambiguatingDescription": "What the figures do not say: They measure where work sits, not whether it gets better or more on-brand. An industry association surveys its own members, participation is voluntary, and respondents may belong to the in-house agency themselves. Careful with the 65 percent: The ANA states a base for each question, regularly smaller than the participant count. In 2018 the base for this question was 166 of 412 respondents; for 2023 it is not published and must not be applied to the 162 participants. The gap between 70 and 65 percent carries no turning point: the interval runs from 63 to 77 percent in 2018 and, on at most 162 answers, from 58 to 72 percent in 2023, and the waves differ in size. The ANA report of June 2026 does not continue the series, it surveys award jurors; the next member wave would be 2028.",
-      "position": 68,
+      "position": 70,
       "id": "in-house-verlagerung",
       "url": "https://robert-haase.de/en/evidence.html#in-house-verlagerung",
       "topic": "markt",
@@ -2268,7 +2322,7 @@
         "url": "https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do"
       },
       "disambiguatingDescription": "What the number does not say: It measures newly published English-language articles and listicles carrying article markup and at least 100 words, drawn from Common Crawl, not the web as a whole, other languages, social media or video. And nothing about reach: Graphite collected the data in June 2025 and published it in October 2025, finding that 86 percent of articles ranking in Google across 31,493 keywords and 82 percent of those cited by ChatGPT and Perplexity were written by humans, but measured with a fourth detector (Surfer, false positive rate 4.2 percent), so not on the same scale. How firm the 50 percent is: the figure averages three detectors that diverge by 6.4 points in the same quarter (Pangram 47.7, Copyleaks 48.1, GPTZero 54.1). The spread is wider than the distance to the 50 percent mark, and two of the three put humans ahead. GPTZero counts a “mixed” verdict entirely on the AI side (6.4 percent of articles); Pangram and Copyleaks go by which share is larger.",
-      "position": 69,
+      "position": 71,
       "id": "ki-anteil-artikel",
       "url": "https://robert-haase.de/en/evidence.html#ki-anteil-artikel",
       "topic": "markt",
@@ -2295,7 +2349,7 @@
         "url": "https://www.semrush.com/blog/traffic-channel-mix-study/"
       },
       "disambiguatingDescription": "What the numbers do not say: They count clicks arriving with an identifiable AI referral source, not how often a brand is named in answers. Google AI Mode sits outside the two values that address it: Semrush tracks it as a separate channel at 0.01 percent, and Conductor notes that Google Analytics does not separate it from organic traffic. Why the three values do not belong side by side: Contentsquare measures 6,500 websites worldwide, Semrush more than 50,000 worldwide, Conductor 1,215 of its own customer domains in the US and calls its figures averages. The near eightfold gap between them, 0.14 to 1.08 percent, is largely a question of who was measured. All three sell analytics tools; Contentsquare and Conductor measure their own customer base, Semrush estimates from a bought-in clickstream panel. None of the values is independently audited.",
-      "position": 70,
+      "position": 72,
       "id": "ki-verkehrsanteil",
       "url": "https://robert-haase.de/en/evidence.html#ki-verkehrsanteil",
       "topic": "markt",
@@ -2322,7 +2376,7 @@
         "url": "https://www.netcraft.com/guide/phishing-website-detection-disruption"
       },
       "disambiguatingDescription": "What the number does not say: It does not say these sites are gone. Netcraft writes “disrupted” and folds blocking and removal into that one word, how the 1.3 million splits is stated nowhere. That same page tells readers to ask vendors exactly this. It also says nothing about whether a published brand specification makes cloning easier or harder, for which there is no comparison group. All it establishes is that clones exist in bulk. Who counted: Netcraft itself, its own operations, on a page selling that service. Nothing is independently audited. The world share of about a third often quoted alongside is therefore not in the claim: the page never quantifies the world total and contradicts itself, once a share of takedowns, once of attacks. Nor are the 16,000 organisations a market size.",
-      "position": 71,
+      "position": 73,
       "id": "markenklone",
       "url": "https://robert-haase.de/en/evidence.html#markenklone",
       "topic": "markt",
@@ -2349,7 +2403,7 @@
         "url": "https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think"
       },
       "disambiguatingDescription": "What the number does not say: It counts not searches but visits and sessions: a Google visit 6.7 page views on average, an app session an unknown number of prompts. And unevenly: search engines web only, AI web and app. Search apps it excludes as “relatively low”, without a figure, though 83 percent of AI use is in apps. Of AI, only the 52 percent of “asking” count, which the authors call an upper bound. The 71 percent are Google Search and Gemini combined; per day the growth is 23.1, not 26. It cites those same 26 percent elsewhere for 2025 against 2024, where its open raw data yields 17.3. Where the data comes from: Similarweb estimates without server measurement, validated only for the search engine figures, across eight websites, only as a trend correlation; the AI figures not against first-party data at all. The author sells visibility in search engines and AI answers and discloses that calling both large serves him.",
-      "position": 72,
+      "position": 74,
       "id": "suchmarkt-wachstum",
       "url": "https://robert-haase.de/en/evidence.html#suchmarkt-wachstum",
       "topic": "markt",
@@ -2376,7 +2430,7 @@
         "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
       },
       "disambiguatingDescription": "What the number does not say: 16 developers, 246 tasks, exclusively in repositories they had known for five years on average. That familiarity explains part of the result — anyone who holds their own project in their head gains less from assistance. It does not transfer to unfamiliar code or other knowledge work, and the tools date from early 2025. What holds: the gap between measurement and self-assessment. It is the reason to distrust any productivity figure based on asking people.",
-      "position": 73,
+      "position": 75,
       "id": "metr-selbsteinschaetzung",
       "url": "https://robert-haase.de/en/evidence.html#metr-selbsteinschaetzung",
       "topic": "urteil",
@@ -2403,7 +2457,7 @@
         "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf"
       },
       "disambiguatingDescription": "What the number does not say: Where the boundary runs was not visible to participants — the tasks looked alike. That is both the core finding and its limit: one deliberately out-of-range task was measured, not how often such cases occur in daily work. The experiment used GPT-4; where the frontier sits today is open. And consulting is not all knowledge work.",
-      "position": 74,
+      "position": 76,
       "id": "jagged-frontier",
       "url": "https://robert-haase.de/en/evidence.html#jagged-frontier",
       "topic": "urteil",
@@ -2430,7 +2484,7 @@
         "url": "https://europepmc.org/article/MED/38996021"
       },
       "disambiguatingDescription": "What the number does not say: the 0.871 points apply to access to one idea. With up to five ideas the convergence was smaller, 0.718 points and 8.9 percent, and the creativity gain larger. Reading it as “more AI, more sameness” reads against the data. What is measured is access, not use: in the one-idea condition 82 of 100 requested an idea at all; in the second, 2.55 on average, and only 24.5 percent asked for all five. The more striking number is the softer one: the 10.7 percent is a share of the 8.10 points between the highest and lowest value among the stories without AI, so it hangs on two extreme values. The same 10.7 percent appears a second time in the paper, as a novelty gain among the least creative writers, unrelated to this one. What is measured is the cosine similarity of text embeddings within one group, not whether results are worse. “More creative” is the judgement of lay readers; in the writers’ own assessment there was no statistically significant difference. Eight sentences, no dialogue with the model, British Prolific participants rather than professional writers: short stories are not strategy papers.",
-      "position": 75,
+      "position": 77,
       "id": "homogenisierung",
       "url": "https://robert-haase.de/en/evidence.html#homogenisierung",
       "topic": "urteil",
@@ -2457,7 +2511,7 @@
         "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
       },
       "disambiguatingDescription": "Corrected on 10 September 2026: until then this entry said “differentiation in 96 percent of cases, augmentation in 93”. Neither figure appears anywhere in the article; the full text gives no share at all, only shifts from baseline, and the numbers come from blog summaries, most likely read off a chart. Also corrected: the more than 15,000 runs do not apply to the seven models. Both 15,000-run blocks are follow-up studies on a single model, ChatGPT-5; the seven-model measurement rests on 50 runs per model and question, and the authors give no total for it. What the numbers do not say: the insensitivity holds for only two of the seven questions; on the other five, better prompting moved responses by 22 percent on average in both directions, and the order of the options mattered most, at 19 percent. Whether the preferred answer is wrong is not what the finding says; what is measured is insensitivity to context alone. On the source: an HBR Digital Article without peer review, and there is no separate paper; one repository lists it as peer reviewed, which is a catalogue artefact. The paywalled page ships the full text in its structured data, character-identical in archive copies of 17 March and 14 July 2026.",
-      "position": 76,
+      "position": 78,
       "id": "strategie-trendslop",
       "url": "https://robert-haase.de/en/evidence.html#strategie-trendslop",
       "topic": "urteil",
@@ -2484,7 +2538,7 @@
         "url": "https://arxiv.org/abs/2310.13548"
       },
       "disambiguatingDescription": "What the number does not say: the study comes from Anthropic, two of the five assistants tested and the reward model analysed are its own, and every model dates from 2023. Truthfulness is a rewarded feature too, and depending on the condition, matching beliefs is not the strongest one. The paper tests factual questions and free-text tasks, not strategy advice. What is measured is what the data reward, not how often an assistant flatters in production; the OpenAI rollback shows only that the effect can occur there and be noticed, not how strong it is today. Care with the most-quoted figure: in the sub-experiment on 266 misconceptions the agreeing responses were produced deliberately: a model was instructed to deceive subtly, and the most convincing of 4,096 samples was selected. The 95 percent is the judgement of the Claude 2 preference model, not of humans, measured against the best of three short human-written objections, chosen by that same model. For the human raters the paper gives no figure; they mostly preferred the correcting response and did so less reliably as difficulty rose, read off the chart at roughly 3 percent on the easiest and roughly 21 percent on the hardest level. That is the majority of several lay readers without reference material; the average individual rater sits higher. The authors call the dataset a proof of concept.",
-      "position": 77,
+      "position": 79,
       "id": "sykophanz",
       "url": "https://robert-haase.de/en/evidence.html#sykophanz",
       "topic": "urteil",
@@ -2518,7 +2572,7 @@
       "author": {
         "@id": "https://robert-haase.de/#person"
       },
-      "position": 78,
+      "position": 80,
       "id": "markenspezifikation-wirkung",
       "url": "https://robert-haase.de/en/evidence.html#markenspezifikation-wirkung",
       "topic": "urteil",
@@ -2549,7 +2603,7 @@
         "url": "https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave"
       },
       "disambiguatingDescription": "What the study does not say: It concerns households between the open hearth and the microwave, not knowledge work and not AI. Transferring it draws an analogy, not a proof. It serves as a corrective, not a forecast: it shows that labour saving through technology is an assumption that has historically failed once — not that it will fail again.",
-      "position": 79,
+      "position": 81,
       "id": "cowan-standards",
       "url": "https://robert-haase.de/en/evidence.html#cowan-standards",
       "topic": "urteil",
@@ -2576,7 +2630,7 @@
         "url": "https://www.sciencedirect.com/science/article/pii/S0040162517302287"
       },
       "disambiguatingDescription": "What the widely cited figure omits: of 83 corporations surveyed, matching against performance data left 70 for profitability and only 42 for market capitalisation growth. The authors themselves call this an important limitation. The “200 percent additional growth” circulating in the foresight industry therefore rests on 42 companies. And it is a correlation, not a cause: corporations that can afford futures work differ in other ways from those that cannot.",
-      "position": 80,
+      "position": 82,
       "id": "foresight-performance",
       "url": "https://robert-haase.de/en/evidence.html#foresight-performance",
       "topic": "urteil",
@@ -2603,7 +2657,7 @@
         "url": "https://www.forecastbench.org/leaderboards/"
       },
       "disambiguatingDescription": "What the leaderboard does not say: the machines’ lead is not established. Its own significance column finds no difference for the three top places, at p values of 0.71, 0.60 and 0.57, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. A best-of-many result: Google DeepMind holds 50 of 334 entries and all three places ahead of the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 790 and 1,165. On parity: the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to February 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand.",
-      "position": 81,
+      "position": 83,
       "id": "prognose-mensch-maschine",
       "url": "https://robert-haase.de/en/evidence.html#prognose-mensch-maschine",
       "topic": "urteil",
@@ -2630,7 +2684,7 @@
         "url": "https://arxiv.org/abs/2402.07862"
       },
       "disambiguatingDescription": "What the result suggests but does not prove: That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer — but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base, and this is a preprint.",
-      "position": 82,
+      "position": 84,
       "id": "prognose-assistenz",
       "url": "https://robert-haase.de/en/evidence.html#prognose-assistenz",
       "topic": "urteil",
@@ -2657,7 +2711,7 @@
         "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html"
       },
       "disambiguatingDescription": "What the study does not say: It dates from 1988 and treats classical professions — medicine, law, accountancy — not consulting and not AI. Applying it to today's occupations is an interpretation. And it does not explain how a jurisdiction is won, only what the competition is about. It serves as evidence for what definitional power means, not as a manual.",
-      "position": 83,
+      "position": 85,
       "id": "abbott-zustaendigkeit",
       "url": "https://robert-haase.de/en/evidence.html#abbott-zustaendigkeit",
       "topic": "urteil",
@@ -2684,7 +2738,7 @@
         "url": "https://mitpress.mit.edu/9780262046664/artificial-communication/"
       },
       "disambiguatingDescription": "What the book is not: not a measurement but a theoretical proposal from systems theory. It supports no figure and cannot be refuted like an experiment. And it is not about brands: Esposito's examples are recommendation lists, profiling and the right to be forgotten. Applying it to whether a brand is legible to machines is an interpretation — a plausible one, but not one the book makes.",
-      "position": 84,
+      "position": 86,
       "id": "esposito-kommunikation",
       "url": "https://robert-haase.de/en/evidence.html#esposito-kommunikation",
       "topic": "urteil",
@@ -2711,7 +2765,7 @@
         "url": "https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf"
       },
       "disambiguatingDescription": "What the study does not say: it does not compare the quality of outputs. The abstract makes no claim about which mode produces more accurate recommendations — summaries in circulation that say otherwise go beyond the source. What is measured is capability building, not results. Also: a working paper in draft form, not peer reviewed, and all respondents come from a single consultancy.",
-      "position": 85,
+      "position": 87,
       "id": "drei-arbeitsweisen",
       "url": "https://robert-haase.de/en/evidence.html#drei-arbeitsweisen",
       "topic": "urteil",
@@ -2738,7 +2792,7 @@
         "url": "https://www.nber.org/papers/w31161"
       },
       "disambiguatingDescription": "What the number does not say: Customer support is highly structured work with recurring cases — transfer to strategy or design is open. And it is a working paper, explicitly not peer reviewed per its cover page. What was measured is volume, not quality: issues resolved per hour, not how well — though customer sentiment improved alongside.",
-      "position": 86,
+      "position": 88,
       "id": "kompetenz-nivellierung",
       "url": "https://robert-haase.de/en/evidence.html#kompetenz-nivellierung",
       "topic": "urteil",
@@ -2765,7 +2819,7 @@
         "url": "https://www.science.org/doi/10.1126/science.adh2586"
       },
       "disambiguatingDescription": "On the figures: these are from the verified working paper of March 2023, which states it is not peer reviewed. The peer-reviewed version appeared later in Science with differing numbers — 453 participants and “40 percent time saved” circulate; that version sits behind a paywall and was not inspected. What the figures do not say: these were short, isolated writing tasks, not projects spanning weeks.",
-      "position": 87,
+      "position": 89,
       "id": "aufwand-statt-koennen",
       "url": "https://robert-haase.de/en/evidence.html#aufwand-statt-koennen",
       "topic": "urteil",
@@ -2792,7 +2846,7 @@
         "url": "https://doi.org/10.1287/orsc.2023.18430"
       },
       "disambiguatingDescription": "What the numbers do not say: The comparison was not human against machine but the crowd against human-guided AI with purpose-built prompts. When the model was iteratively told to differentiate, the gap was no longer detectable on average (minus 0.056) and remained only at the top mark. What they rest on: Judgements about texts, not realised ideas. All evaluators are based in the United States. GPT-4 as of mid-2023, a single task domain, ten AI against three human solutions per block. Two of the five authors are listed with the AI firm involved; co-author Jacimovic founded it.",
-      "position": 88,
+      "position": 90,
       "id": "boussioux-neuheit-wert",
       "url": "https://robert-haase.de/en/evidence.html#boussioux-neuheit-wert",
       "topic": "urteil",
@@ -2819,7 +2873,7 @@
         "url": "https://doi.org/10.1287/mnsc.24.9.934"
       },
       "disambiguatingDescription": "What the paper does not measure: It forms concepts and describes. Nowhere does it show that a strategy which grew produces better results than a planned one. Mintzberg does attack planning theory, its split between formulation and implementation resting on two assumptions that often prove false. He did not test that. The foundation is larger than what is shown: The general conclusions rest on four funded major studies and over twenty student papers; only two of the four are documented in the text, the rest are not. Both cases shown are historical, lie outside brand management, and were reconstructed in hindsight by the same research group that set what counts as a pattern.",
-      "position": 89,
+      "position": 91,
       "id": "mintzberg-muster",
       "url": "https://robert-haase.de/en/evidence.html#mintzberg-muster",
       "topic": "urteil",
@@ -2846,7 +2900,7 @@
         "url": "https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf"
       },
       "disambiguatingDescription": "What the figure does not say: It does not show that buyers see no differences at all. On average 54 percent credit at least one brand in the category with one of the two, and 76 percent for soft drinks in the UK. The per-brand score is low because each respondent names only one or two brands, and each names different ones; across categories, 8 to 36 percent. Only users were surveyed; that they buy the brand anyway follows from that, not from the measurement. Who collected the data and who paid: The accessible text gives no sample sizes. Most data, and the measure itself, come from the advertising agency Young & Rubicam, collected in 1999; the institute lists Coca-Cola, Mars and Nielsen among its funders. The paper says nothing about machine selection, it predates every agent.",
-      "position": 90,
+      "position": 92,
       "id": "wahrgenommene-differenzierung",
       "url": "https://robert-haase.de/en/evidence.html#wahrgenommene-differenzierung",
       "topic": "urteil",

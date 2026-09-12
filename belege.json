@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-10",
+  "dateModified": "2026-09-12",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 90,
+  "numberOfItems": 92,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -74,7 +74,7 @@
     {
       "id": "agenten",
       "name": "Agenten",
-      "numberOfItems": 24,
+      "numberOfItems": 26,
       "textFile": "https://robert-haase.de/belege-agenten.md",
       "ids": [
         "leere-buttons",
@@ -91,6 +91,8 @@
         "dax-benennung",
         "dax-landmarken",
         "dax-bilder",
+        "verlage-robots",
+        "marken-robots",
         "agenten-erfolg",
         "frontify-mcp",
         "canva-mcp",
@@ -114,6 +116,8 @@
           "dax-benennung",
           "dax-landmarken",
           "dax-bilder",
+          "verlage-robots",
+          "marken-robots",
           "agenten-erfolg",
           "frontify-mcp",
           "canva-mcp",
@@ -1494,6 +1498,56 @@
     },
     {
       "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#verlage-robots",
+      "text": "Von 76 auswertbaren deutschsprachigen Nachrichten- und Fachmedien sperren 44 in ihrer robots.txt mindestens einen Trainings-Crawler, also 57,9 Prozent. GPTBot sperren 38 von ihnen, also genau die Hälfte, CCBot 40 und Bytespider 36. Den Suchbot desselben Anbieters sperren weit weniger: OAI-SearchBot steht bei 8 Medien auf der Liste, das sind 10,5 Prozent. 11 Medien sperren das Training, ohne einen KI-Suchbot oder einen Abruf auf Nutzerfrage zu sperren.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Eigene Erhebung, 12. September 2026 · 77 Titel angefragt, 76 auswertbar · Nachrichtenteil nach dem Diagramm „Weekly reach online“ der Länderseite Deutschland im Reuters Institute Digital News Report 2026, Fachmedien sowie Österreich und die Schweiz nach benannter Regel · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 3 Titeln · zwei Durchläufe mit identischem Urteil",
+        "url": "https://robert-haase.de/belege.html#verlage-robots"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: robots.txt verbietet nichts, sie bittet. Gemessen ist eine Absichtserklärung, kein Zugriffsschutz: Der Standard RFC 9309 stellt die Befolgung ausdrücklich frei, und OpenAI schreibt für den Abruf auf Nutzerfrage selbst, dass die Regeln dort nicht gelten müssen. Eine Sperre gegen das Training sagt deshalb nichts über die Sichtbarkeit in KI-Antworten, solange die Suchbots offen bleiben. Offen heißt hier nicht erlaubt: Gemessen ist die Abwesenheit einer Sperre, nicht eine ausgesprochene Erlaubnis; genau 2 der 76 Medien schreiben einem KI-Bot eine ausdrückliche Erlaubnis in die Datei. Drei der gezählten Namen sind gar keine Crawler: Google-Extended, Applebot-Extended und Webzio-Extended holen keine Seite, sie steuern nur, was mit bereits geholten Daten geschehen darf. Bei Apple und Microsoft lassen sich Suche und KI technisch nicht trennen, beide führen dafür keinen eigenen Namen. Und der Name muss genau stimmen: Ein Fachtitel sperrt „ChatGPT“, eine Kennung, die OpenAI nicht führt, deshalb greift die Regel nicht. Und die Stichprobe ist offengelegt, aber nicht repräsentativ: 14 der 77 Titel stammen aus einer externen Rangliste, der Rest folgt benannten Regeln. Die Nachrichtenagenturen fehlen, und sie sind der stärkste Einwand: dpa, AFP, epd, APA und Keystone-SDA sperren zusammen keinen einzigen KI-Crawler, weil ihre Inhalte über Verträge geschützt sind und nicht über diese Datei.",
+      "author": {
+        "@id": "https://robert-haase.de/#person"
+      },
+      "position": 43,
+      "id": "verlage-robots",
+      "url": "https://robert-haase.de/belege.html#verlage-robots",
+      "topic": "agenten",
+      "grade": {
+        "name": "Eigene Erhebung, reproduzierbar",
+        "group": "strong"
+      },
+      "sourceText": "Eigene Erhebung, 12. September 2026 · 77 Titel angefragt, 76 auswertbar · Nachrichtenteil nach dem Diagramm „Weekly reach online“ der Länderseite Deutschland im Reuters Institute Digital News Report 2026, Fachmedien sowie Österreich und die Schweiz nach benannter Regel · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 3 Titeln · zwei Durchläufe mit identischem Urteil",
+      "sourceLinks": [],
+      "citationText": "Von 76 auswertbaren deutschsprachigen Nachrichten- und Fachmedien sperren 44 in ihrer robots.txt mindestens einen Trainings-Crawler, also 57,9 Prozent. GPTBot sperren 38 von ihnen, also genau die Hälfte, CCBot 40 und Bytespider 36. Den Suchbot desselben Anbieters sperren weit weniger: OAI-SearchBot steht bei 8 Medien auf der Liste, das sind 10,5 Prozent. 11 Medien sperren das Training, ohne einen KI-Suchbot oder einen Abruf auf Nutzerfrage zu sperren. (Eigene Erhebung, 12. September 2026 · 77 Titel angefragt, 76 auswertbar · Nachrichtenteil nach dem Diagramm „Weekly reach online“ der Länderseite Deutschland im Reuters Institute Digital News Report 2026, Fachmedien sowie Österreich und die Schweiz nach benannter Regel · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 3 Titeln · zwei Durchläufe mit identischem Urteil). https://robert-haase.de/belege.html#verlage-robots"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#marken-robots",
+      "text": "Von 148 auswertbaren Startseiten der Unternehmen aus DAX, MDAX und SDAX sperren 10 mindestens einen Trainings-Crawler, also 6,8 Prozent; GPTBot sperren 4. 138 sperren keinen einzigen KI-Zugriff, darunter 14, die gar keine robots.txt ausliefern. 7 Unternehmen schreiben einem KI-Crawler eine ausdrückliche Erlaubnis in die Datei, 6 davon sperren zugleich keinen: Es gibt fast so viele Einladungen wie Sperren. Die einzige Reservierung von Rechten für Text und Data Mining, die sich im Index finden ließ, steht bei einem Wissenschaftsverlag, und der sperrt keinen einzigen Crawler.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Eigene Erhebung, 12. September 2026 · dieselbe Liste wie die Erhebung vom 30. August, 160 Startseiten aus DAX, MDAX und SDAX, Index-Mitglieder aus Wikipedia, Adresse aus Wikidata · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 2 Seiten · zwei Durchläufe, 160 von 160 Seiten mit identischem Urteil",
+        "url": "https://robert-haase.de/belege.html#marken-robots"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Sie misst eine Bitte, keinen Zugriffsschutz; wie viele derselben Seiten einen automatisierten Abruf technisch abweisen, steht als eigener Beleg auf dieser Seite. Von den zehn Sperren sind acht namentlich. Eine Seite sperrt alles Unbenannte und lässt die großen Anbieter ausdrücklich herein, eine sperrt alle Crawler einschließlich Google, was keine Entscheidung über KI ist, und eine zählt nur mit, weil ein KI-Crawler in einer übernommenen Sammelliste von 139 unerwünschten Bots steht. Eine fehlende Sperre ist keine Entscheidung für KI: 14 Seiten haben gar keine Datei und damit nichts entschieden. 12 Seiten waren nicht auswertbar, sechs weisen den Abruf ab, sechs antworten nicht; in welche Richtung das die Quote verschiebt, bleibt offen, denn nach RFC 9309 gilt eine nicht erreichbare robots.txt als Erlaubnis. Gemessen ist die Startseite: Wer tiefer im Angebot andere Regeln setzt, erscheint hier als offen. Die Reservierung der Rechte ist nur technisch gesucht, in der dafür vorgesehenen Datei, im Kopf der Seite und im Seitenquelltext; 134 der 160 Seiten haben darauf eindeutig geantwortet. Ein Vorbehalt in den Nutzungsbedingungen, die in Deutschland übliche Form, ist damit nicht erfasst.",
+      "author": {
+        "@id": "https://robert-haase.de/#person"
+      },
+      "position": 44,
+      "id": "marken-robots",
+      "url": "https://robert-haase.de/belege.html#marken-robots",
+      "topic": "agenten",
+      "grade": {
+        "name": "Eigene Erhebung, reproduzierbar",
+        "group": "strong"
+      },
+      "sourceText": "Eigene Erhebung, 12. September 2026 · dieselbe Liste wie die Erhebung vom 30. August, 160 Startseiten aus DAX, MDAX und SDAX, Index-Mitglieder aus Wikipedia, Adresse aus Wikidata · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 2 Seiten · zwei Durchläufe, 160 von 160 Seiten mit identischem Urteil",
+      "sourceLinks": [],
+      "citationText": "Von 148 auswertbaren Startseiten der Unternehmen aus DAX, MDAX und SDAX sperren 10 mindestens einen Trainings-Crawler, also 6,8 Prozent; GPTBot sperren 4. 138 sperren keinen einzigen KI-Zugriff, darunter 14, die gar keine robots.txt ausliefern. 7 Unternehmen schreiben einem KI-Crawler eine ausdrückliche Erlaubnis in die Datei, 6 davon sperren zugleich keinen: Es gibt fast so viele Einladungen wie Sperren. Die einzige Reservierung von Rechten für Text und Data Mining, die sich im Index finden ließ, steht bei einem Wissenschaftsverlag, und der sperrt keinen einzigen Crawler. (Eigene Erhebung, 12. September 2026 · dieselbe Liste wie die Erhebung vom 30. August, 160 Startseiten aus DAX, MDAX und SDAX, Index-Mitglieder aus Wikipedia, Adresse aus Wikidata · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 2 Seiten · zwei Durchläufe, 160 von 160 Seiten mit identischem Urteil). https://robert-haase.de/belege.html#marken-robots"
+    },
+    {
+      "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#agenten-erfolg",
       "text": "Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in zehn Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im Oktober 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.",
       "appearance": {
@@ -1502,7 +1556,7 @@
         "url": "https://arxiv.org/abs/2504.01382"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Die aktuellen Werte stammen aus vier Einträgen einer Bestenliste, eingereicht von den Anbietern der Agenten und vom Benchmark-Team nachgeprüft. Das ist keine unabhängige Reihenuntersuchung. Und eine Warnung steht auf der Bestenliste selbst: Die Aufgaben sind seit April 2025 öffentlich, das Team bittet ausdrücklich darum, sie nicht als Trainingsdaten zu verwenden. Ob die Werte Können abbilden oder Gewöhnung an bekannte Aufgaben, ist damit nicht entschieden. Gemessen wird außerdem, ob eine Aufgabe gelöst wurde, nicht wie gut und nicht, ob die Marke dabei korrekt dargestellt war.",
-      "position": 43,
+      "position": 45,
       "id": "agenten-erfolg",
       "url": "https://robert-haase.de/belege.html#agenten-erfolg",
       "topic": "agenten",
@@ -1533,7 +1587,7 @@
         "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Cloudflare nennt für die Hälfte-Aussage weder die Art des gemessenen Verkehrs noch den Zeitraum. Ob Seitenabrufe gemeint sind oder alle Anfragen, bleibt offen. Sie beruht auf dem eigenen Netz, das groß, aber nicht das Internet ist. Die Crawler-Zahl ist dagegen datiert und mit Vorjahreswert versehen und deshalb die brauchbarere von beiden. Achtung bei der Weiterverwendung: In Sekundärquellen kursiert die Angabe als „57,5 Prozent“. Diese Zahl steht bei Cloudflare nirgends.",
-      "position": 44,
+      "position": 46,
       "id": "nicht-menschlicher-verkehr",
       "url": "https://robert-haase.de/belege.html#nicht-menschlicher-verkehr",
       "topic": "markt",
@@ -1560,7 +1614,7 @@
         "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. Die fehlende Verbreitungszahl ist ein Negativbefund: Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. Vorsicht bei Sekundärquellen: Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug.",
-      "position": 45,
+      "position": 47,
       "id": "ucp-gremium-ohne-zahlen",
       "url": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
       "topic": "handel",
@@ -1591,7 +1645,7 @@
         "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
       },
       "disambiguatingDescription": "Was der Eintrag nicht belegt: eine Haftung. Die Richtlinie gilt nicht unmittelbar und erfasst nur Produkte, die nach dem 9. Dezember 2026 in Verkehr kommen; Artikel 21 hebt die alte Richtlinie 85/374/EWG zum selben Datum auf, für früher in Verkehr gebrachte Produkte gilt sie weiter. Artikel 10 Absatz 4 greift erst „trotz der Offenlegung von Beweismitteln gemäß Artikel 9“, und nach Absatz 5 darf der Beklagte jede Vermutung widerlegen: ein Beweisnachteil, keine Gefährdungshaftung. Rechtsprechung zu „übermäßig schwierig“ kann es noch nicht geben, weil die Regel auf kein Produkt anwendbar ist. Zum Kalender, Stand 10. September 2026: Deutschland ist drei Monate vor Fristablauf nicht durch das Parlament. Der Regierungsentwurf liegt seit dem 25. Februar 2026 als Bundestagsdrucksache 21/4297 vor, erste Lesung 4. März, Anhörung 13. April, danach kein belegbarer Schritt; nach dem 30. Januar 2026 steht er auf keiner Bundesrats-Tagesordnung mehr, auch nicht auf dem Entwurf für den 25. September. Inkrafttreten laut Entwurf: 9. Dezember 2026. Grenze der eigenen Erhebung: Die Auskunftsschnittstelle des Bundestages verlangt einen Schlüssel; geprüft wurde ersatzweise über die Tagesordnungen des Bundesrates, den jedes beschlossene Gesetz passieren muss. Ein Beschluss in der Sitzungswoche vom 8. bis 11. September wäre darin nicht sichtbar.",
-      "position": 46,
+      "position": 48,
       "id": "produkthaftung-komplexitaet",
       "url": "https://robert-haase.de/belege.html#produkthaftung-komplexitaet",
       "topic": "haftung",
@@ -1626,7 +1680,7 @@
         "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860"
       },
       "disambiguatingDescription": "Was der Fall ist und was nicht: Der Vergleich beseitigte das Urteil, bevor eine höhere Instanz es prüfen konnte; es bindet niemanden, die Rechtsfrage bleibt offen. Maßstab war die Glaubhaftmachung, keine Beweisaufnahme: teils machten die Klägerinnen die Unwahrheit eidesstattlich glaubhaft, teils konnte Google den Wahrheitsgehalt nicht glaubhaft machen. Von zehn und neun beantragten Punkten wurden acht und sieben untersagt, der Rest zurückgewiesen. Schadenersatz war nicht beantragt und im Eilverfahren nicht zu erlangen. Wo dieser Status steht: als redaktionelle Anmerkung der Rechtsprechungsdatenbank, nicht im Urteil; sie verweist auf einen Praxishinweis (Veelken, GRUR-Prax 2026, 426), der nicht geprüft wurde.",
-      "position": 47,
+      "position": 49,
       "id": "ai-overview-muenchen",
       "url": "https://robert-haase.de/belege.html#ai-overview-muenchen",
       "topic": "haftung",
@@ -1653,7 +1707,7 @@
         "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/deu"
       },
       "disambiguatingDescription": "Was die Rechtslage nicht sagt: Sie regelt personenbezogene Daten, nicht Markenaussagen; die Übertragung auf Agenten ist eine Analogie ohne Rechtsprechung und bricht an Art. 28 Abs. 10: Ein Agent, der Zwecke und Mittel selbst bestimmt, wäre kein Weisungsempfänger mehr. Was beim Zitieren wegfällt: Adressat des Art. 28 Abs. 10 ist ein Auftragsverarbeiter, und das Bestimmen muss „unter Verstoß gegen diese Verordnung“ geschehen; der allgemeine Satz in Art. 4 Nr. 7 ist eine Definition, keine Kippregel. Gesetzliche Verarbeitungspflichten bleiben unberührt.",
-      "position": 48,
+      "position": 50,
       "id": "auftragsverarbeitung-weisung",
       "url": "https://robert-haase.de/belege.html#auftragsverarbeitung-weisung",
       "topic": "haftung",
@@ -1680,7 +1734,7 @@
         "url": "https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/"
       },
       "disambiguatingDescription": "Was der Fall nicht belegt: weder eine Haftungsfolge noch ihr Ausbleiben. Von Kaufversuch, Forderung oder Verfahren berichtet keine der Quellen. Die verbreitete Angabe, der Händler habe den Kauf nicht anerkannt, steht in keiner zeitgenössischen Quelle, sondern erst in nachgelagerten Zusammenfassungen. Die Haftungsfrage wurde hier nicht verneint, sie wurde nie gestellt. Zur Quellenlage: Der Chatbot stammte vom Anbieter Fullpath, der ihn auf der Seite eines Chevrolet-Händlers auch betrieb; GM stellte nach Erscheinen klar, dass Händler dieses Werkzeug eigenständig beschaffen. Belegt ist der Verlauf allein über einen Screenshot des Nutzers. Ob Händler oder Anbieter abschaltete, berichten die Quellen unterschiedlich; ein Preis fehlt, weil ihn keine der beiden Quellen nennt und die Angaben danach auseinandergehen.",
-      "position": 49,
+      "position": 51,
       "id": "chevrolet-dollar",
       "url": "https://robert-haase.de/belege.html#chevrolet-dollar",
       "topic": "haftung",
@@ -1707,7 +1761,7 @@
         "url": "https://www.bbc.com/news/technology-68025677"
       },
       "disambiguatingDescription": "Woher die Sätze stammen: Die Bot-Antworten hat die BBC nicht selbst erhoben. Sie stehen auf Screenshots des Kunden, die Bildunterschrift vermerkt eine nachträgliche Verpixelung. Von DPD selbst stammt allein die Firmenstellungnahme. Zur Ursache steht in ihrem zitierten Wortlaut nur eine Zeitangabe, „An error occurred after a system update yesterday“; die kausale Fassung geben BBC und Guardian als Angabe von DPD wieder. Was der Fall nicht zeigt: Der Bot wandte sich nicht von selbst gegen die eigene Marke, er wurde dazu angewiesen. Es gibt keinen Anspruch, kein Gericht, keinen bezifferten Schaden und keine Messung des Normalbetriebs. Die einzige Zahl, 800.000 Aufrufe des Kundenbeitrags in 24 Stunden, ist ein Zähler der Plattform.",
-      "position": 50,
+      "position": 52,
       "id": "dpd-chatbot",
       "url": "https://robert-haase.de/belege.html#dpd-chatbot",
       "topic": "haftung",
@@ -1734,7 +1788,7 @@
         "url": "https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law"
       },
       "disambiguatingDescription": "Was der Fall ist und was nicht: eine journalistische Stichprobe ohne Grundgesamtheit und Fehlerquote. Er antwortete nicht immer gleich, einem Reporter richtig. Ob jemand danach handelte, ist unbekannt. Alle drei Verbote kennen Ausnahmen: selbstbewohnte Kleinhäuser beim Diskriminierungsverbot, beim Bargeld Telefon-, Post- und Internetkäufe, die außerhalb des Ladens bezahlt werden. Davon getrennt: Trinkgeld darf der Arbeitgeber auf den Mindestlohn anrechnen, nicht einbehalten. Die Stadt reagierte: Warnhinweise, Korrekturen, engeres Fragefeld. Was die Abschaltung nicht ist: ein Eingeständnis der Rechtswidrigkeit. Anlass war ein Haushaltsloch von 12 Milliarden Dollar. Verteidigt hat ihn die Vorgängerverwaltung, abgeschaltet die Anfang 2026 angetretene.",
-      "position": 51,
+      "position": 53,
       "id": "nyc-mycity",
       "url": "https://robert-haase.de/belege.html#nyc-mycity",
       "topic": "haftung",
@@ -1765,7 +1819,7 @@
         "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
       },
       "disambiguatingDescription": "Was die Entscheidung ist und was nicht: Sie ist vorläufig, geprüft wurden nur die Erfolgsaussichten im Eilverfahren. Amazon hat am 18. August 2026 Rehearing en banc beantragt; der öffentliche Aktenspiegel weist dazu bis zum letzten Abgleich am 21. August 2026 nichts aus, spätere Einträge sind nicht ausgeschlossen. Es ist US-Recht und bindet in Europa niemanden. Was das Gericht offen lässt: Zu serverseitigen Agenten sagt es nichts, es errichte keine neue Rechtsordnung für agentische KI, entscheide nichts über Haftung aus Delikt, und bei anderer Aktenlage könne der Anbieter so viel Kontrolle ausüben, dass er selbst zugreift. Der Fall betrifft den fremden Agenten auf der eigenen Seite, nicht die Haftung für den eigenen. Die Nutzungsbedingungen bleiben unberührt.",
-      "position": 52,
+      "position": 54,
       "id": "perplexity-cfaa",
       "url": "https://robert-haase.de/belege.html#perplexity-cfaa",
       "topic": "haftung",
@@ -1792,7 +1846,7 @@
         "url": "https://opensource.contentauthenticity.org/docs/getting-started/faqs/"
       },
       "disambiguatingDescription": "Was der Beleg nicht sagt: Dieselbe Antwort hält zuerst fest, dass fehlende Historie angezeigt wird, der Screenshot bleibt als Datei ohne Herkunft erkennbar. Die Seite schränkt ein, Content Credentials seien ein positives Signal und kein negatives. Er trifft nur die Metadaten-Schicht: Sie führt Wasserzeichen als Technik, die „cropping, rotation, or screen capture“ übersteht, und die C2PA-Spezifikation sieht die Wiederherstellung entfernter Metadaten per Abgleich mit Wasserzeichen-Kennung oder Fingerabdruck vor. Wer das sagt: Die Seite steht unter Adobes Copyright und verweist daneben auf die eigene Abhilfe Durable Content Credentials. Die Wasserzeichen-Angabe ist Selbstauskunft ohne Messung, die Wiederherstellung eine Möglichkeit der Spezifikation, kein belegter Regelbetrieb.",
-      "position": 53,
+      "position": 55,
       "id": "screenshot-metadaten",
       "url": "https://robert-haase.de/belege.html#screenshot-metadaten",
       "topic": "haftung",
@@ -1819,7 +1873,7 @@
         "url": "https://mcp.frontify-integrations.com/"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: 54 ist ein Stichtagswert eines Beta-Produkts und bewegt sich. Die Herstellerdokumentation nennt an zwei Stellen 52 und für das lesende Paket 25 statt 24: Wer 52 zitiert, zitiert die Dokumentation, nicht das ausgezählte System. Einen Grund dafür nennt keine der vier Frontify-Quellen. Die Paketzahlen sind überlappende Teilmengen der 54 und dürfen nicht addiert werden. Die Guide-Überschrift kündigt den Server mit zehn Werkzeugen an, gemeint sind zehn Pakete, mehr als das Fünffache daneben. Was der Eintrag nicht belegt: Belegt ist, was ein Anbieter über sein eigenes Produkt sagt, nirgends unabhängig geprüft: der Umfang einer Schnittstelle, nicht Verbreitung, Nutzung, Wirkung oder die Qualität der ausgelieferten Markenregeln. Kein Werkzeug entscheidet über eine Aussage, die Pakete lesen, schreiben und verwalten. Ein Zugriffsprotokoll ist nicht belegt: „Audit trail of AI interactions“ ist bei Frontify ein Auswahlkriterium für Käufer, in Repository, Server-Seiten und Help Center kommt das Wort audit nicht vor. Der Server ist nicht standardmäßig aktiv, der Zugang läuft über die Kundenbetreuung, derzeit kostenfrei mit Preisvorbehalt. Wie der angeschlossene KI-Anbieter die Daten verarbeitet, kontrolliert Frontify nach eigener Angabe nicht.",
-      "position": 54,
+      "position": 56,
       "id": "frontify-mcp",
       "url": "https://robert-haase.de/belege.html#frontify-mcp",
       "topic": "agenten",
@@ -1858,7 +1912,7 @@
         "url": "https://www.canva.dev/docs/mcp/tools/"
       },
       "disambiguatingDescription": "Wo die Tarifgrenze liegt: Die Übersichtsseite stellt den markenbezogenen Teil scheinbar auf Enterprise; maßgeblich ist die Werkzeugliste: „Pro and above“ heißt dort Pro, Business und Enterprise. Was der Eintrag nicht belegt: Eigenangaben eines Anbieters ohne unabhängige Prüfung. Belegt sind Existenz und Umfang der Schnittstelle, nicht Verbreitung, Nutzung oder Wirkung. Kein Werkzeug prüft eine Aussage gegen Markenregeln; Brand Kits werden gelesen und eingefüllt. Der Export läuft in allen Tarifen, freie aber nur in Standardqualität, und Premium-Elemente können ihn in jedem Tarif mit license_required scheitern lassen. Haltbarkeit: Die 33 gilt zum Abrufdatum, die Dokumentation trägt keine Versionsangabe. Der Server verlangt nur ein Canva-Konto in beliebigem Tarif; eine eigene Integration braucht Canvas Freigabe.",
-      "position": 55,
+      "position": 57,
       "id": "canva-mcp",
       "url": "https://robert-haase.de/belege.html#canva-mcp",
       "topic": "agenten",
@@ -1889,7 +1943,7 @@
         "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm"
       },
       "disambiguatingDescription": "Was die Zahl wirklich ist: eine Hochrechnung aus dem durchschnittlichen monatlichen Rückgang an Chat- und Telefongesprächen, im Prospekt und in der Unternehmensbeschreibung des Berichts auf Basis 2024, im Lagebericht auf Basis 2025. Die beiden Werte widersprechen sich deshalb nicht, sie stehen nur unkommentiert nebeneinander: die ältere Zahl im Präsens, die neuere im Rückblick auf das Jahr 2025. Kein Rückbau von KI: Klarna nennt es einen „dual-track approach“, hielt die menschliche Option schon 2024 offen und erwartet laut beiden Börsenpapieren weiter sinkende Beschäftigtenzahlen. Wer den Fall als Rückkehr zum Menschen zitiert, zitiert gegen die Quelle.",
-      "position": 56,
+      "position": 58,
       "id": "klarna-700",
       "url": "https://robert-haase.de/belege.html#klarna-700",
       "topic": "agenten",
@@ -1916,7 +1970,7 @@
         "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
       },
       "disambiguatingDescription": "Der Dreiklang steht in der Übersicht, nicht in den Regeln: Die Tabelle mit Model, Application, User steht im Erklärtext „Understanding MCP servers“ und in der Spezifikationsübersicht „Server Features“. Beide führen keine Muss- und Soll-Regeln; in den drei Kapiteln, die sie führen, heißen Ressourcen „application-driven“. Kein Server muss alle drei anbieten: „Servers offer any of the following features to clients“. Und er altert schnell: Seit dem 5. November 2024 gibt es fünf Revisionen, zwei davon seit November 2025. Methoden werden ersetzt: resources/subscribe steht in 2025-06-18 und 2025-11-25 je zweimal im Ressourcen-Kapitel, in 2026-07-28 kein einziges Mal, dort dreimal subscriptions/listen.",
-      "position": 57,
+      "position": 59,
       "id": "mcp-primitive",
       "url": "https://robert-haase.de/belege.html#mcp-primitive",
       "topic": "agenten",
@@ -1943,7 +1997,7 @@
         "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks"
       },
       "disambiguatingDescription": "Was das nicht sagt: Der Nutzer klickt mit. Verborgen ist nur der Inhalt der Freigabe, Cursor blendet den Schlüssel selbst im Dialog aus. Kein Server war kompromittiert, das vergiftete Werkzeug steht im System-Prompt. Der Erfolgsbegriff ist eng: Gezählt wird nur, wenn der Agent ein zweites, legitimes Werkzeug missbraucht; ruft er das vergiftete selbst auf, gilt das als Misserfolg. Gemessen wird die Werkzeugaufruf-Ausgabe des Modells in einer einzelnen Runde, ausgeführt wird nichts. Bezugsgröße sind die gültigen Ausgaben, nicht die 1.348 Testfälle. Der Rest ist keine Abwehrquote, verweigert hat selbst das am häufigsten verweigernde Modell, Claude-3.7-Sonnet, in unter 3 Prozent. Invariant verkauft Sicherheitswerkzeuge und veröffentlichte zehn Tage vor dem eigenen Scanner.",
-      "position": 58,
+      "position": 60,
       "id": "mcp-tool-poisoning",
       "url": "https://robert-haase.de/belege.html#mcp-tool-poisoning",
       "topic": "agenten",
@@ -1974,7 +2028,7 @@
         "url": "https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation"
       },
       "disambiguatingDescription": "Was die Angabe nicht sagt: Sie stammt vom Anbieter, keine auffindbare Meldung prüft selbst nach. Die Prüfung meldet und verweigert nicht: Nicht freigegebene Schriften werden laut Produktseite markiert, und der Labs-Beitrag verneint ausdrücklich, dass der Connector die Marken-, Rechts- oder Produktionsprüfung ersetzt. Wer freigibt, ist der Kunde: Vorausgesetzt sind freigegebene Produktionsschriften in seiner Instanz, die der Connector nur umsetzt. Gegenstand ist eine Schrift, keine Aussage. Web und HTML sind die erste Ausbaustufe, der Zugang auf ausgewählte Enterprise-Kunden von Monotype Fonts beschränkt, Zahlen zu Nutzung oder Wirkung fehlen.",
-      "position": 59,
+      "position": 61,
       "id": "monotype-mcp",
       "url": "https://robert-haase.de/belege.html#monotype-mcp",
       "topic": "agenten",
@@ -2001,7 +2055,7 @@
         "url": "https://brand.pulumi.com/mcp-server/"
       },
       "disambiguatingDescription": "Was die Zahlen nicht sagen: Gemessen sind Erreichbarkeit und Umfang, nicht Nutzung, Wirkung oder ob sich jemand an die Regeln hält. Der Inhalt ist die ungeprüfte Selbstdarstellung einer einzelnen Softwarefirma über die eigene Marke. Was der Server entscheidet: Drei Prompts sagen eine strukturierte Bewertung von Text, Bild und Design zu, werden laut Hersteller aber vom Menschen ausgelöst und expandieren in eine vorbereitete Modellanfrage. Selbst gerechnet werden zwei Urteile: Farbkontrast gegen veröffentlichte APCA-Schwellen, im Test Lc 86,4 für violet-700 auf Weiß, und die nächstgelegene Markenfarbe samt Ersetzungsempfehlung. Über die Güte einer Aussage befindet ein Mensch, so verlangt es der Regeltext.",
-      "position": 60,
+      "position": 62,
       "id": "pulumi-brand-mcp",
       "url": "https://robert-haase.de/belege.html#pulumi-brand-mcp",
       "topic": "agenten",
@@ -2028,7 +2082,7 @@
         "url": "https://docs.platform.statista.ai/pricing/credit-logic"
       },
       "disambiguatingDescription": "Was die Staffelung nicht sagt: Was ein Credit in Geld kostet, steht in der gesamten Dokumentation nirgends, die einzige Preisseite nennt Verhältnisse. Belegt ist, was teuer ist, nicht wie teuer. Vier der sechs Werkzeuge betreffen Market und Consumer Insights, also Marktprognosen und Umfragedaten, nicht den Statistik-Katalog; Daten liefern davon nur zwei, die beiden anderen geben Suchtreffer zurück. Was der Eintrag nicht belegt: Herstellerangaben über das eigene Produkt. Unabhängig gemessen ist allein, dass der Endpunkt antwortet und ohne Schlüssel abweist, nichts über Verbreitung oder Nutzung. Die Bestandszahlen der Pressemitteilung vom 20. November 2025 sind nicht verwendet: über eine Million Statistiken meint dort den über MCP zugänglichen Teil, 1,5 Millionen den Gesamtbestand, beides Herstellerangaben ohne Zählvorschrift.",
-      "position": 61,
+      "position": 63,
       "id": "statista-mcp",
       "url": "https://robert-haase.de/belege.html#statista-mcp",
       "topic": "agenten",
@@ -2059,7 +2113,7 @@
         "url": "https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/"
       },
       "disambiguatingDescription": "Was der Eintrag nicht belegt: eine Wirkung. Die 70 Prozent sind Absicht unter Zukunftsvorbehalt. Alle Angaben stammen vom Anbieter, geprüft ist nur, dass er sie macht. Der Agent prüft gegen hinterlegte Vorgaben und entscheidet nichts; die Freigabe ist hier ein regulatorisch erzwungenes Verfahren, die Übertragung auf andere Marken bleibt Analogie. Die Werbezahl trägt das nicht: 57 Prozent kürzere Prüfzyklen bewirbt Veeva heute auf der Produktseite, ohne Stichprobe, Ausgangswert und Rechenvorschrift; wortgleich stehen sie schon in einem Datenblatt vom 2. Mai 2017, dieselbe Zahl in einem vom 21. März 2016, also mindestens neun Jahre vor dem ersten Agenten, in Unterlagen, die KI kein einziges Mal erwähnen.",
-      "position": 62,
+      "position": 64,
       "id": "veeva-mlr",
       "url": "https://robert-haase.de/belege.html#veeva-mlr",
       "topic": "agenten",
@@ -2090,7 +2144,7 @@
         "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Sie steht im Beitrag des MCP-Entwicklers über die eigene Spende, in einer Aufzählung unter der Überschrift „incredible adoption“, ohne jede Erhebungsvorschrift: kein Verzeichnis, kein Stichtag, keine Definition von „aktiv“. Gegenprüfen hilft nur begrenzt, ein maßgebliches Verzeichnis gibt es nicht: Ein vollständiger Abzug des offiziellen Verzeichnisses am 10. September 2026 ergibt 30.363 eingetragene Server, davon 30.031 im Status „aktiv“. Gegen die Herstellerzahl rechnen lässt sich das nicht: Anthropic nennt keine Zählweise und meint einen anderen Gegenstand, ein Wachstumswert ergibt sich daraus nicht. Und das Verzeichnis zählt Einträge, die jemand angelegt hat, nicht benutzte Server; es ist als Vorschau gekennzeichnet und geht selbst von „minimal-to-no moderation“ aus. Ein Server ist kein Nutzer. Vorsicht beim Weiterreichen: Die Linux Foundation nennt dieselbe Zahl „published“, aus aktiven werden veröffentlichte Server. Zur Mitgliederliste: Platin-Mitgliedschaft ist bezahlt: Dass AWS, Google, Microsoft und OpenAI die Governance mittragen, belegt keinen Einsatz in ihren Produkten. Die Stiftung schreibt „include“, die Liste ist nicht abschließend. Stand Dezember 2025.",
-      "position": 63,
+      "position": 65,
       "id": "mcp-verbreitung",
       "url": "https://robert-haase.de/belege.html#mcp-verbreitung",
       "topic": "markt",
@@ -2121,7 +2175,7 @@
         "url": "https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook"
       },
       "disambiguatingDescription": "Warum die Überlappung keine Übereinstimmung ist: Bain zählt Käufe, die Agenten „initiated, influenced, or completed“ haben, und nimmt nur Kaufreisen mit reiner KI-gestützter Suche oder Entdeckung aus. Morgan Stanley nennt keine Regel, seine Assistenten suchen, vergleichen Preise und nehmen Wiederkäufe vorweg, bei minimalem Eingreifen des Nutzers. Nachgerechnet: Beide unterstellen rund zwei Billionen Dollar Onlinehandel, der Unterschied sitzt weitgehend im Zähler. Was keine Zahl sagt: wie viel der Agent selbst abschließt. Bains Schlusssatz nennt für KI „bis zu ein Viertel der Transaktionen“, dieselbe Obergrenze wie der Anteilswert, nur auf Transaktionen statt Umsatz. Beide verkaufen Beratung dazu, keines nennt Bezugsgröße oder Rechenweg für 2030, belegt sind nur Adoptionswerte, beide Zahlen gelten nur für die USA.",
-      "position": 64,
+      "position": 66,
       "id": "agentenhandel-2030",
       "url": "https://robert-haase.de/belege.html#agentenhandel-2030",
       "topic": "markt",
@@ -2152,7 +2206,7 @@
         "url": "https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Gemessen ist ein selbst geschätzter Zeitanteil, gemittelt über die Antwortenden, ohne Abgleich mit Systemdaten. Es ist weder ein Anteil der Unternehmen noch ein Budgetanteil. 24,2 ist der Mittelwert einer rechtsschiefen Verteilung, der Median liegt bei 20. Geantwortet haben 191 der 2.111 Eingeladenen, rund 9 Prozent, auf die Erwartungsfrage 188. Dieselbe Frage ergab in den zwei Wellen zuvor 34,5 und 44,2 Prozent; die Erwartung wandert mit jeder Welle nach oben, geprüft wurde keine. Die Branchenwerte gehören zu zwei Fragen: Die 36,1 Prozent stammen aus der Gesamtfrage und der größten Branchenzelle (40 Unternehmen), die 8,7 Prozent aus der zu generativer KI und einer der kleinsten (3). Zur Gesamtfrage nennt der Bericht keinen Tiefstwert.",
-      "position": 65,
+      "position": 67,
       "id": "cmo-ki-anteil",
       "url": "https://robert-haase.de/belege.html#cmo-ki-anteil",
       "topic": "markt",
@@ -2183,7 +2237,7 @@
         "url": "https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf"
       },
       "disambiguatingDescription": "Wofür die Zahl wirklich gilt: Prozent wovon bleibt offen, der Bericht nennt weder Einheit noch Zeitraum noch Rechengröße. Als Definition lag den Befragten vor: „Information that can be captured, quantified and analyzed“. Auf Seite 3 und 12 steht sie als Tatsache, als Schätzung zu erkennen geben sie erst die Regional- und Länderteile ab Seite 10: USA 56 Prozent, Deutschland 53, China 50 „compared with a global 55 percent“. Ein Schätzwert über Organisationen ist kein Anteil an einem Gesamtbestand, und 1.357 ist die Summe der Markt-Stichproben, der Bericht nennt 1.300 Befragte. Was regelmäßig damit vermengt wird: 60 Prozent der Befragten sagen, die Hälfte oder mehr ihrer Daten sei dunkel, 33 Prozent sagen 75 Prozent oder mehr. Das sind Anteile von Befragten, keine Anteile von Daten. Splunk führt die Zahl bis heute ohne Jahresangabe, am 26. März 2025 als „recent“, dort auch ohne Stichprobe.",
-      "position": 66,
+      "position": 68,
       "id": "dark-data-55",
       "url": "https://robert-haase.de/belege.html#dark-data-55",
       "topic": "markt",
@@ -2210,7 +2264,7 @@
         "url": "https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Sie ist eine Selbstauskunft aus einer Mehrfachauswahl und misst das Tun, nicht das Ergebnis. Die Bezugsgröße ist die Falle: Nenner sind nicht die 308 Antwortenden, sondern die 188, die diese Frage beantwortet haben; alle 188 kreuzten mindestens ein Feld an (Response Percent 100,0). Im Nenner steht damit kein Unternehmen ohne KI-Einsatz, die 41,5 Prozent sind ein Anteil unter KI-Nutzern. Wer auf 308 rechnet, kommt auf 128 statt auf 78. Mit dem Intervall reicht der Bereich von 34 bis 49 Prozent: gut vier von zehn, nicht jede zweite. Wer gefragt wurde: nur US-Unternehmen, 97 Prozent auf VP-Ebene oder darüber, 308 von 2.111 Angeschriebenen, 14,6 Prozent Rücklauf. Auf Deutschland ist die Zahl nicht übertragbar. Neu ist die Antwortoption, nicht die Frage: GEO stand 2026 erstmals zur Wahl und hat keine Vergleichszahl, die Frage selbst führt der Bericht als Zeitreihe gegen Fall 2023.",
-      "position": 67,
+      "position": 69,
       "id": "geo-verbreitung",
       "url": "https://robert-haase.de/belege.html#geo-verbreitung",
       "topic": "markt",
@@ -2237,7 +2291,7 @@
         "url": "https://www.ana.net/content/show/id/79185"
       },
       "disambiguatingDescription": "Was die Zahlen nicht sagen: Gemessen ist, wo Arbeit sitzt, nicht ob sie besser oder markenkonformer wird. Ein Branchenverband befragt freiwillig teilnehmende eigene Mitglieder, die laut Bericht selbst zur Inhouse-Agentur gehören können. Vorsicht bei den 65 Prozent: Die ANA weist die Basis je Frage aus, sie ist regelmäßig kleiner als die Teilnehmerzahl. 2018 lag sie bei dieser Frage bei 166 von 412 Befragten, für 2023 ist sie nicht veröffentlicht und darf nicht mit den 162 Teilnehmern verrechnet werden. Der Abstand 70 zu 65 Prozent trägt keine Trendwende: Das Intervall reicht 2018 von 63 bis 77 Prozent, 2023 bei höchstens 162 Antworten von 58 bis 72 Prozent, und die Wellen sind unterschiedlich groß. Der ANA-Bericht vom Juni 2026 setzt die Reihe nicht fort, er befragt Preis-Juroren; die nächste Mitgliederwelle wäre 2028.",
-      "position": 68,
+      "position": 70,
       "id": "in-house-verlagerung",
       "url": "https://robert-haase.de/belege.html#in-house-verlagerung",
       "topic": "markt",
@@ -2268,7 +2322,7 @@
         "url": "https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Gemessen sind neu veröffentlichte englischsprachige Artikel und Listicles mit Artikel-Markup und mindestens 100 Wörtern aus Common Crawl, nicht das Netz insgesamt, andere Sprachen, Social Media oder Video. Nichts über Reichweite: Graphite erhob im Juni 2025 und veröffentlichte im Oktober 2025, dass 86 Prozent der zu 31.493 Suchbegriffen in Google rankenden und 82 Prozent der von ChatGPT und Perplexity zitierten Artikel von Menschen stammen, gemessen aber mit einem vierten Detektor (Surfer, Falsch-Positiv-Rate 4,2 Prozent), also auf anderer Skala. Wie tragfähig die 50 Prozent sind: Der Wert mittelt drei Detektoren, die im selben Quartal um 6,4 Punkte auseinanderliegen (Pangram 47,7, Copyleaks 48,1, GPTZero 54,1). Die Spanne ist größer als der Abstand zur 50-Prozent-Marke, zwei der drei sehen Menschen vorn. Bei GPTZero zählt das Urteil „gemischt“ ganz auf der KI-Seite (6,4 Prozent der Artikel), bei Pangram und Copyleaks entscheidet die Mehrheit.",
-      "position": 69,
+      "position": 71,
       "id": "ki-anteil-artikel",
       "url": "https://robert-haase.de/belege.html#ki-anteil-artikel",
       "topic": "markt",
@@ -2295,7 +2349,7 @@
         "url": "https://www.semrush.com/blog/traffic-channel-mix-study/"
       },
       "disambiguatingDescription": "Was die Zahlen nicht sagen: Gezählt sind Klicks mit erkennbarer Herkunft aus einem Assistenten, nicht wie oft eine Marke in Antworten genannt wird. Google AI Mode liegt außerhalb der beiden Werte, die sich dazu äußern: Semrush führt ihn als eigenen Kanal mit 0,01 Prozent, Conductor vermerkt, dass Google Analytics ihn nicht von organischem Verkehr trennt. Warum die drei Werte nicht nebeneinandergehören: Contentsquare misst 6.500 Websites weltweit, Semrush über 50.000 weltweit, Conductor 1.215 eigene Kundendomains in den USA und nennt seine Werte Durchschnitte. Der Abstand von 0,14 auf 1,08 Prozent, fast Faktor acht, ist zu gutem Teil eine Frage der Auswahl. Alle drei verkaufen Analysewerkzeuge; Contentsquare und Conductor messen den eigenen Kundenbestand, Semrush schätzt aus einem zugekauften Klickstrom-Panel. Unabhängig geprüft ist keiner der Werte.",
-      "position": 70,
+      "position": 72,
       "id": "ki-verkehrsanteil",
       "url": "https://robert-haase.de/belege.html#ki-verkehrsanteil",
       "topic": "markt",
@@ -2322,7 +2376,7 @@
         "url": "https://www.netcraft.com/guide/phishing-website-detection-disruption"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Sie sagt nicht, dass diese Seiten verschwunden sind. Netcraft schreibt „disrupted“ und fasst darunter Sperren und Entfernen zusammen, wie sich die 1,3 Millionen aufteilen, steht nirgends. Dieselbe Seite rät Lesern, Anbieter genau danach zu fragen. Sie sagt auch nichts darüber, ob eine offengelegte Markenspezifikation das Klonen erleichtert oder erschwert, dafür fehlt jede Vergleichsgruppe. Belegt ist nur, dass Klone massenhaft existieren. Wer gezählt hat: Netcraft selbst, die eigenen Vorgänge, auf einer Verkaufsseite für diesen Dienst. Unabhängig geprüft ist nichts. Der oft mitzitierte Weltanteil von rund einem Drittel steht deshalb nicht in der Aussage: Die Seite beziffert die Weltmenge nirgends und widerspricht sich selbst, einmal Anteil an den Abschaltungen, einmal an den Angriffen. Auch die 16.000 Organisationen sind keine Marktgröße.",
-      "position": 71,
+      "position": 73,
       "id": "markenklone",
       "url": "https://robert-haase.de/belege.html#markenklone",
       "topic": "markt",
@@ -2349,7 +2403,7 @@
         "url": "https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Sie zählt keine Suchvorgänge, sondern Besuche und Sitzungen: ein Google-Besuch im Mittel 6,7 Seitenabrufe, eine App-Sitzung unbekannt viele Prompts. Und ungleich: Suchmaschinen nur Web, KI Web und App. Such-Apps schließt sie ohne Zahl als „relatively low“ aus, obwohl 83 Prozent der KI-Nutzung in Apps liegen. Von der KI zählen nur 52 Prozent „Asking“, laut Autoren eine Obergrenze. Die 71 Prozent sind Google Search und Gemini zusammen; je Tag sind es statt 26 nur 23,1. Dieselben 26 Prozent nennt sie anderswo für 2025 gegen 2024, wo ihre offenen Rohdaten 17,3 ergeben. Woher die Daten kommen: Similarweb-Schätzungen ohne Servermessung, gegengeprüft nur die Suchmaschinen-Zahlen an acht Websites, nur als Trendkorrelation; die KI-Zahlen gar nicht gegen Erstdaten. Der Autor verkauft Sichtbarkeit in Suchmaschinen und KI-Antworten und legt offen: beides groß zu nennen nützt ihm.",
-      "position": 72,
+      "position": 74,
       "id": "suchmarkt-wachstum",
       "url": "https://robert-haase.de/belege.html#suchmarkt-wachstum",
       "topic": "markt",
@@ -2376,7 +2430,7 @@
         "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. Was bleibt: die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.",
-      "position": 73,
+      "position": 75,
       "id": "metr-selbsteinschaetzung",
       "url": "https://robert-haase.de/belege.html#metr-selbsteinschaetzung",
       "topic": "urteil",
@@ -2403,7 +2457,7 @@
         "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Wo die Grenze verläuft, war den Teilnehmern nicht erkennbar. Die Aufgaben sahen einander ähnlich. Das ist der Kern des Befunds und zugleich seine Einschränkung: Gemessen wurde eine bewusst außerhalb platzierte Aufgabe, nicht die Häufigkeit solcher Fälle im Arbeitsalltag. Das Experiment lief mit GPT-4; wo die Grenze heute liegt, ist offen. Beratungsarbeit ist außerdem nicht jede Wissensarbeit.",
-      "position": 74,
+      "position": 76,
       "id": "jagged-frontier",
       "url": "https://robert-haase.de/belege.html#jagged-frontier",
       "topic": "urteil",
@@ -2430,7 +2484,7 @@
         "url": "https://europepmc.org/article/MED/38996021"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Die 0,871 Punkte gelten für den Zugang zu einer Idee. Bei bis zu fünf Ideen war die Angleichung kleiner, 0,718 Punkte und 8,9 Prozent, der Kreativitätsgewinn größer. „Mehr KI, mehr Gleichheit“ liest gegen die Daten. Gemessen ist der Zugang, nicht die Nutzung: In der Ein-Ideen-Bedingung riefen 82 von 100 überhaupt eine Idee ab, in der zweiten im Mittel 2,55, die vollen fünf nur 24,5 Prozent. Die eindrucksvollere Zahl ist die weichere: Die 10,7 Prozent sind ein Anteil an den 8,10 Punkten zwischen höchstem und niedrigstem Wert ohne KI, hängen also an zwei Extremwerten. Dieselben 10,7 Prozent stehen im Papier ein zweites Mal, als Neuartigkeits-Gewinn der am wenigsten kreativen Schreibenden, ohne Bezug dazu. Gemessen ist die Kosinus-Ähnlichkeit von Texteinbettungen einer Gruppe, nicht ob Ergebnisse schlechter sind. „Kreativer“ urteilen Laienleser, im Selbsturteil der Schreibenden gab es keinen statistisch signifikanten Unterschied. Acht Sätze ohne Dialog mit dem Modell, britische Prolific-Teilnehmende statt Berufsautoren: Kurzgeschichten sind keine Strategiepapiere.",
-      "position": 75,
+      "position": 77,
       "id": "homogenisierung",
       "url": "https://robert-haase.de/belege.html#homogenisierung",
       "topic": "urteil",
@@ -2457,7 +2511,7 @@
         "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
       },
       "disambiguatingDescription": "Korrigiert am 10.09.2026: Bis dahin standen hier „96 Prozent Differenzierung“ und „93 Prozent Augmentierung“. Beide Werte stehen nirgends im Beitrag; der Volltext nennt keinen Anteilswert, nur Verschiebungen gegenüber der Ausgangslage, und die Zahlen stammen aus Blog-Zusammenfassungen, vermutlich aus einer Abbildung abgelesen. Ebenfalls korrigiert: Die über 15.000 Durchläufe gelten nicht für die sieben Modelle. Beide 15.000er-Blöcke sind Nachuntersuchungen an einem einzigen Modell, ChatGPT-5; die Sieben-Modelle-Messung beruht auf 50 Durchläufen je Modell und Frage, eine Gesamtzahl nennen die Autoren nicht. Was die Zahlen nicht sagen: Die Unempfindlichkeit gilt nur für zwei der sieben Fragen; bei den übrigen fünf verschob besseres Prompten die Antworten im Mittel um 22 Prozent in beide Richtungen, am stärksten wirkte die Reihenfolge der Optionen mit 19 Prozent. Ob die bevorzugte Antwort falsch ist, sagt der Befund nicht, gemessen ist allein die Unempfindlichkeit gegen den Kontext. Zur Quelle: ein HBR Digital Article ohne Begutachtung, ein eigenständiges Paper gibt es nicht; ein Repositorium führt ihn als begutachtet, das ist ein Katalogartefakt. Die bezahlgeschränkte Seite liefert den Volltext in ihren strukturierten Daten mit aus, zeichengleich in Archivfassungen vom 17. März und 14. Juli 2026.",
-      "position": 76,
+      "position": 78,
       "id": "strategie-trendslop",
       "url": "https://robert-haase.de/belege.html#strategie-trendslop",
       "topic": "urteil",
@@ -2484,7 +2538,7 @@
         "url": "https://arxiv.org/abs/2310.13548"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Die Untersuchung stammt von Anthropic, zwei der fünf getesteten Assistenten und das analysierte Belohnungsmodell sind eigene, alle Modelle sind von 2023. Wahrhaftigkeit ist ebenfalls belohnt, je nach Versuchsbedingung ist Übereinstimmung nicht das stärkste Merkmal. Geprüft sind Faktenfragen und Freitextaufgaben, nicht Strategieempfehlungen. Gemessen ist, was die Daten belohnen, nicht wie oft ein Assistent im Betrieb schmeichelt; die OpenAI-Rücknahme zeigt nur, dass der Effekt dort auftreten und bemerkt werden kann, nicht wie stark er heute ist. Vorsicht bei der meistzitierten Zahl: Im Teilversuch an 266 Fehlannahmen sind die zustimmenden Antworten eigens erzeugt: ein Modell sollte subtil täuschen, aus 4.096 Ziehungen wurde die überzeugendste gewählt. Die 95 Prozent sind das Urteil des Claude-2-Präferenzmodells, nicht das von Menschen, gemessen gegen die beste von drei kurzen, menschlich geschriebenen Widerspruchsantworten, ausgewählt von ebendiesem Modell. Für die menschlichen Bewerter nennt das Papier keine Zahl; sie zogen die korrigierende Antwort überwiegend vor, mit steigender Schwierigkeit seltener, aus der Abbildung abgelesen rund 3 Prozent auf der leichtesten und rund 21 Prozent auf der schwersten Stufe. Das ist die Mehrheit mehrerer Laien ohne Nachschlagemöglichkeit, der einzelne Bewerter liegt im Mittel darüber. Die Autoren nennen den Datensatz einen Machbarkeitsnachweis.",
-      "position": 77,
+      "position": 79,
       "id": "sykophanz",
       "url": "https://robert-haase.de/belege.html#sykophanz",
       "topic": "urteil",
@@ -2518,7 +2572,7 @@
       "author": {
         "@id": "https://robert-haase.de/#person"
       },
-      "position": 78,
+      "position": 80,
       "id": "markenspezifikation-wirkung",
       "url": "https://robert-haase.de/belege.html#markenspezifikation-wirkung",
       "topic": "urteil",
@@ -2549,7 +2603,7 @@
         "url": "https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave"
       },
       "disambiguatingDescription": "Was die Untersuchung nicht sagt: Sie handelt von Haushalten zwischen offener Feuerstelle und Mikrowelle, nicht von Wissensarbeit und nicht von KI. Wer sie überträgt, zieht eine Analogie, keinen Beweis. Sie taugt als Korrektiv, nicht als Prognose: Sie zeigt, dass Arbeitsersparnis durch Technik eine Annahme ist, die historisch schon einmal nicht eingetreten ist. Dass sie wieder ausbleibt, zeigt die Untersuchung nicht.",
-      "position": 79,
+      "position": 81,
       "id": "cowan-standards",
       "url": "https://robert-haase.de/belege.html#cowan-standards",
       "topic": "urteil",
@@ -2576,7 +2630,7 @@
         "url": "https://www.sciencedirect.com/science/article/pii/S0040162517302287"
       },
       "disambiguatingDescription": "Was die vielzitierte Zahl verschweigt: Von 83 befragten Konzernen blieben nach dem Abgleich mit Leistungsdaten 70 für die Profitabilität und nur 42 für das Marktkapitalisierungswachstum. Die Autoren nennen das selbst eine wesentliche Einschränkung. Die „200 Prozent zusätzliches Wachstum“, die in der Foresight-Branche kursieren, stehen damit auf 42 Unternehmen. Und es ist ein Zusammenhang, keine Ursache: Konzerne, die sich Zukunftsarbeit leisten, unterscheiden sich auch sonst von denen, die es nicht tun.",
-      "position": 80,
+      "position": 82,
       "id": "foresight-performance",
       "url": "https://robert-haase.de/belege.html#foresight-performance",
       "topic": "urteil",
@@ -2603,7 +2657,7 @@
         "url": "https://www.forecastbench.org/leaderboards/"
       },
       "disambiguatingDescription": "Was die Rangliste nicht sagt: Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die drei Spitzenplätze, p-Werte 0,71, 0,60 und 0,57, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Bestwert aus vielen Versuchen: Google DeepMind hält 50 der 334 Einreichungen und alle drei Plätze vor dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 790 und 1.165. Zur Parität: Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Februar 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke.",
-      "position": 81,
+      "position": 83,
       "id": "prognose-mensch-maschine",
       "url": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
       "topic": "urteil",
@@ -2630,7 +2684,7 @@
         "url": "https://arxiv.org/abs/2402.07862"
       },
       "disambiguatingDescription": "Was das Ergebnis nahelegt und nicht beweist: Dass auch der schlechte Assistent wirkte, spricht dafür, dass ein Teil des Gewinns aus dem Vorgang des Befragens stammt und nicht aus der Güte der Maschinenantwort. Bewiesen ist das nicht. Die Autoren weisen selbst darauf hin, dass Ausreißer das Bild beeinflussen und die Robustheit zu prüfen bleibt. Sechs Fragen sind eine schmale Grundlage, und es ist ein Preprint.",
-      "position": 82,
+      "position": 84,
       "id": "prognose-assistenz",
       "url": "https://robert-haase.de/belege.html#prognose-assistenz",
       "topic": "urteil",
@@ -2657,7 +2711,7 @@
         "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html"
       },
       "disambiguatingDescription": "Was die Untersuchung nicht sagt: Sie stammt von 1988 und behandelt klassische Professionen (Medizin, Recht, Buchhaltung), nicht Beratung und nicht KI. Ihre Übertragung auf heutige Berufsbilder ist eine Deutung. Und sie erklärt nicht, wie man eine Zuständigkeit gewinnt, sondern beschreibt, worum konkurriert wird. Als Beleg taugt sie für die Frage, was Definitionsmacht bedeutet, und nicht als Anleitung.",
-      "position": 83,
+      "position": 85,
       "id": "abbott-zustaendigkeit",
       "url": "https://robert-haase.de/belege.html#abbott-zustaendigkeit",
       "topic": "urteil",
@@ -2684,7 +2738,7 @@
         "url": "https://mitpress.mit.edu/9780262046664/artificial-communication/"
       },
       "disambiguatingDescription": "Was das Buch nicht ist: keine Messung, sondern ein theoretischer Vorschlag aus der Systemtheorie. Es belegt keine Zahl und lässt sich nicht widerlegen wie ein Experiment. Und es handelt nicht von Marken: Espositos Beispiele sind Empfehlungslisten, Profilbildung und das Recht auf Vergessen. Die Übertragung auf die Frage, ob eine Marke für Maschinen lesbar ist, ist eine Deutung: eine naheliegende, aber keine, die im Buch steht.",
-      "position": 84,
+      "position": 86,
       "id": "esposito-kommunikation",
       "url": "https://robert-haase.de/belege.html#esposito-kommunikation",
       "topic": "urteil",
@@ -2711,7 +2765,7 @@
         "url": "https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf"
       },
       "disambiguatingDescription": "Was die Studie nicht sagt: Sie vergleicht nicht die Qualität der Ergebnisse. Im Abstract steht keine Aussage darüber, welche Arbeitsweise genauere Empfehlungen hervorbringt; anderslautende Zusammenfassungen im Umlauf gehen über die Quelle hinaus. Gemessen ist der Kompetenzaufbau, nicht das Ergebnis. Außerdem: ein Arbeitspapier in Entwurfsform, nicht begutachtet, und die Befragten kommen alle aus einer einzigen Beratung.",
-      "position": 85,
+      "position": 87,
       "id": "drei-arbeitsweisen",
       "url": "https://robert-haase.de/belege.html#drei-arbeitsweisen",
       "topic": "urteil",
@@ -2738,7 +2792,7 @@
         "url": "https://www.nber.org/papers/w31161"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Kundendienst ist stark strukturierte Arbeit mit wiederkehrenden Fällen. Die Übertragung auf Strategie oder Gestaltung ist offen. Und es ist ein Arbeitspapier, laut Deckblatt ausdrücklich nicht begutachtet. Gemessen wurde außerdem Menge, nicht Güte: gelöste Anliegen pro Stunde, nicht wie gut sie gelöst wurden, auch wenn die Kundenstimmung sich mitverbesserte.",
-      "position": 86,
+      "position": 88,
       "id": "kompetenz-nivellierung",
       "url": "https://robert-haase.de/belege.html#kompetenz-nivellierung",
       "topic": "urteil",
@@ -2765,7 +2819,7 @@
         "url": "https://www.science.org/doi/10.1126/science.adh2586"
       },
       "disambiguatingDescription": "Zur Zahl selbst: Hier stehen die Werte der geprüften Arbeitspapier-Fassung vom März 2023, die ausdrücklich nicht begutachtet ist. Die begutachtete Fassung erschien später in Science und trägt abweichende Angaben: In Umlauf sind 453 Teilnehmende und „40 Prozent Zeitersparnis“; diese Fassung liegt hinter einer Bezahlschranke und wurde nicht im Original eingesehen. Was die Zahl nicht sagt: Es waren kurze, isolierte Schreibaufgaben, keine Projekte über Wochen.",
-      "position": 87,
+      "position": 89,
       "id": "aufwand-statt-koennen",
       "url": "https://robert-haase.de/belege.html#aufwand-statt-koennen",
       "topic": "urteil",
@@ -2792,7 +2846,7 @@
         "url": "https://doi.org/10.1287/orsc.2023.18430"
       },
       "disambiguatingDescription": "Was die Zahlen nicht sagen: Verglichen wurde nicht Mensch gegen Maschine, sondern Menge gegen menschlich geführte KI mit eigens gebauten Prompts. Wurde das Modell iterativ zum Differenzieren angehalten, war der Rückstand im Mittel nicht mehr nachweisbar (minus 0,056) und blieb nur bei der Höchstnote. Woran sie hängen: Urteile über Texte, keine realisierten Ideen. Alle Bewerter sitzen in den USA. GPT-4 im Stand von Mitte 2023, ein Aufgabenfeld, je Block zehn KI- gegen drei Menschenlösungen. Zwei der fünf Autoren sind der beteiligten KI-Firma zugeordnet, Mitautor Jacimovic hat sie gegründet.",
-      "position": 88,
+      "position": 90,
       "id": "boussioux-neuheit-wert",
       "url": "https://robert-haase.de/belege.html#boussioux-neuheit-wert",
       "topic": "urteil",
@@ -2819,7 +2873,7 @@
         "url": "https://doi.org/10.1287/mnsc.24.9.934"
       },
       "disambiguatingDescription": "Was der Aufsatz nicht misst: Er bildet Begriffe und beschreibt. Dass eine gewachsene Strategie zu besseren Ergebnissen führt als eine geplante, belegt er nirgends. Mintzberg greift die Planungslehre durchaus an, ihre Trennung von Formulierung und Umsetzung ruhe auf zwei oft falschen Annahmen. Geprüft hat er das nicht. Der Unterbau ist größer als das Gezeigte: Die allgemeinen Schlüsse stützen sich auf vier finanzierte Hauptstudien und über zwanzig studentische Arbeiten; nur zwei der vier sind im Text dokumentiert, die übrigen nicht. Beide gezeigten Fälle sind historisch, liegen außerhalb der Markenführung und wurden rückblickend von derselben Forschergruppe rekonstruiert, die festlegte, was als Muster zählt.",
-      "position": 89,
+      "position": 91,
       "id": "mintzberg-muster",
       "url": "https://robert-haase.de/belege.html#mintzberg-muster",
       "topic": "urteil",
@@ -2846,7 +2900,7 @@
         "url": "https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Sie belegt nicht, dass Käufer gar keine Unterschiede sehen. Im Schnitt sprechen 54 Prozent wenigstens einer Marke der Warengruppe eines von beidem zu, bei britischen Erfrischungsgetränken 76 Prozent. Niedrig ist der Einzelwert, weil jeder Befragte nur ein oder zwei Marken nennt, und jeder andere; je Warengruppe 8 bis 36 Prozent. Befragt wurden nur Verwender; dass sie die Marke trotzdem kaufen, folgt daraus, nicht aus der Messung. Wer erhoben und wer bezahlt hat: Fallzahlen fehlen im zugänglichen Text. Die meisten Daten kommen samt Messverfahren von der Werbeagentur Young & Rubicam, erhoben 1999; das Institut nennt als Geldgeber unter anderem Coca-Cola, Mars und Nielsen. Über maschinelle Auswahl sagt der Aufsatz nichts, er ist älter als jeder Agent.",
-      "position": 90,
+      "position": 92,
       "id": "wahrgenommene-differenzierung",
       "url": "https://robert-haase.de/belege.html#wahrgenommene-differenzierung",
       "topic": "urteil",

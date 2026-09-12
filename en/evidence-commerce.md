@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-6 of 90 entries in the collection “Evidence” by Robert Haase, as of 10 September 2026.
+6 of 92 entries in the collection “Evidence” by Robert Haase, as of 12 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 

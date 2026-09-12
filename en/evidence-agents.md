@@ -1,6 +1,6 @@
 # Evidence: Agents
 
-24 of 90 entries in the collection “Evidence” by Robert Haase, as of 10 September 2026.
+26 of 92 entries in the collection “Evidence” by Robert Haase, as of 12 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-agenten.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (16) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
++ Verified study, vendor documentation, or court decision (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
 + Preliminary: prototype, single test, forecast, or vendor figure (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
 + Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
 
@@ -224,6 +224,34 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
+## verlage-robots
+
+**Claim:** Of 76 assessable German-language news and trade media, 44 block at least one training crawler in their robots.txt, or 57.9 percent. 38 of them block GPTBot, exactly half, 40 block CCBot and 36 Bytespider. Far fewer block the same provider’s search bot: OAI-SearchBot appears on 8 outlets’ lists, or 10.5 percent. 11 outlets block training without blocking a single AI search bot or user-triggered fetch.
+
+**What the number does not say:** robots.txt forbids nothing, it asks. What is measured is a declaration of intent, not access control: RFC 9309 expressly leaves compliance optional, and OpenAI itself writes that the rules may not apply to user-triggered retrieval. **Blocking training therefore says nothing about visibility in AI answers** while the search bots stay open. **Open does not mean permitted here:** what is measured is the absence of a block, not a stated permission; exactly 2 of the 76 outlets write an express allow for an AI bot into the file. **Three of the names counted are not crawlers at all:** Google-Extended, Applebot-Extended and Webzio-Extended fetch no page, they only govern what may happen to data already fetched. At Apple and Microsoft, search and AI cannot be separated technically, neither runs a separate name for it. **And the name has to be exact:** one trade title blocks “ChatGPT”, a token OpenAI does not run, so the rule does not apply. **And the sample is disclosed but not representative:** 14 of the 77 titles come from an external ranking, the rest follow stated rules. The news agencies are missing, and they are the strongest objection: dpa, AFP, epd, APA and Keystone-SDA together block not a single AI crawler, because their content is protected by contract rather than by this file.
+
+**Source:** Own survey, 12 September 2026 · 77 titles requested, 76 assessable · news part per the “Weekly reach online” chart on the Germany page of the Reuters Institute Digital News Report 2026, trade media and the Austrian and Swiss titles by a stated rule · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 3 titles · two runs with identical verdicts
+
+**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#verlage-robots
+
+---
+
+## marken-robots
+
+**Claim:** Of 148 assessable home pages of the companies in DAX, MDAX and SDAX, 10 block at least one training crawler, or 6.8 percent; 4 block GPTBot. 138 block no AI access at all, among them 14 that serve no robots.txt whatsoever. 7 companies write an express permission for an AI crawler into the file, 6 of which block none at the same time: there are almost as many invitations as blocks. The only reservation of text and data mining rights to be found in the index sits with an academic publisher, and that publisher blocks no crawler at all.
+
+**What the number does not say:** It measures a request, not access control; how many of the same pages technically reject an automated retrieval is a separate entry on this page. **Of the ten blocks, eight are by name.** One page blocks everything unnamed and expressly admits the large providers, one blocks every crawler including Google, which is no decision about AI, and one counts only because an AI crawler sits in an inherited list of 139 unwanted bots. **A missing block is not a decision for AI:** 14 pages have no file at all and have therefore decided nothing. **Twelve pages were not assessable**, six reject the retrieval and six do not answer; which way that moves the rate is open, because under RFC 9309 an unreachable robots.txt counts as permission. What is measured is the home page: anyone setting different rules deeper in the site appears open here. **The rights reservation was sought only in technical form**, in the file provided for it, in the response header and in the page source; 134 of the 160 pages answered that clearly. A reservation in the terms of use, the form common in Germany, is therefore not covered.
+
+**Source:** Own survey, 12 September 2026 · the same list as the survey of 30 August, 160 home pages from DAX, MDAX and SDAX, index membership from Wikipedia, address from Wikidata · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 2 pages · two runs, 160 of 160 pages with identical verdicts
+
+**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#marken-robots
+
+---
+
 ## agenten-erfolg
 
 **Claim:** Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in ten months. When the benchmark was first evaluated in October 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely.
@@ -364,4 +392,4 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 24 of 24 entries on Agents. Last entry: veeva-mlr.
+End of file: 26 of 26 entries on Agents. Last entry: veeva-mlr.

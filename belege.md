@@ -1,6 +1,6 @@
-# Belege: alle 90 Aussagen
+# Belege: alle 92 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 10. September 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 12. September 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -25,7 +25,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Themendateien
 
 - KI-Suche, 16 Einträge: https://robert-haase.de/belege-ki-suche.md
-- Agenten, 24 Einträge: https://robert-haase.de/belege-agenten.md
+- Agenten, 26 Einträge: https://robert-haase.de/belege-agenten.md
 - Handel, 6 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 12 Einträge: https://robert-haase.de/belege-haftung.md
 - Marktgröße, 14 Einträge: https://robert-haase.de/belege-markt.md
@@ -54,9 +54,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **markenstatur-sichtbarkeit** · Anbietermessung, Preprint ohne Begutachtung · Fragt man KI-Suchsysteme nach einer Kategorie, ohne den Markennamen zu nennen, erscheinen global bekannte Marken im ersten Messlauf im Schnitt in 72,9 Prozent der Antworten, etablierte Mittelstands- und Regionalmarken in 43,6 Prozent, kleine und Nischenmarken in 11,4 Prozent. Von allen 149.912 gezählten Quellenangaben führen 2,9 Prozent auf die Website der Marke selbst, 75,2 Prozent auf die anderer Unternehmen derselben Kategorie. → https://robert-haase.de/belege-ki-suche.md
 - **zitier-position** · Anbietermessung, vorläufig · Von 18.012 Zitierungen ChatGPTs aus Webseiten stammen 44,2 Prozent aus den ersten 30 Prozent des Textes. Der mittlere Abschnitt, mit 40 Prozent Textlänge der breiteste, trägt 31,1 Prozent, der Schluss 24,7 Prozent. In einer zweiten Auswertung über 11.022 Zitierungen lag die Eigennamen-Dichte zitierter Einleitungen bei 20,6 Prozent, gegenüber 5 bis 8 Prozent, die der Autor aus Standardkorpora ableitet (Brown Corpus, Penn Treebank), ohne Rechenweg. → https://robert-haase.de/belege-ki-suche.md
 
-## Agenten (24)
+## Agenten (26)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
 + Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
 
@@ -74,6 +74,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **dax-benennung** · Eigene Erhebung, reproduzierbar · Auf 135 Startseiten deutscher Börsenunternehmen aus DAX, MDAX und SDAX tragen 456 von 13.527 Bedienelementen keinen Namen im Accessibility-Baum, also 3,4 Prozent. Die Quote unterscheidet sich zwischen den drei Indizes kaum: DAX 3,1, MDAX 3,8, SDAX 3,3 Prozent. → https://robert-haase.de/belege-agenten.md
 - **dax-landmarken** · Eigene Erhebung, reproduzierbar · 52 von 135 Startseiten deutscher Börsenunternehmen haben keine Hauptinhalt-Landmarke. Für ein Programm, das die Seite liest, fehlt damit die Angabe, wo der Inhalt beginnt und die Navigation endet. → https://robert-haase.de/belege-agenten.md
 - **dax-bilder** · Eigene Erhebung, reproduzierbar · Auf 135 Startseiten deutscher Börsenunternehmen aus DAX, MDAX und SDAX tragen 1.662 von 3.979 Bildern, die Chrome im Accessibility-Baum ausweist, keinen Namen, also 41,8 Prozent. Unter den daraufhin nach Elementart untersuchten namenlosen Bildern sind 86 Prozent inline eingebundene SVG-Grafiken und 13 Prozent klassische img-Elemente. → https://robert-haase.de/belege-agenten.md
+- **verlage-robots** · Eigene Erhebung, reproduzierbar · Von 76 auswertbaren deutschsprachigen Nachrichten- und Fachmedien sperren 44 in ihrer robots.txt mindestens einen Trainings-Crawler, also 57,9 Prozent. GPTBot sperren 38 von ihnen, also genau die Hälfte, CCBot 40 und Bytespider 36. Den Suchbot desselben Anbieters sperren weit weniger: OAI-SearchBot steht bei 8 Medien auf der Liste, das sind 10,5 Prozent. 11 Medien sperren das Training, ohne einen KI-Suchbot oder einen Abruf auf Nutzerfrage zu sperren. → https://robert-haase.de/belege-agenten.md
+- **marken-robots** · Eigene Erhebung, reproduzierbar · Von 148 auswertbaren Startseiten der Unternehmen aus DAX, MDAX und SDAX sperren 10 mindestens einen Trainings-Crawler, also 6,8 Prozent; GPTBot sperren 4. 138 sperren keinen einzigen KI-Zugriff, darunter 14, die gar keine robots.txt ausliefern. 7 Unternehmen schreiben einem KI-Crawler eine ausdrückliche Erlaubnis in die Datei, 6 davon sperren zugleich keinen: Es gibt fast so viele Einladungen wie Sperren. Die einzige Reservierung von Rechten für Text und Data Mining, die sich im Index finden ließ, steht bei einem Wissenschaftsverlag, und der sperrt keinen einzigen Crawler. → https://robert-haase.de/belege-agenten.md
 - **agenten-erfolg** · Geprüfte Erhebung · Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in zehn Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im Oktober 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig. → https://robert-haase.de/belege-agenten.md
 - **frontify-mcp** · Herstellerdokumentation · Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 10. September 2026 führt er, einzeln aufgeführt, 54 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff. Das lesende Discovery-Paket enthält 24 Werkzeuge, das Admin-Paket alle 54, zwei davon sind als destruktiv gekennzeichnet. → https://robert-haase.de/belege-agenten.md
 - **canva-mcp** · Herstellerdokumentation · Canva betreibt einen offiziellen MCP-Server und dokumentiert dafür 33 Werkzeuge. 27 stehen in allen Tarifen, darunter Designs erzeugen und exportieren. Vier setzen mindestens Canva Pro voraus, darunter Brand Kits auflisten und Markenvorlagen nutzen. Zwei bleiben Enterprise vorbehalten: eine Vorlage automatisch befüllen und den zugehörigen Datensatz auslesen. Jeder meldet sich einzeln an, ein Agent hat die Rechte des angemeldeten Menschen. → https://robert-haase.de/belege-agenten.md
@@ -163,4 +165,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **mintzberg-muster** · Explorative Fallstudien, begriffsbildend · Henry Mintzberg definierte Strategie 1978 als „ein Muster in einem Strom von Entscheidungen“: Gebildet ist sie, sobald eine Folge von Entscheidungen über die Zeit Konsistenz zeigt. Damit werden auch die Strategien untersuchbar, die sich trotz der Absichten einstellten oder ganz ohne Absicht entstanden. Gezeigt hat er das an zwei Langzeitfällen, dem Volkswagenwerk und den USA in Vietnam von 1950 bis 1973. → https://robert-haase.de/belege-urteil.md
 - **wahrgenommene-differenzierung** · Befragung · Über 17 Warengruppen in Australien und Großbritannien halten im Schnitt 11 Prozent der aktuellen Verwender ihre eigene Marke für anders und 10 Prozent für einzigartig; 17 Prozent nennen wenigstens eines von beidem. Gekauft wird die Marke trotzdem. Die Autoren empfehlen stattdessen Wiedererkennbarkeit. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 90 von 90 Aussagen in 6 Themen.
+Ende der Übersicht: 92 von 92 Aussagen in 6 Themen.
