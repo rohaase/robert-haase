@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-14 von 92 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. September 2026.
+16 von 98 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 17. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
-+ Sachstand, Fallbericht oder Marktbeobachtung (4) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung
++ Sachstand, Fallbericht oder Marktbeobachtung (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 ---
 
@@ -224,4 +224,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 14 von 14 Einträgen zum Thema Marktgröße. Letzter Eintrag: suchmarkt-wachstum.
+## insourcing-absicht
+
+**Aussage:** Auf die Frage „Planen Sie, durch KI künftig mehr Marketing-Leistungen intern abzudecken?“ antworten 80,0 Prozent von 170 Führungskräften mit Budget- und Entscheidungsverantwortung mit Ja, 11,2 Prozent mit Nein, 8,8 Prozent wissen es nicht. Nach Größe getrennt: 84 Prozent bei Unternehmen mit 100 bis 999 Mitarbeitenden, 79 Prozent bei 1.000 und mehr.
+
+**Was die Zahl nicht sagt:** Gemessen ist ein Plan, keine Verlagerung, und die Frage benennt die Ursache gleich mit; wer Ja sagt, hat noch niemanden eingestellt. Was „Marketing-Leistungen“ umfasst, legt jeder Befragte selbst fest. 170 Selbstauskünfte aus einer Online-Befragung, ohne Angabe zur Grundgesamtheit und zur Ausschöpfung; die Branchenauswertungen derselben Studie beruhen ausdrücklich auf kleinen Fallzahlen. Herausgegeben wird das Papier vom Agenturverband GWA, erhoben hat es das Handelsblatt Research Institute.
+
+**Quelle:** GWA KI-Whitepaper 2026, Teil „KI-Studien“, Frage 6 · 170 Führungskräfte aus Unternehmen mit Budget- und Entscheidungsverantwortung · 1. bis 9. April 2026 · deskriptive Online-Befragung mit Selbstauskünften · Durchführung Handelsblatt Research Institute und techconsult in Zusammenarbeit mit dem GWA · [Zur Quelle](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
+
+**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#insourcing-absicht
+
+---
+
+## agentur-selbstbild
+
+**Aussage:** 96,2 Prozent von 78 Führungskräften aus Mitgliedsagenturen des GWA stufen den KI-Reifegrad der eigenen Agentur als „fortgeschritten“ (71,8 Prozent) oder „Experte“ (24,4 Prozent) ein, 3,8 Prozent als „Anfänger“. Den durchschnittlichen Wissensstand der gesamten Agenturbranche im DACH-Raum bewerten dieselben Befragten auf einer Skala von 1 bis 5 mehrheitlich mit 3 (57,7 Prozent), 19,2 Prozent mit 2 und 23,1 Prozent mit 4; die Extremwerte 1 und 5 wählt niemand.
+
+**Was die Zahl nicht sagt:** Beides sind Selbsteinschätzungen, kein Test und kein Abgleich mit dem tatsächlichen Einsatz. Die zwei Fragen haben verschiedene Gegenstände, die eigene Agentur und die Branche; dass dieselben Leute sich besser einschätzen als ihr Umfeld, ist hier gemessen, nicht erklärt. 78 Antworten aus einem Verband, freiwillig; wer teilnimmt, beschäftigt sich mit dem Thema. Der Vergleich mit der Vorerhebung 2024/25 trägt nicht, die Stichprobe war kleiner und anders zusammengesetzt (n = 52).
+
+**Quelle:** GWA KI-Whitepaper 2026, Teil „KI-Studien“ · 78 Führungskräfte aus GWA-Mitgliedsagenturen · 12. Februar bis 6. März 2026 · deskriptive Online-Befragung mit Selbstauskünften · Herausgeber GWA Tech & Innovation Forum · Fragen: „Wie würden Sie den aktuellen Reifegrad Ihrer Agentur in Bezug auf KI einstufen?“ und „Wie schätzen Sie den aktuellen durchschnittlichen Wissensstand zu KI-Anwendungen in der gesamten Agenturbranche im DACH-Raum ein?“ · [Zur Quelle](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
+
+**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#agentur-selbstbild
+
+---
+
+Ende der Datei: 16 von 16 Einträgen zum Thema Marktgröße. Letzter Eintrag: agentur-selbstbild.

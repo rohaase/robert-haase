@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-14 of 92 entries in the collection “Evidence” by Robert Haase, as of 12 September 2026.
+16 of 98 entries in the collection “Evidence” by Robert Haase, as of 17 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Preliminary: prototype, single test, forecast, or vendor figure (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
-+ Status, case report, or market observation (4) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung
++ Status, case report, or market observation (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 ---
 
@@ -224,4 +224,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 14 of 14 entries on Market size. Last entry: suchmarkt-wachstum.
+## insourcing-absicht
+
+**Claim:** Asked "Do you plan to cover more marketing services in-house through AI?", 80.0 percent of 170 executives with budget and decision authority answer yes, 11.2 percent no, and 8.8 percent do not know. By company size: 84 percent at companies with 100 to 999 employees, 79 percent at 1,000 and above.
+
+**What the figure does not say:** What is measured is a plan, not a move, and the question names the cause itself; a yes has hired no one. What counts as a marketing service is left to each respondent. 170 self-reports from an online survey, with no information on the population or the response rate; the industry breakdowns in the same study explicitly rest on small numbers. The paper is published by the German agency association GWA, and the survey was run by the Handelsblatt Research Institute.
+
+**Source:** GWA KI-Whitepaper 2026, "KI-Studien" section, question 6 · 170 executives with budget and decision authority · 1 to 9 April 2026 · descriptive online survey with self-reports · conducted by Handelsblatt Research Institute and techconsult in cooperation with GWA · [Source](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
+
+**Grade:** Survey · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#insourcing-absicht
+
+---
+
+## agentur-selbstbild
+
+**Claim:** 96.2 percent of 78 executives from member agencies of the German agency association GWA rate their own agency's AI maturity as "advanced" (71.8 percent) or "expert" (24.4 percent), 3.8 percent as "beginner". The same respondents rate the average level of AI knowledge across the agency industry in Germany, Austria and Switzerland mostly at 3 on a scale of 1 to 5 (57.7 percent), 19.2 percent at 2 and 23.1 percent at 4; nobody picks the extremes 1 or 5.
+
+**What the figures do not say:** Both are self-assessments, not a test and not a comparison with actual use. The two questions have different objects, one's own agency and the industry; that the same people rate themselves above their surroundings is measured here, not explained. 78 answers from within an association, given voluntarily; those who take part are working on the topic. The comparison with the previous wave of 2024/25 does not hold, that sample was smaller and differently composed (n = 52).
+
+**Source:** GWA KI-Whitepaper 2026, "KI-Studien" section · 78 executives from GWA member agencies · 12 February to 6 March 2026 · descriptive online survey with self-reports · published by GWA Tech & Innovation Forum · questions: "How would you rate your agency's current level of AI maturity?" and "How do you rate the current average level of AI knowledge across the agency industry in the DACH region?" · [Source](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
+
+**Grade:** Survey · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agentur-selbstbild
+
+---
+
+End of file: 16 of 16 entries on Market size. Last entry: agentur-selbstbild.

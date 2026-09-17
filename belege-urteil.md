@@ -1,6 +1,6 @@
 # Belege: Urteil
 
-18 von 92 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. September 2026.
+19 von 98 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 17. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-judgement.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
-+ Sachstand, Fallbericht oder Marktbeobachtung (11) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung
++ Sachstand, Fallbericht oder Marktbeobachtung (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 ---
 
@@ -280,4 +280,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 18 von 18 Einträgen zum Thema Urteil. Letzter Eintrag: wahrgenommene-differenzierung.
+## de-skilling
+
+**Aussage:** In einer weltweiten Befragung von 70 Vorständen und Senior Executives beobachtet die Hälfte den Verlust von Fähigkeiten bereits im eigenen Unternehmen, mehr als 60 Prozent halten ihn binnen drei bis fünf Jahren für eine ernsthafte Bedrohung. Die fünf Fähigkeiten, die dieselben Führungskräfte als wichtigste für die langfristige Leistung einstufen, sind genau die fünf, die sie als am stärksten gefährdet sehen: Urteilen und Entscheiden, ein Problem verstehen und zuschneiden, kreatives Denken, Analyse und kausales Schließen, Lösungen entwickeln und bewerten.
+
+**Was die Zahl nicht sagt:** Gemessen ist eine Wahrnehmung, kein Fähigkeitsverlust. Niemand hat Leistungen vorher und nachher geprüft; 70 Führungskräfte geben Selbstauskunft, ergänzt um Gespräche mit rund einem Dutzend weiteren. Die Stichprobe ist klein und nicht repräsentativ, und wer an einer Befragung zu diesem Thema teilnimmt, hat es meist schon für sich entschieden. Die Rangfolge der Fähigkeiten stammt aus Bewertungsskalen, nicht aus Tests.
+
+**Quelle:** Sagar Goel, David Martin, Charikleia Kaffe: „When Everyone Uses AI, Companies Risk Losing Critical Skills“, BCG Henderson Institute, 17. Juni 2026 · weltweite Befragung von 70 Führungskräften aus C-Suite und oberer Leitungsebene, dazu Gespräche mit rund einem Dutzend weiteren · [Zur Quelle](https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills)
+
+**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#de-skilling
+
+---
+
+Ende der Datei: 19 von 19 Einträgen zum Thema Urteil. Letzter Eintrag: de-skilling.

@@ -1,6 +1,6 @@
 # Evidence: Judgement
 
-18 of 92 entries in the collection “Evidence” by Robert Haase, as of 12 September 2026.
+19 of 98 entries in the collection “Evidence” by Robert Haase, as of 17 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-urteil.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Verified study, vendor documentation, or court decision (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
 + Preliminary: prototype, single test, forecast, or vendor figure (0)
-+ Status, case report, or market observation (11) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung
++ Status, case report, or market observation (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 ---
 
@@ -280,4 +280,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 18 of 18 entries on Judgement. Last entry: wahrgenommene-differenzierung.
+## de-skilling
+
+**Claim:** In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation.
+
+**What the figures do not say:** What is measured is a perception, not a loss of skill. Nobody tested performance before and after; 70 executives give self-reports, complemented by interviews with about a dozen more. The sample is small and not representative, and those who take part in a survey on this topic have usually made up their minds already. The ranking of the skills comes from rating scales, not from tests.
+
+**Source:** Sagar Goel, David Martin, Charikleia Kaffe: "When Everyone Uses AI, Companies Risk Losing Critical Skills", BCG Henderson Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with about a dozen more · [Source](https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills)
+
+**Grade:** Survey · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#de-skilling
+
+---
+
+End of file: 19 of 19 entries on Judgement. Last entry: de-skilling.

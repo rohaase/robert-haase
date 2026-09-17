@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-26 von 92 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. September 2026.
+29 von 98 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 17. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -22,8 +22,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (20) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (6) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung
 + Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 ---
@@ -392,4 +392,46 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 26 von 26 Einträgen zum Thema Agenten. Letzter Eintrag: veeva-mlr.
+## rechtsvorbehalt-kommentar
+
+**Aussage:** Von 77 deutschsprachigen Nachrichten- und Fachmedien erklären 20 in ihrer robots.txt einen Rechtsvorbehalt gegen Text und Data Mining, und zwar als Kommentarzeile: 16 nennen ausdrücklich § 44b UrhG, vier weitere berufen sich auf österreichisches Recht oder formulieren den Vorbehalt in eigenen Worten. Unter den Startseiten der Unternehmen aus DAX, MDAX und SDAX tut das keine einzige. Die maschinell auswertbare Form, eine *TDM-policy*-Zeile in derselben Datei, steht in keiner der geprüften Dateien.
+
+**Was die Zahl nicht sagt:** Ein Kommentar ist kein Befehl. Crawler werten Kommentarzeilen nicht aus; die Zeile erklärt einen Vorbehalt, sie erzwingt ihn nicht. Ob diese Form den maschinenlesbaren Vorbehalt nach § 44b Abs. 3 UrhG erfüllt, ist eine Rechtsfrage, und die Messung beantwortet sie nicht. **Zwei weitere Medien** untersagen im Kommentar das automatisierte Auslesen allgemein, ohne Text und Data Mining zu nennen; sie sind nicht mitgezählt. Gemessen ist allein die robots.txt der Startseite: Vorbehalte in den Nutzungsbedingungen, im Impressum oder in den Metadaten der Seite sind hier nicht erfasst. Von den 160 Index-Startseiten haben 14 nicht geantwortet, im zweiten Durchgang 15; sie könnten einen Vorbehalt tragen.
+
+**Quelle:** Eigene Erhebung, 17. September 2026 · dieselben Listen wie die beiden robots.txt-Einträge vom 12. September: 77 Medientitel, alle auswertbar, und 160 Startseiten aus DAX, MDAX und SDAX, davon 146 auswertbar · gesucht wurde in der ausgelieferten robots.txt nach Kommentaren mit § 44b, nach dem Wortlaut Text und Data Mining und nach einer TDM-policy-Zeile · Abruf zuerst mit eigener Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung · zwei Durchläufe, bei den Medien 77 von 77 mit identischem Urteil, im Index wich eine Seite ab, die im zweiten Durchgang nicht antwortete
+
+**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#rechtsvorbehalt-kommentar
+
+---
+
+## abruf-kuerzung
+
+**Aussage:** Das Standard-Abrufwerkzeug eines Agenten las von einer Seite mit 128.000 Zeichen sichtbarem Text nur die ersten 100.000 bis 115.000 Zeichen und erreichte damit etwa 80 von 90 Einträgen. In einem Abnahmetest mit zehn festen Fragen, jede zweimal gestellt, wies es nur bei drei Fragen auf die Kürzung hin, obwohl ein sichtbarer Satz auf der Seite genau dafür das Erkennungsmerkmal nannte. Fragen nach einem bestimmten Eintrag beantwortete es mit Hilfe einer Ankerkarte in 6 von 6 Fällen richtig, Zählfragen in 4 von 4. Bei begrifflichen Fragen antwortete es aus dem gekürzten Text weiter, ohne den Abbruch zu erwähnen.
+
+**Was die Zahl nicht sagt:** Geprüft ist ein Werkzeug an einer Seite, nicht der Markt: das Abrufwerkzeug eines Claude-Agenten auf einer einzigen Seite. ChatGPT, Gemini und Perplexity sind nicht getestet, und ein Browser-Agent, der die Seite darstellt, liest anders. Die Angabe „etwa 80 von 90“ ist die Selbstauskunft des Werkzeugs, nicht nachgezählt. Den Satz, auf den sich die drei von zehn beziehen, gibt es auf der Seite nicht mehr; er ist nach dem Test entfernt worden, weil er seine Aufgabe nicht erfüllte. Der Test misst das Verhalten des Werkzeugs, nicht die Güte der Seite, und er sagt nichts darüber, ob gekürzte Antworten seltener zitiert werden. Die geprüfte Seite ist die eigene: Bau und Test liefen in derselben Werkstatt, ausgewertet hat ein zweiter Agent, der den Bau nicht kannte.
+
+**Quelle:** Eigene Messung, 11. September 2026, 08:10 und 11:05 · Abrufwerkzeug eines Claude-Agenten auf robert-haase.de/belege.html, 128.000 Zeichen sichtbarer Text ohne Skripte · zehn vorher festgelegte Fragen, jede zweimal gestellt, Abbruchregeln vor dem Lauf bestimmt · Auswertung durch einen zweiten Agenten ohne Kenntnis des Baus
+
+**Einstufung:** Eigener Test, ein Werkzeug · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#abruf-kuerzung
+
+---
+
+## google-ads-textregeln
+
+**Aussage:** Google Ads nimmt Markenregeln in eigenen Worten entgegen: bis zu 25 ausgeschlossene Begriffe und bis zu 40 Vorgaben zu Botschaft und Ton, jeweils je Kampagne. Sie wirken nur auf automatisch angepasste Textbausteine, nicht auf Bilder. Auf derselben Hilfeseite warnt Google, ungeeignete Vorgaben könnten eine große Zahl brauchbarer Texte entfernen und die Leistung senken.
+
+**Was die Zahl nicht sagt:** Das sind Produktgrenzen, keine Messung. Die Funktion läuft als „experimental beta“, Google nennt selbst mögliche Einschränkungen; Obergrenzen und Verhalten können sich ändern. Die Regeln hängen an der Kampagne, nicht an der Marke: Wer zehn Kampagnen führt, pflegt zehn Regelsätze, und außerhalb von Google Ads gelten sie nicht. Ob die erzeugten Texte die Vorgaben einhalten, sagt die Dokumentation nicht; sie beschreibt nur, dass die Vorgaben berücksichtigt werden.
+
+**Quelle:** Google-Ads-Hilfe, „Use text guidelines with Performance Max and Search campaigns (beta)“, abgerufen am 17. September 2026 · Freigabe für alle Werbetreibenden weltweit laut Google-Blog vom 26. Februar 2026 · [Zur Quelle](https://support.google.com/google-ads/answer/16489313)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#google-ads-textregeln
+
+---
+
+Ende der Datei: 29 von 29 Einträgen zum Thema Agenten. Letzter Eintrag: google-ads-textregeln.

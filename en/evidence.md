@@ -1,6 +1,6 @@
-# Evidence: all 92 claims
+# Evidence: all 98 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 12 September 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 17 September 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -25,11 +25,11 @@ The collection does not map the state of the research, only the figures I needed
 ## Topic files
 
 - AI search, 16 entries: https://robert-haase.de/en/evidence-ai-search.md
-- Agents, 26 entries: https://robert-haase.de/en/evidence-agents.md
+- Agents, 29 entries: https://robert-haase.de/en/evidence-agents.md
 - Commerce, 6 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 12 entries: https://robert-haase.de/en/evidence-liability.md
-- Market size, 14 entries: https://robert-haase.de/en/evidence-market.md
-- Judgement, 18 entries: https://robert-haase.de/en/evidence-judgement.md
+- Market size, 16 entries: https://robert-haase.de/en/evidence-market.md
+- Judgement, 19 entries: https://robert-haase.de/en/evidence-judgement.md
 
 ## AI search (16)
 
@@ -54,10 +54,10 @@ The collection does not map the state of the research, only the figures I needed
 - **markenstatur-sichtbarkeit** · Vendor measurement, preprint without peer review · Ask an AI search engine a category question without naming the brand, and globally known brands appear on average in 72.9 percent of answers on the first tracking run, established mid-market and regional brands in 43.6 percent, small and niche brands in 11.4 percent. Of all 149,912 citations counted, 2.9 percent point at the brand’s own website and 75.2 percent at those of other companies in the same category. → https://robert-haase.de/en/evidence-ai-search.md
 - **zitier-position** · Vendor measurement, preliminary · Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text. The middle section, the widest at 40 percent of the text, carries 31.1 percent, the closing section 24.7 percent. In a second analysis of 11,022 citations, cited introductions reached a proper-noun density of 20.6 percent, against the 5 to 8 percent the author derives from standard corpora (Brown Corpus, Penn Treebank), with no arithmetic shown. → https://robert-haase.de/en/evidence-ai-search.md
 
-## Agents (26)
+## Agents (29)
 
-+ Verified study, vendor documentation, or court decision (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
-+ Preliminary: prototype, single test, forecast, or vendor figure (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
++ Verified study, vendor documentation, or court decision (20) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln
++ Preliminary: prototype, single test, forecast, or vendor figure (6) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung
 + Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 - **leere-buttons** · Verified study · On 30.6 percent of one million home pages surveyed, buttons had no accessible name; on 51 percent, form fields had no label. → https://robert-haase.de/en/evidence-agents.md
@@ -86,6 +86,9 @@ The collection does not map the state of the research, only the figures I needed
 - **pulumi-brand-mcp** · Own measurement, reproducible · Pulumi publishes its own brand guidelines as an MCP server at brand.pulumi.com/mcp. On 10 September 2026 it answered without any login and listed 13 resources, one template, 11 tools and 3 prompts; the resources include brand voice, writing style and the binding product names. One resource governs generative AI in plain language, addressed to the human: “never ship raw model output as a finished piece”, “never publish anything without a human reviewing it first”. → https://robert-haase.de/en/evidence-agents.md
 - **statista-mcp** · Vendor documentation · Statista runs an MCP server at api.statista.ai/v1/mcp with six documented tools. Every call is metered individually in credits, tiered by the kind of answer: a search costs 0 or 1 credit, retrieving the figures themselves 10 to 15. Without a key the server replies 401 Unauthorized. → https://robert-haase.de/en/evidence-agents.md
 - **veeva-mlr** · Vendor press releases · In the regulated pharmaceutical approval process, machine pre-checking of brand rules is a shipping product. On 3 December 2025 Veeva announced a Quick Check Agent that scans content against editorial, brand, market, channel and compliance guidelines before the MLR review itself begins. On 23 June 2026 Veeva acquired the vendor Copli and launched it as Falcon MLR, with the stated potential to eliminate 70 per cent or more of manual MLR labour within five years. → https://robert-haase.de/en/evidence-agents.md
+- **rechtsvorbehalt-kommentar** · Own survey, reproducible · Of 77 German-language news and trade media, 20 declare a reservation of rights against text and data mining in their robots.txt, as a comment line: 16 name section 44b of the German Copyright Act explicitly, four others invoke Austrian law or word the reservation themselves. Among the home pages of the DAX, MDAX and SDAX companies, not a single one does. The machine-readable form, a *TDM-policy* line in the same file, appears in none of the files examined. → https://robert-haase.de/en/evidence-agents.md
+- **abruf-kuerzung** · Own test, one tool · An agent's standard fetch tool read only the first 100,000 to 115,000 characters of a page with 128,000 characters of visible text and thus reached about 80 of 90 entries. In an acceptance test with ten fixed questions, each asked twice, it pointed out the truncation for only three of them, although a visible sentence on the page named exactly the marker for detecting it. Questions about a specific entry were answered correctly in 6 of 6 cases with the help of an anchor card, counting questions in 4 of 4. For conceptual questions it kept answering from the truncated text without mentioning the cut. → https://robert-haase.de/en/evidence-agents.md
+- **google-ads-textregeln** · Vendor documentation · Google Ads accepts brand rules in plain language: up to 25 term exclusions and up to 40 restrictions on message and tone, each per campaign. They apply only to automatically customized text assets, not to images. On the same help page Google warns that unsuitable guidelines may remove a large number of good text assets and hurt performance. → https://robert-haase.de/en/evidence-agents.md
 
 ## Commerce (6)
 
@@ -119,11 +122,11 @@ The collection does not map the state of the research, only the figures I needed
 - **perplexity-cfaa** · Court ruling, not final · A US federal appeals court vacated the preliminary injunction against Perplexity on 4 August 2026 and remanded the case. When someone runs a shopping agent, it is the user who accesses the third-party website under the Computer Fraud and Abuse Act, the agent is the user’s tool and the provider does not access anything itself, as long as the agent runs in the user’s browser and the provider’s servers never call the site themselves. → https://robert-haase.de/en/evidence-liability.md
 - **screenshot-metadaten** · Vendor documentation · A screenshot does not carry the original’s C2PA provenance data: the record lives in the file, and a screenshot creates a new one. Conversely, a C2PA-enabled camera photographing an AI image signs that shot, with no trace of its AI origin. As a rule it records device, time and place in metadata and cannot analyse the content of the image; what goes in is up to the implementer, the same page says. → https://robert-haase.de/en/evidence-liability.md
 
-## Market size (14)
+## Market size (16)
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Preliminary: prototype, single test, forecast, or vendor figure (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
-+ Status, case report, or market observation (4) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung
++ Status, case report, or market observation (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 - **machine-customers** · Self-assessment, forecast · In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. → https://robert-haase.de/en/evidence-market.md
 - **marktgroesse** · Vendor figures · The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode. → https://robert-haase.de/en/evidence-market.md
@@ -139,12 +142,14 @@ The collection does not map the state of the research, only the figures I needed
 - **ki-verkehrsanteil** · Three vendor measurements · Three analytics vendors put a number on the share of website visits that arrive from an AI assistant: Contentsquare 0.2 percent in the fourth quarter of 2025, Semrush 0.14 percent for the year 2025, Conductor 1.08 percent for May to September 2025. Three separately collected measurements, fractions of a percent up to a good one percent. → https://robert-haase.de/en/evidence-market.md
 - **markenklone** · Vendor figures · Takedown provider Netcraft states that between March 2024 and March 2025 it acted against 1.3 million phishing sites imitating more than 16,000 organisations. → https://robert-haase.de/en/evidence-market.md
 - **suchmarkt-wachstum** · Market observation on estimated data · Between the first quarter of 2023 and the fourth quarter of 2025, search engine visits and search-like AI sessions combined grew by 26 percent worldwide, from 82.0 to 103.2 billion per month. Google’s share falls from 89 to 71 percent, ChatGPT reaches 20 percent. → https://robert-haase.de/en/evidence-market.md
+- **insourcing-absicht** · Survey · Asked "Do you plan to cover more marketing services in-house through AI?", 80.0 percent of 170 executives with budget and decision authority answer yes, 11.2 percent no, and 8.8 percent do not know. By company size: 84 percent at companies with 100 to 999 employees, 79 percent at 1,000 and above. → https://robert-haase.de/en/evidence-market.md
+- **agentur-selbstbild** · Survey · 96.2 percent of 78 executives from member agencies of the German agency association GWA rate their own agency's AI maturity as "advanced" (71.8 percent) or "expert" (24.4 percent), 3.8 percent as "beginner". The same respondents rate the average level of AI knowledge across the agency industry in Germany, Austria and Switzerland mostly at 3 on a scale of 1 to 5 (57.7 percent), 19.2 percent at 2 and 23.1 percent at 4; nobody picks the extremes 1 or 5. → https://robert-haase.de/en/evidence-market.md
 
-## Judgement (18)
+## Judgement (19)
 
 + Verified study, vendor documentation, or court decision (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
 + Preliminary: prototype, single test, forecast, or vendor figure (0)
-+ Status, case report, or market observation (11) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung
++ Status, case report, or market observation (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 - **metr-selbsteinschaetzung** · Controlled trial · Experienced developers took 19 percent *longer* with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed. → https://robert-haase.de/en/evidence-judgement.md
 - **jagged-frontier** · Controlled trial · In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered more than 30 percent higher quality, as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI. → https://robert-haase.de/en/evidence-judgement.md
@@ -164,5 +169,6 @@ The collection does not map the state of the research, only the figures I needed
 - **boussioux-neuheit-wert** · Controlled test · In an ideas contest on the circular economy, 300 screened evaluators each rated 13 of 234 solutions, 3,900 ratings in total: 54 from people, 180 from GPT-4 with human-guided prompts. The human ones were judged more novel (the machine ones minus 0.140 on a scale of 1 to 5), the machine ones more strategically viable, more valuable environmentally and financially, and better overall (plus 0.088 to 0.160). At the top end the picture flips: AI solutions received the top novelty mark 7.9 percentage points less often, and their value advantage vanished there across all four dimensions. → https://robert-haase.de/en/evidence-judgement.md
 - **mintzberg-muster** · Exploratory case studies, concept-forming · Henry Mintzberg defined strategy in 1978 as “a pattern in a stream of decisions”: a strategy has formed once a sequence of decisions shows consistency over time. That opens to research the strategies which came about despite intentions, or with no intention at all. He showed it on two long-run cases, Volkswagenwerk and the United States in Vietnam from 1950 to 1973. → https://robert-haase.de/en/evidence-judgement.md
 - **wahrgenommene-differenzierung** · Survey · Across 17 product categories in Australia and the UK, an average of 11 percent of a brand’s current users consider it different and 10 percent consider it unique; 17 percent name at least one of the two. They buy the brand anyway. The authors recommend distinctiveness instead. → https://robert-haase.de/en/evidence-judgement.md
+- **de-skilling** · Survey · In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 92 of 92 claims in 6 topics.
+End of overview: 98 of 98 claims in 6 topics.

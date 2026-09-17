@@ -1,6 +1,6 @@
-# Belege: alle 92 Aussagen
+# Belege: alle 98 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 12. September 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 17. September 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -25,11 +25,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Themendateien
 
 - KI-Suche, 16 Einträge: https://robert-haase.de/belege-ki-suche.md
-- Agenten, 26 Einträge: https://robert-haase.de/belege-agenten.md
+- Agenten, 29 Einträge: https://robert-haase.de/belege-agenten.md
 - Handel, 6 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 12 Einträge: https://robert-haase.de/belege-haftung.md
-- Marktgröße, 14 Einträge: https://robert-haase.de/belege-markt.md
-- Urteil, 18 Einträge: https://robert-haase.de/belege-urteil.md
+- Marktgröße, 16 Einträge: https://robert-haase.de/belege-markt.md
+- Urteil, 19 Einträge: https://robert-haase.de/belege-urteil.md
 
 ## KI-Suche (16)
 
@@ -54,10 +54,10 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **markenstatur-sichtbarkeit** · Anbietermessung, Preprint ohne Begutachtung · Fragt man KI-Suchsysteme nach einer Kategorie, ohne den Markennamen zu nennen, erscheinen global bekannte Marken im ersten Messlauf im Schnitt in 72,9 Prozent der Antworten, etablierte Mittelstands- und Regionalmarken in 43,6 Prozent, kleine und Nischenmarken in 11,4 Prozent. Von allen 149.912 gezählten Quellenangaben führen 2,9 Prozent auf die Website der Marke selbst, 75,2 Prozent auf die anderer Unternehmen derselben Kategorie. → https://robert-haase.de/belege-ki-suche.md
 - **zitier-position** · Anbietermessung, vorläufig · Von 18.012 Zitierungen ChatGPTs aus Webseiten stammen 44,2 Prozent aus den ersten 30 Prozent des Textes. Der mittlere Abschnitt, mit 40 Prozent Textlänge der breiteste, trägt 31,1 Prozent, der Schluss 24,7 Prozent. In einer zweiten Auswertung über 11.022 Zitierungen lag die Eigennamen-Dichte zitierter Einleitungen bei 20,6 Prozent, gegenüber 5 bis 8 Prozent, die der Autor aus Standardkorpora ableitet (Brown Corpus, Penn Treebank), ohne Rechenweg. → https://robert-haase.de/belege-ki-suche.md
 
-## Agenten (26)
+## Agenten (29)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (20) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (6) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung
 + Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 - **leere-buttons** · Geprüfte Erhebung · Auf 30,6 Prozent von einer Million untersuchten Startseiten fanden sich Buttons ohne zugänglichen Namen, auf 51 Prozent Formularfelder ohne Beschriftung. → https://robert-haase.de/belege-agenten.md
@@ -86,6 +86,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **pulumi-brand-mcp** · Eigene Erhebung, reproduzierbar · Pulumi veröffentlicht die eigenen Markenrichtlinien als MCP-Server unter brand.pulumi.com/mcp. Er antwortete am 10. September 2026 ohne Anmeldung und führt 13 Ressourcen, eine Vorlage, 11 Werkzeuge und 3 Prompts; unter den Ressourcen Markenstimme, Schreibregeln und verbindliche Produktnamen. Eine Ressource regelt generative KI im Klartext, gerichtet an den Menschen: „never ship raw model output as a finished piece“, „never publish anything without a human reviewing it first“. → https://robert-haase.de/belege-agenten.md
 - **statista-mcp** · Herstellerdokumentation · Statista betreibt einen MCP-Server unter api.statista.ai/v1/mcp mit sechs dokumentierten Werkzeugen. Jeder Aufruf wird einzeln in Credits abgerechnet, gestaffelt nach Antwortart: Suchen kostet 0 oder 1 Credit, das Abrufen der Zahlen selbst 10 bis 15. Ohne Schlüssel antwortet der Server mit 401 Unauthorized. → https://robert-haase.de/belege-agenten.md
 - **veeva-mlr** · Pressemitteilungen des Anbieters · Im regulierten Pharma-Freigabeverfahren ist die maschinelle Vorprüfung von Markenvorgaben ausgeliefertes Produkt. Veeva meldet am 3. Dezember 2025 einen Quick Check Agent, der Inhalte anhand redaktioneller, Marken-, Markt-, Kanal- und Compliance-Vorgaben prüft, bevor die MLR-Prüfung selbst beginnt. Am 23. Juni 2026 übernimmt Veeva den Anbieter Copli und startet ihn als Falcon MLR, mit dem erklärten Potenzial, binnen fünf Jahren 70 Prozent oder mehr der MLR-Handarbeit zu beseitigen. → https://robert-haase.de/belege-agenten.md
+- **rechtsvorbehalt-kommentar** · Eigene Erhebung, reproduzierbar · Von 77 deutschsprachigen Nachrichten- und Fachmedien erklären 20 in ihrer robots.txt einen Rechtsvorbehalt gegen Text und Data Mining, und zwar als Kommentarzeile: 16 nennen ausdrücklich § 44b UrhG, vier weitere berufen sich auf österreichisches Recht oder formulieren den Vorbehalt in eigenen Worten. Unter den Startseiten der Unternehmen aus DAX, MDAX und SDAX tut das keine einzige. Die maschinell auswertbare Form, eine *TDM-policy*-Zeile in derselben Datei, steht in keiner der geprüften Dateien. → https://robert-haase.de/belege-agenten.md
+- **abruf-kuerzung** · Eigener Test, ein Werkzeug · Das Standard-Abrufwerkzeug eines Agenten las von einer Seite mit 128.000 Zeichen sichtbarem Text nur die ersten 100.000 bis 115.000 Zeichen und erreichte damit etwa 80 von 90 Einträgen. In einem Abnahmetest mit zehn festen Fragen, jede zweimal gestellt, wies es nur bei drei Fragen auf die Kürzung hin, obwohl ein sichtbarer Satz auf der Seite genau dafür das Erkennungsmerkmal nannte. Fragen nach einem bestimmten Eintrag beantwortete es mit Hilfe einer Ankerkarte in 6 von 6 Fällen richtig, Zählfragen in 4 von 4. Bei begrifflichen Fragen antwortete es aus dem gekürzten Text weiter, ohne den Abbruch zu erwähnen. → https://robert-haase.de/belege-agenten.md
+- **google-ads-textregeln** · Herstellerdokumentation · Google Ads nimmt Markenregeln in eigenen Worten entgegen: bis zu 25 ausgeschlossene Begriffe und bis zu 40 Vorgaben zu Botschaft und Ton, jeweils je Kampagne. Sie wirken nur auf automatisch angepasste Textbausteine, nicht auf Bilder. Auf derselben Hilfeseite warnt Google, ungeeignete Vorgaben könnten eine große Zahl brauchbarer Texte entfernen und die Leistung senken. → https://robert-haase.de/belege-agenten.md
 
 ## Handel (6)
 
@@ -119,11 +122,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **perplexity-cfaa** · Gerichtsurteil, nicht endgültig · Ein US-Bundesberufungsgericht hat am 4. August 2026 die einstweilige Verfügung gegen Perplexity aufgehoben und zurückverwiesen. Setzt jemand einen Einkaufsagenten ein, dann greift nach dem Computer Fraud and Abuse Act der Nutzer auf die fremde Website zu, der Agent ist sein Werkzeug, der Anbieter greift selbst nicht zu, solange der Agent im Browser des Nutzers läuft und dessen Server die fremde Seite nie selbst aufrufen. → https://robert-haase.de/belege-haftung.md
 - **screenshot-metadaten** · Herstellerdokumentation · Ein Screenshot enthält die C2PA-Herkunftsdaten des Originals nicht: Sie liegen in der Datei, er erzeugt eine neue. Umgekehrt signiert eine C2PA-fähige Kamera, die ein KI-Bild abfotografiert, die Aufnahme, ohne Hinweis auf den KI-Ursprung. Im Regelfall hält sie Gerät, Zeit und Ort in den Metadaten fest und kann den Bildinhalt nicht analysieren; was eingetragen wird, liegt laut derselben Seite beim Hersteller. → https://robert-haase.de/belege-haftung.md
 
-## Marktgröße (14)
+## Marktgröße (16)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
-+ Sachstand, Fallbericht oder Marktbeobachtung (4) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung
++ Sachstand, Fallbericht oder Marktbeobachtung (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 - **machine-customers** · Selbsteinschätzung, Prognose · In einer Gartner-Befragung schätzen Vorstandschefs, dass bis 2030 15 bis 20 Prozent ihres Umsatzes von Maschinen als Kunden kommen. → https://robert-haase.de/belege-markt.md
 - **marktgroesse** · Anbieterangaben · Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: rund 900 Millionen wöchentlich aktive Nutzer bei ChatGPT, über eine Milliarde monatliche Nutzer bei Googles AI Mode. → https://robert-haase.de/belege-markt.md
@@ -139,12 +142,14 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **ki-verkehrsanteil** · Drei Anbietermessungen · Drei Anbieter von Analysewerkzeugen beziffern, welcher Anteil der Website-Besuche aus einem KI-Assistenten kommt: Contentsquare 0,2 Prozent im vierten Quartal 2025, Semrush 0,14 Prozent für das Jahr 2025, Conductor 1,08 Prozent für Mai bis September 2025. Drei getrennt erhobene Messungen, Bruchteile eines Prozents bis gut ein Prozent. → https://robert-haase.de/belege-markt.md
 - **markenklone** · Anbieterangaben · Der Takedown-Anbieter Netcraft gibt an, zwischen März 2024 und März 2025 gegen 1,3 Millionen Phishing-Seiten vorgegangen zu sein, die mehr als 16.000 Organisationen nachahmten. → https://robert-haase.de/belege-markt.md
 - **suchmarkt-wachstum** · Marktbeobachtung auf Schätzdaten · Zwischen dem ersten Quartal 2023 und dem vierten Quartal 2025 ist die Summe aus Suchmaschinen-Besuchen und suchähnlichen KI-Sitzungen weltweit um 26 Prozent gestiegen, von 82,0 auf 103,2 Milliarden im Monat. Googles Anteil fällt von 89 auf 71 Prozent, ChatGPT kommt auf 20 Prozent. → https://robert-haase.de/belege-markt.md
+- **insourcing-absicht** · Befragung · Auf die Frage „Planen Sie, durch KI künftig mehr Marketing-Leistungen intern abzudecken?“ antworten 80,0 Prozent von 170 Führungskräften mit Budget- und Entscheidungsverantwortung mit Ja, 11,2 Prozent mit Nein, 8,8 Prozent wissen es nicht. Nach Größe getrennt: 84 Prozent bei Unternehmen mit 100 bis 999 Mitarbeitenden, 79 Prozent bei 1.000 und mehr. → https://robert-haase.de/belege-markt.md
+- **agentur-selbstbild** · Befragung · 96,2 Prozent von 78 Führungskräften aus Mitgliedsagenturen des GWA stufen den KI-Reifegrad der eigenen Agentur als „fortgeschritten“ (71,8 Prozent) oder „Experte“ (24,4 Prozent) ein, 3,8 Prozent als „Anfänger“. Den durchschnittlichen Wissensstand der gesamten Agenturbranche im DACH-Raum bewerten dieselben Befragten auf einer Skala von 1 bis 5 mehrheitlich mit 3 (57,7 Prozent), 19,2 Prozent mit 2 und 23,1 Prozent mit 4; die Extremwerte 1 und 5 wählt niemand. → https://robert-haase.de/belege-markt.md
 
-## Urteil (18)
+## Urteil (19)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
-+ Sachstand, Fallbericht oder Marktbeobachtung (11) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung
++ Sachstand, Fallbericht oder Marktbeobachtung (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 - **metr-selbsteinschaetzung** · Kontrollierter Test · Erfahrene Entwickler brauchten mit KI-Werkzeugen 19 Prozent *länger*, hielten sich dabei aber für 20 Prozent schneller. Vorher hatten sie 24 Prozent Beschleunigung erwartet. Zwischen gemessener und empfundener Wirkung liegen 43 Prozentpunkte, mit umgekehrtem Vorzeichen. → https://robert-haase.de/belege-urteil.md
 - **jagged-frontier** · Kontrollierter Test · In einem präregistrierten Experiment mit 758 Unternehmensberatern erledigten die KI-Nutzer 12,2 Prozent mehr Aufgaben, arbeiteten 25,1 Prozent schneller und lieferten über 30 Prozent bessere Qualität, solange die Aufgabe innerhalb der Modellfähigkeit lag. Bei einer Aufgabe knapp außerhalb lagen sie 19 Prozentpunkte häufiger falsch als die Gruppe ohne KI. → https://robert-haase.de/belege-urteil.md
@@ -164,5 +169,6 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **boussioux-neuheit-wert** · Kontrollierter Test · In einem Ideenwettbewerb zur Kreislaufwirtschaft bewerteten 300 geprüfte Bewerter je 13 von 234 Lösungen, zusammen 3.900 Bewertungen: 54 von Menschen, 180 von GPT-4 mit menschlich gesteuerten Prompts. Die menschlichen galten als neuartiger (die maschinellen minus 0,140 auf einer Skala von 1 bis 5), die maschinellen als strategisch tragfähiger, ökologisch und finanziell wertvoller und insgesamt besser (plus 0,088 bis 0,160). Am oberen Rand kippt das Bild: Die Höchstnote für Neuheit bekamen die KI-Lösungen 7,9 Prozentpunkte seltener, ihr Wertvorsprung verschwand dort in allen vier Dimensionen. → https://robert-haase.de/belege-urteil.md
 - **mintzberg-muster** · Explorative Fallstudien, begriffsbildend · Henry Mintzberg definierte Strategie 1978 als „ein Muster in einem Strom von Entscheidungen“: Gebildet ist sie, sobald eine Folge von Entscheidungen über die Zeit Konsistenz zeigt. Damit werden auch die Strategien untersuchbar, die sich trotz der Absichten einstellten oder ganz ohne Absicht entstanden. Gezeigt hat er das an zwei Langzeitfällen, dem Volkswagenwerk und den USA in Vietnam von 1950 bis 1973. → https://robert-haase.de/belege-urteil.md
 - **wahrgenommene-differenzierung** · Befragung · Über 17 Warengruppen in Australien und Großbritannien halten im Schnitt 11 Prozent der aktuellen Verwender ihre eigene Marke für anders und 10 Prozent für einzigartig; 17 Prozent nennen wenigstens eines von beidem. Gekauft wird die Marke trotzdem. Die Autoren empfehlen stattdessen Wiedererkennbarkeit. → https://robert-haase.de/belege-urteil.md
+- **de-skilling** · Befragung · In einer weltweiten Befragung von 70 Vorständen und Senior Executives beobachtet die Hälfte den Verlust von Fähigkeiten bereits im eigenen Unternehmen, mehr als 60 Prozent halten ihn binnen drei bis fünf Jahren für eine ernsthafte Bedrohung. Die fünf Fähigkeiten, die dieselben Führungskräfte als wichtigste für die langfristige Leistung einstufen, sind genau die fünf, die sie als am stärksten gefährdet sehen: Urteilen und Entscheiden, ein Problem verstehen und zuschneiden, kreatives Denken, Analyse und kausales Schließen, Lösungen entwickeln und bewerten. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 92 von 92 Aussagen in 6 Themen.
+Ende der Übersicht: 98 von 98 Aussagen in 6 Themen.

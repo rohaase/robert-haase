@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-12",
+  "dateModified": "2026-09-17",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 92,
+  "numberOfItems": 98,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -74,7 +74,7 @@
     {
       "id": "agenten",
       "name": "Agenten",
-      "numberOfItems": 26,
+      "numberOfItems": 29,
       "textFile": "https://robert-haase.de/belege-agenten.md",
       "ids": [
         "leere-buttons",
@@ -102,7 +102,10 @@
         "monotype-mcp",
         "pulumi-brand-mcp",
         "statista-mcp",
-        "veeva-mlr"
+        "veeva-mlr",
+        "rechtsvorbehalt-kommentar",
+        "abruf-kuerzung",
+        "google-ads-textregeln"
       ],
       "groups": {
         "strong": [
@@ -123,14 +126,17 @@
           "canva-mcp",
           "mcp-tool-poisoning",
           "pulumi-brand-mcp",
-          "statista-mcp"
+          "statista-mcp",
+          "rechtsvorbehalt-kommentar",
+          "google-ads-textregeln"
         ],
         "weak": [
           "agent-ready",
           "a11y-cua",
           "klarna-700",
           "monotype-mcp",
-          "veeva-mlr"
+          "veeva-mlr",
+          "abruf-kuerzung"
         ],
         "plain": [
           "gitlab-markenrepo",
@@ -209,7 +215,7 @@
     {
       "id": "markt",
       "name": "Marktgröße",
-      "numberOfItems": 14,
+      "numberOfItems": 16,
       "textFile": "https://robert-haase.de/belege-markt.md",
       "ids": [
         "machine-customers",
@@ -225,7 +231,9 @@
         "ki-anteil-artikel",
         "ki-verkehrsanteil",
         "markenklone",
-        "suchmarkt-wachstum"
+        "suchmarkt-wachstum",
+        "insourcing-absicht",
+        "agentur-selbstbild"
       ],
       "groups": {
         "strong": [
@@ -246,14 +254,16 @@
           "nicht-menschlicher-verkehr",
           "cmo-ki-anteil",
           "geo-verbreitung",
-          "in-house-verlagerung"
+          "in-house-verlagerung",
+          "insourcing-absicht",
+          "agentur-selbstbild"
         ]
       }
     },
     {
       "id": "urteil",
       "name": "Urteil",
-      "numberOfItems": 18,
+      "numberOfItems": 19,
       "textFile": "https://robert-haase.de/belege-urteil.md",
       "ids": [
         "metr-selbsteinschaetzung",
@@ -273,7 +283,8 @@
         "aufwand-statt-koennen",
         "boussioux-neuheit-wert",
         "mintzberg-muster",
-        "wahrgenommene-differenzierung"
+        "wahrgenommene-differenzierung",
+        "de-skilling"
       ],
       "groups": {
         "strong": [
@@ -297,7 +308,8 @@
           "drei-arbeitsweisen",
           "aufwand-statt-koennen",
           "mintzberg-muster",
-          "wahrgenommene-differenzierung"
+          "wahrgenommene-differenzierung",
+          "de-skilling"
         ]
       }
     }
@@ -2916,6 +2928,158 @@
         }
       ],
       "citationText": "Über 17 Warengruppen in Australien und Großbritannien halten im Schnitt 11 Prozent der aktuellen Verwender ihre eigene Marke für anders und 10 Prozent für einzigartig; 17 Prozent nennen wenigstens eines von beidem. Gekauft wird die Marke trotzdem. (Romaniuk, Sharp und Ehrenberg, Ehrenberg-Bass-Institut, Australasian Marketing Journal 15 (2), 2007, Seiten 42 bis 54, Zahlen aus Tabelle 2 auf Seite 47 · Befragung aktueller Markenverwender in 17 Warengruppen, die britischen Datensätze erhoben 1999). https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#rechtsvorbehalt-kommentar",
+      "text": "Von 77 deutschsprachigen Nachrichten- und Fachmedien erklären 20 in ihrer robots.txt einen Rechtsvorbehalt gegen Text und Data Mining, und zwar als Kommentarzeile: 16 nennen ausdrücklich § 44b UrhG, vier weitere berufen sich auf österreichisches Recht oder formulieren den Vorbehalt in eigenen Worten. Unter den Startseiten der Unternehmen aus DAX, MDAX und SDAX tut das keine einzige. Die maschinell auswertbare Form, eine TDM-policy-Zeile in derselben Datei, steht in keiner der geprüften Dateien.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Eigene Erhebung, 17. September 2026 · dieselben Listen wie die beiden robots.txt-Einträge vom 12. September: 77 Medientitel, alle auswertbar, und 160 Startseiten aus DAX, MDAX und SDAX, davon 146 auswertbar · gesucht wurde in der ausgelieferten robots.txt nach Kommentaren mit § 44b, nach dem Wortlaut Text und Data Mining und nach einer TDM-policy-Zeile · Abruf zuerst mit eigener Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung · zwei Durchläufe, bei den Medien 77 von 77 mit identischem Urteil, im Index wich eine Seite ab, die im zweiten Durchgang nicht antwortete",
+        "url": "https://robert-haase.de/belege.html#rechtsvorbehalt-kommentar"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Kommentar ist kein Befehl. Crawler werten Kommentarzeilen nicht aus; die Zeile erklärt einen Vorbehalt, sie erzwingt ihn nicht. Ob diese Form den maschinenlesbaren Vorbehalt nach § 44b Abs. 3 UrhG erfüllt, ist eine Rechtsfrage, und die Messung beantwortet sie nicht. Zwei weitere Medien untersagen im Kommentar das automatisierte Auslesen allgemein, ohne Text und Data Mining zu nennen; sie sind nicht mitgezählt. Gemessen ist allein die robots.txt der Startseite: Vorbehalte in den Nutzungsbedingungen, im Impressum oder in den Metadaten der Seite sind hier nicht erfasst. Von den 160 Index-Startseiten haben 14 nicht geantwortet, im zweiten Durchgang 15; sie könnten einen Vorbehalt tragen.",
+      "position": 93,
+      "id": "rechtsvorbehalt-kommentar",
+      "url": "https://robert-haase.de/belege.html#rechtsvorbehalt-kommentar",
+      "topic": "agenten",
+      "grade": {
+        "name": "Eigene Erhebung, reproduzierbar",
+        "group": "strong"
+      },
+      "sourceText": "Eigene Erhebung, 17. September 2026 · dieselben Listen wie die beiden robots.txt-Einträge vom 12. September: 77 Medientitel, alle auswertbar, und 160 Startseiten aus DAX, MDAX und SDAX, davon 146 auswertbar · gesucht wurde in der ausgelieferten robots.txt nach Kommentaren mit § 44b, nach dem Wortlaut Text und Data Mining und nach einer TDM-policy-Zeile · Abruf zuerst mit eigener Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung · zwei Durchläufe, bei den Medien 77 von 77 mit identischem Urteil, im Index wich eine Seite ab, die im zweiten Durchgang nicht antwortete",
+      "sourceLinks": [],
+      "citationText": "Von 77 deutschsprachigen Nachrichten- und Fachmedien erklären 20 in ihrer robots.txt einen Rechtsvorbehalt gegen Text und Data Mining, und zwar als Kommentarzeile: 16 nennen ausdrücklich § 44b UrhG, vier weitere berufen sich auf österreichisches Recht oder formulieren den Vorbehalt in eigenen Worten. Unter den Startseiten der Unternehmen aus DAX, MDAX und SDAX tut das keine einzige. Die maschinell auswertbare Form, eine <em>TDM-policy</em>-Zeile in derselben Datei, steht in keiner der geprüften Dateien. (Eigene Erhebung, 17. September 2026 · dieselben Listen wie die beiden robots.txt-Einträge vom 12. September: 77 Medientitel, alle auswertbar, und 160 Startseiten aus DAX, MDAX und SDAX, davon 146 auswertbar · gesucht wurde in der ausgelieferten robots.txt nach Kommentaren mit § 44b, nach dem Wortlaut Text und Data Mining und nach einer TDM-policy-Zeile · Abruf zuerst mit eigener Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung · zwei Durchläufe, bei den Medien 77 von 77 mit identischem Urteil, im Index wich eine Seite ab, die im zweiten Durchgang nicht antwortete). https://robert-haase.de/belege.html#rechtsvorbehalt-kommentar"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#abruf-kuerzung",
+      "text": "Das Standard-Abrufwerkzeug eines Agenten las von einer Seite mit 128.000 Zeichen sichtbarem Text nur die ersten 100.000 bis 115.000 Zeichen und erreichte damit etwa 80 von 90 Einträgen. In einem Abnahmetest mit zehn festen Fragen, jede zweimal gestellt, wies es nur bei drei Fragen auf die Kürzung hin, obwohl ein sichtbarer Satz auf der Seite genau dafür das Erkennungsmerkmal nannte. Fragen nach einem bestimmten Eintrag beantwortete es mit Hilfe einer Ankerkarte in 6 von 6 Fällen richtig, Zählfragen in 4 von 4. Bei begrifflichen Fragen antwortete es aus dem gekürzten Text weiter, ohne den Abbruch zu erwähnen.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Eigene Messung, 11. September 2026, 08:10 und 11:05 · Abrufwerkzeug eines Claude-Agenten auf robert-haase.de/belege.html, 128.000 Zeichen sichtbarer Text ohne Skripte · zehn vorher festgelegte Fragen, jede zweimal gestellt, Abbruchregeln vor dem Lauf bestimmt · Auswertung durch einen zweiten Agenten ohne Kenntnis des Baus",
+        "url": "https://robert-haase.de/belege.html#abruf-kuerzung"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Geprüft ist ein Werkzeug an einer Seite, nicht der Markt: das Abrufwerkzeug eines Claude-Agenten auf einer einzigen Seite. ChatGPT, Gemini und Perplexity sind nicht getestet, und ein Browser-Agent, der die Seite darstellt, liest anders. Die Angabe „etwa 80 von 90“ ist die Selbstauskunft des Werkzeugs, nicht nachgezählt. Den Satz, auf den sich die drei von zehn beziehen, gibt es auf der Seite nicht mehr; er ist nach dem Test entfernt worden, weil er seine Aufgabe nicht erfüllte. Der Test misst das Verhalten des Werkzeugs, nicht die Güte der Seite, und er sagt nichts darüber, ob gekürzte Antworten seltener zitiert werden. Die geprüfte Seite ist die eigene: Bau und Test liefen in derselben Werkstatt, ausgewertet hat ein zweiter Agent, der den Bau nicht kannte.",
+      "position": 94,
+      "id": "abruf-kuerzung",
+      "url": "https://robert-haase.de/belege.html#abruf-kuerzung",
+      "topic": "agenten",
+      "grade": {
+        "name": "Eigener Test, ein Werkzeug",
+        "group": "weak"
+      },
+      "sourceText": "Eigene Messung, 11. September 2026, 08:10 und 11:05 · Abrufwerkzeug eines Claude-Agenten auf robert-haase.de/belege.html, 128.000 Zeichen sichtbarer Text ohne Skripte · zehn vorher festgelegte Fragen, jede zweimal gestellt, Abbruchregeln vor dem Lauf bestimmt · Auswertung durch einen zweiten Agenten ohne Kenntnis des Baus",
+      "sourceLinks": [],
+      "citationText": "Das Standard-Abrufwerkzeug eines Agenten las von einer Seite mit 128.000 Zeichen sichtbarem Text nur die ersten 100.000 bis 115.000 Zeichen und erreichte damit etwa 80 von 90 Einträgen. In einem Abnahmetest mit zehn festen Fragen, jede zweimal gestellt, wies es nur bei drei Fragen auf die Kürzung hin, obwohl ein sichtbarer Satz auf der Seite genau dafür das Erkennungsmerkmal nannte. Fragen nach einem bestimmten Eintrag beantwortete es mit Hilfe einer Ankerkarte in 6 von 6 Fällen richtig, Zählfragen in 4 von 4. Bei begrifflichen Fragen antwortete es aus dem gekürzten Text weiter, ohne den Abbruch zu erwähnen. (Eigene Messung, 11. September 2026, 08:10 und 11:05 · Abrufwerkzeug eines Claude-Agenten auf robert-haase.de/belege.html, 128.000 Zeichen sichtbarer Text ohne Skripte · zehn vorher festgelegte Fragen, jede zweimal gestellt, Abbruchregeln vor dem Lauf bestimmt · Auswertung durch einen zweiten Agenten ohne Kenntnis des Baus). https://robert-haase.de/belege.html#abruf-kuerzung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#google-ads-textregeln",
+      "text": "Google Ads nimmt Markenregeln in eigenen Worten entgegen: bis zu 25 ausgeschlossene Begriffe und bis zu 40 Vorgaben zu Botschaft und Ton, jeweils je Kampagne. Sie wirken nur auf automatisch angepasste Textbausteine, nicht auf Bilder. Auf derselben Hilfeseite warnt Google, ungeeignete Vorgaben könnten eine große Zahl brauchbarer Texte entfernen und die Leistung senken.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Google-Ads-Hilfe, „Use text guidelines with Performance Max and Search campaigns (beta)“, abgerufen am 17. September 2026 · Freigabe für alle Werbetreibenden weltweit laut Google-Blog vom 26. Februar 2026",
+        "url": "https://support.google.com/google-ads/answer/16489313"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Das sind Produktgrenzen, keine Messung. Die Funktion läuft als „experimental beta“, Google nennt selbst mögliche Einschränkungen; Obergrenzen und Verhalten können sich ändern. Die Regeln hängen an der Kampagne, nicht an der Marke: Wer zehn Kampagnen führt, pflegt zehn Regelsätze, und außerhalb von Google Ads gelten sie nicht. Ob die erzeugten Texte die Vorgaben einhalten, sagt die Dokumentation nicht; sie beschreibt nur, dass die Vorgaben berücksichtigt werden.",
+      "position": 95,
+      "id": "google-ads-textregeln",
+      "url": "https://robert-haase.de/belege.html#google-ads-textregeln",
+      "topic": "agenten",
+      "grade": {
+        "name": "Herstellerdokumentation",
+        "group": "strong"
+      },
+      "sourceText": "Google-Ads-Hilfe, „Use text guidelines with Performance Max and Search campaigns (beta)“, abgerufen am 17. September 2026 · Freigabe für alle Werbetreibenden weltweit laut Google-Blog vom 26. Februar 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://support.google.com/google-ads/answer/16489313"
+        }
+      ],
+      "citationText": "Google Ads nimmt Markenregeln in eigenen Worten entgegen: bis zu 25 ausgeschlossene Begriffe und bis zu 40 Vorgaben zu Botschaft und Ton, jeweils je Kampagne. Sie wirken nur auf automatisch angepasste Textbausteine, nicht auf Bilder. Auf derselben Hilfeseite warnt Google, ungeeignete Vorgaben könnten eine große Zahl brauchbarer Texte entfernen und die Leistung senken. (Google-Ads-Hilfe, „Use text guidelines with Performance Max and Search campaigns (beta)“, abgerufen am 17. September 2026 · Freigabe für alle Werbetreibenden weltweit laut Google-Blog vom 26. Februar 2026). https://support.google.com/google-ads/answer/16489313"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#insourcing-absicht",
+      "text": "Auf die Frage „Planen Sie, durch KI künftig mehr Marketing-Leistungen intern abzudecken?“ antworten 80,0 Prozent von 170 Führungskräften mit Budget- und Entscheidungsverantwortung mit Ja, 11,2 Prozent mit Nein, 8,8 Prozent wissen es nicht. Nach Größe getrennt: 84 Prozent bei Unternehmen mit 100 bis 999 Mitarbeitenden, 79 Prozent bei 1.000 und mehr.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "GWA KI-Whitepaper 2026, Teil „KI-Studien“, Frage 6 · 170 Führungskräfte aus Unternehmen mit Budget- und Entscheidungsverantwortung · 1. bis 9. April 2026 · deskriptive Online-Befragung mit Selbstauskünften · Durchführung Handelsblatt Research Institute und techconsult in Zusammenarbeit mit dem GWA",
+        "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Gemessen ist ein Plan, keine Verlagerung, und die Frage benennt die Ursache gleich mit; wer Ja sagt, hat noch niemanden eingestellt. Was „Marketing-Leistungen“ umfasst, legt jeder Befragte selbst fest. 170 Selbstauskünfte aus einer Online-Befragung, ohne Angabe zur Grundgesamtheit und zur Ausschöpfung; die Branchenauswertungen derselben Studie beruhen ausdrücklich auf kleinen Fallzahlen. Herausgegeben wird das Papier vom Agenturverband GWA, erhoben hat es das Handelsblatt Research Institute.",
+      "position": 96,
+      "id": "insourcing-absicht",
+      "url": "https://robert-haase.de/belege.html#insourcing-absicht",
+      "topic": "markt",
+      "grade": {
+        "name": "Befragung",
+        "group": "plain"
+      },
+      "sourceText": "GWA KI-Whitepaper 2026, Teil „KI-Studien“, Frage 6 · 170 Führungskräfte aus Unternehmen mit Budget- und Entscheidungsverantwortung · 1. bis 9. April 2026 · deskriptive Online-Befragung mit Selbstauskünften · Durchführung Handelsblatt Research Institute und techconsult in Zusammenarbeit mit dem GWA · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+        }
+      ],
+      "citationText": "Auf die Frage „Planen Sie, durch KI künftig mehr Marketing-Leistungen intern abzudecken?“ antworten 80,0 Prozent von 170 Führungskräften mit Budget- und Entscheidungsverantwortung mit Ja, 11,2 Prozent mit Nein, 8,8 Prozent wissen es nicht. Nach Größe getrennt: 84 Prozent bei Unternehmen mit 100 bis 999 Mitarbeitenden, 79 Prozent bei 1.000 und mehr. (GWA KI-Whitepaper 2026, Teil „KI-Studien“, Frage 6 · 170 Führungskräfte aus Unternehmen mit Budget- und Entscheidungsverantwortung · 1. bis 9. April 2026 · deskriptive Online-Befragung mit Selbstauskünften · Durchführung Handelsblatt Research Institute und techconsult in Zusammenarbeit mit dem GWA). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agentur-selbstbild",
+      "text": "96,2 Prozent von 78 Führungskräften aus Mitgliedsagenturen des GWA stufen den KI-Reifegrad der eigenen Agentur als „fortgeschritten“ (71,8 Prozent) oder „Experte“ (24,4 Prozent) ein, 3,8 Prozent als „Anfänger“. Den durchschnittlichen Wissensstand der gesamten Agenturbranche im DACH-Raum bewerten dieselben Befragten auf einer Skala von 1 bis 5 mehrheitlich mit 3 (57,7 Prozent), 19,2 Prozent mit 2 und 23,1 Prozent mit 4; die Extremwerte 1 und 5 wählt niemand.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "GWA KI-Whitepaper 2026, Teil „KI-Studien“ · 78 Führungskräfte aus GWA-Mitgliedsagenturen · 12. Februar bis 6. März 2026 · deskriptive Online-Befragung mit Selbstauskünften · Herausgeber GWA Tech & Innovation Forum · Fragen: „Wie würden Sie den aktuellen Reifegrad Ihrer Agentur in Bezug auf KI einstufen?“ und „Wie schätzen Sie den aktuellen durchschnittlichen Wissensstand zu KI-Anwendungen in der gesamten Agenturbranche im DACH-Raum ein?“",
+        "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Beides sind Selbsteinschätzungen, kein Test und kein Abgleich mit dem tatsächlichen Einsatz. Die zwei Fragen haben verschiedene Gegenstände, die eigene Agentur und die Branche; dass dieselben Leute sich besser einschätzen als ihr Umfeld, ist hier gemessen, nicht erklärt. 78 Antworten aus einem Verband, freiwillig; wer teilnimmt, beschäftigt sich mit dem Thema. Der Vergleich mit der Vorerhebung 2024/25 trägt nicht, die Stichprobe war kleiner und anders zusammengesetzt (n = 52).",
+      "position": 97,
+      "id": "agentur-selbstbild",
+      "url": "https://robert-haase.de/belege.html#agentur-selbstbild",
+      "topic": "markt",
+      "grade": {
+        "name": "Befragung",
+        "group": "plain"
+      },
+      "sourceText": "GWA KI-Whitepaper 2026, Teil „KI-Studien“ · 78 Führungskräfte aus GWA-Mitgliedsagenturen · 12. Februar bis 6. März 2026 · deskriptive Online-Befragung mit Selbstauskünften · Herausgeber GWA Tech & Innovation Forum · Fragen: „Wie würden Sie den aktuellen Reifegrad Ihrer Agentur in Bezug auf KI einstufen?“ und „Wie schätzen Sie den aktuellen durchschnittlichen Wissensstand zu KI-Anwendungen in der gesamten Agenturbranche im DACH-Raum ein?“ · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+        }
+      ],
+      "citationText": "96,2 Prozent von 78 Führungskräften aus Mitgliedsagenturen des GWA stufen den KI-Reifegrad der eigenen Agentur als „fortgeschritten“ (71,8 Prozent) oder „Experte“ (24,4 Prozent) ein, 3,8 Prozent als „Anfänger“. Den durchschnittlichen Wissensstand der gesamten Agenturbranche im DACH-Raum bewerten dieselben Befragten auf einer Skala von 1 bis 5 mehrheitlich mit 3 (57,7 Prozent), 19,2 Prozent mit 2 und 23,1 Prozent mit 4; die Extremwerte 1 und 5 wählt niemand. (GWA KI-Whitepaper 2026, Teil „KI-Studien“ · 78 Führungskräfte aus GWA-Mitgliedsagenturen · 12. Februar bis 6. März 2026 · deskriptive Online-Befragung mit Selbstauskünften · Herausgeber GWA Tech & Innovation Forum · Fragen: „Wie würden Sie den aktuellen Reifegrad Ihrer Agentur in Bezug auf KI einstufen?“ und „Wie schätzen Sie den aktuellen durchschnittlichen Wissensstand zu KI-Anwendungen in der gesamten Agenturbranche im DACH-Raum ein?“). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#de-skilling",
+      "text": "In einer weltweiten Befragung von 70 Vorständen und Senior Executives beobachtet die Hälfte den Verlust von Fähigkeiten bereits im eigenen Unternehmen, mehr als 60 Prozent halten ihn binnen drei bis fünf Jahren für eine ernsthafte Bedrohung. Die fünf Fähigkeiten, die dieselben Führungskräfte als wichtigste für die langfristige Leistung einstufen, sind genau die fünf, die sie als am stärksten gefährdet sehen: Urteilen und Entscheiden, ein Problem verstehen und zuschneiden, kreatives Denken, Analyse und kausales Schließen, Lösungen entwickeln und bewerten.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Sagar Goel, David Martin, Charikleia Kaffe: „When Everyone Uses AI, Companies Risk Losing Critical Skills“, BCG Henderson Institute, 17. Juni 2026 · weltweite Befragung von 70 Führungskräften aus C-Suite und oberer Leitungsebene, dazu Gespräche mit rund einem Dutzend weiteren",
+        "url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Gemessen ist eine Wahrnehmung, kein Fähigkeitsverlust. Niemand hat Leistungen vorher und nachher geprüft; 70 Führungskräfte geben Selbstauskunft, ergänzt um Gespräche mit rund einem Dutzend weiteren. Die Stichprobe ist klein und nicht repräsentativ, und wer an einer Befragung zu diesem Thema teilnimmt, hat es meist schon für sich entschieden. Die Rangfolge der Fähigkeiten stammt aus Bewertungsskalen, nicht aus Tests.",
+      "position": 98,
+      "id": "de-skilling",
+      "url": "https://robert-haase.de/belege.html#de-skilling",
+      "topic": "urteil",
+      "grade": {
+        "name": "Befragung",
+        "group": "plain"
+      },
+      "sourceText": "Sagar Goel, David Martin, Charikleia Kaffe: „When Everyone Uses AI, Companies Risk Losing Critical Skills“, BCG Henderson Institute, 17. Juni 2026 · weltweite Befragung von 70 Führungskräften aus C-Suite und oberer Leitungsebene, dazu Gespräche mit rund einem Dutzend weiteren · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+        }
+      ],
+      "citationText": "In einer weltweiten Befragung von 70 Vorständen und Senior Executives beobachtet die Hälfte den Verlust von Fähigkeiten bereits im eigenen Unternehmen, mehr als 60 Prozent halten ihn binnen drei bis fünf Jahren für eine ernsthafte Bedrohung. Die fünf Fähigkeiten, die dieselben Führungskräfte als wichtigste für die langfristige Leistung einstufen, sind genau die fünf, die sie als am stärksten gefährdet sehen: Urteilen und Entscheiden, ein Problem verstehen und zuschneiden, kreatives Denken, Analyse und kausales Schließen, Lösungen entwickeln und bewerten. (Sagar Goel, David Martin, Charikleia Kaffe: „When Everyone Uses AI, Companies Risk Losing Critical Skills“, BCG Henderson Institute, 17. Juni 2026 · weltweite Befragung von 70 Führungskräften aus C-Suite und oberer Leitungsebene, dazu Gespräche mit rund einem Dutzend weiteren). https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
     }
   ]
 }

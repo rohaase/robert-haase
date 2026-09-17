@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-12",
+  "dateModified": "2026-09-17",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 92,
+  "numberOfItems": 98,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -74,7 +74,7 @@
     {
       "id": "agenten",
       "name": "Agents",
-      "numberOfItems": 26,
+      "numberOfItems": 29,
       "textFile": "https://robert-haase.de/en/evidence-agents.md",
       "ids": [
         "leere-buttons",
@@ -102,7 +102,10 @@
         "monotype-mcp",
         "pulumi-brand-mcp",
         "statista-mcp",
-        "veeva-mlr"
+        "veeva-mlr",
+        "rechtsvorbehalt-kommentar",
+        "abruf-kuerzung",
+        "google-ads-textregeln"
       ],
       "groups": {
         "strong": [
@@ -123,14 +126,17 @@
           "canva-mcp",
           "mcp-tool-poisoning",
           "pulumi-brand-mcp",
-          "statista-mcp"
+          "statista-mcp",
+          "rechtsvorbehalt-kommentar",
+          "google-ads-textregeln"
         ],
         "weak": [
           "agent-ready",
           "a11y-cua",
           "klarna-700",
           "monotype-mcp",
-          "veeva-mlr"
+          "veeva-mlr",
+          "abruf-kuerzung"
         ],
         "plain": [
           "gitlab-markenrepo",
@@ -209,7 +215,7 @@
     {
       "id": "markt",
       "name": "Market size",
-      "numberOfItems": 14,
+      "numberOfItems": 16,
       "textFile": "https://robert-haase.de/en/evidence-market.md",
       "ids": [
         "machine-customers",
@@ -225,7 +231,9 @@
         "ki-anteil-artikel",
         "ki-verkehrsanteil",
         "markenklone",
-        "suchmarkt-wachstum"
+        "suchmarkt-wachstum",
+        "insourcing-absicht",
+        "agentur-selbstbild"
       ],
       "groups": {
         "strong": [
@@ -246,14 +254,16 @@
           "nicht-menschlicher-verkehr",
           "cmo-ki-anteil",
           "geo-verbreitung",
-          "in-house-verlagerung"
+          "in-house-verlagerung",
+          "insourcing-absicht",
+          "agentur-selbstbild"
         ]
       }
     },
     {
       "id": "urteil",
       "name": "Judgement",
-      "numberOfItems": 18,
+      "numberOfItems": 19,
       "textFile": "https://robert-haase.de/en/evidence-judgement.md",
       "ids": [
         "metr-selbsteinschaetzung",
@@ -273,7 +283,8 @@
         "aufwand-statt-koennen",
         "boussioux-neuheit-wert",
         "mintzberg-muster",
-        "wahrgenommene-differenzierung"
+        "wahrgenommene-differenzierung",
+        "de-skilling"
       ],
       "groups": {
         "strong": [
@@ -297,7 +308,8 @@
           "drei-arbeitsweisen",
           "aufwand-statt-koennen",
           "mintzberg-muster",
-          "wahrgenommene-differenzierung"
+          "wahrgenommene-differenzierung",
+          "de-skilling"
         ]
       }
     }
@@ -2916,6 +2928,158 @@
         }
       ],
       "citationText": "Across 17 product categories in Australia and the UK, an average of 11 percent of a brand’s current users consider it different and 10 percent consider it unique; 17 percent name at least one of the two. They buy the brand anyway. (Romaniuk, Sharp and Ehrenberg, Ehrenberg-Bass Institute, Australasian Marketing Journal 15 (2), 2007, pages 42 to 54, figures from Table 2 on page 47 · survey of current brand users across 17 product categories, the UK datasets collected in 1999). https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#rechtsvorbehalt-kommentar",
+      "text": "Of 77 German-language news and trade media, 20 declare a reservation of rights against text and data mining in their robots.txt, as a comment line: 16 name section 44b of the German Copyright Act explicitly, four others invoke Austrian law or word the reservation themselves. Among the home pages of the DAX, MDAX and SDAX companies, not a single one does. The machine-readable form, a TDM-policy line in the same file, appears in none of the files examined.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Own survey, 17 September 2026 · same lists as the two robots.txt entries of 12 September: 77 media titles, all readable, and 160 home pages from DAX, MDAX and SDAX, 146 of them readable · searched the robots.txt as served for comments naming section 44b, for the wording text and data mining, and for a TDM-policy line · fetched first with an own identifier, on refusal with an ordinary browser identifier · two runs, 77 of 77 media identical, one index page differing because it did not answer in the second run",
+        "url": "https://robert-haase.de/en/evidence.html#rechtsvorbehalt-kommentar"
+      },
+      "disambiguatingDescription": "What the figures do not say: A comment is not a rule. Crawlers do not evaluate comment lines; the line declares a reservation, it does not enforce one. Whether this form meets the machine-readable reservation required by section 44b(3) of the German Copyright Act is a legal question, and the measurement does not answer it. Two further media prohibit automated extraction in a comment without naming text and data mining; they are not counted. Only the robots.txt of the home page was measured: reservations in the terms of use, in the imprint or in the page metadata are not covered here. Of the 160 index home pages, 14 did not answer, 15 in the second run; they may carry a reservation.",
+      "position": 93,
+      "id": "rechtsvorbehalt-kommentar",
+      "url": "https://robert-haase.de/en/evidence.html#rechtsvorbehalt-kommentar",
+      "topic": "agenten",
+      "grade": {
+        "name": "Own survey, reproducible",
+        "group": "strong"
+      },
+      "sourceText": "Own survey, 17 September 2026 · same lists as the two robots.txt entries of 12 September: 77 media titles, all readable, and 160 home pages from DAX, MDAX and SDAX, 146 of them readable · searched the robots.txt as served for comments naming section 44b, for the wording text and data mining, and for a TDM-policy line · fetched first with an own identifier, on refusal with an ordinary browser identifier · two runs, 77 of 77 media identical, one index page differing because it did not answer in the second run",
+      "sourceLinks": [],
+      "citationText": "Of 77 German-language news and trade media, 20 declare a reservation of rights against text and data mining in their robots.txt, as a comment line: 16 name section 44b of the German Copyright Act explicitly, four others invoke Austrian law or word the reservation themselves. Among the home pages of the DAX, MDAX and SDAX companies, not a single one does. The machine-readable form, a <em>TDM-policy</em> line in the same file, appears in none of the files examined. (Own survey, 17 September 2026 · same lists as the two robots.txt entries of 12 September: 77 media titles, all readable, and 160 home pages from DAX, MDAX and SDAX, 146 of them readable · searched the robots.txt as served for comments naming section 44b, for the wording text and data mining, and for a TDM-policy line · fetched first with an own identifier, on refusal with an ordinary browser identifier · two runs, 77 of 77 media identical, one index page differing because it did not answer in the second run). https://robert-haase.de/en/evidence.html#rechtsvorbehalt-kommentar"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#abruf-kuerzung",
+      "text": "An agent's standard fetch tool read only the first 100,000 to 115,000 characters of a page with 128,000 characters of visible text and thus reached about 80 of 90 entries. In an acceptance test with ten fixed questions, each asked twice, it pointed out the truncation for only three of them, although a visible sentence on the page named exactly the marker for detecting it. Questions about a specific entry were answered correctly in 6 of 6 cases with the help of an anchor card, counting questions in 4 of 4. For conceptual questions it kept answering from the truncated text without mentioning the cut.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Own measurement, 11 September 2026, 08:10 and 11:05 · fetch tool of a Claude agent on robert-haase.de/belege.html, 128,000 characters of visible text without scripts · ten questions fixed in advance, each asked twice, stopping rules set before the run · evaluated by a second agent with no knowledge of the build",
+        "url": "https://robert-haase.de/en/evidence.html#abruf-kuerzung"
+      },
+      "disambiguatingDescription": "What the test does not say: What was tested is one tool on one page, not the market: the fetch tool of a Claude agent on a single page. ChatGPT, Gemini and Perplexity were not tested, and a browser agent that renders the page reads differently. The figure \"about 80 of 90\" is the tool's own count, not verified by hand. The sentence the three out of ten refer to is no longer on the page; it was removed after the test because it did not do its job. The test measures the behaviour of the tool, not the quality of the page, and it says nothing about whether truncated answers are cited less often. The page tested is our own: build and test ran in the same workshop, and the evaluation was done by a second agent that did not know the build.",
+      "position": 94,
+      "id": "abruf-kuerzung",
+      "url": "https://robert-haase.de/en/evidence.html#abruf-kuerzung",
+      "topic": "agenten",
+      "grade": {
+        "name": "Own test, one tool",
+        "group": "weak"
+      },
+      "sourceText": "Own measurement, 11 September 2026, 08:10 and 11:05 · fetch tool of a Claude agent on robert-haase.de/belege.html, 128,000 characters of visible text without scripts · ten questions fixed in advance, each asked twice, stopping rules set before the run · evaluated by a second agent with no knowledge of the build",
+      "sourceLinks": [],
+      "citationText": "An agent's standard fetch tool read only the first 100,000 to 115,000 characters of a page with 128,000 characters of visible text and thus reached about 80 of 90 entries. In an acceptance test with ten fixed questions, each asked twice, it pointed out the truncation for only three of them, although a visible sentence on the page named exactly the marker for detecting it. Questions about a specific entry were answered correctly in 6 of 6 cases with the help of an anchor card, counting questions in 4 of 4. For conceptual questions it kept answering from the truncated text without mentioning the cut. (Own measurement, 11 September 2026, 08:10 and 11:05 · fetch tool of a Claude agent on robert-haase.de/belege.html, 128,000 characters of visible text without scripts · ten questions fixed in advance, each asked twice, stopping rules set before the run · evaluated by a second agent with no knowledge of the build). https://robert-haase.de/en/evidence.html#abruf-kuerzung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#google-ads-textregeln",
+      "text": "Google Ads accepts brand rules in plain language: up to 25 term exclusions and up to 40 restrictions on message and tone, each per campaign. They apply only to automatically customized text assets, not to images. On the same help page Google warns that unsuitable guidelines may remove a large number of good text assets and hurt performance.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Google Ads Help, \"Use text guidelines with Performance Max and Search campaigns (beta)\", retrieved 17 September 2026 · rollout to all advertisers worldwide per the Google blog of 26 February 2026",
+        "url": "https://support.google.com/google-ads/answer/16489313"
+      },
+      "disambiguatingDescription": "What the figures do not say: These are product limits, not a measurement. The feature runs as an \"experimental beta\", Google itself notes possible limitations, and both the caps and the behaviour can change. The rules sit with the campaign, not with the brand: ten campaigns mean ten sets of rules, and outside Google Ads they do not apply. Whether the generated text follows the guidelines is not documented; the page only states that the guidelines are taken into account.",
+      "position": 95,
+      "id": "google-ads-textregeln",
+      "url": "https://robert-haase.de/en/evidence.html#google-ads-textregeln",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "Google Ads Help, \"Use text guidelines with Performance Max and Search campaigns (beta)\", retrieved 17 September 2026 · rollout to all advertisers worldwide per the Google blog of 26 February 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://support.google.com/google-ads/answer/16489313"
+        }
+      ],
+      "citationText": "Google Ads accepts brand rules in plain language: up to 25 term exclusions and up to 40 restrictions on message and tone, each per campaign. They apply only to automatically customized text assets, not to images. On the same help page Google warns that unsuitable guidelines may remove a large number of good text assets and hurt performance. (Google Ads Help, \"Use text guidelines with Performance Max and Search campaigns (beta)\", retrieved 17 September 2026 · rollout to all advertisers worldwide per the Google blog of 26 February 2026). https://support.google.com/google-ads/answer/16489313"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#insourcing-absicht",
+      "text": "Asked \"Do you plan to cover more marketing services in-house through AI?\", 80.0 percent of 170 executives with budget and decision authority answer yes, 11.2 percent no, and 8.8 percent do not know. By company size: 84 percent at companies with 100 to 999 employees, 79 percent at 1,000 and above.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "GWA KI-Whitepaper 2026, \"KI-Studien\" section, question 6 · 170 executives with budget and decision authority · 1 to 9 April 2026 · descriptive online survey with self-reports · conducted by Handelsblatt Research Institute and techconsult in cooperation with GWA",
+        "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+      },
+      "disambiguatingDescription": "What the figure does not say: What is measured is a plan, not a move, and the question names the cause itself; a yes has hired no one. What counts as a marketing service is left to each respondent. 170 self-reports from an online survey, with no information on the population or the response rate; the industry breakdowns in the same study explicitly rest on small numbers. The paper is published by the German agency association GWA, and the survey was run by the Handelsblatt Research Institute.",
+      "position": 96,
+      "id": "insourcing-absicht",
+      "url": "https://robert-haase.de/en/evidence.html#insourcing-absicht",
+      "topic": "markt",
+      "grade": {
+        "name": "Survey",
+        "group": "plain"
+      },
+      "sourceText": "GWA KI-Whitepaper 2026, \"KI-Studien\" section, question 6 · 170 executives with budget and decision authority · 1 to 9 April 2026 · descriptive online survey with self-reports · conducted by Handelsblatt Research Institute and techconsult in cooperation with GWA · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+        }
+      ],
+      "citationText": "Asked \"Do you plan to cover more marketing services in-house through AI?\", 80.0 percent of 170 executives with budget and decision authority answer yes, 11.2 percent no, and 8.8 percent do not know. By company size: 84 percent at companies with 100 to 999 employees, 79 percent at 1,000 and above. (GWA KI-Whitepaper 2026, \"KI-Studien\" section, question 6 · 170 executives with budget and decision authority · 1 to 9 April 2026 · descriptive online survey with self-reports · conducted by Handelsblatt Research Institute and techconsult in cooperation with GWA). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agentur-selbstbild",
+      "text": "96.2 percent of 78 executives from member agencies of the German agency association GWA rate their own agency's AI maturity as \"advanced\" (71.8 percent) or \"expert\" (24.4 percent), 3.8 percent as \"beginner\". The same respondents rate the average level of AI knowledge across the agency industry in Germany, Austria and Switzerland mostly at 3 on a scale of 1 to 5 (57.7 percent), 19.2 percent at 2 and 23.1 percent at 4; nobody picks the extremes 1 or 5.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "GWA KI-Whitepaper 2026, \"KI-Studien\" section · 78 executives from GWA member agencies · 12 February to 6 March 2026 · descriptive online survey with self-reports · published by GWA Tech & Innovation Forum · questions: \"How would you rate your agency's current level of AI maturity?\" and \"How do you rate the current average level of AI knowledge across the agency industry in the DACH region?\"",
+        "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+      },
+      "disambiguatingDescription": "What the figures do not say: Both are self-assessments, not a test and not a comparison with actual use. The two questions have different objects, one's own agency and the industry; that the same people rate themselves above their surroundings is measured here, not explained. 78 answers from within an association, given voluntarily; those who take part are working on the topic. The comparison with the previous wave of 2024/25 does not hold, that sample was smaller and differently composed (n = 52).",
+      "position": 97,
+      "id": "agentur-selbstbild",
+      "url": "https://robert-haase.de/en/evidence.html#agentur-selbstbild",
+      "topic": "markt",
+      "grade": {
+        "name": "Survey",
+        "group": "plain"
+      },
+      "sourceText": "GWA KI-Whitepaper 2026, \"KI-Studien\" section · 78 executives from GWA member agencies · 12 February to 6 March 2026 · descriptive online survey with self-reports · published by GWA Tech & Innovation Forum · questions: \"How would you rate your agency's current level of AI maturity?\" and \"How do you rate the current average level of AI knowledge across the agency industry in the DACH region?\" · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+        }
+      ],
+      "citationText": "96.2 percent of 78 executives from member agencies of the German agency association GWA rate their own agency's AI maturity as \"advanced\" (71.8 percent) or \"expert\" (24.4 percent), 3.8 percent as \"beginner\". The same respondents rate the average level of AI knowledge across the agency industry in Germany, Austria and Switzerland mostly at 3 on a scale of 1 to 5 (57.7 percent), 19.2 percent at 2 and 23.1 percent at 4; nobody picks the extremes 1 or 5. (GWA KI-Whitepaper 2026, \"KI-Studien\" section · 78 executives from GWA member agencies · 12 February to 6 March 2026 · descriptive online survey with self-reports · published by GWA Tech & Innovation Forum · questions: \"How would you rate your agency's current level of AI maturity?\" and \"How do you rate the current average level of AI knowledge across the agency industry in the DACH region?\"). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#de-skilling",
+      "text": "In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Sagar Goel, David Martin, Charikleia Kaffe: \"When Everyone Uses AI, Companies Risk Losing Critical Skills\", BCG Henderson Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with about a dozen more",
+        "url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+      },
+      "disambiguatingDescription": "What the figures do not say: What is measured is a perception, not a loss of skill. Nobody tested performance before and after; 70 executives give self-reports, complemented by interviews with about a dozen more. The sample is small and not representative, and those who take part in a survey on this topic have usually made up their minds already. The ranking of the skills comes from rating scales, not from tests.",
+      "position": 98,
+      "id": "de-skilling",
+      "url": "https://robert-haase.de/en/evidence.html#de-skilling",
+      "topic": "urteil",
+      "grade": {
+        "name": "Survey",
+        "group": "plain"
+      },
+      "sourceText": "Sagar Goel, David Martin, Charikleia Kaffe: \"When Everyone Uses AI, Companies Risk Losing Critical Skills\", BCG Henderson Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with about a dozen more · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+        }
+      ],
+      "citationText": "In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation. (Sagar Goel, David Martin, Charikleia Kaffe: \"When Everyone Uses AI, Companies Risk Losing Critical Skills\", BCG Henderson Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with about a dozen more). https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
     }
   ]
 }

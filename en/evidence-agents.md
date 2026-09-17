@@ -1,6 +1,6 @@
 # Evidence: Agents
 
-26 of 92 entries in the collection “Evidence” by Robert Haase, as of 12 September 2026.
+29 of 98 entries in the collection “Evidence” by Robert Haase, as of 17 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-agenten.md
 
@@ -22,8 +22,8 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (18) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp
-+ Preliminary: prototype, single test, forecast, or vendor figure (5) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr
++ Verified study, vendor documentation, or court decision (20) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln
++ Preliminary: prototype, single test, forecast, or vendor figure (6) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung
 + Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 ---
@@ -392,4 +392,46 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 26 of 26 entries on Agents. Last entry: veeva-mlr.
+## rechtsvorbehalt-kommentar
+
+**Claim:** Of 77 German-language news and trade media, 20 declare a reservation of rights against text and data mining in their robots.txt, as a comment line: 16 name section 44b of the German Copyright Act explicitly, four others invoke Austrian law or word the reservation themselves. Among the home pages of the DAX, MDAX and SDAX companies, not a single one does. The machine-readable form, a *TDM-policy* line in the same file, appears in none of the files examined.
+
+**What the figures do not say:** A comment is not a rule. Crawlers do not evaluate comment lines; the line declares a reservation, it does not enforce one. Whether this form meets the machine-readable reservation required by section 44b(3) of the German Copyright Act is a legal question, and the measurement does not answer it. **Two further media** prohibit automated extraction in a comment without naming text and data mining; they are not counted. Only the robots.txt of the home page was measured: reservations in the terms of use, in the imprint or in the page metadata are not covered here. Of the 160 index home pages, 14 did not answer, 15 in the second run; they may carry a reservation.
+
+**Source:** Own survey, 17 September 2026 · same lists as the two robots.txt entries of 12 September: 77 media titles, all readable, and 160 home pages from DAX, MDAX and SDAX, 146 of them readable · searched the robots.txt as served for comments naming section 44b, for the wording text and data mining, and for a TDM-policy line · fetched first with an own identifier, on refusal with an ordinary browser identifier · two runs, 77 of 77 media identical, one index page differing because it did not answer in the second run
+
+**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#rechtsvorbehalt-kommentar
+
+---
+
+## abruf-kuerzung
+
+**Claim:** An agent's standard fetch tool read only the first 100,000 to 115,000 characters of a page with 128,000 characters of visible text and thus reached about 80 of 90 entries. In an acceptance test with ten fixed questions, each asked twice, it pointed out the truncation for only three of them, although a visible sentence on the page named exactly the marker for detecting it. Questions about a specific entry were answered correctly in 6 of 6 cases with the help of an anchor card, counting questions in 4 of 4. For conceptual questions it kept answering from the truncated text without mentioning the cut.
+
+**What the test does not say:** What was tested is one tool on one page, not the market: the fetch tool of a Claude agent on a single page. ChatGPT, Gemini and Perplexity were not tested, and a browser agent that renders the page reads differently. The figure "about 80 of 90" is the tool's own count, not verified by hand. The sentence the three out of ten refer to is no longer on the page; it was removed after the test because it did not do its job. The test measures the behaviour of the tool, not the quality of the page, and it says nothing about whether truncated answers are cited less often. The page tested is our own: build and test ran in the same workshop, and the evaluation was done by a second agent that did not know the build.
+
+**Source:** Own measurement, 11 September 2026, 08:10 and 11:05 · fetch tool of a Claude agent on robert-haase.de/belege.html, 128,000 characters of visible text without scripts · ten questions fixed in advance, each asked twice, stopping rules set before the run · evaluated by a second agent with no knowledge of the build
+
+**Grade:** Own test, one tool · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#abruf-kuerzung
+
+---
+
+## google-ads-textregeln
+
+**Claim:** Google Ads accepts brand rules in plain language: up to 25 term exclusions and up to 40 restrictions on message and tone, each per campaign. They apply only to automatically customized text assets, not to images. On the same help page Google warns that unsuitable guidelines may remove a large number of good text assets and hurt performance.
+
+**What the figures do not say:** These are product limits, not a measurement. The feature runs as an "experimental beta", Google itself notes possible limitations, and both the caps and the behaviour can change. The rules sit with the campaign, not with the brand: ten campaigns mean ten sets of rules, and outside Google Ads they do not apply. Whether the generated text follows the guidelines is not documented; the page only states that the guidelines are taken into account.
+
+**Source:** Google Ads Help, "Use text guidelines with Performance Max and Search campaigns (beta)", retrieved 17 September 2026 · rollout to all advertisers worldwide per the Google blog of 26 February 2026 · [Source](https://support.google.com/google-ads/answer/16489313)
+
+**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#google-ads-textregeln
+
+---
+
+End of file: 29 of 29 entries on Agents. Last entry: google-ads-textregeln.
