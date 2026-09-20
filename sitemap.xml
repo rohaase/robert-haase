@@ -20,6 +20,22 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://robert-haase.de/marke-als-mcp-server.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/marke-als-mcp-server.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/brand-as-mcp-server.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/marke-als-mcp-server.html"/>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/brand-as-mcp-server.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/marke-als-mcp-server.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/brand-as-mcp-server.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/marke-als-mcp-server.html"/>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://robert-haase.de/was-die-maschine-nicht-bekommt.html</loc>
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/was-die-maschine-nicht-bekommt.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/what-the-machine-doesnt-get.html"/>

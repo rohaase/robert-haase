@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-29 von 98 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 17. September 2026.
+34 von 103 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 17. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -22,8 +22,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (20) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (6) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (24) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map
 + Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 ---
@@ -434,4 +434,74 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 29 von 29 Einträgen zum Thema Agenten. Letzter Eintrag: google-ads-textregeln.
+## microsoft-brand-kit
+
+**Aussage:** Microsofts Copilot lernt eine Marke aus genau einem PDF. Ein Brand Manager lädt die Richtlinien hoch, Copilot zieht daraus Farbpaletten, Stile, Markenstimme sowie Regeln zu Logo und Typografie. Unterstützt wird nur ein einziges Richtliniendokument: Für ein neues muss das bestehende entfernt werden, und die hochgeladenen Richtlinien überschreiben vorhandene Werte im Brand Kit, die Markenstimme eingeschlossen.
+
+**Was der Eintrag nicht belegt:** Es sind Angaben des Herstellers über das eigene Produkt, nirgends unabhängig geprüft. Belegt ist, was die Dokumentation beschreibt, nicht die Güte der Extraktion. **Kein Startdatum:** Microsoft nennt keines. Eine Partnerveröffentlichung datiert die weltweite Verfügbarkeit auf Ende Juni 2026, eine andere führt den PDF-Import schon im Frühjahr als verfügbar; wer ein Datum zitiert, zitiert Dritte. **Bedingungen:** Die Funktion verlangt eine Copilot-Lizenz, nimmt nur PDF an und erwartet die Vertraulichkeitsstufe General. Seit Mitte September 2026 lassen sich zusätzlich Präsentations-Skills als Markdown hinterlegen; die Regeln aus den Richtlinien entstehen weiterhin allein aus dem einen PDF.
+
+**Quelle:** Microsoft, Support-Seite „Use guidelines to manage brand kits in the Microsoft Copilot app“, Abschnitte zum Hochladen und zur Überschreibung sowie die Frage „How many pdf guidelines can be uploaded?“ · abgerufen am 17. September 2026 · [Seite zu Rolle und Lizenz](https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app) · [Zur Quelle](https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#microsoft-brand-kit
+
+---
+
+## muse-connectors
+
+**Aussage:** Meta hat seinen persönlichen Agenten Muse am 8. September 2026 in den USA gestartet. Die Nutzer entscheiden, mit welchen Anwendungen er sich verbindet und wie viel Zugriff er bekommt, und vor sensiblen Schritten wie dem Versand einer E-Mail oder einem Kauf fragt er nach. Unternehmen können für Muse eigene Connectors einreichen: Meta prüft sie auf Funktion, Sicherheit und rechtliche Anforderungen, danach finden Nutzer sie in Muse.
+
+**Was der Eintrag nicht belegt:** Verbreitung, Nutzung oder Umsatz. Es sind Angaben des Anbieters zum eigenen Produkt am Starttag. **Die Technik bleibt offen:** Welches Protokoll hinter den Connectors steht, nennen beide Seiten nicht, MCP kommt dort nicht vor. **Die Reichweite auch:** Muse ist zum Stichtag auf die USA und auf Erwachsene beschränkt, und wie viele Unternehmen einen Connector eingereicht haben, steht nirgends.
+
+**Quelle:** Meta, Newsroom „Introducing Muse“, 8. September 2026, für Start, Zugriffsentscheidung und Rückfrage vor sensiblen Schritten; Einreichung, Prüfung auf Funktion, Sicherheit und Recht sowie das Verzeichnis auf der Plattformseite · beide abgerufen am 19. September 2026 · [Muse-Plattformseite](https://muse.ai/platform) · [Zur Quelle](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#muse-connectors
+
+---
+
+## olivares-access-map
+
+**Aussage:** Für die Rechte von KI-Agenten gibt es Software. Olivares findet Agenten, Sitzungen, Modelle, MCP-Server, Werkzeuge und Identitäten im eigenen Betrieb, führt eine Karte der Lese- und Schreibrechte und stellt ihr gegenüber, was tatsächlich beobachtet wurde. Regeln werden an vier Stellen deny-closed durchgesetzt, darunter ein Gate für MCP-Werkzeugaufrufe. Budgets können Ausgaben sperren oder drosseln, und jeder Vorgang landet in einem hash-verketteten, mit Ed25519 signierten Protokoll.
+
+**Was der Eintrag nicht belegt:** Wirkung, Verbreitung oder Nutzung. Die Beschreibung stammt aus dem Repository des Anbieters, Stand v26.9.1, dort ausdrücklich als „beta, in active development“ geführt, ohne Kundenzahlen. **Der Gegenstand ist ein anderer:** Geprüft werden Zugriffe, Werkzeuge und Ausgaben. Ob eine Aussage im Namen einer Marke gemacht werden darf, entscheidet dieses Werkzeug nicht.
+
+**Quelle:** Olivares, Repository olivaresai/olivares, README mit Inventar, Access Map, vier Durchsetzungspunkten, Budgets und signiertem Protokoll; Kern unter AGPL-3.0, SDK und Connectors unter Apache-2.0, selbst gehostet · abgerufen am 20. September 2026 · [Zur Quelle](https://github.com/olivaresai/olivares)
+
+**Einstufung:** Anbieterangaben, Beta · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#olivares-access-map
+
+---
+
+## adobe-markenpruefung
+
+**Aussage:** Adobe prüft Kampagnenentwürfe maschinell gegen hinterlegte Markenrichtlinien und zeigt das Ergebnis als Prozentwert. Er ist der Anteil der Richtlinien, die ein Entwurf besteht, an den geprüften Richtlinien. Dazu kommen Bestanden-oder-nicht-Ergebnisse für Kanalvorgaben wie Meta und LinkedIn und für die Barrierefreiheit nach ADA. Der Wert wird nach jeder Änderung neu gerechnet.
+
+**Was der Eintrag nicht belegt:** eine Wirkung. Es sind Angaben des Herstellers über das eigene Produkt, nirgends unabhängig geprüft, ohne Stichprobe und ohne Angabe, wie gut die Prüfung trifft. **Was der Prozentwert nicht sagt:** Er zählt Regeln, er gewichtet sie nicht. Eine verfehlte Logoregel wiegt in der Zahl so viel wie eine verfehlte Kommaregel. **Und was er nicht verhindert:** Die Dokumentation beschreibt die Anzeige als Hinweis auf Verbesserungsmöglichkeiten und nennt keine Sperre; die einzelnen Prüfungen lassen sich zudem abschalten. Wer eine Regel entschieden hat und seit wann sie gilt, steht in keiner dieser Antworten.
+
+**Quelle:** Adobe, Dokumentation „Brand Validation in Adobe GenStudio for Performance Marketing“ (Experience League), Abschnitte zur Berechnung des Werts, zu den drei Prüfarten und zum erneuten Prüfen · abgerufen am 20. September 2026 · [Zur Quelle](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#adobe-markenpruefung
+
+---
+
+## markup-ai-stilpruefung
+
+**Aussage:** Markup AI prüft Inhalte gegen die eigenen Sprach- und Stilvorgaben und ist dabei selbst über MCP erreichbar. Das Werkzeug markiert, was nicht passt, begründet es und liefert einen Formulierungsvorschlag zum Übernehmen; jeder Text wird zusätzlich gegen die hinterlegten Vorgaben bewertet. Der Anbieter betreibt dafür einen MCP-Server unter api.markup.ai, an den sich Assistenten wie Claude oder Cursor anschließen, etwa mit der Aufforderung, einen Absatz auf Abweichungen von der Markenstimme zu prüfen.
+
+**Was der Eintrag nicht belegt:** Wirkung, Verbreitung oder Trefferquote. Die Beschreibung stammt vom Anbieter, die Skala der Bewertung nennt die Übersichtsseite nicht. **Der Anschluss ist nicht offen:** Der MCP-Server verlangt eine Anmeldung, per Schlüssel oder OAuth, anders als der öffentliche Marken-Server von Pulumi. **Und der Gegenstand ist ein anderer:** Geprüft wird gegen ein Stilhandbuch. Das Werkzeug markiert und schlägt vor, es gibt nichts frei, und wer eine Regel entschieden hat, steht in seinen Antworten nicht. Das Unternehmen ist nach eigener Angabe aus der Forschung und Technik des Textprüfers Acrolinx hervorgegangen.
+
+**Quelle:** Markup AI, eigene Seite und Dokumentation: Prüfung von Inhalten gegen Markenstimme und Stilvorgaben mit Markierung, Begründung und Vorschlag, Bewertung gegen die hinterlegten Vorgaben, Herkunft aus Acrolinx · Anschluss und Anmeldung aus der Anleitung zum MCP-Server ([Anleitung zum MCP-Server](https://docs.markup.ai/mcp/vscode-mcp)) · abgerufen am 20. September 2026 · [Zur Quelle](https://markup.ai/)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#markup-ai-stilpruefung
+
+---
+
+Ende der Datei: 34 von 34 Einträgen zum Thema Agenten. Letzter Eintrag: markup-ai-stilpruefung.

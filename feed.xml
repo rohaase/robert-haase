@@ -6,7 +6,14 @@
     <atom:link href="https://robert-haase.de/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Texte zu Markenstrategie im KI-Zeitalter: wie Marken maschinenlesbar, anwendbar und verantwortbar werden.</description>
     <language>de</language>
-    <lastBuildDate>Tue, 25 Aug 2026 12:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 12:00:00 +0200</lastBuildDate>
+    <item>
+      <title>Marke als MCP-Server: Wie eine Marke antwortet, wenn ein Agent fragt.</title>
+      <link>https://robert-haase.de/marke-als-mcp-server.html</link>
+      <guid>https://robert-haase.de/marke-als-mcp-server.html</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0200</pubDate>
+      <description>Marken-Server liefern Regeln aus und lösen damit die Konsistenz. Die Frage, ob eine Aussage im Namen der Marke erlaubt ist, beantwortet keiner von ihnen. Warum die entschiedene Schicht hinter der Schnittstelle Aufgabe der Markenführung ist und sich nicht an die IT delegieren lässt.</description>
+    </item>
     <item>
       <title>Was die Maschine nicht bekommt.</title>
       <link>https://robert-haase.de/was-die-maschine-nicht-bekommt.html</link>

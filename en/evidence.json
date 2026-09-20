@@ -11,7 +11,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 98,
+  "numberOfItems": 103,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -74,7 +74,7 @@
     {
       "id": "agenten",
       "name": "Agents",
-      "numberOfItems": 29,
+      "numberOfItems": 34,
       "textFile": "https://robert-haase.de/en/evidence-agents.md",
       "ids": [
         "leere-buttons",
@@ -105,7 +105,12 @@
         "veeva-mlr",
         "rechtsvorbehalt-kommentar",
         "abruf-kuerzung",
-        "google-ads-textregeln"
+        "google-ads-textregeln",
+        "microsoft-brand-kit",
+        "muse-connectors",
+        "olivares-access-map",
+        "adobe-markenpruefung",
+        "markup-ai-stilpruefung"
       ],
       "groups": {
         "strong": [
@@ -128,7 +133,11 @@
           "pulumi-brand-mcp",
           "statista-mcp",
           "rechtsvorbehalt-kommentar",
-          "google-ads-textregeln"
+          "google-ads-textregeln",
+          "microsoft-brand-kit",
+          "muse-connectors",
+          "adobe-markenpruefung",
+          "markup-ai-stilpruefung"
         ],
         "weak": [
           "agent-ready",
@@ -136,7 +145,8 @@
           "klarna-700",
           "monotype-mcp",
           "veeva-mlr",
-          "abruf-kuerzung"
+          "abruf-kuerzung",
+          "olivares-access-map"
         ],
         "plain": [
           "gitlab-markenrepo",
@@ -3080,6 +3090,153 @@
         }
       ],
       "citationText": "In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation. (Sagar Goel, David Martin, Charikleia Kaffe: \"When Everyone Uses AI, Companies Risk Losing Critical Skills\", Boston Consulting Group, BCG Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with a dozen other company leaders). https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#microsoft-brand-kit",
+      "text": "Microsoft’s Copilot learns a brand from exactly one PDF. A brand manager uploads the guidelines, Copilot extracts colour palettes, styles, brand voice and the rules for logo and typography. Only a single guideline document is supported: to add a new one the existing one has to be removed, and the uploaded guidelines override the values already in the brand kit, brand voice included.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Microsoft, support page “Use guidelines to manage brand kits in the Microsoft Copilot app”, the sections on uploading and overriding and the question “How many pdf guidelines can be uploaded?” · retrieved 17 September 2026",
+        "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
+      },
+      "disambiguatingDescription": "What this entry does not establish: these are the vendor’s statements about its own product, independently verified nowhere. What is established is what the documentation describes, not how well the extraction works. No start date: Microsoft gives none. One partner publication dates worldwide availability to late June 2026, another lists the PDF import as available in spring; anyone quoting a date is quoting third parties. Conditions: the feature requires a Copilot licence, accepts PDF only and expects the General sensitivity label. Since mid-September 2026 presentation skills can be added as Markdown as well; the rules from the guidelines still come from that one PDF alone.",
+      "position": 99,
+      "id": "microsoft-brand-kit",
+      "url": "https://robert-haase.de/en/evidence.html#microsoft-brand-kit",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "Microsoft, support page “Use guidelines to manage brand kits in the Microsoft Copilot app”, the sections on uploading and overriding and the question “How many pdf guidelines can be uploaded?” · retrieved 17 September 2026 · Page on role and licence · Source",
+      "sourceLinks": [
+        {
+          "name": "Page on role and licence",
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app"
+        },
+        {
+          "name": "Source",
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
+        }
+      ],
+      "citationText": "Microsoft’s Copilot learns a brand from exactly one PDF. A brand manager uploads the guidelines, Copilot extracts colour palettes, styles, brand voice and the rules for logo and typography. Only a single guideline document is supported: to add a new one the existing one has to be removed, and the uploaded guidelines override the values already in the brand kit, brand voice included. (Microsoft, support documentation on brand kits, retrieved 17 September 2026). https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#muse-connectors",
+      "text": "Meta launched its personal agent Muse in the US on 8 September 2026. People choose which apps it connects to and how much access it gets, and it checks back before sensitive steps such as sending an email or making a purchase. Businesses can submit their own connectors for Muse: Meta tests them against functional, security and legal requirements, after which people find them in Muse.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Meta, newsroom “Introducing Muse”, 8 September 2026, for the launch, the access decision and the check-back before sensitive steps; submission, review against functional, security and legal requirements and the directory on the platform page · both retrieved 19 September 2026",
+        "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+      },
+      "disambiguatingDescription": "What this entry does not establish: reach, use or revenue. These are the vendor’s statements about its own product on launch day. The technology stays open: neither page names the protocol behind the connectors, and MCP does not appear there. So does the reach: as of the cut-off date Muse is limited to the US and to adults, and how many businesses have submitted a connector is stated nowhere.",
+      "position": 100,
+      "id": "muse-connectors",
+      "url": "https://robert-haase.de/en/evidence.html#muse-connectors",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "Meta, newsroom “Introducing Muse”, 8 September 2026, for the launch, the access decision and the check-back before sensitive steps; submission, review against functional, security and legal requirements and the directory on the platform page · both retrieved 19 September 2026 · Muse platform page · Source",
+      "sourceLinks": [
+        {
+          "name": "Muse platform page",
+          "url": "https://muse.ai/platform"
+        },
+        {
+          "name": "Source",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+        }
+      ],
+      "citationText": "Meta launched its personal agent Muse in the US on 8 September 2026. People choose which apps it connects to and how much access it gets, and it checks back before sensitive steps such as sending an email or making a purchase. Businesses can submit their own connectors for Muse: Meta tests them against functional, security and legal requirements, after which people find them in Muse. (Meta, newsroom and Muse platform page, retrieved 19 September 2026). https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#olivares-access-map",
+      "text": "There is software for the permissions of AI agents. Olivares discovers agents, sessions, models, MCP servers, tools and identities running in an organisation, keeps a map of read and write access and sets it against what was actually observed. Rules are enforced deny-closed at four points, one of them a gate on MCP tool calls. Budgets can deny or throttle spend, and every operation lands in a hash-chained, Ed25519-signed ledger.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Olivares, repository olivaresai/olivares, README with inventory, access map, four enforcement points, budgets and signed ledger; core under AGPL-3.0, SDK and connectors under Apache-2.0, self-hosted · retrieved 20 September 2026",
+        "url": "https://github.com/olivaresai/olivares"
+      },
+      "disambiguatingDescription": "What this entry does not establish: effect, reach or use. The description comes from the vendor’s own repository, version v26.9.1, marked there explicitly as “beta, in active development”, with no customer figures. The subject is a different one: what gets checked is access, tools and spend. Whether a statement may be made in a brand’s name is not what this tool decides.",
+      "position": 101,
+      "id": "olivares-access-map",
+      "url": "https://robert-haase.de/en/evidence.html#olivares-access-map",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor statement, beta",
+        "group": "weak"
+      },
+      "sourceText": "Olivares, repository olivaresai/olivares, README with inventory, access map, four enforcement points, budgets and signed ledger; core under AGPL-3.0, SDK and connectors under Apache-2.0, self-hosted · retrieved 20 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://github.com/olivaresai/olivares"
+        }
+      ],
+      "citationText": "There is software for the permissions of AI agents. Olivares discovers agents, sessions, models, MCP servers, tools and identities running in an organisation, keeps a map of read and write access and sets it against what was actually observed. Rules are enforced deny-closed at four points, one of them a gate on MCP tool calls. Budgets can deny or throttle spend, and every operation lands in a hash-chained, Ed25519-signed ledger. (Olivares, repository olivaresai/olivares, retrieved 20 September 2026). https://github.com/olivaresai/olivares"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#adobe-markenpruefung",
+      "text": "Adobe checks campaign drafts against stored brand guidelines and shows the result as a percentage. It is the share of guidelines a draft passes out of the guidelines tested. Added to it are pass-or-fail results for channel guidelines such as Meta and LinkedIn and for ADA accessibility. The value is recalculated after every edit.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Adobe, documentation “Brand Validation in Adobe GenStudio for Performance Marketing” (Experience League), the sections on how the score is calculated, on the three kinds of check and on rechecking · retrieved 20 September 2026",
+        "url": "https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation"
+      },
+      "disambiguatingDescription": "What this entry does not establish: an effect. These are the vendor’s statements about its own product, independently verified nowhere, with no sample and no indication of how well the check performs. What the percentage does not say: it counts rules, it does not weigh them. A failed logo rule counts the same in that number as a failed comma rule. And what it does not prevent: the documentation describes the panel as pointing to opportunities for improvement and names no block; the individual checks can also be switched off. Who decided a rule and since when it applies is in none of these answers.",
+      "position": 102,
+      "id": "adobe-markenpruefung",
+      "url": "https://robert-haase.de/en/evidence.html#adobe-markenpruefung",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "Adobe, documentation “Brand Validation in Adobe GenStudio for Performance Marketing” (Experience League), the sections on how the score is calculated, on the three kinds of check and on rechecking · retrieved 20 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation"
+        }
+      ],
+      "citationText": "Adobe checks campaign drafts against stored brand guidelines and shows the result as a percentage. It is the share of guidelines a draft passes out of the guidelines tested. Added to it are pass-or-fail results for channel guidelines such as Meta and LinkedIn and for ADA accessibility. The value is recalculated after every edit. (Adobe, documentation on brand validation in GenStudio for Performance Marketing, retrieved 20 September 2026). https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#markup-ai-stilpruefung",
+      "text": "Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP. The tool flags what does not fit, explains why and supplies wording to apply in place; every text is also scored against the stored standards. The vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to, for instance with a prompt asking it to check a paragraph for brand-voice drift.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Markup AI, own site and documentation: checking content against brand voice and style rules with flag, reason and suggestion, scoring against the stored standards, origin in Acrolinx · connection and authentication from the MCP server guide () · retrieved 20 September 2026",
+        "url": "https://markup.ai/"
+      },
+      "disambiguatingDescription": "What this entry does not establish: effect, reach or hit rate. The description comes from the vendor, and the overview page does not name the scale of the score. The connection is not open: the MCP server requires authentication, by key or OAuth, unlike Pulumi’s public brand server. And the subject is a different one: what gets checked is a style guide. The tool flags and suggests, it approves nothing, and who decided a rule does not appear in its answers. By its own account the company was born out of the research and technology of the text checker Acrolinx.",
+      "position": 103,
+      "id": "markup-ai-stilpruefung",
+      "url": "https://robert-haase.de/en/evidence.html#markup-ai-stilpruefung",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "Markup AI, own site and documentation: checking content against brand voice and style rules with flag, reason and suggestion, scoring against the stored standards, origin in Acrolinx · connection and authentication from the MCP server guide (MCP server guide) · retrieved 20 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "MCP server guide",
+          "url": "https://docs.markup.ai/mcp/vscode-mcp"
+        },
+        {
+          "name": "Source",
+          "url": "https://markup.ai/"
+        }
+      ],
+      "citationText": "Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP. The tool flags what does not fit, explains why and supplies wording to apply in place; every text is also scored against the stored standards. The vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to, for instance with a prompt asking it to check a paragraph for brand-voice drift. (Markup AI, own site and documentation, retrieved 20 September 2026). https://markup.ai/"
     }
   ]
 }

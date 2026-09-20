@@ -1,4 +1,4 @@
-# Evidence: all 98 claims
+# Evidence: all 103 claims
 
 Overview of the collection “Evidence” by Robert Haase, as of 17 September 2026: every claim on one line, with its grade and a link to its topic file.
 
@@ -25,7 +25,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Topic files
 
 - AI search, 16 entries: https://robert-haase.de/en/evidence-ai-search.md
-- Agents, 29 entries: https://robert-haase.de/en/evidence-agents.md
+- Agents, 34 entries: https://robert-haase.de/en/evidence-agents.md
 - Commerce, 6 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 12 entries: https://robert-haase.de/en/evidence-liability.md
 - Market size, 16 entries: https://robert-haase.de/en/evidence-market.md
@@ -54,10 +54,10 @@ The collection does not map the state of the research, only the figures I needed
 - **markenstatur-sichtbarkeit** · Vendor measurement, preprint without peer review · Ask an AI search engine a category question without naming the brand, and globally known brands appear on average in 72.9 percent of answers on the first tracking run, established mid-market and regional brands in 43.6 percent, small and niche brands in 11.4 percent. Of all 149,912 citations counted, 2.9 percent point at the brand’s own website and 75.2 percent at those of other companies in the same category. → https://robert-haase.de/en/evidence-ai-search.md
 - **zitier-position** · Vendor measurement, preliminary · Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text. The middle section, the widest at 40 percent of the text, carries 31.1 percent, the closing section 24.7 percent. In a second analysis of 11,022 citations, cited introductions reached a proper-noun density of 20.6 percent, against the 5 to 8 percent the author derives from standard corpora (Brown Corpus, Penn Treebank), with no arithmetic shown. → https://robert-haase.de/en/evidence-ai-search.md
 
-## Agents (29)
+## Agents (34)
 
-+ Verified study, vendor documentation, or court decision (20) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln
-+ Preliminary: prototype, single test, forecast, or vendor figure (6) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung
++ Verified study, vendor documentation, or court decision (24) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung
++ Preliminary: prototype, single test, forecast, or vendor figure (7) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map
 + Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
 
 - **leere-buttons** · Verified study · On 30.6 percent of one million home pages surveyed, buttons had no accessible name; on 51 percent, form fields had no label. → https://robert-haase.de/en/evidence-agents.md
@@ -89,6 +89,11 @@ The collection does not map the state of the research, only the figures I needed
 - **rechtsvorbehalt-kommentar** · Own survey, reproducible · Of 77 German-language news and trade media, 20 declare a reservation of rights against text and data mining in their robots.txt, as a comment line: 16 name section 44b of the German Copyright Act explicitly, four others invoke Austrian or European law or state the reservation without naming a section. Among the home pages of the DAX, MDAX and SDAX companies, not a single one does. One machine-readable form, the *TDM-policy* line in the same file, appears in none of the files examined. → https://robert-haase.de/en/evidence-agents.md
 - **abruf-kuerzung** · Own test, one tool · An agent’s standard fetch tool read only the front part of a page with 128,000 characters of visible text. A probe by hand the same morning found the cut at entry 65 of 90; the tool itself reported “about 80” entries and put the cut between 100,000 and 115,000 characters. In an acceptance test with ten fixed questions, each asked twice, it pointed out the truncation for only three of them, although a visible sentence on the page named exactly the marker for detecting it. With an anchor card, questions about a specific entry led to the right file in 6 of 6 cases, counting questions in 4 of 4. For conceptual questions it kept answering from the truncated text without mentioning the cut. → https://robert-haase.de/en/evidence-agents.md
 - **google-ads-textregeln** · Vendor documentation · In Google Ads, brand rules can be stored in plain language, in Performance Max campaigns and in Search campaigns with AI Max: up to 25 term exclusions and up to 40 restrictions naming concepts, associations or styles to avoid, each per campaign. Both are exclusions, they prescribe nothing, and they apply only to automatically customized text assets, not to images. On the same help page Google warns that unsuitable guidelines may remove a large number of good text assets and hurt performance. → https://robert-haase.de/en/evidence-agents.md
+- **microsoft-brand-kit** · Vendor documentation · Microsoft’s Copilot learns a brand from exactly one PDF. A brand manager uploads the guidelines, Copilot extracts colour palettes, styles, brand voice and the rules for logo and typography. Only a single guideline document is supported: to add a new one the existing one has to be removed, and the uploaded guidelines override the values already in the brand kit, brand voice included. → https://robert-haase.de/en/evidence-agents.md
+- **muse-connectors** · Vendor documentation · Meta launched its personal agent Muse in the US on 8 September 2026. People choose which apps it connects to and how much access it gets, and it checks back before sensitive steps such as sending an email or making a purchase. Businesses can submit their own connectors for Muse: Meta tests them against functional, security and legal requirements, after which people find them in Muse. → https://robert-haase.de/en/evidence-agents.md
+- **olivares-access-map** · Vendor statement, beta · There is software for the permissions of AI agents. Olivares discovers agents, sessions, models, MCP servers, tools and identities running in an organisation, keeps a map of read and write access and sets it against what was actually observed. Rules are enforced deny-closed at four points, one of them a gate on MCP tool calls. Budgets can deny or throttle spend, and every operation lands in a hash-chained, Ed25519-signed ledger. → https://robert-haase.de/en/evidence-agents.md
+- **adobe-markenpruefung** · Vendor documentation · Adobe checks campaign drafts against stored brand guidelines and shows the result as a percentage. It is the share of guidelines a draft passes out of the guidelines tested. Added to it are pass-or-fail results for channel guidelines such as Meta and LinkedIn and for ADA accessibility. The value is recalculated after every edit. → https://robert-haase.de/en/evidence-agents.md
+- **markup-ai-stilpruefung** · Vendor documentation · Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP. The tool flags what does not fit, explains why and supplies wording to apply in place; every text is also scored against the stored standards. The vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to, for instance with a prompt asking it to check a paragraph for brand-voice drift. → https://robert-haase.de/en/evidence-agents.md
 
 ## Commerce (6)
 
@@ -171,4 +176,4 @@ The collection does not map the state of the research, only the figures I needed
 - **wahrgenommene-differenzierung** · Survey · Across 17 product categories in Australia and the UK, an average of 11 percent of a brand’s current users consider it different and 10 percent consider it unique; 17 percent name at least one of the two. They buy the brand anyway. The authors recommend distinctiveness instead. → https://robert-haase.de/en/evidence-judgement.md
 - **de-skilling** · Survey · In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 98 of 98 claims in 6 topics.
+End of overview: 103 of 103 claims in 6 topics.
