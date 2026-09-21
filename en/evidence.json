@@ -369,7 +369,7 @@
           "url": "https://ahrefs.com/blog/llmstxt-study/"
         }
       ],
-      "citationText": "Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026. (Ahrefs, 137,210 domains, 28 percent of them with an llms.txt · June 2026). https://ahrefs.com/blog/llmstxt-study/"
+      "citationText": "Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026. (Ahrefs, 137,210 domains, 28 percent of them with an llms.txt · June 2026). https://ahrefs.com/blog/llmstxt-study/ · via https://robert-haase.de/en/evidence.html#llmstxt-abrufe"
     },
     {
       "@type": "Claim",
@@ -396,7 +396,7 @@
           "url": "https://seranking.com/blog/llms-txt/"
         }
       ],
-      "citationText": "Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers. (SE Ranking, nearly 300,000 domains, 10.13 percent of them with an llms.txt · November 2025). https://seranking.com/blog/llms-txt/"
+      "citationText": "Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers. (SE Ranking, nearly 300,000 domains, 10.13 percent of them with an llms.txt · November 2025). https://seranking.com/blog/llms-txt/ · via https://robert-haase.de/en/evidence.html#llmstxt-wirkung"
     },
     {
       "@type": "Claim",
@@ -423,7 +423,7 @@
           "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
         }
       ],
-      "citationText": "Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search. (Google Search Central, official guide · as of 10 July 2026). https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+      "citationText": "Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search. (Google Search Central, official guide · as of 10 July 2026). https://developers.google.com/search/docs/fundamentals/ai-optimization-guide · via https://robert-haase.de/en/evidence.html#google-leitfaden"
     },
     {
       "@type": "Claim",
@@ -450,7 +450,7 @@
           "url": "https://ahrefs.com/blog/schema-ai-citations/"
         }
       ],
-      "citationText": "1,885 pages that added JSON-LD barely moved against 4,000 control pages: no effect distinguishable from zero in ChatGPT and Google AI Mode, and a statistically significant 4.6 percent decline in AI Overviews. (Ahrefs, 1,885 pages against 4,000 matched controls, markup added between August 2025 and March 2026 · May 2026). https://ahrefs.com/blog/schema-ai-citations/"
+      "citationText": "1,885 pages that added JSON-LD barely moved against 4,000 control pages: no effect distinguishable from zero in ChatGPT and Google AI Mode, and a statistically significant 4.6 percent decline in AI Overviews. (Ahrefs, 1,885 pages against 4,000 matched controls, markup added between August 2025 and March 2026 · May 2026). https://ahrefs.com/blog/schema-ai-citations/ · via https://robert-haase.de/en/evidence.html#json-ld-test"
     },
     {
       "@type": "Claim",
@@ -477,7 +477,7 @@
           "url": "https://ahrefs.com/blog/ai-brand-visibility-correlations/"
         }
       ],
-      "citationText": "Third-party mentions correlate with visibility in AI answers far more strongly than the classic metrics of a brand’s own site: 0.66 to 0.74 against 0.27 to 0.33 for domain authority and 0.19 for the number of pages. (Ahrefs, correlation analysis across 75,000 brands in ChatGPT, Google AI Mode, and AI Overviews · December 2025). https://ahrefs.com/blog/ai-brand-visibility-correlations/"
+      "citationText": "Third-party mentions correlate with visibility in AI answers far more strongly than the classic metrics of a brand’s own site: 0.66 to 0.74 against 0.27 to 0.33 for domain authority and 0.19 for the number of pages. (Ahrefs, correlation analysis across 75,000 brands in ChatGPT, Google AI Mode, and AI Overviews · December 2025). https://ahrefs.com/blog/ai-brand-visibility-correlations/ · via https://robert-haase.de/en/evidence.html#mentions-vs-backlinks"
     },
     {
       "@type": "Claim",
@@ -504,7 +504,7 @@
           "url": "https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/"
         }
       ],
-      "citationText": "Ask the identical question twice and the chance of getting the same list of brands is under one in a hundred. (SparkToro with Gumshoe.ai, 600 participants, 12 prompts, 2,961 runs across ChatGPT, Claude, and Google AI · January 2026). https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/"
+      "citationText": "Ask the identical question twice and the chance of getting the same list of brands is under one in a hundred. (SparkToro with Gumshoe.ai, 600 participants, 12 prompts, 2,961 runs across ChatGPT, Claude, and Google AI · January 2026). https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/ · via https://robert-haase.de/en/evidence.html#inkonsistenz"
     },
     {
       "@type": "Claim",
@@ -531,7 +531,7 @@
           "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
         }
       ],
-      "citationText": "When an AI summary appears, users click a traditional search result on 8 percent of visits. Without a summary it is 15 percent. (Pew Research Center, passive browser tracking of 900 US adults, 68,879 Google searches in March 2025 · July 2025). https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+      "citationText": "When an AI summary appears, users click a traditional search result on 8 percent of visits. Without a summary it is 15 percent. (Pew Research Center, passive browser tracking of 900 US adults, 68,879 Google searches in March 2025 · July 2025). https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/ · via https://robert-haase.de/en/evidence.html#pew-klicks"
     },
     {
       "@type": "Claim",
@@ -558,7 +558,7 @@
           "url": "https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/"
         }
       ],
-      "citationText": "Where an AI summary sits above the results, the click-through rate of the first organic position is about 58 percent lower. At position 2 it is 50.8 percent, at position 3 46.4 percent. (Ahrefs, Ryan Law, 300,000 keywords, 150,000 with and 150,000 without an AI summary, data from December 2025 · 4 February 2026). https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/"
+      "citationText": "Where an AI summary sits above the results, the click-through rate of the first organic position is about 58 percent lower. At position 2 it is 50.8 percent, at position 3 46.4 percent. (Ahrefs, Ryan Law, 300,000 keywords, 150,000 with and 150,000 without an AI summary, data from December 2025 · 4 February 2026). https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/ · via https://robert-haase.de/en/evidence.html#aio-klickrate"
     },
     {
       "@type": "Claim",
@@ -585,7 +585,7 @@
           "url": "https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update"
         }
       ],
-      "citationText": "For informational queries carrying an AI summary, the organic click-through rate fell from 1.76 to 0.61 percent, a drop of 61 percent. For queries without a summary it fell from 2.74 to 1.62 percent over the same period, a drop of 41 percent. (Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025). https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update"
+      "citationText": "For informational queries carrying an AI summary, the organic click-through rate fell from 1.76 to 0.61 percent, a drop of 61 percent. For queries without a summary it fell from 2.74 to 1.62 percent over the same period, a drop of 41 percent. (Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025). https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update · via https://robert-haase.de/en/evidence.html#seer-klickrate"
     },
     {
       "@type": "Claim",
@@ -593,7 +593,7 @@
       "text": "Reddit’s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days. On 8 August 2026 ChatGPT’s use of the site: operator jumped from 0.37 to 16.8 percent of its derived search queries. A second vendor panel counts a drop in daily Reddit citations from 497 to 132 over the same window, with total citation volume up by 3.5 percent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 () · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication () · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means ()",
+        "name": "Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means",
         "url": "https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt"
       },
       "disambiguatingDescription": "What the numbers do not say: Both vendors sell visibility tools. Promptwatch does not rule out a collection error in its own data and calls the size of the drop provisional. Otterly calls its 73.4 percent a conservative floor: the before-window contains the break of 8 August, the after-window covers only four days. The two figures do not form a range: Promptwatch measures a share of all citations, Otterly absolute citations per day against a total volume that grew. Derived from Otterly’s own numbers, the starting level is 1.38 against 3.83 percent, a factor of 2.8 apart. Direction and timing are reliable, the decimal place and the level are not. Promptwatch discloses its denominator, the composition of the panel it does not. What the case does show: on Google’s AI surfaces Reddit fell by only 11 and 30 percent over the same period. The explanation that Reddit removed content is refuted: other engines keep citing the same posts. No vendor has evidenced the cause. A comparable collapse a year earlier was attributed to Google switching off the num=100 parameter, not to OpenAI.",
@@ -624,7 +624,7 @@
           "url": "https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt"
         }
       ],
-      "citationText": "Reddit’s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days. A second vendor panel counts a drop in daily Reddit citations from 497 to 132 over the same window, while ChatGPT’s total citation volume rose. (Promptwatch, data page of 18 August 2026, and Otterly.ai of 27 August 2026; both vendor measurements, preliminary). https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt"
+      "citationText": "Reddit’s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days. A second vendor panel counts a drop in daily Reddit citations from 497 to 132 over the same window, while ChatGPT’s total citation volume rose. (Promptwatch, data page of 18 August 2026, and Otterly.ai of 27 August 2026; both vendor measurements, preliminary). https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt · via https://robert-haase.de/en/evidence.html#reddit-zitate"
     },
     {
       "@type": "Claim",
@@ -651,7 +651,7 @@
           "url": "https://arxiv.org/abs/2311.09735"
         }
       ],
-      "citationText": "The most quoted figure in the AI visibility business, \"up to 40 percent more visibility\", comes from a lab setup running a since-retired model and measures a purpose-built metric. (Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · submitted November 2023). https://arxiv.org/abs/2311.09735"
+      "citationText": "The most quoted figure in the AI visibility business, \"up to 40 percent more visibility\", comes from a lab setup running a since-retired model and measures a purpose-built metric. (Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · submitted November 2023). https://arxiv.org/abs/2311.09735 · via https://robert-haase.de/en/evidence.html#geo-40-prozent"
     },
     {
       "@type": "Claim",
@@ -678,7 +678,7 @@
           "url": "https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste"
         }
       ],
-      "citationText": "45 percent of answers from four AI assistants to news questions had at least one significant issue. In 31 percent it concerned the handling of sources. (European Broadcasting Union and BBC, 22 media organisations across 18 countries and 14 languages (including ARD, ZDF, Deutsche Welle, and SRF), over 3,000 answers assessed · October 2025). https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste"
+      "citationText": "45 percent of answers from four AI assistants to news questions had at least one significant issue. In 31 percent it concerned the handling of sources. (European Broadcasting Union and BBC, 22 media organisations across 18 countries and 14 languages (including ARD, ZDF, Deutsche Welle, and SRF), over 3,000 answers assessed · October 2025). https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste · via https://robert-haase.de/en/evidence.html#ebu-nachrichten"
     },
     {
       "@type": "Claim",
@@ -709,7 +709,7 @@
           "url": "https://ahrefs.com/blog/ai-overview-citations-top-10/"
         }
       ],
-      "citationText": "How many of the sources cited in Google’s AI Overviews also rank in the organic top 10 is measured incompatibly by the two large vendors: BrightEdge around 17 percent on average from February 2025 to February 2026, Ahrefs 37.1 percent in its study of 2 March 2026. In the one month both report a figure for, the gap is widest: for July 2025 BrightEdge reports around 16.6 percent, Ahrefs 76.1 percent in its study from the same month. (Ahrefs, 863,000 keyword SERPs, published 2 March 2026, and BrightEdge, weekly measurement, published 12 February 2026). https://ahrefs.com/blog/ai-overview-citations-top-10/ and https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing"
+      "citationText": "How many of the sources cited in Google’s AI Overviews also rank in the organic top 10 is measured incompatibly by the two large vendors: BrightEdge around 17 percent on average from February 2025 to February 2026, Ahrefs 37.1 percent in its study of 2 March 2026. In the one month both report a figure for, the gap is widest: for July 2025 BrightEdge reports around 16.6 percent, Ahrefs 76.1 percent in its study from the same month. (Ahrefs, 863,000 keyword SERPs, published 2 March 2026, and BrightEdge, weekly measurement, published 12 February 2026). https://ahrefs.com/blog/ai-overview-citations-top-10/ and https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing · via https://robert-haase.de/en/evidence.html#aio-top10-uneinig"
     },
     {
       "@type": "Claim",
@@ -736,7 +736,7 @@
           "url": "https://github.com/mintlify/docs-url-discovery-bench"
         }
       ],
-      "citationText": "Across 20 documentation sites, response time and token use of two coding agents fell by 18 to 26 percent on average once their pages pointed to their llms.txt at the very top, measured as a removal, on developer documentation the vendor serves and sells itself. (Mintlify, Docs URL Discovery Bench, 2,400 scored attempts at n=300 per cell · July 2026). https://github.com/mintlify/docs-url-discovery-bench"
+      "citationText": "Across 20 documentation sites, response time and token use of two coding agents fell by 18 to 26 percent on average once their pages pointed to their llms.txt at the very top, measured as a removal, on developer documentation the vendor serves and sells itself. (Mintlify, Docs URL Discovery Bench, 2,400 scored attempts at n=300 per cell · July 2026). https://github.com/mintlify/docs-url-discovery-bench · via https://robert-haase.de/en/evidence.html#llmstxt-nutzen"
     },
     {
       "@type": "Claim",
@@ -763,7 +763,7 @@
           "url": "https://arxiv.org/abs/2606.20065"
         }
       ],
-      "citationText": "Ask an AI search engine a category question without naming the brand, and globally known brands appear on average in 72.9 percent of answers on the first tracking run, established mid-market and regional brands in 43.6 percent, small and niche brands in 11.4 percent. Of all 149,912 citations counted, 2.9 percent point at the brand’s own website and 75.2 percent at those of other companies in the same category. (Pratyush Kumar, co-founder of Ranqo, Generative Engine Optimization at Scale, arXiv:2606.20065v1, preprint without peer review · 102 brands, 102,025 prompt responses from five engines, 149,912 citations, collected March to May 2026 · submitted 18 June 2026). https://arxiv.org/abs/2606.20065"
+      "citationText": "Ask an AI search engine a category question without naming the brand, and globally known brands appear on average in 72.9 percent of answers on the first tracking run, established mid-market and regional brands in 43.6 percent, small and niche brands in 11.4 percent. Of all 149,912 citations counted, 2.9 percent point at the brand’s own website and 75.2 percent at those of other companies in the same category. (Pratyush Kumar, co-founder of Ranqo, Generative Engine Optimization at Scale, arXiv:2606.20065v1, preprint without peer review · 102 brands, 102,025 prompt responses from five engines, 149,912 citations, collected March to May 2026 · submitted 18 June 2026). https://arxiv.org/abs/2606.20065 · via https://robert-haase.de/en/evidence.html#markenstatur-sichtbarkeit"
     },
     {
       "@type": "Claim",
@@ -790,7 +790,7 @@
           "url": "http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention"
         }
       ],
-      "citationText": "Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text, 31.1 percent from the middle section and 24.7 percent from the closing section. (Kevin Indig, Growth Memo, data from Gauge, 16 February 2026). http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention"
+      "citationText": "Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text, 31.1 percent from the middle section and 24.7 percent from the closing section. (Kevin Indig, Growth Memo, data from Gauge, 16 February 2026). http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention · via https://robert-haase.de/en/evidence.html#zitier-position"
     },
     {
       "@type": "Claim",
@@ -817,7 +817,7 @@
           "url": "https://webaim.org/projects/million/"
         }
       ],
-      "citationText": "On 30.6 percent of one million home pages surveyed, buttons had no accessible name; on 51 percent, form fields had no label. (WebAIM Million, eighth edition, WAVE evaluation of one million home pages from the Tranco ranking, data from February 2026; the same survey counts 33.1 percent of all form fields as unlabelled). https://webaim.org/projects/million/"
+      "citationText": "On 30.6 percent of one million home pages surveyed, buttons had no accessible name; on 51 percent, form fields had no label. (WebAIM Million, eighth edition, WAVE evaluation of one million home pages from the Tranco ranking, data from February 2026; the same survey counts 33.1 percent of all form fields as unlabelled). https://webaim.org/projects/million/ · via https://robert-haase.de/en/evidence.html#leere-buttons"
     },
     {
       "@type": "Claim",
@@ -844,7 +844,7 @@
           "url": "https://arxiv.org/abs/2607.12056"
         }
       ],
-      "citationText": "In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original. (Elnaffar and Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 runs across three models · July 2026). https://arxiv.org/abs/2607.12056"
+      "citationText": "In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original. (Elnaffar and Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 runs across three models · July 2026). https://arxiv.org/abs/2607.12056 · via https://robert-haase.de/en/evidence.html#agent-ready"
     },
     {
       "@type": "Claim",
@@ -871,7 +871,7 @@
           "url": "https://arxiv.org/abs/2602.09310"
         }
       ],
-      "citationText": "The widely cited drop in agent success from 78 to 42 percent comes from a study that changed no website at all. (A11y-CUA, arXiv 2602.09310, presented at CHI 2026 · February 2026). https://arxiv.org/abs/2602.09310"
+      "citationText": "The widely cited drop in agent success from 78 to 42 percent comes from a study that changed no website at all. (A11y-CUA, arXiv 2602.09310, presented at CHI 2026 · February 2026). https://arxiv.org/abs/2602.09310 · via https://robert-haase.de/en/evidence.html#a11y-cua"
     },
     {
       "@type": "Claim",
@@ -898,7 +898,7 @@
           "url": "https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test"
         }
       ],
-      "citationText": "Seven widely used US AI assistants execute no JavaScript on a user-triggered fetch and read only the raw HTML. Five others do execute it. (Search Engine World, 12 assistants compared · June 2026 · earlier test: searchVIU, December 2025). https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test"
+      "citationText": "Seven widely used US AI assistants execute no JavaScript on a user-triggered fetch and read only the raw HTML. Five others do execute it. (Search Engine World, 12 assistants compared · June 2026 · earlier test: searchVIU, December 2025). https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test · via https://robert-haase.de/en/evidence.html#javascript"
     },
     {
       "@type": "Claim",
@@ -929,7 +929,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0"
         }
       ],
-      "citationText": "Since version 13.3.0 of 7 May 2026, Lighthouse ships an \"Agentic Browsing\" category in its default configuration. (Lighthouse release 13.3.0 of 7 May 2026, category in the default config · Google’s documentation). https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0"
+      "citationText": "Since version 13.3.0 of 7 May 2026, Lighthouse ships an \"Agentic Browsing\" category in its default configuration. (Lighthouse release 13.3.0 of 7 May 2026, category in the default config · Google’s documentation). https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0 · via https://robert-haase.de/en/evidence.html#lighthouse"
     },
     {
       "@type": "Claim",
@@ -956,7 +956,7 @@
           "url": "https://web.dev/articles/ai-agent-site-ux"
         }
       ],
-      "citationText": "Google names three ways agents perceive a page: screenshots, raw HTML, and the accessibility tree. Modern agents combine them. (Google, Build agent-friendly websites (web.dev) · as of 1 April 2026). https://web.dev/articles/ai-agent-site-ux"
+      "citationText": "Google names three ways agents perceive a page: screenshots, raw HTML, and the accessibility tree. Modern agents combine them. (Google, Build agent-friendly websites (web.dev) · as of 1 April 2026). https://web.dev/articles/ai-agent-site-ux · via https://robert-haase.de/en/evidence.html#a11y-tree"
     },
     {
       "@type": "Claim",
@@ -983,7 +983,7 @@
           "url": "https://astryx.atmeta.com/blog/introducing-astryx"
         }
       ],
-      "citationText": "Meta open-sourced its design system in June 2026, after eight years of internal growth, and justifies how it is built expressly by agents: design systems were historically made for human consumption, and as more code is written by agents, their structure has to be rethought. The system is operated from the command line or over MCP. (Astryx by Meta, “Introducing Astryx”, 18 June 2026, and “Who needs a Figma Library?”, 5 August 2026 · repository under MIT licence). https://astryx.atmeta.com/blog/introducing-astryx"
+      "citationText": "Meta open-sourced its design system in June 2026, after eight years of internal growth, and justifies how it is built expressly by agents: design systems were historically made for human consumption, and as more code is written by agents, their structure has to be rethought. The system is operated from the command line or over MCP. (Astryx by Meta, “Introducing Astryx”, 18 June 2026, and “Who needs a Figma Library?”, 5 August 2026 · repository under MIT licence). https://astryx.atmeta.com/blog/introducing-astryx · via https://robert-haase.de/en/evidence.html#astryx-agenten"
     },
     {
       "@type": "Claim",
@@ -1010,7 +1010,7 @@
           "url": "https://state-of-ai-in-design-systems.netlify.app/"
         }
       ],
-      "citationText": "Of 21 open-source design systems surveyed, 18 ship a first-party MCP server, 18 official agent skills and 15 an llms.txt. The survey sums it up: “Nobody is still arguing about whether to ship a machine interface.” (Kaelig Deloumeau-Prigent, 21 open-source design systems, data collected 26 to 28 July 2026 according to the site, list extended since · report 1 September 2026 · CC BY 4.0 · the narrower figures sit in the essay section of the site · retrieved 17 September 2026). https://state-of-ai-in-design-systems.netlify.app/"
+      "citationText": "Of 21 open-source design systems surveyed, 18 ship a first-party MCP server, 18 official agent skills and 15 an llms.txt. The survey sums it up: “Nobody is still arguing about whether to ship a machine interface.” (Kaelig Deloumeau-Prigent, 21 open-source design systems, data collected 26 to 28 July 2026 according to the site, list extended since · report 1 September 2026 · CC BY 4.0 · the narrower figures sit in the essay section of the site · retrieved 17 September 2026). https://state-of-ai-in-design-systems.netlify.app/ · via https://robert-haase.de/en/evidence.html#designsysteme-maschinenschnittstelle"
     },
     {
       "@type": "Claim",
@@ -1018,7 +1018,7 @@
       "text": "GitLab keeps brand voice, naming rules, trademark guidelines, values and mission as Markdown files in a public repository. Every change carries a date, a real name and a written justification. One example: on 22 May 2025 the three brand personality traits were rewritten, in a single commit of four inserted and five deleted lines, filed by Senior Brand Manager Betsy Bula, justified by aligning the definitions with current communication and the FY26 company plan.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "GitLab Handbook, public repository gitlab-com/content-sites/handbook, checked 10 September 2026 · brand voice with the three traits in content/handbook/marketing/brand-experience/content-style-guide.md, naming rules in naming.md, trademark guidelines in trademark-guidelines.md, values in content/handbook/values/_index.md, mission in content/handbook/company/mission.md · commit e692ba4b of 22 May 2025, 17:11 UTC, merge request 13766 · diverging version of the same traits in the design system repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md ()",
+        "name": "GitLab Handbook, public repository gitlab-com/content-sites/handbook, checked 10 September 2026 · brand voice with the three traits in content/handbook/marketing/brand-experience/content-style-guide.md, naming rules in naming.md, trademark guidelines in trademark-guidelines.md, values in content/handbook/values/_index.md, mission in content/handbook/company/mission.md · commit e692ba4b of 22 May 2025, 17:11 UTC, merge request 13766 · diverging version of the same traits in the design system repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md",
         "url": "https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1"
       },
       "disambiguatingDescription": "The form is established, the effect is not: that brand rules sit version-controlled and in the open is shown. Whether language models describe GitLab more accurately because of it is measured nowhere. It is also a single company, and a software vendor for which a public repository is the house style anyway. Nobody reviewed it: merge request 13766 came from the same person and was merged by her, without a comment, just under 16 minutes later. Two versions stand side by side: the official brand guidelines are not in the handbook but on design.gitlab.com, and there the same three traits still carry the wording from before 22 May 2025, last changed in substance on 20 December 2024. The contradiction has stood for more than fifteen months. A version history produces traceability, not agreement. The opening also runs backwards: the vision moved into the internal handbook on 10 February 2025, the strategy page disappeared on 17 July 2025. Positioning in the marketing sense is still public there, one message house per use case with a row of its own, “Positioning Statement”. Every file has its own beginning: repository 23 January 2023, values 2 May 2023, trademark guidelines 16 November 2023, brand voice 21 December 2023, naming rules only 6 February 2025. Dating the case by the age of the repository is off by up to two years.",
@@ -1041,7 +1041,7 @@
           "url": "https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1"
         }
       ],
-      "citationText": "GitLab keeps brand voice, naming rules, trademark guidelines, values and mission as Markdown files in a public repository. Every change carries a date, a real name and a written justification. One example: on 22 May 2025 the three brand personality traits were rewritten, in a single commit of four inserted and five deleted lines, filed by Senior Brand Manager Betsy Bula, justified by aligning the definitions with current communication and the FY26 company plan. (GitLab Handbook, public repository gitlab-com/content-sites/handbook, checked 10 September 2026 · brand voice with the three traits in content/handbook/marketing/brand-experience/content-style-guide.md, naming rules in naming.md, trademark guidelines in trademark-guidelines.md, values in content/handbook/values/_index.md, mission in content/handbook/company/mission.md · commit e692ba4b of 22 May 2025, 17:11 UTC, merge request 13766 · diverging version of the same traits in the design system repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md (design system repository)). https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1"
+      "citationText": "GitLab keeps brand voice, naming rules, trademark guidelines, values and mission as Markdown files in a public repository. Every change carries a date, a real name and a written justification. One example: on 22 May 2025 the three brand personality traits were rewritten, in a single commit of four inserted and five deleted lines, filed by Senior Brand Manager Betsy Bula, justified by aligning the definitions with current communication and the FY26 company plan. (GitLab Handbook, public repository gitlab-com/content-sites/handbook, checked 10 September 2026 · brand voice with the three traits in content/handbook/marketing/brand-experience/content-style-guide.md, naming rules in naming.md, trademark guidelines in trademark-guidelines.md, values in content/handbook/values/_index.md, mission in content/handbook/company/mission.md · commit e692ba4b of 22 May 2025, 17:11 UTC, merge request 13766 · diverging version of the same traits in the design system repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md (design system repository)). https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1 · via https://robert-haase.de/en/evidence.html#gitlab-markenrepo"
     },
     {
       "@type": "Claim",
@@ -1049,7 +1049,7 @@
       "text": "A common standard for how websites permit or refuse AI use of their content still does not exist.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "IETF, AI Preferences working group (aipref), state “Active” · draft-ietf-aipref-vocab-07 and draft-ietf-aipref-attach-05, both of 19 August 2026, IESG state “I-D Exists”, WG state “WG Document”, intended status Proposed Standard, no RFC · milestones for both blocks moved on 23 September 2025 from August 2025 to 31 August 2026 and unchanged since () · full text of the vocabulary draft with the consensus note () · checked 10 September 2026",
+        "name": "IETF, AI Preferences working group (aipref), state “Active” · draft-ietf-aipref-vocab-07 and draft-ietf-aipref-attach-05, both of 19 August 2026, IESG state “I-D Exists”, WG state “WG Document”, intended status Proposed Standard, no RFC · milestones for both blocks moved on 23 September 2025 from August 2025 to 31 August 2026 and unchanged since · full text of the vocabulary draft with the consensus note · checked 10 September 2026",
         "url": "https://datatracker.ietf.org/wg/aipref/about/"
       },
       "disambiguatingDescription": "How far the work has come: The IETF working group AIPREF is developing two building blocks, a vocabulary and an attachment mechanism. On 10 September 2026 both are in IESG state “I-D Exists”, so not yet submitted, no RFC. From 4 September to 3 November 2025 they were in working group last call and returned to “WG Document”. Since April 2026 the vocabulary draft carries a note that its content does not reflect working group consensus, and marks two of its sections as not yet agreed; the attachment draft carries no such note. The group has missed its own schedule twice: due in August 2025, moved on 23 September 2025 to 31 August 2026, and that date too passed without submission and has not been re-dated. What this entry does not say: whether such a standard is coming or when, and how well today’s workarounds hold, robots.txt and vendor-specific tokens. It measures the state at the IETF, not at other bodies or vendors. Eight further individual drafts on the same subject sit with the working group, none adopted. The Datatracker lists 18 August 2026 because it renders US Pacific time; the drafts themselves are dated 19 August 2026.",
@@ -1076,7 +1076,7 @@
           "url": "https://datatracker.ietf.org/wg/aipref/about/"
         }
       ],
-      "citationText": "A common standard for how websites permit or refuse AI use of their content still does not exist. (IETF working group AIPREF; both drafts of 19 August 2026 in state I-D Exists, no RFC, the 31 August 2026 milestone passed unmet; checked 10 September 2026). https://datatracker.ietf.org/wg/aipref/about/"
+      "citationText": "A common standard for how websites permit or refuse AI use of their content still does not exist. (IETF working group AIPREF; both drafts of 19 August 2026 in state I-D Exists, no RFC, the 31 August 2026 milestone passed unmet; checked 10 September 2026). https://datatracker.ietf.org/wg/aipref/about/ · via https://robert-haase.de/en/evidence.html#aipref"
     },
     {
       "@type": "Claim",
@@ -1103,7 +1103,7 @@
           "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
         }
       ],
-      "citationText": "Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source. (Forrester, analysis of the instant checkout rollback · 7 March 2026 (launch: 29 September 2025)). https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
+      "citationText": "Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source. (Forrester, analysis of the instant checkout rollback · 7 March 2026 (launch: 29 September 2025)). https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/ · via https://robert-haase.de/en/evidence.html#checkout-rueckbau"
     },
     {
       "@type": "Claim",
@@ -1130,7 +1130,7 @@
           "url": "https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/"
         }
       ],
-      "citationText": "In a flight-search test, language models went to the airline’s own website directly in only about five percent of cases. They preferred booking portals. (Bain & Company, test across three carriers, three language models, and 60 prompts · 16 March 2026). https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/"
+      "citationText": "In a flight-search test, language models went to the airline’s own website directly in only about five percent of cases. They preferred booking portals. (Bain & Company, test across three carriers, three language models, and 60 prompts · 16 March 2026). https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/ · via https://robert-haase.de/en/evidence.html#airline-direktkanal"
     },
     {
       "@type": "Claim",
@@ -1157,7 +1157,7 @@
           "url": "https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html"
         }
       ],
-      "citationText": "Walmart has supplier negotiations run by an AI system: 2,000 negotiations at once, around three percent average savings, and three out of four suppliers preferring to negotiate with the machine over a person. (Pactum figures via Bloomberg, April 2023 · closing rate: Harvard Business Review, November 2022). https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html"
+      "citationText": "Walmart has supplier negotiations run by an AI system: 2,000 negotiations at once, around three percent average savings, and three out of four suppliers preferring to negotiate with the machine over a person. (Pactum figures via Bloomberg, April 2023 · closing rate: Harvard Business Review, November 2022). https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html · via https://robert-haase.de/en/evidence.html#walmart-verhandlung"
     },
     {
       "@type": "Claim",
@@ -1184,7 +1184,7 @@
           "url": "https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/"
         }
       ],
-      "citationText": "30 to 45 percent of US consumers use generative AI for product research and comparison. 17 percent said they would begin their holiday shopping on an AI platform. (Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent). https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/"
+      "citationText": "30 to 45 percent of US consumers use generative AI for product research and comparison. 17 percent said they would begin their holiday shopping on an AI platform. (Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent). https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/ · via https://robert-haase.de/en/evidence.html#journey-start"
     },
     {
       "@type": "Claim",
@@ -1211,7 +1211,7 @@
           "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
         }
       ],
-      "citationText": "Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies. (Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026). https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
+      "citationText": "Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies. (Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026). https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions · via https://robert-haase.de/en/evidence.html#kaufentscheidung"
     },
     {
       "@type": "Claim",
@@ -1242,7 +1242,7 @@
           "url": "https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/"
         }
       ],
-      "citationText": "Air Canada is liable for what its chatbot promised. The defence that the bot was responsible for its own actions was called \"a remarkable submission\" by the decision-maker. (Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal of British Columbia · 14 February 2024 · full decision). https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/"
+      "citationText": "Air Canada is liable for what its chatbot promised. The defence that the bot was responsible for its own actions was called \"a remarkable submission\" by the decision-maker. (Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal of British Columbia · 14 February 2024 · full decision). https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/ · via https://robert-haase.de/en/evidence.html#air-canada"
     },
     {
       "@type": "Claim",
@@ -1273,7 +1273,7 @@
           "url": "https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/"
         }
       ],
-      "citationText": "Cursor’s support agent invented a usage rule that never existed and replied under the name \"Sam\". (The Register, 18 April 2025 (invented rule, apology) · Fortune, 19 April 2025 (the name \"Sam\", cancellations)). https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/"
+      "citationText": "Cursor’s support agent invented a usage rule that never existed and replied under the name \"Sam\". (The Register, 18 April 2025 (invented rule, apology) · Fortune, 19 April 2025 (the name \"Sam\", cancellations)). https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/ · via https://robert-haase.de/en/evidence.html#cursor-bot"
     },
     {
       "@type": "Claim",
@@ -1304,7 +1304,7 @@
           "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
         }
       ],
-      "citationText": "The EU AI Act transparency obligations for chatbots and for AI-generated content have applied since 2 August 2026. Generative systems placed on the market before that date have until 2 December 2026 to add machine-readable marking. The high-risk obligations were postponed to 2 December 2027 and 2 August 2028. (Regulation (EU) 2024/1689, Articles 50 and 113, amended by Regulation (EU) 2026/1744 of 8 July 2026). https://robert-haase.de/en/evidence.html#ai-act"
+      "citationText": "The EU AI Act transparency obligations for chatbots and for AI-generated content have applied since 2 August 2026. Generative systems placed on the market before that date have until 2 December 2026 to add machine-readable marking. The high-risk obligations were postponed to 2 December 2027 and 2 August 2028. (Regulation (EU) 2024/1689, Articles 50 and 113, amended by Regulation (EU) 2026/1744 of 8 July 2026). https://eur-lex.europa.eu/eli/reg/2024/1689/oj · via https://robert-haase.de/en/evidence.html#ai-act"
     },
     {
       "@type": "Claim",
@@ -1335,7 +1335,7 @@
           "url": "https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html"
         }
       ],
-      "citationText": "A German higher regional court has ruled, with the judgment now final, that a company is directly liable for the misleading statements of its own AI chatbot. The chatbot is not a third party in the sense of the law. (Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25, Verbraucherzentrale NRW v. Aesthetify GmbH · final since 21 June 2026). https://robert-haase.de/en/evidence.html#olg-hamm"
+      "citationText": "A German higher regional court has ruled, with the judgment now final, that a company is directly liable for the misleading statements of its own AI chatbot. The chatbot is not a third party in the sense of the law. (Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25, Verbraucherzentrale NRW v. Aesthetify GmbH · final since 21 June 2026). https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html · via https://robert-haase.de/en/evidence.html#olg-hamm"
     },
     {
       "@type": "Claim",
@@ -1362,7 +1362,7 @@
           "url": "https://www.gartner.com/en/experts/think-again-series/machine-customers"
         }
       ],
-      "citationText": "In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. (Gartner, CEO survey, cited in the Think Again series · archive snapshot July 2026). https://www.gartner.com/en/experts/think-again-series/machine-customers"
+      "citationText": "In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. (Gartner, CEO survey, cited in the Think Again series · archive snapshot July 2026). https://www.gartner.com/en/experts/think-again-series/machine-customers · via https://robert-haase.de/en/evidence.html#machine-customers"
     },
     {
       "@type": "Claim",
@@ -1389,7 +1389,7 @@
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
         }
       ],
-      "citationText": "The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode. (Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026). https://blog.google/products-and-platforms/products/search/search-io-2026/"
+      "citationText": "The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode. (Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026). https://blog.google/products-and-platforms/products/search/search-io-2026/ · via https://robert-haase.de/en/evidence.html#marktgroesse"
     },
     {
       "@type": "Claim",
@@ -1416,7 +1416,7 @@
           "url": "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html"
         }
       ],
-      "citationText": "26 percent of German companies with ten or more employees used AI technologies in 2025. Among large companies with 250 or more employees it is 57 percent, among small ones 23 percent. (German Federal Statistical Office, ICT usage survey, companies with 10 or more employees · November 2025). https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html"
+      "citationText": "26 percent of German companies with ten or more employees used AI technologies in 2025. Among large companies with 250 or more employees it is 57 percent, among small ones 23 percent. (German Federal Statistical Office, ICT usage survey, companies with 10 or more employees · November 2025). https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html · via https://robert-haase.de/en/evidence.html#ki-nutzung-deutschland"
     },
     {
       "@type": "Claim",
@@ -1502,7 +1502,7 @@
         "name": "Own measurement, 30 August 2026 · 160 home pages from DAX, MDAX and SDAX requested, 135 evaluable, selection and address from Wikidata · Chrome’s own accessibility tree, counting non-ignored nodes of role “image” without a name · breakdown by element type capped at 80 nodes per page · two runs, 135 of 136 pages with identical results",
         "url": "https://robert-haase.de/en/evidence.html#dax-bilder"
       },
-      "disambiguatingDescription": "What the number does not say: only images Chrome exposes in the accessibility tree are counted, ones correctly marked as decorative are absent from numerator and denominator alike. On a test page with six images only four appeared and the rate came out at 50 percent, although two of six were faulty: marking up cleanly shrinks your own denominator. About the share of all images on a page the rate says nothing. The split names the element type, not the purpose: a linked corporate logo that would need a name and an ornamental icon sit in the same 86 percent, and the share of cases with an actual consequence lies between the 13 percent and an unknown higher value. Two further limits: the base of the 86 and 13 percent is the inspected subset, capped at 80 nodes per page, not the 1,662; whether it bound can no longer be established, the raw data were not kept, and an average of 12.3 unnamed images per page argues against it; and the two shares come to 99 rather than 100 percent because the tool knows exactly two element types. And 1,662 out of 3,979 is a sum across all pages without a median or a split by index: the median for interactive elements stands at 1.0 percent, far below the pooled rate of 3.4 percent, where a few outliers carry it; whether the same holds for images is open. A linked logo without a name also counts as an unnamed interactive element, so the two figures must not be added. This measurement has no independent replication, nor do the three other own ones.",
+      "disambiguatingDescription": "What the number does not say: only images Chrome exposes in the accessibility tree are counted, ones correctly marked as decorative are absent from numerator and denominator alike. On a test page with six images only four appeared and the rate came out at 50 percent, although two of six were faulty: marking up cleanly shrinks your own denominator. About the share of all images on a page the rate says nothing. The split names the element type, not the purpose: a linked corporate logo that would need a name and an ornamental icon sit in the same 86 percent, and the share of cases with an actual consequence lies between the 13 percent and an unknown higher value. Two further limits: the base of the 86 and 13 percent is the inspected subset, capped at 80 nodes per page, not the 1,662; whether it bound can no longer be established, the raw data were not kept, and an average of 12.3 unnamed images per page argues against it; and the two shares come to 99 rather than 100 percent because the tool knows exactly two element types. And 1,662 out of 3,979 is a sum across all pages without a median or a split by index: the median for interactive elements stands at 1.0 percent, far below the pooled rate of 3.4 percent, where a few outliers carry it; whether the same holds for images is open. A linked logo without a name also counts as an unnamed interactive element, so the two figures must not be added. This measurement has no independent replication, nor do the three other own DAX measurements.",
       "author": {
         "@id": "https://robert-haase.de/#person"
       },
@@ -1597,7 +1597,7 @@
           "url": "https://arxiv.org/abs/2504.01382"
         }
       ],
-      "citationText": "Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in ten months. When the benchmark was first evaluated in October 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely. (Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites). https://robert-haase.de/en/evidence.html#agenten-erfolg"
+      "citationText": "Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in ten months. When the benchmark was first evaluated in October 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely. (Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites). https://arxiv.org/abs/2504.01382 · via https://robert-haase.de/en/evidence.html#agenten-erfolg"
     },
     {
       "@type": "Claim",
@@ -1624,7 +1624,7 @@
           "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
         }
       ],
-      "citationText": "Cloudflare reports that in 2026, for the first time, more than half of Internet traffic is not human. Better quantified in the same report: 52 percent of crawler requests served AI model training in June 2026, up from 22 percent in spring 2025. (Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026). https://robert-haase.de/en/evidence.html#nicht-menschlicher-verkehr"
+      "citationText": "Cloudflare reports that in 2026, for the first time, more than half of Internet traffic is not human. Better quantified in the same report: 52 percent of crawler requests served AI model training in June 2026, up from 22 percent in spring 2025. (Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026). https://blog.cloudflare.com/agentic-internet-bot-report/ · via https://robert-haase.de/en/evidence.html#nicht-menschlicher-verkehr"
     },
     {
       "@type": "Claim",
@@ -1655,7 +1655,7 @@
           "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
         }
       ],
-      "citationText": "The Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they include Amazon, Meta, Microsoft, Stripe and Salesforce alongside Google, Shopify, Etsy, Target and Wayfair. How many merchants actually run the protocol is stated by none of the companies involved. Google names example merchants — Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden — attached to the word “soon”. (Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure). https://robert-haase.de/en/evidence.html#ucp-gremium-ohne-zahlen"
+      "citationText": "The Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they include Amazon, Meta, Microsoft, Stripe and Salesforce alongside Google, Shopify, Etsy, Target and Wayfair. How many merchants actually run the protocol is stated by none of the companies involved. Google names example merchants — Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden — attached to the word “soon”. (Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure). https://github.com/Universal-Commerce-Protocol/ucp/discussions/379 · via https://robert-haase.de/en/evidence.html#ucp-gremium-ohne-zahlen"
     },
     {
       "@type": "Claim",
@@ -1663,7 +1663,7 @@
       "text": "The new EU Product Liability Directive counts software explicitly among products in Article 4. Under Article 10 a court shall presume defectiveness where proving it is “excessively difficult” for the claimant “in particular due to technical or scientific complexity” and they show only that it is likely. The same presumption applies where the defendant fails to disclose evidence it has been ordered to produce. The directive must be transposed by 9 December 2026.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 10 September 2026: Bundestag printed paper 21/4297 of 25 February 2026 (), verbatim record 21/31 of the committee on legal affairs and consumer protection for the public hearing of 13 April 2026, legislative file BR-Drs. 775/25 and the agendas of Bundesrat sittings 1061 to 1068 (), Federal Ministry of Justice procedure page with status “Entwurf” and last update 5 March 2026",
+        "name": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 10 September 2026: Bundestag printed paper 21/4297 of 25 February 2026, verbatim record 21/31 of the committee on legal affairs and consumer protection for the public hearing of 13 April 2026, legislative file BR-Drs. 775/25 and the agendas of Bundesrat sittings 1061 to 1068, Federal Ministry of Justice procedure page with status “Entwurf” and last update 5 March 2026",
         "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
       },
       "disambiguatingDescription": "It does not apply yet: the directive has no direct effect and covers only products placed on the market after 9 December 2026. Article 21 repeals the old Directive 85/374/EEC on the same date but keeps it in force for products placed on the market earlier. And it does not reverse the burden of proof: Article 10(4) applies only “notwithstanding the disclosure of evidence pursuant to Article 9”, and under Article 10(5) the defendant may rebut every presumption. That is an evidential disadvantage, not strict liability. There can be no case law on “excessively difficult” yet, because the rule applies to no product. On the calendar, as of 10 September 2026: three months before the deadline, Germany has not cleared parliament. The government bill has been before the Bundestag as printed paper 21/4297 since 25 February 2026, first reading 4 March, expert hearing 13 April, no evidenced step after that; it appears on no Bundesrat agenda after 30 January 2026, including the draft agenda for 25 September. Entry into force under the bill: 9 December 2026. Limit of our own check: the Bundestag’s information interface requires a key; it ran instead through the agendas of the Bundesrat, which every adopted statute must pass. A decision taken in the sitting week of 8 to 11 September would not be visible there.",
@@ -1690,7 +1690,7 @@
           "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
         }
       ],
-      "citationText": "The new EU Product Liability Directive counts software explicitly among products in Article 4. Under Article 10 a court shall presume defectiveness where proving it is “excessively difficult” for the claimant “in particular due to technical or scientific complexity” and they show only that it is likely. The same presumption applies where the defendant fails to disclose evidence it has been ordered to produce. The directive must be transposed by 9 December 2026. (Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 10 September 2026: Bundestag printed paper 21/4297 of 25 February 2026 (printed paper), verbatim record 21/31 of the committee on legal affairs and consumer protection for the public hearing of 13 April 2026, legislative file BR-Drs. 775/25 and the agendas of Bundesrat sittings 1061 to 1068 (legislative file), Federal Ministry of Justice procedure page with status “Entwurf” and last update 5 March 2026). https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
+      "citationText": "The new EU Product Liability Directive counts software explicitly among products in Article 4. Under Article 10 a court shall presume defectiveness where proving it is “excessively difficult” for the claimant “in particular due to technical or scientific complexity” and they show only that it is likely. The same presumption applies where the defendant fails to disclose evidence it has been ordered to produce. The directive must be transposed by 9 December 2026. (Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 10 September 2026: Bundestag printed paper 21/4297 of 25 February 2026 (printed paper), verbatim record 21/31 of the committee on legal affairs and consumer protection for the public hearing of 13 April 2026, legislative file BR-Drs. 775/25 and the agendas of Bundesrat sittings 1061 to 1068 (legislative file), Federal Ministry of Justice procedure page with status “Entwurf” and last update 5 March 2026). https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu · via https://robert-haase.de/en/evidence.html#produkthaftung-komplexitaet"
     },
     {
       "@type": "Claim",
@@ -1717,7 +1717,7 @@
           "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860"
         }
       ],
-      "citationText": "A German regional court granted an injunction barring Google from spreading eight claims about a publishing house and seven about a company belonging to it in its AI Overview; it treated the AI Overviews as Google’s own attributable content rather than mere search results and denied the liability exemptions for hosting providers and search engines. (Regional Court Munich I, judgment of 28 May 2026, case 26 O 869/26, ended by settlement after appeal and therefore void). https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860"
+      "citationText": "A German regional court granted an injunction barring Google from spreading eight claims about a publishing house and seven about a company belonging to it in its AI Overview; it treated the AI Overviews as Google’s own attributable content rather than mere search results and denied the liability exemptions for hosting providers and search engines. (Regional Court Munich I, judgment of 28 May 2026, case 26 O 869/26, ended by settlement after appeal and therefore void). https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860 · via https://robert-haase.de/en/evidence.html#ai-overview-muenchen"
     },
     {
       "@type": "Claim",
@@ -1744,7 +1744,7 @@
           "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
         }
       ],
-      "citationText": "For processing on behalf of a controller, the General Data Protection Regulation requires a contract or other legal act stipulating that the processor processes personal data only on documented instructions from the controller (Art. 28(3)(a)); Art. 29 binds directly, and the controller must be able to demonstrate compliance (Art. 24(1)). Art. 28(10) sets the tipping point: a processor that infringes the Regulation by determining the purposes and means of processing is considered a controller in respect of that processing. (Regulation (EU) 2016/679, General Data Protection Regulation, Art. 28(3)(a), Art. 29, Art. 24(1) and Art. 28(10) · Official Journal L 119 of 4 May 2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+      "citationText": "For processing on behalf of a controller, the General Data Protection Regulation requires a contract or other legal act stipulating that the processor processes personal data only on documented instructions from the controller (Art. 28(3)(a)); Art. 29 binds directly, and the controller must be able to demonstrate compliance (Art. 24(1)). Art. 28(10) sets the tipping point: a processor that infringes the Regulation by determining the purposes and means of processing is considered a controller in respect of that processing. (Regulation (EU) 2016/679, General Data Protection Regulation, Art. 28(3)(a), Art. 29, Art. 24(1) and Art. 28(10) · Official Journal L 119 of 4 May 2016). https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng · via https://robert-haase.de/en/evidence.html#auftragsverarbeitung-weisung"
     },
     {
       "@type": "Claim",
@@ -1771,7 +1771,7 @@
           "url": "https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/"
         }
       ],
-      "citationText": "The ChatGPT-powered chatbot of a Chevrolet dealer agreed to sell a new Tahoe for one dollar and called it a legally binding offer with no take-backs. The user had dictated that exact formula to the chatbot earlier in the same conversation. The chatbot went offline shortly afterwards. No source reports an attempt to enforce the offer. (GM Authority, Jonathan Lopez, 18 December 2023 · Business Insider, Katie Notopoulos, 18 December 2023). https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/"
+      "citationText": "The ChatGPT-powered chatbot of a Chevrolet dealer agreed to sell a new Tahoe for one dollar and called it a legally binding offer with no take-backs. The user had dictated that exact formula to the chatbot earlier in the same conversation. The chatbot went offline shortly afterwards. No source reports an attempt to enforce the offer. (GM Authority, Jonathan Lopez, 18 December 2023 · Business Insider, Katie Notopoulos, 18 December 2023). https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/ · via https://robert-haase.de/en/evidence.html#chevrolet-dollar"
     },
     {
       "@type": "Claim",
@@ -1798,7 +1798,7 @@
           "url": "https://www.bbc.com/news/technology-68025677"
         }
       ],
-      "citationText": "DPD’s chatbot called its own company the worst delivery firm in the world after a customer told it to recommend better delivery firms and to be over the top in its hatred. DPD said the AI element had been disabled immediately. (Tom Gerken, BBC News · 19 January 2024). https://www.bbc.com/news/technology-68025677"
+      "citationText": "DPD’s chatbot called its own company the worst delivery firm in the world after a customer told it to recommend better delivery firms and to be over the top in its hatred. DPD said the AI element had been disabled immediately. (Tom Gerken, BBC News · 19 January 2024). https://www.bbc.com/news/technology-68025677 · via https://robert-haase.de/en/evidence.html#dpd-chatbot"
     },
     {
       "@type": "Claim",
@@ -1829,7 +1829,7 @@
           "url": "https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law"
         }
       ],
-      "citationText": "New York City’s official MyCity chatbot told businesses to do things that are illegal in the city: go cash-free, take a cut of employees’ tips, and turn away tenants with housing vouchers. Ten members of the newsroom asked the same question and all ten got the same wrong answer. (Colin Lecher, The Markup, copublished with Documented and THE CITY, March 29, 2024). https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law"
+      "citationText": "New York City’s official MyCity chatbot told businesses to do things that are illegal in the city: go cash-free, take a cut of employees’ tips, and turn away tenants with housing vouchers. Ten members of the newsroom asked the same question and all ten got the same wrong answer. (Colin Lecher, The Markup, copublished with Documented and THE CITY, March 29, 2024). https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law · via https://robert-haase.de/en/evidence.html#nyc-mycity"
     },
     {
       "@type": "Claim",
@@ -1856,7 +1856,7 @@
           "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
         }
       ],
-      "citationText": "A US federal appeals court vacated the preliminary injunction against Perplexity on 4 August 2026 and remanded the case. When someone runs a shopping agent, it is the user who accesses the third-party website under the Computer Fraud and Abuse Act, the agent is the user’s tool and the provider does not access anything itself, as long as the agent runs in the user’s browser and the provider’s servers never call the site themselves. (Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, decided 4 August 2026, FOR PUBLICATION · rehearing en banc petitioned 18 August 2026, undecided as of the RECAP docket mirror of 21 August 2026). https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
+      "citationText": "A US federal appeals court vacated the preliminary injunction against Perplexity on 4 August 2026 and remanded the case. When someone runs a shopping agent, it is the user who accesses the third-party website under the Computer Fraud and Abuse Act, the agent is the user’s tool and the provider does not access anything itself, as long as the agent runs in the user’s browser and the provider’s servers never call the site themselves. (Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, decided 4 August 2026, FOR PUBLICATION · rehearing en banc petitioned 18 August 2026, undecided as of the RECAP docket mirror of 21 August 2026). https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf · via https://robert-haase.de/en/evidence.html#perplexity-cfaa"
     },
     {
       "@type": "Claim",
@@ -1883,7 +1883,7 @@
           "url": "https://opensource.contentauthenticity.org/docs/getting-started/faqs/"
         }
       ],
-      "citationText": "A screenshot does not carry the original’s C2PA provenance data, and a C2PA-enabled camera photographing an AI image signs that shot with no trace of its AI origin. (Content Authenticity Initiative (Adobe), developer documentation, FAQ, retrieved 10 September 2026). https://opensource.contentauthenticity.org/docs/getting-started/faqs/"
+      "citationText": "A screenshot does not carry the original’s C2PA provenance data, and a C2PA-enabled camera photographing an AI image signs that shot with no trace of its AI origin. (Content Authenticity Initiative (Adobe), developer documentation, FAQ, retrieved 10 September 2026). https://opensource.contentauthenticity.org/docs/getting-started/faqs/ · via https://robert-haase.de/en/evidence.html#screenshot-metadaten"
     },
     {
       "@type": "Claim",
@@ -1891,7 +1891,7 @@
       "text": "Frontify opens its brand portal through an MCP server it runs itself. On 17 September 2026 it lists 53 tools one by one in ten packs, graded from read-only to full administrative access; on 10 September it was 54. The read-only Discovery pack holds 24 tools, the Admin pack all 53, two of them flagged as destructive.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Frontify, MCP server overview and pack pages (/mcp/packs/admin and /mcp/packs/discovery), tools listed individually and counted, 53 and 24 entries respectively with unique names on 17 September 2026 (54 and 24 on 10 September) · repository with the table of ten packs, MIT licence () · help centre “Frontify MCP” (titled Beta until early September), as of 17 September 2026, gives 52 tools and 25 for Discovery and states that account admins enable the server at no additional cost () · guide “Choosing a DAM for the AI era”, published 22 May 2026, last changed 30 July 2026, also gives 52 ()",
+        "name": "Frontify, MCP server overview and pack pages (/mcp/packs/admin and /mcp/packs/discovery), tools listed individually and counted, 53 and 24 entries respectively with unique names on 17 September 2026 (54 and 24 on 10 September) · repository with the table of ten packs, MIT licence · help centre “Frontify MCP” (titled Beta until early September), as of 17 September 2026, gives 52 tools and 25 for Discovery and states that account admins enable the server at no additional cost · guide “Choosing a DAM for the AI era”, published 22 May 2026, last changed 30 July 2026, also gives 52",
         "url": "https://mcp.frontify-integrations.com/"
       },
       "disambiguatingDescription": "What the number does not say: 53 is a snapshot, and it moves: 54 on 10 September 2026, 53 a week later. The help centre has dropped the beta label from its title since September 2026. The vendor’s documentation says 52 in two places and 25 rather than 24 for the read-only pack: anyone quoting 52 is quoting the documentation, not the counted system. None of the four Frontify sources gives a reason. The pack figures are overlapping subsets of the 53 and must not be added up. The Frontify guide’s headline announces the server with ten tools, meaning ten packs, off by more than fivefold. What this entry does not establish: what is established is a vendor’s own account of its own product, independently verified nowhere: the size of an interface, not its spread, its use, its effect or the quality of the brand rules it serves. No tool decides a claim, the packs read, write and administer. An access log is not evidenced: “Audit trail of AI interactions” is a selection criterion for buyers at Frontify, and the word audit does not appear in the repository, the server pages or the help centre. The server is not on by default. Since mid-September 2026 account admins switch it on themselves, at no additional cost and without customer support according to the help centre; on 10 September access still ran through customer support, free with pricing subject to change. Frontify is now also listed as an official connector in Claude’s directory. Frontify states that it does not control how the connected AI provider processes the data.",
@@ -1922,7 +1922,7 @@
           "url": "https://mcp.frontify-integrations.com/"
         }
       ],
-      "citationText": "Frontify opens its brand portal through an MCP server it runs itself, listing 53 tools in ten packs on 17 September 2026 (54 on 10 September), from read-only access to full administrative access. (Frontify, MCP server overview and pack pages, tools counted individually, retrieved 10 and 17 September 2026; the vendor documentation says 52). https://mcp.frontify-integrations.com/"
+      "citationText": "Frontify opens its brand portal through an MCP server it runs itself, listing 53 tools in ten packs on 17 September 2026 (54 on 10 September), from read-only access to full administrative access. (Frontify, MCP server overview and pack pages, tools counted individually, retrieved 10 and 17 September 2026; the vendor documentation says 52). https://mcp.frontify-integrations.com/ · via https://robert-haase.de/en/evidence.html#frontify-mcp"
     },
     {
       "@type": "Claim",
@@ -1930,7 +1930,7 @@
       "text": "Canva runs an official MCP server and documents 33 tools for it. 27 are available on every plan, among them creating and exporting designs. Four require at least Canva Pro, among them listing brand kits and using brand templates. Two are reserved for Enterprise: autofilling a template with data and reading the associated dataset. Every user authenticates individually, and an agent holds the permissions of the human signed in.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Canva, “MCP tools and rate limits”, tool catalogue with plan tiers and legend, 33 entries counted individually · Canva, “Canva Model Context Protocol (MCP)”, server address mcp.canva.com/mcp, authentication and plan overview () · both retrieved 10 September 2026",
+        "name": "Canva, “MCP tools and rate limits”, tool catalogue with plan tiers and legend, 33 entries counted individually · Canva, “Canva Model Context Protocol (MCP)”, server address mcp.canva.com/mcp, authentication and plan overview · both retrieved 10 September 2026",
         "url": "https://www.canva.dev/docs/mcp/tools/"
       },
       "disambiguatingDescription": "Where the plan boundary lies: the overview page appears to put the brand-related part on Enterprise; the tool list governs, and “Pro and above” there means Pro, Business and Enterprise. What this entry does not establish: a vendor’s own statements, with no independent check. It establishes the existence and scope of the interface, not its spread, its use or its effect. No tool checks a claim against brand rules; brand kits are read and filled in. Export runs on every plan, but free plans only at standard quality, and premium elements can make it fail on any plan with license_required. Shelf life: the 33 holds as of the retrieval date, and the documentation carries no version stamp. The server itself needs only a Canva account on any plan; your own integration needs clearance from Canva.",
@@ -1953,7 +1953,7 @@
           "url": "https://www.canva.dev/docs/mcp/tools/"
         }
       ],
-      "citationText": "Canva documents 33 tools for its official MCP server. Listing brand kits and using brand templates sits at Pro and above; Enterprise covers only autofilling a template and reading its dataset. (Canva, MCP tools and rate limits, 33 entries counted individually, retrieved 10 September 2026). https://www.canva.dev/docs/mcp/tools/"
+      "citationText": "Canva documents 33 tools for its official MCP server. Listing brand kits and using brand templates sits at Pro and above; Enterprise covers only autofilling a template and reading its dataset. (Canva, MCP tools and rate limits, 33 entries counted individually, retrieved 10 September 2026). https://www.canva.dev/docs/mcp/tools/ · via https://robert-haase.de/en/evidence.html#canva-mcp"
     },
     {
       "@type": "Claim",
@@ -1980,7 +1980,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm"
         }
       ],
-      "citationText": "Klarna’s most-quoted AI number is an estimate, not a headcount: 700 full-time agents in the press release of February 2024, over 700 in the IPO prospectus of September 2025, and in the annual report of February 2026 still over 700 in the business section and over 850 in the operating review of that same report. Meanwhile the number of full-time employees fell from approximately 5,527 at the end of 2022 to approximately 2,831 at the end of 2025. (Klarna Group plc, company statements in a press release, prospectus F-1/A and annual report 20-F filed with the SEC · 27 February 2024 to 26 February 2026). https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm"
+      "citationText": "Klarna’s most-quoted AI number is an estimate, not a headcount: 700 full-time agents in the press release of February 2024, over 700 in the IPO prospectus of September 2025, and in the annual report of February 2026 still over 700 in the business section and over 850 in the operating review of that same report. Meanwhile the number of full-time employees fell from approximately 5,527 at the end of 2022 to approximately 2,831 at the end of 2025. (Klarna Group plc, company statements in a press release, prospectus F-1/A and annual report 20-F filed with the SEC · 27 February 2024 to 26 February 2026). https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm · via https://robert-haase.de/en/evidence.html#klarna-700"
     },
     {
       "@type": "Claim",
@@ -2007,7 +2007,7 @@
           "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
         }
       ],
-      "citationText": "The Model Context Protocol defines three server building blocks, each with an intended controlling party: tools are invoked by the model, resources are steered by the application, prompt templates are selected by the user. All three chapters carry the same trailing clause, that the protocol mandates no specific user interaction model; in the tools chapter a SHOULD rule follows at once, a human should be able to deny a tool invocation. (Model Context Protocol, specification revision 2026-07-28, chapters Tools, Resources and Prompts · 10 September 2026). https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+      "citationText": "The Model Context Protocol defines three server building blocks, each with an intended controlling party: tools are invoked by the model, resources are steered by the application, prompt templates are selected by the user. All three chapters carry the same trailing clause, that the protocol mandates no specific user interaction model; in the tools chapter a SHOULD rule follows at once, a human should be able to deny a tool invocation. (Model Context Protocol, specification revision 2026-07-28, chapters Tools, Resources and Prompts · 10 September 2026). https://modelcontextprotocol.io/specification/2026-07-28/server/tools · via https://robert-haase.de/en/evidence.html#mcp-primitive"
     },
     {
       "@type": "Claim",
@@ -2038,7 +2038,7 @@
           "url": "https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks"
         }
       ],
-      "citationText": "Instructions hidden inside a tool description make an agent read the user’s private SSH key and pass it to a foreign server through a harmless-looking parameter; the confirmation dialog shows only the name of an addition tool. A benchmark built on 45 live MCP servers with 353 tools measures a 36.5 percent average attack success rate across 20 model settings, 72.8 percent at most. (Invariant Labs, two experiments with the client Cursor, 1 April 2025 · MCPTox, AAAI-26, Proceedings of the AAAI Conference on Artificial Intelligence 40(42), 14 March 2026, doi:10.1609/aaai.v40i42.40895, peer-reviewed). https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks"
+      "citationText": "Instructions hidden inside a tool description make an agent read the user’s private SSH key and pass it to a foreign server through a harmless-looking parameter; the confirmation dialog shows only the name of an addition tool. A benchmark built on 45 live MCP servers with 353 tools measures a 36.5 percent average attack success rate across 20 model settings, 72.8 percent at most. (Invariant Labs, two experiments with the client Cursor, 1 April 2025 · MCPTox, AAAI-26, Proceedings of the AAAI Conference on Artificial Intelligence 40(42), 14 March 2026, doi:10.1609/aaai.v40i42.40895, peer-reviewed). https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks · via https://robert-haase.de/en/evidence.html#mcp-tool-poisoning"
     },
     {
       "@type": "Claim",
@@ -2065,7 +2065,7 @@
           "url": "https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation"
         }
       ],
-      "citationText": "Monotype announced a beta of its Enterprise MCP Connector on 15 July 2026: it reviews fonts referenced in the AI tool against the production font list of the customer and flags unapproved ones, but by its own account does not replace brand, legal or production review. (Monotype Labs and press release, 15 July 2026 · product page retrieved 10 September 2026). https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation"
+      "citationText": "Monotype announced a beta of its Enterprise MCP Connector on 15 July 2026: it reviews fonts referenced in the AI tool against the production font list of the customer and flags unapproved ones, but by its own account does not replace brand, legal or production review. (Monotype Labs and press release, 15 July 2026 · product page retrieved 10 September 2026). https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation · via https://robert-haase.de/en/evidence.html#monotype-mcp"
     },
     {
       "@type": "Claim",
@@ -2092,7 +2092,7 @@
           "url": "https://brand.pulumi.com/mcp-server/"
         }
       ],
-      "citationText": "Pulumi publishes its own brand guidelines as an MCP server at brand.pulumi.com/mcp, reachable without a login on 10 and 17 September 2026, carrying 13 resources, one template, 11 tools and 3 prompts; one resource governs generative AI in plain language and requires a human before publication. (Own request to the server via JSON-RPC, version 0.1.0, 10 and 17 September 2026) https://brand.pulumi.com/mcp-server/"
+      "citationText": "Pulumi publishes its own brand guidelines as an MCP server at brand.pulumi.com/mcp, reachable without a login on 10 and 17 September 2026, carrying 13 resources, one template, 11 tools and 3 prompts; one resource governs generative AI in plain language and requires a human before publication. (Own request to the server via JSON-RPC, version 0.1.0, 10 and 17 September 2026) https://brand.pulumi.com/mcp-server/ · via https://robert-haase.de/en/evidence.html#pulumi-brand-mcp"
     },
     {
       "@type": "Claim",
@@ -2123,7 +2123,7 @@
           "url": "https://docs.platform.statista.ai/pricing/credit-logic"
         }
       ],
-      "citationText": "Statista meters every call to its MCP server individually in credits: a search costs 0 or 1 credit, retrieving the figures themselves 10 to 15. (Statista, developer documentation Credit Logic, six tools and credit costs counted individually, retrieved 10 September 2026). https://docs.platform.statista.ai/pricing/credit-logic"
+      "citationText": "Statista meters every call to its MCP server individually in credits: a search costs 0 or 1 credit, retrieving the figures themselves 10 to 15. (Statista, developer documentation Credit Logic, six tools and credit costs counted individually, retrieved 10 September 2026). https://docs.platform.statista.ai/pricing/credit-logic · via https://robert-haase.de/en/evidence.html#statista-mcp"
     },
     {
       "@type": "Claim",
@@ -2154,7 +2154,7 @@
           "url": "https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/"
         }
       ],
-      "citationText": "On 3 December 2025 Veeva announced a Quick Check Agent that scans content against editorial, brand, market, channel and compliance guidelines before the MLR review itself begins, and on 23 June 2026 it acquired the vendor Copli for Falcon MLR. (Veeva Systems, press releases of 3 December 2025 and 23 June 2026, both read in full; the 57 per cent shorter review cycles is advertised by Veeva today on the product page veeva.com/products/veeva-promomats/mlr-review, and already appears word for word in a datasheet dated 2 May 2017 and the same figure in one dated 21 March 2016, with no method). https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/"
+      "citationText": "On 3 December 2025 Veeva announced a Quick Check Agent that scans content against editorial, brand, market, channel and compliance guidelines before the MLR review itself begins, and on 23 June 2026 it acquired the vendor Copli for Falcon MLR. (Veeva Systems, press releases of 3 December 2025 and 23 June 2026, both read in full; the 57 per cent shorter review cycles is advertised by Veeva today on the product page veeva.com/products/veeva-promomats/mlr-review, and already appears word for word in a datasheet dated 2 May 2017 and the same figure in one dated 21 March 2016, with no method). https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/ · via https://robert-haase.de/en/evidence.html#veeva-mlr"
     },
     {
       "@type": "Claim",
@@ -2162,7 +2162,7 @@
       "text": "On handing the Model Context Protocol to the Linux Foundation on 9 December 2025, Anthropic gives more than 10,000 active public MCP servers and over 97 million monthly SDK downloads across Python and TypeScript. The platinum members of the new Agentic AI Foundation include, per the foundation, AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft and OpenAI.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Anthropic, “Donating the Model Context Protocol and establishing the Agentic AI Foundation”, 9 December 2025, the originating source for both figures · Linux Foundation, press release on the founding of the Agentic AI Foundation, 9 December 2025, for the membership list () · own cross-check against the official registry registry.modelcontextprotocol.io on 10 September 2026",
+        "name": "Anthropic, “Donating the Model Context Protocol and establishing the Agentic AI Foundation”, 9 December 2025, the originating source for both figures · Linux Foundation, press release on the founding of the Agentic AI Foundation, 9 December 2025, for the membership list · own cross-check against the official registry registry.modelcontextprotocol.io on 10 September 2026",
         "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
       },
       "disambiguatingDescription": "What the number does not say: it sits in the developer’s own donation post, in a list under the heading “incredible adoption”, with no counting rule at all: no registry, no as-of date, no definition of “active”. Cross-checking helps only so far, since no authoritative registry exists: a complete dump of the official registry on 10 September 2026 gives 30,363 registered servers, 30,031 of them in state “active”. It cannot be set against the vendor figure: Anthropic gives no counting rule and means a different object, so no growth rate follows. And the registry counts entries someone created, not servers in use; it is marked a preview and states itself that one should assume “minimal-to-no moderation”. And a server is not a user. Care when passing it on: the Linux Foundation calls the same figure “published”, turning active servers into published ones. On the membership list: platinum membership is paid: that AWS, Google, Microsoft and OpenAI carry the governance does not establish that they use the protocol in their products. The foundation writes “include”, so the list is not exhaustive. State of play: December 2025.",
@@ -2185,7 +2185,7 @@
           "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
         }
       ],
-      "citationText": "On handing the Model Context Protocol to the Linux Foundation on 9 December 2025, Anthropic gives more than 10,000 active public MCP servers and over 97 million monthly SDK downloads across Python and TypeScript. (Anthropic, 9 December 2025; vendor figure with no counting rule). https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
+      "citationText": "On handing the Model Context Protocol to the Linux Foundation on 9 December 2025, Anthropic gives more than 10,000 active public MCP servers and over 97 million monthly SDK downloads across Python and TypeScript. (Anthropic, 9 December 2025; vendor figure with no counting rule). https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation · via https://robert-haase.de/en/evidence.html#mcp-verbreitung"
     },
     {
       "@type": "Claim",
@@ -2216,7 +2216,7 @@
           "url": "https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook"
         }
       ],
-      "citationText": "Morgan Stanley puts agentic shoppers at a likely 10 percent of US online retail by 2030 and up to 20 percent in the optimistic case, Bain agentic commerce at 15 to 25 percent nine days later; only Bain states an inclusion rule and counts influenced purchases. (Morgan Stanley Research, 8 December 2025 · Bain & Company, Snap Chart “2030 Forecast: How Agentic AI Will Reshape US Retail”, 17 December 2025). https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook"
+      "citationText": "Morgan Stanley puts agentic shoppers at a likely 10 percent of US online retail by 2030 and up to 20 percent in the optimistic case, Bain agentic commerce at 15 to 25 percent nine days later; only Bain states an inclusion rule and counts influenced purchases. (Morgan Stanley Research, 8 December 2025 · Bain & Company, Snap Chart “2030 Forecast: How Agentic AI Will Reshape US Retail”, 17 December 2025). https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook · via https://robert-haase.de/en/evidence.html#agentenhandel-2030"
     },
     {
       "@type": "Claim",
@@ -2247,7 +2247,7 @@
           "url": "https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf"
         }
       ],
-      "citationText": "Marketing leaders at U.S. companies use AI or machine learning 24.2 percent of the time they spend optimizing and automating marketing; the median is 20 percent. Two surveys earlier the figures were 13.1 and 17.2 percent, and within three years they expect 55.9 percent. (The CMO Survey, 35th edition, Christine Moorman, Fuqua School of Business, Duke University · 2,111 invited, 308 responses, 191 of them to this question · January 2026 · Highlights Report page 21). https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf"
+      "citationText": "Marketing leaders at U.S. companies use AI or machine learning 24.2 percent of the time they spend optimizing and automating marketing; the median is 20 percent. Two surveys earlier the figures were 13.1 and 17.2 percent, and within three years they expect 55.9 percent. (The CMO Survey, 35th edition, Christine Moorman, Fuqua School of Business, Duke University · 2,111 invited, 308 responses, 191 of them to this question · January 2026 · Highlights Report page 21). https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf · via https://robert-haase.de/en/evidence.html#cmo-ki-anteil"
     },
     {
       "@type": "Claim",
@@ -2274,7 +2274,7 @@
           "url": "https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf"
         }
       ],
-      "citationText": "The most quoted figure on unused corporate data, 55 percent, bundles self-estimates the 1,357 respondents made about their own organisation. It was fielded in 2018/19 by the research arm of the PR agency FleishmanHillard on behalf of Splunk, a vendor selling software to analyse exactly this data. (TRUE Global Intelligence for Splunk, The State of Dark Data, 1,357 respondents across seven countries · fielded October 2018 to January 2019). https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf"
+      "citationText": "The most quoted figure on unused corporate data, 55 percent, bundles self-estimates the 1,357 respondents made about their own organisation. It was fielded in 2018/19 by the research arm of the PR agency FleishmanHillard on behalf of Splunk, a vendor selling software to analyse exactly this data. (TRUE Global Intelligence for Splunk, The State of Dark Data, 1,357 respondents across seven countries · fielded October 2018 to January 2019). https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf · via https://robert-haase.de/en/evidence.html#dark-data-55"
     },
     {
       "@type": "Claim",
@@ -2301,7 +2301,7 @@
           "url": "https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf"
         }
       ],
-      "citationText": "78 of 188 US companies that answered this question use AI to get their own content to appear in AI-generated search answers, which is 41.5 percent, plus or minus 7.1 percentage points. (The CMO Survey, 35th edition, run at the Fuqua School of Business, Duke University, sponsored by Duke, Deloitte and the American Marketing Association, Topline Report 2026, page 12, fielded January 2026). https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf"
+      "citationText": "78 of 188 US companies that answered this question use AI to get their own content to appear in AI-generated search answers, which is 41.5 percent, plus or minus 7.1 percentage points. (The CMO Survey, 35th edition, run at the Fuqua School of Business, Duke University, sponsored by Duke, Deloitte and the American Marketing Association, Topline Report 2026, page 12, fielded January 2026). https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf · via https://robert-haase.de/en/evidence.html#geo-verbreitung"
     },
     {
       "@type": "Claim",
@@ -2332,7 +2332,7 @@
           "url": "https://www.ana.net/content/show/id/79185"
         }
       ],
-      "citationText": "In the member survey run by the US advertising association ANA, 82 percent of the members surveyed said in 2023 that they had an in-house agency, after 78 percent in 2018, 58 percent in 2013 and 42 percent in 2008. 65 percent said they had moved ongoing business from an external agency in-house over the preceding three years; in 2018 it was 70. (Association of National Advertisers, member survey with 162 respondents, February and March 2023 · press release of 2 May 2023; the base for the 65 percent is not published, the 70 percent comes from the predecessor report of October 2018). https://www.ana.net/content/show/id/79185"
+      "citationText": "In the member survey run by the US advertising association ANA, 82 percent of the members surveyed said in 2023 that they had an in-house agency, after 78 percent in 2018, 58 percent in 2013 and 42 percent in 2008. 65 percent said they had moved ongoing business from an external agency in-house over the preceding three years; in 2018 it was 70. (Association of National Advertisers, member survey with 162 respondents, February and March 2023 · press release of 2 May 2023; the base for the 65 percent is not published, the 70 percent comes from the predecessor report of October 2018). https://www.ana.net/content/show/id/79185 · via https://robert-haase.de/en/evidence.html#in-house-verlagerung"
     },
     {
       "@type": "Claim",
@@ -2359,7 +2359,7 @@
           "url": "https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do"
         }
       ],
-      "citationText": "Of the English-language articles newly published in the first quarter of 2026, 49.9 percent were primarily AI-generated. (Graphite, about 55,400 articles randomly drawn from Common Crawl, classified by averaging three detectors, May 2026). https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do"
+      "citationText": "Of the English-language articles newly published in the first quarter of 2026, 49.9 percent were primarily AI-generated. (Graphite, about 55,400 articles randomly drawn from Common Crawl, classified by averaging three detectors, May 2026). https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do · via https://robert-haase.de/en/evidence.html#ki-anteil-artikel"
     },
     {
       "@type": "Claim",
@@ -2386,7 +2386,7 @@
           "url": "https://www.semrush.com/blog/traffic-channel-mix-study/"
         }
       ],
-      "citationText": "Three analytics vendors put a number on the share of website visits arriving from an AI assistant: Contentsquare 0.2 percent in the fourth quarter of 2025, Semrush 0.14 percent for 2025, Conductor 1.08 percent for May to September 2025. (Contentsquare, 2026 Digital Experience Benchmarks, 6,500 websites worldwide, 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites worldwide, 27 April 2026 · Conductor, AEO/GEO Benchmarks, 1,215 US customer domains, last updated 6 July 2026). https://www.semrush.com/blog/traffic-channel-mix-study/"
+      "citationText": "Three analytics vendors put a number on the share of website visits arriving from an AI assistant: Contentsquare 0.2 percent in the fourth quarter of 2025, Semrush 0.14 percent for 2025, Conductor 1.08 percent for May to September 2025. (Contentsquare, 2026 Digital Experience Benchmarks, 6,500 websites worldwide, 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites worldwide, 27 April 2026 · Conductor, AEO/GEO Benchmarks, 1,215 US customer domains, last updated 6 July 2026). https://www.semrush.com/blog/traffic-channel-mix-study/ · via https://robert-haase.de/en/evidence.html#ki-verkehrsanteil"
     },
     {
       "@type": "Claim",
@@ -2413,7 +2413,7 @@
           "url": "https://www.netcraft.com/guide/phishing-website-detection-disruption"
         }
       ],
-      "citationText": "Takedown provider Netcraft states that between March 2024 and March 2025 it acted against 1.3 million phishing sites imitating more than 16,000 organisations. (Netcraft, guide to detecting and disrupting phishing websites, the vendor’s own operations from March 2024 to March 2025 · 12 December 2025, last modified 12 March 2026). https://www.netcraft.com/guide/phishing-website-detection-disruption"
+      "citationText": "Takedown provider Netcraft states that between March 2024 and March 2025 it acted against 1.3 million phishing sites imitating more than 16,000 organisations. (Netcraft, guide to detecting and disrupting phishing websites, the vendor’s own operations from March 2024 to March 2025 · 12 December 2025, last modified 12 March 2026). https://www.netcraft.com/guide/phishing-website-detection-disruption · via https://robert-haase.de/en/evidence.html#markenklone"
     },
     {
       "@type": "Claim",
@@ -2440,7 +2440,7 @@
           "url": "https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think"
         }
       ],
-      "citationText": "Between the first quarter of 2023 and the fourth quarter of 2025, search engine visits and search-like AI sessions combined grew by 26 percent worldwide, from 82.0 to 103.2 billion per month; Google’s share falls from 89 to 71 percent. (Graphite, Ethan Smith · analysis of Similarweb estimates for web visits and app sessions worldwide, July 2020 to December 2025 · March 2026). https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think"
+      "citationText": "Between the first quarter of 2023 and the fourth quarter of 2025, search engine visits and search-like AI sessions combined grew by 26 percent worldwide, from 82.0 to 103.2 billion per month; Google’s share falls from 89 to 71 percent. (Graphite, Ethan Smith · analysis of Similarweb estimates for web visits and app sessions worldwide, July 2020 to December 2025 · March 2026). https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think · via https://robert-haase.de/en/evidence.html#suchmarkt-wachstum"
     },
     {
       "@type": "Claim",
@@ -2467,7 +2467,7 @@
           "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
         }
       ],
-      "citationText": "Experienced developers took 19 percent longer with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed. (METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks). https://robert-haase.de/en/evidence.html#metr-selbsteinschaetzung"
+      "citationText": "Experienced developers took 19 percent longer with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed. (METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks). https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/ · via https://robert-haase.de/en/evidence.html#metr-selbsteinschaetzung"
     },
     {
       "@type": "Claim",
@@ -2494,7 +2494,7 @@
           "url": "https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf"
         }
       ],
-      "citationText": "In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered more than 30 percent higher quality, as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI. (Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent). https://robert-haase.de/en/evidence.html#jagged-frontier"
+      "citationText": "In a preregistered experiment with 758 management consultants, AI users completed 12.2 percent more tasks, worked 25.1 percent faster and delivered more than 30 percent higher quality, as long as the task fell inside the model's capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI. (Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent). https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf · via https://robert-haase.de/en/evidence.html#jagged-frontier"
     },
     {
       "@type": "Claim",
@@ -2521,7 +2521,7 @@
           "url": "https://europepmc.org/article/MED/38996021"
         }
       ],
-      "citationText": "In a pre-registered experiment with 293 writers, 600 readers rated short stories from the condition with access to one AI starting idea as more novel, up 5.4 percent. At the same time a story’s similarity to its group mean rose by 0.871 points on a scale from 0 to 100. (Doshi and Hauser, Science Advances 10(28), eadn5290, 12 July 2024). https://europepmc.org/article/MED/38996021"
+      "citationText": "In a pre-registered experiment with 293 writers, 600 readers rated short stories from the condition with access to one AI starting idea as more novel, up 5.4 percent. At the same time a story’s similarity to its group mean rose by 0.871 points on a scale from 0 to 100. (Doshi and Hauser, Science Advances 10(28), eadn5290, 12 July 2024). https://europepmc.org/article/MED/38996021 · via https://robert-haase.de/en/evidence.html#homogenisierung"
     },
     {
       "@type": "Claim",
@@ -2548,7 +2548,7 @@
           "url": "https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
         }
       ],
-      "citationText": "Seven language models were put to seven strategic trade-offs, each as an either-or. On six of the seven they picked the same side across all vendors, differentiation over cost leadership and augmentation over automation among them; only on exploration versus exploitation did they diverge. Two follow-up studies on ChatGPT-5, each with more than 15,000 runs, tested whether the bias can be prompted away. Barely: for differentiation and augmentation, better prompting lowered the share of biased responses by less than 2 percent, and additional company context shifted it by 11 percent on average, in both directions. The authors call this “strategy trendslop”, the most socially desirable answer of the internet average. (Angelo Romasanta, Llewellyn D. W. Thomas and Natalia Levina, “Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.”, Harvard Business Review, 16 March 2026, HBR Digital Article H093GG · models tested: ChatGPT, Claude, DeepSeek, GPT-5 via the API, Gemini, Grok and Mistral, 50 runs per model and question; the two blocks of more than 15,000 runs ran on ChatGPT-5 alone · full text of 15,613 characters from the structured data of the page, cross-checked against two archive copies). https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return"
+      "citationText": "Seven language models were put to seven strategic trade-offs, each as an either-or. On six of the seven they picked the same side across all vendors, differentiation over cost leadership and augmentation over automation among them; only on exploration versus exploitation did they diverge. Two follow-up studies on ChatGPT-5, each with more than 15,000 runs, tested whether the bias can be prompted away. Barely: for differentiation and augmentation, better prompting lowered the share of biased responses by less than 2 percent, and additional company context shifted it by 11 percent on average, in both directions. The authors call this “strategy trendslop”, the most socially desirable answer of the internet average. (Angelo Romasanta, Llewellyn D. W. Thomas and Natalia Levina, “Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.”, Harvard Business Review, 16 March 2026, HBR Digital Article H093GG · models tested: ChatGPT, Claude, DeepSeek, GPT-5 via the API, Gemini, Grok and Mistral, 50 runs per model and question; the two blocks of more than 15,000 runs ran on ChatGPT-5 alone · full text of 15,613 characters from the structured data of the page, cross-checked against two archive copies). https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return · via https://robert-haase.de/en/evidence.html#strategie-trendslop"
     },
     {
       "@type": "Claim",
@@ -2556,7 +2556,7 @@
       "text": "Agreement is rewarded in the training signal. Anthropic analysed 15,000 response pairs from its own feedback data: whether a response matches the user’s beliefs is consistently among the strongest predictors of which response humans prefer. Any single feature shifts that probability by at most about 6 percentage points. In April 2025 OpenAI rolled back a GPT-4o update because the model had become excessively agreeable, naming as its early assessment three changes acting together, among them an additional reward signal from users’ thumbs-up and thumbs-down feedback.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Sharma, Tong et al., “Towards Understanding Sycophancy in Language Models”, arXiv:2310.13548v4 of 10 May 2025, first version 20 October 2023, peer reviewed and accepted as a poster at ICLR 2024 · key figure from section 4.1: 15,000 randomly drawn response pairs from the helpfulness subset of Anthropic’s hh-rlhf dataset, 23 features, Bayesian logistic regression, holdout accuracy 71.3 percent · models tested: Claude 1.3, Claude 2, GPT-3.5, GPT-4 and LLaMA 2 · plus OpenAI, “Sycophancy in GPT-4o”, 29 April 2025, and “Expanding on what we missed with sycophancy”, 2 May 2025; update of 25 April, rollback from 28 April ()",
+        "name": "Sharma, Tong et al., “Towards Understanding Sycophancy in Language Models”, arXiv:2310.13548v4 of 10 May 2025, first version 20 October 2023, peer reviewed and accepted as a poster at ICLR 2024 · key figure from section 4.1: 15,000 randomly drawn response pairs from the helpfulness subset of Anthropic’s hh-rlhf dataset, 23 features, Bayesian logistic regression, holdout accuracy 71.3 percent · models tested: Claude 1.3, Claude 2, GPT-3.5, GPT-4 and LLaMA 2 · plus OpenAI, “Sycophancy in GPT-4o”, 29 April 2025, and “Expanding on what we missed with sycophancy”, 2 May 2025; update of 25 April, rollback from 28 April",
         "url": "https://arxiv.org/abs/2310.13548"
       },
       "disambiguatingDescription": "Who did the measuring: the study comes from Anthropic; two of the five assistants tested and the reward model analysed are its own, and every model dates from 2023. What else is rewarded: truthfulness is too, and depending on the condition, matching beliefs is not the strongest feature. The paper tests factual questions and free-text tasks, not strategy advice. What is measured is what the data reward, not how often an assistant flatters in production; the OpenAI rollback shows that the effect can occur there and be noticed, not how strong it is today. Care with the most-quoted figure: the 95 percent comes from a sub-experiment on 266 misconceptions, and there the agreeing responses were produced deliberately: a model was instructed to deceive subtly, and the most convincing of 4,096 samples was selected. The judge was not a human but the Claude 2 preference model, measured against the best of three short human-written objections, chosen by that same model. What the humans did: for the human raters the paper gives no figure. They mostly preferred the correcting response and did so less reliably as difficulty rose; read off the chart, it is roughly 3 percent on the easiest and roughly 21 percent on the hardest level. That is the majority of several lay readers without reference material, and the average individual rater sits higher. The authors call the dataset a proof of concept.",
@@ -2579,7 +2579,7 @@
           "url": "https://arxiv.org/abs/2310.13548"
         }
       ],
-      "citationText": "Agreement is rewarded in the training signal. Anthropic analysed 15,000 response pairs from its own feedback data: whether a response matches the user’s beliefs is consistently among the strongest predictors of which response humans prefer. Any single feature shifts that probability by at most about 6 percentage points. In April 2025 OpenAI rolled back a GPT-4o update because the model had become excessively agreeable, naming as its early assessment three changes acting together, among them an additional reward signal from users’ thumbs-up and thumbs-down feedback. (Sharma, Tong et al., “Towards Understanding Sycophancy in Language Models”, arXiv:2310.13548v4 of 10 May 2025, first version 20 October 2023, peer reviewed and accepted as a poster at ICLR 2024 · key figure from section 4.1: 15,000 randomly drawn response pairs from the helpfulness subset of Anthropic’s hh-rlhf dataset, 23 features, Bayesian logistic regression, holdout accuracy 71.3 percent · models tested: Claude 1.3, Claude 2, GPT-3.5, GPT-4 and LLaMA 2 · plus OpenAI, “Sycophancy in GPT-4o”, 29 April 2025, and “Expanding on what we missed with sycophancy”, 2 May 2025; update of 25 April, rollback from 28 April (OpenAI statement)). https://arxiv.org/abs/2310.13548"
+      "citationText": "Agreement is rewarded in the training signal. Anthropic analysed 15,000 response pairs from its own feedback data: whether a response matches the user’s beliefs is consistently among the strongest predictors of which response humans prefer. Any single feature shifts that probability by at most about 6 percentage points. In April 2025 OpenAI rolled back a GPT-4o update because the model had become excessively agreeable, naming as its early assessment three changes acting together, among them an additional reward signal from users’ thumbs-up and thumbs-down feedback. (Sharma, Tong et al., “Towards Understanding Sycophancy in Language Models”, arXiv:2310.13548v4 of 10 May 2025, first version 20 October 2023, peer reviewed and accepted as a poster at ICLR 2024 · key figure from section 4.1: 15,000 randomly drawn response pairs from the helpfulness subset of Anthropic’s hh-rlhf dataset, 23 features, Bayesian logistic regression, holdout accuracy 71.3 percent · models tested: Claude 1.3, Claude 2, GPT-3.5, GPT-4 and LLaMA 2 · plus OpenAI, “Sycophancy in GPT-4o”, 29 April 2025, and “Expanding on what we missed with sycophancy”, 2 May 2025; update of 25 April, rollback from 28 April (OpenAI statement)). https://arxiv.org/abs/2310.13548 · via https://robert-haase.de/en/evidence.html#sykophanz"
     },
     {
       "@type": "Claim",
@@ -2587,7 +2587,7 @@
       "text": "Whether a brand as a specification produces more brand-compliant AI output than a brand book is settled by no publicly verifiable measurement; the search finds no public benchmark for it. Neighbouring fields have such benchmarks: guideline adherence in medicine since December 2024, rule adherence in support dialogues since early 2026.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Own research, 10 September 2026: arXiv API with 24 phrase queries, among them brand voice, brand guidelines, brand consistency, brand compliance, machine-readable brand, brand book, style guide, tone of voice and corporate identity; plus OpenAlex, general web search, and the vendor pages of Adobe, Frontify, Jasper and Writer · closest measured work on the form question: “Instruction Stacking Collapse”, arXiv:2608.02639, 31 July 2026, 24 verifier-checked instructions, three models () · closest benchmarks on rule adherence: CompliBench, arXiv:2604.12312, 14 April 2026, preprint, 318 machine-generated dialogues (), PluralisticBehaviorSuite, arXiv:2511.05018, 300 behavioural guidelines across 30 industries, and JourneyBench, arXiv:2601.00596, 703 conversations · for comparison in medicine: AMEGA, npj Digital Medicine 7:358, 12 December 2024, and CPGBench, arXiv:2603.25196, 26 March 2026, 3,418 guideline documents",
+        "name": "Own research, 10 September 2026: arXiv API with 24 phrase queries, among them brand voice, brand guidelines, brand consistency, brand compliance, machine-readable brand, brand book, style guide, tone of voice and corporate identity; plus OpenAlex, general web search, and the vendor pages of Adobe, Frontify, Jasper and Writer · closest measured work on the form question: “Instruction Stacking Collapse”, arXiv:2608.02639, 31 July 2026, 24 verifier-checked instructions, three models · closest benchmarks on rule adherence: CompliBench, arXiv:2604.12312, 14 April 2026, preprint, 318 machine-generated dialogues, PluralisticBehaviorSuite, arXiv:2511.05018, 300 behavioural guidelines across 30 industries, and JourneyBench, arXiv:2601.00596, 703 conversations · for comparison in medicine: AMEGA, npj Digital Medicine 7:358, 12 December 2024, and CPGBench, arXiv:2603.25196, 26 March 2026, 3,418 guideline documents",
         "url": "https://robert-haase.de/en/evidence.html#markenspezifikation-wirkung"
       },
       "disambiguatingDescription": "What the finding does not say: that nothing exists. Searched on 10 September 2026 with 24 phrase queries; Semantic Scholar (HTTP 429), the ACL Anthology, subscription databases and unpublished vendor studies remain unchecked. Against our own thesis: the general form question has been measured. A benchmark of 31 July 2026 stacks 24 machine-checkable instructions, one of them a fixed tone of voice, and tests whether the same instructions are followed better in compiled form: up to 11 percentage points more adherence on the weakest model, practically nothing on strong ones, and by its own account never compared against a competently hand-written prompt. So the question is not wide open. No neighbour measures brand: the three closest benchmarks measure rule adherence in support dialogues and the detection of violations by a model acting as judge. All three datasets are machine-generated, CompliBench is a preprint, and two of its eight authors work for a contact-centre software vendor. Adobe’s brand-compliance score is a product feature, not open to inspection. The opposite is measured no better.",
@@ -2640,7 +2640,7 @@
           "url": "https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave"
         }
       ],
-      "citationText": "A century of household technology did not reduce time spent on housework. The appliances mainly replaced work done by men, children and servants; the time saved went into rising standards of cleanliness and care. The expectation that automation frees up time has a documented precedent in which precisely that failed to happen. (Ruth Schwartz Cowan, “More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave”, 1983 · awarded the Dexter Prize of the Society for the History of Technology, 1984). https://robert-haase.de/en/evidence.html#cowan-standards"
+      "citationText": "A century of household technology did not reduce time spent on housework. The appliances mainly replaced work done by men, children and servants; the time saved went into rising standards of cleanliness and care. The expectation that automation frees up time has a documented precedent in which precisely that failed to happen. (Ruth Schwartz Cowan, “More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave”, 1983 · awarded the Dexter Prize of the Society for the History of Technology, 1984). https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave · via https://robert-haase.de/en/evidence.html#cowan-standards"
     },
     {
       "@type": "Claim",
@@ -2667,7 +2667,7 @@
           "url": "https://www.sciencedirect.com/science/article/pii/S0040162517302287"
         }
       ],
-      "citationText": "Corporations whose future preparedness was rated strong in 2008 reached 16 percent profitability by 2015, against 12 percent for the industry average — 33 percent more. On market capitalisation growth over the same seven years they stood at 75 percent against an average of 25. Firms with identified deficiencies came in 37 to 44 percent below average. (Rohrbeck and Kum, “Corporate foresight and its impact on firm performance: A longitudinal analysis”, Technological Forecasting & Social Change 129, 2018 · preparedness measured 2008, performance 2015). https://robert-haase.de/en/evidence.html#foresight-performance"
+      "citationText": "Corporations whose future preparedness was rated strong in 2008 reached 16 percent profitability by 2015, against 12 percent for the industry average — 33 percent more. On market capitalisation growth over the same seven years they stood at 75 percent against an average of 25. Firms with identified deficiencies came in 37 to 44 percent below average. (Rohrbeck and Kum, “Corporate foresight and its impact on firm performance: A longitudinal analysis”, Technological Forecasting & Social Change 129, 2018 · preparedness measured 2008, performance 2015). https://www.sciencedirect.com/science/article/pii/S0040162517302287 · via https://robert-haase.de/en/evidence.html#foresight-performance"
     },
     {
       "@type": "Claim",
@@ -2694,7 +2694,7 @@
           "url": "https://www.forecastbench.org/leaderboards/"
         }
       ],
-      "citationText": "On the ForecastBench tournament leaderboard, the median of human superforecasters sits fourth at 68.8, behind three Google DeepMind entries with tool access. Without tools the human median still leads, 67.8 against 62.6. (ForecastBench, as of 10 September 2026; the significance column finds no difference for the three top places). https://robert-haase.de/en/evidence.html#prognose-mensch-maschine"
+      "citationText": "On the ForecastBench tournament leaderboard, the median of human superforecasters sits fourth at 68.8, behind three Google DeepMind entries with tool access. Without tools the human median still leads, 67.8 against 62.6. (ForecastBench, as of 10 September 2026; the significance column finds no difference for the three top places). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/en/evidence.html#prognose-mensch-maschine"
     },
     {
       "@type": "Claim",
@@ -2721,7 +2721,7 @@
           "url": "https://arxiv.org/abs/2402.07862"
         }
       ],
-      "citationText": "991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially. (Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants). https://robert-haase.de/en/evidence.html#prognose-assistenz"
+      "citationText": "991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially. (Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants). https://arxiv.org/abs/2402.07862 · via https://robert-haase.de/en/evidence.html#prognose-assistenz"
     },
     {
       "@type": "Claim",
@@ -2748,7 +2748,7 @@
           "url": "https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html"
         }
       ],
-      "citationText": "According to Andrew Abbott's study, occupations compete not over performing their work but over its definition. Whoever determines what counts as a problem, and who is responsible for it, has already settled the competition. Abbott's finding on how this happens: jurisdictions are claimed when they fall vacant — not by filling an occupied one better. (Andrew Abbott, “The System of Professions: An Essay on the Division of Expert Labor”, University of Chicago Press, 1988). https://robert-haase.de/en/evidence.html#abbott-zustaendigkeit"
+      "citationText": "According to Andrew Abbott's study, occupations compete not over performing their work but over its definition. Whoever determines what counts as a problem, and who is responsible for it, has already settled the competition. Abbott's finding on how this happens: jurisdictions are claimed when they fall vacant — not by filling an occupied one better. (Andrew Abbott, “The System of Professions: An Essay on the Division of Expert Labor”, University of Chicago Press, 1988). https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html · via https://robert-haase.de/en/evidence.html#abbott-zustaendigkeit"
     },
     {
       "@type": "Claim",
@@ -2775,7 +2775,7 @@
           "url": "https://mitpress.mit.edu/9780262046664/artificial-communication/"
         }
       ],
-      "citationText": "The sociologist Elena Esposito considers the analogy between algorithms and human intelligence misleading and proposes a different term: artificial communication. In her words: if machines contribute to social intelligence, it will not be because they have learned to think like us, but because we have learned to communicate with them. (Elena Esposito, “Artificial Communication: How Algorithms Produce Social Intelligence”, MIT Press, 24 May 2022 · 200 pages, open access edition available). https://robert-haase.de/en/evidence.html#esposito-kommunikation"
+      "citationText": "The sociologist Elena Esposito considers the analogy between algorithms and human intelligence misleading and proposes a different term: artificial communication. In her words: if machines contribute to social intelligence, it will not be because they have learned to think like us, but because we have learned to communicate with them. (Elena Esposito, “Artificial Communication: How Algorithms Produce Social Intelligence”, MIT Press, 24 May 2022 · 200 pages, open access edition available). https://mitpress.mit.edu/9780262046664/artificial-communication/ · via https://robert-haase.de/en/evidence.html#esposito-kommunikation"
     },
     {
       "@type": "Claim",
@@ -2802,7 +2802,7 @@
           "url": "https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf"
         }
       ],
-      "citationText": "A field study of 244 management consultants found three ways of working with generative AI — differing not in the tool but in who steers the workflow. Those who involve the AI throughout acquire new AI capability. Those who use it selectively for individual steps, keeping the problem definition themselves, deepen their existing domain expertise. Those who hand over the whole process build neither. (Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon and Lakhani, “Cyborgs, Centaurs and Self-Automators”, Harvard Business School Working Paper 26-036, 2025 · 244 Boston Consulting Group consultants). https://robert-haase.de/en/evidence.html#drei-arbeitsweisen"
+      "citationText": "A field study of 244 management consultants found three ways of working with generative AI — differing not in the tool but in who steers the workflow. Those who involve the AI throughout acquire new AI capability. Those who use it selectively for individual steps, keeping the problem definition themselves, deepen their existing domain expertise. Those who hand over the whole process build neither. (Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon and Lakhani, “Cyborgs, Centaurs and Self-Automators”, Harvard Business School Working Paper 26-036, 2025 · 244 Boston Consulting Group consultants). https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf · via https://robert-haase.de/en/evidence.html#drei-arbeitsweisen"
     },
     {
       "@type": "Claim",
@@ -2829,7 +2829,7 @@
           "url": "https://www.nber.org/papers/w31161"
         }
       ],
-      "citationText": "Among 5,179 customer support agents at a large firm, issues resolved per hour rose 14 percent on average with an AI assistant. The average hides the point: novice and low-skilled workers gained 34 percent, while the effect on experienced and highly skilled workers was “minimal”. The authors suspect the model disseminates the practices of abler workers to newer ones. (Brynjolfsson, Li and Raymond, “Generative AI at Work”, NBER Working Paper 31161, April 2023, revised November 2023 · 5,179 customer support agents). https://robert-haase.de/en/evidence.html#kompetenz-nivellierung"
+      "citationText": "Among 5,179 customer support agents at a large firm, issues resolved per hour rose 14 percent on average with an AI assistant. The average hides the point: novice and low-skilled workers gained 34 percent, while the effect on experienced and highly skilled workers was “minimal”. The authors suspect the model disseminates the practices of abler workers to newer ones. (Brynjolfsson, Li and Raymond, “Generative AI at Work”, NBER Working Paper 31161, April 2023, revised November 2023 · 5,179 customer support agents). https://www.nber.org/papers/w31161 · via https://robert-haase.de/en/evidence.html#kompetenz-nivellierung"
     },
     {
       "@type": "Claim",
@@ -2856,7 +2856,7 @@
           "url": "https://www.science.org/doi/10.1126/science.adh2586"
         }
       ],
-      "citationText": "In a preregistered experiment with 444 college-educated professionals, time spent on writing tasks fell by 0.8 standard deviations while quality rose by 0.4. Here too the gap between participants narrowed — weaker performers gained more. The authors' reading: the tool mostly substitutes for effort rather than complementing skill, shifting work away from rough drafting towards idea generation and editing. (Noy and Zhang, “Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence”, MIT, working paper of 2 March 2023 · peer-reviewed version in Science 381, 2023, pp. 187–192). https://robert-haase.de/en/evidence.html#aufwand-statt-koennen"
+      "citationText": "In a preregistered experiment with 444 college-educated professionals, time spent on writing tasks fell by 0.8 standard deviations while quality rose by 0.4. Here too the gap between participants narrowed — weaker performers gained more. The authors' reading: the tool mostly substitutes for effort rather than complementing skill, shifting work away from rough drafting towards idea generation and editing. (Noy and Zhang, “Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence”, MIT, working paper of 2 March 2023 · peer-reviewed version in Science 381, 2023, pp. 187–192). https://www.science.org/doi/10.1126/science.adh2586 · via https://robert-haase.de/en/evidence.html#aufwand-statt-koennen"
     },
     {
       "@type": "Claim",
@@ -2883,7 +2883,7 @@
           "url": "https://doi.org/10.1287/orsc.2023.18430"
         }
       ],
-      "citationText": "In an ideas contest on the circular economy, 300 screened evaluators each rated 13 of 234 solutions, 54 from people and 180 from GPT-4 with human-guided prompts. The human ones were judged more novel, the machine ones more strategically viable, more valuable and better overall. At the top end the picture flips: AI solutions received the top novelty mark 7.9 percentage points less often, and their value advantage vanished there across all four dimensions. (Boussioux, Lane, Zhang, Jacimovic and Lakhani, “The Crowdless Future? Generative AI and Creative Problem-Solving”, Organization Science 35(5), September/October 2024 issue, pp. 1589–1607 · 3,900 ratings · online 16 August 2024). https://doi.org/10.1287/orsc.2023.18430"
+      "citationText": "In an ideas contest on the circular economy, 300 screened evaluators each rated 13 of 234 solutions, 54 from people and 180 from GPT-4 with human-guided prompts. The human ones were judged more novel, the machine ones more strategically viable, more valuable and better overall. At the top end the picture flips: AI solutions received the top novelty mark 7.9 percentage points less often, and their value advantage vanished there across all four dimensions. (Boussioux, Lane, Zhang, Jacimovic and Lakhani, “The Crowdless Future? Generative AI and Creative Problem-Solving”, Organization Science 35(5), September/October 2024 issue, pp. 1589–1607 · 3,900 ratings · online 16 August 2024). https://doi.org/10.1287/orsc.2023.18430 · via https://robert-haase.de/en/evidence.html#boussioux-neuheit-wert"
     },
     {
       "@type": "Claim",
@@ -2910,7 +2910,7 @@
           "url": "https://doi.org/10.1287/mnsc.24.9.934"
         }
       ],
-      "citationText": "Henry Mintzberg defined strategy in 1978 as “a pattern in a stream of decisions”: a strategy has formed once a sequence of decisions shows consistency over time. That opens to research the strategies which came about despite intentions, or with no intention at all. He showed it on two long-run cases, Volkswagenwerk and the United States in Vietnam from 1950 to 1973. (Henry Mintzberg, “Patterns in Strategy Formation”, Management Science, Vol. 24, No. 9, pp. 934 to 948 · four major studies funded by the Canada Council and over twenty student papers, two of them presented: Volkswagenwerk 1934 to 1974 per the abstract and 1920 to 1974 per the section heading, the United States in Vietnam 1950 to 1973 · manuscript received 19 April 1976, printed May 1978). https://doi.org/10.1287/mnsc.24.9.934"
+      "citationText": "Henry Mintzberg defined strategy in 1978 as “a pattern in a stream of decisions”: a strategy has formed once a sequence of decisions shows consistency over time. That opens to research the strategies which came about despite intentions, or with no intention at all. He showed it on two long-run cases, Volkswagenwerk and the United States in Vietnam from 1950 to 1973. (Henry Mintzberg, “Patterns in Strategy Formation”, Management Science, Vol. 24, No. 9, pp. 934 to 948 · four major studies funded by the Canada Council and over twenty student papers, two of them presented: Volkswagenwerk 1934 to 1974 per the abstract and 1920 to 1974 per the section heading, the United States in Vietnam 1950 to 1973 · manuscript received 19 April 1976, printed May 1978). https://doi.org/10.1287/mnsc.24.9.934 · via https://robert-haase.de/en/evidence.html#mintzberg-muster"
     },
     {
       "@type": "Claim",
@@ -2937,7 +2937,7 @@
           "url": "https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf"
         }
       ],
-      "citationText": "Across 17 product categories in Australia and the UK, an average of 11 percent of a brand’s current users consider it different and 10 percent consider it unique; 17 percent name at least one of the two. They buy the brand anyway. (Romaniuk, Sharp and Ehrenberg, Ehrenberg-Bass Institute, Australasian Marketing Journal 15 (2), 2007, pages 42 to 54, figures from Table 2 on page 47 · survey of current brand users across 17 product categories, the UK datasets collected in 1999). https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf"
+      "citationText": "Across 17 product categories in Australia and the UK, an average of 11 percent of a brand’s current users consider it different and 10 percent consider it unique; 17 percent name at least one of the two. They buy the brand anyway. (Romaniuk, Sharp and Ehrenberg, Ehrenberg-Bass Institute, Australasian Marketing Journal 15 (2), 2007, pages 42 to 54, figures from Table 2 on page 47 · survey of current brand users across 17 product categories, the UK datasets collected in 1999). https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf · via https://robert-haase.de/en/evidence.html#wahrgenommene-differenzierung"
     },
     {
       "@type": "Claim",
@@ -3008,7 +3008,7 @@
           "url": "https://support.google.com/google-ads/answer/16489313"
         }
       ],
-      "citationText": "In Google Ads, brand rules can be stored in plain language, in Performance Max campaigns and in Search campaigns with AI Max: up to 25 term exclusions and up to 40 restrictions naming concepts, associations or styles to avoid, each per campaign. Both are exclusions, they prescribe nothing, and they apply only to automatically customized text assets, not to images. On the same help page Google warns that unsuitable guidelines may remove a large number of good text assets and hurt performance. (Google Ads Help, \"Use text guidelines with Performance Max and Search campaigns (beta)\", retrieved 17 September 2026 · beta access extended to all advertisers worldwide per the Google blog of 26 February 2026). https://support.google.com/google-ads/answer/16489313"
+      "citationText": "In Google Ads, brand rules can be stored in plain language, in Performance Max campaigns and in Search campaigns with AI Max: up to 25 term exclusions and up to 40 restrictions naming concepts, associations or styles to avoid, each per campaign. Both are exclusions, they prescribe nothing, and they apply only to automatically customized text assets, not to images. On the same help page Google warns that unsuitable guidelines may remove a large number of good text assets and hurt performance. (Google Ads Help, \"Use text guidelines with Performance Max and Search campaigns (beta)\", retrieved 17 September 2026 · beta access extended to all advertisers worldwide per the Google blog of 26 February 2026). https://support.google.com/google-ads/answer/16489313 · via https://robert-haase.de/en/evidence.html#google-ads-textregeln"
     },
     {
       "@type": "Claim",
@@ -3035,7 +3035,7 @@
           "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
         }
       ],
-      "citationText": "Asked \"Do you plan to cover more marketing services in-house through AI?\", 80.0 percent of 170 executives at German companies with budget and decision authority answer yes, 11.2 percent no, and 8.8 percent do not know. Across company sizes the intention is stable: 79 percent at companies with 100 to 999 employees, 81 percent at 1,000 and above. (GWA KI-Whitepaper 2026, \"KI-Studien\" section, question 6 · 170 executives at German companies with budget and decision authority · 1 to 9 April 2026 · descriptive online survey with self-reports · conducted by Handelsblatt Research Institute and techconsult in cooperation with GWA). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+      "citationText": "Asked \"Do you plan to cover more marketing services in-house through AI?\", 80.0 percent of 170 executives at German companies with budget and decision authority answer yes, 11.2 percent no, and 8.8 percent do not know. Across company sizes the intention is stable: 79 percent at companies with 100 to 999 employees, 81 percent at 1,000 and above. (GWA KI-Whitepaper 2026, \"KI-Studien\" section, question 6 · 170 executives at German companies with budget and decision authority · 1 to 9 April 2026 · descriptive online survey with self-reports · conducted by Handelsblatt Research Institute and techconsult in cooperation with GWA). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf · via https://robert-haase.de/en/evidence.html#insourcing-absicht"
     },
     {
       "@type": "Claim",
@@ -3062,7 +3062,7 @@
           "url": "https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
         }
       ],
-      "citationText": "96.2 percent of 78 executives from member agencies of the German agency association GWA rate their own agency's AI maturity as \"advanced\" (71.8 percent) or \"expert\" (24.4 percent), 3.8 percent as \"beginner\". The same respondents rate the average level of AI knowledge across the agency industry in Germany, Austria and Switzerland mostly at 3 on a scale of 1 to 5 (57.7 percent), 19.2 percent at 2 and 23.1 percent at 4; nobody picks the extremes 1 or 5. (GWA KI-Whitepaper 2026, \"KI-Studien\" section · 78 executives from GWA member agencies · 12 February to 6 March 2026 · descriptive online survey with self-reports · published by GWA Tech & Innovation Forum · questions: \"How would you rate your agency's current level of AI maturity?\" and \"How do you rate the current average level of AI knowledge across the agency industry in the DACH region?\"). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf"
+      "citationText": "96.2 percent of 78 executives from member agencies of the German agency association GWA rate their own agency's AI maturity as \"advanced\" (71.8 percent) or \"expert\" (24.4 percent), 3.8 percent as \"beginner\". The same respondents rate the average level of AI knowledge across the agency industry in Germany, Austria and Switzerland mostly at 3 on a scale of 1 to 5 (57.7 percent), 19.2 percent at 2 and 23.1 percent at 4; nobody picks the extremes 1 or 5. (GWA KI-Whitepaper 2026, \"KI-Studien\" section · 78 executives from GWA member agencies · 12 February to 6 March 2026 · descriptive online survey with self-reports · published by GWA Tech & Innovation Forum · questions: \"How would you rate your agency's current level of AI maturity?\" and \"How do you rate the current average level of AI knowledge across the agency industry in the DACH region?\"). https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf · via https://robert-haase.de/en/evidence.html#agentur-selbstbild"
     },
     {
       "@type": "Claim",
@@ -3089,7 +3089,7 @@
           "url": "https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
         }
       ],
-      "citationText": "In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation. (Sagar Goel, David Martin, Charikleia Kaffe: \"When Everyone Uses AI, Companies Risk Losing Critical Skills\", Boston Consulting Group, BCG Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with a dozen other company leaders). https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills"
+      "citationText": "In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation. (Sagar Goel, David Martin, Charikleia Kaffe: \"When Everyone Uses AI, Companies Risk Losing Critical Skills\", Boston Consulting Group, BCG Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with a dozen other company leaders). https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills · via https://robert-haase.de/en/evidence.html#de-skilling"
     },
     {
       "@type": "Claim",
@@ -3120,7 +3120,7 @@
           "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
         }
       ],
-      "citationText": "Microsoft’s Copilot learns a brand from exactly one PDF. A brand manager uploads the guidelines, Copilot extracts colour palettes, styles, brand voice and the rules for logo and typography. Only a single guideline document is supported: to add a new one the existing one has to be removed, and the uploaded guidelines override the values already in the brand kit, brand voice included. (Microsoft, support documentation on brand kits, retrieved 17 September 2026). https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
+      "citationText": "Microsoft’s Copilot learns a brand from exactly one PDF. A brand manager uploads the guidelines, Copilot extracts colour palettes, styles, brand voice and the rules for logo and typography. Only a single guideline document is supported: to add a new one the existing one has to be removed, and the uploaded guidelines override the values already in the brand kit, brand voice included. (Microsoft, support documentation on brand kits, retrieved 17 September 2026). https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app · via https://robert-haase.de/en/evidence.html#microsoft-brand-kit"
     },
     {
       "@type": "Claim",
@@ -3151,7 +3151,7 @@
           "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
         }
       ],
-      "citationText": "Meta launched its personal agent Muse in the US on 8 September 2026. People choose which apps it connects to and how much access it gets, and it checks back before sensitive steps such as sending an email or making a purchase. Businesses can submit their own connectors for Muse: Meta tests them against functional, security and legal requirements, after which people find them in Muse. (Meta, newsroom and Muse platform page, retrieved 19 September 2026). https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
+      "citationText": "Meta launched its personal agent Muse in the US on 8 September 2026. People choose which apps it connects to and how much access it gets, and it checks back before sensitive steps such as sending an email or making a purchase. Businesses can submit their own connectors for Muse: Meta tests them against functional, security and legal requirements, after which people find them in Muse. (Meta, newsroom and Muse platform page, retrieved 19 September 2026). https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ · via https://robert-haase.de/en/evidence.html#muse-connectors"
     },
     {
       "@type": "Claim",
@@ -3178,7 +3178,7 @@
           "url": "https://github.com/olivaresai/olivares"
         }
       ],
-      "citationText": "There is software for the permissions of AI agents. Olivares discovers agents, sessions, models, MCP servers, tools and identities running in an organisation, keeps a map of read and write access and sets it against what was actually observed. Rules are enforced deny-closed at four points, one of them a gate on MCP tool calls. Budgets can deny or throttle spend, and every operation lands in a hash-chained, Ed25519-signed ledger. (Olivares, repository olivaresai/olivares, retrieved 20 September 2026). https://github.com/olivaresai/olivares"
+      "citationText": "There is software for the permissions of AI agents. Olivares discovers agents, sessions, models, MCP servers, tools and identities running in an organisation, keeps a map of read and write access and sets it against what was actually observed. Rules are enforced deny-closed at four points, one of them a gate on MCP tool calls. Budgets can deny or throttle spend, and every operation lands in a hash-chained, Ed25519-signed ledger. (Olivares, repository olivaresai/olivares, retrieved 20 September 2026). https://github.com/olivaresai/olivares · via https://robert-haase.de/en/evidence.html#olivares-access-map"
     },
     {
       "@type": "Claim",
@@ -3205,7 +3205,7 @@
           "url": "https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation"
         }
       ],
-      "citationText": "Adobe checks campaign drafts against stored brand guidelines and shows the result as a percentage. It is the share of guidelines a draft passes out of the guidelines tested. Added to it are pass-or-fail results for channel guidelines such as Meta and LinkedIn and for ADA accessibility. The value is recalculated after every edit. (Adobe, documentation on brand validation in GenStudio for Performance Marketing, retrieved 20 September 2026). https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation"
+      "citationText": "Adobe checks campaign drafts against stored brand guidelines and shows the result as a percentage. It is the share of guidelines a draft passes out of the guidelines tested. Added to it are pass-or-fail results for channel guidelines such as Meta and LinkedIn and for ADA accessibility. The value is recalculated after every edit. (Adobe, documentation on brand validation in GenStudio for Performance Marketing, retrieved 20 September 2026). https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation · via https://robert-haase.de/en/evidence.html#adobe-markenpruefung"
     },
     {
       "@type": "Claim",
@@ -3213,7 +3213,7 @@
       "text": "Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP. The tool flags what does not fit, explains why and supplies wording to apply in place; every text is also scored against the stored standards. The vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to, for instance with a prompt asking it to check a paragraph for brand-voice drift.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Markup AI, own site and documentation: checking content against brand voice and style rules with flag, reason and suggestion, scoring against the stored standards, origin in Acrolinx · connection and authentication from the MCP server guide () · retrieved 20 September 2026",
+        "name": "Markup AI, own site and documentation: checking content against brand voice and style rules with flag, reason and suggestion, scoring against the stored standards, origin in Acrolinx · connection and authentication from the MCP server guide · retrieved 20 September 2026",
         "url": "https://markup.ai/"
       },
       "disambiguatingDescription": "What this entry does not establish: effect, reach or hit rate. The description comes from the vendor, and the overview page does not name the scale of the score. The connection is not open: the MCP server requires authentication, by key or OAuth, unlike Pulumi’s public brand server. And the subject is a different one: what gets checked is a style guide. The tool flags and suggests, it approves nothing, and who decided a rule does not appear in its answers. By its own account the company was born out of the research and technology of the text checker Acrolinx.",
@@ -3236,7 +3236,7 @@
           "url": "https://markup.ai/"
         }
       ],
-      "citationText": "Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP. The tool flags what does not fit, explains why and supplies wording to apply in place; every text is also scored against the stored standards. The vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to, for instance with a prompt asking it to check a paragraph for brand-voice drift. (Markup AI, own site and documentation, retrieved 20 September 2026). https://markup.ai/"
+      "citationText": "Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP. The tool flags what does not fit, explains why and supplies wording to apply in place; every text is also scored against the stored standards. The vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to, for instance with a prompt asking it to check a paragraph for brand-voice drift. (Markup AI, own site and documentation, retrieved 20 September 2026). https://markup.ai/ · via https://robert-haase.de/en/evidence.html#markup-ai-stilpruefung"
     }
   ]
 }
