@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-34 von 103 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+36 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (24) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (26) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, lighthouse-agent-discovery, content-signal-selten
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map
 + Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
 
@@ -254,7 +254,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## agenten-erfolg
 
-**Aussage:** Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in zehn Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im Oktober 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.
+**Aussage:** Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in gut 16 Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im März 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.
 
 **Was die Zahl nicht sagt:** Die aktuellen Werte stammen aus *vier* Einträgen einer Bestenliste, eingereicht von den Anbietern der Agenten und vom Benchmark-Team nachgeprüft. Das ist keine unabhängige Reihenuntersuchung. **Und eine Warnung steht auf der Bestenliste selbst:** Die Aufgaben sind seit April 2025 öffentlich, das Team bittet ausdrücklich darum, sie nicht als Trainingsdaten zu verwenden. Ob die Werte Können abbilden oder Gewöhnung an bekannte Aufgaben, ist damit nicht entschieden. Gemessen wird außerdem, ob eine Aufgabe gelöst wurde, nicht wie gut und nicht, ob die Marke dabei korrekt dargestellt war.
 
@@ -504,4 +504,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 34 von 34 Einträgen zum Thema Agenten. Letzter Eintrag: markup-ai-stilpruefung.
+## lighthouse-agent-discovery
+
+**Aussage:** Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht, und führt diese Prüfung zusammen mit der Prüfung der llms.txt in einer eigenen Gruppe „Agent Discoverability“. Laut Release kommt das mit Chrome 156 in die DevTools und binnen zwei Wochen in PageSpeed Insights.
+
+**Was der Eintrag nicht belegt:** dass Agenten diese Dateien lesen. Ein Prüfwerkzeug misst, ob etwas vorhanden und gültig ist, nicht, ob es genutzt wird. Die Prüfung der llms.txt gibt es schon seit Version 13.3.0; für die Google-Suche erklärt Google dieselbe Datei für unnötig, wie ein eigener Eintrag zum Leitfaden der Google-Suche belegt. **Die Spezifikation ist ein Vorschlag:** ARD steht in Version 0.91 vom 26. August 2026 im Status „Proposal“, unter den Autoren sind Leute von Google und Hugging Face; ein Gremienstandard ist es nicht. **Und Werkzeug und Spezifikation laufen auseinander:** Die Spezifikation verlangt den Pfad /.well-known/ard.json, Lighthouse sucht noch den Vorgängernamen /.well-known/ai-catalog.json.
+
+**Quelle:** Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ ([zur Spezifikation](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · abgerufen am 21. September 2026 · [Zur Quelle](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#lighthouse-agent-discovery
+
+---
+
+## content-signal-selten
+
+**Aussage:** Cloudflares maschinenlesbare Erklärung „Content-Signal“, mit der eine robots.txt Suche, KI-Eingabe und KI-Training erlaubt oder untersagt, steht bei keinem der 77 deutschsprachigen Nachrichten- und Fachmedien. Unter den 139 robots.txt, die Startseiten der Unternehmen aus DAX, MDAX und SDAX ausliefern, führt sie genau eine, die von Heidelberg Materials, und die erlaubt alle drei Nutzungen.
+
+**Was die Zahl nicht sagt:** Gezählt ist das Vorkommen der Zeile in den am 17. September 2026 abgerufenen Dateien, nicht ihre Wirkung. Die Signale sind erklärte Präferenzen ohne technische Sperre; Cloudflare erklärt Einschränkungen darin zu einem Rechtsvorbehalt nach Artikel 4 der Richtlinie (EU) 2019/790, ob er als solcher trägt, ist offen. **Die Stichprobe spricht nur für diese Listen:** Cloudflare nennt über 3,8 Millionen Domains, deren robots.txt der Dienst verwaltet und um die Erklärung ergänzen wollte. Von den 160 Index-Startseiten lieferten 139 eine robots.txt, 7 hatten keine, 14 antworteten nicht; diese 14 könnten die Zeile tragen.
+
+**Quelle:** Eigene Erhebung, 17. September 2026 · dieselben Dateien wie beim Eintrag zum Rechtsvorbehalt in der robots.txt: 77 Medientitel, alle mit robots.txt, und 160 Startseiten aus DAX, MDAX und SDAX, davon 139 mit robots.txt · gesucht wurde nach einer Zeile Content-Signal, gleich in welcher Schreibweise · zur Erklärung selbst: Cloudflare, „Giving users choice with Cloudflare’s new Content Signals Policy“, 24. September 2025 ([zur Erklärung](https://blog.cloudflare.com/content-signals-policy/))
+
+**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#content-signal-selten
+
+---
+
+Ende der Datei: 36 von 36 Einträgen zum Thema Agenten. Letzter Eintrag: content-signal-selten.

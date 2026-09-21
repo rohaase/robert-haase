@@ -1,6 +1,6 @@
 # Evidence: Agents
 
-34 of 103 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
+36 of 108 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-agenten.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (24) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung
++ Verified study, vendor documentation, or court decision (26) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, lighthouse-agent-discovery, content-signal-selten
 + Preliminary: prototype, single test, forecast, or vendor figure (7) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map
 + Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
 
@@ -254,7 +254,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## agenten-erfolg
 
-**Claim:** Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in ten months. When the benchmark was first evaluated in October 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely.
+**Claim:** Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in just over 16 months. When the benchmark was first evaluated in March 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024. By August 2026 the leading entry solves even the hardest tasks — those needing eleven steps or more — completely.
 
 **What the number does not say:** The current figures come from *four* leaderboard entries, submitted by the agents' own vendors and checked by the benchmark team — not an independent survey. **And a warning sits on the leaderboard itself:** the tasks have been public since April 2025, and the team explicitly asks that they not be used as training data. Whether the scores show capability or familiarity with known tasks is therefore undecided. What is measured is whether a task was completed, not how well — and not whether the brand was represented correctly along the way.
 
@@ -504,4 +504,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 34 of 34 entries on Agents. Last entry: markup-ai-stilpruefung.
+## lighthouse-agent-discovery
+
+**Claim:** Since version 13.5.0 of 18 September 2026, Google’s audit tool Lighthouse also checks whether a website’s catalogue for agents conforms to the “Agentic Resource Discovery” specification, and groups this check with the llms.txt check under a group of its own, “Agent Discoverability”. According to the release, this ships in the DevTools of Chrome 156 and in PageSpeed Insights within two weeks.
+
+**What this entry does not establish:** that agents read these files. An audit tool measures whether something is present and valid, not whether it is used. The llms.txt check has existed since version 13.3.0; for Google Search, Google declares the same file unnecessary, as an entry of its own on the Google Search guide documents. **The specification is a proposal:** ARD stands at version 0.91 of 26 August 2026 with the status “Proposal”, and its authors include people from Google and Hugging Face; it is not a standards-body specification. **And tool and specification diverge:** the specification requires the path /.well-known/ard.json, while Lighthouse still looks for the predecessor name /.well-known/ai-catalog.json.
+
+**Source:** Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” ([to the specification](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · retrieved 21 September 2026 · [Source](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
+
+**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#lighthouse-agent-discovery
+
+---
+
+## content-signal-selten
+
+**Claim:** Cloudflare’s machine-readable declaration “Content-Signal”, with which a robots.txt allows or refuses search, AI input and AI training, appears at none of the 77 German-language news and trade media. Among the 139 robots.txt files served by home pages of the DAX, MDAX and SDAX companies, exactly one carries it, that of Heidelberg Materials, and it allows all three uses.
+
+**What the figure does not say:** It counts the occurrence of the line in the files retrieved on 17 September 2026, not its effect. The signals are declared preferences without a technical block; Cloudflare declares restrictions expressed in them a reservation of rights under Article 4 of Directive (EU) 2019/790, and whether it holds as one is open. **The sample speaks only for these lists:** Cloudflare cites over 3.8 million domains whose robots.txt the service manages and said it would extend with the declaration. Of the 160 index home pages, 139 served a robots.txt, 7 had none and 14 did not answer; those 14 could carry the line.
+
+**Source:** Own survey, 17 September 2026 · the same files as the entry on the reservation of rights in robots.txt: 77 media titles, all with a robots.txt, and 160 home pages from DAX, MDAX and SDAX, 139 of them with a robots.txt · searched for a Content-Signal line in any spelling · on the declaration itself: Cloudflare, “Giving users choice with Cloudflare’s new Content Signals Policy”, 24 September 2025 ([to the declaration](https://blog.cloudflare.com/content-signals-policy/))
+
+**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#content-signal-selten
+
+---
+
+End of file: 36 of 36 entries on Agents. Last entry: content-signal-selten.

@@ -11,7 +11,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 103,
+  "numberOfItems": 108,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -26,7 +26,7 @@
     {
       "id": "ki-suche",
       "name": "KI-Suche",
-      "numberOfItems": 16,
+      "numberOfItems": 17,
       "textFile": "https://robert-haase.de/belege-ki-suche.md",
       "ids": [
         "llmstxt-abrufe",
@@ -44,7 +44,8 @@
         "aio-top10-uneinig",
         "llmstxt-nutzen",
         "markenstatur-sichtbarkeit",
-        "zitier-position"
+        "zitier-position",
+        "eigene-seite-selten-zitiert"
       ],
       "groups": {
         "strong": [
@@ -64,7 +65,8 @@
           "geo-40-prozent",
           "aio-top10-uneinig",
           "markenstatur-sichtbarkeit",
-          "zitier-position"
+          "zitier-position",
+          "eigene-seite-selten-zitiert"
         ],
         "plain": [
           "llmstxt-nutzen"
@@ -74,7 +76,7 @@
     {
       "id": "agenten",
       "name": "Agenten",
-      "numberOfItems": 34,
+      "numberOfItems": 36,
       "textFile": "https://robert-haase.de/belege-agenten.md",
       "ids": [
         "leere-buttons",
@@ -110,7 +112,9 @@
         "muse-connectors",
         "olivares-access-map",
         "adobe-markenpruefung",
-        "markup-ai-stilpruefung"
+        "markup-ai-stilpruefung",
+        "lighthouse-agent-discovery",
+        "content-signal-selten"
       ],
       "groups": {
         "strong": [
@@ -137,7 +141,9 @@
           "microsoft-brand-kit",
           "muse-connectors",
           "adobe-markenpruefung",
-          "markup-ai-stilpruefung"
+          "markup-ai-stilpruefung",
+          "lighthouse-agent-discovery",
+          "content-signal-selten"
         ],
         "weak": [
           "agent-ready",
@@ -158,7 +164,7 @@
     {
       "id": "handel",
       "name": "Handel",
-      "numberOfItems": 6,
+      "numberOfItems": 7,
       "textFile": "https://robert-haase.de/belege-handel.md",
       "ids": [
         "checkout-rueckbau",
@@ -166,11 +172,13 @@
         "walmart-verhandlung",
         "journey-start",
         "kaufentscheidung",
-        "ucp-gremium-ohne-zahlen"
+        "ucp-gremium-ohne-zahlen",
+        "shopify-knowledge-base"
       ],
       "groups": {
         "strong": [
-          "airline-direktkanal"
+          "airline-direktkanal",
+          "shopify-knowledge-base"
         ],
         "weak": [],
         "plain": [
@@ -273,7 +281,7 @@
     {
       "id": "urteil",
       "name": "Urteil",
-      "numberOfItems": 19,
+      "numberOfItems": 20,
       "textFile": "https://robert-haase.de/belege-urteil.md",
       "ids": [
         "metr-selbsteinschaetzung",
@@ -294,7 +302,8 @@
         "boussioux-neuheit-wert",
         "mintzberg-muster",
         "wahrgenommene-differenzierung",
-        "de-skilling"
+        "de-skilling",
+        "unverwechselbare-markenelemente"
       ],
       "groups": {
         "strong": [
@@ -304,7 +313,8 @@
           "sykophanz",
           "cowan-standards",
           "kompetenz-nivellierung",
-          "boussioux-neuheit-wert"
+          "boussioux-neuheit-wert",
+          "unverwechselbare-markenelemente"
         ],
         "weak": [],
         "plain": [
@@ -566,10 +576,10 @@
       "text": "Bei informationsgetriebenen Anfragen mit KI-Zusammenfassung fiel die organische Klickrate von 1,76 auf 0,61 Prozent, also um 61 Prozent. Bei Anfragen ohne Zusammenfassung fiel sie im selben Zeitraum von 2,74 auf 1,62 Prozent, also um 41 Prozent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025",
+        "name": "Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025 · neuere Ausgabe: „AIO Impact on Google CTR: 2026 Update“, April 2026, 53 Marken, 5,47 Millionen Suchbegriffe, 2,43 Milliarden organische Impressionen, Januar 2025 bis Februar 2026, abgerufen am 21. September 2026",
         "url": "https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Der zweite Teil ist der wichtigere und wird beim Zitieren fast immer weggelassen. Auch ohne KI-Zusammenfassung brach die Klickrate um 41 Prozent ein. Der Rückgang lässt sich also nicht allein den Zusammenfassungen zuschreiben, das Suchverhalten verändert sich insgesamt. Seer schreibt selbst, ein Ursachenbeweis sei nicht möglich, und nennt Streuungen von 0,8 bis 1,2 Prozentpunkten zwischen den einzelnen Anfragen. Untersucht wurden ausschließlich informationsgetriebene Anfragen, keine kommerziellen; die bezahlte Stichprobe ist mit 1,1 Millionen Impressionen deutlich kleiner als die organische.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Der zweite Teil ist der wichtigere und wird beim Zitieren fast immer weggelassen. Auch ohne KI-Zusammenfassung brach die Klickrate um 41 Prozent ein. Der Rückgang lässt sich also nicht allein den Zusammenfassungen zuschreiben, das Suchverhalten verändert sich insgesamt. Seer schreibt selbst, ein Ursachenbeweis sei nicht möglich, und nennt Streuungen von 0,8 bis 1,2 Prozentpunkten zwischen den einzelnen Anfragen. Untersucht wurden ausschließlich informationsgetriebene Anfragen, keine kommerziellen; die bezahlte Stichprobe ist mit 1,1 Millionen Impressionen deutlich kleiner als die organische. Neuere Ausgabe: Seers dritte Auswertung vom April 2026 (53 Marken, 5,47 Millionen Suchbegriffe, neue Methode, mit den Werten oben nicht vergleichbar) sieht die organische Klickrate bei Anfragen mit KI-Zusammenfassung nach einem Tiefstand von 1,3 Prozent im Dezember 2025 im Februar 2026 wieder bei 2,4 Prozent, ohne Zusammenfassung bei 3,8 Prozent. Seer sieht darin eine Stabilisierung auf niedrigerem Niveau, keine Rückkehr zum Stand vor den Zusammenfassungen.",
       "position": 9,
       "id": "seer-klickrate",
       "url": "https://robert-haase.de/belege.html#seer-klickrate",
@@ -578,8 +588,12 @@
         "name": "Geprüfte Erhebung",
         "group": "strong"
       },
-      "sourceText": "Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025 · Zur Quelle",
+      "sourceText": "Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025 · neuere Ausgabe: „AIO Impact on Google CTR: 2026 Update“, April 2026, 53 Marken, 5,47 Millionen Suchbegriffe, 2,43 Milliarden organische Impressionen, Januar 2025 bis Februar 2026, abgerufen am 21. September 2026 · zur neueren Ausgabe · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zur neueren Ausgabe",
+          "url": "https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update"
@@ -1575,7 +1589,7 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#agenten-erfolg",
-      "text": "Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in zehn Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im Oktober 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.",
+      "text": "Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in gut 16 Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im März 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.",
       "appearance": {
         "@type": "CreativeWork",
         "name": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites",
@@ -1601,7 +1615,7 @@
           "url": "https://arxiv.org/abs/2504.01382"
         }
       ],
-      "citationText": "Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in zehn Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im Oktober 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig. (Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites). https://arxiv.org/abs/2504.01382 · via https://robert-haase.de/belege.html#agenten-erfolg"
+      "citationText": "Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in gut 16 Monaten von 61 auf 97,7 Prozent gestiegen. Als der Benchmark im März 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig. (Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites). https://arxiv.org/abs/2504.01382 · via https://robert-haase.de/belege.html#agenten-erfolg"
     },
     {
       "@type": "Claim",
@@ -1633,13 +1647,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
-      "text": "Der Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.",
+      "text": "Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung",
+        "name": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026",
         "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. Die fehlende Verbreitungszahl ist ein Negativbefund: Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. Vorsicht bei Sekundärquellen: Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. Die fehlende Verbreitungszahl ist ein Negativbefund: Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. Eine Drittzählung gibt es: Der Prüfdienst UCP Checker meldet am 26. August 2026 15.735 geprüfte Storefronts unter 19.336 beobachteten Domains; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). Vorsicht bei Sekundärquellen: Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug.",
       "position": 47,
       "id": "ucp-gremium-ohne-zahlen",
       "url": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
@@ -1648,8 +1662,12 @@
         "name": "Stand der Normung",
         "group": "plain"
       },
-      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · zu Googles Ankündigung · Zur Quelle",
+      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 (zur Zählung) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · zu Googles Ankündigung · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zur Zählung",
+          "url": "https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026"
+        },
         {
           "name": "zu Googles Ankündigung",
           "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/"
@@ -1659,7 +1677,7 @@
           "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
         }
       ],
-      "citationText": "Der Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden. (Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung). https://github.com/Universal-Commerce-Protocol/ucp/discussions/379 · via https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen"
+      "citationText": "Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden. (Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung). https://github.com/Universal-Commerce-Protocol/ucp/discussions/379 · via https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen"
     },
     {
       "@type": "Claim",
@@ -2456,10 +2474,10 @@
       "text": "Erfahrene Entwickler brauchten mit KI-Werkzeugen 19 Prozent länger, hielten sich dabei aber für 20 Prozent schneller. Vorher hatten sie 24 Prozent Beschleunigung erwartet. Zwischen gemessener und empfundener Wirkung liegen 43 Prozentpunkte, mit umgekehrtem Vorzeichen.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben",
+        "name": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026",
         "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. Was bleibt: die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. Neuere Messung: In einer zweiten Studie mit 57 Entwicklern und über 800 Aufgaben misst METR im Februar 2026 für die zehn zurückkehrenden Teilnehmer 18 Prozent kürzere Bearbeitungszeiten mit KI, für die neuen 4 Prozent kürzere; beide Vertrauensbereiche schließen null ein. METR hält es für wahrscheinlich, dass KI-Werkzeuge Anfang 2026 stärker beschleunigen, und wertet die Zahlen als Untergrenze, weil viele nicht mehr ohne KI arbeiten wollten und deshalb fehlen. Was bleibt: die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.",
       "position": 75,
       "id": "metr-selbsteinschaetzung",
       "url": "https://robert-haase.de/belege.html#metr-selbsteinschaetzung",
@@ -2468,8 +2486,12 @@
         "name": "Kontrollierter Test",
         "group": "strong"
       },
-      "sourceText": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · Zur Studie",
+      "sourceText": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026 · zur neueren Messung · Zur Studie",
       "sourceLinks": [
+        {
+          "name": "zur neueren Messung",
+          "url": "https://metr.org/blog/2026-02-24-uplift-update/"
+        },
         {
           "name": "Zur Studie",
           "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
@@ -2680,13 +2702,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
-      "text": "Auf der Turnier-Rangliste von ForecastBench steht der Median menschlicher Superforecaster mit 68,8 auf Rang vier, vor ihm drei Einreichungen von Google DeepMind mit Werkzeugen und Zusatzkontext. Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,8 vor dem besten Modell mit 62,6.",
+      "text": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,8 gleichauf auf Rang drei; vor ihm liegen zwei Einreichungen von Google DeepMind mit Werkzeugen und Zusatzkontext (69,2 und 69,0), eine dritte steht gleichauf. Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,8 vor dem besten Modell mit 62,0.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste, abgerufen am 10. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand",
+        "name": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste sowie Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand",
         "url": "https://www.forecastbench.org/leaderboards/"
       },
-      "disambiguatingDescription": "Was die Rangliste nicht sagt: Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die drei Spitzenplätze, p-Werte 0,71, 0,60 und 0,57, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Bestwert aus vielen Versuchen: Google DeepMind hält 50 der 334 Einreichungen und alle drei Plätze vor dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 790 und 1.165. Zur Parität: Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Februar 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke.",
+      "disambiguatingDescription": "Was die Rangliste nicht sagt: Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die drei Plätze vor und neben dem Median, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Die Werte verschieben sich mit jeder nächtlichen Neuberechnung um Zehntel. Bestwert aus vielen Versuchen: Google DeepMind hält 53 der 343 Einreichungen und alle drei Plätze vor oder neben dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 843. Zur Parität: Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Juni 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke.",
       "position": 83,
       "id": "prognose-mensch-maschine",
       "url": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
@@ -2695,14 +2717,14 @@
         "name": "Laufende Messung",
         "group": "plain"
       },
-      "sourceText": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste, abgerufen am 10. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · Zur Rangliste",
+      "sourceText": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste sowie Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · Zur Rangliste",
       "sourceLinks": [
         {
           "name": "Zur Rangliste",
           "url": "https://www.forecastbench.org/leaderboards/"
         }
       ],
-      "citationText": "Auf der Turnier-Rangliste von ForecastBench steht der Median menschlicher Superforecaster mit 68,8 auf Rang vier, vor ihm drei Einreichungen von Google DeepMind mit Werkzeugzugang. Ohne Werkzeuge führt der menschliche Median weiterhin mit 67,8 vor 62,6. (ForecastBench, Stand 10. September 2026; die Signifikanzspalte verneint einen Unterschied für die drei Spitzenplätze). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/belege.html#prognose-mensch-maschine"
+      "citationText": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,8 gleichauf auf Rang drei; vor ihm liegen zwei Einreichungen von Google DeepMind mit Werkzeugen und Zusatzkontext (69,2 und 69,0), eine dritte steht gleichauf. Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,8 vor dem besten Modell mit 62,0. (ForecastBench, Stand 21. September 2026; die Signifikanzspalte verneint einen Unterschied für die drei Plätze vor und neben dem Median). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/belege.html#prognose-mensch-maschine"
     },
     {
       "@type": "Claim",
@@ -3245,6 +3267,153 @@
         }
       ],
       "citationText": "Markup AI prüft Inhalte gegen die eigenen Sprach- und Stilvorgaben und ist dabei selbst über MCP erreichbar. Das Werkzeug markiert, was nicht passt, begründet es und liefert einen Formulierungsvorschlag zum Übernehmen; jeder Text wird zusätzlich gegen die hinterlegten Vorgaben bewertet. Der Anbieter betreibt dafür einen MCP-Server unter api.markup.ai, an den sich Assistenten wie Claude oder Cursor anschließen, etwa mit der Aufforderung, einen Absatz auf Abweichungen von der Markenstimme zu prüfen. (Markup AI, eigene Seite und Dokumentation, abgerufen am 20. September 2026). https://markup.ai/ · via https://robert-haase.de/belege.html#markup-ai-stilpruefung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#lighthouse-agent-discovery",
+      "text": "Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht, und führt diese Prüfung zusammen mit der Prüfung der llms.txt in einer eigenen Gruppe „Agent Discoverability“. Laut Release kommt das mit Chrome 156 in die DevTools und binnen zwei Wochen in PageSpeed Insights.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ · abgerufen am 21. September 2026",
+        "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0"
+      },
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: dass Agenten diese Dateien lesen. Ein Prüfwerkzeug misst, ob etwas vorhanden und gültig ist, nicht, ob es genutzt wird. Die Prüfung der llms.txt gibt es schon seit Version 13.3.0; für die Google-Suche erklärt Google dieselbe Datei für unnötig, wie ein eigener Eintrag zum Leitfaden der Google-Suche belegt. Die Spezifikation ist ein Vorschlag: ARD steht in Version 0.91 vom 26. August 2026 im Status „Proposal“, unter den Autoren sind Leute von Google und Hugging Face; ein Gremienstandard ist es nicht. Und Werkzeug und Spezifikation laufen auseinander: Die Spezifikation verlangt den Pfad /.well-known/ard.json, Lighthouse sucht noch den Vorgängernamen /.well-known/ai-catalog.json.",
+      "position": 104,
+      "id": "lighthouse-agent-discovery",
+      "url": "https://robert-haase.de/belege.html#lighthouse-agent-discovery",
+      "topic": "agenten",
+      "grade": {
+        "name": "Herstellerdokumentation",
+        "group": "strong"
+      },
+      "sourceText": "Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ (zur Spezifikation) · abgerufen am 21. September 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zur Spezifikation",
+          "url": "https://github.com/ards-project/ard-spec/blob/main/spec/ard.md"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0"
+        }
+      ],
+      "citationText": "Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht, und führt diese Prüfung zusammen mit der Prüfung der llms.txt in einer eigenen Gruppe „Agent Discoverability“. Laut Release kommt das mit Chrome 156 in die DevTools und binnen zwei Wochen in PageSpeed Insights. (Google, Lighthouse-Release 13.5.0, 18. September 2026). https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0 · via https://robert-haase.de/belege.html#lighthouse-agent-discovery"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#eigene-seite-selten-zitiert",
+      "text": "Wenn KI-Suchen Marken empfehlen, stützen sie sich selten auf die eigene Website der Marke. Bei AirOps kamen bei Anfragen, mit denen Nutzer Anbieter suchen und vergleichen, 85 Prozent von 21.311 Markennennungen in ChatGPT, Claude und Perplexity aus fremden Quellen und 13,2 Prozent von der eigenen Domain. Bei Ranqo zeigen von 149.912 Quellenangaben aus fünf KI-Suchen nur 2,9 Prozent auf die Domain der Marke selbst, 75,2 Prozent auf Seiten anderer Unternehmen derselben Branche.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "AirOps, „Third-Party Sources Drive 85% of Brand Discovery“, 17. Oktober 2025, 21.311 Markennennungen in ChatGPT, Claude und Perplexity bei Anfragen zur Anbietersuche · Kumar (Ranqo), „Generative Engine Optimization at Scale“, arXiv 2606.20065, 18. Juni 2026, Preprint ohne Begutachtung, 102 Marken, 102.025 Antworten, 149.912 Quellenangaben aus fünf KI-Suchen, März bis Mai 2026 · beide abgerufen am 21. September 2026",
+        "url": "https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search"
+      },
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: Beide stammen von Anbietern, die Werkzeuge für Sichtbarkeit in KI-Suchen verkaufen. Der Ranqo-Autor ist Mitgründer und am Unternehmen beteiligt, die Marken sind die eigener Kunden und nach eigener Angabe nicht repräsentativ ausgewählt, überwiegend Software-Anbieter, Fintechs und indische Direktmarken. AirOps nennt keinen Erhebungszeitraum. Gemessen ist das Zitieren, nicht Kauf oder Wirkung. Vorsicht beim Weitergeben: Ranqos oft zitierte „rund 78 Prozent Unternehmensseiten“ zählen die eigene Seite der Marke und fremde Firmenseiten zusammen; auf die eigene entfallen davon 2,9 Prozent.",
+      "position": 105,
+      "id": "eigene-seite-selten-zitiert",
+      "url": "https://robert-haase.de/belege.html#eigene-seite-selten-zitiert",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Zwei Anbietermessungen, vorläufig",
+        "group": "weak"
+      },
+      "sourceText": "AirOps, „Third-Party Sources Drive 85% of Brand Discovery“, 17. Oktober 2025, 21.311 Markennennungen in ChatGPT, Claude und Perplexity bei Anfragen zur Anbietersuche · Kumar (Ranqo), „Generative Engine Optimization at Scale“, arXiv 2606.20065, 18. Juni 2026, Preprint ohne Begutachtung, 102 Marken, 102.025 Antworten, 149.912 Quellenangaben aus fünf KI-Suchen, März bis Mai 2026 (zum Preprint) · beide abgerufen am 21. September 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zum Preprint",
+          "url": "https://arxiv.org/abs/2606.20065"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search"
+        }
+      ],
+      "citationText": "Wenn KI-Suchen Marken empfehlen, stützen sie sich selten auf die eigene Website der Marke. Bei AirOps kamen bei Anfragen, mit denen Nutzer Anbieter suchen und vergleichen, 85 Prozent von 21.311 Markennennungen in ChatGPT, Claude und Perplexity aus fremden Quellen und 13,2 Prozent von der eigenen Domain. Bei Ranqo zeigen von 149.912 Quellenangaben aus fünf KI-Suchen nur 2,9 Prozent auf die Domain der Marke selbst, 75,2 Prozent auf Seiten anderer Unternehmen derselben Branche. (AirOps, 17. Oktober 2025, und Kumar (Ranqo), arXiv 2606.20065, 18. Juni 2026). https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search und https://arxiv.org/abs/2606.20065 · via https://robert-haase.de/belege.html#eigene-seite-selten-zitiert"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#unverwechselbare-markenelemente",
+      "text": "Forscher des Ehrenberg-Bass-Instituts haben 1.162 unverwechselbare Markenelemente von 128 Marken aus 21 Warengruppen, vier Ländern und neun Jahren ausgewertet. Formen wie Logos und Verpackungen schneiden am besten ab: Im Mittel ordnen 40 Prozent der Befragten sie der Marke zu, und 71 Prozent der Zuordnungen gehen an genau diese Marke. Farben schneiden am schwächsten ab, mit 12 und 39 Prozent.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Phua, Bali, Anesbury und Sharp (Ehrenberg-Bass Institute, Adelaide University), „Shape-based assets are strongest: benchmarking distinctive brand asset performance across industries“, International Journal of Advertising, online seit 5. März 2026, begutachtet, CC BY 4.0, keine Interessenkonflikte angegeben · 1.162 Elemente, 128 Marken, 21 Warengruppen, Australien, Großbritannien, USA und Neuseeland, 2015 bis 2023 · Bekanntheit und Einzigartigkeit als Mittelwerte je Elementtyp · Volltext gelesen am 21. September 2026",
+        "url": "https://doi.org/10.1080/02650487.2026.2637295"
+      },
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: Die Daten stammen aus Studien, die Marken beim Institut in Auftrag gegeben haben, erhoben über Online-Panels, und sind aus kommerziellen Gründen nicht zugänglich. Erfasst sind nur Elemente, die zum Zeitpunkt der Befragung noch im Einsatz waren; aufgegebene fehlen, diese Verzerrung benennen die Autoren selbst. Einen Vergleich zwischen Ländern erlauben die Daten nach ihrer Angabe nicht. Und was daraus nicht folgt: Gemessen ist, was Menschen einer Marke zuordnen. Dass eine Marke an wenigen Dingen erkannt wird, ist daraus gefolgert, nicht gezählt, und wie Maschinen eine Marke erkennen, ist nicht untersucht.",
+      "position": 106,
+      "id": "unverwechselbare-markenelemente",
+      "url": "https://robert-haase.de/belege.html#unverwechselbare-markenelemente",
+      "topic": "urteil",
+      "grade": {
+        "name": "Geprüfte Erhebung",
+        "group": "strong"
+      },
+      "sourceText": "Phua, Bali, Anesbury und Sharp (Ehrenberg-Bass Institute, Adelaide University), „Shape-based assets are strongest: benchmarking distinctive brand asset performance across industries“, International Journal of Advertising, online seit 5. März 2026, begutachtet, CC BY 4.0, keine Interessenkonflikte angegeben · 1.162 Elemente, 128 Marken, 21 Warengruppen, Australien, Großbritannien, USA und Neuseeland, 2015 bis 2023 · Bekanntheit und Einzigartigkeit als Mittelwerte je Elementtyp · Volltext gelesen am 21. September 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://doi.org/10.1080/02650487.2026.2637295"
+        }
+      ],
+      "citationText": "Forscher des Ehrenberg-Bass-Instituts haben 1.162 unverwechselbare Markenelemente von 128 Marken aus 21 Warengruppen, vier Ländern und neun Jahren ausgewertet. Formen wie Logos und Verpackungen schneiden am besten ab: Im Mittel ordnen 40 Prozent der Befragten sie der Marke zu, und 71 Prozent der Zuordnungen gehen an genau diese Marke. Farben schneiden am schwächsten ab, mit 12 und 39 Prozent. (Phua, Bali, Anesbury und Sharp, International Journal of Advertising, online seit 5. März 2026). https://doi.org/10.1080/02650487.2026.2637295 · via https://robert-haase.de/belege.html#unverwechselbare-markenelemente"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#shopify-knowledge-base",
+      "text": "Shopify gibt Händlern seit dem 16. Mai 2025 eine kostenlose eigene App, mit der sie festlegen, was KI-Shopping-Agenten über ihren Shop antworten. Händler sehen automatisch erzeugte Fakten und häufige Fragen der Kundschaft und können Antworten anpassen oder neu schreiben. Die Antworten stehen nicht im Shop, sie dienen KI-Plattformen als Datenquelle, und die App zeigt, wie viele Fragen von Agenten kommen und ob die KI sie beantworten kann.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Shopify, Hilfeseite „Shopify Knowledge Base“ und App-Store-Eintrag der App: eingeführt am 16. Mai 2025, kostenlos, Entwickler Shopify, 29 Bewertungen, Sprache Englisch · abgerufen am 21. September 2026",
+        "url": "https://help.shopify.com/en/manual/promoting-marketing/knowledge-base"
+      },
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung oder Wirkung. Es sind Angaben des Herstellers ohne Nutzungszahlen; im App Store stehen 29 Bewertungen mit im Schnitt 3,6 von 5 Sternen. Was die App verspricht und was nicht: Laut Shopify verbessert sie die Genauigkeit der Antworten über den Shop, nicht die Häufigkeit, mit der er in KI-Antworten auftaucht. Welche Plattformen die Antworten übernehmen, nennt die Hilfeseite nicht, und die App gibt es nur auf Englisch.",
+      "position": 107,
+      "id": "shopify-knowledge-base",
+      "url": "https://robert-haase.de/belege.html#shopify-knowledge-base",
+      "topic": "handel",
+      "grade": {
+        "name": "Herstellerdokumentation",
+        "group": "strong"
+      },
+      "sourceText": "Shopify, Hilfeseite „Shopify Knowledge Base“ und App-Store-Eintrag der App: eingeführt am 16. Mai 2025, kostenlos, Entwickler Shopify, 29 Bewertungen, Sprache Englisch · abgerufen am 21. September 2026 · zum App-Store-Eintrag · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zum App-Store-Eintrag",
+          "url": "https://apps.shopify.com/shopify-knowledge-base"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://help.shopify.com/en/manual/promoting-marketing/knowledge-base"
+        }
+      ],
+      "citationText": "Shopify gibt Händlern seit dem 16. Mai 2025 eine kostenlose eigene App, mit der sie festlegen, was KI-Shopping-Agenten über ihren Shop antworten. Händler sehen automatisch erzeugte Fakten und häufige Fragen der Kundschaft und können Antworten anpassen oder neu schreiben. Die Antworten stehen nicht im Shop, sie dienen KI-Plattformen als Datenquelle, und die App zeigt, wie viele Fragen von Agenten kommen und ob die KI sie beantworten kann. (Shopify, Hilfeseite „Shopify Knowledge Base“ und App-Store-Eintrag, abgerufen am 21. September 2026). https://help.shopify.com/en/manual/promoting-marketing/knowledge-base · via https://robert-haase.de/belege.html#shopify-knowledge-base"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#content-signal-selten",
+      "text": "Cloudflares maschinenlesbare Erklärung „Content-Signal“, mit der eine robots.txt Suche, KI-Eingabe und KI-Training erlaubt oder untersagt, steht bei keinem der 77 deutschsprachigen Nachrichten- und Fachmedien. Unter den 139 robots.txt, die Startseiten der Unternehmen aus DAX, MDAX und SDAX ausliefern, führt sie genau eine, die von Heidelberg Materials, und die erlaubt alle drei Nutzungen.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Eigene Erhebung, 17. September 2026 · dieselben Dateien wie beim Eintrag zum Rechtsvorbehalt in der robots.txt: 77 Medientitel, alle mit robots.txt, und 160 Startseiten aus DAX, MDAX und SDAX, davon 139 mit robots.txt · gesucht wurde nach einer Zeile Content-Signal, gleich in welcher Schreibweise · zur Erklärung selbst: Cloudflare, „Giving users choice with Cloudflare’s new Content Signals Policy“, 24. September 2025",
+        "url": "https://robert-haase.de/belege.html#content-signal-selten"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Gezählt ist das Vorkommen der Zeile in den am 17. September 2026 abgerufenen Dateien, nicht ihre Wirkung. Die Signale sind erklärte Präferenzen ohne technische Sperre; Cloudflare erklärt Einschränkungen darin zu einem Rechtsvorbehalt nach Artikel 4 der Richtlinie (EU) 2019/790, ob er als solcher trägt, ist offen. Die Stichprobe spricht nur für diese Listen: Cloudflare nennt über 3,8 Millionen Domains, deren robots.txt der Dienst verwaltet und um die Erklärung ergänzen wollte. Von den 160 Index-Startseiten lieferten 139 eine robots.txt, 7 hatten keine, 14 antworteten nicht; diese 14 könnten die Zeile tragen.",
+      "position": 108,
+      "id": "content-signal-selten",
+      "url": "https://robert-haase.de/belege.html#content-signal-selten",
+      "topic": "agenten",
+      "grade": {
+        "name": "Eigene Erhebung, reproduzierbar",
+        "group": "strong"
+      },
+      "sourceText": "Eigene Erhebung, 17. September 2026 · dieselben Dateien wie beim Eintrag zum Rechtsvorbehalt in der robots.txt: 77 Medientitel, alle mit robots.txt, und 160 Startseiten aus DAX, MDAX und SDAX, davon 139 mit robots.txt · gesucht wurde nach einer Zeile Content-Signal, gleich in welcher Schreibweise · zur Erklärung selbst: Cloudflare, „Giving users choice with Cloudflare’s new Content Signals Policy“, 24. September 2025 (zur Erklärung)",
+      "sourceLinks": [
+        {
+          "name": "zur Erklärung",
+          "url": "https://blog.cloudflare.com/content-signals-policy/"
+        }
+      ],
+      "citationText": "Cloudflares maschinenlesbare Erklärung „Content-Signal“, mit der eine robots.txt Suche, KI-Eingabe und KI-Training erlaubt oder untersagt, steht bei keinem der 77 deutschsprachigen Nachrichten- und Fachmedien. Unter den 139 robots.txt, die Startseiten der Unternehmen aus DAX, MDAX und SDAX ausliefern, führt sie genau eine, die von Heidelberg Materials, und die erlaubt alle drei Nutzungen. (Eigene Erhebung, 17. September 2026, 77 Medien und 160 Startseiten aus DAX, MDAX und SDAX). https://robert-haase.de/belege.html#content-signal-selten"
     }
   ]
 }

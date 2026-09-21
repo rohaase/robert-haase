@@ -1,6 +1,6 @@
 # Belege: Urteil
 
-19 von 103 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+20 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-judgement.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
 + Sachstand, Fallbericht oder Marktbeobachtung (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
@@ -32,9 +32,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Erfahrene Entwickler brauchten mit KI-Werkzeugen 19 Prozent *länger*, hielten sich dabei aber für 20 Prozent schneller. Vorher hatten sie 24 Prozent Beschleunigung erwartet. Zwischen gemessener und empfundener Wirkung liegen 43 Prozentpunkte, mit umgekehrtem Vorzeichen.
 
-**Was die Zahl nicht sagt:** 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. **Was bleibt:** die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.
+**Was die Zahl nicht sagt:** 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. **Neuere Messung:** In einer zweiten Studie mit 57 Entwicklern und über 800 Aufgaben misst METR im Februar 2026 für die zehn zurückkehrenden Teilnehmer 18 Prozent kürzere Bearbeitungszeiten mit KI, für die neuen 4 Prozent kürzere; beide Vertrauensbereiche schließen null ein. METR hält es für wahrscheinlich, dass KI-Werkzeuge Anfang 2026 stärker beschleunigen, und wertet die Zahlen als Untergrenze, weil viele nicht mehr ohne KI arbeiten wollten und deshalb fehlen. **Was bleibt:** die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.
 
-**Quelle:** METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · [Zur Studie](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+**Quelle:** METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026 · [zur neueren Messung](https://metr.org/blog/2026-02-24-uplift-update/) · [Zur Studie](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
 **Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -142,11 +142,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## prognose-mensch-maschine
 
-**Aussage:** Auf der Turnier-Rangliste von ForecastBench steht der Median menschlicher Superforecaster mit 68,8 auf Rang vier, vor ihm drei Einreichungen von Google DeepMind mit Werkzeugen und Zusatzkontext. Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,8 vor dem besten Modell mit 62,6.
+**Aussage:** Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,8 gleichauf auf Rang drei; vor ihm liegen zwei Einreichungen von Google DeepMind mit Werkzeugen und Zusatzkontext (69,2 und 69,0), eine dritte steht gleichauf. Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,8 vor dem besten Modell mit 62,0.
 
-**Was die Rangliste nicht sagt:** Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die drei Spitzenplätze, p-Werte 0,71, 0,60 und 0,57, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. **Bestwert aus vielen Versuchen:** Google DeepMind hält 50 der 334 Einreichungen und alle drei Plätze vor dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 790 und 1.165. **Zur Parität:** Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Februar 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke.
+**Was die Rangliste nicht sagt:** Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die drei Plätze vor und neben dem Median, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Die Werte verschieben sich mit jeder nächtlichen Neuberechnung um Zehntel. **Bestwert aus vielen Versuchen:** Google DeepMind hält 53 der 343 Einreichungen und alle drei Plätze vor oder neben dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 843. **Zur Parität:** Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Juni 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke.
 
-**Quelle:** ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste, abgerufen am 10. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · [Zur Rangliste](https://www.forecastbench.org/leaderboards/)
+**Quelle:** ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste sowie Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · [Zur Rangliste](https://www.forecastbench.org/leaderboards/)
 
 **Einstufung:** Laufende Messung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -294,4 +294,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 19 von 19 Einträgen zum Thema Urteil. Letzter Eintrag: de-skilling.
+## unverwechselbare-markenelemente
+
+**Aussage:** Forscher des Ehrenberg-Bass-Instituts haben 1.162 unverwechselbare Markenelemente von 128 Marken aus 21 Warengruppen, vier Ländern und neun Jahren ausgewertet. Formen wie Logos und Verpackungen schneiden am besten ab: Im Mittel ordnen 40 Prozent der Befragten sie der Marke zu, und 71 Prozent der Zuordnungen gehen an genau diese Marke. Farben schneiden am schwächsten ab, mit 12 und 39 Prozent.
+
+**Was die Zahlen nicht sagen:** Die Daten stammen aus Studien, die Marken beim Institut in Auftrag gegeben haben, erhoben über Online-Panels, und sind aus kommerziellen Gründen nicht zugänglich. Erfasst sind nur Elemente, die zum Zeitpunkt der Befragung noch im Einsatz waren; aufgegebene fehlen, diese Verzerrung benennen die Autoren selbst. Einen Vergleich zwischen Ländern erlauben die Daten nach ihrer Angabe nicht. **Und was daraus nicht folgt:** Gemessen ist, was Menschen einer Marke zuordnen. Dass eine Marke an wenigen Dingen erkannt wird, ist daraus gefolgert, nicht gezählt, und wie Maschinen eine Marke erkennen, ist nicht untersucht.
+
+**Quelle:** Phua, Bali, Anesbury und Sharp (Ehrenberg-Bass Institute, Adelaide University), „Shape-based assets are strongest: benchmarking distinctive brand asset performance across industries“, International Journal of Advertising, online seit 5. März 2026, begutachtet, CC BY 4.0, keine Interessenkonflikte angegeben · 1.162 Elemente, 128 Marken, 21 Warengruppen, Australien, Großbritannien, USA und Neuseeland, 2015 bis 2023 · Bekanntheit und Einzigartigkeit als Mittelwerte je Elementtyp · Volltext gelesen am 21. September 2026 · [Zur Quelle](https://doi.org/10.1080/02650487.2026.2637295)
+
+**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#unverwechselbare-markenelemente
+
+---
+
+Ende der Datei: 20 von 20 Einträgen zum Thema Urteil. Letzter Eintrag: unverwechselbare-markenelemente.

@@ -1,6 +1,6 @@
 # Belege: Handel
 
-6 von 103 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+7 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (1) → airline-direktkanal
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → airline-direktkanal, shopify-knowledge-base
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
 + Sachstand, Fallbericht oder Marktbeobachtung (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
 
@@ -100,11 +100,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## ucp-gremium-ohne-zahlen
 
-**Aussage:** Der Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.
+**Aussage:** Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.
 
-**Was die Zahl nicht sagt:** Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. **Die fehlende Verbreitungszahl ist ein Negativbefund:** Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. **Vorsicht bei Sekundärquellen:** Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug.
+**Was die Zahl nicht sagt:** Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. **Die fehlende Verbreitungszahl ist ein Negativbefund:** Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. **Eine Drittzählung gibt es:** Der Prüfdienst UCP Checker meldet am 26. August 2026 15.735 geprüfte Storefronts unter 19.336 beobachteten Domains; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). **Vorsicht bei Sekundärquellen:** Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug.
 
-**Quelle:** Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · [zu Googles Ankündigung](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Zur Quelle](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
+**Quelle:** Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 ([zur Zählung](https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026)) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · [zu Googles Ankündigung](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Zur Quelle](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
 **Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -112,4 +112,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 6 von 6 Einträgen zum Thema Handel. Letzter Eintrag: ucp-gremium-ohne-zahlen.
+## shopify-knowledge-base
+
+**Aussage:** Shopify gibt Händlern seit dem 16. Mai 2025 eine kostenlose eigene App, mit der sie festlegen, was KI-Shopping-Agenten über ihren Shop antworten. Händler sehen automatisch erzeugte Fakten und häufige Fragen der Kundschaft und können Antworten anpassen oder neu schreiben. Die Antworten stehen nicht im Shop, sie dienen KI-Plattformen als Datenquelle, und die App zeigt, wie viele Fragen von Agenten kommen und ob die KI sie beantworten kann.
+
+**Was der Eintrag nicht belegt:** Nutzung oder Wirkung. Es sind Angaben des Herstellers ohne Nutzungszahlen; im App Store stehen 29 Bewertungen mit im Schnitt 3,6 von 5 Sternen. **Was die App verspricht und was nicht:** Laut Shopify verbessert sie die Genauigkeit der Antworten über den Shop, nicht die Häufigkeit, mit der er in KI-Antworten auftaucht. Welche Plattformen die Antworten übernehmen, nennt die Hilfeseite nicht, und die App gibt es nur auf Englisch.
+
+**Quelle:** Shopify, Hilfeseite „Shopify Knowledge Base“ und App-Store-Eintrag der App: eingeführt am 16. Mai 2025, kostenlos, Entwickler Shopify, 29 Bewertungen, Sprache Englisch · abgerufen am 21. September 2026 · [zum App-Store-Eintrag](https://apps.shopify.com/shopify-knowledge-base) · [Zur Quelle](https://help.shopify.com/en/manual/promoting-marketing/knowledge-base)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#shopify-knowledge-base
+
+---
+
+Ende der Datei: 7 von 7 Einträgen zum Thema Handel. Letzter Eintrag: shopify-knowledge-base.

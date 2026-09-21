@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-6 of 103 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
+7 of 108 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (1) → airline-direktkanal
++ Verified study, vendor documentation, or court decision (2) → airline-direktkanal, shopify-knowledge-base
 + Preliminary: prototype, single test, forecast, or vendor figure (0)
 + Status, case report, or market observation (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
 
@@ -100,11 +100,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## ucp-gremium-ohne-zahlen
 
-**Claim:** The Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they include Amazon, Meta, Microsoft, Stripe and Salesforce alongside Google, Shopify, Etsy, Target and Wayfair. How many merchants actually run the protocol is stated by none of the companies involved. Google names example merchants — Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden — attached to the word “soon”.
+**Claim:** The Shopping Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they include Amazon, Meta, Microsoft, Stripe and Salesforce alongside Google, Shopify, Etsy, Target and Wayfair. How many merchants actually run the protocol is stated by none of the companies involved. Google names example merchants — Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden — attached to the word “soon”.
 
-**What the number does not say:** A seat on a council is not an implementation. That Amazon, Meta and Microsoft help shape the protocol says nothing about whether they use it in their own stores. **The missing adoption figure is a negative finding:** it is absent from the primary sources checked — the UCP announcements in the project repository and two Google posts from 19 March and 19 May 2026. It may exist elsewhere. **Care with secondary sources:** they widely reproduce Google's sentence without the “soon”, turning an announcement into a fact.
+**What the number does not say:** A seat on a council is not an implementation. That Amazon, Meta and Microsoft help shape the protocol says nothing about whether they use it in their own stores. **The missing adoption figure is a negative finding:** it is absent from the primary sources checked — the UCP announcements in the project repository and two Google posts from 19 March and 19 May 2026. It may exist elsewhere. **A third-party count exists:** the checking service UCP Checker reports 15,735 verified storefronts among 19,336 monitored domains on 26 August 2026; it counts what stores declare technically and what responds, not orders. Besides the Shopping Tech Council there are now separate councils for food ordering, lodging and payments (as of 21 September 2026). **Care with secondary sources:** they widely reproduce Google's sentence without the “soon”, turning an announcement into a fact.
 
-**Source:** Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · [to Google’s announcement](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Source](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
+**Source:** Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · third-party count: UCP Checker, “The State of Agentic Commerce — August 2026”, 26 August 2026 ([to the count](https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026)) · councils per MAINTAINERS.md and GOVERNANCE.md in the Universal-Commerce-Protocol/.github repository, retrieved 21 September 2026 · [to Google’s announcement](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Source](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
 **Grade:** Standards status · Group: Status, case report, or market observation
 
@@ -112,4 +112,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 6 of 6 entries on Commerce. Last entry: ucp-gremium-ohne-zahlen.
+## shopify-knowledge-base
+
+**Claim:** Since 16 May 2025, Shopify has offered merchants a free app of its own for deciding what AI shopping agents answer about their store. Merchants see automatically generated facts and common customer questions and can adjust answers or write new ones. The answers do not appear in the store; they serve AI platforms as a data source, and the app shows how many questions come from agents and whether the AI can answer them.
+
+**What this entry does not establish:** use or effect. These are the vendor’s statements without usage figures; the App Store listing shows 29 reviews averaging 3.6 of 5 stars. **What the app promises and what it does not:** According to Shopify it improves the accuracy of answers about the store, not how often the store appears in AI answers. The help page does not name the platforms that take up the answers, and the app is available in English only.
+
+**Source:** Shopify, help page “Shopify Knowledge Base” and the app’s App Store listing: launched 16 May 2025, free, developer Shopify, 29 reviews, language English · retrieved 21 September 2026 · [to the App Store listing](https://apps.shopify.com/shopify-knowledge-base) · [Source](https://help.shopify.com/en/manual/promoting-marketing/knowledge-base)
+
+**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#shopify-knowledge-base
+
+---
+
+End of file: 7 of 7 entries on Commerce. Last entry: shopify-knowledge-base.

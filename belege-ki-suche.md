@@ -1,6 +1,6 @@
 # Belege: KI-Suche
 
-16 von 103 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+17 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-ai-search.md
 
@@ -23,7 +23,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (6) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert
 + Sachstand, Fallbericht oder Marktbeobachtung (1) → llmstxt-nutzen
 
 ---
@@ -144,9 +144,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Bei informationsgetriebenen Anfragen mit KI-Zusammenfassung fiel die organische Klickrate von 1,76 auf 0,61 Prozent, also um 61 Prozent. Bei Anfragen ohne Zusammenfassung fiel sie im selben Zeitraum von 2,74 auf 1,62 Prozent, also um 41 Prozent.
 
-**Was die Zahl nicht sagt:** Der zweite Teil ist der wichtigere und wird beim Zitieren fast immer weggelassen. Auch ohne KI-Zusammenfassung brach die Klickrate um 41 Prozent ein. Der Rückgang lässt sich also nicht allein den Zusammenfassungen zuschreiben, das Suchverhalten verändert sich insgesamt. Seer schreibt selbst, ein Ursachenbeweis sei nicht möglich, und nennt Streuungen von 0,8 bis 1,2 Prozentpunkten zwischen den einzelnen Anfragen. Untersucht wurden ausschließlich informationsgetriebene Anfragen, keine kommerziellen; die bezahlte Stichprobe ist mit 1,1 Millionen Impressionen deutlich kleiner als die organische.
+**Was die Zahl nicht sagt:** Der zweite Teil ist der wichtigere und wird beim Zitieren fast immer weggelassen. Auch ohne KI-Zusammenfassung brach die Klickrate um 41 Prozent ein. Der Rückgang lässt sich also nicht allein den Zusammenfassungen zuschreiben, das Suchverhalten verändert sich insgesamt. Seer schreibt selbst, ein Ursachenbeweis sei nicht möglich, und nennt Streuungen von 0,8 bis 1,2 Prozentpunkten zwischen den einzelnen Anfragen. Untersucht wurden ausschließlich informationsgetriebene Anfragen, keine kommerziellen; die bezahlte Stichprobe ist mit 1,1 Millionen Impressionen deutlich kleiner als die organische. **Neuere Ausgabe:** Seers dritte Auswertung vom April 2026 (53 Marken, 5,47 Millionen Suchbegriffe, neue Methode, mit den Werten oben nicht vergleichbar) sieht die organische Klickrate bei Anfragen mit KI-Zusammenfassung nach einem Tiefstand von 1,3 Prozent im Dezember 2025 im Februar 2026 wieder bei 2,4 Prozent, ohne Zusammenfassung bei 3,8 Prozent. Seer sieht darin eine Stabilisierung auf niedrigerem Niveau, keine Rückkehr zum Stand vor den Zusammenfassungen.
 
-**Quelle:** Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025 · [Zur Quelle](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
+**Quelle:** Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025 · neuere Ausgabe: „AIO Impact on Google CTR: 2026 Update“, April 2026, 53 Marken, 5,47 Millionen Suchbegriffe, 2,43 Milliarden organische Impressionen, Januar 2025 bis Februar 2026, abgerufen am 21. September 2026 · [zur neueren Ausgabe](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update) · [Zur Quelle](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
 
 **Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -252,4 +252,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 16 von 16 Einträgen zum Thema KI-Suche. Letzter Eintrag: zitier-position.
+## eigene-seite-selten-zitiert
+
+**Aussage:** Wenn KI-Suchen Marken empfehlen, stützen sie sich selten auf die eigene Website der Marke. Bei AirOps kamen bei Anfragen, mit denen Nutzer Anbieter suchen und vergleichen, 85 Prozent von 21.311 Markennennungen in ChatGPT, Claude und Perplexity aus fremden Quellen und 13,2 Prozent von der eigenen Domain. Bei Ranqo zeigen von 149.912 Quellenangaben aus fünf KI-Suchen nur 2,9 Prozent auf die Domain der Marke selbst, 75,2 Prozent auf Seiten anderer Unternehmen derselben Branche.
+
+**Was die Zahlen nicht sagen:** Beide stammen von Anbietern, die Werkzeuge für Sichtbarkeit in KI-Suchen verkaufen. Der Ranqo-Autor ist Mitgründer und am Unternehmen beteiligt, die Marken sind die eigener Kunden und nach eigener Angabe nicht repräsentativ ausgewählt, überwiegend Software-Anbieter, Fintechs und indische Direktmarken. AirOps nennt keinen Erhebungszeitraum. Gemessen ist das Zitieren, nicht Kauf oder Wirkung. **Vorsicht beim Weitergeben:** Ranqos oft zitierte „rund 78 Prozent Unternehmensseiten“ zählen die eigene Seite der Marke und fremde Firmenseiten zusammen; auf die eigene entfallen davon 2,9 Prozent.
+
+**Quelle:** AirOps, „Third-Party Sources Drive 85% of Brand Discovery“, 17. Oktober 2025, 21.311 Markennennungen in ChatGPT, Claude und Perplexity bei Anfragen zur Anbietersuche · Kumar (Ranqo), „Generative Engine Optimization at Scale“, arXiv 2606.20065, 18. Juni 2026, Preprint ohne Begutachtung, 102 Marken, 102.025 Antworten, 149.912 Quellenangaben aus fünf KI-Suchen, März bis Mai 2026 ([zum Preprint](https://arxiv.org/abs/2606.20065)) · beide abgerufen am 21. September 2026 · [Zur Quelle](https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search)
+
+**Einstufung:** Zwei Anbietermessungen, vorläufig · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#eigene-seite-selten-zitiert
+
+---
+
+Ende der Datei: 17 von 17 Einträgen zum Thema KI-Suche. Letzter Eintrag: eigene-seite-selten-zitiert.

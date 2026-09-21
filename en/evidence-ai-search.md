@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-16 of 103 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
+17 of 108 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Preliminary: prototype, single test, forecast, or vendor figure (6) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position
++ Preliminary: prototype, single test, forecast, or vendor figure (7) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert
 + Status, case report, or market observation (1) → llmstxt-nutzen
 
 ---
@@ -144,9 +144,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** For informational queries carrying an AI summary, the organic click-through rate fell from 1.76 to 0.61 percent, a drop of 61 percent. For queries without a summary it fell from 2.74 to 1.62 percent over the same period, a drop of 41 percent.
 
-**What the number does not say:** The second half is the more important one and is almost always dropped when the figure is quoted. Even without an AI summary the click-through rate collapsed by 41 percent. The decline therefore cannot be attributed to the summaries alone; search behaviour is shifting as a whole. Seer itself writes that no proof of cause is possible, and reports standard deviations of 0.8 to 1.2 percentage points between individual queries. Only informational queries were studied, no commercial ones; the paid sample, at 1.1 million impressions, is much smaller than the organic one.
+**What the number does not say:** The second half is the more important one and is almost always dropped when the figure is quoted. Even without an AI summary the click-through rate collapsed by 41 percent. The decline therefore cannot be attributed to the summaries alone; search behaviour is shifting as a whole. Seer itself writes that no proof of cause is possible, and reports standard deviations of 0.8 to 1.2 percentage points between individual queries. Only informational queries were studied, no commercial ones; the paid sample, at 1.1 million impressions, is much smaller than the organic one. **Newer edition:** Seer’s third analysis of April 2026 (53 brands, 5.47 million queries, new method, not comparable with the values above) puts organic click-through on queries with an AI summary at 2.4 percent in February 2026, up from a low of 1.3 percent in December 2025, and at 3.8 percent without one. Seer reads this as stabilisation at a lower level, not a return to the level before the summaries.
 
-**Source:** Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025 · [Source](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
+**Source:** Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025 · newer edition: “AIO Impact on Google CTR: 2026 Update”, April 2026, 53 brands, 5.47 million queries, 2.43 billion organic impressions, January 2025 to February 2026, retrieved 21 September 2026 · [to the newer edition](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update) · [Source](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
 
 **Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
 
@@ -252,4 +252,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 16 of 16 entries on AI search. Last entry: zitier-position.
+## eigene-seite-selten-zitiert
+
+**Claim:** When AI search recommends brands, it rarely relies on the brand’s own website. At AirOps, for queries in which users look for and compare vendors, 85 percent of 21,311 brand mentions in ChatGPT, Claude and Perplexity came from third-party sources and 13.2 percent from the brand’s own domain. At Ranqo, only 2.9 percent of 149,912 source citations from five AI search engines point to the brand’s own domain, and 75.2 percent to pages of other companies in the same field.
+
+**What the figures do not say:** Both come from vendors that sell tools for AI search visibility. The Ranqo author is a co-founder with an equity interest in the company, and the brands are those of its own customers, by its own account not a representative selection, mostly software vendors, fintechs and Indian direct-to-consumer brands. AirOps names no data collection period. What is measured is citation, not purchase or effect. **Care when passing it on:** Ranqo’s often-quoted “about 78 percent corporate websites” counts the brand’s own site and other companies’ sites together; the brand’s own site accounts for 2.9 percent of it.
+
+**Source:** AirOps, “Third-Party Sources Drive 85% of Brand Discovery”, 17 October 2025, 21,311 brand mentions in ChatGPT, Claude and Perplexity for vendor-discovery queries · Kumar (Ranqo), “Generative Engine Optimization at Scale”, arXiv 2606.20065, 18 June 2026, preprint without peer review, 102 brands, 102,025 responses, 149,912 source citations from five AI search engines, March to May 2026 ([to the preprint](https://arxiv.org/abs/2606.20065)) · both retrieved 21 September 2026 · [Source](https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search)
+
+**Grade:** Two vendor measurements, preliminary · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#eigene-seite-selten-zitiert
+
+---
+
+End of file: 17 of 17 entries on AI search. Last entry: eigene-seite-selten-zitiert.

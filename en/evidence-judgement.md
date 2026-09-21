@@ -1,6 +1,6 @@
 # Evidence: Judgement
 
-19 of 103 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
+20 of 108 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-urteil.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (7) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert
++ Verified study, vendor documentation, or court decision (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente
 + Preliminary: prototype, single test, forecast, or vendor figure (0)
 + Status, case report, or market observation (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
@@ -32,9 +32,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Experienced developers took 19 percent *longer* with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed.
 
-**What the number does not say:** 16 developers, 246 tasks, exclusively in repositories they had known for five years on average. That familiarity explains part of the result — anyone who holds their own project in their head gains less from assistance. It does not transfer to unfamiliar code or other knowledge work, and the tools date from early 2025. **What holds:** the gap between measurement and self-assessment. It is the reason to distrust any productivity figure based on asking people.
+**What the number does not say:** 16 developers, 246 tasks, exclusively in repositories they had known for five years on average. That familiarity explains part of the result — anyone who holds their own project in their head gains less from assistance. It does not transfer to unfamiliar code or other knowledge work, and the tools date from early 2025. **Newer measurement:** In a second study with 57 developers and over 800 tasks, METR measured in February 2026 task times 18 percent shorter with AI for the ten returning participants and 4 percent shorter for the new ones; both confidence intervals include zero. METR considers it likely that AI tools speed developers up more in early 2026 and treats the figures as a lower bound, because many no longer wanted to work without AI and are therefore missing. **What holds:** the gap between measurement and self-assessment. It is the reason to distrust any productivity figure based on asking people.
 
-**Source:** METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · [Study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+**Source:** METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · newer measurement: METR, “We are Changing our Developer Productivity Experiment Design”, 24 February 2026, 57 developers, 143 repositories, over 800 tasks, retrieved 21 September 2026 · [to the newer measurement](https://metr.org/blog/2026-02-24-uplift-update/) · [Study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
 **Grade:** Controlled trial · Group: Verified study, vendor documentation, or court decision
 
@@ -142,11 +142,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## prognose-mensch-maschine
 
-**Claim:** On the ForecastBench tournament leaderboard, the median of human superforecasters sits fourth at 68.8, behind three Google DeepMind entries allowed to use tools and extra context. On the base leaderboard, without tools, the human median leads at 67.8 against the best model at 62.6.
+**Claim:** On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.8 and shares third place; two Google DeepMind entries allowed to use tools and extra context lead at 69.2 and 69.0, and a third ties. On the base leaderboard, without tools, the human median leads at 67.8 against the best model at 62.0.
 
-**What the leaderboard does not say:** the machines’ lead is not established. Its own significance column finds no difference for the three top places, at p values of 0.71, 0.60 and 0.57, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. **A best-of-many result:** Google DeepMind holds 50 of 334 entries and all three places ahead of the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 790 and 1,165. **On parity:** the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to February 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand.
+**What the leaderboard does not say:** the machines’ lead is not established. Its own significance column finds no difference for the three places ahead of and level with the median, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. The values shift by tenths with every nightly recalculation. **A best-of-many result:** Google DeepMind holds 53 of 343 entries and all three places ahead of or level with the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 843. **On parity:** the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to June 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand.
 
-**Source:** ForecastBench, Forecasting Research Institute, tournament and base leaderboards, retrieved 10 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · [Leaderboard](https://www.forecastbench.org/leaderboards/)
+**Source:** ForecastBench, Forecasting Research Institute, tournament and base leaderboards and the parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · [Leaderboard](https://www.forecastbench.org/leaderboards/)
 
 **Grade:** Ongoing measurement · Group: Status, case report, or market observation
 
@@ -294,4 +294,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 19 of 19 entries on Judgement. Last entry: de-skilling.
+## unverwechselbare-markenelemente
+
+**Claim:** Researchers at the Ehrenberg-Bass Institute analysed 1,162 distinctive brand assets of 128 brands across 21 categories, four countries and nine years. Shape-based assets such as logos and packaging perform best: on average 40 percent of respondents link them to the brand, and 71 percent of the links go to that brand alone. Colours perform weakest, at 12 and 39 percent.
+
+**What the figures do not say:** The data come from studies that brands commissioned from the institute, collected through online panels, and are not available for commercial reasons. Only assets still in use at the time of the survey are covered; abandoned ones are missing, a bias the authors name themselves. By their account the data do not allow a comparison between countries. **And what does not follow:** What is measured is what people link to a brand. That a brand is recognised by a few things is inferred from it, not counted, and how machines recognise a brand is not studied.
+
+**Source:** Phua, Bali, Anesbury and Sharp (Ehrenberg-Bass Institute, Adelaide University), “Shape-based assets are strongest: benchmarking distinctive brand asset performance across industries”, International Journal of Advertising, online since 5 March 2026, peer-reviewed, CC BY 4.0, no conflicts of interest reported · 1,162 assets, 128 brands, 21 categories, Australia, United Kingdom, United States and New Zealand, 2015 to 2023 · fame and uniqueness as averages per asset type · full text read on 21 September 2026 · [Source](https://doi.org/10.1080/02650487.2026.2637295)
+
+**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#unverwechselbare-markenelemente
+
+---
+
+End of file: 20 of 20 entries on Judgement. Last entry: unverwechselbare-markenelemente.
