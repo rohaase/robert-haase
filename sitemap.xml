@@ -16,7 +16,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/artikel.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/articles.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/artikel.html"/>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -32,6 +32,22 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/marke-als-mcp-server.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/brand-as-mcp-server.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/marke-als-mcp-server.html"/>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/wie-ki-den-brandingprozess-umdreht.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/wie-ki-den-brandingprozess-umdreht.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/how-ai-is-reversing-the-branding-process.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/wie-ki-den-brandingprozess-umdreht.html"/>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/how-ai-is-reversing-the-branding-process.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/wie-ki-den-brandingprozess-umdreht.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/how-ai-is-reversing-the-branding-process.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/wie-ki-den-brandingprozess-umdreht.html"/>
     <lastmod>2026-09-21</lastmod>
     <priority>0.7</priority>
   </url>
@@ -104,7 +120,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/about.html"/>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -130,7 +146,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/artikel.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/articles.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/artikel.html"/>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -170,7 +186,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/about.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/about.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/about.html"/>
-    <lastmod>2026-09-07</lastmod>
+    <lastmod>2026-09-21</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
