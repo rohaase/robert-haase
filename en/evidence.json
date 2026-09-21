@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-17",
+  "dateModified": "2026-09-21",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",

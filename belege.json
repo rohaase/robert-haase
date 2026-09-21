@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-17",
+  "dateModified": "2026-09-21",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
