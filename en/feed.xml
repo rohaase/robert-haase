@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Haase | Articles</title>
+    <link>https://robert-haase.de/en/articles.html</link>
+    <atom:link href="https://robert-haase.de/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Writing on brand strategy in the AI age: how brands become machine-readable, applicable, and accountable.</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 21 Sep 2026 18:38:00 +0200</lastBuildDate>
+    <item>
+      <title>Brand as an MCP Server: How a Brand Answers When an Agent Asks.</title>
+      <link>https://robert-haase.de/en/brand-as-mcp-server.html</link>
+      <guid>https://robert-haase.de/en/brand-as-mcp-server.html</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 +0200</pubDate>
+      <description>Brand servers hand out rules and solve consistency. None of them answers whether a statement may be made in the brand's name. Why the decided layer behind the interface is a task for brand management and cannot be delegated to IT.</description>
+    </item>
+    <item>
+      <title>How AI Is Reversing the Branding Process.</title>
+      <link>https://robert-haase.de/en/how-ai-is-reversing-the-branding-process.html</link>
+      <guid>https://robert-haase.de/en/how-ai-is-reversing-the-branding-process.html</guid>
+      <pubDate>Wed, 09 Sep 2026 12:00:00 +0200</pubDate>
+      <description>Visibility in AI search is only the first stage. On the second, a company's own teams produce with AI; on the third, one system hands over to the next, and only what is explicitly specified arrives. Why checking how machines read the brand today moves to the start of the branding process, and why the exception matters as much as the rule. With Tabea Otto, first published at HORIZONT.</description>
+    </item>
+    <item>
+      <title>What the Machine Doesn't Get.</title>
+      <link>https://robert-haase.de/en/what-the-machine-doesnt-get.html</link>
+      <guid>https://robert-haase.de/en/what-the-machine-doesnt-get.html</guid>
+      <pubDate>Tue, 25 Aug 2026 12:00:00 +0200</pubDate>
+      <description>When copying gets cheap, value shifts to what can't be copied. Why the price premium sits on the decision, not on the machine's inability, and what a brand's two lists look like. With Miyazaki, The Cure, and Aldi.</description>
+    </item>
+    <item>
+      <title>The Gap That Doesn't Respond.</title>
+      <link>https://robert-haase.de/en/the-gap-that-doesnt-respond.html</link>
+      <guid>https://robert-haase.de/en/the-gap-that-doesnt-respond.html</guid>
+      <pubDate>Wed, 12 Aug 2026 12:00:00 +0200</pubDate>
+      <description>Why the unsaid works on people and disappears for machines. A response to Erich Posselt's "The Smoothness of Clarity", first published at The Business of Brand Management. First published at tbobm.com.</description>
+    </item>
+    <item>
+      <title>Open Brand Repo: Brand Rules Belong in a Repository.</title>
+      <link>https://robert-haase.de/en/open-brand-repo.html</link>
+      <guid>https://robert-haase.de/en/open-brand-repo.html</guid>
+      <pubDate>Tue, 21 Jul 2026 12:00:00 +0200</pubDate>
+      <description>Switzerland prepared its official writing rules for language models and its corporate design as a PDF. Why the brand specification belongs in a public, versioned repository, and where the line between public and internal runs.</description>
+    </item>
+    <item>
+      <title>Machine View</title>
+      <link>https://robert-haase.de/en/machine-view.html</link>
+      <guid>https://robert-haase.de/en/machine-view.html</guid>
+      <pubDate>Tue, 21 Jul 2026 12:00:00 +0200</pubDate>
+      <description>On the left this site as a human sees it, on the right the same page in the formats AI search and browser agents actually process. Read live from the source, with the evidence and the limits of what follows from it.</description>
+    </item>
+    <item>
+      <title>What Are Machine Readable Brands?</title>
+      <link>https://robert-haase.de/en/machine-readable-brands.html</link>
+      <guid>https://robert-haase.de/en/machine-readable-brands.html</guid>
+      <pubDate>Sun, 19 Jul 2026 12:00:00 +0200</pubDate>
+      <description>Brands whose identity, language, and design logic exist as a specification. Definition, the three-stage maturity model, and the boundaries against structured data and design systems.</description>
+    </item>
+    <item>
+      <title>The Analysis Is No Longer the Product.</title>
+      <link>https://robert-haase.de/en/the-bet.html</link>
+      <guid>https://robert-haase.de/en/the-bet.html</guid>
+      <pubDate>Sat, 18 Jul 2026 12:00:00 +0200</pubDate>
+      <description>When clients can generate any analysis in minutes, consulting loses authority through knowing more. What remains: the recommendation that commits. With five concrete changes for strategy work.</description>
+    </item>
+    <item>
+      <title>Agent Authority: Your Agent Holds a Mandate.</title>
+      <link>https://robert-haase.de/en/agent-authority.html</link>
+      <guid>https://robert-haase.de/en/agent-authority.html</guid>
+      <pubDate>Fri, 10 Jul 2026 19:00:00 +0200</pubDate>
+      <description>Brands are deploying agents that promise, refund, and negotiate, granting a mandate mostly without ever deciding to. With the Air Canada precedent and the question of who stands behind the agent.</description>
+    </item>
+    <item>
+      <title>Taste Won't Save Brand Work. Accountability Will.</title>
+      <link>https://robert-haase.de/en/taste-accountability.html</link>
+      <guid>https://robert-haase.de/en/taste-accountability.html</guid>
+      <pubDate>Fri, 10 Jul 2026 09:00:00 +0200</pubDate>
+      <description>Why "taste" is the creative industry's consolation word, and why the documented, accountable decision becomes the scarce good when AI takes over execution.</description>
+    </item>
+    <item>
+      <title>What Is Agentic Brand Readiness?</title>
+      <link>https://robert-haase.de/en/agentic-brand-readiness.html</link>
+      <guid>https://robert-haase.de/en/agentic-brand-readiness.html</guid>
+      <pubDate>Fri, 27 Mar 2026 09:00:00 +0100</pubDate>
+      <description>A brand's maturity level toward AI systems, and how to test it yourself in ten minutes. With how it differs from SEO and the four building blocks.</description>
+    </item>
+    <item>
+      <title>Brand Infrastructure: Why Brands Must Become Machine-Readable.</title>
+      <link>https://robert-haase.de/en/brand-infrastructure.html</link>
+      <guid>https://robert-haase.de/en/brand-infrastructure.html</guid>
+      <pubDate>Sat, 07 Mar 2026 09:00:00 +0100</pubDate>
+      <description>The foundational article: designing brand in two directions, identity for humans and infrastructure for systems. With the three-stage model toward the Machine Readable Brand and six concrete steps.</description>
+    </item>
+  </channel>
+</rss>
