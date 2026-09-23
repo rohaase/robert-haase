@@ -1,6 +1,6 @@
 # Evidence: Liability
 
-12 of 108 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
+13 of 114 entries in the collection “Evidence” by Robert Haase, as of 23 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-haftung.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Verified study, vendor documentation, or court decision (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
 + Preliminary: prototype, single test, forecast, or vendor figure (1) → ai-overview-muenchen
-+ Status, case report, or market observation (7) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity
++ Status, case report, or market observation (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
 ---
 
@@ -196,4 +196,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 12 of 12 entries on Liability. Last entry: screenshot-metadaten.
+## eu-kennzeichnungskodex
+
+**Claim:** How providers and deployers can meet the labelling duties under Article 50 of the AI Act is set out in a voluntary code of practice, published by the European Commission in its final version on 10 June 2026, together with three EU icons for AI-generated content, free to use without attribution to the Commission. The part on marking by providers has been signed by 95 organisations, including OpenAI, Google, Meta, Microsoft, Anthropic and Mistral, the part on labelling by deployers by 192, including Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images and Dentsu.
+
+**What this entry does not establish:** that the signatories label. Signing is a voluntary commitment and the icons are optional; the duty under Article 50 remains binding, and whom it binds from when, the entry on the AI Act shows. **The deployer part is narrow:** it concerns deepfakes and AI-generated text that informs the public on matters of public interest, unless the text has undergone human review and is under editorial responsibility. According to the Commission the icons were tested with users; it gives no figures. The list of signatories is dated 31 July 2026.
+
+**Source:** European Commission, “Code of Practice on Transparency of AI-generated Content”, final version of 10 June 2026: section 1 for providers (marking and detection), section 2 for deployers (labelling of deepfakes and text) · EU icons for labelling AI-generated content, three variants, page last updated 10 August 2026 ([to the icons](https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content)) · signatories as of 31 July 2026 ([to the list of signatories](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)) · retrieved 23 September 2026 · [Source](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)
+
+**Grade:** Legal status · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#eu-kennzeichnungskodex
+
+---
+
+End of file: 13 of 13 entries on Liability. Last entry: eu-kennzeichnungskodex.

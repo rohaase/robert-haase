@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-16 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 23. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -23,7 +23,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (9) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet
 + Sachstand, Fallbericht oder Marktbeobachtung (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 ---
@@ -252,4 +252,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 16 von 16 Einträgen zum Thema Marktgröße. Letzter Eintrag: agentur-selbstbild.
+## cmo-titel-schwindet
+
+**Aussage:** Nur noch 36 Prozent der Fortune-500-Unternehmen führen den Titel Chief Marketing Officer, ein Jahr zuvor waren es 49 Prozent. Eine Marketingspitze, die zur Geschäftsleitung gehört oder an den CEO berichtet, haben noch 52 Prozent, 2025 waren es 58 Prozent.
+
+**Was die Zahl nicht sagt:** Ein Titel ist keine Funktion. Forrester nennt selbst andere Titel, die an seine Stelle treten, etwa Chief Growth Officer, Chief Commercial Officer oder Chief Customer Officer; ob Markenentscheidungen dadurch anders oder schlechter getroffen werden, sagt die Zahl nicht. **Die Methode ist nicht offen:** Datenquelle und Stichtag stehen nur im Bericht für Forrester-Kunden, öffentlich ist allein der Blogbeitrag zur dritten jährlichen Auswertung. Erfasst sind die 500 umsatzstärksten US-Unternehmen, nicht der deutsche Markt.
+
+**Quelle:** Forrester, Ian Bruce, „New Analysis Suggests The CMO’s Role In The Fortune 500 Is At A Crossroads“, Blogbeitrag vom 7. Juli 2026, dritte jährliche Auswertung · vollständiger Bericht „The Representation And Tenure Of Fortune 500 CMOs in 2026“ nur für Kunden · abgerufen am 23. September 2026 · [Zur Quelle](https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/)
+
+**Einstufung:** Analystenauswertung, Methode nicht offen · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#cmo-titel-schwindet
+
+---
+
+Ende der Datei: 17 von 17 Einträgen zum Thema Marktgröße. Letzter Eintrag: cmo-titel-schwindet.

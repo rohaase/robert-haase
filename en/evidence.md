@@ -1,6 +1,6 @@
-# Evidence: all 108 claims
+# Evidence: all 114 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 21 September 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 23 September 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -25,10 +25,10 @@ The collection does not map the state of the research, only the figures I needed
 ## Topic files
 
 - AI search, 17 entries: https://robert-haase.de/en/evidence-ai-search.md
-- Agents, 36 entries: https://robert-haase.de/en/evidence-agents.md
-- Commerce, 7 entries: https://robert-haase.de/en/evidence-commerce.md
-- Liability, 12 entries: https://robert-haase.de/en/evidence-liability.md
-- Market size, 16 entries: https://robert-haase.de/en/evidence-market.md
+- Agents, 38 entries: https://robert-haase.de/en/evidence-agents.md
+- Commerce, 9 entries: https://robert-haase.de/en/evidence-commerce.md
+- Liability, 13 entries: https://robert-haase.de/en/evidence-liability.md
+- Market size, 17 entries: https://robert-haase.de/en/evidence-market.md
 - Judgement, 20 entries: https://robert-haase.de/en/evidence-judgement.md
 
 ## AI search (17)
@@ -55,11 +55,11 @@ The collection does not map the state of the research, only the figures I needed
 - **zitier-position** · Vendor measurement, preliminary · Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text. The middle section, the widest at 40 percent of the text, carries 31.1 percent, the closing section 24.7 percent. In a second analysis of 11,022 citations, cited introductions reached a proper-noun density of 20.6 percent, against the 5 to 8 percent the author derives from standard corpora (Brown Corpus, Penn Treebank), with no arithmetic shown. → https://robert-haase.de/en/evidence-ai-search.md
 - **eigene-seite-selten-zitiert** · Two vendor measurements, preliminary · When AI search recommends brands, it rarely relies on the brand’s own website. At AirOps, for queries in which users look for and compare vendors, 85 percent of 21,311 brand mentions in ChatGPT, Claude and Perplexity came from third-party sources and 13.2 percent from the brand’s own domain. At Ranqo, only 2.9 percent of 149,912 source citations from five AI search engines point to the brand’s own domain, and 75.2 percent to pages of other companies in the same field. → https://robert-haase.de/en/evidence-ai-search.md
 
-## Agents (36)
+## Agents (38)
 
 + Verified study, vendor documentation, or court decision (26) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, lighthouse-agent-discovery, content-signal-selten
-+ Preliminary: prototype, single test, forecast, or vendor figure (7) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map
-+ Status, case report, or market observation (3) → gitlab-markenrepo, aipref, mcp-primitive
++ Preliminary: prototype, single test, forecast, or vendor figure (8) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map, robots-sperre-chatbots
++ Status, case report, or market observation (4) → gitlab-markenrepo, aipref, mcp-primitive, agentenstandards-verbreitung
 
 - **leere-buttons** · Verified study · On 30.6 percent of one million home pages surveyed, buttons had no accessible name; on 51 percent, form fields had no label. → https://robert-haase.de/en/evidence-agents.md
 - **agent-ready** · Preliminary, prototype · In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original. → https://robert-haase.de/en/evidence-agents.md
@@ -97,12 +97,14 @@ The collection does not map the state of the research, only the figures I needed
 - **markup-ai-stilpruefung** · Vendor documentation · Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP. The tool flags what does not fit, explains why and supplies wording to apply in place; every text is also scored against the stored standards. The vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to, for instance with a prompt asking it to check a paragraph for brand-voice drift. → https://robert-haase.de/en/evidence-agents.md
 - **lighthouse-agent-discovery** · Vendor documentation · Since version 13.5.0 of 18 September 2026, Google’s audit tool Lighthouse also checks whether a website’s catalogue for agents conforms to the “Agentic Resource Discovery” specification, and groups this check with the llms.txt check under a group of its own, “Agent Discoverability”. According to the release, this ships in the DevTools of Chrome 156 and in PageSpeed Insights within two weeks. → https://robert-haase.de/en/evidence-agents.md
 - **content-signal-selten** · Own survey, reproducible · Cloudflare’s machine-readable declaration “Content-Signal”, with which a robots.txt allows or refuses search, AI input and AI training, appears at none of the 77 German-language news and trade media. Among the 139 robots.txt files served by home pages of the DAX, MDAX and SDAX companies, exactly one carries it, that of Heidelberg Materials, and it allows all three uses. → https://robert-haase.de/en/evidence-agents.md
+- **agentenstandards-verbreitung** · Market observation · Websites that describe themselves to AI agents in machine-readable form are still the exception. Cloudflare checks the 200,000 most visited domains for this; of the 107,155 it scanned successfully, 0.43 percent carry an MCP Server Card describing their own MCP server, 0.47 percent Agent Skills and 1.8 percent Content Signals. Not a single one offers tools to agents via WebMCP. Among the commerce protocols, UCP reaches 4.8 percent and AP2 two domains. → https://robert-haase.de/en/evidence-agents.md
+- **robots-sperre-chatbots** · Controlled experiment, preprint without peer review · A block in robots.txt does little to stop chatbots from serving content they have already collected. Researchers put 20 websites of their own online, gave every scraper its own canary tokens and queried 22 chatbots. Of 18 that could be evaluated, 12 went on returning the content, both for sites that had been taken offline and for sites whose robots.txt blocked all bots; only Duck.ai stopped in both cases. 10 of the 18 returned tokens that only the search crawlers of Google, Bing or Brave had received. → https://robert-haase.de/en/evidence-agents.md
 
-## Commerce (7)
+## Commerce (9)
 
-+ Verified study, vendor documentation, or court decision (2) → airline-direktkanal, shopify-knowledge-base
++ Verified study, vendor documentation, or court decision (3) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe
 + Preliminary: prototype, single test, forecast, or vendor figure (0)
-+ Status, case report, or market observation (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
++ Status, case report, or market observation (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 - **checkout-rueckbau** · Market observation · Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source. → https://robert-haase.de/en/evidence-commerce.md
 - **airline-direktkanal** · Controlled test · In a flight-search test, language models went to the airline’s own website directly in only about five percent of cases. They preferred booking portals. → https://robert-haase.de/en/evidence-commerce.md
@@ -111,12 +113,14 @@ The collection does not map the state of the research, only the figures I needed
 - **kaufentscheidung** · Survey · Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies. → https://robert-haase.de/en/evidence-commerce.md
 - **ucp-gremium-ohne-zahlen** · Standards status · The Shopping Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they include Amazon, Meta, Microsoft, Stripe and Salesforce alongside Google, Shopify, Etsy, Target and Wayfair. How many merchants actually run the protocol is stated by none of the companies involved. Google names example merchants — Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden — attached to the word “soon”. → https://robert-haase.de/en/evidence-commerce.md
 - **shopify-knowledge-base** · Vendor documentation · Since 16 May 2025, Shopify has offered merchants a free app of its own for deciding what AI shopping agents answer about their store. Merchants see automatically generated facts and common customer questions and can adjust answers or write new ones. The answers do not appear in the store; they serve AI platforms as a data source, and the app shows how many questions come from agents and whether the AI can answer them. → https://robert-haase.de/en/evidence-commerce.md
+- **agenten-vollmacht-standard** · State of standardization · What an AI agent may do on a person’s behalf is to become verifiable. Since 28 April 2026 the FIDO Alliance has been developing standards that let users authorize agents so that they only perform approved actions, and let services verify that an agent is acting on behalf of an authenticated user and within defined parameters. The basis is Google’s Agent Payments Protocol (AP2) with cryptographically signed mandates and Mastercard’s Verifiable Intent. The working group on agent authentication is chaired by members from CVS Health, Google and OpenAI, the one on payments by Mastercard and Visa. → https://robert-haase.de/en/evidence-commerce.md
+- **commerce-agent-freigabe** · Vendor documentation · Anthropic’s template for shopping and merchant agents explicitly leaves business rules, authorization and compliance to the company that deploys the agents: “Business rules, authorization, and compliance are the deployment’s.” No agent in the template places an order, charges a card or changes a listing; the checkout step only renders the cart, the company’s own application completes the purchase, and every change by the merchant agent waits for a person to approve it. Brand name, assistant name and brand voice are configuration fields. → https://robert-haase.de/en/evidence-commerce.md
 
-## Liability (12)
+## Liability (13)
 
 + Verified study, vendor documentation, or court decision (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
 + Preliminary: prototype, single test, forecast, or vendor figure (1) → ai-overview-muenchen
-+ Status, case report, or market observation (7) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity
++ Status, case report, or market observation (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
 - **air-canada** · Tribunal decision · Air Canada is liable for what its chatbot promised. The defence that the bot was responsible for its own actions was called "a remarkable submission" by the decision-maker. → https://robert-haase.de/en/evidence-liability.md
 - **cursor-bot** · Documented incident · Cursor’s support agent invented a usage rule that never existed and replied under the name "Sam". → https://robert-haase.de/en/evidence-liability.md
@@ -130,11 +134,12 @@ The collection does not map the state of the research, only the figures I needed
 - **nyc-mycity** · Documented incident · New York City’s official MyCity chatbot told businesses to do things that are illegal in the city: go cash-free, take a cut of employees’ tips, and turn away tenants with housing vouchers. Ten members of the newsroom asked the same question and all ten got the same wrong answer. The city defended it as a pilot program; almost two years later, in early February 2026, it was shut down as a budget cut. → https://robert-haase.de/en/evidence-liability.md
 - **perplexity-cfaa** · Court ruling, not final · A US federal appeals court vacated the preliminary injunction against Perplexity on 4 August 2026 and remanded the case. When someone runs a shopping agent, it is the user who accesses the third-party website under the Computer Fraud and Abuse Act, the agent is the user’s tool and the provider does not access anything itself, as long as the agent runs in the user’s browser and the provider’s servers never call the site themselves. → https://robert-haase.de/en/evidence-liability.md
 - **screenshot-metadaten** · Vendor documentation · A screenshot does not carry the original’s C2PA provenance data: the record lives in the file, and a screenshot creates a new one. Conversely, a C2PA-enabled camera photographing an AI image signs that shot, with no trace of its AI origin. As a rule it records device, time and place in metadata and cannot analyse the content of the image; what goes in is up to the implementer, the same page says. → https://robert-haase.de/en/evidence-liability.md
+- **eu-kennzeichnungskodex** · Legal status · How providers and deployers can meet the labelling duties under Article 50 of the AI Act is set out in a voluntary code of practice, published by the European Commission in its final version on 10 June 2026, together with three EU icons for AI-generated content, free to use without attribution to the Commission. The part on marking by providers has been signed by 95 organisations, including OpenAI, Google, Meta, Microsoft, Anthropic and Mistral, the part on labelling by deployers by 192, including Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images and Dentsu. → https://robert-haase.de/en/evidence-liability.md
 
-## Market size (16)
+## Market size (17)
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Preliminary: prototype, single test, forecast, or vendor figure (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
++ Preliminary: prototype, single test, forecast, or vendor figure (9) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet
 + Status, case report, or market observation (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 - **machine-customers** · Self-assessment, forecast · In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. → https://robert-haase.de/en/evidence-market.md
@@ -153,6 +158,7 @@ The collection does not map the state of the research, only the figures I needed
 - **suchmarkt-wachstum** · Market observation on estimated data · Between the first quarter of 2023 and the fourth quarter of 2025, search engine visits and search-like AI sessions combined grew by 26 percent worldwide, from 82.0 to 103.2 billion per month. Google’s share falls from 89 to 71 percent, ChatGPT reaches 20 percent. → https://robert-haase.de/en/evidence-market.md
 - **insourcing-absicht** · Survey · Asked "Do you plan to cover more marketing services in-house through AI?", 80.0 percent of 170 executives at German companies with budget and decision authority answer yes, 11.2 percent no, and 8.8 percent do not know. Across company sizes the intention is stable: 79 percent at companies with 100 to 999 employees, 81 percent at 1,000 and above. → https://robert-haase.de/en/evidence-market.md
 - **agentur-selbstbild** · Survey · 96.2 percent of 78 executives from member agencies of the German agency association GWA rate their own agency's AI maturity as "advanced" (71.8 percent) or "expert" (24.4 percent), 3.8 percent as "beginner". The same respondents rate the average level of AI knowledge across the agency industry in Germany, Austria and Switzerland mostly at 3 on a scale of 1 to 5 (57.7 percent), 19.2 percent at 2 and 23.1 percent at 4; nobody picks the extremes 1 or 5. → https://robert-haase.de/en/evidence-market.md
+- **cmo-titel-schwindet** · Analyst analysis, method not public · Only 36 percent of Fortune 500 companies still use the title chief marketing officer, down from 49 percent a year earlier. A top marketing leader who sits on the executive team or reports to the CEO is found at 52 percent, down from 58 percent in 2025. → https://robert-haase.de/en/evidence-market.md
 
 ## Judgement (20)
 
@@ -181,4 +187,4 @@ The collection does not map the state of the research, only the figures I needed
 - **de-skilling** · Survey · In a global survey of 70 C-suite leaders and senior executives, half already observe a loss of skills inside their own organisation, and more than 60 percent consider it a material threat within three to five years. The five skills the same leaders rate as most critical for long-term performance are exactly the five they see as most at risk: judgment and decision making, problem understanding and framing, creative thinking, analysis and causal reasoning, solution generation and evaluation. → https://robert-haase.de/en/evidence-judgement.md
 - **unverwechselbare-markenelemente** · Verified study · Researchers at the Ehrenberg-Bass Institute analysed 1,162 distinctive brand assets of 128 brands across 21 categories, four countries and nine years. Shape-based assets such as logos and packaging perform best: on average 40 percent of respondents link them to the brand, and 71 percent of the links go to that brand alone. Colours perform weakest, at 12 and 39 percent. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 108 of 108 claims in 6 topics.
+End of overview: 114 of 114 claims in 6 topics.

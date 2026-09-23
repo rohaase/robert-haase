@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-16 of 108 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
+17 of 114 entries in the collection “Evidence” by Robert Haase, as of 23 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Preliminary: prototype, single test, forecast, or vendor figure (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
++ Preliminary: prototype, single test, forecast, or vendor figure (9) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet
 + Status, case report, or market observation (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 ---
@@ -252,4 +252,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 16 of 16 entries on Market size. Last entry: agentur-selbstbild.
+## cmo-titel-schwindet
+
+**Claim:** Only 36 percent of Fortune 500 companies still use the title chief marketing officer, down from 49 percent a year earlier. A top marketing leader who sits on the executive team or reports to the CEO is found at 52 percent, down from 58 percent in 2025.
+
+**What the number does not say:** A title is not a function. Forrester itself names other titles taking its place, such as chief growth officer, chief commercial officer or chief customer officer; whether brand decisions are made differently or worse as a result, the figure does not say. **The method is not public:** data source and cut-off date are only in the report for Forrester clients; only the blog post on the third annual analysis is public. It covers the 500 largest US companies by revenue, not the German market.
+
+**Source:** Forrester, Ian Bruce, “New Analysis Suggests The CMO’s Role In The Fortune 500 Is At A Crossroads”, blog post of 7 July 2026, third annual analysis · full report “The Representation And Tenure Of Fortune 500 CMOs in 2026” for clients only · retrieved 23 September 2026 · [Source](https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/)
+
+**Grade:** Analyst analysis, method not public · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#cmo-titel-schwindet
+
+---
+
+End of file: 17 of 17 entries on Market size. Last entry: cmo-titel-schwindet.

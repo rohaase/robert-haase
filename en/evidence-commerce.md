@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-7 of 108 entries in the collection “Evidence” by Robert Haase, as of 21 September 2026.
+9 of 114 entries in the collection “Evidence” by Robert Haase, as of 23 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (2) → airline-direktkanal, shopify-knowledge-base
++ Verified study, vendor documentation, or court decision (3) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe
 + Preliminary: prototype, single test, forecast, or vendor figure (0)
-+ Status, case report, or market observation (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
++ Status, case report, or market observation (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 ---
 
@@ -126,4 +126,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 7 of 7 entries on Commerce. Last entry: shopify-knowledge-base.
+## agenten-vollmacht-standard
+
+**Claim:** What an AI agent may do on a person’s behalf is to become verifiable. Since 28 April 2026 the FIDO Alliance has been developing standards that let users authorize agents so that they only perform approved actions, and let services verify that an agent is acting on behalf of an authenticated user and within defined parameters. The basis is Google’s Agent Payments Protocol (AP2) with cryptographically signed mandates and Mastercard’s Verifiable Intent. The working group on agent authentication is chaired by members from CVS Health, Google and OpenAI, the one on payments by Mastercard and Visa.
+
+**What this entry does not establish:** adoption. It is a standards effort without a finished standard and without adoption figures; on 21 September 2026 Cloudflare Radar finds AP2 on two of 107,155 scanned domains, as the entry on the spread of agent standards shows. **And what it does not cover:** what is being standardized is the buyer’s authority towards merchants and payment services. What an agent may promise in the name of a brand, such as a discount or a goodwill gesture, is not the subject of these efforts. How little the companies behind such protocols say about their spread, the entry on the UCP council shows.
+
+**Source:** FIDO Alliance, “FIDO Alliance to Develop Standards for Trusted AI Agent Interactions”, 28 April 2026: Agentic Authentication working group chaired by members from CVS Health, Google and OpenAI, vice-chaired by Amazon, Google and Okta; Payments working group chaired by Mastercard and Visa · Agent Payments Protocol, documentation on checkout and payment mandates as signed credentials ([to the AP2 documentation](https://ap2-protocol.org/)) · retrieved 23 September 2026 · [Source](https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/)
+
+**Grade:** State of standardization · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-vollmacht-standard
+
+---
+
+## commerce-agent-freigabe
+
+**Claim:** Anthropic’s template for shopping and merchant agents explicitly leaves business rules, authorization and compliance to the company that deploys the agents: “Business rules, authorization, and compliance are the deployment’s.” No agent in the template places an order, charges a card or changes a listing; the checkout step only renders the cart, the company’s own application completes the purchase, and every change by the merchant agent waits for a person to approve it. Brand name, assistant name and brand voice are configuration fields.
+
+**What this entry does not establish:** use. It is a template to build on, every company in it is fictional and called ACME, and Anthropic names no customers or figures. **And what it leaves open:** who in the company decides which rules the agent follows and what it says in the brand’s name, the template does not answer; it explicitly passes the question on. That buying directly in the chat has already been rolled back by the market leader, the entry on the rollback of Instant Checkout shows.
+
+**Source:** Anthropic, repository “Claude Commerce Agents” (anthropics/commerce-agents), created 1 September 2026, Apache 2.0 licence · README with the note on orders, approvals and responsibility and the configuration fields brand_name, assistant_name and brand_voice · retrieved 23 September 2026 · [Source](https://github.com/anthropics/commerce-agents)
+
+**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#commerce-agent-freigabe
+
+---
+
+End of file: 9 of 9 entries on Commerce. Last entry: commerce-agent-freigabe.

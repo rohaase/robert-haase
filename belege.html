@@ -64,12 +64,12 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-21",
+  "dateModified": "2026-09-23",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "mainEntity": {
     "@type": "ItemList",
     "name": "Geprüfte Zahlen zu Marke, KI-Suche und Agenten",
-    "numberOfItems": 108,
+    "numberOfItems": 114,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -1711,6 +1711,96 @@
           },
           "disambiguatingDescription": "Was die Zahl nicht sagt: Gezählt ist das Vorkommen der Zeile in den am 17. September 2026 abgerufenen Dateien, nicht ihre Wirkung. Die Signale sind erklärte Präferenzen ohne technische Sperre; Cloudflare erklärt Einschränkungen darin zu einem Rechtsvorbehalt nach Artikel 4 der Richtlinie (EU) 2019/790, ob er als solcher trägt, ist offen. Die Stichprobe spricht nur für diese Listen: Cloudflare nennt über 3,8 Millionen Domains, deren robots.txt der Dienst verwaltet und um die Erklärung ergänzen wollte. Von den 160 Index-Startseiten lieferten 139 eine robots.txt, 7 hatten keine, 14 antworteten nicht; diese 14 könnten die Zeile tragen."
         }
+      },
+      {
+        "@type": "ListItem",
+        "position": 109,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#agentenstandards-verbreitung",
+          "text": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft dafür die 200.000 meistbesuchten Domains; von 107.155 erfolgreich geprüften führen 0,43 Prozent eine MCP Server Card, die einen eigenen MCP-Server beschreibt, 0,47 Prozent Agent Skills und 1,8 Prozent Content Signals. Werkzeuge für Agenten per WebMCP bietet keine einzige an. Unter den Handelsprotokollen kommt UCP auf 4,8 Prozent, AP2 auf zwei Domains.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 21. September 2026 · 107.155 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 · abgerufen am 23. September 2026",
+            "url": "https://radar.cloudflare.com/ai-insights"
+          },
+          "disambiguatingDescription": "Was die Zahl nicht sagt: Gezählt werden Dateien und Endpunkte, die ein Scan an festen Adressen findet, etwa /.well-known/mcp/server-card.json, nicht ihre Nutzung; ob ein Agent sie liest, misst Radar nicht. Es ist eine Messung des Anbieters mit eigener Auswahl: Suchmaschinen sowie leere und nicht erreichbare Infrastruktur sind ausgenommen, und nicht jeder Standard passt zu jeder Website, x402 etwa nur zu Bezahlinhalten, WebMCP nur zu Seiten, die Agenten Werkzeuge anbieten. Die Null bei WebMCP ist die unsicherste Zahl: Wie Radar WebMCP erkennt, beschreibt Cloudflare nicht, und Werkzeuge, die eine Seite erst per JavaScript anmeldet, kann ein Scan übersehen. Im Kleinen gemessen: Die eigenen Erhebungen zur robots.txt deutschsprachiger Medien und der Unternehmen aus DAX, MDAX und SDAX und der Eintrag zu Content-Signal zählen dieselbe Frage an bekannten Listen. Wie viele Händler UCP betreiben, nennen die beteiligten Firmen selbst nicht, wie der Eintrag zum UCP-Gremium belegt; Radar ist eine zweite Zählung von außen."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 110,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#robots-sperre-chatbots",
+          "text": "Eine Sperre in der robots.txt hält Chatbots kaum davon ab, Inhalte auszugeben, die schon gesammelt sind. Forscher stellten 20 eigene Websites ins Netz, gaben jedem Scraper eigene Kennmarken mit und befragten 22 Chatbots. Von 18 auswertbaren gaben 12 die Inhalte weiter wieder, sowohl bei Seiten, die offline genommen waren, als auch bei Seiten, deren robots.txt alle Bots sperrte; nur Duck.ai hörte in beiden Fällen auf. 10 der 18 gaben Kennmarken wieder, die nur die Suchmaschinen-Crawler von Google, Bing oder Brave bekommen hatten.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Seiden, Ren, Zhang, Kim, Liu und Wenger (Duke University, University of Pittsburgh, Carnegie Mellon University), „Identifying AI Web Scrapers Using Canary Tokens“, arXiv 2605.13706, Fassung 2 vom 3. September 2026, erste Fassung vom 13. Mai 2026, Preprint ohne Begutachtung · 20 Websites, zwei Monate Crawling vor der Sperre, 22 Chatbots, davon 18 auswertbar · Volltext gelesen am 23. September 2026",
+            "url": "https://arxiv.org/abs/2605.13706"
+          },
+          "disambiguatingDescription": "Was der Versuch nicht belegt: ob eine Sperre neues Sammeln verhindert. Gesperrt wurde erst nach zwei Monaten Crawling; gemessen ist, ob schon Gesammeltes weiter ausgegeben wird, nicht, woher der Chatbot es holt. Es ist ein Preprint ohne Begutachtung mit 20 Websites, und vier der 22 Chatbots lieferten zu wenige Kennmarken für eine Auswertung. Was daraus für die robots.txt folgt: Sie bittet, sie verbietet nicht. Die eigenen Erhebungen zu Medien und DAX-Unternehmen zählen, wer diese Bitte ausspricht; dieser Versuch zeigt, wie wenig sie bei bereits gesammelten Inhalten bewirkt. Und wer einem Suchmaschinen-Crawler Zugang gibt, gibt ihn womöglich einem Chatbot mit."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 111,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#agenten-vollmacht-standard",
+          "text": "Wofür ein KI-Agent im Auftrag eines Menschen handeln darf, soll nachweisbar werden. Die FIDO Alliance entwickelt seit dem 28. April 2026 Standards, mit denen Nutzer Agenten so ermächtigen, dass diese nur freigegebene Aktionen ausführen, und mit denen Dienste prüfen, ob ein Agent für einen angemeldeten Nutzer und innerhalb festgelegter Grenzen handelt. Grundlage sind Googles Agent Payments Protocol (AP2) mit kryptografisch signierten Mandaten und Mastercards Verifiable Intent. Die Arbeitsgruppe für die Authentifizierung von Agenten leiten Mitglieder von CVS Health, Google und OpenAI, die für Zahlungen Mastercard und Visa.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen · abgerufen am 23. September 2026",
+            "url": "https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/"
+          },
+          "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung. Es ist ein Normungsvorhaben ohne fertigen Standard und ohne Verbreitungszahlen; Cloudflare Radar findet AP2 am 21. September 2026 auf zwei von 107.155 geprüften Domains, wie der Eintrag zur Verbreitung der Agenten-Standards belegt. Und was es nicht regelt: Genormt wird die Vollmacht des Käufers gegenüber Händlern und Zahlungsdiensten. Was ein Agent im Namen einer Marke zusagen darf, etwa einen Rabatt oder eine Kulanz, ist nicht Gegenstand dieser Vorhaben. Wie wenig die Firmen hinter solchen Protokollen über deren Verbreitung sagen, zeigt der Eintrag zum UCP-Gremium."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 112,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#eu-kennzeichnungskodex",
+          "text": "Wie Anbieter und Anwender die Kennzeichnungspflichten aus Artikel 50 des AI Act erfüllen können, beschreibt ein freiwilliger Verhaltenskodex, dessen endgültige Fassung die EU-Kommission am 10. Juni 2026 veröffentlicht hat, dazu drei EU-Symbole für KI-erzeugte Inhalte, frei nutzbar ohne Nennung der Kommission. Den Teil zur Markierung durch Anbieter haben 95 Organisationen unterzeichnet, darunter OpenAI, Google, Meta, Microsoft, Anthropic und Mistral, den Teil zur Kennzeichnung durch Anwender 192, darunter Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images und Dentsu.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Varianten, Seite zuletzt aktualisiert am 10. August 2026 · Unterzeichner, Stand 31. Juli 2026 · abgerufen am 23. September 2026",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+          },
+          "disambiguatingDescription": "Was der Eintrag nicht belegt: dass die Unterzeichner kennzeichnen. Die Unterschrift ist eine Selbstverpflichtung, die Symbole sind freiwillig; verbindlich bleibt die Pflicht aus Artikel 50, und wen sie ab wann trifft, belegt der Eintrag zum AI Act. Der Teil für Anwender ist eng: Er betrifft Deepfakes und KI-erzeugte Texte, die die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informieren, sofern sie nicht menschlich geprüft und redaktionell verantwortet sind. Die Symbole sind nach Angabe der Kommission mit Nutzern getestet, Zahlen dazu nennt sie nicht. Die Liste der Unterzeichner trägt den Stand vom 31. Juli 2026."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 113,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#commerce-agent-freigabe",
+          "text": "Anthropics Vorlage für Einkaufs- und Händler-Agenten legt Geschäftsregeln, Befugnisse und die Einhaltung von Vorschriften ausdrücklich beim Unternehmen ab, das die Agenten einsetzt: „Business rules, authorization, and compliance are the deployment’s.“ Kein Agent der Vorlage bestellt, belastet eine Karte oder ändert ein Angebot; der Schritt zur Kasse zeigt nur den Warenkorb, den Kauf schließt die Anwendung des Unternehmens ab, und jede Änderung des Händler-Agenten wartet auf die Freigabe eines Menschen. Markenname, Name des Assistenten und Markenstimme sind Felder der Konfiguration.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Anthropic, Repository „Claude Commerce Agents“ (anthropics/commerce-agents), angelegt am 1. September 2026, Lizenz Apache 2.0 · README mit dem Hinweis zu Bestellungen, Freigaben und Verantwortung sowie den Konfigurationsfeldern brand_name, assistant_name und brand_voice · abgerufen am 23. September 2026",
+            "url": "https://github.com/anthropics/commerce-agents"
+          },
+          "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung. Es ist eine Vorlage zum Nachbauen, alle Firmen darin sind erfunden und heißen ACME, Kunden oder Zahlen nennt Anthropic nicht. Und was sie offenlässt: Wer im Unternehmen entscheidet, welche Regeln der Agent befolgt und was er im Namen der Marke sagt, beantwortet die Vorlage nicht; sie gibt die Frage ausdrücklich weiter. Dass der Kauf direkt im Chat beim Marktführer schon wieder zurückgebaut wurde, belegt der Eintrag zum Rückbau von Instant Checkout."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 114,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#cmo-titel-schwindet",
+          "text": "Nur noch 36 Prozent der Fortune-500-Unternehmen führen den Titel Chief Marketing Officer, ein Jahr zuvor waren es 49 Prozent. Eine Marketingspitze, die zur Geschäftsleitung gehört oder an den CEO berichtet, haben noch 52 Prozent, 2025 waren es 58 Prozent.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Forrester, Ian Bruce, „New Analysis Suggests The CMO’s Role In The Fortune 500 Is At A Crossroads“, Blogbeitrag vom 7. Juli 2026, dritte jährliche Auswertung · vollständiger Bericht „The Representation And Tenure Of Fortune 500 CMOs in 2026“ nur für Kunden · abgerufen am 23. September 2026",
+            "url": "https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/"
+          },
+          "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Titel ist keine Funktion. Forrester nennt selbst andere Titel, die an seine Stelle treten, etwa Chief Growth Officer, Chief Commercial Officer oder Chief Customer Officer; ob Markenentscheidungen dadurch anders oder schlechter getroffen werden, sagt die Zahl nicht. Die Methode ist nicht offen: Datenquelle und Stichtag stehen nur im Bericht für Forrester-Kunden, öffentlich ist allein der Blogbeitrag zur dritten jährlichen Auswertung. Erfasst sind die 500 umsatzstärksten US-Unternehmen, nicht der deutsche Markt."
+        }
       }
     ]
   }
@@ -1938,18 +2028,18 @@
 
       <p class="ev-note">Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>. Für Agenten und Skripte gibt es die ganze Sammlung auch als Text, eine Datei je Thema (<a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, <a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, <a href="https://robert-haase.de/belege-handel.md">Handel</a>, <a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, <a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, <a href="https://robert-haase.de/belege-urteil.md">Urteil</a>), dazu eine <a href="https://robert-haase.de/belege.md">Übersicht aller Aussagen</a> und für Skripte die Daten als <a href="https://robert-haase.de/belege.json">JSON</a>.</p>
 
-      <p class="ev-count" id="ev-count">108 Belege in 6 Themen: KI-Suche 17 · Agenten 36 · Handel 7 · Haftung 12 · Marktgröße 16 · Urteil 20.</p>
+      <p class="ev-count" id="ev-count">114 Belege in 6 Themen: KI-Suche 17 · Agenten 38 · Handel 9 · Haftung 13 · Marktgröße 17 · Urteil 20.</p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>
 
       <!-- ev-karte -->
       <details class="ev-map" id="ev-map">
-        <summary>Anker aller 108 Einträge, nach Thema</summary>
+        <summary>Anker aller 114 Einträge, nach Thema</summary>
         <p>Den Anker eines Eintrags hier suchen; die Datei am Zeilenanfang enthält den Eintrag vollständig.</p>
         <p><a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, 17: llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, json-ld-test, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, reddit-zitate, geo-40-prozent, ebu-nachrichten, aio-top10-uneinig, llmstxt-nutzen, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert</p>
-        <p><a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, 36: leere-buttons, agent-ready, a11y-cua, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, gitlab-markenrepo, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, klarna-700, mcp-primitive, mcp-tool-poisoning, monotype-mcp, pulumi-brand-mcp, statista-mcp, veeva-mlr, rechtsvorbehalt-kommentar, abruf-kuerzung, google-ads-textregeln, microsoft-brand-kit, muse-connectors, olivares-access-map, adobe-markenpruefung, markup-ai-stilpruefung, lighthouse-agent-discovery, content-signal-selten</p>
-        <p><a href="https://robert-haase.de/belege-handel.md">Handel</a>, 7: checkout-rueckbau, airline-direktkanal, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, shopify-knowledge-base</p>
-        <p><a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, 12: air-canada, cursor-bot, ai-act, olg-hamm, produkthaftung-komplexitaet, ai-overview-muenchen, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, perplexity-cfaa, screenshot-metadaten</p>
-        <p><a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, 16: machine-customers, marktgroesse, ki-nutzung-deutschland, nicht-menschlicher-verkehr, mcp-verbreitung, agentenhandel-2030, cmo-ki-anteil, dark-data-55, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, insourcing-absicht, agentur-selbstbild</p>
+        <p><a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, 38: leere-buttons, agent-ready, a11y-cua, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, gitlab-markenrepo, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, klarna-700, mcp-primitive, mcp-tool-poisoning, monotype-mcp, pulumi-brand-mcp, statista-mcp, veeva-mlr, rechtsvorbehalt-kommentar, abruf-kuerzung, google-ads-textregeln, microsoft-brand-kit, muse-connectors, olivares-access-map, adobe-markenpruefung, markup-ai-stilpruefung, lighthouse-agent-discovery, content-signal-selten, agentenstandards-verbreitung, robots-sperre-chatbots</p>
+        <p><a href="https://robert-haase.de/belege-handel.md">Handel</a>, 9: checkout-rueckbau, airline-direktkanal, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, shopify-knowledge-base, agenten-vollmacht-standard, commerce-agent-freigabe</p>
+        <p><a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, 13: air-canada, cursor-bot, ai-act, olg-hamm, produkthaftung-komplexitaet, ai-overview-muenchen, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, perplexity-cfaa, screenshot-metadaten, eu-kennzeichnungskodex</p>
+        <p><a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, 17: machine-customers, marktgroesse, ki-nutzung-deutschland, nicht-menschlicher-verkehr, mcp-verbreitung, agentenhandel-2030, cmo-ki-anteil, dark-data-55, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, insourcing-absicht, agentur-selbstbild, cmo-titel-schwindet</p>
         <p><a href="https://robert-haase.de/belege-urteil.md">Urteil</a>, 20: metr-selbsteinschaetzung, jagged-frontier, homogenisierung, strategie-trendslop, sykophanz, markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, kompetenz-nivellierung, aufwand-statt-koennen, boussioux-neuheit-wert, mintzberg-muster, wahrgenommene-differenzierung, de-skilling, unverwechselbare-markenelemente</p>
       </details>
       <!-- /ev-karte -->
@@ -3247,7 +3337,79 @@
         </div>
       </article>
 
-      <p class="ev-end" id="ev-end">Ende der Liste: 108 von 108 Einträgen. Letzter Eintrag: content-signal-selten.</p>
+      <article class="ev-item" id="agentenstandards-verbreitung" data-topic="agenten" data-cite="Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft dafür die 200.000 meistbesuchten Domains; von 107.155 erfolgreich geprüften führen 0,43 Prozent eine MCP Server Card, die einen eigenen MCP-Server beschreibt, 0,47 Prozent Agent Skills und 1,8 Prozent Content Signals. Werkzeuge für Agenten per WebMCP bietet keine einzige an. Unter den Handelsprotokollen kommt UCP auf 4,8 Prozent, AP2 auf zwei Domains. (Cloudflare Radar, „Adoption of AI agent standards“, Stand 21. September 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#agentenstandards-verbreitung">
+        <p class="ev-grade is-plain">Marktbeobachtung</p>
+        <p class="ev-claim">Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft dafür die 200.000 meistbesuchten Domains; von 107.155 erfolgreich geprüften führen 0,43 Prozent eine MCP Server Card, die einen eigenen MCP-Server beschreibt, 0,47 Prozent Agent Skills und 1,8 Prozent Content Signals. Werkzeuge für Agenten per WebMCP bietet keine einzige an. Unter den Handelsprotokollen kommt UCP auf 4,8 Prozent, AP2 auf zwei Domains.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Gezählt werden Dateien und Endpunkte, die ein Scan an festen Adressen findet, etwa /.well-known/mcp/server-card.json, nicht ihre Nutzung; ob ein Agent sie liest, misst Radar nicht. Es ist eine Messung des Anbieters mit eigener Auswahl: Suchmaschinen sowie leere und nicht erreichbare Infrastruktur sind ausgenommen, und nicht jeder Standard passt zu jeder Website, x402 etwa nur zu Bezahlinhalten, WebMCP nur zu Seiten, die Agenten Werkzeuge anbieten. <strong>Die Null bei WebMCP ist die unsicherste Zahl:</strong> Wie Radar WebMCP erkennt, beschreibt Cloudflare nicht, und Werkzeuge, die eine Seite erst per JavaScript anmeldet, kann ein Scan übersehen. <strong>Im Kleinen gemessen:</strong> Die eigenen Erhebungen zur robots.txt deutschsprachiger Medien und der Unternehmen aus DAX, MDAX und SDAX und der Eintrag zu Content-Signal zählen dieselbe Frage an bekannten Listen. Wie viele Händler UCP betreiben, nennen die beteiligten Firmen selbst nicht, wie der Eintrag zum UCP-Gremium belegt; Radar ist eine zweite Zählung von außen.</p>
+        <p class="ev-source">Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 21. September 2026 · 107.155 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 (<a href="https://blog.cloudflare.com/agent-readiness/" target="_blank" rel="noopener" aria-label="zum Methodenbeitrag (öffnet in neuem Tab)">zum Methodenbeitrag</a>) · abgerufen am 23. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://radar.cloudflare.com/ai-insights" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#agentenstandards-verbreitung">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="robots-sperre-chatbots" data-topic="agenten" data-cite="Eine Sperre in der robots.txt hält Chatbots kaum davon ab, Inhalte auszugeben, die schon gesammelt sind. Forscher stellten 20 eigene Websites ins Netz, gaben jedem Scraper eigene Kennmarken mit und befragten 22 Chatbots. Von 18 auswertbaren gaben 12 die Inhalte weiter wieder, sowohl bei Seiten, die offline genommen waren, als auch bei Seiten, deren robots.txt alle Bots sperrte; nur Duck.ai hörte in beiden Fällen auf. 10 der 18 gaben Kennmarken wieder, die nur die Suchmaschinen-Crawler von Google, Bing oder Brave bekommen hatten. (Seiden u. a., arXiv 2605.13706, Fassung vom 3. September 2026). https://arxiv.org/abs/2605.13706 · via https://robert-haase.de/belege.html#robots-sperre-chatbots">
+        <p class="ev-grade is-weak">Kontrollierter Versuch, Preprint ohne Begutachtung</p>
+        <p class="ev-claim">Eine Sperre in der robots.txt hält Chatbots kaum davon ab, Inhalte auszugeben, die schon gesammelt sind. Forscher stellten 20 eigene Websites ins Netz, gaben jedem Scraper eigene Kennmarken mit und befragten 22 Chatbots. Von 18 auswertbaren gaben 12 die Inhalte weiter wieder, sowohl bei Seiten, die offline genommen waren, als auch bei Seiten, deren robots.txt alle Bots sperrte; nur Duck.ai hörte in beiden Fällen auf. 10 der 18 gaben Kennmarken wieder, die nur die Suchmaschinen-Crawler von Google, Bing oder Brave bekommen hatten.</p>
+        <p class="ev-limit"><strong>Was der Versuch nicht belegt:</strong> ob eine Sperre neues Sammeln verhindert. Gesperrt wurde erst nach zwei Monaten Crawling; gemessen ist, ob schon Gesammeltes weiter ausgegeben wird, nicht, woher der Chatbot es holt. Es ist ein Preprint ohne Begutachtung mit 20 Websites, und vier der 22 Chatbots lieferten zu wenige Kennmarken für eine Auswertung. <strong>Was daraus für die robots.txt folgt:</strong> Sie bittet, sie verbietet nicht. Die eigenen Erhebungen zu Medien und DAX-Unternehmen zählen, wer diese Bitte ausspricht; dieser Versuch zeigt, wie wenig sie bei bereits gesammelten Inhalten bewirkt. Und wer einem Suchmaschinen-Crawler Zugang gibt, gibt ihn womöglich einem Chatbot mit.</p>
+        <p class="ev-source">Seiden, Ren, Zhang, Kim, Liu und Wenger (Duke University, University of Pittsburgh, Carnegie Mellon University), „Identifying AI Web Scrapers Using Canary Tokens“, arXiv 2605.13706, Fassung 2 vom 3. September 2026, erste Fassung vom 13. Mai 2026, Preprint ohne Begutachtung · 20 Websites, zwei Monate Crawling vor der Sperre, 22 Chatbots, davon 18 auswertbar · Volltext gelesen am 23. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://arxiv.org/abs/2605.13706" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#robots-sperre-chatbots">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="agenten-vollmacht-standard" data-topic="handel" data-cite="Wofür ein KI-Agent im Auftrag eines Menschen handeln darf, soll nachweisbar werden. Die FIDO Alliance entwickelt seit dem 28. April 2026 Standards, mit denen Nutzer Agenten so ermächtigen, dass diese nur freigegebene Aktionen ausführen, und mit denen Dienste prüfen, ob ein Agent für einen angemeldeten Nutzer und innerhalb festgelegter Grenzen handelt. Grundlage sind Googles Agent Payments Protocol (AP2) mit kryptografisch signierten Mandaten und Mastercards Verifiable Intent. Die Arbeitsgruppe für die Authentifizierung von Agenten leiten Mitglieder von CVS Health, Google und OpenAI, die für Zahlungen Mastercard und Visa. (FIDO Alliance, Ankündigung vom 28. April 2026). https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/ · via https://robert-haase.de/belege.html#agenten-vollmacht-standard">
+        <p class="ev-grade is-plain">Stand der Normung</p>
+        <p class="ev-claim">Wofür ein KI-Agent im Auftrag eines Menschen handeln darf, soll nachweisbar werden. Die FIDO Alliance entwickelt seit dem 28. April 2026 Standards, mit denen Nutzer Agenten so ermächtigen, dass diese nur freigegebene Aktionen ausführen, und mit denen Dienste prüfen, ob ein Agent für einen angemeldeten Nutzer und innerhalb festgelegter Grenzen handelt. Grundlage sind Googles Agent Payments Protocol (AP2) mit kryptografisch signierten Mandaten und Mastercards Verifiable Intent. Die Arbeitsgruppe für die Authentifizierung von Agenten leiten Mitglieder von CVS Health, Google und OpenAI, die für Zahlungen Mastercard und Visa.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> Nutzung. Es ist ein Normungsvorhaben ohne fertigen Standard und ohne Verbreitungszahlen; Cloudflare Radar findet AP2 am 21. September 2026 auf zwei von 107.155 geprüften Domains, wie der Eintrag zur Verbreitung der Agenten-Standards belegt. <strong>Und was es nicht regelt:</strong> Genormt wird die Vollmacht des Käufers gegenüber Händlern und Zahlungsdiensten. Was ein Agent im Namen einer Marke zusagen darf, etwa einen Rabatt oder eine Kulanz, ist nicht Gegenstand dieser Vorhaben. Wie wenig die Firmen hinter solchen Protokollen über deren Verbreitung sagen, zeigt der Eintrag zum UCP-Gremium.</p>
+        <p class="ev-source">FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen (<a href="https://ap2-protocol.org/" target="_blank" rel="noopener" aria-label="zur AP2-Dokumentation (öffnet in neuem Tab)">zur AP2-Dokumentation</a>) · abgerufen am 23. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#agenten-vollmacht-standard">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="eu-kennzeichnungskodex" data-topic="haftung" data-cite="Wie Anbieter und Anwender die Kennzeichnungspflichten aus Artikel 50 des AI Act erfüllen können, beschreibt ein freiwilliger Verhaltenskodex, dessen endgültige Fassung die EU-Kommission am 10. Juni 2026 veröffentlicht hat, dazu drei EU-Symbole für KI-erzeugte Inhalte, frei nutzbar ohne Nennung der Kommission. Den Teil zur Markierung durch Anbieter haben 95 Organisationen unterzeichnet, darunter OpenAI, Google, Meta, Microsoft, Anthropic und Mistral, den Teil zur Kennzeichnung durch Anwender 192, darunter Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images und Dentsu. (Europäische Kommission, Verhaltenskodex vom 10. Juni 2026, Unterzeichner Stand 31. Juli 2026). https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content · via https://robert-haase.de/belege.html#eu-kennzeichnungskodex">
+        <p class="ev-grade is-plain">Rechtslage</p>
+        <p class="ev-claim">Wie Anbieter und Anwender die Kennzeichnungspflichten aus Artikel 50 des AI Act erfüllen können, beschreibt ein freiwilliger Verhaltenskodex, dessen endgültige Fassung die EU-Kommission am 10. Juni 2026 veröffentlicht hat, dazu drei EU-Symbole für KI-erzeugte Inhalte, frei nutzbar ohne Nennung der Kommission. Den Teil zur Markierung durch Anbieter haben 95 Organisationen unterzeichnet, darunter OpenAI, Google, Meta, Microsoft, Anthropic und Mistral, den Teil zur Kennzeichnung durch Anwender 192, darunter Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images und Dentsu.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> dass die Unterzeichner kennzeichnen. Die Unterschrift ist eine Selbstverpflichtung, die Symbole sind freiwillig; verbindlich bleibt die Pflicht aus Artikel 50, und wen sie ab wann trifft, belegt der Eintrag zum AI Act. <strong>Der Teil für Anwender ist eng:</strong> Er betrifft Deepfakes und KI-erzeugte Texte, die die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informieren, sofern sie nicht menschlich geprüft und redaktionell verantwortet sind. Die Symbole sind nach Angabe der Kommission mit Nutzern getestet, Zahlen dazu nennt sie nicht. Die Liste der Unterzeichner trägt den Stand vom 31. Juli 2026.</p>
+        <p class="ev-source">Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Varianten, Seite zuletzt aktualisiert am 10. August 2026 (<a href="https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content" target="_blank" rel="noopener" aria-label="zu den Symbolen (öffnet in neuem Tab)">zu den Symbolen</a>) · Unterzeichner, Stand 31. Juli 2026 (<a href="https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content" target="_blank" rel="noopener" aria-label="zur Liste der Unterzeichner (öffnet in neuem Tab)">zur Liste der Unterzeichner</a>) · abgerufen am 23. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#eu-kennzeichnungskodex">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="commerce-agent-freigabe" data-topic="handel" data-cite="Anthropics Vorlage für Einkaufs- und Händler-Agenten legt Geschäftsregeln, Befugnisse und die Einhaltung von Vorschriften ausdrücklich beim Unternehmen ab, das die Agenten einsetzt: „Business rules, authorization, and compliance are the deployment’s.“ Kein Agent der Vorlage bestellt, belastet eine Karte oder ändert ein Angebot; der Schritt zur Kasse zeigt nur den Warenkorb, den Kauf schließt die Anwendung des Unternehmens ab, und jede Änderung des Händler-Agenten wartet auf die Freigabe eines Menschen. Markenname, Name des Assistenten und Markenstimme sind Felder der Konfiguration. (Anthropic, Repository „Claude Commerce Agents“, angelegt am 1. September 2026). https://github.com/anthropics/commerce-agents · via https://robert-haase.de/belege.html#commerce-agent-freigabe">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">Anthropics Vorlage für Einkaufs- und Händler-Agenten legt Geschäftsregeln, Befugnisse und die Einhaltung von Vorschriften ausdrücklich beim Unternehmen ab, das die Agenten einsetzt: „Business rules, authorization, and compliance are the deployment’s.“ Kein Agent der Vorlage bestellt, belastet eine Karte oder ändert ein Angebot; der Schritt zur Kasse zeigt nur den Warenkorb, den Kauf schließt die Anwendung des Unternehmens ab, und jede Änderung des Händler-Agenten wartet auf die Freigabe eines Menschen. Markenname, Name des Assistenten und Markenstimme sind Felder der Konfiguration.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> Nutzung. Es ist eine Vorlage zum Nachbauen, alle Firmen darin sind erfunden und heißen ACME, Kunden oder Zahlen nennt Anthropic nicht. <strong>Und was sie offenlässt:</strong> Wer im Unternehmen entscheidet, welche Regeln der Agent befolgt und was er im Namen der Marke sagt, beantwortet die Vorlage nicht; sie gibt die Frage ausdrücklich weiter. Dass der Kauf direkt im Chat beim Marktführer schon wieder zurückgebaut wurde, belegt der Eintrag zum Rückbau von Instant Checkout.</p>
+        <p class="ev-source">Anthropic, Repository „Claude Commerce Agents“ (anthropics/commerce-agents), angelegt am 1. September 2026, Lizenz Apache 2.0 · README mit dem Hinweis zu Bestellungen, Freigaben und Verantwortung sowie den Konfigurationsfeldern brand_name, assistant_name und brand_voice · abgerufen am 23. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://github.com/anthropics/commerce-agents" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#commerce-agent-freigabe">Direktlink</a>
+        </div>
+      </article>
+
+      <article class="ev-item" id="cmo-titel-schwindet" data-topic="markt" data-cite="Nur noch 36 Prozent der Fortune-500-Unternehmen führen den Titel Chief Marketing Officer, ein Jahr zuvor waren es 49 Prozent. Eine Marketingspitze, die zur Geschäftsleitung gehört oder an den CEO berichtet, haben noch 52 Prozent, 2025 waren es 58 Prozent. (Forrester, Ian Bruce, 7. Juli 2026). https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/ · via https://robert-haase.de/belege.html#cmo-titel-schwindet">
+        <p class="ev-grade is-weak">Analystenauswertung, Methode nicht offen</p>
+        <p class="ev-claim">Nur noch 36 Prozent der Fortune-500-Unternehmen führen den Titel Chief Marketing Officer, ein Jahr zuvor waren es 49 Prozent. Eine Marketingspitze, die zur Geschäftsleitung gehört oder an den CEO berichtet, haben noch 52 Prozent, 2025 waren es 58 Prozent.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Ein Titel ist keine Funktion. Forrester nennt selbst andere Titel, die an seine Stelle treten, etwa Chief Growth Officer, Chief Commercial Officer oder Chief Customer Officer; ob Markenentscheidungen dadurch anders oder schlechter getroffen werden, sagt die Zahl nicht. <strong>Die Methode ist nicht offen:</strong> Datenquelle und Stichtag stehen nur im Bericht für Forrester-Kunden, öffentlich ist allein der Blogbeitrag zur dritten jährlichen Auswertung. Erfasst sind die 500 umsatzstärksten US-Unternehmen, nicht der deutsche Markt.</p>
+        <p class="ev-source">Forrester, Ian Bruce, „New Analysis Suggests The CMO’s Role In The Fortune 500 Is At A Crossroads“, Blogbeitrag vom 7. Juli 2026, dritte jährliche Auswertung · vollständiger Bericht „The Representation And Tenure Of Fortune 500 CMOs in 2026“ nur für Kunden · abgerufen am 23. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#cmo-titel-schwindet">Direktlink</a>
+        </div>
+      </article>
+
+      <p class="ev-end" id="ev-end">Ende der Liste: 114 von 114 Einträgen. Letzter Eintrag: cmo-titel-schwindet.</p>
 
       <p class="ev-empty" id="ev-empty" hidden>Kein Beleg passt zu dieser Auswahl.</p>
 

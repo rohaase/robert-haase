@@ -1,6 +1,6 @@
 # Belege: Handel
 
-7 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+9 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 23. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → airline-direktkanal, shopify-knowledge-base
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (3) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
-+ Sachstand, Fallbericht oder Marktbeobachtung (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
++ Sachstand, Fallbericht oder Marktbeobachtung (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 ---
 
@@ -126,4 +126,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 7 von 7 Einträgen zum Thema Handel. Letzter Eintrag: shopify-knowledge-base.
+## agenten-vollmacht-standard
+
+**Aussage:** Wofür ein KI-Agent im Auftrag eines Menschen handeln darf, soll nachweisbar werden. Die FIDO Alliance entwickelt seit dem 28. April 2026 Standards, mit denen Nutzer Agenten so ermächtigen, dass diese nur freigegebene Aktionen ausführen, und mit denen Dienste prüfen, ob ein Agent für einen angemeldeten Nutzer und innerhalb festgelegter Grenzen handelt. Grundlage sind Googles Agent Payments Protocol (AP2) mit kryptografisch signierten Mandaten und Mastercards Verifiable Intent. Die Arbeitsgruppe für die Authentifizierung von Agenten leiten Mitglieder von CVS Health, Google und OpenAI, die für Zahlungen Mastercard und Visa.
+
+**Was der Eintrag nicht belegt:** Nutzung. Es ist ein Normungsvorhaben ohne fertigen Standard und ohne Verbreitungszahlen; Cloudflare Radar findet AP2 am 21. September 2026 auf zwei von 107.155 geprüften Domains, wie der Eintrag zur Verbreitung der Agenten-Standards belegt. **Und was es nicht regelt:** Genormt wird die Vollmacht des Käufers gegenüber Händlern und Zahlungsdiensten. Was ein Agent im Namen einer Marke zusagen darf, etwa einen Rabatt oder eine Kulanz, ist nicht Gegenstand dieser Vorhaben. Wie wenig die Firmen hinter solchen Protokollen über deren Verbreitung sagen, zeigt der Eintrag zum UCP-Gremium.
+
+**Quelle:** FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen ([zur AP2-Dokumentation](https://ap2-protocol.org/)) · abgerufen am 23. September 2026 · [Zur Quelle](https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/)
+
+**Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-vollmacht-standard
+
+---
+
+## commerce-agent-freigabe
+
+**Aussage:** Anthropics Vorlage für Einkaufs- und Händler-Agenten legt Geschäftsregeln, Befugnisse und die Einhaltung von Vorschriften ausdrücklich beim Unternehmen ab, das die Agenten einsetzt: „Business rules, authorization, and compliance are the deployment’s.“ Kein Agent der Vorlage bestellt, belastet eine Karte oder ändert ein Angebot; der Schritt zur Kasse zeigt nur den Warenkorb, den Kauf schließt die Anwendung des Unternehmens ab, und jede Änderung des Händler-Agenten wartet auf die Freigabe eines Menschen. Markenname, Name des Assistenten und Markenstimme sind Felder der Konfiguration.
+
+**Was der Eintrag nicht belegt:** Nutzung. Es ist eine Vorlage zum Nachbauen, alle Firmen darin sind erfunden und heißen ACME, Kunden oder Zahlen nennt Anthropic nicht. **Und was sie offenlässt:** Wer im Unternehmen entscheidet, welche Regeln der Agent befolgt und was er im Namen der Marke sagt, beantwortet die Vorlage nicht; sie gibt die Frage ausdrücklich weiter. Dass der Kauf direkt im Chat beim Marktführer schon wieder zurückgebaut wurde, belegt der Eintrag zum Rückbau von Instant Checkout.
+
+**Quelle:** Anthropic, Repository „Claude Commerce Agents“ (anthropics/commerce-agents), angelegt am 1. September 2026, Lizenz Apache 2.0 · README mit dem Hinweis zu Bestellungen, Freigaben und Verantwortung sowie den Konfigurationsfeldern brand_name, assistant_name und brand_voice · abgerufen am 23. September 2026 · [Zur Quelle](https://github.com/anthropics/commerce-agents)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#commerce-agent-freigabe
+
+---
+
+Ende der Datei: 9 von 9 Einträgen zum Thema Handel. Letzter Eintrag: commerce-agent-freigabe.

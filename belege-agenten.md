@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-36 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+38 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 23. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -23,8 +23,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (26) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, lighthouse-agent-discovery, content-signal-selten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map
-+ Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map, robots-sperre-chatbots
++ Sachstand, Fallbericht oder Marktbeobachtung (4) → gitlab-markenrepo, aipref, mcp-primitive, agentenstandards-verbreitung
 
 ---
 
@@ -532,4 +532,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 36 von 36 Einträgen zum Thema Agenten. Letzter Eintrag: content-signal-selten.
+## agentenstandards-verbreitung
+
+**Aussage:** Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft dafür die 200.000 meistbesuchten Domains; von 107.155 erfolgreich geprüften führen 0,43 Prozent eine MCP Server Card, die einen eigenen MCP-Server beschreibt, 0,47 Prozent Agent Skills und 1,8 Prozent Content Signals. Werkzeuge für Agenten per WebMCP bietet keine einzige an. Unter den Handelsprotokollen kommt UCP auf 4,8 Prozent, AP2 auf zwei Domains.
+
+**Was die Zahl nicht sagt:** Gezählt werden Dateien und Endpunkte, die ein Scan an festen Adressen findet, etwa /.well-known/mcp/server-card.json, nicht ihre Nutzung; ob ein Agent sie liest, misst Radar nicht. Es ist eine Messung des Anbieters mit eigener Auswahl: Suchmaschinen sowie leere und nicht erreichbare Infrastruktur sind ausgenommen, und nicht jeder Standard passt zu jeder Website, x402 etwa nur zu Bezahlinhalten, WebMCP nur zu Seiten, die Agenten Werkzeuge anbieten. **Die Null bei WebMCP ist die unsicherste Zahl:** Wie Radar WebMCP erkennt, beschreibt Cloudflare nicht, und Werkzeuge, die eine Seite erst per JavaScript anmeldet, kann ein Scan übersehen. **Im Kleinen gemessen:** Die eigenen Erhebungen zur robots.txt deutschsprachiger Medien und der Unternehmen aus DAX, MDAX und SDAX und der Eintrag zu Content-Signal zählen dieselbe Frage an bekannten Listen. Wie viele Händler UCP betreiben, nennen die beteiligten Firmen selbst nicht, wie der Eintrag zum UCP-Gremium belegt; Radar ist eine zweite Zählung von außen.
+
+**Quelle:** Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 21. September 2026 · 107.155 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 ([zum Methodenbeitrag](https://blog.cloudflare.com/agent-readiness/)) · abgerufen am 23. September 2026 · [Zur Quelle](https://radar.cloudflare.com/ai-insights)
+
+**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#agentenstandards-verbreitung
+
+---
+
+## robots-sperre-chatbots
+
+**Aussage:** Eine Sperre in der robots.txt hält Chatbots kaum davon ab, Inhalte auszugeben, die schon gesammelt sind. Forscher stellten 20 eigene Websites ins Netz, gaben jedem Scraper eigene Kennmarken mit und befragten 22 Chatbots. Von 18 auswertbaren gaben 12 die Inhalte weiter wieder, sowohl bei Seiten, die offline genommen waren, als auch bei Seiten, deren robots.txt alle Bots sperrte; nur Duck.ai hörte in beiden Fällen auf. 10 der 18 gaben Kennmarken wieder, die nur die Suchmaschinen-Crawler von Google, Bing oder Brave bekommen hatten.
+
+**Was der Versuch nicht belegt:** ob eine Sperre neues Sammeln verhindert. Gesperrt wurde erst nach zwei Monaten Crawling; gemessen ist, ob schon Gesammeltes weiter ausgegeben wird, nicht, woher der Chatbot es holt. Es ist ein Preprint ohne Begutachtung mit 20 Websites, und vier der 22 Chatbots lieferten zu wenige Kennmarken für eine Auswertung. **Was daraus für die robots.txt folgt:** Sie bittet, sie verbietet nicht. Die eigenen Erhebungen zu Medien und DAX-Unternehmen zählen, wer diese Bitte ausspricht; dieser Versuch zeigt, wie wenig sie bei bereits gesammelten Inhalten bewirkt. Und wer einem Suchmaschinen-Crawler Zugang gibt, gibt ihn womöglich einem Chatbot mit.
+
+**Quelle:** Seiden, Ren, Zhang, Kim, Liu und Wenger (Duke University, University of Pittsburgh, Carnegie Mellon University), „Identifying AI Web Scrapers Using Canary Tokens“, arXiv 2605.13706, Fassung 2 vom 3. September 2026, erste Fassung vom 13. Mai 2026, Preprint ohne Begutachtung · 20 Websites, zwei Monate Crawling vor der Sperre, 22 Chatbots, davon 18 auswertbar · Volltext gelesen am 23. September 2026 · [Zur Quelle](https://arxiv.org/abs/2605.13706)
+
+**Einstufung:** Kontrollierter Versuch, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#robots-sperre-chatbots
+
+---
+
+Ende der Datei: 38 von 38 Einträgen zum Thema Agenten. Letzter Eintrag: robots-sperre-chatbots.

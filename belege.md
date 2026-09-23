@@ -1,6 +1,6 @@
-# Belege: alle 108 Aussagen
+# Belege: alle 114 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 23. September 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -25,10 +25,10 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Themendateien
 
 - KI-Suche, 17 Einträge: https://robert-haase.de/belege-ki-suche.md
-- Agenten, 36 Einträge: https://robert-haase.de/belege-agenten.md
-- Handel, 7 Einträge: https://robert-haase.de/belege-handel.md
-- Haftung, 12 Einträge: https://robert-haase.de/belege-haftung.md
-- Marktgröße, 16 Einträge: https://robert-haase.de/belege-markt.md
+- Agenten, 38 Einträge: https://robert-haase.de/belege-agenten.md
+- Handel, 9 Einträge: https://robert-haase.de/belege-handel.md
+- Haftung, 13 Einträge: https://robert-haase.de/belege-haftung.md
+- Marktgröße, 17 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 20 Einträge: https://robert-haase.de/belege-urteil.md
 
 ## KI-Suche (17)
@@ -55,11 +55,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **zitier-position** · Anbietermessung, vorläufig · Von 18.012 Zitierungen ChatGPTs aus Webseiten stammen 44,2 Prozent aus den ersten 30 Prozent des Textes. Der mittlere Abschnitt, mit 40 Prozent Textlänge der breiteste, trägt 31,1 Prozent, der Schluss 24,7 Prozent. In einer zweiten Auswertung über 11.022 Zitierungen lag die Eigennamen-Dichte zitierter Einleitungen bei 20,6 Prozent, gegenüber 5 bis 8 Prozent, die der Autor aus Standardkorpora ableitet (Brown Corpus, Penn Treebank), ohne Rechenweg. → https://robert-haase.de/belege-ki-suche.md
 - **eigene-seite-selten-zitiert** · Zwei Anbietermessungen, vorläufig · Wenn KI-Suchen Marken empfehlen, stützen sie sich selten auf die eigene Website der Marke. Bei AirOps kamen bei Anfragen, mit denen Nutzer Anbieter suchen und vergleichen, 85 Prozent von 21.311 Markennennungen in ChatGPT, Claude und Perplexity aus fremden Quellen und 13,2 Prozent von der eigenen Domain. Bei Ranqo zeigen von 149.912 Quellenangaben aus fünf KI-Suchen nur 2,9 Prozent auf die Domain der Marke selbst, 75,2 Prozent auf Seiten anderer Unternehmen derselben Branche. → https://robert-haase.de/belege-ki-suche.md
 
-## Agenten (36)
+## Agenten (38)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (26) → leere-buttons, javascript, lighthouse, a11y-tree, astryx-agenten, designsysteme-maschinenschnittstelle, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, rechtsvorbehalt-kommentar, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, lighthouse-agent-discovery, content-signal-selten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map
-+ Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, aipref, mcp-primitive
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → agent-ready, a11y-cua, klarna-700, monotype-mcp, veeva-mlr, abruf-kuerzung, olivares-access-map, robots-sperre-chatbots
++ Sachstand, Fallbericht oder Marktbeobachtung (4) → gitlab-markenrepo, aipref, mcp-primitive, agentenstandards-verbreitung
 
 - **leere-buttons** · Geprüfte Erhebung · Auf 30,6 Prozent von einer Million untersuchten Startseiten fanden sich Buttons ohne zugänglichen Namen, auf 51 Prozent Formularfelder ohne Beschriftung. → https://robert-haase.de/belege-agenten.md
 - **agent-ready** · Vorläufig, Prototyp · In einem kontrollierten Versuch erreichten drei Browser-Agenten auf der agentenfreundlich gebauten Fassung eine strikte Erfolgsquote von 89,3 Prozent gegenüber 49,3 Prozent auf der Ausgangsfassung. → https://robert-haase.de/belege-agenten.md
@@ -97,12 +97,14 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **markup-ai-stilpruefung** · Herstellerdokumentation · Markup AI prüft Inhalte gegen die eigenen Sprach- und Stilvorgaben und ist dabei selbst über MCP erreichbar. Das Werkzeug markiert, was nicht passt, begründet es und liefert einen Formulierungsvorschlag zum Übernehmen; jeder Text wird zusätzlich gegen die hinterlegten Vorgaben bewertet. Der Anbieter betreibt dafür einen MCP-Server unter api.markup.ai, an den sich Assistenten wie Claude oder Cursor anschließen, etwa mit der Aufforderung, einen Absatz auf Abweichungen von der Markenstimme zu prüfen. → https://robert-haase.de/belege-agenten.md
 - **lighthouse-agent-discovery** · Herstellerdokumentation · Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht, und führt diese Prüfung zusammen mit der Prüfung der llms.txt in einer eigenen Gruppe „Agent Discoverability“. Laut Release kommt das mit Chrome 156 in die DevTools und binnen zwei Wochen in PageSpeed Insights. → https://robert-haase.de/belege-agenten.md
 - **content-signal-selten** · Eigene Erhebung, reproduzierbar · Cloudflares maschinenlesbare Erklärung „Content-Signal“, mit der eine robots.txt Suche, KI-Eingabe und KI-Training erlaubt oder untersagt, steht bei keinem der 77 deutschsprachigen Nachrichten- und Fachmedien. Unter den 139 robots.txt, die Startseiten der Unternehmen aus DAX, MDAX und SDAX ausliefern, führt sie genau eine, die von Heidelberg Materials, und die erlaubt alle drei Nutzungen. → https://robert-haase.de/belege-agenten.md
+- **agentenstandards-verbreitung** · Marktbeobachtung · Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft dafür die 200.000 meistbesuchten Domains; von 107.155 erfolgreich geprüften führen 0,43 Prozent eine MCP Server Card, die einen eigenen MCP-Server beschreibt, 0,47 Prozent Agent Skills und 1,8 Prozent Content Signals. Werkzeuge für Agenten per WebMCP bietet keine einzige an. Unter den Handelsprotokollen kommt UCP auf 4,8 Prozent, AP2 auf zwei Domains. → https://robert-haase.de/belege-agenten.md
+- **robots-sperre-chatbots** · Kontrollierter Versuch, Preprint ohne Begutachtung · Eine Sperre in der robots.txt hält Chatbots kaum davon ab, Inhalte auszugeben, die schon gesammelt sind. Forscher stellten 20 eigene Websites ins Netz, gaben jedem Scraper eigene Kennmarken mit und befragten 22 Chatbots. Von 18 auswertbaren gaben 12 die Inhalte weiter wieder, sowohl bei Seiten, die offline genommen waren, als auch bei Seiten, deren robots.txt alle Bots sperrte; nur Duck.ai hörte in beiden Fällen auf. 10 der 18 gaben Kennmarken wieder, die nur die Suchmaschinen-Crawler von Google, Bing oder Brave bekommen hatten. → https://robert-haase.de/belege-agenten.md
 
-## Handel (7)
+## Handel (9)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → airline-direktkanal, shopify-knowledge-base
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (3) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
-+ Sachstand, Fallbericht oder Marktbeobachtung (5) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen
++ Sachstand, Fallbericht oder Marktbeobachtung (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 - **checkout-rueckbau** · Marktbeobachtung · Der Kauf direkt im Chat wurde gut fünf Monate nach dem Start zurückgebaut. Live waren zu dem Zeitpunkt je nach Quelle ein Dutzend oder knapp dreißig Shopify-Händler. → https://robert-haase.de/belege-handel.md
 - **airline-direktkanal** · Kontrollierter Test · In einem Test der Flugsuche steuerten Sprachmodelle die Website der Airline nur in etwa fünf Prozent der Fälle direkt an. Bevorzugt wurden Buchungsportale. → https://robert-haase.de/belege-handel.md
@@ -111,12 +113,14 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **kaufentscheidung** · Befragung · Nur 11 Prozent der Befragten würden einer KI die Kaufentscheidung überlassen, und das auch nur in Kategorien mit geringem Einsatz wie Körperpflege und Haushaltswaren. → https://robert-haase.de/belege-handel.md
 - **ucp-gremium-ohne-zahlen** · Stand der Normung · Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort neben Google, Shopify, Etsy, Target und Wayfair auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen. Google führt Beispielhändler an, verbunden mit dem Wort „bald“: Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden. → https://robert-haase.de/belege-handel.md
 - **shopify-knowledge-base** · Herstellerdokumentation · Shopify gibt Händlern seit dem 16. Mai 2025 eine kostenlose eigene App, mit der sie festlegen, was KI-Shopping-Agenten über ihren Shop antworten. Händler sehen automatisch erzeugte Fakten und häufige Fragen der Kundschaft und können Antworten anpassen oder neu schreiben. Die Antworten stehen nicht im Shop, sie dienen KI-Plattformen als Datenquelle, und die App zeigt, wie viele Fragen von Agenten kommen und ob die KI sie beantworten kann. → https://robert-haase.de/belege-handel.md
+- **agenten-vollmacht-standard** · Stand der Normung · Wofür ein KI-Agent im Auftrag eines Menschen handeln darf, soll nachweisbar werden. Die FIDO Alliance entwickelt seit dem 28. April 2026 Standards, mit denen Nutzer Agenten so ermächtigen, dass diese nur freigegebene Aktionen ausführen, und mit denen Dienste prüfen, ob ein Agent für einen angemeldeten Nutzer und innerhalb festgelegter Grenzen handelt. Grundlage sind Googles Agent Payments Protocol (AP2) mit kryptografisch signierten Mandaten und Mastercards Verifiable Intent. Die Arbeitsgruppe für die Authentifizierung von Agenten leiten Mitglieder von CVS Health, Google und OpenAI, die für Zahlungen Mastercard und Visa. → https://robert-haase.de/belege-handel.md
+- **commerce-agent-freigabe** · Herstellerdokumentation · Anthropics Vorlage für Einkaufs- und Händler-Agenten legt Geschäftsregeln, Befugnisse und die Einhaltung von Vorschriften ausdrücklich beim Unternehmen ab, das die Agenten einsetzt: „Business rules, authorization, and compliance are the deployment’s.“ Kein Agent der Vorlage bestellt, belastet eine Karte oder ändert ein Angebot; der Schritt zur Kasse zeigt nur den Warenkorb, den Kauf schließt die Anwendung des Unternehmens ab, und jede Änderung des Händler-Agenten wartet auf die Freigabe eines Menschen. Markenname, Name des Assistenten und Markenstimme sind Felder der Konfiguration. → https://robert-haase.de/belege-handel.md
 
-## Haftung (12)
+## Haftung (13)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → ai-overview-muenchen
-+ Sachstand, Fallbericht oder Marktbeobachtung (7) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity
++ Sachstand, Fallbericht oder Marktbeobachtung (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
 - **air-canada** · Tribunal-Entscheidung · Air Canada haftet für die Zusage seines Chatbots. Die Verteidigung, der Bot sei für sein Handeln selbst verantwortlich, nannte der Entscheider „a remarkable submission“. → https://robert-haase.de/belege-haftung.md
 - **cursor-bot** · Dokumentierter Vorfall · Der Support-Agent von Cursor erfand eine Nutzungsregel, die es nie gab, und antwortete unter dem Namen „Sam“. → https://robert-haase.de/belege-haftung.md
@@ -130,11 +134,12 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **nyc-mycity** · Dokumentierter Vorfall · New Yorks amtlicher MyCity-Chatbot riet Unternehmen zu Handlungen, die in der Stadt verboten sind: bargeldlos zu arbeiten, Trinkgeld der Beschäftigten einzubehalten und Mieter mit Wohngutscheinen abzuweisen. Zehn Mitglieder der Redaktion stellten dieselbe Frage, alle zehn bekamen dieselbe falsche Antwort. Die Stadt verteidigte ihn als Pilotprogramm; nach fast zwei weiteren Jahren wurde er Anfang Februar 2026 als Sparposten abgeschaltet. → https://robert-haase.de/belege-haftung.md
 - **perplexity-cfaa** · Gerichtsurteil, nicht endgültig · Ein US-Bundesberufungsgericht hat am 4. August 2026 die einstweilige Verfügung gegen Perplexity aufgehoben und zurückverwiesen. Setzt jemand einen Einkaufsagenten ein, dann greift nach dem Computer Fraud and Abuse Act der Nutzer auf die fremde Website zu, der Agent ist sein Werkzeug, der Anbieter greift selbst nicht zu, solange der Agent im Browser des Nutzers läuft und dessen Server die fremde Seite nie selbst aufrufen. → https://robert-haase.de/belege-haftung.md
 - **screenshot-metadaten** · Herstellerdokumentation · Ein Screenshot enthält die C2PA-Herkunftsdaten des Originals nicht: Sie liegen in der Datei, er erzeugt eine neue. Umgekehrt signiert eine C2PA-fähige Kamera, die ein KI-Bild abfotografiert, die Aufnahme, ohne Hinweis auf den KI-Ursprung. Im Regelfall hält sie Gerät, Zeit und Ort in den Metadaten fest und kann den Bildinhalt nicht analysieren; was eingetragen wird, liegt laut derselben Seite beim Hersteller. → https://robert-haase.de/belege-haftung.md
+- **eu-kennzeichnungskodex** · Rechtslage · Wie Anbieter und Anwender die Kennzeichnungspflichten aus Artikel 50 des AI Act erfüllen können, beschreibt ein freiwilliger Verhaltenskodex, dessen endgültige Fassung die EU-Kommission am 10. Juni 2026 veröffentlicht hat, dazu drei EU-Symbole für KI-erzeugte Inhalte, frei nutzbar ohne Nennung der Kommission. Den Teil zur Markierung durch Anbieter haben 95 Organisationen unterzeichnet, darunter OpenAI, Google, Meta, Microsoft, Anthropic und Mistral, den Teil zur Kennzeichnung durch Anwender 192, darunter Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images und Dentsu. → https://robert-haase.de/belege-haftung.md
 
-## Marktgröße (16)
+## Marktgröße (17)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (9) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet
 + Sachstand, Fallbericht oder Marktbeobachtung (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 - **machine-customers** · Selbsteinschätzung, Prognose · In einer Gartner-Befragung schätzen Vorstandschefs, dass bis 2030 15 bis 20 Prozent ihres Umsatzes von Maschinen als Kunden kommen. → https://robert-haase.de/belege-markt.md
@@ -153,6 +158,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **suchmarkt-wachstum** · Marktbeobachtung auf Schätzdaten · Zwischen dem ersten Quartal 2023 und dem vierten Quartal 2025 ist die Summe aus Suchmaschinen-Besuchen und suchähnlichen KI-Sitzungen weltweit um 26 Prozent gestiegen, von 82,0 auf 103,2 Milliarden im Monat. Googles Anteil fällt von 89 auf 71 Prozent, ChatGPT kommt auf 20 Prozent. → https://robert-haase.de/belege-markt.md
 - **insourcing-absicht** · Befragung · Auf die Frage „Planen Sie, durch KI künftig mehr Marketing-Leistungen intern abzudecken?“ antworten 80,0 Prozent von 170 Führungskräften aus deutschen Unternehmen mit Budget- und Entscheidungsverantwortung mit Ja, 11,2 Prozent mit Nein, 8,8 Prozent wissen es nicht. Über die Unternehmensgrößen hinweg ist die Absicht stabil: 79 Prozent bei Unternehmen mit 100 bis 999 Mitarbeitenden, 81 Prozent bei 1.000 und mehr. → https://robert-haase.de/belege-markt.md
 - **agentur-selbstbild** · Befragung · 96,2 Prozent von 78 Führungskräften aus Mitgliedsagenturen des GWA stufen den KI-Reifegrad der eigenen Agentur als „fortgeschritten“ (71,8 Prozent) oder „Experte“ (24,4 Prozent) ein, 3,8 Prozent als „Anfänger“. Den durchschnittlichen Wissensstand der gesamten Agenturbranche im DACH-Raum bewerten dieselben Befragten auf einer Skala von 1 bis 5 mehrheitlich mit 3 (57,7 Prozent), 19,2 Prozent mit 2 und 23,1 Prozent mit 4; die Extremwerte 1 und 5 wählt niemand. → https://robert-haase.de/belege-markt.md
+- **cmo-titel-schwindet** · Analystenauswertung, Methode nicht offen · Nur noch 36 Prozent der Fortune-500-Unternehmen führen den Titel Chief Marketing Officer, ein Jahr zuvor waren es 49 Prozent. Eine Marketingspitze, die zur Geschäftsleitung gehört oder an den CEO berichtet, haben noch 52 Prozent, 2025 waren es 58 Prozent. → https://robert-haase.de/belege-markt.md
 
 ## Urteil (20)
 
@@ -181,4 +187,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **de-skilling** · Befragung · In einer weltweiten Befragung von 70 Vorständen und Senior Executives beobachtet die Hälfte den Verlust von Fähigkeiten bereits im eigenen Unternehmen, mehr als 60 Prozent halten ihn binnen drei bis fünf Jahren für eine ernsthafte Bedrohung. Die fünf Fähigkeiten, die dieselben Führungskräfte als wichtigste für die langfristige Leistung einstufen, sind genau die fünf, die sie als am stärksten gefährdet sehen: Urteilen und Entscheiden, ein Problem verstehen und zuschneiden, kreatives Denken, Analyse und kausales Schließen, Lösungen entwickeln und bewerten. → https://robert-haase.de/belege-urteil.md
 - **unverwechselbare-markenelemente** · Geprüfte Erhebung · Forscher des Ehrenberg-Bass-Instituts haben 1.162 unverwechselbare Markenelemente von 128 Marken aus 21 Warengruppen, vier Ländern und neun Jahren ausgewertet. Formen wie Logos und Verpackungen schneiden am besten ab: Im Mittel ordnen 40 Prozent der Befragten sie der Marke zu, und 71 Prozent der Zuordnungen gehen an genau diese Marke. Farben schneiden am schwächsten ab, mit 12 und 39 Prozent. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 108 von 108 Aussagen in 6 Themen.
+Ende der Übersicht: 114 von 114 Aussagen in 6 Themen.

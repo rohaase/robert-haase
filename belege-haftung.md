@@ -1,6 +1,6 @@
 # Belege: Haftung
 
-12 von 108 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 21. September 2026.
+13 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 23. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-liability.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → ai-overview-muenchen
-+ Sachstand, Fallbericht oder Marktbeobachtung (7) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity
++ Sachstand, Fallbericht oder Marktbeobachtung (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
 ---
 
@@ -196,4 +196,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 12 von 12 Einträgen zum Thema Haftung. Letzter Eintrag: screenshot-metadaten.
+## eu-kennzeichnungskodex
+
+**Aussage:** Wie Anbieter und Anwender die Kennzeichnungspflichten aus Artikel 50 des AI Act erfüllen können, beschreibt ein freiwilliger Verhaltenskodex, dessen endgültige Fassung die EU-Kommission am 10. Juni 2026 veröffentlicht hat, dazu drei EU-Symbole für KI-erzeugte Inhalte, frei nutzbar ohne Nennung der Kommission. Den Teil zur Markierung durch Anbieter haben 95 Organisationen unterzeichnet, darunter OpenAI, Google, Meta, Microsoft, Anthropic und Mistral, den Teil zur Kennzeichnung durch Anwender 192, darunter Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images und Dentsu.
+
+**Was der Eintrag nicht belegt:** dass die Unterzeichner kennzeichnen. Die Unterschrift ist eine Selbstverpflichtung, die Symbole sind freiwillig; verbindlich bleibt die Pflicht aus Artikel 50, und wen sie ab wann trifft, belegt der Eintrag zum AI Act. **Der Teil für Anwender ist eng:** Er betrifft Deepfakes und KI-erzeugte Texte, die die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informieren, sofern sie nicht menschlich geprüft und redaktionell verantwortet sind. Die Symbole sind nach Angabe der Kommission mit Nutzern getestet, Zahlen dazu nennt sie nicht. Die Liste der Unterzeichner trägt den Stand vom 31. Juli 2026.
+
+**Quelle:** Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Varianten, Seite zuletzt aktualisiert am 10. August 2026 ([zu den Symbolen](https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content)) · Unterzeichner, Stand 31. Juli 2026 ([zur Liste der Unterzeichner](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)) · abgerufen am 23. September 2026 · [Zur Quelle](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)
+
+**Einstufung:** Rechtslage · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#eu-kennzeichnungskodex
+
+---
+
+Ende der Datei: 13 von 13 Einträgen zum Thema Haftung. Letzter Eintrag: eu-kennzeichnungskodex.
