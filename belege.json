@@ -17,6 +17,7 @@
     "overview": "https://robert-haase.de/belege.md",
     "ki-suche": "https://robert-haase.de/belege-ki-suche.md",
     "agenten": "https://robert-haase.de/belege-agenten.md",
+    "schnittstellen": "https://robert-haase.de/belege-schnittstellen.md",
     "handel": "https://robert-haase.de/belege-handel.md",
     "haftung": "https://robert-haase.de/belege-haftung.md",
     "markt": "https://robert-haase.de/belege-markt.md",
@@ -76,7 +77,7 @@
     {
       "id": "agenten",
       "name": "Agenten",
-      "numberOfItems": 38,
+      "numberOfItems": 20,
       "textFile": "https://robert-haase.de/belege-agenten.md",
       "ids": [
         "leere-buttons",
@@ -85,9 +86,6 @@
         "javascript",
         "lighthouse",
         "a11y-tree",
-        "astryx-agenten",
-        "designsysteme-maschinenschnittstelle",
-        "gitlab-markenrepo",
         "aipref",
         "dax-zutritt",
         "dax-benennung",
@@ -96,26 +94,11 @@
         "verlage-robots",
         "marken-robots",
         "agenten-erfolg",
-        "frontify-mcp",
-        "canva-mcp",
         "klarna-700",
-        "mcp-primitive",
-        "mcp-tool-poisoning",
-        "monotype-mcp",
-        "pulumi-brand-mcp",
-        "statista-mcp",
-        "veeva-mlr",
         "rechtsvorbehalt-kommentar",
         "abruf-kuerzung",
-        "google-ads-textregeln",
-        "microsoft-brand-kit",
-        "muse-connectors",
-        "olivares-access-map",
-        "adobe-markenpruefung",
-        "markup-ai-stilpruefung",
         "lighthouse-agent-discovery",
         "content-signal-selten",
-        "agentenstandards-verbreitung",
         "robots-sperre-chatbots"
       ],
       "groups": {
@@ -124,8 +107,6 @@
           "javascript",
           "lighthouse",
           "a11y-tree",
-          "astryx-agenten",
-          "designsysteme-maschinenschnittstelle",
           "dax-zutritt",
           "dax-benennung",
           "dax-landmarken",
@@ -133,17 +114,7 @@
           "verlage-robots",
           "marken-robots",
           "agenten-erfolg",
-          "frontify-mcp",
-          "canva-mcp",
-          "mcp-tool-poisoning",
-          "pulumi-brand-mcp",
-          "statista-mcp",
           "rechtsvorbehalt-kommentar",
-          "google-ads-textregeln",
-          "microsoft-brand-kit",
-          "muse-connectors",
-          "adobe-markenpruefung",
-          "markup-ai-stilpruefung",
           "lighthouse-agent-discovery",
           "content-signal-selten"
         ],
@@ -151,15 +122,61 @@
           "agent-ready",
           "a11y-cua",
           "klarna-700",
-          "monotype-mcp",
-          "veeva-mlr",
           "abruf-kuerzung",
-          "olivares-access-map",
           "robots-sperre-chatbots"
         ],
         "plain": [
+          "aipref"
+        ]
+      }
+    },
+    {
+      "id": "schnittstellen",
+      "name": "Schnittstellen",
+      "numberOfItems": 18,
+      "textFile": "https://robert-haase.de/belege-schnittstellen.md",
+      "ids": [
+        "astryx-agenten",
+        "designsysteme-maschinenschnittstelle",
+        "gitlab-markenrepo",
+        "frontify-mcp",
+        "canva-mcp",
+        "mcp-primitive",
+        "mcp-tool-poisoning",
+        "monotype-mcp",
+        "pulumi-brand-mcp",
+        "statista-mcp",
+        "veeva-mlr",
+        "google-ads-textregeln",
+        "microsoft-brand-kit",
+        "muse-connectors",
+        "olivares-access-map",
+        "adobe-markenpruefung",
+        "markup-ai-stilpruefung",
+        "agentenstandards-verbreitung"
+      ],
+      "groups": {
+        "strong": [
+          "astryx-agenten",
+          "designsysteme-maschinenschnittstelle",
+          "frontify-mcp",
+          "canva-mcp",
+          "mcp-tool-poisoning",
+          "pulumi-brand-mcp",
+          "statista-mcp",
+          "google-ads-textregeln",
+          "microsoft-brand-kit",
+          "muse-connectors",
+          "adobe-markenpruefung",
+          "markup-ai-stilpruefung"
+        ],
+        "weak": [
+          "monotype-mcp",
+          "veeva-mlr",
+          "olivares-access-map"
+        ],
+        "plain": [
           "gitlab-markenrepo",
-          "aipref",
           "mcp-primitive",
           "agentenstandards-verbreitung"
         ]
@@ -997,7 +1014,7 @@
       "position": 23,
       "id": "astryx-agenten",
       "url": "https://robert-haase.de/belege.html#astryx-agenten",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -1024,7 +1041,7 @@
       "position": 24,
       "id": "designsysteme-maschinenschnittstelle",
       "url": "https://robert-haase.de/belege.html#designsysteme-maschinenschnittstelle",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Geprüfte Erhebung",
         "group": "strong"
@@ -1051,7 +1068,7 @@
       "position": 25,
       "id": "gitlab-markenrepo",
       "url": "https://robert-haase.de/belege.html#gitlab-markenrepo",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Dokumentierter Einzelfall",
         "group": "plain"
@@ -1936,7 +1953,7 @@
       "position": 56,
       "id": "frontify-mcp",
       "url": "https://robert-haase.de/belege.html#frontify-mcp",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -1975,7 +1992,7 @@
       "position": 57,
       "id": "canva-mcp",
       "url": "https://robert-haase.de/belege.html#canva-mcp",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -2033,7 +2050,7 @@
       "position": 59,
       "id": "mcp-primitive",
       "url": "https://robert-haase.de/belege.html#mcp-primitive",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Stand der Normung",
         "group": "plain"
@@ -2060,7 +2077,7 @@
       "position": 60,
       "id": "mcp-tool-poisoning",
       "url": "https://robert-haase.de/belege.html#mcp-tool-poisoning",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Begutachtete Benchmark und Test des Anbieters",
         "group": "strong"
@@ -2091,7 +2108,7 @@
       "position": 61,
       "id": "monotype-mcp",
       "url": "https://robert-haase.de/belege.html#monotype-mcp",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Anbieterangaben, Beta",
         "group": "weak"
@@ -2118,7 +2135,7 @@
       "position": 62,
       "id": "pulumi-brand-mcp",
       "url": "https://robert-haase.de/belege.html#pulumi-brand-mcp",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Eigene Erhebung, reproduzierbar",
         "group": "strong"
@@ -2145,7 +2162,7 @@
       "position": 63,
       "id": "statista-mcp",
       "url": "https://robert-haase.de/belege.html#statista-mcp",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -2176,7 +2193,7 @@
       "position": 64,
       "id": "veeva-mlr",
       "url": "https://robert-haase.de/belege.html#veeva-mlr",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Pressemitteilungen des Anbieters",
         "group": "weak"
@@ -3038,7 +3055,7 @@
       "position": 95,
       "id": "google-ads-textregeln",
       "url": "https://robert-haase.de/belege.html#google-ads-textregeln",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -3146,7 +3163,7 @@
       "position": 99,
       "id": "microsoft-brand-kit",
       "url": "https://robert-haase.de/belege.html#microsoft-brand-kit",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -3177,7 +3194,7 @@
       "position": 100,
       "id": "muse-connectors",
       "url": "https://robert-haase.de/belege.html#muse-connectors",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -3208,7 +3225,7 @@
       "position": 101,
       "id": "olivares-access-map",
       "url": "https://robert-haase.de/belege.html#olivares-access-map",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Anbieterangaben, Beta",
         "group": "weak"
@@ -3235,7 +3252,7 @@
       "position": 102,
       "id": "adobe-markenpruefung",
       "url": "https://robert-haase.de/belege.html#adobe-markenpruefung",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -3262,7 +3279,7 @@
       "position": 103,
       "id": "markup-ai-stilpruefung",
       "url": "https://robert-haase.de/belege.html#markup-ai-stilpruefung",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Herstellerdokumentation",
         "group": "strong"
@@ -3440,7 +3457,7 @@
       "position": 109,
       "id": "agentenstandards-verbreitung",
       "url": "https://robert-haase.de/belege.html#agentenstandards-verbreitung",
-      "topic": "agenten",
+      "topic": "schnittstellen",
       "grade": {
         "name": "Marktbeobachtung",
         "group": "plain"
