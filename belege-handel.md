@@ -1,6 +1,6 @@
 # Belege: Handel
 
-9 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 23. September 2026.
+9 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 26. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 

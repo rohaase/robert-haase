@@ -1,6 +1,6 @@
 # Evidence: all 114 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 23 September 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 26 September 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
