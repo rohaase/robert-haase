@@ -1,6 +1,6 @@
 # Belege: KI-Suche
 
-17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 26. September 2026.
+17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 27. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-ai-search.md
 
@@ -32,7 +32,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Von rund 38.000 Domains mit einer llms.txt erhielten 97 Prozent im Mai 2026 keinerlei Abruf der Datei.
 
-**Was die Zahl nicht sagt:** Sie misst Abrufe, nicht Wirkung. Für Coding- und Browser-Agenten bleibt die Datei sinnvoll. Widerlegt ist allein die Behauptung, KI-Suchsysteme läsen llms.txt für ihre Empfehlungen. **Und auf die Bezugsgröße achten:** Die 97 Prozent beziehen sich auf die rund 38.000 Domains, die eine Datei haben, nicht auf alle 137.210 untersuchten. Untersucht wurde außerdem kein Querschnitt des Webs, sondern die Domains eines Analyse-Anbieters, die im Mai Zugriffe hatten.
+**Was die Zahl nicht sagt:** Sie misst Abrufe, nicht Wirkung. Für Coding- und Browser-Agenten bleibt die Datei sinnvoll. Widerlegt ist allein die Behauptung, dass KI-Suchsysteme llms.txt für ihre Empfehlungen lesen. **Und auf die Bezugsgröße achten:** Die 97 Prozent beziehen sich auf die rund 38.000 Domains, die eine Datei haben, nicht auf alle 137.210 untersuchten. Untersucht wurde außerdem kein Querschnitt des Webs, sondern die Domains eines Analyse-Anbieters, die im Mai Zugriffe hatten.
 
 **Quelle:** Ahrefs, 137.210 Domains, davon 28 Prozent mit llms.txt · Juni 2026 · [Zur Quelle](https://ahrefs.com/blog/llmstxt-study/)
 

@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-26",
+  "dateModified": "2026-09-27",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
@@ -392,7 +392,7 @@
         "name": "Ahrefs, 137.210 Domains, davon 28 Prozent mit llms.txt · Juni 2026",
         "url": "https://ahrefs.com/blog/llmstxt-study/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Sie misst Abrufe, nicht Wirkung. Für Coding- und Browser-Agenten bleibt die Datei sinnvoll. Widerlegt ist allein die Behauptung, KI-Suchsysteme läsen llms.txt für ihre Empfehlungen. Und auf die Bezugsgröße achten: Die 97 Prozent beziehen sich auf die rund 38.000 Domains, die eine Datei haben, nicht auf alle 137.210 untersuchten. Untersucht wurde außerdem kein Querschnitt des Webs, sondern die Domains eines Analyse-Anbieters, die im Mai Zugriffe hatten.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Sie misst Abrufe, nicht Wirkung. Für Coding- und Browser-Agenten bleibt die Datei sinnvoll. Widerlegt ist allein die Behauptung, dass KI-Suchsysteme llms.txt für ihre Empfehlungen lesen. Und auf die Bezugsgröße achten: Die 97 Prozent beziehen sich auf die rund 38.000 Domains, die eine Datei haben, nicht auf alle 137.210 untersuchten. Untersucht wurde außerdem kein Querschnitt des Webs, sondern die Domains eines Analyse-Anbieters, die im Mai Zugriffe hatten.",
       "position": 1,
       "id": "llmstxt-abrufe",
       "url": "https://robert-haase.de/belege.html#llmstxt-abrufe",
