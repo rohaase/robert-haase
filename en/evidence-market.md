@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-17 of 114 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+18 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Preliminary: prototype, single test, forecast, or vendor figure (9) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet
++ Preliminary: prototype, single test, forecast, or vendor figure (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
 + Status, case report, or market observation (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 ---
@@ -266,4 +266,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 17 of 17 entries on Market size. Last entry: cmo-titel-schwindet.
+## ki-verkehr-handel-prognose
+
+**Claim:** Adobe expects visits to US retail sites arriving via AI assistants, measured as shoppers clicking on a link, to grow 130 percent year over year in the 2026 holiday season, 1 November to 31 December; 159 percent on Thanksgiving, 95 on Black Friday and 88 percent on Cyber Monday. In a survey of 5,000 consumers in July 2026, 77 percent of those who had used AI for online shopping said they felt more confident in their purchase; 69 percent said they were less likely to return such purchases.
+
+**What the number does not say:** it is a vendor forecast, not a measurement, and growth from a small base. The release does not say what share of total traffic AI visits make up; the entry on the AI traffic share puts it at fractions of a percent up to just over one percent. The 69 percent is self-report, not a measured return rate, and only the US is covered. **Self-interest:** with the LLM Optimizer, Adobe itself sells a tool meant to show how a brand appears in AI-driven search.
+
+**Source:** Adobe, press release “Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY”, 28 September 2026 · basis according to Adobe: Adobe Analytics with more than one trillion visits to US retail sites, 100 million SKUs and 18 product categories, plus a survey of 5,000 consumers in July 2026 · retrieved 28 September 2026 · [Adobe on the LLM Optimizer, 20 April 2026](https://news.adobe.com/news/2026/04/adobe-introduces-brand-visibility-solution) · [Source](https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record)
+
+**Grade:** Forecast and survey by the vendor · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#ki-verkehr-handel-prognose
+
+---
+
+End of file: 18 of 18 entries on Market size. Last entry: ki-verkehr-handel-prognose.

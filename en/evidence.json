@@ -11,7 +11,7 @@
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 114,
+  "numberOfItems": 119,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -77,7 +77,7 @@
     {
       "id": "agenten",
       "name": "Agents",
-      "numberOfItems": 20,
+      "numberOfItems": 22,
       "textFile": "https://robert-haase.de/en/evidence-agents.md",
       "ids": [
         "leere-buttons",
@@ -99,7 +99,9 @@
         "abruf-kuerzung",
         "lighthouse-agent-discovery",
         "content-signal-selten",
-        "robots-sperre-chatbots"
+        "robots-sperre-chatbots",
+        "agenten-wissensarbeit",
+        "crawler-zweck-gemischt"
       ],
       "groups": {
         "strong": [
@@ -123,7 +125,9 @@
           "a11y-cua",
           "klarna-700",
           "abruf-kuerzung",
-          "robots-sperre-chatbots"
+          "robots-sperre-chatbots",
+          "agenten-wissensarbeit",
+          "crawler-zweck-gemischt"
         ],
         "plain": [
           "aipref"
@@ -133,7 +137,7 @@
     {
       "id": "schnittstellen",
       "name": "Interfaces",
-      "numberOfItems": 18,
+      "numberOfItems": 19,
       "textFile": "https://robert-haase.de/en/evidence-interfaces.md",
       "ids": [
         "astryx-agenten",
@@ -153,7 +157,8 @@
         "olivares-access-map",
         "adobe-markenpruefung",
         "markup-ai-stilpruefung",
-        "agentenstandards-verbreitung"
+        "agentenstandards-verbreitung",
+        "markenstimme-als-skill"
       ],
       "groups": {
         "strong": [
@@ -168,7 +173,8 @@
           "microsoft-brand-kit",
           "muse-connectors",
           "adobe-markenpruefung",
-          "markup-ai-stilpruefung"
+          "markup-ai-stilpruefung",
+          "markenstimme-als-skill"
         ],
         "weak": [
           "monotype-mcp",
@@ -218,7 +224,7 @@
     {
       "id": "haftung",
       "name": "Liability",
-      "numberOfItems": 13,
+      "numberOfItems": 14,
       "textFile": "https://robert-haase.de/en/evidence-liability.md",
       "ids": [
         "air-canada",
@@ -233,14 +239,16 @@
         "nyc-mycity",
         "perplexity-cfaa",
         "screenshot-metadaten",
-        "eu-kennzeichnungskodex"
+        "eu-kennzeichnungskodex",
+        "agent-vorgesetzter"
       ],
       "groups": {
         "strong": [
           "air-canada",
           "olg-hamm",
           "perplexity-cfaa",
-          "screenshot-metadaten"
+          "screenshot-metadaten",
+          "agent-vorgesetzter"
         ],
         "weak": [
           "ai-overview-muenchen"
@@ -260,7 +268,7 @@
     {
       "id": "markt",
       "name": "Market size",
-      "numberOfItems": 17,
+      "numberOfItems": 18,
       "textFile": "https://robert-haase.de/en/evidence-market.md",
       "ids": [
         "machine-customers",
@@ -279,7 +287,8 @@
         "suchmarkt-wachstum",
         "insourcing-absicht",
         "agentur-selbstbild",
-        "cmo-titel-schwindet"
+        "cmo-titel-schwindet",
+        "ki-verkehr-handel-prognose"
       ],
       "groups": {
         "strong": [
@@ -295,7 +304,8 @@
           "ki-verkehrsanteil",
           "markenklone",
           "suchmarkt-wachstum",
-          "cmo-titel-schwindet"
+          "cmo-titel-schwindet",
+          "ki-verkehr-handel-prognose"
         ],
         "plain": [
           "nicht-menschlicher-verkehr",
@@ -2562,29 +2572,33 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/en/evidence.html#homogenisierung",
-      "text": "293 participants each wrote a short story, some of them with starting ideas from GPT-4, and 600 readers rated them. Stories written with an AI idea were judged more novel, up 5.4 percent with access to one idea and up 8.1 percent with access to up to five. At the same time they converged: a story’s similarity to the mean of the others in its group rose by 0.871 points on a scale from 0 to 100, which the authors report as 10.7 percent of the range the group without AI spanned.",
+      "text": "293 participants each wrote a short story, some of them with starting ideas from GPT-4, and 600 readers rated them. Stories written with an AI idea were judged more novel, up 5.4 percent with access to one idea and up 8.1 percent with access to up to five. At the same time they converged: a story’s similarity to the mean of the others in its group rose by 0.871 points on a scale from 0 to 100, which the authors report as 10.7 percent of the range the group without AI spanned. A meta-analysis across 19 studies with 61 effect sizes finds the same pattern overall: with generative AI, creative output becomes more alike, a small but statistically significant effect (d = 0.334), robust across sensitivity analyses and not explained by publication bias.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Doshi and Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content”, Science Advances, vol. 10, issue 28, eadn5290, 12 July 2024, DOI 10.1126/sciadv.adn5290 · pre-registered, 293 writers and 600 raters on Prolific, 3,519 individual ratings, ideas from GPT-4 · the publisher site science.org refuses automated requests, so the check ran on the open full text at Europe PMC",
+        "name": "Doshi and Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content”, Science Advances, vol. 10, issue 28, eadn5290, 12 July 2024, DOI 10.1126/sciadv.adn5290 · pre-registered, 293 writers and 600 raters on Prolific, 3,519 individual ratings, ideas from GPT-4 · the publisher site science.org refuses automated requests, so the check ran on the open full text at Europe PMC · second source: de Rooij and Biskjaer, “Generative AI Makes Creative Output More Homogeneous”, European Conference on Cognitive Ergonomics (ECCE 2026, Siena, 15 to 18 September 2026), published 14 September 2026, DOI 10.1145/3822301.3822304 · systematic review and meta-analysis, 19 studies, 61 effect sizes, abstract retrieved 28 September 2026",
         "url": "https://europepmc.org/article/MED/38996021"
       },
-      "disambiguatingDescription": "What the number does not say: the 0.871 points apply to access to one idea. With up to five ideas the convergence was smaller, 0.718 points and 8.9 percent, and the creativity gain larger. Reading it as “more AI, more sameness” reads against the data. What is measured is access, not use: in the one-idea condition 82 of 100 requested an idea at all; in the second, 2.55 on average, and only 24.5 percent asked for all five. The more striking number is the softer one: the 10.7 percent is a share of the 8.10 points between the highest and lowest value among the stories without AI, so it hangs on two extreme values. The same 10.7 percent appears a second time in the paper, as a novelty gain among the least creative writers, unrelated to this one. What is measured is the cosine similarity of text embeddings within one group, not whether results are worse. “More creative” is the judgement of lay readers; in the writers’ own assessment there was no statistically significant difference. Eight sentences, no dialogue with the model, British Prolific participants rather than professional writers: short stories are not strategy papers.",
+      "disambiguatingDescription": "What the number does not say: the 0.871 points apply to access to one idea. With up to five ideas the convergence was smaller, 0.718 points and 8.9 percent, and the creativity gain larger. Reading it as “more AI, more sameness” reads against the data. What is measured is access, not use: in the one-idea condition 82 of 100 requested an idea at all; in the second, 2.55 on average, and only 24.5 percent asked for all five. The more striking number is the softer one: the 10.7 percent is a share of the 8.10 points between the highest and lowest value among the stories without AI, so it hangs on two extreme values. The same 10.7 percent appears a second time in the paper, as a novelty gain among the least creative writers, unrelated to this one. What is measured is the cosine similarity of text embeddings within one group, not whether results are worse. “More creative” is the judgement of lay readers; in the writers’ own assessment there was no statistically significant difference. Eight sentences, no dialogue with the model, British Prolific participants rather than professional writers: short stories are not strategy papers. On the meta-analysis: the effect is small, and the authors explicitly read it not as a loss of creativity but as a reorganisation of diversity: subtle in isolated instances, consequential through widespread use of similar systems. What was read is the abstract, not the full text at the ACM.",
       "position": 77,
       "id": "homogenisierung",
       "url": "https://robert-haase.de/en/evidence.html#homogenisierung",
       "topic": "urteil",
       "grade": {
-        "name": "Controlled experiment",
+        "name": "Controlled experiment and meta-analysis",
         "group": "strong"
       },
-      "sourceText": "Doshi and Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content”, Science Advances, vol. 10, issue 28, eadn5290, 12 July 2024, DOI 10.1126/sciadv.adn5290 · pre-registered, 293 writers and 600 raters on Prolific, 3,519 individual ratings, ideas from GPT-4 · the publisher site science.org refuses automated requests, so the check ran on the open full text at Europe PMC · Full text",
+      "sourceText": "Doshi and Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content”, Science Advances, vol. 10, issue 28, eadn5290, 12 July 2024, DOI 10.1126/sciadv.adn5290 · pre-registered, 293 writers and 600 raters on Prolific, 3,519 individual ratings, ideas from GPT-4 · the publisher site science.org refuses automated requests, so the check ran on the open full text at Europe PMC · second source: de Rooij and Biskjaer, “Generative AI Makes Creative Output More Homogeneous”, European Conference on Cognitive Ergonomics (ECCE 2026, Siena, 15 to 18 September 2026), published 14 September 2026, DOI 10.1145/3822301.3822304 · systematic review and meta-analysis, 19 studies, 61 effect sizes, abstract retrieved 28 September 2026 · Meta-analysis · Full text",
       "sourceLinks": [
+        {
+          "name": "Meta-analysis",
+          "url": "https://research.tilburguniversity.edu/en/publications/generative-ai-makes-creative-output-more-homogeneous/"
+        },
         {
           "name": "Full text",
           "url": "https://europepmc.org/article/MED/38996021"
         }
       ],
-      "citationText": "In a pre-registered experiment with 293 writers, 600 readers rated short stories from the condition with access to one AI starting idea as more novel, up 5.4 percent. At the same time a story’s similarity to its group mean rose by 0.871 points on a scale from 0 to 100. (Doshi and Hauser, Science Advances 10(28), eadn5290, 12 July 2024). https://europepmc.org/article/MED/38996021 · via https://robert-haase.de/en/evidence.html#homogenisierung"
+      "citationText": "In a pre-registered experiment with 293 writers, 600 readers rated short stories from the condition with access to one AI starting idea as more novel, up 5.4 percent. At the same time a story’s similarity to its group mean rose by 0.871 points on a scale from 0 to 100. A meta-analysis of 19 studies finds a small, significant effect in the same direction (d = 0.334). (Doshi and Hauser, Science Advances 10(28), eadn5290, 12 July 2024; de Rooij and Biskjaer, ECCE 2026, DOI 10.1145/3822301.3822304). https://europepmc.org/article/MED/38996021 · via https://robert-haase.de/en/evidence.html#homogenisierung"
     },
     {
       "@type": "Claim",
@@ -2735,13 +2749,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/en/evidence.html#prognose-mensch-maschine",
-      "text": "On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.8 and shares third place; two Google DeepMind entries allowed to use tools and extra context lead at 69.2 and 69.0, and a third ties. On the base leaderboard, without tools, the human median leads at 67.8 against the best model at 62.0.",
+      "text": "On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.8 and ranks third; two Google DeepMind entries allowed to use tools and extra context lead at 69.1 and 68.9, and a third follows just behind at 68.7. On the base leaderboard, without tools, the human median leads at 67.7 against the best model at 62.2.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "ForecastBench, Forecasting Research Institute, tournament and base leaderboards and the parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state",
+        "name": "ForecastBench, Forecasting Research Institute, tournament and base leaderboards from the nightly updated leaderboard files, as of 28 September 2026; parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state",
         "url": "https://www.forecastbench.org/leaderboards/"
       },
-      "disambiguatingDescription": "What the leaderboard does not say: the machines’ lead is not established. Its own significance column finds no difference for the three places ahead of and level with the median, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. The values shift by tenths with every nightly recalculation. A best-of-many result: Google DeepMind holds 53 of 343 entries and all three places ahead of or level with the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 843. On parity: the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to June 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand.",
+      "disambiguatingDescription": "What the leaderboard does not say: the machines’ lead is not established. Its own significance column finds no difference for the places ahead of and just behind the median, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. The values shift by tenths with every nightly recalculation. A best-of-many result: Google DeepMind holds 52 of 377 entries and all three places ahead of and just behind the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 847. On parity: the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to June 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand.",
       "position": 83,
       "id": "prognose-mensch-maschine",
       "url": "https://robert-haase.de/en/evidence.html#prognose-mensch-maschine",
@@ -2750,14 +2764,18 @@
         "name": "Ongoing measurement",
         "group": "plain"
       },
-      "sourceText": "ForecastBench, Forecasting Research Institute, tournament and base leaderboards and the parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · Leaderboard",
+      "sourceText": "ForecastBench, Forecasting Research Institute, tournament and base leaderboards from the nightly updated leaderboard files, as of 28 September 2026; parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · Leaderboard files · Leaderboard",
       "sourceLinks": [
+        {
+          "name": "Leaderboard files",
+          "url": "https://github.com/forecastingresearch/forecastbench-datasets/tree/main/leaderboards/csv"
+        },
         {
           "name": "Leaderboard",
           "url": "https://www.forecastbench.org/leaderboards/"
         }
       ],
-      "citationText": "On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.8 and shares third place; two Google DeepMind entries allowed to use tools and extra context lead at 69.2 and 69.0, and a third ties. On the base leaderboard, without tools, the human median leads at 67.8 against the best model at 62.0. (ForecastBench, as of 21 September 2026; the significance column finds no difference for the three places ahead of and level with the median). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/en/evidence.html#prognose-mensch-maschine"
+      "citationText": "On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.8 and ranks third; two Google DeepMind entries allowed to use tools and extra context lead at 69.1 and 68.9, and a third follows just behind at 68.7. On the base leaderboard, without tools, the human median leads at 67.7 against the best model at 62.2. (ForecastBench, as of 28 September 2026; the significance column finds no difference for the places ahead of and just behind the median). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/en/evidence.html#prognose-mensch-maschine"
     },
     {
       "@type": "Claim",
@@ -3625,6 +3643,153 @@
         }
       ],
       "citationText": "Only 36 percent of Fortune 500 companies still use the title chief marketing officer, down from 49 percent a year earlier. A top marketing leader who sits on the executive team or reports to the CEO is found at 52 percent, down from 58 percent in 2025. (Forrester, Ian Bruce, 7 July 2026). https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/ · via https://robert-haase.de/en/evidence.html#cmo-titel-schwindet"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agent-vorgesetzter",
+      "text": "Microsoft gives autonomous agents a line manager. Whoever hires a so-called autopilot in Microsoft Foundry becomes its manager; the agent gets its own user account with a mailbox, Teams presence and a place in the org chart. Almost anyone can stop it, but according to the documentation the obligation to stop it always lies with that manager, “regardless of who is at fault”: fault and obligation are kept apart by design.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Microsoft Learn, “Autopilot lifecycle in Microsoft Foundry”, dated 25 August 2026, updated 26 August 2026, sections “Who does what”, “Accountability compared with governance” and “Hire” · launch in Microsoft 365 according to Microsoft’s blog of 25 September 2026: autopilot “lives in your tenant with its own identity” and is “expanding to private preview at the end of the month” · both retrieved 28 September 2026",
+        "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle"
+      },
+      "disambiguatingDescription": "What this entry does not establish: use or legal consequence. It is product documentation for a feature that Microsoft opens in Microsoft 365 only from the end of September 2026, as a private preview. It sets roles inside the tool, not liability towards others: who answers for what an agent tells a customer is decided by law, as the entry on the ruling of the Higher Regional Court of Hamm shows, not by the org chart. One sentence on fault: if the agent fails outside the conditions it was built and tested for, fault, according to the documentation, depends on whether those conditions were ever written down.",
+      "position": 115,
+      "id": "agent-vorgesetzter",
+      "url": "https://robert-haase.de/en/evidence.html#agent-vorgesetzter",
+      "topic": "haftung",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "Microsoft Learn, “Autopilot lifecycle in Microsoft Foundry”, dated 25 August 2026, updated 26 August 2026, sections “Who does what”, “Accountability compared with governance” and “Hire” · launch in Microsoft 365 according to Microsoft’s blog of 25 September 2026: autopilot “lives in your tenant with its own identity” and is “expanding to private preview at the end of the month” · both retrieved 28 September 2026 · Microsoft blog of 25 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Microsoft blog of 25 September 2026",
+          "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+        },
+        {
+          "name": "Source",
+          "url": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle"
+        }
+      ],
+      "citationText": "Microsoft gives autonomous agents a line manager. Whoever hires a so-called autopilot in Microsoft Foundry becomes its manager; the agent gets its own user account with a mailbox, Teams presence and a place in the org chart. Almost anyone can stop it, but according to the documentation the obligation to stop it always lies with that manager, “regardless of who is at fault”: fault and obligation are kept apart by design. (Microsoft Learn, “Autopilot lifecycle in Microsoft Foundry”, dated 25 August 2026, retrieved 28 September 2026). https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle · via https://robert-haase.de/en/evidence.html#agent-vorgesetzter"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#markenstimme-als-skill",
+      "text": "Google, too, stores brand rules as managed instructions for its assistant. In Google Workspace, so-called skills are meant to, among other things, “maintain approved tone, voice, and visual identity across email drafts and files”; Google introduced them as a beta on 17 September 2026, and administrators can curate and distribute verified organisational skills. In Gemini Enterprise the documentation names writing “in your brand voice” as an example: each skill is a SKILL.md file built on an open standard, and where the administrator requires approval, a shared skill reaches others only once approved.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026",
+        "url": "https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace"
+      },
+      "disambiguatingDescription": "What this entry does not establish: use. It is vendor documentation without figures. In Workspace, skills are open only to organisations whose administrator has enabled the Gemini beta; the post says nothing about availability in the EU. In Gemini Enterprise, the Standard, Plus and pay-as-you-go editions can create skills, Frontline cannot. Context: after Microsoft’s brand kits and Adobe’s brand check, a third large vendor now stores brand rules as configuration of its assistant, as the entries on both show.",
+      "position": 116,
+      "id": "markenstimme-als-skill",
+      "url": "https://robert-haase.de/en/evidence.html#markenstimme-als-skill",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Vendor documentation, beta",
+        "group": "strong"
+      },
+      "sourceText": "Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026 · Gemini Enterprise documentation · Source",
+      "sourceLinks": [
+        {
+          "name": "Gemini Enterprise documentation",
+          "url": "https://docs.cloud.google.com/gemini/enterprise/docs/skills"
+        },
+        {
+          "name": "Source",
+          "url": "https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace"
+        }
+      ],
+      "citationText": "Google, too, stores brand rules as managed instructions for its assistant. In Google Workspace, so-called skills are meant to, among other things, “maintain approved tone, voice, and visual identity across email drafts and files”; Google introduced them as a beta on 17 September 2026, and administrators can curate and distribute verified organisational skills. In Gemini Enterprise the documentation names writing “in your brand voice” as an example: each skill is a SKILL.md file built on an open standard, and where the administrator requires approval, a shared skill reaches others only once approved. (Google Workspace Blog, 17 September 2026, and Google Cloud, Gemini Enterprise documentation, as of 24 September 2026, retrieved 28 September 2026). https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace · via https://robert-haase.de/en/evidence.html#markenstimme-als-skill"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#ki-verkehr-handel-prognose",
+      "text": "Adobe expects visits to US retail sites arriving via AI assistants, measured as shoppers clicking on a link, to grow 130 percent year over year in the 2026 holiday season, 1 November to 31 December; 159 percent on Thanksgiving, 95 on Black Friday and 88 percent on Cyber Monday. In a survey of 5,000 consumers in July 2026, 77 percent of those who had used AI for online shopping said they felt more confident in their purchase; 69 percent said they were less likely to return such purchases.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Adobe, press release “Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY”, 28 September 2026 · basis according to Adobe: Adobe Analytics with more than one trillion visits to US retail sites, 100 million SKUs and 18 product categories, plus a survey of 5,000 consumers in July 2026 · retrieved 28 September 2026",
+        "url": "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record"
+      },
+      "disambiguatingDescription": "What the number does not say: it is a vendor forecast, not a measurement, and growth from a small base. The release does not say what share of total traffic AI visits make up; the entry on the AI traffic share puts it at fractions of a percent up to just over one percent. The 69 percent is self-report, not a measured return rate, and only the US is covered. Self-interest: with the LLM Optimizer, Adobe itself sells a tool meant to show how a brand appears in AI-driven search.",
+      "position": 117,
+      "id": "ki-verkehr-handel-prognose",
+      "url": "https://robert-haase.de/en/evidence.html#ki-verkehr-handel-prognose",
+      "topic": "markt",
+      "grade": {
+        "name": "Forecast and survey by the vendor",
+        "group": "weak"
+      },
+      "sourceText": "Adobe, press release “Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY”, 28 September 2026 · basis according to Adobe: Adobe Analytics with more than one trillion visits to US retail sites, 100 million SKUs and 18 product categories, plus a survey of 5,000 consumers in July 2026 · retrieved 28 September 2026 · Adobe on the LLM Optimizer, 20 April 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Adobe on the LLM Optimizer, 20 April 2026",
+          "url": "https://news.adobe.com/news/2026/04/adobe-introduces-brand-visibility-solution"
+        },
+        {
+          "name": "Source",
+          "url": "https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record"
+        }
+      ],
+      "citationText": "Adobe expects visits to US retail sites arriving via AI assistants, measured as shoppers clicking on a link, to grow 130 percent year over year in the 2026 holiday season, 1 November to 31 December; 159 percent on Thanksgiving, 95 on Black Friday and 88 percent on Cyber Monday. In a survey of 5,000 consumers in July 2026, 77 percent of those who had used AI for online shopping said they felt more confident in their purchase; 69 percent said they were less likely to return such purchases. (Adobe, press release of 28 September 2026, forecast based on Adobe Analytics, survey of 5,000 consumers in July 2026). https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record · via https://robert-haase.de/en/evidence.html#ki-verkehr-handel-prognose"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agenten-wissensarbeit",
+      "text": "Asked to turn knowledge found on the web into a document, a spreadsheet or a presentation, even the best web agent fully completes fewer than 3 percent of tasks. The benchmark has 110 tasks, each drawing at least five pieces of information from at least two websites; the agents tested were Claude Opus 4.7, GPT-5.5 and DeepSeek V4 Pro plus the AI browsers ChatGPT Atlas and Perplexity Comet. Only Comet fully completed any tasks at all, 2.7 percent overall. When agents fail at visual steps, the resulting file is unusable, even if they pass more than half of the other checks.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino and Marasović (University of Utah), “The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge”, arXiv 2609.30604, version 1 of 24 September 2026, preprint without peer review · KNOWS benchmark, 110 tasks, results in table 3 · full text read 28 September 2026",
+        "url": "https://arxiv.org/abs/2609.30604"
+      },
+      "disambiguatingDescription": "What the number does not say: it is a preprint without peer review, one research group, 110 tasks the authors built themselves. There is no human comparison group, although an author fully solved every task during construction. What is measured is complete execution of long tasks that end in a file in Google Docs, Sheets or Slides, not finding a piece of information. The gap to other measurements: the 97.7 percent in the entry on web agent success measures navigation. Together they show that an agent can find the right page and still deliver an unusable result.",
+      "position": 118,
+      "id": "agenten-wissensarbeit",
+      "url": "https://robert-haase.de/en/evidence.html#agenten-wissensarbeit",
+      "topic": "agenten",
+      "grade": {
+        "name": "Controlled test, preprint without peer review",
+        "group": "weak"
+      },
+      "sourceText": "Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino and Marasović (University of Utah), “The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge”, arXiv 2609.30604, version 1 of 24 September 2026, preprint without peer review · KNOWS benchmark, 110 tasks, results in table 3 · full text read 28 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://arxiv.org/abs/2609.30604"
+        }
+      ],
+      "citationText": "Asked to turn knowledge found on the web into a document, a spreadsheet or a presentation, even the best web agent fully completes fewer than 3 percent of tasks. The benchmark has 110 tasks, each drawing at least five pieces of information from at least two websites; the agents tested were Claude Opus 4.7, GPT-5.5 and DeepSeek V4 Pro plus the AI browsers ChatGPT Atlas and Perplexity Comet. Only Comet fully completed any tasks at all, 2.7 percent overall. When agents fail at visual steps, the resulting file is unusable, even if they pass more than half of the other checks. (Gill et al., University of Utah, arXiv 2609.30604, version of 24 September 2026). https://arxiv.org/abs/2609.30604 · via https://robert-haase.de/en/evidence.html#agenten-wissensarbeit"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#crawler-zweck-gemischt",
+      "text": "Crawlers that collect content both for a search index and for AI training account for 36.6 percent of verified crawler traffic on Cloudflare’s network, according to the company, the single largest category. Fewer than 1 percent of website owners block search crawlers; 17 percent restrict AI training. Since 15 September 2026, Cloudflare has been proposing settings by business model to new websites; for ad-supported sites: search allowed, AI training disallowed, AI agents blocked on pages that carry ads.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Cloudflare, press release “Cloudflare Helps End the Search-or-AI-Training Tradeoff”, 15 September 2026 · retrieved 28 September 2026",
+        "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/"
+      },
+      "disambiguatingDescription": "What the number does not say: these are vendor figures with no disclosed method or period, measured on its own network, and the default applies only to newly added websites. What follows for robots.txt: a website can only allow or block a mixed-use crawler as a whole there; the Content-Signal line expresses the purpose only as a request, and the entry on it shows how rarely it is used. Cloudflare’s four demands on crawlers address this gap: an opt-out for training and one for AI summaries in search, URL-level visibility, and a public commitment that opting out does not affect ranking.",
+      "position": 119,
+      "id": "crawler-zweck-gemischt",
+      "url": "https://robert-haase.de/en/evidence.html#crawler-zweck-gemischt",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor figures",
+        "group": "weak"
+      },
+      "sourceText": "Cloudflare, press release “Cloudflare Helps End the Search-or-AI-Training Tradeoff”, 15 September 2026 · retrieved 28 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/"
+        }
+      ],
+      "citationText": "Crawlers that collect content both for a search index and for AI training account for 36.6 percent of verified crawler traffic on Cloudflare’s network, according to the company, the single largest category. Fewer than 1 percent of website owners block search crawlers; 17 percent restrict AI training. Since 15 September 2026, Cloudflare has been proposing settings by business model to new websites; for ad-supported sites: search allowed, AI training disallowed, AI agents blocked on pages that carry ads. (Cloudflare, press release of 15 September 2026). https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/ · via https://robert-haase.de/en/evidence.html#crawler-zweck-gemischt"
     }
   ]
 }

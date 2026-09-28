@@ -1,6 +1,6 @@
 # Evidence: Interfaces
 
-18 of 114 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+19 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-schnittstellen.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (12) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung
++ Verified study, vendor documentation, or court decision (13) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill
 + Preliminary: prototype, single test, forecast, or vendor figure (3) → monotype-mcp, veeva-mlr, olivares-access-map
 + Status, case report, or market observation (3) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung
 
@@ -280,4 +280,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 18 of 18 entries on Interfaces. Last entry: agentenstandards-verbreitung.
+## markenstimme-als-skill
+
+**Claim:** Google, too, stores brand rules as managed instructions for its assistant. In Google Workspace, so-called skills are meant to, among other things, “maintain approved tone, voice, and visual identity across email drafts and files”; Google introduced them as a beta on 17 September 2026, and administrators can curate and distribute verified organisational skills. In Gemini Enterprise the documentation names writing “in your brand voice” as an example: each skill is a SKILL.md file built on an open standard, and where the administrator requires approval, a shared skill reaches others only once approved.
+
+**What this entry does not establish:** use. It is vendor documentation without figures. In Workspace, skills are open only to organisations whose administrator has enabled the Gemini beta; the post says nothing about availability in the EU. In Gemini Enterprise, the Standard, Plus and pay-as-you-go editions can create skills, Frontline cannot. **Context:** after Microsoft’s brand kits and Adobe’s brand check, a third large vendor now stores brand rules as configuration of its assistant, as the entries on both show.
+
+**Source:** Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026 · [Gemini Enterprise documentation](https://docs.cloud.google.com/gemini/enterprise/docs/skills) · [Source](https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace)
+
+**Grade:** Vendor documentation, beta · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#markenstimme-als-skill
+
+---
+
+End of file: 19 of 19 entries on Interfaces. Last entry: markenstimme-als-skill.

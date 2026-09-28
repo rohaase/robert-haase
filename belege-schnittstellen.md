@@ -1,6 +1,6 @@
 # Belege: Schnittstellen
 
-18 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+19 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-interfaces.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (12) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (13) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → monotype-mcp, veeva-mlr, olivares-access-map
 + Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung
 
@@ -280,4 +280,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 18 von 18 Einträgen zum Thema Schnittstellen. Letzter Eintrag: agentenstandards-verbreitung.
+## markenstimme-als-skill
+
+**Aussage:** Auch Google legt Markenregeln als verwaltete Anweisung für seinen Assistenten ab. In Google Workspace sollen sogenannte Skills unter anderem „approved tone, voice, and visual identity across email drafts and files“ sichern; Google hat sie am 17. September 2026 als Beta vorgestellt, Administratoren können geprüfte Skills der Organisation kuratieren und verteilen. In Gemini Enterprise nennt die Dokumentation das Schreiben „in your brand voice“ als Beispiel: Jede Skill ist eine Datei SKILL.md nach einem offenen Standard, und verlangt der Administrator eine Freigabe, erreicht eine geteilte Skill andere erst danach.
+
+**Was der Eintrag nicht belegt:** Nutzung. Es ist Herstellerdokumentation ohne Zahlen. In Workspace stehen Skills nur Organisationen offen, deren Administrator die Gemini-Beta eingeschaltet hat; zur Verfügbarkeit in der EU sagt der Beitrag nichts. In Gemini Enterprise dürfen die Editionen Standard, Plus und Pay-as-you-go Skills anlegen, Frontline nicht. **Einordnung:** Nach Microsofts Brand Kits und Adobes Markenprüfung legt damit ein dritter großer Anbieter Markenregeln als Konfiguration seines Assistenten ab, wie die Einträge zu beiden zeigen.
+
+**Quelle:** Google Workspace Blog, Ali Douvre, „Teach Gemini your team’s know-hows with skills in Google Workspace“, 17. September 2026 · Google Cloud, „Create and manage skills | Gemini Enterprise“, zuletzt aktualisiert am 24. September 2026 · beide abgerufen am 28. September 2026 · [Dokumentation zu Gemini Enterprise](https://docs.cloud.google.com/gemini/enterprise/docs/skills) · [Zur Quelle](https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace)
+
+**Einstufung:** Herstellerdokumentation, Beta · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#markenstimme-als-skill
+
+---
+
+Ende der Datei: 19 von 19 Einträgen zum Thema Schnittstellen. Letzter Eintrag: markenstimme-als-skill.

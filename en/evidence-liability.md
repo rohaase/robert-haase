@@ -1,6 +1,6 @@
 # Evidence: Liability
 
-13 of 114 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+14 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-haftung.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
++ Verified study, vendor documentation, or court decision (5) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter
 + Preliminary: prototype, single test, forecast, or vendor figure (1) → ai-overview-muenchen
 + Status, case report, or market observation (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -210,4 +210,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 13 of 13 entries on Liability. Last entry: eu-kennzeichnungskodex.
+## agent-vorgesetzter
+
+**Claim:** Microsoft gives autonomous agents a line manager. Whoever hires a so-called autopilot in Microsoft Foundry becomes its manager; the agent gets its own user account with a mailbox, Teams presence and a place in the org chart. Almost anyone can stop it, but according to the documentation the obligation to stop it always lies with that manager, “regardless of who is at fault”: fault and obligation are kept apart by design.
+
+**What this entry does not establish:** use or legal consequence. It is product documentation for a feature that Microsoft opens in Microsoft 365 only from the end of September 2026, as a private preview. It sets roles inside the tool, not liability towards others: who answers for what an agent tells a customer is decided by law, as the entry on the ruling of the Higher Regional Court of Hamm shows, not by the org chart. **One sentence on fault:** if the agent fails outside the conditions it was built and tested for, fault, according to the documentation, depends on whether those conditions were ever written down.
+
+**Source:** Microsoft Learn, “Autopilot lifecycle in Microsoft Foundry”, dated 25 August 2026, updated 26 August 2026, sections “Who does what”, “Accountability compared with governance” and “Hire” · launch in Microsoft 365 according to Microsoft’s blog of 25 September 2026: autopilot “lives in your tenant with its own identity” and is “expanding to private preview at the end of the month” · both retrieved 28 September 2026 · [Microsoft blog of 25 September 2026](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/) · [Source](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle)
+
+**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agent-vorgesetzter
+
+---
+
+End of file: 14 of 14 entries on Liability. Last entry: agent-vorgesetzter.

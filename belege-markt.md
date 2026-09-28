@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+18 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -23,7 +23,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (9) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
 + Sachstand, Fallbericht oder Marktbeobachtung (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
 
 ---
@@ -266,4 +266,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 17 von 17 Einträgen zum Thema Marktgröße. Letzter Eintrag: cmo-titel-schwindet.
+## ki-verkehr-handel-prognose
+
+**Aussage:** Adobe erwartet für die Weihnachtssaison 2026, vom 1. November bis 31. Dezember, 130 Prozent mehr Besuche auf US-Händlerseiten, die über KI-Assistenten kommen, als im Vorjahr, gemessen an Klicks auf einen Link; an Thanksgiving 159 Prozent, am Black Friday 95 und am Cyber Monday 88 Prozent. In einer Befragung von 5.000 Verbrauchern im Juli 2026 gaben 77 Prozent derer, die KI beim Onlinekauf genutzt haben, an, sich ihres Kaufs sicherer zu sein; 69 Prozent sagen, sie schickten solche Käufe seltener zurück.
+
+**Was die Zahl nicht sagt:** Es ist eine Prognose des Anbieters, kein Messwert, und ein Wachstum von kleiner Basis. Welchen Anteil KI-Besuche am gesamten Verkehr haben, nennt die Meldung nicht; der Eintrag zum KI-Verkehrsanteil beziffert ihn auf Bruchteile eines Prozents bis gut ein Prozent. Die 69 Prozent sind eine Selbstauskunft, keine gemessene Retourenquote, und erfasst sind nur die USA. **Eigeninteresse:** Adobe verkauft mit dem LLM Optimizer selbst ein Werkzeug, das zeigen soll, wie eine Marke in KI-gestützter Suche erscheint.
+
+**Quelle:** Adobe, Pressemitteilung „Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY“, 28. September 2026 · Grundlage laut Adobe: Adobe Analytics mit mehr als einer Billion Besuchen auf US-Händlerseiten, 100 Millionen Artikelnummern und 18 Produktkategorien, dazu eine Befragung von 5.000 Verbrauchern im Juli 2026 · abgerufen am 28. September 2026 · [Adobe zum LLM Optimizer, 20. April 2026](https://news.adobe.com/news/2026/04/adobe-introduces-brand-visibility-solution) · [Zur Quelle](https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record)
+
+**Einstufung:** Prognose und Befragung des Anbieters · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#ki-verkehr-handel-prognose
+
+---
+
+Ende der Datei: 18 von 18 Einträgen zum Thema Marktgröße. Letzter Eintrag: ki-verkehr-handel-prognose.

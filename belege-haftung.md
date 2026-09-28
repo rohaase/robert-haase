@@ -1,6 +1,6 @@
 # Belege: Haftung
 
-13 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+14 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-liability.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (5) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → ai-overview-muenchen
 + Sachstand, Fallbericht oder Marktbeobachtung (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -210,4 +210,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 13 von 13 Einträgen zum Thema Haftung. Letzter Eintrag: eu-kennzeichnungskodex.
+## agent-vorgesetzter
+
+**Aussage:** Microsoft gibt autonomen Agenten einen Vorgesetzten. Wer in Microsoft Foundry einen sogenannten Autopilot einstellt, wird sein Manager; der Agent bekommt ein eigenes Benutzerkonto mit Postfach, Teams-Präsenz und einem Platz im Organigramm. Anhalten können ihn fast alle, verpflichtet dazu ist laut Dokumentation immer dieser Manager, „regardless of who is at fault“: Schuld und Pflicht sind ausdrücklich getrennt.
+
+**Was der Eintrag nicht belegt:** Nutzung oder Rechtsfolge. Es ist Produktdokumentation für eine Funktion, die Microsoft in Microsoft 365 erst ab Ende September 2026 als geschlossene Vorschau öffnet. Geregelt sind Rollen im Werkzeug, nicht die Haftung nach außen: Wer für eine Aussage des Agenten gegenüber Kunden einsteht, entscheidet das Recht, wie der Eintrag zum Urteil des OLG Hamm zeigt, nicht das Organigramm. **Ein Satz zur Schuld:** Scheitert der Agent außerhalb der Bedingungen, für die er gebaut und getestet wurde, hängt die Schuld laut Dokumentation davon ab, ob diese Bedingungen je festgeschrieben waren.
+
+**Quelle:** Microsoft Learn, „Autopilot lifecycle in Microsoft Foundry“, Stand 25. August 2026, aktualisiert am 26. August 2026, Abschnitte „Who does what“, „Accountability compared with governance“ und „Hire“ · Start in Microsoft 365 laut Microsoft-Blog vom 25. September 2026: Autopilot „lives in your tenant with its own identity“ und ist „expanding to private preview at the end of the month“ · beide abgerufen am 28. September 2026 · [Microsoft-Blog vom 25. September 2026](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/) · [Zur Quelle](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#agent-vorgesetzter
+
+---
+
+Ende der Datei: 14 von 14 Einträgen zum Thema Haftung. Letzter Eintrag: agent-vorgesetzter.

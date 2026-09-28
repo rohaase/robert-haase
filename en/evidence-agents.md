@@ -1,6 +1,6 @@
 # Evidence: Agents
 
-20 of 114 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+22 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-agenten.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (14) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten
-+ Preliminary: prototype, single test, forecast, or vendor figure (5) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots
++ Preliminary: prototype, single test, forecast, or vendor figure (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt
 + Status, case report, or market observation (1) → aipref
 
 ---
@@ -308,4 +308,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 20 of 20 entries on Agents. Last entry: robots-sperre-chatbots.
+## agenten-wissensarbeit
+
+**Claim:** Asked to turn knowledge found on the web into a document, a spreadsheet or a presentation, even the best web agent fully completes fewer than 3 percent of tasks. The benchmark has 110 tasks, each drawing at least five pieces of information from at least two websites; the agents tested were Claude Opus 4.7, GPT-5.5 and DeepSeek V4 Pro plus the AI browsers ChatGPT Atlas and Perplexity Comet. Only Comet fully completed any tasks at all, 2.7 percent overall. When agents fail at visual steps, the resulting file is unusable, even if they pass more than half of the other checks.
+
+**What the number does not say:** it is a preprint without peer review, one research group, 110 tasks the authors built themselves. There is no human comparison group, although an author fully solved every task during construction. What is measured is complete execution of long tasks that end in a file in Google Docs, Sheets or Slides, not finding a piece of information. **The gap to other measurements:** the 97.7 percent in the entry on web agent success measures navigation. Together they show that an agent can find the right page and still deliver an unusable result.
+
+**Source:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino and Marasović (University of Utah), “The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge”, arXiv 2609.30604, version 1 of 24 September 2026, preprint without peer review · KNOWS benchmark, 110 tasks, results in table 3 · full text read 28 September 2026 · [Source](https://arxiv.org/abs/2609.30604)
+
+**Grade:** Controlled test, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-wissensarbeit
+
+---
+
+## crawler-zweck-gemischt
+
+**Claim:** Crawlers that collect content both for a search index and for AI training account for 36.6 percent of verified crawler traffic on Cloudflare’s network, according to the company, the single largest category. Fewer than 1 percent of website owners block search crawlers; 17 percent restrict AI training. Since 15 September 2026, Cloudflare has been proposing settings by business model to new websites; for ad-supported sites: search allowed, AI training disallowed, AI agents blocked on pages that carry ads.
+
+**What the number does not say:** these are vendor figures with no disclosed method or period, measured on its own network, and the default applies only to newly added websites. **What follows for robots.txt:** a website can only allow or block a mixed-use crawler as a whole there; the Content-Signal line expresses the purpose only as a request, and the entry on it shows how rarely it is used. Cloudflare’s four demands on crawlers address this gap: an opt-out for training and one for AI summaries in search, URL-level visibility, and a public commitment that opting out does not affect ranking.
+
+**Source:** Cloudflare, press release “Cloudflare Helps End the Search-or-AI-Training Tradeoff”, 15 September 2026 · retrieved 28 September 2026 · [Source](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
+
+**Grade:** Vendor figures · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#crawler-zweck-gemischt
+
+---
+
+End of file: 22 of 22 entries on Agents. Last entry: crawler-zweck-gemischt.

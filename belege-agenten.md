@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-20 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+22 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -23,7 +23,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (14) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (5) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt
 + Sachstand, Fallbericht oder Marktbeobachtung (1) → aipref
 
 ---
@@ -308,4 +308,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 20 von 20 Einträgen zum Thema Agenten. Letzter Eintrag: robots-sperre-chatbots.
+## agenten-wissensarbeit
+
+**Aussage:** Sollen Web-Agenten im Netz gefundenes Wissen zu einem Dokument, einer Tabelle oder einer Präsentation verarbeiten, schafft selbst der beste weniger als 3 Prozent der Aufgaben vollständig. Der Test umfasst 110 Aufgaben, jede mit mindestens fünf Informationen von mindestens zwei Websites; geprüft wurden Claude Opus 4.7, GPT-5.5 und DeepSeek V4 Pro sowie die KI-Browser ChatGPT Atlas und Perplexity Comet. Vollständig gelöst hat überhaupt nur Comet Aufgaben, 2,7 Prozent insgesamt. Scheitern die Agenten an visuellen Schritten, ist die erzeugte Datei unbrauchbar, auch wenn sie mehr als die Hälfte der übrigen Prüfschritte erfüllen.
+
+**Was die Zahl nicht sagt:** Es ist ein Preprint ohne Begutachtung, eine Arbeitsgruppe, 110 selbst gebaute Aufgaben. Eine menschliche Vergleichsgruppe gibt es nicht, jede Aufgabe hat beim Bau aber ein Autor vollständig gelöst. Gemessen ist die vollständige Erledigung langer Aufgaben mit einer Datei in Google Docs, Sheets oder Slides als Ergebnis, nicht das Finden einer Information. **Der Abstand zu anderen Messungen:** Die 97,7 Prozent im Eintrag zum Erfolg von Web-Agenten messen das Navigieren. Zusammen zeigen beide, dass ein Agent die richtige Seite finden und trotzdem ein unbrauchbares Ergebnis abliefern kann.
+
+**Quelle:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, Preprint ohne Begutachtung · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · [Zur Quelle](https://arxiv.org/abs/2609.30604)
+
+**Einstufung:** Kontrollierter Test, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-wissensarbeit
+
+---
+
+## crawler-zweck-gemischt
+
+**Aussage:** Crawler, die Inhalte zugleich für einen Suchindex und für KI-Training sammeln, machen laut Cloudflare 36,6 Prozent des verifizierten Crawler-Verkehrs in seinem Netz aus, die größte einzelne Gruppe. Weniger als 1 Prozent der Websitebetreiber sperren Such-Crawler, 17 Prozent schränken KI-Training ein. Neuen Websites schlägt Cloudflare seit dem 15. September 2026 Einstellungen nach Geschäftsmodell vor, für Websites mit Werbung: Suche erlaubt, KI-Training untersagt, KI-Agenten auf Seiten mit Anzeigen gesperrt.
+
+**Was die Zahl nicht sagt:** Es sind Angaben des Anbieters ohne offengelegte Methode und ohne Zeitraum, gemessen im eigenen Netz, und die Voreinstellung gilt nur für neu hinzukommende Websites. **Was daraus für die robots.txt folgt:** Einen gemischten Crawler kann eine Website dort nur ganz zulassen oder ganz sperren; die Zeile Content-Signal drückt den Zweck nur als Bitte aus, und wie selten sie steht, zeigt der Eintrag dazu. Auf diese Lücke zielen Cloudflares vier Forderungen an Crawler: ein Opt-out für Training und eines für KI-Zusammenfassungen in der Suche, Einsicht auf URL-Ebene und die öffentliche Zusage, dass ein Opt-out das Ranking nicht berührt.
+
+**Quelle:** Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · [Zur Quelle](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
+
+**Einstufung:** Anbieterangaben · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#crawler-zweck-gemischt
+
+---
+
+Ende der Datei: 22 von 22 Einträgen zum Thema Agenten. Letzter Eintrag: crawler-zweck-gemischt.
