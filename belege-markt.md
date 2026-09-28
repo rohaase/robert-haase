@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 27. September 2026.
+17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -114,11 +114,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## cmo-ki-anteil
 
-**Aussage:** Marketingverantwortliche in US-Unternehmen setzen KI oder maschinelles Lernen in 24,2 Prozent der Zeit ein, in der sie Marketing optimieren und automatisieren. Das typische Unternehmen nennt 20 Prozent. Zwei Erhebungen zuvor waren es 13,1 (September 2024) und 17,2 Prozent (Anfang 2025). Für generative KI allein stieg der Wert von 7,0 über 15,1 auf 22,4 Prozent. In drei Jahren erwarten dieselben Befragten 55,9 Prozent.
+**Aussage:** Marketingverantwortliche in US-Unternehmen setzen KI oder maschinelles Lernen in 24,2 Prozent der Zeit ein, in der sie Marketing optimieren und automatisieren. Das typische Unternehmen nennt 20 Prozent. Zwei Erhebungen zuvor waren es 13,1 (September 2024) und 17,2 Prozent (Anfang 2025). Für generative KI allein stieg der Wert von 7,0 (Frühjahr 2024) über 11,1 und 15,1 auf 22,4 Prozent. In drei Jahren erwarten dieselben Befragten 55,9 Prozent.
 
 **Was die Zahl nicht sagt:** Gemessen ist ein selbst geschätzter Zeitanteil, gemittelt über die Antwortenden, ohne Abgleich mit Systemdaten. Es ist weder ein Anteil der Unternehmen noch ein Budgetanteil. 24,2 ist der Mittelwert einer rechtsschiefen Verteilung, der Median liegt bei 20. Geantwortet haben 191 der 2.111 Eingeladenen, rund 9 Prozent, auf die Erwartungsfrage 188. Dieselbe Frage ergab in den zwei Wellen zuvor 34,5 und 44,2 Prozent; die Erwartung wandert mit jeder Welle nach oben, geprüft wurde keine. **Die Branchenwerte gehören zu zwei Fragen:** Die 36,1 Prozent stammen aus der Gesamtfrage und der größten Branchenzelle (40 Unternehmen), die 8,7 Prozent aus der zu generativer KI und einer der kleinsten (3). Zur Gesamtfrage nennt der Bericht keinen Tiefstwert.
 
-**Quelle:** The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 12, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 36 und 45 · [Breakout Report](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Firm_and_Industry_Breakout_Report-2026-1.pdf) · [Zur Quelle](https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf)
+**Quelle:** The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 11, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 35 und 44 · Werte für generative KI vom Frühjahr und Herbst 2024 (7,0 und 11,1 Prozent) im Highlights Report Fall 2024, Seite 34 · [Highlights Report Fall 2024](https://cmosurvey.org/wp-content/uploads/2024/11/The_CMO_Survey-Highlights_and_Insights_Report-Fall_2024.pdf) · [Breakout Report](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Firm_and_Industry_Breakout_Report-2026-1.pdf) · [Zur Quelle](https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf)
 
 **Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 

@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-17 of 114 entries in the collection “Evidence” by Robert Haase, as of 27 September 2026.
+17 of 114 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 
@@ -242,7 +242,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Of 18,012 citations ChatGPT drew from web pages, 44.2 percent come from the first 30 percent of the text. The middle section, the widest at 40 percent of the text, carries 31.1 percent, the closing section 24.7 percent. In a second analysis of 11,022 citations, cited introductions reached a proper-noun density of 20.6 percent, against the 5 to 8 percent the author derives from standard corpora (Brown Corpus, Penn Treebank), with no arithmetic shown.
 
-**What the numbers do not say:** They record where ChatGPT cited from. Whether a rewritten text gets cited more often is untested. At paragraph level the rule does not hold: in a separate analysis of 1,000 heavily cited pieces, 53 percent of citations come from the middle of the paragraph, only 24.5 percent from the first sentence. No collection period and no model version are given, and the source says nothing about the language of the material; only the reference corpora are English. **Where the data comes from:** the sole source is the vendor Gauge, which sells AI-visibility software; the same methodology section, two paragraphs on, offers a 75 percent discount on its sales call. Which sentence was cited is estimated from text vectors.
+**What the numbers do not say:** They record where ChatGPT cited from. Whether a rewritten text gets cited more often is untested. At paragraph level the rule does not hold: in a separate analysis of 1,000 heavily cited pieces, 53 percent of citations come from the middle of the paragraph, only 24.5 percent from the first sentence. No collection period and no model version are given, and the source says nothing about the language of the material; only the reference corpora are English. **Where the data comes from:** the sole source is the vendor Gauge, which sells AI-visibility software; the same methodology section, two paragraphs on, advertises a 75 percent discount on Gauge and a demo with a brand assessment. Which sentence was cited is estimated from text vectors.
 
 **Source:** Kevin Indig, Growth Memo, data from Gauge · 18,012 citations for the positional analysis, 11,022 for the linguistic analysis, isolated from a body of 1.2 million that the source labels three different ways (search results, ChatGPT responses, verified citations); Gauge supplied roughly 3 million answers with 30 million citations · 16 February 2026 · original paywalled; the research section and methodology are readable in the Internet Archive, the extra material for paying subscribers is missing · [Source](http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention)
 

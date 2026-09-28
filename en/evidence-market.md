@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-17 of 114 entries in the collection “Evidence” by Robert Haase, as of 27 September 2026.
+17 of 114 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -114,11 +114,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## cmo-ki-anteil
 
-**Claim:** Marketing leaders at U.S. companies use AI or machine learning 24.2 percent of the time they spend optimizing and automating marketing. The typical company says 20 percent. Two surveys earlier the figures were 13.1 (September 2024) and 17.2 percent (early 2025). For generative AI alone the figure rose from 7.0 through 15.1 to 22.4 percent. Within three years the same respondents expect 55.9 percent.
+**Claim:** Marketing leaders at U.S. companies use AI or machine learning 24.2 percent of the time they spend optimizing and automating marketing. The typical company says 20 percent. Two surveys earlier the figures were 13.1 (September 2024) and 17.2 percent (early 2025). For generative AI alone the figure rose from 7.0 (spring 2024) through 11.1 and 15.1 to 22.4 percent. Within three years the same respondents expect 55.9 percent.
 
 **What the number does not say:** It measures a self-estimated share of time, averaged across respondents and never checked against system data. It is neither a share of companies nor a share of budget. 24.2 is the mean of a right-skewed distribution; the median is 20. The question was answered by 191 of the 2,111 people invited, about 9 percent, the expectation question by 188. The same question produced 34.5 and then 44.2 percent in the two preceding waves; the expectation climbs with every wave and none has ever been checked. **The sector figures belong to two questions:** The 36.1 percent comes from the overall question and the largest sector cell (40 companies), the 8.7 percent from the generative AI one and one of the smallest (3). For the overall question the report gives no low at all.
 
-**Source:** The CMO Survey, 35th edition, conducted by Christine Moorman at Duke University’s Fuqua School of Business, sponsored by Duke, Deloitte and the American Marketing Association · 2,111 marketing leaders at U.S. for-profit companies invited, 308 responses, 14.6 percent response rate, 191 of them to this question, 97 percent VP level or above · fielded 7 to 29 January 2026, report published April 2026 · Highlights Report page 21 (AI and machine learning) and page 23 (generative AI), figures in the Topline Report page 12, sector cell sizes in the Firm and Industry Breakout Report pages 36 and 45 · [Breakout Report](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Firm_and_Industry_Breakout_Report-2026-1.pdf) · [Source](https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf)
+**Source:** The CMO Survey, 35th edition, conducted by Christine Moorman at Duke University’s Fuqua School of Business, sponsored by Duke, Deloitte and the American Marketing Association · 2,111 marketing leaders at U.S. for-profit companies invited, 308 responses, 14.6 percent response rate, 191 of them to this question, 97 percent VP level or above · fielded 7 to 29 January 2026, report published April 2026 · Highlights Report page 21 (AI and machine learning) and page 23 (generative AI), figures in the Topline Report page 11, sector cell sizes in the Firm and Industry Breakout Report pages 35 and 44 · generative AI values for spring and autumn 2024 (7.0 and 11.1 percent) in the Highlights Report Fall 2024, page 34 · [Highlights Report Fall 2024](https://cmosurvey.org/wp-content/uploads/2024/11/The_CMO_Survey-Highlights_and_Insights_Report-Fall_2024.pdf) · [Breakout Report](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Firm_and_Industry_Breakout_Report-2026-1.pdf) · [Source](https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf)
 
 **Grade:** Survey · Group: Status, case report, or market observation
 

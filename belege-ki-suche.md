@@ -1,6 +1,6 @@
 # Belege: KI-Suche
 
-17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 27. September 2026.
+17 von 114 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-ai-search.md
 
@@ -242,7 +242,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Von 18.012 Zitierungen ChatGPTs aus Webseiten stammen 44,2 Prozent aus den ersten 30 Prozent des Textes. Der mittlere Abschnitt, mit 40 Prozent Textlänge der breiteste, trägt 31,1 Prozent, der Schluss 24,7 Prozent. In einer zweiten Auswertung über 11.022 Zitierungen lag die Eigennamen-Dichte zitierter Einleitungen bei 20,6 Prozent, gegenüber 5 bis 8 Prozent, die der Autor aus Standardkorpora ableitet (Brown Corpus, Penn Treebank), ohne Rechenweg.
 
-**Was die Zahlen nicht sagen:** Gemessen ist, woher ChatGPT zitiert hat. Ob ein umgeschriebener Text häufiger zitiert wird, ist ungeprüft. Auf Absatzebene gilt die Regel nicht: In einer gesonderten Auswertung von 1.000 stark zitierten Inhalten stammen 53 Prozent der Zitierungen aus der Absatzmitte, nur 24,5 Prozent aus dem ersten Satz. Erhebungszeitraum und Modellstand fehlen; zur Sprache des Materials sagt die Quelle nichts, englisch sind nur die Vergleichskorpora. **Woher die Daten kommen:** Einzige Quelle ist der Anbieter Gauge, der KI-Sichtbarkeitssoftware verkauft; derselbe Methodik-Abschnitt wirbt zwei Absätze weiter mit 75 Prozent Rabatt auf dessen Verkaufsgespräch. Welcher Satz zitiert wurde, ist über Textvektoren geschätzt.
+**Was die Zahlen nicht sagen:** Gemessen ist, woher ChatGPT zitiert hat. Ob ein umgeschriebener Text häufiger zitiert wird, ist ungeprüft. Auf Absatzebene gilt die Regel nicht: In einer gesonderten Auswertung von 1.000 stark zitierten Inhalten stammen 53 Prozent der Zitierungen aus der Absatzmitte, nur 24,5 Prozent aus dem ersten Satz. Erhebungszeitraum und Modellstand fehlen; zur Sprache des Materials sagt die Quelle nichts, englisch sind nur die Vergleichskorpora. **Woher die Daten kommen:** Einzige Quelle ist der Anbieter Gauge, der KI-Sichtbarkeitssoftware verkauft; derselbe Methodik-Abschnitt wirbt zwei Absätze weiter mit 75 Prozent Rabatt auf Gauge und einer Vorführung samt Markenanalyse. Welcher Satz zitiert wurde, ist über Textvektoren geschätzt.
 
 **Quelle:** Kevin Indig, Growth Memo, Daten von Gauge · 18.012 Zitierungen für die Positionsanalyse, 11.022 für die Sprachanalyse, isoliert aus einem Bestand von 1,2 Millionen, den die Quelle an drei Stellen unterschiedlich bezeichnet (Suchergebnisse, ChatGPT-Antworten, verifizierte Zitierungen); Gauge lieferte rund 3 Millionen Antworten mit 30 Millionen Zitierungen · 16. Februar 2026 · Original hinter Bezahlschranke; Forschungsteil und Methodik im Internet Archive lesbar, das Zusatzmaterial für Bezahlabonnenten fehlt · [Zur Quelle](http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention)
 

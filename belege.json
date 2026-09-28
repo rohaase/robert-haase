@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-27",
+  "dateModified": "2026-09-28",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
@@ -817,7 +817,7 @@
         "name": "Kevin Indig, Growth Memo, Daten von Gauge · 18.012 Zitierungen für die Positionsanalyse, 11.022 für die Sprachanalyse, isoliert aus einem Bestand von 1,2 Millionen, den die Quelle an drei Stellen unterschiedlich bezeichnet (Suchergebnisse, ChatGPT-Antworten, verifizierte Zitierungen); Gauge lieferte rund 3 Millionen Antworten mit 30 Millionen Zitierungen · 16. Februar 2026 · Original hinter Bezahlschranke; Forschungsteil und Methodik im Internet Archive lesbar, das Zusatzmaterial für Bezahlabonnenten fehlt",
         "url": "http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention"
       },
-      "disambiguatingDescription": "Was die Zahlen nicht sagen: Gemessen ist, woher ChatGPT zitiert hat. Ob ein umgeschriebener Text häufiger zitiert wird, ist ungeprüft. Auf Absatzebene gilt die Regel nicht: In einer gesonderten Auswertung von 1.000 stark zitierten Inhalten stammen 53 Prozent der Zitierungen aus der Absatzmitte, nur 24,5 Prozent aus dem ersten Satz. Erhebungszeitraum und Modellstand fehlen; zur Sprache des Materials sagt die Quelle nichts, englisch sind nur die Vergleichskorpora. Woher die Daten kommen: Einzige Quelle ist der Anbieter Gauge, der KI-Sichtbarkeitssoftware verkauft; derselbe Methodik-Abschnitt wirbt zwei Absätze weiter mit 75 Prozent Rabatt auf dessen Verkaufsgespräch. Welcher Satz zitiert wurde, ist über Textvektoren geschätzt.",
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: Gemessen ist, woher ChatGPT zitiert hat. Ob ein umgeschriebener Text häufiger zitiert wird, ist ungeprüft. Auf Absatzebene gilt die Regel nicht: In einer gesonderten Auswertung von 1.000 stark zitierten Inhalten stammen 53 Prozent der Zitierungen aus der Absatzmitte, nur 24,5 Prozent aus dem ersten Satz. Erhebungszeitraum und Modellstand fehlen; zur Sprache des Materials sagt die Quelle nichts, englisch sind nur die Vergleichskorpora. Woher die Daten kommen: Einzige Quelle ist der Anbieter Gauge, der KI-Sichtbarkeitssoftware verkauft; derselbe Methodik-Abschnitt wirbt zwei Absätze weiter mit 75 Prozent Rabatt auf Gauge und einer Vorführung samt Markenanalyse. Welcher Satz zitiert wurde, ist über Textvektoren geschätzt.",
       "position": 16,
       "id": "zitier-position",
       "url": "https://robert-haase.de/belege.html#zitier-position",
@@ -2276,10 +2276,10 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#cmo-ki-anteil",
-      "text": "Marketingverantwortliche in US-Unternehmen setzen KI oder maschinelles Lernen in 24,2 Prozent der Zeit ein, in der sie Marketing optimieren und automatisieren. Das typische Unternehmen nennt 20 Prozent. Zwei Erhebungen zuvor waren es 13,1 (September 2024) und 17,2 Prozent (Anfang 2025). Für generative KI allein stieg der Wert von 7,0 über 15,1 auf 22,4 Prozent. In drei Jahren erwarten dieselben Befragten 55,9 Prozent.",
+      "text": "Marketingverantwortliche in US-Unternehmen setzen KI oder maschinelles Lernen in 24,2 Prozent der Zeit ein, in der sie Marketing optimieren und automatisieren. Das typische Unternehmen nennt 20 Prozent. Zwei Erhebungen zuvor waren es 13,1 (September 2024) und 17,2 Prozent (Anfang 2025). Für generative KI allein stieg der Wert von 7,0 (Frühjahr 2024) über 11,1 und 15,1 auf 22,4 Prozent. In drei Jahren erwarten dieselben Befragten 55,9 Prozent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 12, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 36 und 45",
+        "name": "The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 11, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 35 und 44 · Werte für generative KI vom Frühjahr und Herbst 2024 (7,0 und 11,1 Prozent) im Highlights Report Fall 2024, Seite 34",
         "url": "https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf"
       },
       "disambiguatingDescription": "Was die Zahl nicht sagt: Gemessen ist ein selbst geschätzter Zeitanteil, gemittelt über die Antwortenden, ohne Abgleich mit Systemdaten. Es ist weder ein Anteil der Unternehmen noch ein Budgetanteil. 24,2 ist der Mittelwert einer rechtsschiefen Verteilung, der Median liegt bei 20. Geantwortet haben 191 der 2.111 Eingeladenen, rund 9 Prozent, auf die Erwartungsfrage 188. Dieselbe Frage ergab in den zwei Wellen zuvor 34,5 und 44,2 Prozent; die Erwartung wandert mit jeder Welle nach oben, geprüft wurde keine. Die Branchenwerte gehören zu zwei Fragen: Die 36,1 Prozent stammen aus der Gesamtfrage und der größten Branchenzelle (40 Unternehmen), die 8,7 Prozent aus der zu generativer KI und einer der kleinsten (3). Zur Gesamtfrage nennt der Bericht keinen Tiefstwert.",
@@ -2291,8 +2291,12 @@
         "name": "Befragung",
         "group": "plain"
       },
-      "sourceText": "The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 12, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 36 und 45 · Breakout Report · Zur Quelle",
+      "sourceText": "The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 11, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 35 und 44 · Werte für generative KI vom Frühjahr und Herbst 2024 (7,0 und 11,1 Prozent) im Highlights Report Fall 2024, Seite 34 · Highlights Report Fall 2024 · Breakout Report · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "Highlights Report Fall 2024",
+          "url": "https://cmosurvey.org/wp-content/uploads/2024/11/The_CMO_Survey-Highlights_and_Insights_Report-Fall_2024.pdf"
+        },
         {
           "name": "Breakout Report",
           "url": "https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Firm_and_Industry_Breakout_Report-2026-1.pdf"
