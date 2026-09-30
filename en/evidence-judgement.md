@@ -1,6 +1,6 @@
 # Evidence: Judgement
 
-20 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+21 of 126 entries in the collection “Evidence” by Robert Haase, as of 30 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-urteil.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente
++ Verified study, vendor documentation, or court decision (9) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte
 + Preliminary: prototype, single test, forecast, or vendor figure (0)
 + Status, case report, or market observation (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
@@ -308,4 +308,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 20 of 20 entries on Judgement. Last entry: unverwechselbare-markenelemente.
+## synthetische-befragte
+
+**Claim:** According to Pew Research Center, AI cannot yet stand in for human survey respondents. Pew replicated three of its own survey waves from January to April 2026 with so-called digital twins: across nearly 300 questions, the AI estimates differed from the human results by an average of 12 percentage points, and by more than 15 on around 28 percent of questions. On nearly half the questions, at least one answer option was not chosen by a single AI respondent, and humans picked “not sure” around four times as often as the AI. One example: according to the AI, 97 percent of Hispanic adults in the US are at least somewhat likely to follow the World Cup; the actual share is 43 percent.
+
+**What the number does not say:** the reference is Pew’s American Trends Panel, so the US; the questions covered politics, knowledge and current events, not brands or purchases. One method was tested: Claude Opus 4.6 at low reasoning, with extended profile information and “expert reflection”. The model changes the picture: in a comparison on a subset of questions, GPT-5.1 portrayed the public as more extreme, Opus 4.6 as more middle-of-the-road than it is. Pew surveys people itself; the method is published. **Carried over to market research, not tested:** whoever surveys synthetic personas gets answers that sound more certain and more uniform than the people they are meant to represent.
+
+**Source:** Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer and Aaron Smith, “Can AI Stand In for Human Survey-Takers? Not Really”, 30 September 2026 · three American Trends Panel waves of 20 to 26 January, 23 to 29 March and 20 to 26 April 2026, replicated with Claude Opus 4.6 · retrieved 30 September 2026 · [Method](https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/) · [Source](https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/)
+
+**Grade:** Controlled test · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#synthetische-befragte
+
+---
+
+End of file: 21 of 21 entries on Judgement. Last entry: synthetische-befragte.

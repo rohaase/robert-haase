@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-18 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+18 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 30. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -44,11 +44,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## marktgroesse
 
-**Aussage:** Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: rund 900 Millionen wöchentlich aktive Nutzer bei ChatGPT, über eine Milliarde monatliche Nutzer bei Googles AI Mode.
+**Aussage:** Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: OpenAI nennt 1,2 Milliarden wöchentliche Nutzer, zusammengezählt über alle eigenen Angebote, Google über eine Milliarde monatliche Nutzer für seinen AI Mode.
 
-**Warum der Vergleich hinkt:** Die eine Zahl zählt **wöchentlich**, die andere **monatlich**. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. Die Google-Zahl ist immerhin direkt vom Anbieter dokumentiert, die ChatGPT-Zahl kursiert durchweg als Angabe in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht.
+**Warum der Vergleich hinkt:** Die eine Zahl zählt **wöchentlich** und über alle Angebote eines Anbieters, die andere **monatlich** und für ein einzelnes Produkt. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. **Wie schnell eine Zahl ihre Bezugsgröße verliert,** zeigt OpenAI selbst: Die deutsche Fassung derselben Seite spricht von Anwendungen „für die insgesamt 1,2 Milliarden Menschen …, die unsere Angebote nutzen“, ohne Zeitraum. Die frühere Zahl, rund 900 Millionen wöchentliche Nutzer von ChatGPT im Februar 2026, kursierte nur in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht.
 
-**Quelle:** Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · ChatGPT-Zahl: OpenAI-Angabe, Februar 2026 · [Zur Quelle](https://blog.google/products-and-platforms/products/search/search-io-2026/)
+**Quelle:** OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · [Rückblick auf den DevDay 2026](https://openai.com/de-DE/index/devday-2026-recap/) · [Google-Blogbeitrag](https://blog.google/products-and-platforms/products/search/search-io-2026/) · [Zur Quelle](https://openai.com/index/devday-2026-recap/)
 
 **Einstufung:** Anbieterangaben · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
 

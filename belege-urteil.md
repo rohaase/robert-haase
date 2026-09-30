@@ -1,6 +1,6 @@
 # Belege: Urteil
 
-20 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+21 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 30. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-judgement.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
 + Sachstand, Fallbericht oder Marktbeobachtung (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
@@ -308,4 +308,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 20 von 20 Einträgen zum Thema Urteil. Letzter Eintrag: unverwechselbare-markenelemente.
+## synthetische-befragte
+
+**Aussage:** Als Ersatz für menschliche Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Befragungswellen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte neben den menschlichen, bei rund 28 Prozent der Fragen mehr als 15. Bei fast der Hälfte der Fragen wählte kein einziger KI-Befragter mindestens eine der Antwortmöglichkeiten, und „not sure“ wählten Menschen rund viermal so oft wie die KI. Ein Beispiel: Laut KI verfolgen 97 Prozent der Hispanics in den USA die Fußball-WM zumindest einigermaßen wahrscheinlich, tatsächlich sind es 43 Prozent.
+
+**Was die Zahl nicht sagt:** Referenz ist Pews American Trends Panel, also die USA; gefragt wurde zu Politik, Wissen und Tagesgeschehen, nicht zu Marken oder Käufen. Geprüft ist ein Verfahren: Claude Opus 4.6 auf niedriger Denkstufe, mit erweiterten Profilangaben und „expert reflection“. Das Modell verändert das Bild: Im Vergleich an einer Teilmenge der Fragen zeichnete GPT-5.1 die Öffentlichkeit extremer, Opus 4.6 gemäßigter, als sie ist. Pew befragt selbst Menschen, die Methode ist offengelegt. **Übertragen auf Marktforschung, nicht getestet:** Wer synthetische Personas befragt, bekommt Antworten, die sicherer und einheitlicher klingen als die der Menschen, die sie darstellen sollen.
+
+**Quelle:** Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · abgerufen am 30. September 2026 · [Methode](https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/) · [Zur Quelle](https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/)
+
+**Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#synthetische-befragte
+
+---
+
+Ende der Datei: 21 von 21 Einträgen zum Thema Urteil. Letzter Eintrag: synthetische-befragte.

@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-09-30",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 119,
+  "numberOfItems": 126,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -77,7 +77,7 @@
     {
       "id": "agenten",
       "name": "Agents",
-      "numberOfItems": 22,
+      "numberOfItems": 23,
       "textFile": "https://robert-haase.de/en/evidence-agents.md",
       "ids": [
         "leere-buttons",
@@ -101,7 +101,8 @@
         "content-signal-selten",
         "robots-sperre-chatbots",
         "agenten-wissensarbeit",
-        "crawler-zweck-gemischt"
+        "crawler-zweck-gemischt",
+        "dots-freigaberegeln"
       ],
       "groups": {
         "strong": [
@@ -118,7 +119,8 @@
           "agenten-erfolg",
           "rechtsvorbehalt-kommentar",
           "lighthouse-agent-discovery",
-          "content-signal-selten"
+          "content-signal-selten",
+          "dots-freigaberegeln"
         ],
         "weak": [
           "agent-ready",
@@ -137,7 +139,7 @@
     {
       "id": "schnittstellen",
       "name": "Interfaces",
-      "numberOfItems": 19,
+      "numberOfItems": 21,
       "textFile": "https://robert-haase.de/en/evidence-interfaces.md",
       "ids": [
         "astryx-agenten",
@@ -158,7 +160,9 @@
         "adobe-markenpruefung",
         "markup-ai-stilpruefung",
         "agentenstandards-verbreitung",
-        "markenstimme-als-skill"
+        "markenstimme-als-skill",
+        "staat-als-einzige-quelle",
+        "chatgpt-plugin-pruefung"
       ],
       "groups": {
         "strong": [
@@ -174,7 +178,8 @@
           "muse-connectors",
           "adobe-markenpruefung",
           "markup-ai-stilpruefung",
-          "markenstimme-als-skill"
+          "markenstimme-als-skill",
+          "chatgpt-plugin-pruefung"
         ],
         "weak": [
           "monotype-mcp",
@@ -184,14 +189,15 @@
         "plain": [
           "gitlab-markenrepo",
           "mcp-primitive",
-          "agentenstandards-verbreitung"
+          "agentenstandards-verbreitung",
+          "staat-als-einzige-quelle"
         ]
       }
     },
     {
       "id": "handel",
       "name": "Commerce",
-      "numberOfItems": 9,
+      "numberOfItems": 11,
       "textFile": "https://robert-haase.de/en/evidence-commerce.md",
       "ids": [
         "checkout-rueckbau",
@@ -202,15 +208,20 @@
         "ucp-gremium-ohne-zahlen",
         "shopify-knowledge-base",
         "agenten-vollmacht-standard",
-        "commerce-agent-freigabe"
+        "commerce-agent-freigabe",
+        "agentenkanal-voreinstellung",
+        "agenten-lenkung-marktplatz"
       ],
       "groups": {
         "strong": [
           "airline-direktkanal",
           "shopify-knowledge-base",
-          "commerce-agent-freigabe"
+          "commerce-agent-freigabe",
+          "agentenkanal-voreinstellung"
         ],
-        "weak": [],
+        "weak": [
+          "agenten-lenkung-marktplatz"
+        ],
         "plain": [
           "checkout-rueckbau",
           "walmart-verhandlung",
@@ -224,7 +235,7 @@
     {
       "id": "haftung",
       "name": "Liability",
-      "numberOfItems": 14,
+      "numberOfItems": 15,
       "textFile": "https://robert-haase.de/en/evidence-liability.md",
       "ids": [
         "air-canada",
@@ -240,7 +251,8 @@
         "perplexity-cfaa",
         "screenshot-metadaten",
         "eu-kennzeichnungskodex",
-        "agent-vorgesetzter"
+        "agent-vorgesetzter",
+        "ross-kein-fair-use"
       ],
       "groups": {
         "strong": [
@@ -248,7 +260,8 @@
           "olg-hamm",
           "perplexity-cfaa",
           "screenshot-metadaten",
-          "agent-vorgesetzter"
+          "agent-vorgesetzter",
+          "ross-kein-fair-use"
         ],
         "weak": [
           "ai-overview-muenchen"
@@ -320,7 +333,7 @@
     {
       "id": "urteil",
       "name": "Judgement",
-      "numberOfItems": 20,
+      "numberOfItems": 21,
       "textFile": "https://robert-haase.de/en/evidence-judgement.md",
       "ids": [
         "metr-selbsteinschaetzung",
@@ -342,7 +355,8 @@
         "mintzberg-muster",
         "wahrgenommene-differenzierung",
         "de-skilling",
-        "unverwechselbare-markenelemente"
+        "unverwechselbare-markenelemente",
+        "synthetische-befragte"
       ],
       "groups": {
         "strong": [
@@ -353,7 +367,8 @@
           "cowan-standards",
           "kompetenz-nivellierung",
           "boussioux-neuheit-wert",
-          "unverwechselbare-markenelemente"
+          "unverwechselbare-markenelemente",
+          "synthetische-befragte"
         ],
         "weak": [],
         "plain": [
@@ -1424,13 +1439,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/en/evidence.html#marktgroesse",
-      "text": "The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode.",
+      "text": "The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: OpenAI cites 1.2 billion weekly users, added up across all its offerings, Google over one billion monthly users for its AI Mode.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026",
-        "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+        "name": "OpenAI, “DevDay 2026 Recap”, 29 September 2026 (“our collective 1.2B weekly users”), German version “Rückblick auf den DevDay 2026”, both retrieved 30 September 2026 · Google, AI Mode blog post, 19 May 2026",
+        "url": "https://openai.com/index/devday-2026-recap/"
       },
-      "disambiguatingDescription": "Why the comparison limps: One number counts weekly, the other monthly. Placed side by side they still read as equivalent, and that is exactly how they travel through presentations. Neither is independently audited. The Google figure is at least documented by the vendor directly; the ChatGPT figure circulates as a company statement in reports about it. Usable as an order of magnitude, not as evidence.",
+      "disambiguatingDescription": "Why the comparison limps: One number counts weekly and across all of a vendor’s offerings, the other monthly and for a single product. Placed side by side they still read as equivalent, and that is exactly how they travel through presentations. Neither is independently audited. How quickly a number loses its frame of reference is shown by OpenAI itself: the German version of the same page speaks of “insgesamt 1,2 Milliarden Menschen” who use its offerings, with no period. The earlier figure, around 900 million weekly ChatGPT users in February 2026, circulated only in reports about the company. Usable as an order of magnitude, not as evidence.",
       "position": 37,
       "id": "marktgroesse",
       "url": "https://robert-haase.de/en/evidence.html#marktgroesse",
@@ -1439,14 +1454,22 @@
         "name": "Vendor figures",
         "group": "weak"
       },
-      "sourceText": "Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026 · Source",
+      "sourceText": "OpenAI, “DevDay 2026 Recap”, 29 September 2026 (“our collective 1.2B weekly users”), German version “Rückblick auf den DevDay 2026”, both retrieved 30 September 2026 · Google, AI Mode blog post, 19 May 2026 · German version · Google blog post · Source",
       "sourceLinks": [
         {
-          "name": "Source",
+          "name": "German version",
+          "url": "https://openai.com/de-DE/index/devday-2026-recap/"
+        },
+        {
+          "name": "Google blog post",
           "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+        },
+        {
+          "name": "Source",
+          "url": "https://openai.com/index/devday-2026-recap/"
         }
       ],
-      "citationText": "The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode. (Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026). https://blog.google/products-and-platforms/products/search/search-io-2026/ · via https://robert-haase.de/en/evidence.html#marktgroesse"
+      "citationText": "The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: OpenAI cites 1.2 billion weekly users, added up across all its offerings, Google over one billion monthly users for its AI Mode. (OpenAI, “DevDay 2026 Recap”, 29 September 2026 · Google, AI Mode blog post, 19 May 2026). https://openai.com/index/devday-2026-recap/ · via https://robert-haase.de/en/evidence.html#marktgroesse"
     },
     {
       "@type": "Claim",
@@ -3790,6 +3813,219 @@
         }
       ],
       "citationText": "Crawlers that collect content both for a search index and for AI training account for 36.6 percent of verified crawler traffic on Cloudflare’s network, according to the company, the single largest category. Fewer than 1 percent of website owners block search crawlers; 17 percent restrict AI training. Since 15 September 2026, Cloudflare has been proposing settings by business model to new websites; for ad-supported sites: search allowed, AI training disallowed, AI agents blocked on pages that carry ads. (Cloudflare, press release of 15 September 2026). https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/ · via https://robert-haase.de/en/evidence.html#crawler-zweck-gemischt"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#staat-als-einzige-quelle",
+      "text": "Since 29 September 2026, america.gov has answered questions to the US federal government through a single input field. According to the operator, every answer comes from official government websites, roughly 29,000 of them, each with links to the original sources; according to the government’s Chief Design Officer, Joe Gebbia, changes on agency pages are meant to reach the answers immediately. While the launch event was still under way, the service began changing its answers, according to AP, and then declined questions such as those on the 2020 presidential election as “political questions”.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29 September 2026, read in the Yahoo News syndication because apnews.com blocks automated retrieval · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026",
+        "url": "https://america.gov/how-it-works"
+      },
+      "disambiguatingDescription": "What this entry does not establish: that the answers are correct. There is no systematic test, only journalists’ samples: CBS News asked 37 health questions; emergencies were answered correctly, other answers were outdated or left out a court order, and the agency pages partly contradict each other. The 29,000 sites and the immediate updates are launch statements. According to Gebbia, models from Google (Gemini) and xAI (Grok) run behind it; the White House did not answer questions about privacy and contracts. The operator on itself: “The accuracy of our answers is never influenced by third parties.” Who changed the answers at launch, and why, the AP report does not say.",
+      "position": 120,
+      "id": "staat-als-einzige-quelle",
+      "url": "https://robert-haase.de/en/evidence.html#staat-als-einzige-quelle",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Documented single case",
+        "group": "plain"
+      },
+      "sourceText": "America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29 September 2026, read in the Yahoo News syndication because apnews.com blocks automated retrieval · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · FedScoop · AP via Yahoo News · CBS News · Source",
+      "sourceLinks": [
+        {
+          "name": "FedScoop",
+          "url": "https://fedscoop.com/trump-launches-ai-site-america-gov/"
+        },
+        {
+          "name": "AP via Yahoo News",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-touts-america-gov-government-151833603.html"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/america-gov-chatbot-health-questions/"
+        },
+        {
+          "name": "Source",
+          "url": "https://america.gov/how-it-works"
+        }
+      ],
+      "citationText": "Since 29 September 2026, america.gov has answered questions to the US federal government through a single input field. According to the operator, every answer comes from official government websites, roughly 29,000 of them, each with links to the original sources; according to the government’s Chief Design Officer, Joe Gebbia, changes on agency pages are meant to reach the answers immediately. While the launch event was still under way, the service began changing its answers, according to AP, and then declined questions such as those on the 2020 presidential election as “political questions”. (America.gov, “How it works”, retrieved 30 September 2026 · AP, 29 September 2026). https://america.gov/how-it-works · via https://robert-haase.de/en/evidence.html#staat-als-einzige-quelle"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#synthetische-befragte",
+      "text": "According to Pew Research Center, AI cannot yet stand in for human survey respondents. Pew replicated three of its own survey waves from January to April 2026 with so-called digital twins: across nearly 300 questions, the AI estimates differed from the human results by an average of 12 percentage points, and by more than 15 on around 28 percent of questions. On nearly half the questions, at least one answer option was not chosen by a single AI respondent, and humans picked “not sure” around four times as often as the AI. One example: according to the AI, 97 percent of Hispanic adults in the US are at least somewhat likely to follow the World Cup; the actual share is 43 percent.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer and Aaron Smith, “Can AI Stand In for Human Survey-Takers? Not Really”, 30 September 2026 · three American Trends Panel waves of 20 to 26 January, 23 to 29 March and 20 to 26 April 2026, replicated with Claude Opus 4.6 · retrieved 30 September 2026",
+        "url": "https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/"
+      },
+      "disambiguatingDescription": "What the number does not say: the reference is Pew’s American Trends Panel, so the US; the questions covered politics, knowledge and current events, not brands or purchases. One method was tested: Claude Opus 4.6 at low reasoning, with extended profile information and “expert reflection”. The model changes the picture: in a comparison on a subset of questions, GPT-5.1 portrayed the public as more extreme, Opus 4.6 as more middle-of-the-road than it is. Pew surveys people itself; the method is published. Carried over to market research, not tested: whoever surveys synthetic personas gets answers that sound more certain and more uniform than the people they are meant to represent.",
+      "position": 121,
+      "id": "synthetische-befragte",
+      "url": "https://robert-haase.de/en/evidence.html#synthetische-befragte",
+      "topic": "urteil",
+      "grade": {
+        "name": "Controlled test",
+        "group": "strong"
+      },
+      "sourceText": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer and Aaron Smith, “Can AI Stand In for Human Survey-Takers? Not Really”, 30 September 2026 · three American Trends Panel waves of 20 to 26 January, 23 to 29 March and 20 to 26 April 2026, replicated with Claude Opus 4.6 · retrieved 30 September 2026 · Method · Source",
+      "sourceLinks": [
+        {
+          "name": "Method",
+          "url": "https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/"
+        },
+        {
+          "name": "Source",
+          "url": "https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/"
+        }
+      ],
+      "citationText": "According to Pew Research Center, AI cannot yet stand in for human survey respondents. Pew replicated three of its own survey waves from January to April 2026 with so-called digital twins: across nearly 300 questions, the AI estimates differed from the human results by an average of 12 percentage points, and by more than 15 on around 28 percent of questions. On nearly half the questions, at least one answer option was not chosen by a single AI respondent, and humans picked “not sure” around four times as often as the AI. One example: according to the AI, 97 percent of Hispanic adults in the US are at least somewhat likely to follow the World Cup; the actual share is 43 percent. (Pew Research Center, “Can AI Stand In for Human Survey-Takers? Not Really”, 30 September 2026). https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/ · via https://robert-haase.de/en/evidence.html#synthetische-befragte"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#ross-kein-fair-use",
+      "text": "On 29 September 2026, a US federal appeals court affirmed that using others’ texts as AI training material was not fair use in this case: ROSS Intelligence used 2,243 Westlaw headnotes, Thomson Reuters’ editorial summaries of court decisions, to train a legal AI search tool and thereby infringed copyright. The court treats licensing headnotes as AI training data as the harmed market, which it describes as “rapidly developing”; that Thomson Reuters never licensed its headnotes to others “does not disprove that a market exists to do so”.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, argued 11 June 2026, filed 29 September 2026, opinion of the court by Montgomery-Reeves · quotes p. 26, distinction in footnote 7 · full text read 30 September 2026",
+        "url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf"
+      },
+      "disambiguatingDescription": "What the ruling does not say: it is not about generative AI. ROSS’s system only returned existing passages from judicial opinions and created no new expression, and in footnote 7 the court expressly distinguishes the cases Bartz v. Anthropic and In re OpenAI. ROSS wanted to use the data to build a competitor to Westlaw. What was decided is an interlocutory appeal against a partial summary judgment; the case at first instance is not concluded, and it is US law.",
+      "position": 122,
+      "id": "ross-kein-fair-use",
+      "url": "https://robert-haase.de/en/evidence.html#ross-kein-fair-use",
+      "topic": "haftung",
+      "grade": {
+        "name": "Court ruling, not final",
+        "group": "strong"
+      },
+      "sourceText": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, argued 11 June 2026, filed 29 September 2026, opinion of the court by Montgomery-Reeves · quotes p. 26, distinction in footnote 7 · full text read 30 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf"
+        }
+      ],
+      "citationText": "On 29 September 2026, a US federal appeals court affirmed that using others’ texts as AI training material was not fair use in this case: ROSS Intelligence used 2,243 Westlaw headnotes, Thomson Reuters’ editorial summaries of court decisions, to train a legal AI search tool and thereby infringed copyright. The court treats licensing headnotes as AI training data as the harmed market, which it describes as “rapidly developing”; that Thomson Reuters never licensed its headnotes to others “does not disprove that a market exists to do so”. (US Court of Appeals for the Third Circuit, Thomson Reuters v. Ross Intelligence, No. 25-2153, 29 September 2026). https://www2.ca3.uscourts.gov/opinarch/252153p.pdf · via https://robert-haase.de/en/evidence.html#ross-kein-fair-use"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#chatgpt-plugin-pruefung",
+      "text": "Anyone who wants to bring a plugin into the ChatGPT directory has to state what it must not do. For the initial review of a plugin with an MCP connection, OpenAI requires exactly five positive and three negative test cases; a negative case describes a request where the plugin should not act, why it should not, and the expected refusal, clarification or safe fallback. After publication, OpenAI scans the MCP server daily, and new tools remain unavailable until approved. Brand colour and logo, each with a dark variant, are separate fields in the manifest.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "OpenAI Developers, “Submission”, submitting plugins to the ChatGPT directory, with a sample manifest, undated, retrieved 30 September 2026 · plugins as an announcement: OpenAI, “DevDay 2026 Recap”, 29 September 2026",
+        "url": "https://developers.openai.com/plugins/deploy/submission"
+      },
+      "disambiguatingDescription": "What this entry does not establish: use or effect. The page gives no figures on plugins, review times or rejections and carries no date; plugins were among the announcements at OpenAI’s DevDay on 29 September 2026. The review covers function and policies, not whether a brand’s statements are true: the plugin’s provider writes the negative test cases itself.",
+      "position": 123,
+      "id": "chatgpt-plugin-pruefung",
+      "url": "https://robert-haase.de/en/evidence.html#chatgpt-plugin-pruefung",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "OpenAI Developers, “Submission”, submitting plugins to the ChatGPT directory, with a sample manifest, undated, retrieved 30 September 2026 · plugins as an announcement: OpenAI, “DevDay 2026 Recap”, 29 September 2026 · DevDay 2026 Recap · Source",
+      "sourceLinks": [
+        {
+          "name": "DevDay 2026 Recap",
+          "url": "https://openai.com/index/devday-2026-recap/"
+        },
+        {
+          "name": "Source",
+          "url": "https://developers.openai.com/plugins/deploy/submission"
+        }
+      ],
+      "citationText": "Anyone who wants to bring a plugin into the ChatGPT directory has to state what it must not do. For the initial review of a plugin with an MCP connection, OpenAI requires exactly five positive and three negative test cases; a negative case describes a request where the plugin should not act, why it should not, and the expected refusal, clarification or safe fallback. After publication, OpenAI scans the MCP server daily, and new tools remain unavailable until approved. Brand colour and logo, each with a dark variant, are separate fields in the manifest. (OpenAI Developers, “Submission”, retrieved 30 September 2026). https://developers.openai.com/plugins/deploy/submission · via https://robert-haase.de/en/evidence.html#chatgpt-plugin-pruefung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#dots-freigaberegeln",
+      "text": "OpenAI’s always-on agents, introduced on 29 September 2026 as “dots”, work under rules in three tiers: custom rules can allow specific actions, require approval for them or block them, the built-in safety requirements always apply, and certain sensitive tasks, such as changing a password, always stay with the person. Through plugins, dots connect to more than 4,000 apps. In organisations, so-called specialist dots get their own identity, their own credentials and their own access to the systems they need.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "OpenAI, “Introducing dots”, 29 September 2026, sections “Access and permissions”, “Action review and approvals” and “Specialist dots for your organization”, German version “Wir stellen dots vor” · retrieved 30 September 2026",
+        "url": "https://openai.com/index/introducing-dots/"
+      },
+      "disambiguatingDescription": "What this entry does not establish: use or liability. It is the vendor’s product announcement without usage figures; dots are rolling out in ChatGPT to Pro and Business Premium users “in eligible markets”, to Enterprise as a beta, and specialist dots start in pilot projects. The page does not say who answers for a mistake; OpenAI itself writes that dots can still make mistakes and that consequential work should always be reviewed. The page mentions no brand or tone guidelines: according to OpenAI, dots learn from feedback, unlike the brand rules that Microsoft and Google hand their assistants as configuration, as the entries on both show. OpenAI says it is working on an integration with Microsoft’s Agent 365.",
+      "position": 124,
+      "id": "dots-freigaberegeln",
+      "url": "https://robert-haase.de/en/evidence.html#dots-freigaberegeln",
+      "topic": "agenten",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "OpenAI, “Introducing dots”, 29 September 2026, sections “Access and permissions”, “Action review and approvals” and “Specialist dots for your organization”, German version “Wir stellen dots vor” · retrieved 30 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://openai.com/index/introducing-dots/"
+        }
+      ],
+      "citationText": "OpenAI’s always-on agents, introduced on 29 September 2026 as “dots”, work under rules in three tiers: custom rules can allow specific actions, require approval for them or block them, the built-in safety requirements always apply, and certain sensitive tasks, such as changing a password, always stay with the person. Through plugins, dots connect to more than 4,000 apps. In organisations, so-called specialist dots get their own identity, their own credentials and their own access to the systems they need. (OpenAI, “Introducing dots”, 29 September 2026). https://openai.com/index/introducing-dots/ · via https://robert-haase.de/en/evidence.html#dots-freigaberegeln"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agentenkanal-voreinstellung",
+      "text": "At Shopify, a default setting decides which AI channels a store sells in. Its so-called agentic storefronts are “active by default for eligible stores”: products appear in AI channels such as ChatGPT, Google AI Mode and Gemini, Microsoft Copilot and Meta, and where supported, direct checkout in the channel is switched on. Merchants who keep the default setting “Allow Shopify to manage for me” are automatically enrolled in all future channels as well.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Shopify Help Center, “Shopify agentic storefronts” and “Managing agentic storefronts”, undated, retrieved 30 September 2026",
+        "url": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts"
+      },
+      "disambiguatingDescription": "What this entry does not establish: how many merchants are affected or what sells through these channels; the help pages give no figures and carry no date. Which stores are eligible, and in which countries, is not stated on the pages read. Merchants can opt out, per channel or entirely, but if a merchant turns off Shopify Catalog access, it can take up to seven days before its product data is no longer shared. Context: the entry on Shopify’s Knowledge Base shows how merchants control what agents say about them; this one shows that the question of where is already answered by a default.",
+      "position": 125,
+      "id": "agentenkanal-voreinstellung",
+      "url": "https://robert-haase.de/en/evidence.html#agentenkanal-voreinstellung",
+      "topic": "handel",
+      "grade": {
+        "name": "Vendor documentation",
+        "group": "strong"
+      },
+      "sourceText": "Shopify Help Center, “Shopify agentic storefronts” and “Managing agentic storefronts”, undated, retrieved 30 September 2026 · Managing agentic storefronts · Source",
+      "sourceLinks": [
+        {
+          "name": "Managing agentic storefronts",
+          "url": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/agentic-home"
+        },
+        {
+          "name": "Source",
+          "url": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts"
+        }
+      ],
+      "citationText": "At Shopify, a default setting decides which AI channels a store sells in. Its so-called agentic storefronts are “active by default for eligible stores”: products appear in AI channels such as ChatGPT, Google AI Mode and Gemini, Microsoft Copilot and Meta, and where supported, direct checkout in the channel is switched on. Merchants who keep the default setting “Allow Shopify to manage for me” are automatically enrolled in all future channels as well. (Shopify Help Center, “Shopify agentic storefronts” and “Managing agentic storefronts”, retrieved 30 September 2026). https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts · via https://robert-haase.de/en/evidence.html#agentenkanal-voreinstellung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agenten-lenkung-marktplatz",
+      "text": "When a marketplace steers, the agent rarely buys the best option. In nine replicated marketplaces, computer-use agents from five model families bought the user-optimal product in 78.6 percent of control runs; with steering mechanisms enabled, drawn from a taxonomy of eight common types, the share fell to 17.3 percent. The authors identify three weaknesses: the agents narrow the options too early, impose priorities the user never stated, and commit before decision-relevant evidence is resolved.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Yuxuan Li, Will Epperson, Wesley Deng and Zezhou Huang, “CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments”, arXiv 2609.27273, version 2 of 27 September 2026 (version 1 of 23 September), preprint without peer review · abstract read 30 September 2026",
+        "url": "https://arxiv.org/abs/2609.27273"
+      },
+      "disambiguatingDescription": "What the number does not say: it is a preprint without peer review, one research group, and the tests ran in replicas, not in real shops. What is measured is the purchase choice, not how a brand is presented. The authors also show a countermeasure: a purpose-built harness for the agents raised the share of optimal purchases by up to 80 percentage points.",
+      "position": 126,
+      "id": "agenten-lenkung-marktplatz",
+      "url": "https://robert-haase.de/en/evidence.html#agenten-lenkung-marktplatz",
+      "topic": "handel",
+      "grade": {
+        "name": "Controlled test, preprint without peer review",
+        "group": "weak"
+      },
+      "sourceText": "Yuxuan Li, Will Epperson, Wesley Deng and Zezhou Huang, “CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments”, arXiv 2609.27273, version 2 of 27 September 2026 (version 1 of 23 September), preprint without peer review · abstract read 30 September 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://arxiv.org/abs/2609.27273"
+        }
+      ],
+      "citationText": "When a marketplace steers, the agent rarely buys the best option. In nine replicated marketplaces, computer-use agents from five model families bought the user-optimal product in 78.6 percent of control runs; with steering mechanisms enabled, drawn from a taxonomy of eight common types, the share fell to 17.3 percent. The authors identify three weaknesses: the agents narrow the options too early, impose priorities the user never stated, and commit before decision-relevant evidence is resolved. (Li, Epperson, Deng and Huang, arXiv 2609.27273, version of 27 September 2026). https://arxiv.org/abs/2609.27273 · via https://robert-haase.de/en/evidence.html#agenten-lenkung-marktplatz"
     }
   ]
 }

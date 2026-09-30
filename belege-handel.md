@@ -1,6 +1,6 @@
 # Belege: Handel
 
-9 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+11 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 30. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -22,8 +22,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (3) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (0)
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → agenten-lenkung-marktplatz
 + Sachstand, Fallbericht oder Marktbeobachtung (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 ---
@@ -154,4 +154,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 9 von 9 Einträgen zum Thema Handel. Letzter Eintrag: commerce-agent-freigabe.
+## agentenkanal-voreinstellung
+
+**Aussage:** Bei Shopify entscheidet die Voreinstellung, in welchen KI-Kanälen ein Shop verkauft. Die sogenannten agentic storefronts sind für berechtigte Shops standardmäßig aktiv: Die Produkte erscheinen in KI-Kanälen wie ChatGPT, Google AI Mode und Gemini, Microsoft Copilot und Meta, und wo unterstützt, ist der direkte Checkout im Kanal eingeschaltet. Wer die Voreinstellung „Allow Shopify to manage for me“ behält, ist automatisch auch in allen künftigen Kanälen angemeldet.
+
+**Was der Eintrag nicht belegt:** wie viele Händler betroffen sind oder was über diese Kanäle verkauft wird; die Hilfeseiten nennen keine Zahlen und tragen kein Datum. Welche Shops berechtigt sind und in welchen Ländern, steht auf den gelesenen Seiten nicht. Abschalten geht, je Kanal oder ganz; schaltet ein Händler den Zugriff über Shopify Catalog ab, kann es aber bis zu sieben Tage dauern, bis seine Produktdaten nicht mehr weitergegeben werden. **Einordnung:** Der Eintrag zu Shopifys Knowledge Base zeigt, wie Händler steuern, was Agenten über sie antworten; dieser zeigt, dass die Frage, wo sie antworten, per Voreinstellung schon beantwortet ist.
+
+**Quelle:** Shopify Help Center, „Shopify agentic storefronts“ und „Managing agentic storefronts“, ohne Datum, abgerufen am 30. September 2026 · [Managing agentic storefronts](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/agentic-home) · [Zur Quelle](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#agentenkanal-voreinstellung
+
+---
+
+## agenten-lenkung-marktplatz
+
+**Aussage:** Lenkt ein Marktplatz, kauft der Agent selten das Beste. In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. Die Autoren finden drei Schwächen: Die Agenten engen die Auswahl zu früh ein, setzen Prioritäten, die der Nutzer nie genannt hat, und legen sich fest, bevor entscheidende Angaben geklärt sind.
+
+**Was die Zahl nicht sagt:** Es ist ein Preprint ohne Begutachtung, eine Arbeitsgruppe, und getestet wurde in Nachbauten, nicht in echten Shops. Gemessen ist die Kaufwahl, nicht wie eine Marke dargestellt wird. Die Autoren zeigen auch eine Gegenmaßnahme: Eine eigens gebaute Steuerung für die Agenten hob den Anteil der besten Käufe um bis zu 80 Prozentpunkte.
+
+**Quelle:** Yuxuan Li, Will Epperson, Wesley Deng und Zezhou Huang, „CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments“, arXiv 2609.27273, Fassung 2 vom 27. September 2026 (Fassung 1 vom 23. September), Preprint ohne Begutachtung · Kurzfassung gelesen am 30. September 2026 · [Zur Quelle](https://arxiv.org/abs/2609.27273)
+
+**Einstufung:** Kontrollierter Test, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-lenkung-marktplatz
+
+---
+
+Ende der Datei: 11 von 11 Einträgen zum Thema Handel. Letzter Eintrag: agenten-lenkung-marktplatz.

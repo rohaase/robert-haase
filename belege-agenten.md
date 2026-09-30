@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-22 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+23 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 30. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (14) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (15) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten, dots-freigaberegeln
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt
 + Sachstand, Fallbericht oder Marktbeobachtung (1) → aipref
 
@@ -336,4 +336,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 22 von 22 Einträgen zum Thema Agenten. Letzter Eintrag: crawler-zweck-gemischt.
+## dots-freigaberegeln
+
+**Aussage:** OpenAIs dauerhaft laufende Agenten, am 29. September 2026 als „dots“ vorgestellt, arbeiten nach Regeln in drei Stufen: Eigene Regeln können einzelne Aktionen erlauben, an eine Freigabe binden oder sperren, die eingebauten Sicherheitsregeln gelten immer, und bestimmte sensible Aufgaben wie das Ändern eines Passworts bleiben immer beim Menschen. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen.
+
+**Was der Eintrag nicht belegt:** Nutzung oder Haftung. Es ist die Produktankündigung des Herstellers ohne Zahlen zur Nutzung; dots starten in ChatGPT für Pro und Business Premium „in eligible markets“, in Enterprise als Beta, die spezialisierten dots zunächst in Pilotprojekten. Wer für einen Fehler einsteht, regelt die Seite nicht; OpenAI schreibt selbst, dots könnten Fehler machen, folgenreiche Ergebnisse seien immer zu prüfen. Vorgaben zu Marke oder Tonalität erwähnt die Seite nicht: dots lernen laut OpenAI aus Rückmeldungen, anders als die Markenregeln, die Microsoft und Google ihren Assistenten als Konfiguration mitgeben, wie die Einträge zu beiden zeigen. An einer Einbindung in Microsofts Agent 365 arbeitet OpenAI nach eigenen Angaben.
+
+**Quelle:** OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026 · [Zur Quelle](https://openai.com/index/introducing-dots/)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#dots-freigaberegeln
+
+---
+
+Ende der Datei: 23 von 23 Einträgen zum Thema Agenten. Letzter Eintrag: dots-freigaberegeln.

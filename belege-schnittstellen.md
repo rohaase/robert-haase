@@ -1,6 +1,6 @@
 # Belege: Schnittstellen
 
-19 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+21 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 30. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-interfaces.md
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (13) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (14) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → monotype-mcp, veeva-mlr, olivares-access-map
-+ Sachstand, Fallbericht oder Marktbeobachtung (3) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung
++ Sachstand, Fallbericht oder Marktbeobachtung (4) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle
 
 ---
 
@@ -294,4 +294,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 19 von 19 Einträgen zum Thema Schnittstellen. Letzter Eintrag: markenstimme-als-skill.
+## staat-als-einzige-quelle
+
+**Aussage:** Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Bundesregierung in einem einzigen Eingabefeld. Laut Betreiber stammt jede Antwort aus offiziellen Regierungsseiten, rund 29.000, jeweils mit Link auf die Originalquelle; Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen. Noch während der Startveranstaltung begann der Dienst laut AP, Antworten zu ändern, und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab.
+
+**Was der Eintrag nicht belegt:** dass die Antworten richtig sind. Eine systematische Prüfung gibt es nicht, nur Stichproben von Journalisten: CBS News stellte 37 Gesundheitsfragen; Notfälle beantwortete der Dienst richtig, andere Antworten waren veraltet oder erwähnten eine gerichtliche Anordnung nicht, und die Behördenseiten widersprechen sich teils selbst. Die 29.000 Seiten und die sofortige Aktualisierung sind Angaben zum Start. Dahinter laufen laut Gebbia Modelle von Google (Gemini) und xAI (Grok); Fragen zu Datenschutz und Verträgen hat das Weiße Haus nicht beantwortet. **Der Betreiber über sich:** „The accuracy of our answers is never influenced by third parties.“ Wer die Antworten beim Start geändert hat und warum, sagt der AP-Bericht nicht.
+
+**Quelle:** America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [AP bei Yahoo News](https://www.yahoo.com/news/politics/articles/trump-touts-america-gov-government-151833603.html) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Zur Quelle](https://america.gov/how-it-works)
+
+**Einstufung:** Dokumentierter Einzelfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#staat-als-einzige-quelle
+
+---
+
+## chatgpt-plugin-pruefung
+
+**Aussage:** Wer ein Plugin ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung eines Plugins mit MCP-Verbindung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest.
+
+**Was der Eintrag nicht belegt:** Nutzung oder Wirkung. Die Seite nennt keine Zahlen zu Plugins, Prüfdauer oder Ablehnungen und trägt kein Datum; Plugins gehörten zu den Neuheiten von OpenAIs DevDay am 29. September 2026. Geprüft werden Funktion und Richtlinien, nicht ob die Aussagen einer Marke stimmen: Die negativen Testfälle schreibt der Anbieter des Plugins selbst.
+
+**Quelle:** OpenAI Developers, „Submission“, Einreichung von Plugins für das ChatGPT-Verzeichnis, mit Beispiel-Manifest, ohne Datum, abgerufen am 30. September 2026 · Plugins als Neuheit: OpenAI, „DevDay 2026 Recap“, 29. September 2026 · [DevDay 2026 Recap](https://openai.com/index/devday-2026-recap/) · [Zur Quelle](https://developers.openai.com/plugins/deploy/submission)
+
+**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#chatgpt-plugin-pruefung
+
+---
+
+Ende der Datei: 21 von 21 Einträgen zum Thema Schnittstellen. Letzter Eintrag: chatgpt-plugin-pruefung.

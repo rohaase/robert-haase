@@ -1,6 +1,6 @@
 # Evidence: Interfaces
 
-19 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+21 of 126 entries in the collection “Evidence” by Robert Haase, as of 30 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-schnittstellen.md
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (13) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill
++ Verified study, vendor documentation, or court decision (14) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung
 + Preliminary: prototype, single test, forecast, or vendor figure (3) → monotype-mcp, veeva-mlr, olivares-access-map
-+ Status, case report, or market observation (3) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung
++ Status, case report, or market observation (4) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle
 
 ---
 
@@ -294,4 +294,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 19 of 19 entries on Interfaces. Last entry: markenstimme-als-skill.
+## staat-als-einzige-quelle
+
+**Claim:** Since 29 September 2026, america.gov has answered questions to the US federal government through a single input field. According to the operator, every answer comes from official government websites, roughly 29,000 of them, each with links to the original sources; according to the government’s Chief Design Officer, Joe Gebbia, changes on agency pages are meant to reach the answers immediately. While the launch event was still under way, the service began changing its answers, according to AP, and then declined questions such as those on the 2020 presidential election as “political questions”.
+
+**What this entry does not establish:** that the answers are correct. There is no systematic test, only journalists’ samples: CBS News asked 37 health questions; emergencies were answered correctly, other answers were outdated or left out a court order, and the agency pages partly contradict each other. The 29,000 sites and the immediate updates are launch statements. According to Gebbia, models from Google (Gemini) and xAI (Grok) run behind it; the White House did not answer questions about privacy and contracts. **The operator on itself:** “The accuracy of our answers is never influenced by third parties.” Who changed the answers at launch, and why, the AP report does not say.
+
+**Source:** America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29 September 2026, read in the Yahoo News syndication because apnews.com blocks automated retrieval · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [AP via Yahoo News](https://www.yahoo.com/news/politics/articles/trump-touts-america-gov-government-151833603.html) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Source](https://america.gov/how-it-works)
+
+**Grade:** Documented single case · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#staat-als-einzige-quelle
+
+---
+
+## chatgpt-plugin-pruefung
+
+**Claim:** Anyone who wants to bring a plugin into the ChatGPT directory has to state what it must not do. For the initial review of a plugin with an MCP connection, OpenAI requires exactly five positive and three negative test cases; a negative case describes a request where the plugin should not act, why it should not, and the expected refusal, clarification or safe fallback. After publication, OpenAI scans the MCP server daily, and new tools remain unavailable until approved. Brand colour and logo, each with a dark variant, are separate fields in the manifest.
+
+**What this entry does not establish:** use or effect. The page gives no figures on plugins, review times or rejections and carries no date; plugins were among the announcements at OpenAI’s DevDay on 29 September 2026. The review covers function and policies, not whether a brand’s statements are true: the plugin’s provider writes the negative test cases itself.
+
+**Source:** OpenAI Developers, “Submission”, submitting plugins to the ChatGPT directory, with a sample manifest, undated, retrieved 30 September 2026 · plugins as an announcement: OpenAI, “DevDay 2026 Recap”, 29 September 2026 · [DevDay 2026 Recap](https://openai.com/index/devday-2026-recap/) · [Source](https://developers.openai.com/plugins/deploy/submission)
+
+**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-plugin-pruefung
+
+---
+
+End of file: 21 of 21 entries on Interfaces. Last entry: chatgpt-plugin-pruefung.

@@ -1,6 +1,6 @@
 # Belege: Haftung
 
-14 von 119 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 28. September 2026.
+15 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 30. September 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-liability.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (5) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (6) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → ai-overview-muenchen
 + Sachstand, Fallbericht oder Marktbeobachtung (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -224,4 +224,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 14 von 14 Einträgen zum Thema Haftung. Letzter Eintrag: agent-vorgesetzter.
+## ross-kein-fair-use
+
+**Aussage:** Ein US-Bundesberufungsgericht hat am 29. September 2026 bestätigt, dass die Nutzung fremder Texte als KI-Trainingsmaterial in diesem Fall kein Fair Use war: ROSS Intelligence hat 2.243 Headnotes aus Westlaw, redaktionelle Leitsätze von Thomson Reuters zu Gerichtsentscheidungen, genutzt, um eine juristische KI-Suche zu trainieren, und damit das Urheberrecht verletzt. Als geschädigten Markt wertet das Gericht die Lizenzierung von Headnotes als KI-Trainingsdaten, einen Markt, der sich laut Urteil rasch entwickelt; dass Thomson Reuters selbst nie an Dritte lizenziert hat, widerlege ihn nicht.
+
+**Was das Urteil nicht sagt:** Es geht nicht um generative KI. ROSS’ System gab nur vorhandene Textstellen aus Urteilen zurück und erzeugte nichts Neues, und das Gericht grenzt sich in Fußnote 7 ausdrücklich von den Verfahren Bartz gegen Anthropic und In re OpenAI ab. ROSS wollte mit den Daten ein Konkurrenzprodukt zu Westlaw bauen. Entschieden ist eine Zwischenberufung gegen ein Teilurteil, das Verfahren in erster Instanz ist damit nicht abgeschlossen, und es ist US-Recht.
+
+**Quelle:** United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026 · [Zur Quelle](https://www2.ca3.uscourts.gov/opinarch/252153p.pdf)
+
+**Einstufung:** Gerichtsurteil, nicht endgültig · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#ross-kein-fair-use
+
+---
+
+Ende der Datei: 15 von 15 Einträgen zum Thema Haftung. Letzter Eintrag: ross-kein-fair-use.

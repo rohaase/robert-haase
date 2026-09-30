@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-18 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+18 of 126 entries in the collection “Evidence” by Robert Haase, as of 30 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -44,11 +44,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## marktgroesse
 
-**Claim:** The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: around 900 million weekly active users for ChatGPT, over one billion monthly users for Google AI Mode.
+**Claim:** The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: OpenAI cites 1.2 billion weekly users, added up across all its offerings, Google over one billion monthly users for its AI Mode.
 
-**Why the comparison limps:** One number counts **weekly**, the other **monthly**. Placed side by side they still read as equivalent, and that is exactly how they travel through presentations. Neither is independently audited. The Google figure is at least documented by the vendor directly; the ChatGPT figure circulates as a company statement in reports about it. Usable as an order of magnitude, not as evidence.
+**Why the comparison limps:** One number counts **weekly** and across all of a vendor’s offerings, the other **monthly** and for a single product. Placed side by side they still read as equivalent, and that is exactly how they travel through presentations. Neither is independently audited. **How quickly a number loses its frame of reference** is shown by OpenAI itself: the German version of the same page speaks of “insgesamt 1,2 Milliarden Menschen” who use its offerings, with no period. The earlier figure, around 900 million weekly ChatGPT users in February 2026, circulated only in reports about the company. Usable as an order of magnitude, not as evidence.
 
-**Source:** Google, AI Mode blog post, 19 May 2026 · ChatGPT figure: OpenAI statement, February 2026 · [Source](https://blog.google/products-and-platforms/products/search/search-io-2026/)
+**Source:** OpenAI, “DevDay 2026 Recap”, 29 September 2026 (“our collective 1.2B weekly users”), German version “Rückblick auf den DevDay 2026”, both retrieved 30 September 2026 · Google, AI Mode blog post, 19 May 2026 · [German version](https://openai.com/de-DE/index/devday-2026-recap/) · [Google blog post](https://blog.google/products-and-platforms/products/search/search-io-2026/) · [Source](https://openai.com/index/devday-2026-recap/)
 
 **Grade:** Vendor figures · Group: Preliminary: prototype, single test, forecast, or vendor figure
 

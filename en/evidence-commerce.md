@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-9 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+11 of 126 entries in the collection “Evidence” by Robert Haase, as of 30 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -22,8 +22,8 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (3) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe
-+ Preliminary: prototype, single test, forecast, or vendor figure (0)
++ Verified study, vendor documentation, or court decision (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
++ Preliminary: prototype, single test, forecast, or vendor figure (1) → agenten-lenkung-marktplatz
 + Status, case report, or market observation (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 ---
@@ -154,4 +154,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 9 of 9 entries on Commerce. Last entry: commerce-agent-freigabe.
+## agentenkanal-voreinstellung
+
+**Claim:** At Shopify, a default setting decides which AI channels a store sells in. Its so-called agentic storefronts are “active by default for eligible stores”: products appear in AI channels such as ChatGPT, Google AI Mode and Gemini, Microsoft Copilot and Meta, and where supported, direct checkout in the channel is switched on. Merchants who keep the default setting “Allow Shopify to manage for me” are automatically enrolled in all future channels as well.
+
+**What this entry does not establish:** how many merchants are affected or what sells through these channels; the help pages give no figures and carry no date. Which stores are eligible, and in which countries, is not stated on the pages read. Merchants can opt out, per channel or entirely, but if a merchant turns off Shopify Catalog access, it can take up to seven days before its product data is no longer shared. **Context:** the entry on Shopify’s Knowledge Base shows how merchants control what agents say about them; this one shows that the question of where is already answered by a default.
+
+**Source:** Shopify Help Center, “Shopify agentic storefronts” and “Managing agentic storefronts”, undated, retrieved 30 September 2026 · [Managing agentic storefronts](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/agentic-home) · [Source](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)
+
+**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agentenkanal-voreinstellung
+
+---
+
+## agenten-lenkung-marktplatz
+
+**Claim:** When a marketplace steers, the agent rarely buys the best option. In nine replicated marketplaces, computer-use agents from five model families bought the user-optimal product in 78.6 percent of control runs; with steering mechanisms enabled, drawn from a taxonomy of eight common types, the share fell to 17.3 percent. The authors identify three weaknesses: the agents narrow the options too early, impose priorities the user never stated, and commit before decision-relevant evidence is resolved.
+
+**What the number does not say:** it is a preprint without peer review, one research group, and the tests ran in replicas, not in real shops. What is measured is the purchase choice, not how a brand is presented. The authors also show a countermeasure: a purpose-built harness for the agents raised the share of optimal purchases by up to 80 percentage points.
+
+**Source:** Yuxuan Li, Will Epperson, Wesley Deng and Zezhou Huang, “CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments”, arXiv 2609.27273, version 2 of 27 September 2026 (version 1 of 23 September), preprint without peer review · abstract read 30 September 2026 · [Source](https://arxiv.org/abs/2609.27273)
+
+**Grade:** Controlled test, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-lenkung-marktplatz
+
+---
+
+End of file: 11 of 11 entries on Commerce. Last entry: agenten-lenkung-marktplatz.

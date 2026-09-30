@@ -64,12 +64,12 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-09-30",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "mainEntity": {
     "@type": "ItemList",
     "name": "Geprüfte Zahlen zu Marke, KI-Suche und Agenten",
-    "numberOfItems": 119,
+    "numberOfItems": 126,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -617,13 +617,13 @@
         "item": {
           "@type": "Claim",
           "@id": "https://robert-haase.de/belege.html#marktgroesse",
-          "text": "Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: rund 900 Millionen wöchentlich aktive Nutzer bei ChatGPT, über eine Milliarde monatliche Nutzer bei Googles AI Mode.",
+          "text": "Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: OpenAI nennt 1,2 Milliarden wöchentliche Nutzer, zusammengezählt über alle eigenen Angebote, Google über eine Milliarde monatliche Nutzer für seinen AI Mode.",
           "appearance": {
             "@type": "CreativeWork",
-            "name": "Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · ChatGPT-Zahl: OpenAI-Angabe, Februar 2026",
-            "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/"
+            "name": "OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026",
+            "url": "https://openai.com/index/devday-2026-recap/"
           },
-          "disambiguatingDescription": "Warum der Vergleich hinkt: Die eine Zahl zählt wöchentlich, die andere monatlich. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. Die Google-Zahl ist immerhin direkt vom Anbieter dokumentiert, die ChatGPT-Zahl kursiert durchweg als Angabe in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht."
+          "disambiguatingDescription": "Warum der Vergleich hinkt: Die eine Zahl zählt wöchentlich und über alle Angebote eines Anbieters, die andere monatlich und für ein einzelnes Produkt. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. Wie schnell eine Zahl ihre Bezugsgröße verliert, zeigt OpenAI selbst: Die deutsche Fassung derselben Seite spricht von Anwendungen „für die insgesamt 1,2 Milliarden Menschen …, die unsere Angebote nutzen“, ohne Zeitraum. Die frühere Zahl, rund 900 Millionen wöchentliche Nutzer von ChatGPT im Februar 2026, kursierte nur in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht."
         }
       },
       {
@@ -1876,6 +1876,111 @@
           },
           "disambiguatingDescription": "Was die Zahl nicht sagt: Es sind Angaben des Anbieters ohne offengelegte Methode und ohne Zeitraum, gemessen im eigenen Netz, und die Voreinstellung gilt nur für neu hinzukommende Websites. Was daraus für die robots.txt folgt: Einen gemischten Crawler kann eine Website dort nur ganz zulassen oder ganz sperren; die Zeile Content-Signal drückt den Zweck nur als Bitte aus, und wie selten sie steht, zeigt der Eintrag dazu. Auf diese Lücke zielen Cloudflares vier Forderungen an Crawler: ein Opt-out für Training und eines für KI-Zusammenfassungen in der Suche, Einsicht auf URL-Ebene und die öffentliche Zusage, dass ein Opt-out das Ranking nicht berührt."
         }
+      },
+      {
+        "@type": "ListItem",
+        "position": 120,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#staat-als-einzige-quelle",
+          "text": "Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Bundesregierung in einem einzigen Eingabefeld. Laut Betreiber stammt jede Antwort aus offiziellen Regierungsseiten, rund 29.000, jeweils mit Link auf die Originalquelle; Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen. Noch während der Startveranstaltung begann der Dienst laut AP, Antworten zu ändern, und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026",
+            "url": "https://america.gov/how-it-works"
+          },
+          "disambiguatingDescription": "Was der Eintrag nicht belegt: dass die Antworten richtig sind. Eine systematische Prüfung gibt es nicht, nur Stichproben von Journalisten: CBS News stellte 37 Gesundheitsfragen; Notfälle beantwortete der Dienst richtig, andere Antworten waren veraltet oder erwähnten eine gerichtliche Anordnung nicht, und die Behördenseiten widersprechen sich teils selbst. Die 29.000 Seiten und die sofortige Aktualisierung sind Angaben zum Start. Dahinter laufen laut Gebbia Modelle von Google (Gemini) und xAI (Grok); Fragen zu Datenschutz und Verträgen hat das Weiße Haus nicht beantwortet. Der Betreiber über sich: „The accuracy of our answers is never influenced by third parties.“ Wer die Antworten beim Start geändert hat und warum, sagt der AP-Bericht nicht."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 121,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#synthetische-befragte",
+          "text": "Als Ersatz für menschliche Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Befragungswellen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte neben den menschlichen, bei rund 28 Prozent der Fragen mehr als 15. Bei fast der Hälfte der Fragen wählte kein einziger KI-Befragter mindestens eine der Antwortmöglichkeiten, und „not sure“ wählten Menschen rund viermal so oft wie die KI. Ein Beispiel: Laut KI verfolgen 97 Prozent der Hispanics in den USA die Fußball-WM zumindest einigermaßen wahrscheinlich, tatsächlich sind es 43 Prozent.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · abgerufen am 30. September 2026",
+            "url": "https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/"
+          },
+          "disambiguatingDescription": "Was die Zahl nicht sagt: Referenz ist Pews American Trends Panel, also die USA; gefragt wurde zu Politik, Wissen und Tagesgeschehen, nicht zu Marken oder Käufen. Geprüft ist ein Verfahren: Claude Opus 4.6 auf niedriger Denkstufe, mit erweiterten Profilangaben und „expert reflection“. Das Modell verändert das Bild: Im Vergleich an einer Teilmenge der Fragen zeichnete GPT-5.1 die Öffentlichkeit extremer, Opus 4.6 gemäßigter, als sie ist. Pew befragt selbst Menschen, die Methode ist offengelegt. Übertragen auf Marktforschung, nicht getestet: Wer synthetische Personas befragt, bekommt Antworten, die sicherer und einheitlicher klingen als die der Menschen, die sie darstellen sollen."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 122,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#ross-kein-fair-use",
+          "text": "Ein US-Bundesberufungsgericht hat am 29. September 2026 bestätigt, dass die Nutzung fremder Texte als KI-Trainingsmaterial in diesem Fall kein Fair Use war: ROSS Intelligence hat 2.243 Headnotes aus Westlaw, redaktionelle Leitsätze von Thomson Reuters zu Gerichtsentscheidungen, genutzt, um eine juristische KI-Suche zu trainieren, und damit das Urheberrecht verletzt. Als geschädigten Markt wertet das Gericht die Lizenzierung von Headnotes als KI-Trainingsdaten, einen Markt, der sich laut Urteil rasch entwickelt; dass Thomson Reuters selbst nie an Dritte lizenziert hat, widerlege ihn nicht.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026",
+            "url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf"
+          },
+          "disambiguatingDescription": "Was das Urteil nicht sagt: Es geht nicht um generative KI. ROSS’ System gab nur vorhandene Textstellen aus Urteilen zurück und erzeugte nichts Neues, und das Gericht grenzt sich in Fußnote 7 ausdrücklich von den Verfahren Bartz gegen Anthropic und In re OpenAI ab. ROSS wollte mit den Daten ein Konkurrenzprodukt zu Westlaw bauen. Entschieden ist eine Zwischenberufung gegen ein Teilurteil, das Verfahren in erster Instanz ist damit nicht abgeschlossen, und es ist US-Recht."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 123,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#chatgpt-plugin-pruefung",
+          "text": "Wer ein Plugin ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung eines Plugins mit MCP-Verbindung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "OpenAI Developers, „Submission“, Einreichung von Plugins für das ChatGPT-Verzeichnis, mit Beispiel-Manifest, ohne Datum, abgerufen am 30. September 2026 · Plugins als Neuheit: OpenAI, „DevDay 2026 Recap“, 29. September 2026",
+            "url": "https://developers.openai.com/plugins/deploy/submission"
+          },
+          "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung oder Wirkung. Die Seite nennt keine Zahlen zu Plugins, Prüfdauer oder Ablehnungen und trägt kein Datum; Plugins gehörten zu den Neuheiten von OpenAIs DevDay am 29. September 2026. Geprüft werden Funktion und Richtlinien, nicht ob die Aussagen einer Marke stimmen: Die negativen Testfälle schreibt der Anbieter des Plugins selbst."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 124,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#dots-freigaberegeln",
+          "text": "OpenAIs dauerhaft laufende Agenten, am 29. September 2026 als „dots“ vorgestellt, arbeiten nach Regeln in drei Stufen: Eigene Regeln können einzelne Aktionen erlauben, an eine Freigabe binden oder sperren, die eingebauten Sicherheitsregeln gelten immer, und bestimmte sensible Aufgaben wie das Ändern eines Passworts bleiben immer beim Menschen. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026",
+            "url": "https://openai.com/index/introducing-dots/"
+          },
+          "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung oder Haftung. Es ist die Produktankündigung des Herstellers ohne Zahlen zur Nutzung; dots starten in ChatGPT für Pro und Business Premium „in eligible markets“, in Enterprise als Beta, die spezialisierten dots zunächst in Pilotprojekten. Wer für einen Fehler einsteht, regelt die Seite nicht; OpenAI schreibt selbst, dots könnten Fehler machen, folgenreiche Ergebnisse seien immer zu prüfen. Vorgaben zu Marke oder Tonalität erwähnt die Seite nicht: dots lernen laut OpenAI aus Rückmeldungen, anders als die Markenregeln, die Microsoft und Google ihren Assistenten als Konfiguration mitgeben, wie die Einträge zu beiden zeigen. An einer Einbindung in Microsofts Agent 365 arbeitet OpenAI nach eigenen Angaben."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 125,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#agentenkanal-voreinstellung",
+          "text": "Bei Shopify entscheidet die Voreinstellung, in welchen KI-Kanälen ein Shop verkauft. Die sogenannten agentic storefronts sind für berechtigte Shops standardmäßig aktiv: Die Produkte erscheinen in KI-Kanälen wie ChatGPT, Google AI Mode und Gemini, Microsoft Copilot und Meta, und wo unterstützt, ist der direkte Checkout im Kanal eingeschaltet. Wer die Voreinstellung „Allow Shopify to manage for me“ behält, ist automatisch auch in allen künftigen Kanälen angemeldet.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Shopify Help Center, „Shopify agentic storefronts“ und „Managing agentic storefronts“, ohne Datum, abgerufen am 30. September 2026",
+            "url": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts"
+          },
+          "disambiguatingDescription": "Was der Eintrag nicht belegt: wie viele Händler betroffen sind oder was über diese Kanäle verkauft wird; die Hilfeseiten nennen keine Zahlen und tragen kein Datum. Welche Shops berechtigt sind und in welchen Ländern, steht auf den gelesenen Seiten nicht. Abschalten geht, je Kanal oder ganz; schaltet ein Händler den Zugriff über Shopify Catalog ab, kann es aber bis zu sieben Tage dauern, bis seine Produktdaten nicht mehr weitergegeben werden. Einordnung: Der Eintrag zu Shopifys Knowledge Base zeigt, wie Händler steuern, was Agenten über sie antworten; dieser zeigt, dass die Frage, wo sie antworten, per Voreinstellung schon beantwortet ist."
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 126,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/belege.html#agenten-lenkung-marktplatz",
+          "text": "Lenkt ein Marktplatz, kauft der Agent selten das Beste. In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. Die Autoren finden drei Schwächen: Die Agenten engen die Auswahl zu früh ein, setzen Prioritäten, die der Nutzer nie genannt hat, und legen sich fest, bevor entscheidende Angaben geklärt sind.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Yuxuan Li, Will Epperson, Wesley Deng und Zezhou Huang, „CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments“, arXiv 2609.27273, Fassung 2 vom 27. September 2026 (Fassung 1 vom 23. September), Preprint ohne Begutachtung · Kurzfassung gelesen am 30. September 2026",
+            "url": "https://arxiv.org/abs/2609.27273"
+          },
+          "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist ein Preprint ohne Begutachtung, eine Arbeitsgruppe, und getestet wurde in Nachbauten, nicht in echten Shops. Gemessen ist die Kaufwahl, nicht wie eine Marke dargestellt wird. Die Autoren zeigen auch eine Gegenmaßnahme: Eine eigens gebaute Steuerung für die Agenten hob den Anteil der besten Käufe um bis zu 80 Prozentpunkte."
+        }
       }
     ]
   }
@@ -2109,20 +2214,20 @@
 
       <p class="ev-note">Wie geprüft wird, steht <a href="#ev-method-heading">am Ende der Seite</a>. Für Agenten und Skripte gibt es die ganze Sammlung auch als Text, eine Datei je Thema (<a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, <a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, <a href="https://robert-haase.de/belege-schnittstellen.md">Schnittstellen</a>, <a href="https://robert-haase.de/belege-handel.md">Handel</a>, <a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, <a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, <a href="https://robert-haase.de/belege-urteil.md">Urteil</a>), dazu eine <a href="https://robert-haase.de/belege.md">Übersicht aller Aussagen</a> und für Skripte die Daten als <a href="https://robert-haase.de/belege.json">JSON</a>.</p>
 
-      <p class="ev-count" id="ev-count">119 Belege in 7 Themen: KI-Suche 17 · Agenten 22 · Schnittstellen 19 · Handel 9 · Haftung 14 · Marktgröße 18 · Urteil 20.</p>
+      <p class="ev-count" id="ev-count">126 Belege in 7 Themen: KI-Suche 17 · Agenten 23 · Schnittstellen 21 · Handel 11 · Haftung 15 · Marktgröße 18 · Urteil 21.</p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>
 
       <!-- ev-karte -->
       <details class="ev-map" id="ev-map">
-        <summary>Anker aller 119 Einträge, nach Thema</summary>
+        <summary>Anker aller 126 Einträge, nach Thema</summary>
         <p>Den Anker eines Eintrags hier suchen; die Datei am Zeilenanfang enthält den Eintrag vollständig.</p>
         <p><a href="https://robert-haase.de/belege-ki-suche.md">KI-Suche</a>, 17: llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, json-ld-test, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, reddit-zitate, geo-40-prozent, ebu-nachrichten, aio-top10-uneinig, llmstxt-nutzen, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert</p>
-        <p><a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, 22: leere-buttons, agent-ready, a11y-cua, javascript, lighthouse, a11y-tree, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, klarna-700, rechtsvorbehalt-kommentar, abruf-kuerzung, lighthouse-agent-discovery, content-signal-selten, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt</p>
-        <p><a href="https://robert-haase.de/belege-schnittstellen.md">Schnittstellen</a>, 19: astryx-agenten, designsysteme-maschinenschnittstelle, gitlab-markenrepo, frontify-mcp, canva-mcp, mcp-primitive, mcp-tool-poisoning, monotype-mcp, pulumi-brand-mcp, statista-mcp, veeva-mlr, google-ads-textregeln, microsoft-brand-kit, muse-connectors, olivares-access-map, adobe-markenpruefung, markup-ai-stilpruefung, agentenstandards-verbreitung, markenstimme-als-skill</p>
-        <p><a href="https://robert-haase.de/belege-handel.md">Handel</a>, 9: checkout-rueckbau, airline-direktkanal, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, shopify-knowledge-base, agenten-vollmacht-standard, commerce-agent-freigabe</p>
-        <p><a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, 14: air-canada, cursor-bot, ai-act, olg-hamm, produkthaftung-komplexitaet, ai-overview-muenchen, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, perplexity-cfaa, screenshot-metadaten, eu-kennzeichnungskodex, agent-vorgesetzter</p>
+        <p><a href="https://robert-haase.de/belege-agenten.md">Agenten</a>, 23: leere-buttons, agent-ready, a11y-cua, javascript, lighthouse, a11y-tree, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, klarna-700, rechtsvorbehalt-kommentar, abruf-kuerzung, lighthouse-agent-discovery, content-signal-selten, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt, dots-freigaberegeln</p>
+        <p><a href="https://robert-haase.de/belege-schnittstellen.md">Schnittstellen</a>, 21: astryx-agenten, designsysteme-maschinenschnittstelle, gitlab-markenrepo, frontify-mcp, canva-mcp, mcp-primitive, mcp-tool-poisoning, monotype-mcp, pulumi-brand-mcp, statista-mcp, veeva-mlr, google-ads-textregeln, microsoft-brand-kit, muse-connectors, olivares-access-map, adobe-markenpruefung, markup-ai-stilpruefung, agentenstandards-verbreitung, markenstimme-als-skill, staat-als-einzige-quelle, chatgpt-plugin-pruefung</p>
+        <p><a href="https://robert-haase.de/belege-handel.md">Handel</a>, 11: checkout-rueckbau, airline-direktkanal, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, shopify-knowledge-base, agenten-vollmacht-standard, commerce-agent-freigabe, agentenkanal-voreinstellung, agenten-lenkung-marktplatz</p>
+        <p><a href="https://robert-haase.de/belege-haftung.md">Haftung</a>, 15: air-canada, cursor-bot, ai-act, olg-hamm, produkthaftung-komplexitaet, ai-overview-muenchen, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, perplexity-cfaa, screenshot-metadaten, eu-kennzeichnungskodex, agent-vorgesetzter, ross-kein-fair-use</p>
         <p><a href="https://robert-haase.de/belege-markt.md">Marktgröße</a>, 18: machine-customers, marktgroesse, ki-nutzung-deutschland, nicht-menschlicher-verkehr, mcp-verbreitung, agentenhandel-2030, cmo-ki-anteil, dark-data-55, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, insourcing-absicht, agentur-selbstbild, cmo-titel-schwindet, ki-verkehr-handel-prognose</p>
-        <p><a href="https://robert-haase.de/belege-urteil.md">Urteil</a>, 20: metr-selbsteinschaetzung, jagged-frontier, homogenisierung, strategie-trendslop, sykophanz, markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, kompetenz-nivellierung, aufwand-statt-koennen, boussioux-neuheit-wert, mintzberg-muster, wahrgenommene-differenzierung, de-skilling, unverwechselbare-markenelemente</p>
+        <p><a href="https://robert-haase.de/belege-urteil.md">Urteil</a>, 21: metr-selbsteinschaetzung, jagged-frontier, homogenisierung, strategie-trendslop, sykophanz, markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, kompetenz-nivellierung, aufwand-statt-koennen, boussioux-neuheit-wert, mintzberg-muster, wahrgenommene-differenzierung, de-skilling, unverwechselbare-markenelemente, synthetische-befragte</p>
       </details>
       <!-- /ev-karte -->
     </section>
@@ -2561,13 +2666,13 @@
         </div>
       </article>
 
-      <article class="ev-item" id="marktgroesse" data-topic="markt" data-cite="Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: rund 900 Millionen wöchentlich aktive Nutzer bei ChatGPT, über eine Milliarde monatliche Nutzer bei Googles AI Mode. (Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · ChatGPT-Zahl: OpenAI-Angabe, Februar 2026). https://blog.google/products-and-platforms/products/search/search-io-2026/ · via https://robert-haase.de/belege.html#marktgroesse">
+      <article class="ev-item" id="marktgroesse" data-topic="markt" data-cite="Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: OpenAI nennt 1,2 Milliarden wöchentliche Nutzer, zusammengezählt über alle eigenen Angebote, Google über eine Milliarde monatliche Nutzer für seinen AI Mode. (OpenAI, „DevDay 2026 Recap“, 29. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026). https://openai.com/index/devday-2026-recap/ · via https://robert-haase.de/belege.html#marktgroesse">
         <p class="ev-grade is-weak">Anbieterangaben</p>
-        <p class="ev-claim">Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: rund 900 Millionen wöchentlich aktive Nutzer bei ChatGPT, über eine Milliarde monatliche Nutzer bei Googles AI Mode.</p>
-        <p class="ev-limit"><strong>Warum der Vergleich hinkt:</strong> Die eine Zahl zählt <strong>wöchentlich</strong>, die andere <strong>monatlich</strong>. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. Die Google-Zahl ist immerhin direkt vom Anbieter dokumentiert, die ChatGPT-Zahl kursiert durchweg als Angabe in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht.</p>
-        <p class="ev-source">Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · ChatGPT-Zahl: OpenAI-Angabe, Februar 2026</p>
+        <p class="ev-claim">Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: OpenAI nennt 1,2 Milliarden wöchentliche Nutzer, zusammengezählt über alle eigenen Angebote, Google über eine Milliarde monatliche Nutzer für seinen AI Mode.</p>
+        <p class="ev-limit"><strong>Warum der Vergleich hinkt:</strong> Die eine Zahl zählt <strong>wöchentlich</strong> und über alle Angebote eines Anbieters, die andere <strong>monatlich</strong> und für ein einzelnes Produkt. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. <strong>Wie schnell eine Zahl ihre Bezugsgröße verliert,</strong> zeigt OpenAI selbst: Die deutsche Fassung derselben Seite spricht von Anwendungen „für die insgesamt 1,2 Milliarden Menschen …, die unsere Angebote nutzen“, ohne Zeitraum. Die frühere Zahl, rund 900 Millionen wöchentliche Nutzer von ChatGPT im Februar 2026, kursierte nur in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht.</p>
+        <p class="ev-source">OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · <a href="https://openai.com/de-DE/index/devday-2026-recap/" target="_blank" rel="noopener" aria-label="Rückblick auf den DevDay 2026 (öffnet in neuem Tab)">Rückblick auf den DevDay 2026</a> · <a href="https://blog.google/products-and-platforms/products/search/search-io-2026/" target="_blank" rel="noopener" aria-label="Google-Blogbeitrag (öffnet in neuem Tab)">Google-Blogbeitrag</a></p>
         <div class="ev-actions">
-          <a class="ev-source-link" href="https://blog.google/products-and-platforms/products/search/search-io-2026/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <a class="ev-source-link" href="https://openai.com/index/devday-2026-recap/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
           <button type="button" class="ev-copy">Zitat kopieren</button>
           <a class="ev-permalink" href="#marktgroesse">Direktlink</a>
         </div>
@@ -3551,7 +3656,84 @@
         </div>
       </article>
 
-      <p class="ev-end" id="ev-end">Ende der Liste: 119 von 119 Einträgen. Letzter Eintrag: crawler-zweck-gemischt.</p>
+      <article class="ev-item" id="staat-als-einzige-quelle" data-topic="schnittstellen" data-cite="Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Bundesregierung in einem einzigen Eingabefeld. Laut Betreiber stammt jede Antwort aus offiziellen Regierungsseiten, rund 29.000, jeweils mit Link auf die Originalquelle; Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen. Noch während der Startveranstaltung begann der Dienst laut AP, Antworten zu ändern, und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab. (America.gov, „How it works“, abgerufen am 30. September 2026 · AP, 29. September 2026). https://america.gov/how-it-works · via https://robert-haase.de/belege.html#staat-als-einzige-quelle">
+        <p class="ev-grade is-plain">Dokumentierter Einzelfall</p>
+        <p class="ev-claim">Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Bundesregierung in einem einzigen Eingabefeld. Laut Betreiber stammt jede Antwort aus offiziellen Regierungsseiten, rund 29.000, jeweils mit Link auf die Originalquelle; Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen. Noch während der Startveranstaltung begann der Dienst laut AP, Antworten zu ändern, und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> dass die Antworten richtig sind. Eine systematische Prüfung gibt es nicht, nur Stichproben von Journalisten: CBS News stellte 37 Gesundheitsfragen; Notfälle beantwortete der Dienst richtig, andere Antworten waren veraltet oder erwähnten eine gerichtliche Anordnung nicht, und die Behördenseiten widersprechen sich teils selbst. Die 29.000 Seiten und die sofortige Aktualisierung sind Angaben zum Start. Dahinter laufen laut Gebbia Modelle von Google (Gemini) und xAI (Grok); Fragen zu Datenschutz und Verträgen hat das Weiße Haus nicht beantwortet. <strong>Der Betreiber über sich:</strong> „The accuracy of our answers is never influenced by third parties.“ Wer die Antworten beim Start geändert hat und warum, sagt der AP-Bericht nicht.</p>
+        <p class="ev-source">America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · <a href="https://fedscoop.com/trump-launches-ai-site-america-gov/" target="_blank" rel="noopener" aria-label="FedScoop (öffnet in neuem Tab)">FedScoop</a> · <a href="https://www.yahoo.com/news/politics/articles/trump-touts-america-gov-government-151833603.html" target="_blank" rel="noopener" aria-label="AP bei Yahoo News (öffnet in neuem Tab)">AP bei Yahoo News</a> · <a href="https://www.cbsnews.com/news/america-gov-chatbot-health-questions/" target="_blank" rel="noopener" aria-label="CBS News (öffnet in neuem Tab)">CBS News</a></p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://america.gov/how-it-works" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#staat-als-einzige-quelle">Direktlink</a>
+        </div>
+      </article>
+      <article class="ev-item" id="synthetische-befragte" data-topic="urteil" data-cite="Als Ersatz für menschliche Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Befragungswellen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte neben den menschlichen, bei rund 28 Prozent der Fragen mehr als 15. Bei fast der Hälfte der Fragen wählte kein einziger KI-Befragter mindestens eine der Antwortmöglichkeiten, und „not sure“ wählten Menschen rund viermal so oft wie die KI. Ein Beispiel: Laut KI verfolgen 97 Prozent der Hispanics in den USA die Fußball-WM zumindest einigermaßen wahrscheinlich, tatsächlich sind es 43 Prozent. (Pew Research Center, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026). https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/ · via https://robert-haase.de/belege.html#synthetische-befragte">
+        <p class="ev-grade is-strong">Kontrollierter Test</p>
+        <p class="ev-claim">Als Ersatz für menschliche Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Befragungswellen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte neben den menschlichen, bei rund 28 Prozent der Fragen mehr als 15. Bei fast der Hälfte der Fragen wählte kein einziger KI-Befragter mindestens eine der Antwortmöglichkeiten, und „not sure“ wählten Menschen rund viermal so oft wie die KI. Ein Beispiel: Laut KI verfolgen 97 Prozent der Hispanics in den USA die Fußball-WM zumindest einigermaßen wahrscheinlich, tatsächlich sind es 43 Prozent.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Referenz ist Pews American Trends Panel, also die USA; gefragt wurde zu Politik, Wissen und Tagesgeschehen, nicht zu Marken oder Käufen. Geprüft ist ein Verfahren: Claude Opus 4.6 auf niedriger Denkstufe, mit erweiterten Profilangaben und „expert reflection“. Das Modell verändert das Bild: Im Vergleich an einer Teilmenge der Fragen zeichnete GPT-5.1 die Öffentlichkeit extremer, Opus 4.6 gemäßigter, als sie ist. Pew befragt selbst Menschen, die Methode ist offengelegt. <strong>Übertragen auf Marktforschung, nicht getestet:</strong> Wer synthetische Personas befragt, bekommt Antworten, die sicherer und einheitlicher klingen als die der Menschen, die sie darstellen sollen.</p>
+        <p class="ev-source">Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · abgerufen am 30. September 2026 · <a href="https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/" target="_blank" rel="noopener" aria-label="Methode (öffnet in neuem Tab)">Methode</a></p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#synthetische-befragte">Direktlink</a>
+        </div>
+      </article>
+      <article class="ev-item" id="ross-kein-fair-use" data-topic="haftung" data-cite="Ein US-Bundesberufungsgericht hat am 29. September 2026 bestätigt, dass die Nutzung fremder Texte als KI-Trainingsmaterial in diesem Fall kein Fair Use war: ROSS Intelligence hat 2.243 Headnotes aus Westlaw, redaktionelle Leitsätze von Thomson Reuters zu Gerichtsentscheidungen, genutzt, um eine juristische KI-Suche zu trainieren, und damit das Urheberrecht verletzt. Als geschädigten Markt wertet das Gericht die Lizenzierung von Headnotes als KI-Trainingsdaten, einen Markt, der sich laut Urteil rasch entwickelt; dass Thomson Reuters selbst nie an Dritte lizenziert hat, widerlege ihn nicht. (US Court of Appeals for the Third Circuit, Thomson Reuters v. Ross Intelligence, No. 25-2153, 29. September 2026). https://www2.ca3.uscourts.gov/opinarch/252153p.pdf · via https://robert-haase.de/belege.html#ross-kein-fair-use">
+        <p class="ev-grade is-strong">Gerichtsurteil, nicht endgültig</p>
+        <p class="ev-claim">Ein US-Bundesberufungsgericht hat am 29. September 2026 bestätigt, dass die Nutzung fremder Texte als KI-Trainingsmaterial in diesem Fall kein Fair Use war: ROSS Intelligence hat 2.243 Headnotes aus Westlaw, redaktionelle Leitsätze von Thomson Reuters zu Gerichtsentscheidungen, genutzt, um eine juristische KI-Suche zu trainieren, und damit das Urheberrecht verletzt. Als geschädigten Markt wertet das Gericht die Lizenzierung von Headnotes als KI-Trainingsdaten, einen Markt, der sich laut Urteil rasch entwickelt; dass Thomson Reuters selbst nie an Dritte lizenziert hat, widerlege ihn nicht.</p>
+        <p class="ev-limit"><strong>Was das Urteil nicht sagt:</strong> Es geht nicht um generative KI. ROSS’ System gab nur vorhandene Textstellen aus Urteilen zurück und erzeugte nichts Neues, und das Gericht grenzt sich in Fußnote 7 ausdrücklich von den Verfahren Bartz gegen Anthropic und In re OpenAI ab. ROSS wollte mit den Daten ein Konkurrenzprodukt zu Westlaw bauen. Entschieden ist eine Zwischenberufung gegen ein Teilurteil, das Verfahren in erster Instanz ist damit nicht abgeschlossen, und es ist US-Recht.</p>
+        <p class="ev-source">United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://www2.ca3.uscourts.gov/opinarch/252153p.pdf" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#ross-kein-fair-use">Direktlink</a>
+        </div>
+      </article>
+      <article class="ev-item" id="chatgpt-plugin-pruefung" data-topic="schnittstellen" data-cite="Wer ein Plugin ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung eines Plugins mit MCP-Verbindung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest. (OpenAI Developers, „Submission“, abgerufen am 30. September 2026). https://developers.openai.com/plugins/deploy/submission · via https://robert-haase.de/belege.html#chatgpt-plugin-pruefung">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">Wer ein Plugin ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung eines Plugins mit MCP-Verbindung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> Nutzung oder Wirkung. Die Seite nennt keine Zahlen zu Plugins, Prüfdauer oder Ablehnungen und trägt kein Datum; Plugins gehörten zu den Neuheiten von OpenAIs DevDay am 29. September 2026. Geprüft werden Funktion und Richtlinien, nicht ob die Aussagen einer Marke stimmen: Die negativen Testfälle schreibt der Anbieter des Plugins selbst.</p>
+        <p class="ev-source">OpenAI Developers, „Submission“, Einreichung von Plugins für das ChatGPT-Verzeichnis, mit Beispiel-Manifest, ohne Datum, abgerufen am 30. September 2026 · Plugins als Neuheit: OpenAI, „DevDay 2026 Recap“, 29. September 2026 · <a href="https://openai.com/index/devday-2026-recap/" target="_blank" rel="noopener" aria-label="DevDay 2026 Recap (öffnet in neuem Tab)">DevDay 2026 Recap</a></p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://developers.openai.com/plugins/deploy/submission" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#chatgpt-plugin-pruefung">Direktlink</a>
+        </div>
+      </article>
+      <article class="ev-item" id="dots-freigaberegeln" data-topic="agenten" data-cite="OpenAIs dauerhaft laufende Agenten, am 29. September 2026 als „dots“ vorgestellt, arbeiten nach Regeln in drei Stufen: Eigene Regeln können einzelne Aktionen erlauben, an eine Freigabe binden oder sperren, die eingebauten Sicherheitsregeln gelten immer, und bestimmte sensible Aufgaben wie das Ändern eines Passworts bleiben immer beim Menschen. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen. (OpenAI, „Introducing dots“, 29. September 2026). https://openai.com/index/introducing-dots/ · via https://robert-haase.de/belege.html#dots-freigaberegeln">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">OpenAIs dauerhaft laufende Agenten, am 29. September 2026 als „dots“ vorgestellt, arbeiten nach Regeln in drei Stufen: Eigene Regeln können einzelne Aktionen erlauben, an eine Freigabe binden oder sperren, die eingebauten Sicherheitsregeln gelten immer, und bestimmte sensible Aufgaben wie das Ändern eines Passworts bleiben immer beim Menschen. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> Nutzung oder Haftung. Es ist die Produktankündigung des Herstellers ohne Zahlen zur Nutzung; dots starten in ChatGPT für Pro und Business Premium „in eligible markets“, in Enterprise als Beta, die spezialisierten dots zunächst in Pilotprojekten. Wer für einen Fehler einsteht, regelt die Seite nicht; OpenAI schreibt selbst, dots könnten Fehler machen, folgenreiche Ergebnisse seien immer zu prüfen. Vorgaben zu Marke oder Tonalität erwähnt die Seite nicht: dots lernen laut OpenAI aus Rückmeldungen, anders als die Markenregeln, die Microsoft und Google ihren Assistenten als Konfiguration mitgeben, wie die Einträge zu beiden zeigen. An einer Einbindung in Microsofts Agent 365 arbeitet OpenAI nach eigenen Angaben.</p>
+        <p class="ev-source">OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://openai.com/index/introducing-dots/" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#dots-freigaberegeln">Direktlink</a>
+        </div>
+      </article>
+      <article class="ev-item" id="agentenkanal-voreinstellung" data-topic="handel" data-cite="Bei Shopify entscheidet die Voreinstellung, in welchen KI-Kanälen ein Shop verkauft. Die sogenannten agentic storefronts sind für berechtigte Shops standardmäßig aktiv: Die Produkte erscheinen in KI-Kanälen wie ChatGPT, Google AI Mode und Gemini, Microsoft Copilot und Meta, und wo unterstützt, ist der direkte Checkout im Kanal eingeschaltet. Wer die Voreinstellung „Allow Shopify to manage for me“ behält, ist automatisch auch in allen künftigen Kanälen angemeldet. (Shopify Help Center, „Shopify agentic storefronts“ und „Managing agentic storefronts“, abgerufen am 30. September 2026). https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts · via https://robert-haase.de/belege.html#agentenkanal-voreinstellung">
+        <p class="ev-grade is-strong">Herstellerdokumentation</p>
+        <p class="ev-claim">Bei Shopify entscheidet die Voreinstellung, in welchen KI-Kanälen ein Shop verkauft. Die sogenannten agentic storefronts sind für berechtigte Shops standardmäßig aktiv: Die Produkte erscheinen in KI-Kanälen wie ChatGPT, Google AI Mode und Gemini, Microsoft Copilot und Meta, und wo unterstützt, ist der direkte Checkout im Kanal eingeschaltet. Wer die Voreinstellung „Allow Shopify to manage for me“ behält, ist automatisch auch in allen künftigen Kanälen angemeldet.</p>
+        <p class="ev-limit"><strong>Was der Eintrag nicht belegt:</strong> wie viele Händler betroffen sind oder was über diese Kanäle verkauft wird; die Hilfeseiten nennen keine Zahlen und tragen kein Datum. Welche Shops berechtigt sind und in welchen Ländern, steht auf den gelesenen Seiten nicht. Abschalten geht, je Kanal oder ganz; schaltet ein Händler den Zugriff über Shopify Catalog ab, kann es aber bis zu sieben Tage dauern, bis seine Produktdaten nicht mehr weitergegeben werden. <strong>Einordnung:</strong> Der Eintrag zu Shopifys Knowledge Base zeigt, wie Händler steuern, was Agenten über sie antworten; dieser zeigt, dass die Frage, wo sie antworten, per Voreinstellung schon beantwortet ist.</p>
+        <p class="ev-source">Shopify Help Center, „Shopify agentic storefronts“ und „Managing agentic storefronts“, ohne Datum, abgerufen am 30. September 2026 · <a href="https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/agentic-home" target="_blank" rel="noopener" aria-label="Managing agentic storefronts (öffnet in neuem Tab)">Managing agentic storefronts</a></p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#agentenkanal-voreinstellung">Direktlink</a>
+        </div>
+      </article>
+      <article class="ev-item" id="agenten-lenkung-marktplatz" data-topic="handel" data-cite="Lenkt ein Marktplatz, kauft der Agent selten das Beste. In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. Die Autoren finden drei Schwächen: Die Agenten engen die Auswahl zu früh ein, setzen Prioritäten, die der Nutzer nie genannt hat, und legen sich fest, bevor entscheidende Angaben geklärt sind. (Li, Epperson, Deng und Huang, arXiv 2609.27273, Fassung vom 27. September 2026). https://arxiv.org/abs/2609.27273 · via https://robert-haase.de/belege.html#agenten-lenkung-marktplatz">
+        <p class="ev-grade is-weak">Kontrollierter Test, Preprint ohne Begutachtung</p>
+        <p class="ev-claim">Lenkt ein Marktplatz, kauft der Agent selten das Beste. In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. Die Autoren finden drei Schwächen: Die Agenten engen die Auswahl zu früh ein, setzen Prioritäten, die der Nutzer nie genannt hat, und legen sich fest, bevor entscheidende Angaben geklärt sind.</p>
+        <p class="ev-limit"><strong>Was die Zahl nicht sagt:</strong> Es ist ein Preprint ohne Begutachtung, eine Arbeitsgruppe, und getestet wurde in Nachbauten, nicht in echten Shops. Gemessen ist die Kaufwahl, nicht wie eine Marke dargestellt wird. Die Autoren zeigen auch eine Gegenmaßnahme: Eine eigens gebaute Steuerung für die Agenten hob den Anteil der besten Käufe um bis zu 80 Prozentpunkte.</p>
+        <p class="ev-source">Yuxuan Li, Will Epperson, Wesley Deng und Zezhou Huang, „CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments“, arXiv 2609.27273, Fassung 2 vom 27. September 2026 (Fassung 1 vom 23. September), Preprint ohne Begutachtung · Kurzfassung gelesen am 30. September 2026</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://arxiv.org/abs/2609.27273" target="_blank" rel="noopener" aria-label="Zur Quelle (öffnet in neuem Tab)">Zur Quelle</a>
+          <button type="button" class="ev-copy">Zitat kopieren</button>
+          <a class="ev-permalink" href="#agenten-lenkung-marktplatz">Direktlink</a>
+        </div>
+      </article>
+      <p class="ev-end" id="ev-end">Ende der Liste: 126 von 126 Einträgen. Letzter Eintrag: agenten-lenkung-marktplatz.</p>
 
       <p class="ev-empty" id="ev-empty" hidden>Kein Beleg passt zu dieser Auswahl.</p>
 

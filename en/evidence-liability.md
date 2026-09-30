@@ -1,6 +1,6 @@
 # Evidence: Liability
 
-14 of 119 entries in the collection “Evidence” by Robert Haase, as of 28 September 2026.
+15 of 126 entries in the collection “Evidence” by Robert Haase, as of 30 September 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-haftung.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (5) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter
++ Verified study, vendor documentation, or court decision (6) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use
 + Preliminary: prototype, single test, forecast, or vendor figure (1) → ai-overview-muenchen
 + Status, case report, or market observation (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -224,4 +224,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 14 of 14 entries on Liability. Last entry: agent-vorgesetzter.
+## ross-kein-fair-use
+
+**Claim:** On 29 September 2026, a US federal appeals court affirmed that using others’ texts as AI training material was not fair use in this case: ROSS Intelligence used 2,243 Westlaw headnotes, Thomson Reuters’ editorial summaries of court decisions, to train a legal AI search tool and thereby infringed copyright. The court treats licensing headnotes as AI training data as the harmed market, which it describes as “rapidly developing”; that Thomson Reuters never licensed its headnotes to others “does not disprove that a market exists to do so”.
+
+**What the ruling does not say:** it is not about generative AI. ROSS’s system only returned existing passages from judicial opinions and created no new expression, and in footnote 7 the court expressly distinguishes the cases Bartz v. Anthropic and In re OpenAI. ROSS wanted to use the data to build a competitor to Westlaw. What was decided is an interlocutory appeal against a partial summary judgment; the case at first instance is not concluded, and it is US law.
+
+**Source:** United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, argued 11 June 2026, filed 29 September 2026, opinion of the court by Montgomery-Reeves · quotes p. 26, distinction in footnote 7 · full text read 30 September 2026 · [Source](https://www2.ca3.uscourts.gov/opinarch/252153p.pdf)
+
+**Grade:** Court ruling, not final · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#ross-kein-fair-use
+
+---
+
+End of file: 15 of 15 entries on Liability. Last entry: ross-kein-fair-use.
