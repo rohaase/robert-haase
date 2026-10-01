@@ -3817,13 +3817,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#staat-als-einzige-quelle",
-      "text": "Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Regierung in einem Eingabefeld, laut Betreiber aus rund 29.000 Regierungsseiten, mit Link auf die Quelle. Noch während der Startveranstaltung änderte der Dienst laut AP Antworten und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab.",
+      "text": "Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Regierung in einem Eingabefeld, laut Betreiber aus rund 29.000 Regierungswebsites, mit Link auf die Quelle. Noch während der Startveranstaltung änderte der Dienst laut AP Antworten und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026",
+        "name": "America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · die 29.000 Websites gibt FedScoop als Angabe von America.gov wieder, auf „How it works“ standen sie am 1. Oktober 2026 nicht · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026",
         "url": "https://america.gov/how-it-works"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: dass die Antworten richtig sind. Eine systematische Prüfung gibt es nicht, nur Stichproben von Journalisten: CBS News stellte 37 Gesundheitsfragen; Notfälle beantwortete der Dienst richtig, andere Antworten waren veraltet oder erwähnten eine gerichtliche Anordnung nicht, und die Behördenseiten widersprechen sich teils selbst. Die 29.000 Seiten und die sofortige Aktualisierung sind Angaben zum Start. Dahinter laufen laut Gebbia Modelle von Google (Gemini) und xAI (Grok); Fragen zu Datenschutz und Verträgen hat das Weiße Haus nicht beantwortet. Der Betreiber über sich: „The accuracy of our answers is never influenced by third parties.“ Wer die Antworten beim Start geändert hat und warum, sagt der AP-Bericht nicht. Im Einzelnen: Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: dass die Antworten richtig sind. Eine systematische Prüfung gibt es nicht, nur Stichproben von Journalisten: CBS News stellte 37 Gesundheitsfragen; Notfälle beantwortete der Dienst richtig, andere Antworten waren veraltet oder erwähnten eine gerichtliche Anordnung nicht, und die Behördenseiten widersprechen sich teils selbst. Die 29.000 Websites und die sofortige Aktualisierung sind Angaben zum Start. Dahinter laufen laut Gebbia Modelle von Google (Gemini) und xAI (Grok); Fragen zu Datenschutz und Verträgen hat das Weiße Haus nicht beantwortet. Der Betreiber über sich: „The accuracy of our answers is never influenced by third parties.“ Wer die Antworten beim Start geändert hat und warum, sagt der AP-Bericht nicht. Im Einzelnen: Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen.",
       "position": 120,
       "id": "staat-als-einzige-quelle",
       "url": "https://robert-haase.de/belege.html#staat-als-einzige-quelle",
@@ -3832,7 +3832,7 @@
         "name": "Dokumentierter Einzelfall",
         "group": "plain"
       },
-      "sourceText": "America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · FedScoop · AP bei Yahoo News · CBS News · Zur Quelle",
+      "sourceText": "America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · die 29.000 Websites gibt FedScoop als Angabe von America.gov wieder, auf „How it works“ standen sie am 1. Oktober 2026 nicht · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · FedScoop · AP bei Yahoo News · CBS News · Zur Quelle",
       "sourceLinks": [
         {
           "name": "FedScoop",
@@ -3851,7 +3851,7 @@
           "url": "https://america.gov/how-it-works"
         }
       ],
-      "citationText": "Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Regierung in einem Eingabefeld, laut Betreiber aus rund 29.000 Regierungsseiten, mit Link auf die Quelle. Noch während der Startveranstaltung änderte der Dienst laut AP Antworten und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab. (America.gov, „How it works“, abgerufen am 30. September 2026 · AP, 29. September 2026). https://america.gov/how-it-works · via https://robert-haase.de/belege.html#staat-als-einzige-quelle"
+      "citationText": "Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Regierung in einem Eingabefeld, laut Betreiber aus rund 29.000 Regierungswebsites, mit Link auf die Quelle. Noch während der Startveranstaltung änderte der Dienst laut AP Antworten und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab. (America.gov, „How it works“, abgerufen am 30. September 2026 · FedScoop, 29. September 2026 · AP, 29. September 2026). https://america.gov/how-it-works · via https://robert-haase.de/belege.html#staat-als-einzige-quelle"
     },
     {
       "@type": "Claim",
