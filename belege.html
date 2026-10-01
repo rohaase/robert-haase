@@ -2112,10 +2112,21 @@
     }
     .ev-kompakt .ev-item:not(.is-offen) .ev-limit { -webkit-line-clamp: 3; line-clamp: 3; }
     .ev-kompakt .ev-item:not(.is-offen) .ev-source { -webkit-line-clamp: 1; line-clamp: 1; }
-    .ev-actions .ev-mehr[hidden] { display: none; }
+    /* „Mehr“ steht als Textlink direkt unter der eingeklappten Quellenzeile,
+       dort, wo der Text abbricht. Die Knopfreihe darunter bleibt bei ihren
+       drei Handlungen und passt so auch auf dem Telefon in eine Zeile. */
+    .ev-mehr {
+      display: inline-block; font: inherit; font-size: 0.85rem; line-height: 1.4;
+      background: none; border: none; border-bottom: 1px solid var(--border);
+      border-radius: 0; padding: 0 0 1px; margin: -0.4rem 0 1.1rem;
+      color: var(--white); cursor: pointer;
+      transition: border-color 0.15s ease;
+    }
+    .ev-mehr:hover { border-bottom-color: var(--white); }
+    .ev-mehr[hidden] { display: none; }
     @media print {
       .ev-kompakt .ev-item .ev-limit, .ev-kompakt .ev-item .ev-source { display: block; overflow: visible; }
-      .ev-actions .ev-mehr { display: none; }
+      .ev-mehr { display: none; }
     }
 
     .ev-grade {
@@ -3974,7 +3985,7 @@
     b.textContent = 'Mehr';
     b.setAttribute('aria-expanded', 'false');
     b.hidden = true;
-    aktionen.appendChild(b);
+    aktionen.parentNode.insertBefore(b, aktionen);
     el.mehrKnopf = b;
   });
 
