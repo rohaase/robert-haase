@@ -2101,6 +2101,22 @@
       transition: border-color 0.15s ease;
     }
     .ev-source a:hover { border-bottom-color: var(--white); }
+    /* Kompaktansicht: Mit JavaScript zeigt jede Karte die ersten Zeilen von
+       Grenze und Quelle, „Mehr“ öffnet den Rest. Gekürzt ist nur die Anzeige:
+       Der volle Text steht im HTML, im JSON-LD, in der Suche und in den
+       Dateien für Agenten. Ohne JavaScript, beim Suchen und im Druck bleibt
+       alles offen. */
+    .ev-kompakt .ev-item:not(.is-offen) .ev-limit,
+    .ev-kompakt .ev-item:not(.is-offen) .ev-source {
+      display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .ev-kompakt .ev-item:not(.is-offen) .ev-limit { -webkit-line-clamp: 3; line-clamp: 3; }
+    .ev-kompakt .ev-item:not(.is-offen) .ev-source { -webkit-line-clamp: 1; line-clamp: 1; }
+    .ev-actions .ev-mehr[hidden] { display: none; }
+    @media print {
+      .ev-kompakt .ev-item .ev-limit, .ev-kompakt .ev-item .ev-source { display: block; overflow: visible; }
+      .ev-actions .ev-mehr { display: none; }
+    }
 
     .ev-grade {
       display: inline-block; font-size: 0.7rem; text-transform: uppercase;
@@ -3830,6 +3846,8 @@
       ? items.length + ' Belege'
       : shown + ' von ' + items.length + ' Belegen';
     status.textContent = count.textContent;
+    list.classList.toggle('ev-kompakt', !query);
+    pruefeKompakt();
   }
 
   filters.addEventListener('click', function (e) {
@@ -3928,6 +3946,7 @@
     try { id = decodeURIComponent(location.hash.slice(1)); } catch (err) { return; }
     var el = id && document.getElementById(id);
     if (!el) return;
+    if (el.classList.contains('ev-item')) oeffne(el, true);
     if (el.classList.contains('ev-item') && el.hidden) {
       query = '';
       search.value = '';
@@ -3940,6 +3959,58 @@
     if (el.getClientRects().length) el.scrollIntoView();
   }
   window.addEventListener('hashchange', zeigeZiel);
+
+  /* Kompaktansicht: Grenze und Quelle zeigen zuerst nur ihre ersten Zeilen.
+     Der Knopf erscheint nur, wo wirklich etwas abgeschnitten ist; das hängt
+     von der Breite ab und wird deshalb nach jeder Änderung neu geprüft. Beim
+     Suchen ist alles offen, damit der Treffer sichtbar ist, und ein
+     Direktlink öffnet seinen Eintrag. Am Text selbst ändert sich nichts. */
+  items.forEach(function (el) {
+    var aktionen = el.querySelector('.ev-actions');
+    if (!aktionen) return;
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'ev-mehr';
+    b.textContent = 'Mehr';
+    b.setAttribute('aria-expanded', 'false');
+    b.hidden = true;
+    aktionen.appendChild(b);
+    el.mehrKnopf = b;
+  });
+
+  function oeffne(el, offen) {
+    el.classList.toggle('is-offen', offen);
+    if (!el.mehrKnopf) return;
+    el.mehrKnopf.textContent = offen ? 'Weniger' : 'Mehr';
+    el.mehrKnopf.setAttribute('aria-expanded', offen ? 'true' : 'false');
+  }
+
+  function pruefeKompakt() {
+    var kompakt = list.classList.contains('ev-kompakt');
+    items.forEach(function (el) {
+      var b = el.mehrKnopf;
+      if (!b) return;
+      if (!kompakt || el.hidden) { b.hidden = true; return; }
+      if (el.classList.contains('is-offen')) { b.hidden = false; return; }
+      b.hidden = !Array.prototype.some.call(el.querySelectorAll('.ev-limit, .ev-source'), function (p) {
+        return p.scrollHeight > p.clientHeight + 2;
+      });
+    });
+  }
+
+  list.addEventListener('click', function (e) {
+    var b = e.target.closest('.ev-mehr');
+    if (!b) return;
+    var el = b.closest('.ev-item');
+    if (el) oeffne(el, !el.classList.contains('is-offen'));
+  });
+
+  var kompaktTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(kompaktTimer);
+    kompaktTimer = setTimeout(pruefeKompakt, 150);
+  });
+  window.addEventListener('load', pruefeKompakt);
 
   filters.hidden = false;
   search.hidden = false;
