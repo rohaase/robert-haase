@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-10-01",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
@@ -3914,7 +3914,7 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#chatgpt-plugin-pruefung",
-      "text": "Wer ein Plugin ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung eines Plugins mit MCP-Verbindung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest.",
+      "text": "Wer ein Plugin mit MCP-Verbindung ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest.",
       "appearance": {
         "@type": "CreativeWork",
         "name": "OpenAI Developers, „Submission“, Einreichung von Plugins für das ChatGPT-Verzeichnis, mit Beispiel-Manifest, ohne Datum, abgerufen am 30. September 2026 · Plugins als Neuheit: OpenAI, „DevDay 2026 Recap“, 29. September 2026",
@@ -3940,7 +3940,7 @@
           "url": "https://developers.openai.com/plugins/deploy/submission"
         }
       ],
-      "citationText": "Wer ein Plugin ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung eines Plugins mit MCP-Verbindung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest. (OpenAI Developers, „Submission“, abgerufen am 30. September 2026). https://developers.openai.com/plugins/deploy/submission · via https://robert-haase.de/belege.html#chatgpt-plugin-pruefung"
+      "citationText": "Wer ein Plugin mit MCP-Verbindung ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest. (OpenAI Developers, „Submission“, abgerufen am 30. September 2026). https://developers.openai.com/plugins/deploy/submission · via https://robert-haase.de/belege.html#chatgpt-plugin-pruefung"
     },
     {
       "@type": "Claim",

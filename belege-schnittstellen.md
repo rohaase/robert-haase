@@ -1,6 +1,6 @@
 # Belege: Schnittstellen
 
-21 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 30. September 2026.
+21 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-interfaces.md
 
@@ -310,7 +310,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## chatgpt-plugin-pruefung
 
-**Aussage:** Wer ein Plugin ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung eines Plugins mit MCP-Verbindung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest.
+**Aussage:** Wer ein Plugin mit MCP-Verbindung ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll. Für die erste Prüfung verlangt OpenAI genau fünf positive und drei negative Testfälle; ein negativer beschreibt eine Anfrage, bei der das Plugin nicht handeln soll, warum nicht, und welche Ablehnung, Rückfrage oder sichere Ausweichlösung erwartet wird. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. Markenfarbe und Logo, jeweils auch in einer dunklen Variante, sind eigene Felder im Manifest.
 
 **Was der Eintrag nicht belegt:** Nutzung oder Wirkung. Die Seite nennt keine Zahlen zu Plugins, Prüfdauer oder Ablehnungen und trägt kein Datum; Plugins gehörten zu den Neuheiten von OpenAIs DevDay am 29. September 2026. Geprüft werden Funktion und Richtlinien, nicht ob die Aussagen einer Marke stimmen: Die negativen Testfälle schreibt der Anbieter des Plugins selbst.
 
