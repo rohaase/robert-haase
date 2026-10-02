@@ -8,7 +8,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/"/>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -16,8 +16,24 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/artikel.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/articles.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/artikel.html"/>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/antworten-statt-seiten.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/antworten-statt-seiten.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/answers-instead-of-pages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/antworten-statt-seiten.html"/>
+    <lastmod>2026-10-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://robert-haase.de/en/answers-instead-of-pages.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/antworten-statt-seiten.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/answers-instead-of-pages.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/antworten-statt-seiten.html"/>
+    <lastmod>2026-10-02</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://robert-haase.de/marke-als-mcp-server.html</loc>
@@ -112,7 +128,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/"/>
-    <lastmod>2026-09-24</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -120,7 +136,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/artikel.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/articles.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/artikel.html"/>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -225,7 +241,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/begriffe.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/glossary.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/begriffe.html"/>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -249,7 +265,7 @@
     <xhtml:link rel="alternate" hreflang="de" href="https://robert-haase.de/begriffe.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://robert-haase.de/en/glossary.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://robert-haase.de/begriffe.html"/>
-    <lastmod>2026-09-28</lastmod>
+    <lastmod>2026-10-02</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
