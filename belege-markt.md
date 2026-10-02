@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-18 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. Oktober 2026.
+18 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 2. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 

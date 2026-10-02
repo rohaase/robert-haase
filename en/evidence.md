@@ -1,6 +1,6 @@
-# Evidence: all 126 claims
+# Evidence: all 127 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 1 October 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 2 October 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -28,7 +28,7 @@ The collection does not map the state of the research, only the figures I needed
 - Agents, 23 entries: https://robert-haase.de/en/evidence-agents.md
 - Interfaces, 21 entries: https://robert-haase.de/en/evidence-interfaces.md
 - Commerce, 11 entries: https://robert-haase.de/en/evidence-commerce.md
-- Liability, 15 entries: https://robert-haase.de/en/evidence-liability.md
+- Liability, 16 entries: https://robert-haase.de/en/evidence-liability.md
 - Market size, 18 entries: https://robert-haase.de/en/evidence-market.md
 - Judgement, 21 entries: https://robert-haase.de/en/evidence-judgement.md
 
@@ -132,9 +132,9 @@ The collection does not map the state of the research, only the figures I needed
 - **agentenkanal-voreinstellung** · Vendor documentation · Shopify’s so-called agentic storefronts are “active by default for eligible stores”: products appear in AI channels such as ChatGPT, Google AI Mode and Gemini, Microsoft Copilot and Meta. Merchants who keep the default setting “Allow Shopify to manage for me” are automatically enrolled in all future channels as well. → https://robert-haase.de/en/evidence-commerce.md
 - **agenten-lenkung-marktplatz** · Controlled test, preprint without peer review · In nine replicated marketplaces, computer-use agents from five model families bought the user-optimal product in 78.6 percent of control runs; with steering mechanisms enabled, drawn from a taxonomy of eight common types, the share fell to 17.3 percent. → https://robert-haase.de/en/evidence-commerce.md
 
-## Liability (15)
+## Liability (16)
 
-+ Verified study, vendor documentation, or court decision (6) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use
++ Verified study, vendor documentation, or court decision (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
 + Preliminary: prototype, single test, forecast, or vendor figure (1) → ai-overview-muenchen
 + Status, case report, or market observation (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -153,6 +153,7 @@ The collection does not map the state of the research, only the figures I needed
 - **eu-kennzeichnungskodex** · Legal status · On 10 June 2026 the European Commission published the final version of a voluntary code of practice on the labelling duties under Article 50 of the AI Act, together with three EU icons for AI-generated content. The part on marking by providers has been signed by 95 organisations, the part on labelling by deployers by 192. → https://robert-haase.de/en/evidence-liability.md
 - **agent-vorgesetzter** · Vendor documentation · Microsoft gives autonomous agents a line manager: whoever hires a so-called autopilot in Microsoft Foundry becomes its manager. Almost anyone can stop it, but according to the documentation the obligation to stop it always lies with that manager, “regardless of who is at fault”: fault and obligation are kept apart by design. → https://robert-haase.de/en/evidence-liability.md
 - **ross-kein-fair-use** · Court ruling, not final · On 29 September 2026, a US federal appeals court affirmed that using others’ texts as AI training material was not fair use in this case: ROSS Intelligence used 2,243 Westlaw headnotes, Thomson Reuters’ editorial summaries of court decisions, to train a legal AI search tool and thereby infringed copyright. → https://robert-haase.de/en/evidence-liability.md
+- **gema-openai** · Court ruling, not final · According to the Munich Regional Court I (11 November 2025), OpenAI infringes the rights to nine song lyrics with its models and ChatGPT: lyrics memorised in a model are a reproduction that no text and data mining exception covers. The operators are liable for the outputs, not the users who call them up with simple prompts. → https://robert-haase.de/en/evidence-liability.md
 
 ## Market size (18)
 
@@ -207,4 +208,4 @@ The collection does not map the state of the research, only the figures I needed
 - **unverwechselbare-markenelemente** · Verified study · Researchers at the Ehrenberg-Bass Institute analysed 1,162 distinctive brand assets of 128 brands across 21 categories, four countries and nine years. Shape-based assets such as logos and packaging perform best, colours weakest: on average 40 and 12 percent of respondents respectively link them to the brand. → https://robert-haase.de/en/evidence-judgement.md
 - **synthetische-befragte** · Controlled test · According to Pew Research Center, AI cannot yet stand in for survey respondents. Pew replicated three of its own surveys from January to April 2026 with so-called digital twins: across nearly 300 questions, the AI results were off by an average of 12 percentage points, and by more than 15 on around 28 percent of questions. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 126 of 126 claims in 7 topics.
+End of overview: 127 of 127 claims in 7 topics.

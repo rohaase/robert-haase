@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-10-01",
+  "dateModified": "2026-10-02",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 126,
+  "numberOfItems": 127,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -235,7 +235,7 @@
     {
       "id": "haftung",
       "name": "Haftung",
-      "numberOfItems": 15,
+      "numberOfItems": 16,
       "textFile": "https://robert-haase.de/belege-haftung.md",
       "ids": [
         "air-canada",
@@ -252,7 +252,8 @@
         "screenshot-metadaten",
         "eu-kennzeichnungskodex",
         "agent-vorgesetzter",
-        "ross-kein-fair-use"
+        "ross-kein-fair-use",
+        "gema-openai"
       ],
       "groups": {
         "strong": [
@@ -261,7 +262,8 @@
           "perplexity-cfaa",
           "screenshot-metadaten",
           "agent-vorgesetzter",
-          "ross-kein-fair-use"
+          "ross-kein-fair-use",
+          "gema-openai"
         ],
         "weak": [
           "ai-overview-muenchen"
@@ -4026,6 +4028,45 @@
         }
       ],
       "citationText": "In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. (Li, Epperson, Deng und Huang, arXiv 2609.27273, Fassung vom 27. September 2026). https://arxiv.org/abs/2609.27273 · via https://robert-haase.de/belege.html#agenten-lenkung-marktplatz"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#gema-openai",
+      "text": "Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026",
+        "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204"
+      },
+      "disambiguatingDescription": "Was das Urteil nicht sagt: Es ist erstinstanzlich und nicht rechtskräftig. OpenAI hat am 8. Dezember 2025 Berufung zum Oberlandesgericht München eingelegt (Aktenzeichen 6 U 3662/25 e); ein Termin oder eine Entscheidung ist bis zum 2. Oktober 2026 nicht bekannt. Gestritten wurde über neun Liedtexte in den Modellen GPT-4 und GPT-4o. Den Anspruch aus dem Persönlichkeitsrecht, verfälschte Liedtexte nicht mehr den Textdichtern zuzuschreiben, hat das Gericht abgewiesen, eine Vorlage an den EuGH abgelehnt. Bei Ausgaben, die ein Nutzer gezielt provoziert, könnte die Verantwortung anders liegen, schreibt das Gericht selbst. Beim EuGH ist mit Like Company gegen Google (C-250/25) die Frage anhängig, ob das Training eines Sprachmodells eine Vervielfältigung ist und die Ausnahme für Text und Data Mining greift. Im Einzelnen: Gedeckt ist laut Urteil das Zusammenstellen des Trainingsdatensatzes, nicht die Vervielfältigung im Modell; als unwesentliches Beiwerk nach § 57 UrhG gelten die Liedtexte ebenfalls nicht. Dieselbe Kammer hat am 31. Juli 2026 gegen Suno auf derselben Linie entschieden (42 O 763/25).",
+      "position": 127,
+      "id": "gema-openai",
+      "url": "https://robert-haase.de/belege.html#gema-openai",
+      "topic": "haftung",
+      "grade": {
+        "name": "Gerichtsurteil, nicht endgültig",
+        "group": "strong"
+      },
+      "sourceText": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · Pressemitteilung des Gerichts · GEMA zur Berufung · Initiative Urheberrecht · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Pressemitteilung des Gerichts",
+          "url": "https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php"
+        },
+        {
+          "name": "GEMA zur Berufung",
+          "url": "https://www.gema.de/de/w/suno-entscheidung-2026"
+        },
+        {
+          "name": "Initiative Urheberrecht",
+          "url": "https://urheber.info/diskurs/openai-legt-berufung-ein"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204"
+        }
+      ],
+      "citationText": "Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen. (LG München I, Endurteil vom 11. November 2025, 42 O 14139/24). https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204 · via https://robert-haase.de/belege.html#gema-openai"
     }
   ]
 }

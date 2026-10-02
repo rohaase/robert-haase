@@ -1,6 +1,6 @@
 # Belege: Haftung
 
-15 von 126 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. Oktober 2026.
+16 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 2. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-liability.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (6) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → ai-overview-muenchen
 + Sachstand, Fallbericht oder Marktbeobachtung (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -238,4 +238,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 15 von 15 Einträgen zum Thema Haftung. Letzter Eintrag: ross-kein-fair-use.
+## gema-openai
+
+**Aussage:** Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen.
+
+**Was das Urteil nicht sagt:** Es ist erstinstanzlich und nicht rechtskräftig. OpenAI hat am 8. Dezember 2025 Berufung zum Oberlandesgericht München eingelegt (Aktenzeichen 6 U 3662/25 e); ein Termin oder eine Entscheidung ist bis zum 2. Oktober 2026 nicht bekannt. Gestritten wurde über neun Liedtexte in den Modellen GPT-4 und GPT-4o. Den Anspruch aus dem Persönlichkeitsrecht, verfälschte Liedtexte nicht mehr den Textdichtern zuzuschreiben, hat das Gericht abgewiesen, eine Vorlage an den EuGH abgelehnt. Bei Ausgaben, die ein Nutzer gezielt provoziert, könnte die Verantwortung anders liegen, schreibt das Gericht selbst. Beim EuGH ist mit Like Company gegen Google (C-250/25) die Frage anhängig, ob das Training eines Sprachmodells eine Vervielfältigung ist und die Ausnahme für Text und Data Mining greift. **Im Einzelnen:** Gedeckt ist laut Urteil das Zusammenstellen des Trainingsdatensatzes, nicht die Vervielfältigung im Modell; als unwesentliches Beiwerk nach § 57 UrhG gelten die Liedtexte ebenfalls nicht. Dieselbe Kammer hat am 31. Juli 2026 gegen Suno auf derselben Linie entschieden (42 O 763/25).
+
+**Quelle:** Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · [Pressemitteilung des Gerichts](https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php) · [GEMA zur Berufung](https://www.gema.de/de/w/suno-entscheidung-2026) · [Initiative Urheberrecht](https://urheber.info/diskurs/openai-legt-berufung-ein) · [Zur Quelle](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204)
+
+**Einstufung:** Gerichtsurteil, nicht endgültig · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#gema-openai
+
+---
+
+Ende der Datei: 16 von 16 Einträgen zum Thema Haftung. Letzter Eintrag: gema-openai.

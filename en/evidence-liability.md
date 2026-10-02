@@ -1,6 +1,6 @@
 # Evidence: Liability
 
-15 of 126 entries in the collection “Evidence” by Robert Haase, as of 1 October 2026.
+16 of 127 entries in the collection “Evidence” by Robert Haase, as of 2 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-haftung.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (6) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use
++ Verified study, vendor documentation, or court decision (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
 + Preliminary: prototype, single test, forecast, or vendor figure (1) → ai-overview-muenchen
 + Status, case report, or market observation (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -238,4 +238,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 15 of 15 entries on Liability. Last entry: ross-kein-fair-use.
+## gema-openai
+
+**Claim:** According to the Munich Regional Court I (11 November 2025), OpenAI infringes the rights to nine song lyrics with its models and ChatGPT: lyrics memorised in a model are a reproduction that no text and data mining exception covers. The operators are liable for the outputs, not the users who call them up with simple prompts.
+
+**What the ruling does not say:** It is a first-instance ruling and not final. OpenAI appealed to the Munich Higher Regional Court on 8 December 2025 (case no. 6 U 3662/25 e); no hearing date or decision is known as of 2 October 2026. The dispute concerned nine song lyrics in the models GPT-4 and GPT-4o. The court dismissed the claim under personality rights to stop attributing distorted lyrics to their lyricists, and it declined to refer questions to the CJEU. For outputs a user deliberately provokes, responsibility could lie differently, the court itself writes. Pending at the CJEU is Like Company v Google (C-250/25), on whether training a language model is a reproduction and whether the text and data mining exception applies. **In detail:** According to the ruling, compiling the training data set is covered, the reproduction in the model is not; nor do the lyrics count as incidental inclusion under Section 57 of the German Copyright Act. The same chamber ruled along the same lines against Suno on 31 July 2026 (42 O 763/25).
+
+**Source:** Munich Regional Court I, final judgment of 11 November 2025, case no. 42 O 14139/24, GEMA v two companies of the OpenAI group · full text at Bayern.Recht, paragraphs 181 (reproduction in the model), 191 to 193 (exceptions), 277 (liability for outputs) and 301 to 304 (dismissed part) · appeal: GEMA in its press release of 31 July 2026, date and case number according to Initiative Urheberrecht of 10 December 2025 · full text read on 2 October 2026 · [Court press release](https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php) · [GEMA on the appeal](https://www.gema.de/de/w/suno-entscheidung-2026) · [Initiative Urheberrecht](https://urheber.info/diskurs/openai-legt-berufung-ein) · [Source](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204)
+
+**Grade:** Court ruling, not final · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#gema-openai
+
+---
+
+End of file: 16 of 16 entries on Liability. Last entry: gema-openai.

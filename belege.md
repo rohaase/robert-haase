@@ -1,6 +1,6 @@
-# Belege: alle 126 Aussagen
+# Belege: alle 127 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 1. Oktober 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 2. Oktober 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -28,7 +28,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - Agenten, 23 Einträge: https://robert-haase.de/belege-agenten.md
 - Schnittstellen, 21 Einträge: https://robert-haase.de/belege-schnittstellen.md
 - Handel, 11 Einträge: https://robert-haase.de/belege-handel.md
-- Haftung, 15 Einträge: https://robert-haase.de/belege-haftung.md
+- Haftung, 16 Einträge: https://robert-haase.de/belege-haftung.md
 - Marktgröße, 18 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 21 Einträge: https://robert-haase.de/belege-urteil.md
 
@@ -132,9 +132,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agentenkanal-voreinstellung** · Herstellerdokumentation · Bei Shopify sind die sogenannten agentic storefronts für berechtigte Shops standardmäßig aktiv: Die Produkte erscheinen in KI-Kanälen wie ChatGPT, Google AI Mode und Gemini, Microsoft Copilot und Meta. Wer die Voreinstellung „Allow Shopify to manage for me“ behält, ist automatisch auch in allen künftigen Kanälen angemeldet. → https://robert-haase.de/belege-handel.md
 - **agenten-lenkung-marktplatz** · Kontrollierter Test, Preprint ohne Begutachtung · In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. → https://robert-haase.de/belege-handel.md
 
-## Haftung (15)
+## Haftung (16)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (6) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → ai-overview-muenchen
 + Sachstand, Fallbericht oder Marktbeobachtung (8) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex
 
@@ -153,6 +153,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **eu-kennzeichnungskodex** · Rechtslage · Die EU-Kommission veröffentlichte am 10. Juni 2026 die endgültige Fassung eines freiwilligen Verhaltenskodex zu den Kennzeichnungspflichten aus Artikel 50 des AI Act, dazu drei EU-Symbole für KI-erzeugte Inhalte. Den Teil zur Markierung durch Anbieter unterzeichneten 95 Organisationen, den zur Kennzeichnung durch Anwender 192. → https://robert-haase.de/belege-haftung.md
 - **agent-vorgesetzter** · Herstellerdokumentation · Microsoft gibt autonomen Agenten einen Vorgesetzten: Wer in Microsoft Foundry einen sogenannten Autopilot einstellt, wird sein Manager. Anhalten können ihn fast alle, verpflichtet dazu ist laut Dokumentation immer dieser Manager, „regardless of who is at fault“: Schuld und Pflicht sind ausdrücklich getrennt. → https://robert-haase.de/belege-haftung.md
 - **ross-kein-fair-use** · Gerichtsurteil, nicht endgültig · Ein US-Bundesberufungsgericht bestätigte am 29. September 2026, dass die Nutzung fremder Texte als KI-Trainingsmaterial in diesem Fall kein Fair Use war: ROSS Intelligence hat mit 2.243 Headnotes aus Westlaw, redaktionellen Leitsätzen von Thomson Reuters, eine juristische KI-Suche trainiert und damit das Urheberrecht verletzt. → https://robert-haase.de/belege-haftung.md
+- **gema-openai** · Gerichtsurteil, nicht endgültig · Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen. → https://robert-haase.de/belege-haftung.md
 
 ## Marktgröße (18)
 
@@ -207,4 +208,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **unverwechselbare-markenelemente** · Geprüfte Erhebung · Forscher des Ehrenberg-Bass-Instituts haben 1.162 unverwechselbare Markenelemente von 128 Marken aus 21 Warengruppen, vier Ländern und neun Jahren ausgewertet. Formen wie Logos und Verpackungen schneiden am besten ab, Farben am schwächsten: Im Mittel ordnen 40 beziehungsweise 12 Prozent der Befragten sie der Marke zu. → https://robert-haase.de/belege-urteil.md
 - **synthetische-befragte** · Kontrollierter Test · Als Ersatz für Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Umfragen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte daneben, bei rund 28 Prozent der Fragen mehr als 15. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 126 von 126 Aussagen in 7 Themen.
+Ende der Übersicht: 127 von 127 Aussagen in 7 Themen.
