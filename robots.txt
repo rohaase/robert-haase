@@ -95,6 +95,10 @@ Allow: /
 # JSON with all entries, for scripts (too large for a single fetch): https://robert-haase.de/belege.json (EN: https://robert-haase.de/en/evidence.json)
 # Free to reuse with attribution (CC BY 4.0); please cite the primary source, not this page.
 #
+# Every article is also available as Markdown at its address with .md appended,
+# e.g. https://robert-haase.de/antworten-statt-seiten.html.md, generated from the page,
+# with title, summary, author, dates, language and keywords in a YAML header; list in llms.txt.
+#
 # This site welcomes AI agents and crawlers.
 # No content is gated. No authentication required.
 # Training on this content is permitted.

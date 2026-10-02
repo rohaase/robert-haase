@@ -1,0 +1,184 @@
+---
+title: "Brand Infrastructure: Why Brands Must Become Machine-Readable"
+description: "AI agents are telling your brand story, whether you want them to or not. Brand Infrastructure is the answer: designing brand for humans and for systems at once."
+author: "Robert Haase"
+datePublished: 2026-03-07
+dateModified: 2026-09-28
+inLanguage: en
+url: https://robert-haase.de/en/brand-infrastructure.html
+translation: https://robert-haase.de/brand-infrastructure.html.md
+keywords: ["Brand Infrastructure", "Markeninfrastruktur", "Agentic Economy", "Agentic Commerce", "Brand Strategy", "AEO", "GEO", "LLM Brand Visibility", "Model Context Protocol", "Maschinenlesbare Marke", "Machine Readable Brands"]
+---
+# Brand Infrastructure: Why Brands Must Become Machine-Readable.
+
+## Definition
+
+Brand Infrastructure is the machine-readable layer of a brand: explicit, parametrizable, for systems. It complements brand identity rather than replacing it.
+
+**Explicit** means written down rather than assumed. **Parametrizable** means expressible in values a system can act on. **For systems** means addressed to machines, where brand identity addresses people.
+
+**Distinctions.** Not the same as technical infrastructure — servers, content systems, delivery. Not the same as brand architecture, which orders how brands relate to one another. And expressly not the same as the older use in place branding, where since 2010 the term denotes the existing amenities of a location. What is meant here is solely the layer systems work with.
+
+**Why the question exists.** Google explicitly declares dedicated file formats and special markup unnecessary for AI search, and an analysis of nearly 300,000 domains found no relationship between the widespread `llms.txt` and how often a site is mentioned. What counts is the substance of the markup, not its quantity. Both findings, with their limits, are in the [evidence collection](https://robert-haase.de/en/evidence.html#google-leitfaden).
+
+Introduced and defined in this sense by Robert Haase, March 2026; older uses of the expression exist in a different sense. Related terms: [Machine Readable Brands](https://robert-haase.de/en/machine-readable-brands.html) · [Execution Layer and Layer of Meaning](https://robert-haase.de/en/glossary.html#execution-layer-layer-of-meaning) · [Agent Authority](https://robert-haase.de/en/agent-authority.html).
+
+## The Shift
+
+**AI agents increasingly co-decide which brands get recommended. Based on structured data, not on intuition.**
+
+Brand work has always been a discipline of interpretation. A logo, a tagline, a feeling. People see a brand and decide intuitively: right fit or wrong fit. That worked for decades, because humans were the only ones deciding.
+
+That is changing now, not in a few years.
+
+AI agents recommend products, filter service providers, compare vendors. According to a [Bain survey from November 2025](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/), 30 to 45 percent of US consumers use generative AI for product research and comparison. The figure is self-reported and was not collected for German-speaking markets. Google's AI Mode counts more than one billion monthly users a year after launch, and in the US, a growing share of queries now trigger an AI overview. ChatGPT, according to OpenAI, has been above one billion since August 2026, though counted weekly there. Both figures come from the vendors themselves and are not independently verified; their limits are in the [evidence collection](https://robert-haase.de/en/evidence.html#marktgroesse). Target states that its [ChatGPT traffic is growing 40 percent per month on average](https://corporate.target.com/press/fact-sheet/2026/02/conversational-ai-advertising). That comes from the announcement of an advertising pilot with OpenAI; the company names neither the baseline nor the period. Bain, working with Similarweb, measures up to 25 percent AI share of referral traffic at individual retailers, which is still under one percent of total traffic. These systems read what a brand makes machine-available. They do not read brand energy.
+
+What a brand makes machine-readable shapes how reliably it is captured there.
+
+## The Problem: Brands Are Built for Humans
+
+**What works in the mind does not work in an API call. Most brand attributes do not exist in machine-readable form.**
+
+Most brands are optimized precisely for what they are supposed to be: humanly experiential, visual, emotional. A strong brand impression forms in the mind, not in a database.
+
+In practice, this means: an agent asked "Which energy provider aligns with my values?" does not need a color palette. It needs structured attributes: positioning, values, differentiators, target audience, price segment. In a format it can process.
+
+The reality in most companies: this data does not exist. Or it exists in PowerPoint decks nobody has opened in three years. Or it lives in the heads of three people in marketing who are leaving next month.
+
+## AI Is Telling Your Brand Story. Whether You Want It To or Not.
+
+This is the deeper problem. It is not just about findability: AI systems are already narrating your brand. They synthesize everything they find: website, Reddit threads, YouTube videos, reviews, LinkedIn posts, Glassdoor entries. From this they form a consensus, and that consensus becomes the brand perception for everyone who queries an AI.
+
+This is the ultimate consequence of what brand work has always known: you do not control the brand. You control the branding and the brand marketing. The difference is that the uncontrolled fragments used to be scattered. A complaint post on Reddit reached a few hundred people. Today that post is synthesized by AI systems, together with every other mention, indefinitely, or at least until enough other voices shift the consensus.
+
+## The Second Front: Brand Is Now Produced With AI
+
+**Machine readability does not only determine how AI talks about a brand on the outside. It also determines whether what gets produced with AI on the inside still sounds like the brand.**
+
+The conversation about AI and brand is almost always about visibility: is my brand found, described correctly, recommended? That is half the equation. The other half happens inside companies. Teams and agencies generate text, presentations, and campaign variants with AI tools every day. The brand is part of this production process, whether it was prepared for that or not.
+
+Without a clear brand specification, this output sounds like no one. Or like everyone. A language model fed a 50-page brand book PDF has to interpret, and it interprets toward the average. Where the guidance is vague, it is confidently wrong.
+
+The difference lies in the format. "We sound premium and approachable" is a description a human has to interpret. A rule a system can reproduce looks different: not "satisfy," but "delight." With examples, counterexamples, and the vocabulary the brand never uses.
+
+This yields a maturity logic in three stages. Stage one: being read. AI search and agents find the brand, summarize it correctly, recommend it. Stage two: producing with AI. Teams generate brand-conforming output because the brand exists as a specification, not as an invitation to interpret. Stage three: becoming applicable. The brand becomes a logic that systems work with directly: language, claims, offer structure, approvals, guardrails.
+
+Stage three is the real leap: brand moves from manual to applicable system. Brands that reach this stage are what I call [**Machine Readable Brands**](https://robert-haase.de/en/machine-readable-brands.html): brands whose identity, language, and design logic exist as a specification that humans and systems alike can work with. Not everything about a brand can be structured this way, and that is not the goal. Meaning, stance, and trust remain what they are. What can be structured are the parts that need to be applied repeatedly and consistently.
+
+## Brand Identity and Brand Infrastructure
+
+**Brand Infrastructure is the machine-readable layer of a brand: explicit, parametrizable, built for systems. It complements Brand Identity; it does not replace it.**
+
+The answer is not to make brands less human. It is to design brand in two directions at once.
+
+**Brand Identity** is the open, emotional layer: story, feeling, stance. What leads a person to decide before they can name a rational reason. This layer has always been the core of brand work, and it remains so.
+
+**Brand Infrastructure** is the machine-readable layer: structured data that describes what a brand stands for, what it offers, how it differs. In a format that algorithms and agents can process.
+
+A brand needs both layers simultaneously. Only Identity means losing visibility as soon as systems co-decide. Only Infrastructure means winning it with machines while losing it with people.
+
+Bain puts it plainly: trust shifts from a feeling toward a brand to an attribute of its data. Both remain relevant, but the weighting changes.
+
+## What Brand Infrastructure Actually Means
+
+**Brand Infrastructure covers structured brand attributes, [Schema.org](https://robert-haase.de/en/glossary.html#schema-org) markup, consistent descriptions, machine-readable differentiation, and LLM-optimized content.**
+
+Brand Infrastructure is not an abstract concept. It is a checklist:
+
+- **Structured brand attributes:** positioning, values, target audience, differentiation. Not as prose, but as defined fields with clear values.
+- **Schema.org markup:** JSON-LD on the website that tells search engines and LLMs who you are, what you do, where you do it. Organization, Product, Service, Person. The vocabulary already exists.
+- **Consistent descriptions:** the same brand is described differently on the website, on LinkedIn, in Google, in industry directories, and in databases. For systems, that is not charming variety; it is noise.
+- **Machine-readable differentiation:** what sets you apart from the three other providers an agent is currently comparing? Not in brand poetry, but in processable attributes.
+- **Machine-readable brand definitions:** a layer of simple text files is beginning to establish itself, as a proposal rather than a settled standard. [llms.txt](https://robert-haase.de/en/glossary.html#llms-txt) summarizes key content for language models and agents. [DESIGN.md](https://ossinsight.io/blog/design-md-protocol-2026) defines the visual system for AI-generated interfaces; a single repository collected tens of thousands of GitHub stars within days. VOICE.md encodes tone as a specification, including anti-patterns that are more precise than positive descriptions. And with [brand.yml](https://posit-dev.github.io/brand-yml/), an open format now exists that defines brand parameters such as colors, typography, and logo usage as code. These files are mainly used by coding and browser agents today. That AI search reads llms.txt for its recommendations is by now not just unproven but measurably contradicted: [a server-log analysis across 137,210 domains](https://ahrefs.com/blog/llmstxt-study/) shows that 97 percent of all llms.txt files received no requests at all in May 2026, and an [analysis of nearly 300,000 domains](https://seranking.com/blog/llms-txt/), of which 10.13 percent had such a file at all, found no correlation between it and how often a domain appeared as a source in AI answers. That study compares existing websites; it does not run a trial in which the same page competes once with and once without the file. Google itself now says so explicitly: the official [guide to generative AI features in Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) (as of July 2026) declares llms.txt, special markup, and "chunking" unnecessary; Google Search does not use them. Anyone selling llms.txt as a visibility lever is selling a refuted bet as a fact.
+- **Deliberate crawler permissions:** machine-readable does not mean unprotected. Since 1 July 2025, [Cloudflare has blocked AI crawlers on newly onboarded domains by default](https://www.cloudflare.com/press/press-releases/2025/cloudflare-just-changed-how-ai-crawlers-scrape-the-internet-at-large/) and asks at setup whether they may access the site. No second infrastructure provider with the same default is documented. Since September 2026, Cloudflare grades that default by behaviour: search stays allowed, training and agents are blocked. Complementing this, new, still non-binding robots.txt entries (search, ai-input, ai-train) signal what a brand permits its content to be used for. Brands that want to be found by agents need to structure their content and actively invite the right crawlers in.
+- **Content built for extraction:** LLMs read content differently from humans. An [analysis of 18,012 ChatGPT citations](https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention) shows that 44 percent of all citations come from the first 30 percent of a text. Core claims belong at the top. Every paragraph needs to stand on its own. Cited text carries a question mark twice as often as passed-over text, 18 against 8.9 percent, and 78.4 percent of citations containing a question come from headings. And concrete entities: names, tools, products. Heavily cited text reached a proper-noun density of 20.6 percent, where common reference corpora sit at 5 to 8 percent.
+
+A mental model from AI development makes the distinction tangible: in agent systems, behavior is defined through text files called skill files. This works as long as the agent has a simple task. Under load, it forgets steps, interprets freely, drifts. The solution is to turn documents into code that enforces behavior. A brand book is exactly such a text file. It describes how a brand should sound, and enforces nothing. A brand specification turns that into rules that can be applied. In software development, value is shifting from code to the spec. Agents reproduce complex systems from specifications, not from source code. The same logic applies to brands: value shifts from individual assets to the brand specification from which systems generate brand-conforming output.
+
+None of this requires a technical revolution. All of it requires a strategic decision: we take brand seriously enough to make it explicit. More on this: [What is Agentic Brand Readiness? →](https://robert-haase.de/en/agentic-brand-readiness.html)
+
+## What the Data Shows
+
+**Brand mentions correlate more strongly with AI visibility than backlinks do. The AI search market is growing, not replacing the existing one.**
+
+When I first published this article in March 2026, Brand Infrastructure was a thesis. The data has since thickened.
+
+**Brand mentions matter more than backlinks.** An [Ahrefs analysis across 75,000 brands](https://ahrefs.com/blog/ai-brand-visibility-correlations/) shows that brand mentions correlate most strongly with AI visibility, while backlinks show only a weak correlation. Of the URLs that AI assistants cite, on average only [12 percent rank in Google's top 10](https://ahrefs.com/blog/ai-search-overlap/) for the exact query asked, measured across 15,000 long-tail queries put to ChatGPT, Gemini, Copilot, and Perplexity. The average hides a wide spread; Perplexity reaches 28.6 percent. A [Moz analysis of around 40,000 queries](https://moz.com/blog/ai-mode-citations) finds 88 percent of sources cited by Google's AI Mode outside the organic top 10. Two studies, two systems, the same finding. On-site structure is the entry ticket. Third-party consensus is the lever.
+
+**AI traffic is small, and its quality is contested.** When an AI overview appears in Google Search, users click a classic result on 8 percent of visits, against 15 percent without one; a link inside the overview gets [1 percent of visits](https://robert-haase.de/en/evidence.html#pew-klicks). Whether the traffic that does arrive converts better than classic search is an open question. A peer-reviewed study across 973 shops and twelve months places ChatGPT referral traffic below organic search, while Adobe reports the opposite for US retail, measured against all non-AI traffic. Neither figure is a multiple.
+
+**The search market is getting larger, not smaller.** The agency Graphite [analysed Similarweb data](https://graphite.io/five-percent/ai-is-much-bigger-than-you-think) for this in March 2026: between the first quarter of 2023 and the fourth quarter of 2025, worldwide use of search engines and AI assistants combined grew by 26 percent. Google's share fell from 89 to 71 percent over that period, with ChatGPT alone at 20 percent. What is counted is visits and sessions, not individual queries; the authors state they have no reliable data on the number of searches. The pie grew larger. But its distribution has fundamentally changed.
+
+**Recommendation beats transaction, for now.** OpenAI launched instant checkout on 29 September 2025 with Etsy and pulled it back a good five months later. At Shopify, the second partner, buying inside the chat was live for only a fraction of its millions of merchants: a dozen according to the report that made the retreat public, close to thirty and rising according to Shopify's own account a month earlier. Instead of bringing the purchase into the chat, ChatGPT now routes back to brand storefronts. [Forrester confirms the pattern](https://www.forrester.com/blogs/the-state-of-agentic-commerce-in-mid-2026/): purchasing inside an [answer engine](https://robert-haase.de/en/glossary.html#answer-engine) is the least-used case; product research is the most common; and referral traffic from AI recommendations converts above average.
+
+That does not mean agentic transactions are off the table. Google presented a cross-platform cart and payment protocol at its [2026 developer conference](https://blog.google/products-and-platforms/products/search/search-io-2026/); Visa and Mastercard have live agentic payments. But this checkout is consolidating around a few large platforms. For every brand outside those closed systems, the imperative remains: exist at the moment of recommendation. Even where an agent is authorized to purchase, the brand must appear in its comparison first, as a structured entry it can read. For commerce, that entry has a spec: title, brand, price, availability, machine-readable.
+
+**Machines are becoming customers themselves.** In a [Gartner survey](https://www.gartner.com/en/experts/think-again-series/machine-customers), chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from "[machine customers](https://robert-haase.de/en/glossary.html#machine-customers)," systems that buy autonomously or prepare purchase decisions. That is a self-assessment by the respondents about their own business, not a house forecast; the limits are in the [evidence collection](https://robert-haase.de/en/evidence.html#machine-customers). At the same time, a [Gartner survey of 322 US consumers](https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions) from January 2026 shows how reserved the customer side remains: at most 11 percent would hand a purchase decision to an AI, and even mere pre-selection finds no majority, 31 percent for household goods and 28 percent for electronics. AI advises today and buys tomorrow, and in both roles it reads structured data.
+
+**Prompt data is the new keyword data.** What people actually type into a chat has not been reliably measured; the figures on prompt length in circulation come from conference slides without a stated data source. Only the direction is certain: in a chat, people ask questions they would never have typed into Google. The relevant long-tail questions are not in a paid-search dashboard. They are in sales-call transcripts, support tickets, Reddit threads, and user interviews. Whoever answers those questions first wins the citation.
+
+**Bain describes three horizons.** [In their current brief](https://www.bain.com/insights/when-people-never-see-your-app-designing-brands-for-the-agentic-economy/), Bain partners from New York, Chicago, and Munich describe a three-horizon model for brands in the agentic economy. First: tune brand for agentic platforms, make content agent-readable, design for summaries, shift KPIs from SEO to [GEO](https://robert-haase.de/en/glossary.html#geo). Second: decouple from familiar contexts, make brand identities portable; in agent UIs a brand appears as a chip, a card, or an inline bullet. Third: imagine new possibilities, build synthetic audiences, redefine the brand's role.
+
+**The brand story is now told in three places.** No longer just owned and earned, but owned, earned, and AI. ChatGPT, Perplexity, and AI Overviews are not one channel among many; they are a distinct third space where brand perception forms from a consensus the brand does not control directly but can influence.
+
+## Why This Becomes Hygiene
+
+**Brand Infrastructure will be a baseline requirement within 3 to 5 years. No longer a competitive advantage, but an exclusion risk.**
+
+Today, Brand Infrastructure is a competitive advantage. Brands that have it get found and recommended by systems. Brands that do not get overlooked.
+
+In three to five years, it will be hygiene. No longer an advantage; an exclusion risk. The same way a website was no longer a differentiator in the 2000s but a baseline requirement.
+
+The EU AI Act accelerates this transition. [Transparency obligations for chatbots and AI-generated content](https://robert-haase.de/en/evidence.html#ai-act) have applied since 2 August 2026; for systems already on the market before that date, machine-readable labelling only takes effect on 2 December 2026. The stricter high-risk obligations were pushed back by the Digital Omnibus, to 2 December 2027 for standalone systems and 2 August 2028 for high-risk AI embedded in products. For brands, the first track is what matters most: chatbots must identify themselves, and AI-generated content must carry machine-readable marking. The duty does not always fall on whom it appears to: the marking is owed by the provider of the generating system, not by the brand using a third-party model. The law does not require a structured self-description. Brand Infrastructure is still the right answer.
+
+The tools are catching up too. Google introduced an initially experimental *Agentic Browsing* category in Chrome Lighthouse; since [version 13.3.0 (May 2026)](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0) it is part of the standard configuration, a deterministic grid for how well a website is readable by AI agents. It checks for `llms.txt`, structured data, agentic accessibility, and the still-experimental WebMCP interface. Machine readability becomes measurable. What it returns is a pass rate across the individual checks, not a weighted score from 0 to 100 as in the other Lighthouse categories; the WebMCP checks only run once the page is enrolled in the origin trial. The limit of this signal matters: the audit assesses a page's agent-readiness, not its ranking in Google Search. Google itself states that no special files are needed for AI-search visibility.
+
+Beneath that, an infrastructure layer is solidifying. Anthropic's [Model Context Protocol](https://robert-haase.de/en/glossary.html#mcp) became a shared standard in late 2025, backed by OpenAI, Google, and Microsoft and donated to a neutral foundation. At the website layer, the counterparts are taking shape: WebMCP, through which a page offers agents named actions instead of raw HTML (announced at Google I/O on 19 May 2026, tied to Chrome 149 and therefore usable from its regular release on 2 June 2026, running until 17 November 2026, meaning testable but not finished), and Microsoft's NLWeb, which makes content queryable in natural language via Schema.org and is already usable today. The agentic web is no longer a prediction. It is being built.
+
+The numbers reinforce this. [SparkToro research](https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/) shows that asking the same question twice returns the same brand list less than one time in a hundred, and the same order less than one time in a thousand. The study covers 2,961 runs across 12 prompts with 600 participants; the [limits are in the evidence collection](https://robert-haase.de/en/evidence.html#inkonsistenz). There are no stable rankings. But there is visibility, and it is measurable: G2 opened the product category in March 2025 with seven entries and counts more than 150 ten months later, and Gartner has listed it since March 2026 as answer engine visibility tools. How visibility is built has so far been measured only in part. The Ahrefs analysis above puts third-party mentions at correlations between 0.66 and 0.74, against 0.27 to 0.33 for a site's own domain authority. For individual measures on a brand's own site, such as dedicated pages per integration question or open competitive comparisons, no such figures exist. They are common practice; their effect on citation frequency is not documented.
+
+The pattern: they stopped trying to rank for broad terms and started answering specific questions better than anyone else.
+
+The insidious part is that you do not notice when it goes wrong. There is no error message, no ranking drop, no explicit rejection. You simply are not in the room.
+
+## The Central Question
+
+From here, every brand decision can be tested against one question:
+
+> Is our brand describable enough that a system could reliably select it, and meaningful enough that a human would want that?
+
+If the answer to the first part is no: build Brand Infrastructure, structure the data, define the attributes.
+
+If the answer to the second part is no: return to classic brand work, create meaning, develop a genuine stance.
+
+The best brands will be both at once: describable enough that an agent can recommend them, and meaningful enough that a human follows the recommendation.
+
+## What to Do Now
+
+**Six steps: audit current AI visibility, define brand attributes, implement Schema.org, build content for extraction, form consensus through third-party sources, and keep descriptions and rules current.**
+
+Not everything at once. But start. Six steps:
+
+- **Audit:** How does your brand describe itself today, and how much of that is machine-readable? Run the test: ask ChatGPT or Perplexity about your company. Ask: "Help me decide between [your brand] and [competitor]." Ask: "What are the most common complaints about [your brand]?" What comes back?
+- **Define:** What are the ten attributes that constitute your brand? Not as prose, but as fields. Positioning. Target audience. Differentiation. Values. Price segment. Industry. Region.
+- **Implement:** Schema.org markup on the website. Add llms.txt for agents and audits. Establish consistency across all touchpoints. This is not a year-long project. It is one focused week of work.
+- **Build content:** Every specific question customers ask about your product deserves its own page. Not a catch-all FAQ. Individual, deep answers, one per question. You will find those questions in sales calls, support tickets, Reddit threads, and community forums. Not in a keyword tool.
+- **Form consensus:** Brand Infrastructure starts on your own website. But visibility in AI systems is built through third-party sources: YouTube, review platforms, trade publications, Reddit. Not to game the system, but to be present where consensus forms. Consistency is the signal.
+- **Keep it current:** Machine readability is not a project with an end date. Regularly measure how AI systems represent the brand, where the description drifts, and which rules fail in production. The specification gets versioned and refined, like software. A brand description last touched eighteen months ago is, to a system that reads daily, a wrong one.
+
+AI does not force worse brand work. It forces better brand work. A brand that cannot be made explicit may never have been fully understood.
+
+## Frequently Asked Questions
+
+**What is Brand Infrastructure?**
+ The machine-readable layer of a brand: explicit, parametrizable, built for systems. It complements brand identity and makes the brand applicable to AI search, agents, and production tools.
+
+**Where does the definition come from?**
+ From me. I introduced and defined the term in this sense in this article in 2026: brand as machine-readable infrastructure for AI systems and agents.
+
+**What distinguishes Brand Identity from Brand Infrastructure?**
+ Identity is open, emotional, made for people: meaning, stance, story. Infrastructure is explicit, parametrizable, made for systems: positioning, language rules, facts, design logic as applicable structure. A brand needs both at the same time.
+
+---
+
+*This file is generated from the page: https://robert-haase.de/en/brand-infrastructure.html. If the two ever differ, the page is authoritative.*
