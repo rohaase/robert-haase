@@ -3,7 +3,7 @@ title: "Answers Instead of Pages: A Website May Contradict Itself. An Answer May
 description: "When all that is left at the front is a field, the answer is the brand experience. Structured content is not enough. The brand has to commit to which of its statements applies."
 author: "Robert Haase"
 datePublished: 2026-10-02
-dateModified: 2026-10-02T10:22:32+02:00
+dateModified: 2026-10-05T14:20:00+02:00
 inLanguage: en
 url: https://robert-haase.de/en/answers-instead-of-pages.html
 translation: https://robert-haase.de/antworten-statt-seiten.html.md
@@ -27,7 +27,7 @@ You could object that brand management has always given answers, with every page
 
 **Brands are currently preparing their content for machines. That is right, and it solves half the job. Afterwards the machine finds everything a brand has ever said, including what no longer applies.**
 
-Those who advise brands on AI search mostly recommend preparing content for machines, with clear formats and [structured data](https://robert-haase.de/en/glossary.html#structured-data). Behind this lies a plausible assumption: whoever prepares their content cleanly gets correct answers. For america.gov, Gebbia puts it like this: the site is trained on “one official source of truth”, the government. By his own figures, this one source consists of 800 million pages. It does not agree with itself. On launch day the White House [fact sheet](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/) promised that Medicare enrollment would be possible on america.gov “later this year”. The site itself announces it for 2027.
+Those who advise brands on AI search mostly recommend preparing content for machines, with clear formats and [structured data](https://robert-haase.de/en/glossary.html#structured-data). Behind this lies a plausible assumption: whoever prepares their content cleanly gets correct answers. For america.gov, Gebbia puts it like this: the site is trained on “one official source of truth”, the government. By his own figures, this one source consists of 800 million pages. It does not agree with itself. On launch day the White House [fact sheet](https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-streamlines-access-to-government-services-through-america-gov/) gave “later this year” for Medicare enrollment on america.gov. The site itself announces it for 2027.
 
 A website may contradict itself. On the page, every statement carries its context: a press release from 2013 is recognisably one from 2013, and the small print is small. In the answer, that falls away. There, one voice speaks for everything the house has ever said, the old included. Brands are, to use a term from computer science, [stateful](https://robert-haase.de/en/glossary.html#stateful). They carry their history with them, and in the answer field it becomes audible.
 
@@ -41,7 +41,7 @@ Not every difference is an error. A press release from 2013 may say 100 days; it
 
 **Whether an answer is right does not depend on the data alone. Even a system that draws only on verified sources answers wrongly as long as nobody has committed to which statement applies.**
 
-The physician Céline Gounder put 37 health questions to america.gov for [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/). For chest pain and a numb left arm, its first words were “Call 9-1-1 now”, as they should be. Where CDC pages contradicted each other, the machine said so and quoted both versions. Asked how it chooses, it described a rule: first the agency that runs the programme, then the most recent official source. That sounds reasonable, and it went wrong twice, in opposite directions. On a vaccine recommendation for newborns it took the newest page three times, although a federal court had paused the change and the earlier recommendation applied again. On insulin it described a pilot programme from 2021 instead of the 2022 law that replaced it. The rule explains the first error, not the second. All the sources were official.
+The physician Céline Gounder put 37 health questions to america.gov for [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/). For chest pain and a numb left arm, its first words were “Call 9-1-1 now”, as they should be. Where CDC pages contradicted each other, the machine said so and quoted both versions. Asked how it chooses, it described a rule: first the agency that runs the programme, then the most recent official source. That sounds reasonable and still did not hold: on insulin it described a pilot programme from 2021 instead of the 2022 law that replaced it, although its own rule prefers the more recent source. All the sources were official.
 
 That answers the question of whether brand management is now becoming a data business. The data was there, maintained by the responsible agencies. Others built and ran the field, with language models from outside. What was missing was the decision as to which statement applies when two official ones contradict each other. Data decides nothing. This decision is brand work, and it only becomes data once someone writes it down so that a machine can apply it.
 
@@ -49,9 +49,9 @@ That answers the question of whether brand management is now becoming a data bus
 
 **The machine decides the individual case, and that will stay so. What is open is by whose rule.**
 
-On 1 October I asked america.gov when I could enrol in Medicare there. The answer: not today, only in 2027, plus a link to its own preview. That the White House had promised “later this year” did not come up. Only when I asked about the contradiction did the machine lay out both sources side by side, with their dates. “Both pages are official, and they do not give the same timing.” So it had long since decided, quietly and by its own rule. It only told me because I already knew.
+On 1 October I asked america.gov when I could enrol in Medicare there. The answer: not today, only in 2027, plus a link to its own preview. That the fact sheet said “later this year” did not come up. Only when I asked about the contradiction did the machine lay out both sources side by side, with their dates. “Both pages are official, and they do not give the same timing.” So it had long since decided, quietly and by its own rule. It only told me because I already knew.
 
-America.gov also shows what happens when a boundary only emerges in operation. The promise was that you could ask “any question”. While the launch was still under way, answers changed. Afterwards the field declined questions as “political questions”, a day later with different wording, while it went on answering on inflation. If a boundary consists of a single word, the machine interprets it from question to question. The UK did it the other way round. [GOV.UK Chat](https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/) ran for seven weeks without an announcement, more than 7,800 people asked over 15,000 questions, and the boundary was fixed beforehand: “it does not attempt to provide advice”.
+The UK shows how to set a boundary beforehand. [GOV.UK Chat](https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/) ran for seven weeks without an announcement, more than 7,800 people asked over 15,000 questions, and the boundary was fixed before launch: “it does not attempt to provide advice”.
 
 In companies, the rule on which statement applies sits in the instructions given to the chatbot. Whoever writes them decides how the brand answers. For our trade, that is the next task: we already shape the tone, and the precedence rule belongs with it.
 
