@@ -4031,10 +4031,10 @@
       "text": "Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026",
+        "name": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH-Verfahren C-250/25: Stand laut Verfahrensakte des Gerichtshofs, geprüft am 5. Oktober 2026",
         "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204"
       },
-      "disambiguatingDescription": "Was das Urteil nicht sagt: Es ist erstinstanzlich und nicht rechtskräftig. OpenAI hat am 8. Dezember 2025 Berufung zum Oberlandesgericht München eingelegt (Aktenzeichen 6 U 3662/25 e); ein Termin oder eine Entscheidung ist bis zum 2. Oktober 2026 nicht bekannt. Gestritten wurde über neun Liedtexte in den Modellen GPT-4 und GPT-4o. Den Anspruch aus dem Persönlichkeitsrecht, verfälschte Liedtexte nicht mehr den Textdichtern zuzuschreiben, hat das Gericht abgewiesen, eine Vorlage an den EuGH abgelehnt. Bei Ausgaben, die ein Nutzer gezielt provoziert, könnte die Verantwortung anders liegen, schreibt das Gericht selbst. Beim EuGH ist mit Like Company gegen Google (C-250/25) die Frage anhängig, ob das Training eines Sprachmodells eine Vervielfältigung ist und die Ausnahme für Text und Data Mining greift. Im Einzelnen: Gedeckt ist laut Urteil das Zusammenstellen des Trainingsdatensatzes, nicht die Vervielfältigung im Modell; als unwesentliches Beiwerk nach § 57 UrhG gelten die Liedtexte ebenfalls nicht. Dieselbe Kammer hat am 31. Juli 2026 gegen Suno auf derselben Linie entschieden (42 O 763/25).",
+      "disambiguatingDescription": "Was das Urteil nicht sagt: Es ist erstinstanzlich und nicht rechtskräftig. OpenAI hat am 8. Dezember 2025 Berufung zum Oberlandesgericht München eingelegt (Aktenzeichen 6 U 3662/25 e); ein Termin oder eine Entscheidung ist bis zum 2. Oktober 2026 nicht bekannt. Gestritten wurde über neun Liedtexte in den Modellen GPT-4 und GPT-4o. Den Anspruch aus dem Persönlichkeitsrecht, verfälschte Liedtexte nicht mehr den Textdichtern zuzuschreiben, hat das Gericht abgewiesen, eine Vorlage an den EuGH abgelehnt. Bei Ausgaben, die ein Nutzer gezielt provoziert, könnte die Verantwortung anders liegen, schreibt das Gericht selbst. Beim EuGH ist mit Like Company gegen Google (C-250/25) die Frage anhängig, ob das Training eines Sprachmodells eine Vervielfältigung ist und die Ausnahme für Text und Data Mining greift; verhandelt wurde dort am 10. März 2026, Schlussanträge des Generalanwalts liegen bis zum 5. Oktober 2026 nicht vor. Im Einzelnen: Gedeckt ist laut Urteil das Zusammenstellen des Trainingsdatensatzes, nicht die Vervielfältigung im Modell; als unwesentliches Beiwerk nach § 57 UrhG gelten die Liedtexte ebenfalls nicht. Dieselbe Kammer hat am 31. Juli 2026 gegen Suno auf derselben Linie entschieden (42 O 763/25).",
       "position": 127,
       "id": "gema-openai",
       "url": "https://robert-haase.de/belege.html#gema-openai",
@@ -4043,7 +4043,7 @@
         "name": "Gerichtsurteil, nicht endgültig",
         "group": "strong"
       },
-      "sourceText": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · Pressemitteilung des Gerichts · GEMA zur Berufung · Initiative Urheberrecht · Zur Quelle",
+      "sourceText": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH-Verfahren C-250/25: Stand laut Verfahrensakte des Gerichtshofs, geprüft am 5. Oktober 2026 · Pressemitteilung des Gerichts · GEMA zur Berufung · Initiative Urheberrecht · Verfahrensakte C-250/25 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "Pressemitteilung des Gerichts",
@@ -4056,6 +4056,10 @@
         {
           "name": "Initiative Urheberrecht",
           "url": "https://urheber.info/diskurs/openai-legt-berufung-ein"
+        },
+        {
+          "name": "Verfahrensakte C-250/25",
+          "url": "https://curia.europa.eu/juris/liste.jsf?num=C-250/25&language=de"
         },
         {
           "name": "Zur Quelle",
