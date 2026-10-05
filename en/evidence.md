@@ -1,6 +1,6 @@
 # Evidence: all 127 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 2 October 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 5 October 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -111,7 +111,7 @@ The collection does not map the state of the research, only the figures I needed
 - **markup-ai-stilpruefung** · Vendor documentation · Markup AI checks content against a brand’s own voice and style rules, and is itself reachable over MCP: the vendor runs an MCP server at api.markup.ai that assistants such as Claude or Cursor connect to. The tool flags what does not fit, explains why and supplies wording to apply in place. → https://robert-haase.de/en/evidence-interfaces.md
 - **agentenstandards-verbreitung** · Market observation · Websites that describe themselves to AI agents in machine-readable form are still the exception. Cloudflare checks the 200,000 most visited domains: of 107,155 scanned successfully, 0.43 percent carry an MCP Server Card, 0.47 percent Agent Skills and 1.8 percent Content Signals; not one offers tools to agents via WebMCP. → https://robert-haase.de/en/evidence-interfaces.md
 - **markenstimme-als-skill** · Vendor documentation, beta · Google, too, stores brand rules as managed instructions for its assistant: in Google Workspace, so-called skills, introduced as a beta on 17 September 2026, are meant to, among other things, “maintain approved tone, voice, and visual identity across email drafts and files”. → https://robert-haase.de/en/evidence-interfaces.md
-- **staat-als-einzige-quelle** · Documented single case · Since 29 September 2026, america.gov has answered questions for the US government in one input field, according to its operator from roughly 29,000 government sites, with source links. During the launch event the service changed answers, AP reports, then declined questions such as those on the 2020 presidential election as “political questions”. → https://robert-haase.de/en/evidence-interfaces.md
+- **staat-als-einzige-quelle** · Documented single case · Since 29 September 2026, america.gov has answered questions for the US government in one input field, according to its operator from roughly 29,000 government sites, with source links. → https://robert-haase.de/en/evidence-interfaces.md
 - **chatgpt-plugin-pruefung** · Vendor documentation · Anyone who wants to bring a plugin with an MCP connection into the ChatGPT directory has to state what it must not do: for the initial review, OpenAI requires exactly five positive and three negative test cases. After publication, OpenAI scans the MCP server daily, and new tools remain unavailable until approved. → https://robert-haase.de/en/evidence-interfaces.md
 
 ## Commerce (11)

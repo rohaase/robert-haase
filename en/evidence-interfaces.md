@@ -1,6 +1,6 @@
 # Evidence: Interfaces
 
-21 of 127 entries in the collection “Evidence” by Robert Haase, as of 2 October 2026.
+21 of 127 entries in the collection “Evidence” by Robert Haase, as of 5 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-schnittstellen.md
 
@@ -296,11 +296,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## staat-als-einzige-quelle
 
-**Claim:** Since 29 September 2026, america.gov has answered questions for the US government in one input field, according to its operator from roughly 29,000 government sites, with source links. During the launch event the service changed answers, AP reports, then declined questions such as those on the 2020 presidential election as “political questions”.
+**Claim:** Since 29 September 2026, america.gov has answered questions for the US government in one input field, according to its operator from roughly 29,000 government sites, with source links.
 
-**What this entry does not establish:** that the answers are correct. There is no systematic test, only journalists’ samples: CBS News asked 37 health questions; emergencies were answered correctly, other answers were outdated or left out a court order, and the agency pages partly contradict each other. The 29,000 sites and the immediate updates are launch statements. According to Gebbia, models from Google (Gemini) and xAI (Grok) run behind it; the White House did not answer questions about privacy and contracts. **The operator on itself:** “The accuracy of our answers is never influenced by third parties.” Who changed the answers at launch, and why, the AP report does not say. **In detail:** According to the government’s Chief Design Officer, Joe Gebbia, changes on agency pages are meant to reach the answers immediately.
+**What this entry does not establish:** that the answers are correct. There is no systematic test, only journalists’ samples: CBS News asked 37 health questions; emergencies were answered correctly, other answers were outdated or left out a court order, and the agency pages partly contradict each other. The 29,000 sites and the immediate updates are launch statements. According to Gebbia, models from Google (Gemini) and xAI (Grok) run behind it; the White House did not answer questions about privacy and contracts. **The operator on itself:** “The accuracy of our answers is never influenced by third parties.” **In detail:** According to the government’s Chief Design Officer, Joe Gebbia, changes on agency pages are meant to reach the answers immediately.
 
-**Source:** America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · FedScoop gives the 29,000 websites as America.gov’s own figure, and they were not on “How it works” on 1 October 2026 · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29 September 2026, read in the Yahoo News syndication because apnews.com blocks automated retrieval · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [AP via Yahoo News](https://www.yahoo.com/news/politics/articles/trump-touts-america-gov-government-151833603.html) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Source](https://america.gov/how-it-works)
+**Source:** America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · FedScoop gives the 29,000 websites as America.gov’s own figure, and they were not on “How it works” on 1 October 2026 · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Source](https://america.gov/how-it-works)
 
 **Grade:** Documented single case · Group: Status, case report, or market observation
 

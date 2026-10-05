@@ -1,6 +1,6 @@
 # Belege: Schnittstellen
 
-21 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 2. Oktober 2026.
+21 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 5. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-interfaces.md
 
@@ -296,11 +296,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## staat-als-einzige-quelle
 
-**Aussage:** Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Regierung in einem Eingabefeld, laut Betreiber aus rund 29.000 Regierungswebsites, mit Link auf die Quelle. Noch während der Startveranstaltung änderte der Dienst laut AP Antworten und lehnte danach Fragen etwa zur Präsidentschaftswahl 2020 als „political questions“ ab.
+**Aussage:** Seit dem 29. September 2026 beantwortet america.gov Fragen an die US-Regierung in einem Eingabefeld, laut Betreiber aus rund 29.000 Regierungswebsites, mit Link auf die Quelle.
 
-**Was der Eintrag nicht belegt:** dass die Antworten richtig sind. Eine systematische Prüfung gibt es nicht, nur Stichproben von Journalisten: CBS News stellte 37 Gesundheitsfragen; Notfälle beantwortete der Dienst richtig, andere Antworten waren veraltet oder erwähnten eine gerichtliche Anordnung nicht, und die Behördenseiten widersprechen sich teils selbst. Die 29.000 Websites und die sofortige Aktualisierung sind Angaben zum Start. Dahinter laufen laut Gebbia Modelle von Google (Gemini) und xAI (Grok); Fragen zu Datenschutz und Verträgen hat das Weiße Haus nicht beantwortet. **Der Betreiber über sich:** „The accuracy of our answers is never influenced by third parties.“ Wer die Antworten beim Start geändert hat und warum, sagt der AP-Bericht nicht. **Im Einzelnen:** Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen.
+**Was der Eintrag nicht belegt:** dass die Antworten richtig sind. Eine systematische Prüfung gibt es nicht, nur Stichproben von Journalisten: CBS News stellte 37 Gesundheitsfragen; Notfälle beantwortete der Dienst richtig, andere Antworten waren veraltet oder erwähnten eine gerichtliche Anordnung nicht, und die Behördenseiten widersprechen sich teils selbst. Die 29.000 Websites und die sofortige Aktualisierung sind Angaben zum Start. Dahinter laufen laut Gebbia Modelle von Google (Gemini) und xAI (Grok); Fragen zu Datenschutz und Verträgen hat das Weiße Haus nicht beantwortet. **Der Betreiber über sich:** „The accuracy of our answers is never influenced by third parties.“ **Im Einzelnen:** Änderungen auf Behördenseiten sollen laut dem Chief Design Officer der Regierung, Joe Gebbia, sofort in die Antworten einfließen.
 
-**Quelle:** America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · die 29.000 Websites gibt FedScoop als Angabe von America.gov wieder, auf „How it works“ standen sie am 1. Oktober 2026 nicht · Associated Press (Meg Kinnard, Chris Rugaber, Will Weissert), 29. September 2026, gelesen in der Übernahme bei Yahoo News, weil apnews.com automatische Abrufe sperrt · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [AP bei Yahoo News](https://www.yahoo.com/news/politics/articles/trump-touts-america-gov-government-151833603.html) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Zur Quelle](https://america.gov/how-it-works)
+**Quelle:** America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · die 29.000 Websites gibt FedScoop als Angabe von America.gov wieder, auf „How it works“ standen sie am 1. Oktober 2026 nicht · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Zur Quelle](https://america.gov/how-it-works)
 
 **Einstufung:** Dokumentierter Einzelfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 

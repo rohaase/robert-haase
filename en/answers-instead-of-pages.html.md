@@ -49,7 +49,7 @@ That answers the question of whether brand management is now becoming a data bus
 
 **The machine decides the individual case, and that will stay so. What is open is by whose rule.**
 
-On 1 October I asked america.gov when I could enrol in Medicare there. The answer: not today, only in 2027, plus a link to its own preview. That the fact sheet said “later this year” did not come up. Only when I asked about the contradiction did the machine lay out both sources side by side, with their dates. “Both pages are official, and they do not give the same timing.” So it had long since decided, quietly and by its own rule. It only told me because I already knew.
+On 1 October I tried america.gov and asked when Medicare enrolment would be possible there. The answer: not today, only in 2027, plus a link to its own preview. That the fact sheet said “later this year” did not come up. Only when I asked about the contradiction did the machine lay out both sources side by side, with their dates. “Both pages are official, and they do not give the same timing.” So it had long since decided, quietly and by its own rule. It only told me because I already knew.
 
 The UK shows how to set a boundary beforehand. [GOV.UK Chat](https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/) ran for seven weeks without an announcement, more than 7,800 people asked over 15,000 questions, and the boundary was fixed before launch: “it does not attempt to provide advice”.
 
