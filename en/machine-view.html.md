@@ -3,7 +3,7 @@ title: "Machine View"
 description: "This page reads itself: on the left the page for humans, on the right the same page as AI search and browser agents process it. Read live from the source, not mocked up."
 author: "Robert Haase"
 datePublished: 2026-07-21
-dateModified: 2026-09-28
+dateModified: 2026-10-06T19:56:06+02:00
 inLanguage: en
 url: https://robert-haase.de/en/machine-view.html
 translation: https://robert-haase.de/maschinensicht.html.md

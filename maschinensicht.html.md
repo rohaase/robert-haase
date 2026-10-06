@@ -3,7 +3,7 @@ title: "Maschinensicht"
 description: "Diese Seite liest sich selbst aus: links die Seite für Menschen, rechts dieselbe Seite so, wie KI-Suche und Browser-Agenten sie verarbeiten. Live aus dem Quelltext, nicht nachgebaut."
 author: "Robert Haase"
 datePublished: 2026-07-21
-dateModified: 2026-09-28
+dateModified: 2026-10-06T19:56:06+02:00
 inLanguage: de
 url: https://robert-haase.de/maschinensicht.html
 translation: https://robert-haase.de/en/machine-view.html.md

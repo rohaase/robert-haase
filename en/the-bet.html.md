@@ -3,7 +3,7 @@ title: "The Analysis Is No Longer the Product"
 description: "When clients can generate any analysis in minutes, authority through knowing more collapses. What strategy work sells instead: the recommendation that commits. The bet."
 author: "Robert Haase"
 datePublished: 2026-07-18
-dateModified: 2026-09-05T12:00:00+02:00
+dateModified: 2026-10-06T19:56:06+02:00
 inLanguage: en
 url: https://robert-haase.de/en/the-bet.html
 translation: https://robert-haase.de/the-bet.html.md
