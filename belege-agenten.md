@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-23 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 6. Oktober 2026.
+23 von 132 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 15. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -23,8 +23,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (15) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten, dots-freigaberegeln
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt
-+ Sachstand, Fallbericht oder Marktbeobachtung (1) → aipref
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (6) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt
++ Sachstand, Fallbericht oder Marktbeobachtung (2) → aipref, agenten-wissensarbeit
 
 ---
 
@@ -214,9 +214,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in gut 16 Monaten von 61 auf 97,7 Prozent gestiegen. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.
 
-**Was die Zahl nicht sagt:** Die aktuellen Werte stammen aus *vier* Einträgen einer Bestenliste, eingereicht von den Anbietern der Agenten und vom Benchmark-Team nachgeprüft. Das ist keine unabhängige Reihenuntersuchung. **Und eine Warnung steht auf der Bestenliste selbst:** Die Aufgaben sind seit April 2025 öffentlich, das Team bittet ausdrücklich darum, sie nicht als Trainingsdaten zu verwenden. Ob die Werte Können abbilden oder Gewöhnung an bekannte Aufgaben, ist damit nicht entschieden. Gemessen wird außerdem, ob eine Aufgabe gelöst wurde, nicht wie gut und nicht, ob die Marke dabei korrekt dargestellt war. **Im Einzelnen:** Als der Benchmark im März 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht.
+**Was die Zahl nicht sagt:** Die aktuellen Werte stammen aus *vier* Einträgen einer Bestenliste, eingereicht von den Anbietern der Agenten. Die menschliche Bewertung hat das Benchmark-Team ausgelagert, mit einer Preisliste für Einreichende; die drei Einträge aus 2026 hat laut Bestenliste der Dienstleister Careerflow.ai bewertet. Das ist keine unabhängige Reihenuntersuchung. **Und eine Warnung steht auf der Bestenliste selbst:** Die Aufgaben sind seit April 2025 öffentlich, das Team bittet ausdrücklich darum, sie nicht als Trainingsdaten zu verwenden. Ob die Werte Können abbilden oder Gewöhnung an bekannte Aufgaben, ist damit nicht entschieden. Gemessen wird außerdem, ob eine Aufgabe gelöst wurde, nicht wie gut und nicht, ob die Marke dabei korrekt dargestellt war. **Im Einzelnen:** Als der Benchmark im März 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht.
 
-**Quelle:** Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · [zur Bestenliste](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard) · [Zur Quelle](https://arxiv.org/abs/2504.01382)
+**Quelle:** Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · Bewertung der Einträge laut Spalte „Source“ der Bestenliste und Hinweis „We have outsourced human evaluation“, abgerufen am 15. Oktober 2026 · [zur Bestenliste](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard) · [Zur Quelle](https://arxiv.org/abs/2504.01382)
 
 **Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -312,11 +312,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Sollen Web-Agenten im Netz gefundenes Wissen zu einem Dokument, einer Tabelle oder einer Präsentation verarbeiten, schafft selbst der beste weniger als 3 Prozent der Aufgaben vollständig. Im Test mit 110 Aufgaben hat überhaupt nur der KI-Browser Perplexity Comet Aufgaben vollständig gelöst, 2,7 Prozent insgesamt.
 
-**Was die Zahl nicht sagt:** Es ist ein Preprint ohne Begutachtung, eine Arbeitsgruppe, 110 selbst gebaute Aufgaben. Eine menschliche Vergleichsgruppe gibt es nicht, jede Aufgabe hat beim Bau aber ein Autor vollständig gelöst. Gemessen ist die vollständige Erledigung langer Aufgaben mit einer Datei in Google Docs, Sheets oder Slides als Ergebnis, nicht das Finden einer Information. **Der Abstand zu anderen Messungen:** Die 97,7 Prozent im Eintrag zum Erfolg von Web-Agenten messen das Navigieren. Zusammen zeigen beide, dass ein Agent die richtige Seite finden und trotzdem ein unbrauchbares Ergebnis abliefern kann. **Im Einzelnen:** Zu jeder Aufgabe gehören mindestens fünf Informationen von mindestens zwei Websites; geprüft wurden Claude Opus 4.7, GPT-5.5 und DeepSeek V4 Pro sowie die KI-Browser ChatGPT Atlas und Perplexity Comet. Scheitern die Agenten an visuellen Schritten, ist die erzeugte Datei unbrauchbar, auch wenn sie mehr als die Hälfte der übrigen Prüfschritte erfüllen.
+**Was die Zahl nicht sagt:** Die Arbeit ist laut den Autoren für die Findings der Konferenz EMNLP 2026 angenommen, der Tagungsband ist noch nicht erschienen; eine Arbeitsgruppe, 110 selbst gebaute Aufgaben. Eine menschliche Vergleichsgruppe gibt es nicht, jede Aufgabe hat beim Bau aber ein Autor vollständig gelöst. Gemessen ist die vollständige Erledigung langer Aufgaben mit einer Datei in Google Docs, Sheets oder Slides als Ergebnis, nicht das Finden einer Information. **Der Abstand zu anderen Messungen:** Die 97,7 Prozent im Eintrag zum Erfolg von Web-Agenten messen das Navigieren. Zusammen zeigen beide, dass ein Agent die richtige Seite finden und trotzdem ein unbrauchbares Ergebnis abliefern kann. **Im Einzelnen:** Zu jeder Aufgabe gehören mindestens fünf Informationen von mindestens zwei Websites; geprüft wurden Claude Opus 4.7, GPT-5.5 und DeepSeek V4 Pro sowie die KI-Browser ChatGPT Atlas und Perplexity Comet. Scheitern die Agenten an visuellen Schritten, ist die erzeugte Datei unbrauchbar, auch wenn sie mehr als die Hälfte der übrigen Prüfschritte erfüllen. Den getesteten Browser ChatGPT Atlas hat OpenAI inzwischen eingestellt.
 
-**Quelle:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, Preprint ohne Begutachtung · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · [Zur Quelle](https://arxiv.org/abs/2609.30604)
+**Quelle:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, laut Kommentarfeld angenommen für Findings of EMNLP 2026 (geprüft am 15. Oktober 2026) · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · Einstellung von ChatGPT Atlas: OpenAI Help Center, „ChatGPT Atlas retirement“, abgerufen am 15. Oktober 2026 ([zur Einstellung](https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement)) · [Zur Quelle](https://arxiv.org/abs/2609.30604)
 
-**Einstufung:** Kontrollierter Test, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Kontrollierter Test, zur Konferenz angenommen · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-wissensarbeit
 

@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-11 of 127 entries in the collection “Evidence” by Robert Haase, as of 6 October 2026.
+11 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -30,11 +30,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## checkout-rueckbau
 
-**Claim:** Buying directly inside the chat was rolled back a good five months after launch. Live at that point were either a dozen or close to thirty Shopify merchants, depending on the source.
+**Claim:** OpenAI rolled back buying directly inside the chat for Shopify merchants a good five months after launch; payment now happens in the merchant’s store. ChatGPT still offers Instant Checkout for some eligible merchants, and Google, Microsoft and Meta offer Shopify merchants checkout inside their own channels.
 
-**What follows and what does not:** The thesis that commerce moves wholesale into the chat is refuted for now. What is not refuted is the shift in discovery: found at the agent, bought at the brand. **On the number:** the source gives two conflicting figures, a dozen per a press report and "closer to 30 and climbing" per Shopify itself. Both cover Shopify merchants only, not all partners.
+**What follows and what does not:** one route was rolled back, not the principle. In ChatGPT, Shopify customers now buy in the merchant’s store, opened in the app’s browser; at Google, Microsoft and Meta they pay through Shopify inside the channel if the merchant turns this on. Whether commerce moves into the chat is therefore neither proven nor refuted; what has clearly shifted is discovery. **On the number of merchants at the rollback:** the source gives two conflicting figures, a dozen per a press report and "closer to 30 and climbing" per Shopify itself. Both cover Shopify merchants only, not all partners.
 
-**Source:** Forrester, analysis of the instant checkout rollback · 7 March 2026 (launch: 29 September 2025) · [Source](https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/)
+**Source:** Forrester, analysis of the instant checkout rollback · 7 March 2026 (launch: 29 September 2025) · OpenAI Help Center, “Shopping with ChatGPT Search”, last updated in early October 2026 ([OpenAI Help Center](https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search)) · Shopify Help Center, “Shopify agentic storefronts” ([Shopify Help Center](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)) · both retrieved 15 October 2026 · [Source](https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/)
 
 **Grade:** Market observation · Group: Status, case report, or market observation
 
@@ -72,11 +72,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## journey-start
 
-**Claim:** 30 to 45 percent of US consumers use generative AI for product research and comparison. 17 percent said they would begin their holiday shopping on an AI platform.
+**Claim:** 30 to 45 percent of US consumers use generative AI for product research and comparison. In 2026, 24 percent of online shoppers plan to begin their holiday shopping on an AI platform, up from 17 percent in 2025.
 
-**What the numbers do not say:** They rest on self-reporting and cover the US, not the German-speaking market. **And the two figures measure different things:** research and comparison is not the same as beginning the shopping journey. Merging them produces a number that does not exist. A journey begun is also not a purchase. As an order of magnitude for the shift in discovery they are usable; as a revenue statement they are not.
+**What the numbers do not say:** They rest on self-reporting and cover the US, not the German-speaking market. **And the two figures measure different things:** research and comparison is not the same as beginning the shopping journey. Merging them produces a number that does not exist. A journey begun is also not a purchase. As an order of magnitude for the shift in discovery they are usable; as a revenue statement they are not. **In detail:** 60 percent plan to begin on retailer or brand websites, up from 51 percent in 2025, and 13 percent with retailers’ AI shopping agents. Respondents could choose several answers. The survey covered 1,105 US online shoppers in August 2026.
 
-**Source:** Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent · [Source](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
+**Source:** Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent · holiday survey 2026 with ROI Rocket, 1,105 US online shoppers, August 2026, published 3 September 2026 ([2026 survey](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), retrieved 15 October 2026 · [Source](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
 
 **Grade:** Survey · Group: Status, case report, or market observation
 

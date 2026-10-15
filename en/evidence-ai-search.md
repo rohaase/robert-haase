@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-17 of 127 entries in the collection “Evidence” by Robert Haase, as of 6 October 2026.
+20 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 
@@ -23,8 +23,8 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Preliminary: prototype, single test, forecast, or vendor figure (7) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert
-+ Status, case report, or market observation (1) → llmstxt-nutzen
++ Preliminary: prototype, single test, forecast, or vendor figure (8) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks
++ Status, case report, or market observation (3) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen
 
 ---
 
@@ -266,4 +266,46 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 17 of 17 entries on AI search. Last entry: eigene-seite-selten-zitiert.
+## crawl-verweis-verhaeltnis
+
+**Claim:** For every visit they send to a website through a link, AI providers’ crawlers fetch many times as many of its pages. In September 2026, according to Cloudflare, Anthropic made 555 fetches per referral, OpenAI 354 and Perplexity 2,283, against 4.7 for Google and 40 for Microsoft.
+
+**What the number does not say:** native apps send no referrer when passing visitors on, Claude’s app demonstrably not; Cloudflare therefore does not count those visits and writes itself that the ratios are overstated, by an unknown amount. Only traffic in its own network and only HTML pages are measured. Monthly values swing widely: OpenAI stood at 251 in July, 425 in August, 354 in September and 902 in the first half of October, and Perplexity rose from 289 in July to 3,523. What holds is the gap to the search engines, not any single value. **What follows:** a site that admits AI crawlers gets little traffic back for it so far; the entries on click-through show the same from the users’ side. **In detail:** The ratio divides a provider’s crawler HTML requests by HTML requests whose referrer points to its platform. DuckDuckGo stands at 3.5 in September.
+
+**Source:** Cloudflare Radar, “AI Insights” page, section “Crawl-to-refer ratio”, period 1 to 30 September 2026, values queried through the page’s data interface on 15 October 2026, likewise July, August and 1 to 14 October 2026 · method in the blog post “The crawl before the fall… of referrals: understanding AI’s impact on content providers”, 1 July 2025, last changed 15 July 2026 ([to the method post](https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/)) · [Source](https://radar.cloudflare.com/ai-insights)
+
+**Grade:** Market observation · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#crawl-verweis-verhaeltnis
+
+---
+
+## ki-modus-klicks
+
+**Claim:** In a preregistered field experiment with 1,100 US participants, Google’s AI Mode reduced clicks to websites: those who got only AI Mode for a week clicked through to external sites 18.8 percentage points less often than with regular Google Search.
+
+**What the number does not say:** it is a preprint without peer review, one study, US only, seven days per condition. The reverse test is weaker: without AI Overviews and AI Mode, click-through across all assigned participants rose by only 2.7 points, not significant; by 8.8 points among those for whom the removal actually took effect. **What it adds to the other entries:** the entries on Pew and Ahrefs measure associations; this experiment assigns conditions at random and so shows a cause for AI Mode, not merely an association. **In detail:** Recruitment ran from 17 to 19 March 2026; three days of regular search as a baseline were followed by seven days in the assigned condition; counted are the 1,100 of 1,444 enrolled who searched at least once. The confidence interval of the 18.8 points runs from 15.3 to 22.2.
+
+**Source:** Stephanie T. Wang, Jeffrey Gleason, Yakov Bart, Christo Wilson and Danaé Metaxa, “AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence”, arXiv 2608.18352, version 1 of 18 August 2026, preprint without peer review · preregistered field experiment, 1,100 active participants in the US · full text read 15 October 2026 · [Source](https://arxiv.org/abs/2608.18352)
+
+**Grade:** Field experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#ki-modus-klicks
+
+---
+
+## aio-markensuchen
+
+**Claim:** Searches for brand names now mostly show an AI Overview: on 29 September 2026, according to Ahrefs, 82.9 percent of US desktop searches for branded terms did, against a July monthly average of 61.3 percent. Of the 100 most valuable brands according to Interbrand, 63 got an Overview on 30 September, 48 of them at the very top.
+
+**What the number does not say:** Ahrefs sells search engine optimisation tools and measures with its own crawls: US desktop, July to September 2026, 232.8 million result pages, 92.5 million of them for branded terms. The 82.9 percent is a single day; the September average was 73.3. What is measured is whether an Overview appears, not what it says about the brand or how many people still click afterwards. **What follows:** even someone searching for the brand itself mostly gets a summary whose sources Google selects. **In detail:** On 1 July, 5 of 98 usable brand names showed an Overview, on 30 September 63 of 100. For non-branded terms the monthly averages were 73.5, 74.7 and 78.3 percent.
+
+**Source:** Ahrefs, Ryan Law and Xibeijia Guan, “AI Overviews Currently Appear for 83% of Branded Searches”, 2 October 2026 · US desktop, July to September 2026, 232.8 million result pages, 92.5 million of them for branded terms · panel of the 100 brands in Interbrand’s Best Global Brands 2025 · retrieved 15 October 2026 · [Source](https://ahrefs.com/blog/ai-overviews-on-branded-searches/)
+
+**Grade:** Market observation · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#aio-markensuchen
+
+---
+
+End of file: 20 of 20 entries on AI search. Last entry: aio-markensuchen.

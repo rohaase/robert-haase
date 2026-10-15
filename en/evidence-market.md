@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-18 of 127 entries in the collection “Evidence” by Robert Haase, as of 6 October 2026.
+19 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Preliminary: prototype, single test, forecast, or vendor figure (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
-+ Status, case report, or market observation (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
++ Status, case report, or market observation (7) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung
 
 ---
 
@@ -280,4 +280,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 18 of 18 entries on Market size. Last entry: ki-verkehr-handel-prognose.
+## chatbot-nichtnutzung
+
+**Claim:** 51 percent of US adults never use an AI chatbot. Among them, 83 percent cite lack of interest, 79 percent concern about how their personal information is used and 76 percent distrust in the accuracy of the answers; 67 percent say they are unlikely to start within the next twelve months.
+
+**What the number does not say:** it is self-reporting, collected from 17 to 23 February 2026, and covers the US only. The reasons combine major and minor ones, and several could be given. **What follows for brands and what does not:** chatbots are not the whole of AI search. People who never use a chatbot can still see AI Overviews in Google Search, as the entry on branded searches shows. Next to the vendors’ user figures in the entry on market size, this survey counts people, not accounts. **In detail:** As a major reason, 60 percent cite lack of interest, 54 percent privacy and 45 percent accuracy.
+
+**Source:** Pew Research Center, Michelle Faverio, “Why Don’t Some People Use Chatbots?”, 9 October 2026 · American Trends Panel, 5,119 US adults, surveyed 17 to 23 February 2026 · retrieved 15 October 2026 · [Source](https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/)
+
+**Grade:** Survey · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#chatbot-nichtnutzung
+
+---
+
+End of file: 19 of 19 entries on Market size. Last entry: chatbot-nichtnutzung.

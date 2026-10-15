@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-18 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 6. Oktober 2026.
+19 von 132 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 15. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
-+ Sachstand, Fallbericht oder Marktbeobachtung (6) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild
++ Sachstand, Fallbericht oder Marktbeobachtung (7) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung
 
 ---
 
@@ -280,4 +280,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 18 von 18 Einträgen zum Thema Marktgröße. Letzter Eintrag: ki-verkehr-handel-prognose.
+## chatbot-nichtnutzung
+
+**Aussage:** 51 Prozent der US-Erwachsenen nutzen nie einen KI-Chatbot. Von ihnen nennen 83 Prozent fehlendes Interesse als Grund, 79 Prozent die Sorge um ihre persönlichen Daten und 76 Prozent Misstrauen in die Richtigkeit der Antworten; 67 Prozent halten es für unwahrscheinlich, in den nächsten zwölf Monaten damit anzufangen.
+
+**Was die Zahl nicht sagt:** Es ist Selbstauskunft, erhoben vom 17. bis 23. Februar 2026 und nur in den USA. Bei den Gründen sind große und kleine zusammengezählt, mehrere waren möglich. **Was daraus für Marken folgt und was nicht:** Chatbots sind nicht die ganze KI-Suche. Wer nie einen Chatbot nutzt, kann trotzdem KI-Übersichten in der Google-Suche sehen, wie der Eintrag zu den Markensuchen zeigt. Neben den Nutzerzahlen der Anbieter im Eintrag zur Marktgröße zählt diese Befragung Menschen, nicht Konten. **Im Einzelnen:** Als großen Grund nennen 60 Prozent fehlendes Interesse, 54 Prozent den Datenschutz und 45 Prozent die Richtigkeit.
+
+**Quelle:** Pew Research Center, Michelle Faverio, „Why Don’t Some People Use Chatbots?“, 9. Oktober 2026 · American Trends Panel, 5.119 US-Erwachsene, befragt vom 17. bis 23. Februar 2026 · abgerufen am 15. Oktober 2026 · [Zur Quelle](https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/)
+
+**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#chatbot-nichtnutzung
+
+---
+
+Ende der Datei: 19 von 19 Einträgen zum Thema Marktgröße. Letzter Eintrag: chatbot-nichtnutzung.

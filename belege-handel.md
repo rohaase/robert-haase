@@ -1,6 +1,6 @@
 # Belege: Handel
 
-11 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 6. Oktober 2026.
+11 von 132 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 15. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -30,11 +30,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## checkout-rueckbau
 
-**Aussage:** Der Kauf direkt im Chat wurde gut fünf Monate nach dem Start zurückgebaut. Live waren zu dem Zeitpunkt je nach Quelle ein Dutzend oder knapp dreißig Shopify-Händler.
+**Aussage:** Den Kauf direkt im Chat hat OpenAI gut fünf Monate nach dem Start für Shopify-Händler zurückgebaut, bezahlt wird dort seitdem im Shop des Händlers. Für einzelne berechtigte Händler bietet ChatGPT Instant Checkout weiter an, und Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im eigenen Kanal an.
 
-**Was daraus folgt und was nicht:** Die These, der Handel verlagere sich vollständig in den Chat, ist vorerst entkräftet. Nicht entkräftet ist die Verschiebung beim Entdecken: Gefunden wird beim Agenten, gekauft weiterhin bei der Marke. **Zur Zahl:** Die Quelle nennt zwei widersprüchliche Angaben, ein Dutzend nach einem Medienbericht und „nahe 30 und steigend“ nach Shopify selbst. Beide beziehen sich nur auf Shopify-Händler, nicht auf alle Partner.
+**Was daraus folgt und was nicht:** Zurückgebaut wurde ein Weg, nicht das Prinzip. Bei ChatGPT kaufen Shopify-Kunden seitdem im Shop des Händlers, geöffnet im Browser der App; bei Google, Microsoft und Meta bezahlen sie über Shopify im Kanal, wenn der Händler das einschaltet. Ob sich der Handel in den Chat verlagert, ist damit weder belegt noch widerlegt; sicher verschoben hat sich das Entdecken. **Zur Zahl der Händler beim Rückbau:** Die Quelle nennt zwei widersprüchliche Angaben, ein Dutzend nach einem Medienbericht und „nahe 30 und steigend“ nach Shopify selbst. Beide beziehen sich nur auf Shopify-Händler, nicht auf alle Partner.
 
-**Quelle:** Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025) · [Zur Quelle](https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/)
+**Quelle:** Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025) · OpenAI Help Center, „Shopping with ChatGPT Search“, zuletzt aktualisiert Anfang Oktober 2026 ([OpenAI Help Center](https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search)) · Shopify Help Center, „Shopify agentic storefronts“ ([Shopify Help Center](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)) · beide abgerufen am 15. Oktober 2026 · [Zur Quelle](https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/)
 
 **Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -72,11 +72,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## journey-start
 
-**Aussage:** 30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. Ihren Weihnachtseinkauf auf einer KI-Plattform beginnen wollten 17 Prozent.
+**Aussage:** 30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. 2026 wollen 24 Prozent der Online-Käufer ihren Weihnachtseinkauf auf einer KI-Plattform beginnen, 2025 waren es 17 Prozent.
 
-**Was die Zahlen nicht sagen:** Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. **Und die beiden Zahlen messen Verschiedenes:** Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht.
+**Was die Zahlen nicht sagen:** Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. **Und die beiden Zahlen messen Verschiedenes:** Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht. **Im Einzelnen:** Auf Websites von Händlern und Marken wollen 60 Prozent beginnen, 2025 waren es 51 Prozent; mit den KI-Agenten der Händler 13 Prozent. Mehrfachnennungen waren möglich. Befragt wurden im August 2026 1.105 US-Online-Käufer.
 
-**Quelle:** Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · [Zur Quelle](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
+**Quelle:** Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 ([zur Befragung 2026](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), abgerufen am 15. Oktober 2026 · [Zur Quelle](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
 
 **Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 

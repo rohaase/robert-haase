@@ -1,6 +1,6 @@
 # Belege: KI-Suche
 
-17 von 127 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 6. Oktober 2026.
+20 von 132 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 15. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-ai-search.md
 
@@ -23,8 +23,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert
-+ Sachstand, Fallbericht oder Marktbeobachtung (1) → llmstxt-nutzen
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks
++ Sachstand, Fallbericht oder Marktbeobachtung (3) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen
 
 ---
 
@@ -266,4 +266,46 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 17 von 17 Einträgen zum Thema KI-Suche. Letzter Eintrag: eigene-seite-selten-zitiert.
+## crawl-verweis-verhaeltnis
+
+**Aussage:** Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im September 2026 kamen laut Cloudflare bei Anthropic 555 Abrufe auf einen Verweis, bei OpenAI 354 und bei Perplexity 2.283, bei Google 4,7 und bei Microsoft 40.
+
+**Was die Zahl nicht sagt:** Native Apps senden beim Weiterleiten keine Herkunftsangabe (Referrer), die Claude-App nachweislich nicht; Cloudflare zählt diese Besuche deshalb nicht mit und schreibt selbst, die Verhältnisse seien überzeichnet, unklar wie stark. Gemessen wird nur Verkehr im eigenen Netz und nur auf HTML-Seiten. Die Monatswerte schwanken stark: OpenAI kam im Juli auf 251, im August auf 425, im September auf 354 und in der ersten Oktoberhälfte auf 902, Perplexity stieg von 289 im Juli auf 3.523. Belastbar ist der Abstand zu den Suchmaschinen, nicht der einzelne Wert. **Was daraus folgt:** Wer KI-Crawler zulässt, bekommt dafür bisher wenig Besuch zurück; die Einträge zur Klickrate zeigen dasselbe von der Seite der Nutzer. **Im Einzelnen:** Gezählt werden HTML-Abrufe der Crawler eines Anbieters, geteilt durch HTML-Abrufe, deren Referrer auf seine Plattform zeigt. DuckDuckGo kommt im September auf 3,5.
+
+**Quelle:** Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 30. September 2026, Werte über die Datenschnittstelle der Seite abgefragt am 15. Oktober 2026, ebenso Juli, August und 1. bis 14. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026 ([zum Methodenbeitrag](https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/)) · [Zur Quelle](https://radar.cloudflare.com/ai-insights)
+
+**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis
+
+---
+
+## ki-modus-klicks
+
+**Aussage:** In einem vorregistrierten Feldexperiment mit 1.100 US-Teilnehmenden senkte Googles KI-Modus die Klicks auf Websites: Wer eine Woche lang nur den KI-Modus bekam, klickte um 18,8 Prozentpunkte seltener auf externe Seiten als mit der gewohnten Google-Suche.
+
+**Was die Zahl nicht sagt:** Es ist ein Preprint ohne Begutachtung, eine Studie, nur USA, sieben Tage je Bedingung. Der Gegenversuch ist schwächer: Ohne KI-Übersichten und KI-Modus stieg die Klickrate über alle zugeteilten Teilnehmenden nur um 2,7 Punkte, nicht signifikant; um 8,8 Punkte bei denen, bei denen die Ausblendung tatsächlich wirkte. **Was es zu den übrigen Einträgen beiträgt:** Die Einträge zu Pew und Ahrefs messen Zusammenhänge; dieser Versuch teilt die Bedingungen zufällig zu und belegt damit für den KI-Modus eine Ursache, nicht nur einen Zusammenhang. **Im Einzelnen:** Rekrutiert wurde vom 17. bis 19. März 2026, auf drei Tage gewohnte Suche als Ausgangswert folgten sieben Tage in der zugeteilten Bedingung; gezählt sind die 1.100 von 1.444 Angemeldeten, die mindestens einmal suchten. Das Konfidenzintervall der 18,8 Punkte reicht von 15,3 bis 22,2.
+
+**Quelle:** Stephanie T. Wang, Jeffrey Gleason, Yakov Bart, Christo Wilson und Danaé Metaxa, „AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence“, arXiv 2608.18352, Fassung 1 vom 18. August 2026, Preprint ohne Begutachtung · vorregistriertes Feldexperiment, 1.100 aktive Teilnehmende in den USA · Volltext gelesen am 15. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2608.18352)
+
+**Einstufung:** Feldexperiment, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#ki-modus-klicks
+
+---
+
+## aio-markensuchen
+
+**Aussage:** Bei Suchen nach Markennamen erscheint inzwischen meist eine KI-Übersicht: am 29. September 2026 laut Ahrefs bei 82,9 Prozent der US-Desktop-Suchen nach Markenbegriffen, im Juli lag der Monatsdurchschnitt bei 61,3 Prozent. Von den 100 wertvollsten Marken nach Interbrand bekamen am 30. September 63 eine Übersicht, 48 davon ganz oben.
+
+**Was die Zahl nicht sagt:** Ahrefs verkauft Werkzeuge für die Suchmaschinenoptimierung und misst mit eigenen Abrufen: US-Desktop, Juli bis September 2026, 232,8 Millionen Ergebnisseiten, davon 92,5 Millionen zu Markenbegriffen. Die 82,9 Prozent sind ein einzelner Stichtag, der Septemberdurchschnitt lag bei 73,3. Gemessen ist, ob eine Übersicht erscheint, nicht, was sie über die Marke sagt und wie viele Menschen danach noch klicken. **Was daraus folgt:** Auch wer nach der Marke selbst sucht, bekommt meist eine Zusammenfassung, deren Quellen Google auswählt. **Im Einzelnen:** Am 1. Juli zeigten 5 von 98 auswertbaren Markennamen eine Übersicht, am 30. September 63 von 100. Ohne Markenbezug lag der Anteil im Monatsdurchschnitt bei 73,5, 74,7 und 78,3 Prozent.
+
+**Quelle:** Ahrefs, Ryan Law und Xibeijia Guan, „AI Overviews Currently Appear for 83% of Branded Searches“, 2. Oktober 2026 · US-Desktop, Juli bis September 2026, 232,8 Millionen Ergebnisseiten, davon 92,5 Millionen zu Markenbegriffen · Panel aus den 100 Marken von Interbrands Best Global Brands 2025 · abgerufen am 15. Oktober 2026 · [Zur Quelle](https://ahrefs.com/blog/ai-overviews-on-branded-searches/)
+
+**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#aio-markensuchen
+
+---
+
+Ende der Datei: 20 von 20 Einträgen zum Thema KI-Suche. Letzter Eintrag: aio-markensuchen.

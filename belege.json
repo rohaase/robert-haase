@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-10-06T19:56:06+02:00",
+  "dateModified": "2026-10-15T20:25:17+02:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 127,
+  "numberOfItems": 132,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -27,7 +27,7 @@
     {
       "id": "ki-suche",
       "name": "KI-Suche",
-      "numberOfItems": 17,
+      "numberOfItems": 20,
       "textFile": "https://robert-haase.de/belege-ki-suche.md",
       "ids": [
         "llmstxt-abrufe",
@@ -46,7 +46,10 @@
         "llmstxt-nutzen",
         "markenstatur-sichtbarkeit",
         "zitier-position",
-        "eigene-seite-selten-zitiert"
+        "eigene-seite-selten-zitiert",
+        "crawl-verweis-verhaeltnis",
+        "ki-modus-klicks",
+        "aio-markensuchen"
       ],
       "groups": {
         "strong": [
@@ -67,10 +70,13 @@
           "aio-top10-uneinig",
           "markenstatur-sichtbarkeit",
           "zitier-position",
-          "eigene-seite-selten-zitiert"
+          "eigene-seite-selten-zitiert",
+          "ki-modus-klicks"
         ],
         "plain": [
-          "llmstxt-nutzen"
+          "llmstxt-nutzen",
+          "crawl-verweis-verhaeltnis",
+          "aio-markensuchen"
         ]
       }
     },
@@ -128,18 +134,18 @@
           "klarna-700",
           "abruf-kuerzung",
           "robots-sperre-chatbots",
-          "agenten-wissensarbeit",
           "crawler-zweck-gemischt"
         ],
         "plain": [
-          "aipref"
+          "aipref",
+          "agenten-wissensarbeit"
         ]
       }
     },
     {
       "id": "schnittstellen",
       "name": "Schnittstellen",
-      "numberOfItems": 21,
+      "numberOfItems": 22,
       "textFile": "https://robert-haase.de/belege-schnittstellen.md",
       "ids": [
         "astryx-agenten",
@@ -162,7 +168,8 @@
         "agentenstandards-verbreitung",
         "markenstimme-als-skill",
         "staat-als-einzige-quelle",
-        "chatgpt-plugin-pruefung"
+        "chatgpt-plugin-pruefung",
+        "mcp-server-cards"
       ],
       "groups": {
         "strong": [
@@ -190,7 +197,8 @@
           "gitlab-markenrepo",
           "mcp-primitive",
           "agentenstandards-verbreitung",
-          "staat-als-einzige-quelle"
+          "staat-als-einzige-quelle",
+          "mcp-server-cards"
         ]
       }
     },
@@ -283,7 +291,7 @@
     {
       "id": "markt",
       "name": "Marktgröße",
-      "numberOfItems": 18,
+      "numberOfItems": 19,
       "textFile": "https://robert-haase.de/belege-markt.md",
       "ids": [
         "machine-customers",
@@ -303,7 +311,8 @@
         "insourcing-absicht",
         "agentur-selbstbild",
         "cmo-titel-schwindet",
-        "ki-verkehr-handel-prognose"
+        "ki-verkehr-handel-prognose",
+        "chatbot-nichtnutzung"
       ],
       "groups": {
         "strong": [
@@ -328,7 +337,8 @@
           "geo-verbreitung",
           "in-house-verlagerung",
           "insourcing-absicht",
-          "agentur-selbstbild"
+          "agentur-selbstbild",
+          "chatbot-nichtnutzung"
         ]
       }
     },
@@ -1151,13 +1161,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#checkout-rueckbau",
-      "text": "Der Kauf direkt im Chat wurde gut fünf Monate nach dem Start zurückgebaut. Live waren zu dem Zeitpunkt je nach Quelle ein Dutzend oder knapp dreißig Shopify-Händler.",
+      "text": "Den Kauf direkt im Chat hat OpenAI gut fünf Monate nach dem Start für Shopify-Händler zurückgebaut, bezahlt wird dort seitdem im Shop des Händlers. Für einzelne berechtigte Händler bietet ChatGPT Instant Checkout weiter an, und Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im eigenen Kanal an.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025)",
+        "name": "Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025) · OpenAI Help Center, „Shopping with ChatGPT Search“, zuletzt aktualisiert Anfang Oktober 2026 · Shopify Help Center, „Shopify agentic storefronts“ · beide abgerufen am 15. Oktober 2026",
         "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
       },
-      "disambiguatingDescription": "Was daraus folgt und was nicht: Die These, der Handel verlagere sich vollständig in den Chat, ist vorerst entkräftet. Nicht entkräftet ist die Verschiebung beim Entdecken: Gefunden wird beim Agenten, gekauft weiterhin bei der Marke. Zur Zahl: Die Quelle nennt zwei widersprüchliche Angaben, ein Dutzend nach einem Medienbericht und „nahe 30 und steigend“ nach Shopify selbst. Beide beziehen sich nur auf Shopify-Händler, nicht auf alle Partner.",
+      "disambiguatingDescription": "Was daraus folgt und was nicht: Zurückgebaut wurde ein Weg, nicht das Prinzip. Bei ChatGPT kaufen Shopify-Kunden seitdem im Shop des Händlers, geöffnet im Browser der App; bei Google, Microsoft und Meta bezahlen sie über Shopify im Kanal, wenn der Händler das einschaltet. Ob sich der Handel in den Chat verlagert, ist damit weder belegt noch widerlegt; sicher verschoben hat sich das Entdecken. Zur Zahl der Händler beim Rückbau: Die Quelle nennt zwei widersprüchliche Angaben, ein Dutzend nach einem Medienbericht und „nahe 30 und steigend“ nach Shopify selbst. Beide beziehen sich nur auf Shopify-Händler, nicht auf alle Partner.",
       "position": 27,
       "id": "checkout-rueckbau",
       "url": "https://robert-haase.de/belege.html#checkout-rueckbau",
@@ -1166,14 +1176,22 @@
         "name": "Marktbeobachtung",
         "group": "plain"
       },
-      "sourceText": "Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025) · Zur Quelle",
+      "sourceText": "Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025) · OpenAI Help Center, „Shopping with ChatGPT Search“, zuletzt aktualisiert Anfang Oktober 2026 (OpenAI Help Center) · Shopify Help Center, „Shopify agentic storefronts“ (Shopify Help Center) · beide abgerufen am 15. Oktober 2026 · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "OpenAI Help Center",
+          "url": "https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search"
+        },
+        {
+          "name": "Shopify Help Center",
+          "url": "https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
         }
       ],
-      "citationText": "Der Kauf direkt im Chat wurde gut fünf Monate nach dem Start zurückgebaut. Live waren zu dem Zeitpunkt je nach Quelle ein Dutzend oder knapp dreißig Shopify-Händler. (Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025)). https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/ · via https://robert-haase.de/belege.html#checkout-rueckbau"
+      "citationText": "Den Kauf direkt im Chat hat OpenAI gut fünf Monate nach dem Start für Shopify-Händler zurückgebaut, bezahlt wird dort seitdem im Shop des Händlers. Für einzelne berechtigte Händler bietet ChatGPT Instant Checkout weiter an, und Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im eigenen Kanal an. (Forrester, 7. März 2026; OpenAI und Shopify Help Center, abgerufen am 15. Oktober 2026). https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/ · via https://robert-haase.de/belege.html#checkout-rueckbau"
     },
     {
       "@type": "Claim",
@@ -1232,13 +1250,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#journey-start",
-      "text": "30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. Ihren Weihnachtseinkauf auf einer KI-Plattform beginnen wollten 17 Prozent.",
+      "text": "30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. 2026 wollen 24 Prozent der Online-Käufer ihren Weihnachtseinkauf auf einer KI-Plattform beginnen, 2025 waren es 17 Prozent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent",
+        "name": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026, abgerufen am 15. Oktober 2026",
         "url": "https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/"
       },
-      "disambiguatingDescription": "Was die Zahlen nicht sagen: Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. Und die beiden Zahlen messen Verschiedenes: Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht.",
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. Und die beiden Zahlen messen Verschiedenes: Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht. Im Einzelnen: Auf Websites von Händlern und Marken wollen 60 Prozent beginnen, 2025 waren es 51 Prozent; mit den KI-Agenten der Händler 13 Prozent. Mehrfachnennungen waren möglich. Befragt wurden im August 2026 1.105 US-Online-Käufer.",
       "position": 30,
       "id": "journey-start",
       "url": "https://robert-haase.de/belege.html#journey-start",
@@ -1247,14 +1265,18 @@
         "name": "Befragung",
         "group": "plain"
       },
-      "sourceText": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Zur Quelle",
+      "sourceText": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 (zur Befragung 2026), abgerufen am 15. Oktober 2026 · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zur Befragung 2026",
+          "url": "https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/"
         }
       ],
-      "citationText": "30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. Ihren Weihnachtseinkauf auf einer KI-Plattform beginnen wollten 17 Prozent. (Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent). https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/ · via https://robert-haase.de/belege.html#journey-start"
+      "citationText": "30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. 2026 wollen 24 Prozent der Online-Käufer ihren Weihnachtseinkauf auf einer KI-Plattform beginnen, 2025 waren es 17 Prozent. (Bain & Company, Consumer Lab USA, November 2025, und Weihnachtsbefragung 2026, August 2026). https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/ · via https://robert-haase.de/belege.html#journey-start"
     },
     {
       "@type": "Claim",
@@ -1656,10 +1678,10 @@
       "text": "Auf 300 Aufgaben über 136 echte Websites ist die Erfolgsquote der besten Web-Agenten in gut 16 Monaten von 61 auf 97,7 Prozent gestiegen. Im August 2026 löst der beste Eintrag auch die schwersten Aufgaben, die elf Schritte und mehr brauchen, vollständig.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites",
+        "name": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · Bewertung der Einträge laut Spalte „Source“ der Bestenliste und Hinweis „We have outsourced human evaluation“, abgerufen am 15. Oktober 2026",
         "url": "https://arxiv.org/abs/2504.01382"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Die aktuellen Werte stammen aus vier Einträgen einer Bestenliste, eingereicht von den Anbietern der Agenten und vom Benchmark-Team nachgeprüft. Das ist keine unabhängige Reihenuntersuchung. Und eine Warnung steht auf der Bestenliste selbst: Die Aufgaben sind seit April 2025 öffentlich, das Team bittet ausdrücklich darum, sie nicht als Trainingsdaten zu verwenden. Ob die Werte Können abbilden oder Gewöhnung an bekannte Aufgaben, ist damit nicht entschieden. Gemessen wird außerdem, ob eine Aufgabe gelöst wurde, nicht wie gut und nicht, ob die Marke dabei korrekt dargestellt war. Im Einzelnen: Als der Benchmark im März 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Die aktuellen Werte stammen aus vier Einträgen einer Bestenliste, eingereicht von den Anbietern der Agenten. Die menschliche Bewertung hat das Benchmark-Team ausgelagert, mit einer Preisliste für Einreichende; die drei Einträge aus 2026 hat laut Bestenliste der Dienstleister Careerflow.ai bewertet. Das ist keine unabhängige Reihenuntersuchung. Und eine Warnung steht auf der Bestenliste selbst: Die Aufgaben sind seit April 2025 öffentlich, das Team bittet ausdrücklich darum, sie nicht als Trainingsdaten zu verwenden. Ob die Werte Können abbilden oder Gewöhnung an bekannte Aufgaben, ist damit nicht entschieden. Gemessen wird außerdem, ob eine Aufgabe gelöst wurde, nicht wie gut und nicht, ob die Marke dabei korrekt dargestellt war. Im Einzelnen: Als der Benchmark im März 2025 zum ersten Mal ausgewertet wurde, meldete ein Agent selbst 89 Prozent und erreichte gemessen 30; die meisten schlugen einen simplen Agenten von Anfang 2024 nicht.",
       "position": 45,
       "id": "agenten-erfolg",
       "url": "https://robert-haase.de/belege.html#agenten-erfolg",
@@ -1668,7 +1690,7 @@
         "name": "Geprüfte Erhebung",
         "group": "strong"
       },
-      "sourceText": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · zur Bestenliste · Zur Quelle",
+      "sourceText": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · Bewertung der Einträge laut Spalte „Source“ der Bestenliste und Hinweis „We have outsourced human evaluation“, abgerufen am 15. Oktober 2026 · zur Bestenliste · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zur Bestenliste",
@@ -1749,10 +1771,10 @@
       "text": "Nach Artikel 10 der neuen EU-Produkthaftungsrichtlinie geht ein Gericht von der Fehlerhaftigkeit aus, wenn deren Beweis dem Kläger „insbesondere aufgrund der technischen oder wissenschaftlichen Komplexität übermäßig schwierig“ ist und er nur noch ihre Wahrscheinlichkeit nachweist. Umzusetzen ist sie bis zum 9. Dezember 2026.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 10. September 2026: Bundestagsdrucksache 21/4297 vom 25. Februar 2026, Wortprotokoll 21/31 des Ausschusses für Recht und Verbraucherschutz zur öffentlichen Anhörung am 13. April 2026, Beratungsvorgang BR-Drs. 775/25 und die Tagesordnungen der Bundesratssitzungen 1061 bis 1068, BMJV-Verfahrensseite mit Status „Entwurf“ und letzter Aktualisierung vom 5. März 2026 · Tagesordnung der Sitzung 1068 (Stand 18. September 2026) am 21. September 2026 erneut abgerufen",
+        "name": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 15. Oktober 2026: Bundestag, Textarchiv zur Abstimmung am 8. Oktober 2026, Beschlussempfehlung Drucksache 21/8429 mit dem Inkrafttreten in Artikel 17, Regierungsentwurf Drucksache 21/4297 vom 25. Februar 2026, Beratungsvorgang des Bundesrates zu Drucksache 584/26",
         "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
       },
-      "disambiguatingDescription": "Sie gilt noch nicht: Die Richtlinie wirkt nicht unmittelbar und erfasst nur Produkte, die nach dem 9. Dezember 2026 in Verkehr kommen. Artikel 21 hebt die alte Richtlinie 85/374/EWG zum selben Datum auf; für früher in Verkehr gebrachte Produkte gilt sie weiter. Und sie kehrt die Beweislast nicht um: Artikel 10 Absatz 4 greift erst „trotz der Offenlegung von Beweismitteln gemäß Artikel 9“, und nach Absatz 5 darf der Beklagte jede Vermutung widerlegen. Das ist ein Beweisnachteil, keine Gefährdungshaftung. Rechtsprechung zu „übermäßig schwierig“ kann es noch nicht geben, weil die Regel auf kein Produkt anwendbar ist. Zum Kalender, Stand 21. September 2026: Deutschland ist knapp drei Monate vor Fristablauf nicht durch das Parlament. Der Regierungsentwurf liegt seit dem 25. Februar 2026 als Bundestagsdrucksache 21/4297 vor, erste Lesung am 4. März, Anhörung am 13. April, danach kein belegbarer Schritt; nach dem 30. Januar 2026 steht er auf keiner Bundesrats-Tagesordnung mehr, auch nicht auf der Tagesordnung für den 25. September, Stand 18. September. Inkrafttreten laut Entwurf: 9. Dezember 2026. Grenze der eigenen Erhebung: Die Auskunftsschnittstelle des Bundestages verlangt einen Schlüssel; geprüft wurde ersatzweise über die Tagesordnungen des Bundesrates, den jedes beschlossene Gesetz passieren muss. Ein Beschluss des Bundestages erscheint dort erst mit Verzögerung, die jüngsten Sitzungswochen deckt die Prüfung deshalb nicht sicher ab. Im Einzelnen: Die Richtlinie zählt Software in Artikel 4 ausdrücklich zu den Produkten. Dieselbe Vermutung greift, wenn der Beklagte angeordnete Beweismittel nicht offenlegt.",
+      "disambiguatingDescription": "Sie gilt noch nicht: Die Richtlinie wirkt nicht unmittelbar und erfasst nur Produkte, die nach dem 9. Dezember 2026 in Verkehr kommen. Artikel 21 hebt die alte Richtlinie 85/374/EWG zum selben Datum auf; für früher in Verkehr gebrachte Produkte gilt sie weiter. Und sie kehrt die Beweislast nicht um: Artikel 10 Absatz 4 greift erst „trotz der Offenlegung von Beweismitteln gemäß Artikel 9“, und nach Absatz 5 darf der Beklagte jede Vermutung widerlegen. Das ist ein Beweisnachteil, keine Gefährdungshaftung. Rechtsprechung zu „übermäßig schwierig“ kann es noch nicht geben, weil die Regel auf kein Produkt anwendbar ist. Zum Kalender, Stand 15. Oktober 2026: Der Bundestag hat das Gesetz zur Modernisierung des Produkthaftungsrechts am 8. Oktober 2026 angenommen, auf Grundlage der Beschlussempfehlung des Rechtsausschusses (Drucksache 21/8429); dafür stimmten CDU/CSU, SPD und Grüne, AfD und Linke enthielten sich. Es ist ein Einspruchsgesetz und steht als Bundesratsdrucksache 584/26 auf der Tagesordnung der Sitzung vom 16. Oktober 2026. Inkrafttreten laut Gesetz: 9. Dezember 2026, wie von der Richtlinie verlangt. Im Einzelnen: Die Richtlinie zählt Software in Artikel 4 ausdrücklich zu den Produkten. Dieselbe Vermutung greift, wenn der Beklagte angeordnete Beweismittel nicht offenlegt.",
       "position": 48,
       "id": "produkthaftung-komplexitaet",
       "url": "https://robert-haase.de/belege.html#produkthaftung-komplexitaet",
@@ -1761,22 +1783,30 @@
         "name": "Rechtslage",
         "group": "plain"
       },
-      "sourceText": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 10. September 2026: Bundestagsdrucksache 21/4297 vom 25. Februar 2026 (zur Drucksache), Wortprotokoll 21/31 des Ausschusses für Recht und Verbraucherschutz zur öffentlichen Anhörung am 13. April 2026, Beratungsvorgang BR-Drs. 775/25 und die Tagesordnungen der Bundesratssitzungen 1061 bis 1068 (zum Beratungsvorgang), BMJV-Verfahrensseite mit Status „Entwurf“ und letzter Aktualisierung vom 5. März 2026 · Tagesordnung der Sitzung 1068 (Stand 18. September 2026) am 21. September 2026 erneut abgerufen · Zum Richtlinientext",
+      "sourceText": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 15. Oktober 2026: Bundestag, Textarchiv zur Abstimmung am 8. Oktober 2026 (zum Bundestag), Beschlussempfehlung Drucksache 21/8429 mit dem Inkrafttreten in Artikel 17 (zur Beschlussempfehlung), Regierungsentwurf Drucksache 21/4297 vom 25. Februar 2026 (zum Entwurf), Beratungsvorgang des Bundesrates zu Drucksache 584/26 (zum Beratungsvorgang) · Zum Richtlinientext",
       "sourceLinks": [
         {
-          "name": "zur Drucksache",
+          "name": "zum Bundestag",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-produkthaftungsrecht-1222456"
+        },
+        {
+          "name": "zur Beschlussempfehlung",
+          "url": "https://dserver.bundestag.de/btd/21/084/2108429.pdf"
+        },
+        {
+          "name": "zum Entwurf",
           "url": "https://dserver.bundestag.de/btd/21/042/2104297.pdf"
         },
         {
           "name": "zum Beratungsvorgang",
-          "url": "https://www.bundesrat.de/bv.html?id=0775-25"
+          "url": "https://www.bundesrat.de/bv.html?id=0584-26"
         },
         {
           "name": "Zum Richtlinientext",
           "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
         }
       ],
-      "citationText": "Nach Artikel 10 der neuen EU-Produkthaftungsrichtlinie geht ein Gericht von der Fehlerhaftigkeit aus, wenn deren Beweis dem Kläger „insbesondere aufgrund der technischen oder wissenschaftlichen Komplexität übermäßig schwierig“ ist und er nur noch ihre Wahrscheinlichkeit nachweist. Umzusetzen ist sie bis zum 9. Dezember 2026. (Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 10. September 2026: Bundestagsdrucksache 21/4297 vom 25. Februar 2026 (zur Drucksache), Wortprotokoll 21/31 des Ausschusses für Recht und Verbraucherschutz zur öffentlichen Anhörung am 13. April 2026, Beratungsvorgang BR-Drs. 775/25 und die Tagesordnungen der Bundesratssitzungen 1061 bis 1068 (zum Beratungsvorgang), BMJV-Verfahrensseite mit Status „Entwurf“ und letzter Aktualisierung vom 5. März 2026 · Tagesordnung der Sitzung 1068 (Stand 18. September 2026) am 21. September 2026 erneut abgerufen). https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu · via https://robert-haase.de/belege.html#produkthaftung-komplexitaet"
+      "citationText": "Nach Artikel 10 der neuen EU-Produkthaftungsrichtlinie geht ein Gericht von der Fehlerhaftigkeit aus, wenn deren Beweis dem Kläger „insbesondere aufgrund der technischen oder wissenschaftlichen Komplexität übermäßig schwierig“ ist und er nur noch ihre Wahrscheinlichkeit nachweist. Umzusetzen ist sie bis zum 9. Dezember 2026. (Richtlinie (EU) 2024/2853, Artikel 10; Umsetzung in Deutschland: Bundestagsbeschluss vom 8. Oktober 2026, Bundesrat am 16. Oktober 2026). https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu · via https://robert-haase.de/belege.html#produkthaftung-komplexitaet"
     },
     {
       "@type": "Claim",
@@ -1923,10 +1953,10 @@
       "text": "Ein US-Bundesberufungsgericht hob am 4. August 2026 die einstweilige Verfügung gegen Perplexity auf und verwies zurück. Nach dem Computer Fraud and Abuse Act greift beim Einkaufsagenten der Nutzer zu, nicht der Anbieter, solange der Agent im Browser des Nutzers läuft und die Server des Anbieters die fremde Seite nie aufrufen.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026 · Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66 nach dem öffentlichen RECAP-Aktenspiegel (CourtListener, Docket 72502129), letzter Abgleich 21. August 2026, nicht aus der verlinkten Entscheidung · Ablehnung des Antrags laut Courthouse News, „No 9th Circuit rehearing in Amazon-Perplexity case“, 10. September 2026, die Anordnung selbst nicht eingesehen",
+        "name": "Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026 · Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66 nach dem öffentlichen RECAP-Aktenspiegel (CourtListener, Docket 72502129), letzter Abgleich 21. August 2026, nicht aus der verlinkten Entscheidung · Ablehnung des Antrags: Beschluss vom 10. September 2026, Docket-Eintrag 71.1, gelesen in der Kopie bei Courthouse News · erste Instanz, Case 3:25-cv-09514 (N.D. Cal.): geänderte Klage vom 21. September 2026 und Antrag auf Abweisung vom 13. Oktober 2026 mit Anhörung am 20. November 2026, beide gelesen am 15. Oktober 2026 über den öffentlichen RECAP-Aktenspiegel",
         "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
       },
-      "disambiguatingDescription": "Was die Entscheidung ist und was nicht: Sie ist vorläufig, geprüft wurden nur die Erfolgsaussichten im Eilverfahren. Amazon hat am 18. August 2026 Rehearing en banc beantragt; das Gericht hat den Antrag abgelehnt, kein Richter verlangte eine Abstimmung (Bericht vom 10. September 2026). Es ist US-Recht und bindet in Europa niemanden. Was das Gericht offen lässt: Zu serverseitigen Agenten sagt es nichts, es errichte keine neue Rechtsordnung für agentische KI, entscheide nichts über Haftung aus Delikt, und bei anderer Aktenlage könne der Anbieter so viel Kontrolle ausüben, dass er selbst zugreift. Der Fall betrifft den fremden Agenten auf der eigenen Seite, nicht die Haftung für den eigenen. Die Nutzungsbedingungen bleiben unberührt. Im Einzelnen: Der Agent ist das Werkzeug des Nutzers.",
+      "disambiguatingDescription": "Was die Entscheidung ist und was nicht: Sie ist vorläufig, geprüft wurden nur die Erfolgsaussichten im Eilverfahren. Amazon hat am 18. August 2026 Rehearing en banc beantragt; das Gericht hat den Antrag am 10. September 2026 abgelehnt, kein Richter verlangte eine Abstimmung. Es ist US-Recht und bindet in Europa niemanden. Was das Gericht offen lässt: Zu serverseitigen Agenten sagt es nichts, es errichte keine neue Rechtsordnung für agentische KI, entscheide nichts über Haftung aus Delikt, und bei anderer Aktenlage könne der Anbieter so viel Kontrolle ausüben, dass er selbst zugreift. Genau darauf stützt Amazon die geänderte Klage vom 21. September 2026 in erster Instanz: Bei Comet für iOS hätten Perplexitys eigene Server vom 18. März bis mindestens 11. Mai 2026 mit den Anmelde-Cookies der Nutzer direkt auf Amazon zugegriffen; neu ist außerdem der Vorwurf der Störung fremder Verträge. Perplexity hat die Abweisung beantragt, die Anhörung ist für den 20. November 2026 angesetzt. Der Fall betrifft den fremden Agenten auf der eigenen Seite, nicht die Haftung für den eigenen. Die Nutzungsbedingungen bleiben unberührt. Im Einzelnen: Der Agent ist das Werkzeug des Nutzers.",
       "position": 54,
       "id": "perplexity-cfaa",
       "url": "https://robert-haase.de/belege.html#perplexity-cfaa",
@@ -1935,18 +1965,22 @@
         "name": "Gerichtsurteil, nicht endgültig",
         "group": "strong"
       },
-      "sourceText": "Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026 · Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66 nach dem öffentlichen RECAP-Aktenspiegel (CourtListener, Docket 72502129), letzter Abgleich 21. August 2026, nicht aus der verlinkten Entscheidung · Ablehnung des Antrags laut Courthouse News, „No 9th Circuit rehearing in Amazon-Perplexity case“, 10. September 2026, die Anordnung selbst nicht eingesehen (Bericht) · Zur Quelle",
+      "sourceText": "Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026 · Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66 nach dem öffentlichen RECAP-Aktenspiegel (CourtListener, Docket 72502129), letzter Abgleich 21. August 2026, nicht aus der verlinkten Entscheidung · Ablehnung des Antrags: Beschluss vom 10. September 2026, Docket-Eintrag 71.1, gelesen in der Kopie bei Courthouse News (Beschluss) · erste Instanz, Case 3:25-cv-09514 (N.D. Cal.): geänderte Klage vom 21. September 2026 und Antrag auf Abweisung vom 13. Oktober 2026 mit Anhörung am 20. November 2026, beide gelesen am 15. Oktober 2026 über den öffentlichen RECAP-Aktenspiegel (Aktenspiegel der ersten Instanz) · Zur Quelle",
       "sourceLinks": [
         {
-          "name": "Bericht",
-          "url": "https://www.courthousenews.com/no-9th-circuit-rehearing-in-amazon-perplexity-case/"
+          "name": "Beschluss",
+          "url": "https://www.courthousenews.com/wp-content/uploads/2026/09/amazon-perplexity-no-rehearing.pdf"
+        },
+        {
+          "name": "Aktenspiegel der ersten Instanz",
+          "url": "https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/"
         },
         {
           "name": "Zur Quelle",
           "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
         }
       ],
-      "citationText": "Ein US-Bundesberufungsgericht hob am 4. August 2026 die einstweilige Verfügung gegen Perplexity auf und verwies zurück. Nach dem Computer Fraud and Abuse Act greift beim Einkaufsagenten der Nutzer zu, nicht der Anbieter, solange der Agent im Browser des Nutzers läuft und die Server des Anbieters die fremde Seite nie aufrufen. (Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Urteil vom 4. August 2026, FOR PUBLICATION · Rehearing en banc am 18. August 2026 beantragt, laut Bericht vom 10. September 2026 abgelehnt). https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf · via https://robert-haase.de/belege.html#perplexity-cfaa"
+      "citationText": "Ein US-Bundesberufungsgericht hob am 4. August 2026 die einstweilige Verfügung gegen Perplexity auf und verwies zurück. Nach dem Computer Fraud and Abuse Act greift beim Einkaufsagenten der Nutzer zu, nicht der Anbieter, solange der Agent im Browser des Nutzers läuft und die Server des Anbieters die fremde Seite nie aufrufen. (Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, Ninth Circuit, Urteil vom 4. August 2026, FOR PUBLICATION · Rehearing en banc am 10. September 2026 abgelehnt). https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf · via https://robert-haase.de/belege.html#perplexity-cfaa"
     },
     {
       "@type": "Claim",
@@ -1978,13 +2012,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#frontify-mcp",
-      "text": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 17. September 2026 führt er, einzeln aufgeführt, 53 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff; am 10. September waren es 54.",
+      "text": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 15. Oktober 2026 führt er, einzeln aufgeführt, 47 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff; im September waren es 54 und 53.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 17. September 2026 53 beziehungsweise 24 Einträge mit eindeutigen Namen (am 10. September 54 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52",
+        "name": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 15. Oktober 2026 47 beziehungsweise 24 Einträge mit eindeutigen Namen (am 10. September 54 und 24, am 17. September 53 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52",
         "url": "https://mcp.frontify-integrations.com/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: 53 ist ein Stichtagswert und bewegt sich: Am 10. September 2026 waren es 54, eine Woche später 53. Den Zusatz Beta führt das Help Center seit September 2026 nicht mehr im Titel. Die Herstellerdokumentation nennt an zwei Stellen 52 und für das lesende Paket 25 statt 24: Wer 52 zitiert, zitiert die Dokumentation, nicht das ausgezählte System. Einen Grund dafür nennt keine der vier Frontify-Quellen. Die Paketzahlen sind überlappende Teilmengen der 53 und dürfen nicht addiert werden. Die Guide-Überschrift kündigt den Server mit zehn Werkzeugen an, gemeint sind zehn Pakete, mehr als das Fünffache daneben. Was der Eintrag nicht belegt: Belegt ist, was ein Anbieter über sein eigenes Produkt sagt, nirgends unabhängig geprüft: der Umfang einer Schnittstelle, nicht Verbreitung, Nutzung, Wirkung oder die Qualität der ausgelieferten Markenregeln. Kein Werkzeug entscheidet über eine Aussage, die Pakete lesen, schreiben und verwalten. Ein Zugriffsprotokoll ist nicht belegt: „Audit trail of AI interactions“ ist bei Frontify ein Auswahlkriterium für Käufer, in Repository, Server-Seiten und Help Center kommt das Wort audit nicht vor. Der Server ist nicht standardmäßig aktiv. Seit Mitte September 2026 schalten Account-Admins ihn selbst frei, laut Help Center ohne Aufpreis und ohne die Kundenbetreuung; am 10. September lief der Zugang noch über die Kundenbetreuung, kostenfrei mit Preisvorbehalt. Dazu kommt ein offizieller Connector im Verzeichnis von Claude. Wie der angeschlossene KI-Anbieter die Daten verarbeitet, kontrolliert Frontify nach eigener Angabe nicht. Im Einzelnen: Das lesende Discovery-Paket enthält 24 Werkzeuge, das Admin-Paket alle 53, zwei davon sind als destruktiv gekennzeichnet.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: 47 ist ein Stichtagswert und bewegt sich: Am 10. September 2026 waren es 54, eine Woche später 53, am 15. Oktober 47. Den Zusatz Beta führt das Help Center seit September 2026 nicht mehr im Titel. Die Herstellerdokumentation nennt an zwei Stellen 52 und für das lesende Paket 25 statt 24: Wer 52 zitiert, zitiert die Dokumentation, nicht das ausgezählte System. Einen Grund dafür nennt keine der vier Frontify-Quellen. Die Paketzahlen sind überlappende Teilmengen der 47 und dürfen nicht addiert werden. Die Guide-Überschrift kündigt den Server mit zehn Werkzeugen an, gemeint sind zehn Pakete, mehr als das Fünffache daneben. Was der Eintrag nicht belegt: Belegt ist, was ein Anbieter über sein eigenes Produkt sagt, nirgends unabhängig geprüft: der Umfang einer Schnittstelle, nicht Verbreitung, Nutzung, Wirkung oder die Qualität der ausgelieferten Markenregeln. Kein Werkzeug entscheidet über eine Aussage, die Pakete lesen, schreiben und verwalten. Ein Zugriffsprotokoll ist nicht belegt: „Audit trail of AI interactions“ ist bei Frontify ein Auswahlkriterium für Käufer, in Repository, Server-Seiten und Help Center kommt das Wort audit nicht vor. Der Server ist nicht standardmäßig aktiv. Seit Mitte September 2026 schalten Account-Admins ihn selbst frei, laut Help Center ohne Aufpreis und ohne die Kundenbetreuung; am 10. September lief der Zugang noch über die Kundenbetreuung, kostenfrei mit Preisvorbehalt. Dazu kommt ein offizieller Connector im Verzeichnis von Claude. Wie der angeschlossene KI-Anbieter die Daten verarbeitet, kontrolliert Frontify nach eigener Angabe nicht. Im Einzelnen: Das lesende Discovery-Paket enthält 24 Werkzeuge, darunter Farbpaletten und Schriftfamilien der Marke, das Admin-Paket alle 47, sieben davon sind als destruktiv gekennzeichnet, etwa Assets verschieben oder ändern und Kommentare löschen.",
       "position": 56,
       "id": "frontify-mcp",
       "url": "https://robert-haase.de/belege.html#frontify-mcp",
@@ -1993,7 +2027,7 @@
         "name": "Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 17. September 2026 53 beziehungsweise 24 Einträge mit eindeutigen Namen (am 10. September 54 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz (Repository) · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis (Help Center) · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52 (Guide) · Zum Server",
+      "sourceText": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 15. Oktober 2026 47 beziehungsweise 24 Einträge mit eindeutigen Namen (am 10. September 54 und 24, am 17. September 53 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz (Repository) · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis (Help Center) · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52 (Guide) · Zum Server",
       "sourceLinks": [
         {
           "name": "Repository",
@@ -2012,18 +2046,18 @@
           "url": "https://mcp.frontify-integrations.com/"
         }
       ],
-      "citationText": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server, der am 17. September 2026 53 Werkzeuge in zehn Paketen führt (am 10. September waren es 54), vom rein lesenden Zugriff bis zum vollen Verwaltungszugriff. (Frontify, MCP-Server-Übersicht und Paketseiten, Werkzeuge einzeln ausgezählt, abgerufen am 10. und 17. September 2026; die Herstellerdokumentation nennt 52). https://mcp.frontify-integrations.com/ · via https://robert-haase.de/belege.html#frontify-mcp"
+      "citationText": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 15. Oktober 2026 führt er, einzeln aufgeführt, 47 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff; im September waren es 54 und 53. (Frontify, MCP-Server-Übersicht und Paketseiten, Werkzeuge einzeln ausgezählt, abgerufen am 15. Oktober 2026; die Herstellerdokumentation nennt 52). https://mcp.frontify-integrations.com/ · via https://robert-haase.de/belege.html#frontify-mcp"
     },
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#canva-mcp",
-      "text": "Canva betreibt einen offiziellen MCP-Server und dokumentiert dafür 33 Werkzeuge: 27 stehen in allen Tarifen; vier setzen mindestens Canva Pro voraus, darunter Brand Kits auflisten und Markenvorlagen nutzen; zwei bleiben Enterprise vorbehalten. Jeder meldet sich einzeln an, ein Agent hat die Rechte des angemeldeten Menschen.",
+      "text": "Canva betreibt einen offiziellen MCP-Server und dokumentiert dafür 46 Werkzeuge: 37 stehen in allen Tarifen; neun setzen mindestens Canva Pro voraus, darunter Brand Kits auflisten und Markenvorlagen anlegen; Enterprise allein ist keines mehr vorbehalten. Jeder meldet sich einzeln an, ein Agent hat die Rechte des angemeldeten Menschen.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Canva, „MCP tools and rate limits“, Werkzeugkatalog mit Tarifstufen und Legende, 33 Einträge einzeln ausgezählt · Canva, „Canva Model Context Protocol (MCP)“, Serveradresse mcp.canva.com/mcp, Anmeldung und Tarifübersicht · beide abgerufen am 10. September 2026",
-        "url": "https://www.canva.dev/docs/mcp/tools/"
+        "name": "Canva, Werkzeugliste des MCP-Servers mit Tarifstufen und Legende in der Entwicklerdokumentation, 46 Einträge einzeln ausgezählt, abgerufen am 15. Oktober 2026 (am 10. September 2026: 33) · Canva, „Canva Model Context Protocol (MCP)“, Serveradresse mcp.canva.com/mcp, Anmeldung und Tarifübersicht, abgerufen am 10. September 2026",
+        "url": "https://www.canva.dev/docs/apps/mcp/tools/"
       },
-      "disambiguatingDescription": "Wo die Tarifgrenze liegt: Die Übersichtsseite stellt den markenbezogenen Teil scheinbar auf Enterprise; maßgeblich ist die Werkzeugliste: „Pro and above“ heißt dort Pro, Business und Enterprise. Was der Eintrag nicht belegt: Eigenangaben eines Anbieters ohne unabhängige Prüfung. Belegt sind Existenz und Umfang der Schnittstelle, nicht Verbreitung, Nutzung oder Wirkung. Kein Werkzeug prüft eine Aussage gegen Markenregeln; Brand Kits werden gelesen und eingefüllt. Der Export läuft in allen Tarifen, freie aber nur in Standardqualität, und Premium-Elemente können ihn in jedem Tarif mit license_required scheitern lassen. Haltbarkeit: Die 33 gilt zum Abrufdatum, die Dokumentation trägt keine Versionsangabe. Der Server verlangt nur ein Canva-Konto in beliebigem Tarif; eine eigene Integration braucht Canvas Freigabe. Im Einzelnen: Zu den 27 Werkzeugen in allen Tarifen gehören Designs erzeugen und exportieren. Enterprise vorbehalten sind eine Vorlage automatisch befüllen und den zugehörigen Datensatz auslesen.",
+      "disambiguatingDescription": "Wo die Tarifgrenze liegt: Die Übersichtsseite stellt den markenbezogenen Teil scheinbar auf Enterprise; maßgeblich ist die Werkzeugliste: „Pro and above“ heißt dort Pro, Business und Enterprise. Was der Eintrag nicht belegt: Eigenangaben eines Anbieters ohne unabhängige Prüfung. Belegt sind Existenz und Umfang der Schnittstelle, nicht Verbreitung, Nutzung oder Wirkung. Kein Werkzeug prüft eine Aussage gegen Markenregeln; Brand Kits werden gelesen und eingefüllt. Der Export läuft in allen Tarifen, freie aber nur in Standardqualität, und Premium-Elemente können ihn in jedem Tarif mit license_required scheitern lassen. Haltbarkeit: Die 46 gilt zum Abrufdatum, am 10. September 2026 waren es 33; die Dokumentation trägt keine Versionsangabe und ist inzwischen umgezogen. Der Server verlangt nur ein Canva-Konto in beliebigem Tarif; eine eigene Integration braucht Canvas Freigabe. Im Einzelnen: Zu den 37 Werkzeugen in allen Tarifen gehören Designs erzeugen, bearbeiten und exportieren. Eine Vorlage automatisch befüllen und den zugehörigen Datensatz auslesen, im September Enterprise vorbehalten, steht jetzt ab Pro. Für alle Werkzeuge zusammen gilt eine Obergrenze von 300 Anfragen je Minute und Nutzer.",
       "position": 57,
       "id": "canva-mcp",
       "url": "https://robert-haase.de/belege.html#canva-mcp",
@@ -2032,18 +2066,18 @@
         "name": "Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "Canva, „MCP tools and rate limits“, Werkzeugkatalog mit Tarifstufen und Legende, 33 Einträge einzeln ausgezählt · Canva, „Canva Model Context Protocol (MCP)“, Serveradresse mcp.canva.com/mcp, Anmeldung und Tarifübersicht (Serverdokumentation) · beide abgerufen am 10. September 2026 · Zum Werkzeugkatalog",
+      "sourceText": "Canva, Werkzeugliste des MCP-Servers mit Tarifstufen und Legende in der Entwicklerdokumentation, 46 Einträge einzeln ausgezählt, abgerufen am 15. Oktober 2026 (am 10. September 2026: 33) · Canva, „Canva Model Context Protocol (MCP)“, Serveradresse mcp.canva.com/mcp, Anmeldung und Tarifübersicht (Serverdokumentation), abgerufen am 10. September 2026 · Zum Werkzeugkatalog",
       "sourceLinks": [
         {
           "name": "Serverdokumentation",
-          "url": "https://www.canva.dev/docs/mcp/"
+          "url": "https://www.canva.dev/docs/apps/mcp/"
         },
         {
           "name": "Zum Werkzeugkatalog",
-          "url": "https://www.canva.dev/docs/mcp/tools/"
+          "url": "https://www.canva.dev/docs/apps/mcp/tools/"
         }
       ],
-      "citationText": "Canva dokumentiert für seinen offiziellen MCP-Server 33 Werkzeuge. Brand Kits auflisten und Markenvorlagen verwenden liegt bei Pro und darüber; Enterprise betrifft allein das automatische Befüllen einer Vorlage und den zugehörigen Datensatz. (Canva, MCP tools and rate limits, 33 Einträge einzeln ausgezählt, abgerufen am 10. September 2026). https://www.canva.dev/docs/mcp/tools/ · via https://robert-haase.de/belege.html#canva-mcp"
+      "citationText": "Canva betreibt einen offiziellen MCP-Server und dokumentiert dafür 46 Werkzeuge: 37 stehen in allen Tarifen; neun setzen mindestens Canva Pro voraus, darunter Brand Kits auflisten und Markenvorlagen anlegen; Enterprise allein ist keines mehr vorbehalten. Jeder meldet sich einzeln an, ein Agent hat die Rechte des angemeldeten Menschen. (Canva, Werkzeugliste des MCP-Servers, 46 Einträge einzeln ausgezählt, abgerufen am 15. Oktober 2026). https://www.canva.dev/docs/apps/mcp/tools/ · via https://robert-haase.de/belege.html#canva-mcp"
     },
     {
       "@type": "Claim",
@@ -2774,13 +2808,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
-      "text": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,8 auf Rang drei, hinter zwei Einreichungen von Google DeepMind mit Werkzeugen und Zusatzkontext (69,1 und 68,9). Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,7 vor dem besten Modell mit 62,2.",
+      "text": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,7 gleichauf mit einer Einreichung von Google DeepMind auf Rang drei, hinter zwei weiteren mit Werkzeugen und Zusatzkontext (69,0 und 68,9). Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,7 vor dem besten Modell mit 61,9.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 28. September 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand",
+        "name": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 15. Oktober 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand",
         "url": "https://www.forecastbench.org/leaderboards/"
       },
-      "disambiguatingDescription": "Was die Rangliste nicht sagt: Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die Plätze vor und direkt hinter dem Median, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Die Werte verschieben sich mit jeder nächtlichen Neuberechnung um Zehntel. Bestwert aus vielen Versuchen: Google DeepMind hält 52 der 377 Einreichungen und alle drei Plätze vor und direkt hinter dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 847. Zur Parität: Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Juni 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke. Im Einzelnen: Eine dritte Einreichung von Google DeepMind folgt knapp hinter dem Median (68,7).",
+      "disambiguatingDescription": "Was die Rangliste nicht sagt: Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die Plätze vor und neben dem Median, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Die Werte verschieben sich mit jeder nächtlichen Neuberechnung um Zehntel. Bestwert aus vielen Versuchen: Google DeepMind hält 56 der 427 Einreichungen und alle drei Plätze vor und neben dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 847. Zur Parität: Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Juni 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke. Im Einzelnen: Das beste Modell der Basis-Rangliste ist am 15. Oktober Kimi K3 Max von Moonshot AI (61,9); Ende September führte Claude Sonnet 4.6 mit 62,2, jetzt steht es bei 61,1.",
       "position": 83,
       "id": "prognose-mensch-maschine",
       "url": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
@@ -2789,7 +2823,7 @@
         "name": "Laufende Messung",
         "group": "plain"
       },
-      "sourceText": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 28. September 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · Ranglisten-Dateien · Zur Rangliste",
+      "sourceText": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 15. Oktober 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · Ranglisten-Dateien · Zur Rangliste",
       "sourceLinks": [
         {
           "name": "Ranglisten-Dateien",
@@ -2800,7 +2834,7 @@
           "url": "https://www.forecastbench.org/leaderboards/"
         }
       ],
-      "citationText": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,8 auf Rang drei, hinter zwei Einreichungen von Google DeepMind mit Werkzeugen und Zusatzkontext (69,1 und 68,9). Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,7 vor dem besten Modell mit 62,2. (ForecastBench, Stand 28. September 2026; die Signifikanzspalte verneint einen Unterschied für die Plätze vor und direkt hinter dem Median). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/belege.html#prognose-mensch-maschine"
+      "citationText": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,7 gleichauf mit einer Einreichung von Google DeepMind auf Rang drei, hinter zwei weiteren mit Werkzeugen und Zusatzkontext (69,0 und 68,9). Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,7 vor dem besten Modell mit 61,9. (ForecastBench, Stand 15. Oktober 2026; die Signifikanzspalte verneint einen Unterschied für die Plätze vor und neben dem Median). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/belege.html#prognose-mensch-maschine"
     },
     {
       "@type": "Claim",
@@ -3494,13 +3528,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#agentenstandards-verbreitung",
-      "text": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 107.155 erfolgreich geprüften führen 0,43 Prozent eine MCP Server Card, 0,47 Prozent Agent Skills und 1,8 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bietet keine einzige an.",
+      "text": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 109.493 erfolgreich geprüften führen 0,51 Prozent eine MCP Server Card, 0,52 Prozent Agent Skills und 2,4 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bieten 2,6 Prozent an.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 21. September 2026 · 107.155 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 · abgerufen am 23. September 2026",
+        "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 12. Oktober 2026 · 109.493 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 · früherer Stand 21. September 2026 mit 107.155 Domains · abgerufen am 15. Oktober 2026",
         "url": "https://radar.cloudflare.com/ai-insights"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Gezählt werden Dateien und Endpunkte, die ein Scan an festen Adressen findet, etwa /.well-known/mcp/server-card.json, nicht ihre Nutzung; ob ein Agent sie liest, misst Radar nicht. Es ist eine Messung des Anbieters mit eigener Auswahl: Suchmaschinen sowie leere und nicht erreichbare Infrastruktur sind ausgenommen, und nicht jeder Standard passt zu jeder Website, x402 etwa nur zu Bezahlinhalten, WebMCP nur zu Seiten, die Agenten Werkzeuge anbieten. Die Null bei WebMCP ist die unsicherste Zahl: Wie Radar WebMCP erkennt, beschreibt Cloudflare nicht, und Werkzeuge, die eine Seite erst per JavaScript anmeldet, kann ein Scan übersehen. Im Kleinen gemessen: Die eigenen Erhebungen zur robots.txt deutschsprachiger Medien und der Unternehmen aus DAX, MDAX und SDAX und der Eintrag zu Content-Signal zählen dieselbe Frage an bekannten Listen. Wie viele Händler UCP betreiben, nennen die beteiligten Firmen selbst nicht, wie der Eintrag zum UCP-Gremium belegt; Radar ist eine zweite Zählung von außen. Im Einzelnen: Eine MCP Server Card beschreibt einen eigenen MCP-Server. Unter den Handelsprotokollen kommt UCP auf 4,8 Prozent, AP2 auf zwei Domains.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Gezählt werden Dateien und Endpunkte, die ein Scan an festen Adressen findet, etwa /.well-known/mcp/server-card.json, nicht ihre Nutzung; ob ein Agent sie liest, misst Radar nicht. Es ist eine Messung des Anbieters mit eigener Auswahl: Suchmaschinen sowie leere und nicht erreichbare Infrastruktur sind ausgenommen, und nicht jeder Standard passt zu jeder Website, x402 etwa nur zu Bezahlinhalten, WebMCP nur zu Seiten, die Agenten Werkzeuge anbieten. Die WebMCP-Zahl ist die unsicherste: Am 21. September 2026 zählte Radar keine einzige Domain, am 12. Oktober 2.853. Wie Radar WebMCP erkennt und ob sich die Erkennung geändert hat, beschreibt Cloudflare nicht; Werkzeuge, die eine Seite erst per JavaScript anmeldet, kann ein Scan übersehen. Auch andere Werte springen zwischen den Ständen, UCP etwa von 4,8 auf 3,4 Prozent. Im Kleinen gemessen: Die eigenen Erhebungen zur robots.txt deutschsprachiger Medien und der Unternehmen aus DAX, MDAX und SDAX und der Eintrag zu Content-Signal zählen dieselbe Frage an bekannten Listen. Wie viele Händler UCP betreiben, nennen die beteiligten Firmen selbst nicht, wie der Eintrag zum UCP-Gremium belegt; Radar ist eine zweite Zählung von außen. Im Einzelnen: Eine MCP Server Card beschreibt einen eigenen MCP-Server. Unter den Handelsprotokollen kommt UCP auf 3,4 Prozent, AP2 auf vier Domains.",
       "position": 109,
       "id": "agentenstandards-verbreitung",
       "url": "https://robert-haase.de/belege.html#agentenstandards-verbreitung",
@@ -3509,7 +3543,7 @@
         "name": "Marktbeobachtung",
         "group": "plain"
       },
-      "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 21. September 2026 · 107.155 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 (zum Methodenbeitrag) · abgerufen am 23. September 2026 · Zur Quelle",
+      "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 12. Oktober 2026 · 109.493 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 (zum Methodenbeitrag) · früherer Stand 21. September 2026 mit 107.155 Domains · abgerufen am 15. Oktober 2026 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zum Methodenbeitrag",
@@ -3520,7 +3554,7 @@
           "url": "https://radar.cloudflare.com/ai-insights"
         }
       ],
-      "citationText": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 107.155 erfolgreich geprüften führen 0,43 Prozent eine MCP Server Card, 0,47 Prozent Agent Skills und 1,8 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bietet keine einzige an. (Cloudflare Radar, „Adoption of AI agent standards“, Stand 21. September 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#agentenstandards-verbreitung"
+      "citationText": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 109.493 erfolgreich geprüften führen 0,51 Prozent eine MCP Server Card, 0,52 Prozent Agent Skills und 2,4 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bieten 2,6 Prozent an. (Cloudflare Radar, „Adoption of AI agent standards“, Stand 12. Oktober 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#agentenstandards-verbreitung"
     },
     {
       "@type": "Claim",
@@ -3768,26 +3802,30 @@
       "text": "Sollen Web-Agenten im Netz gefundenes Wissen zu einem Dokument, einer Tabelle oder einer Präsentation verarbeiten, schafft selbst der beste weniger als 3 Prozent der Aufgaben vollständig. Im Test mit 110 Aufgaben hat überhaupt nur der KI-Browser Perplexity Comet Aufgaben vollständig gelöst, 2,7 Prozent insgesamt.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, Preprint ohne Begutachtung · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026",
+        "name": "Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, laut Kommentarfeld angenommen für Findings of EMNLP 2026 (geprüft am 15. Oktober 2026) · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · Einstellung von ChatGPT Atlas: OpenAI Help Center, „ChatGPT Atlas retirement“, abgerufen am 15. Oktober 2026",
         "url": "https://arxiv.org/abs/2609.30604"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist ein Preprint ohne Begutachtung, eine Arbeitsgruppe, 110 selbst gebaute Aufgaben. Eine menschliche Vergleichsgruppe gibt es nicht, jede Aufgabe hat beim Bau aber ein Autor vollständig gelöst. Gemessen ist die vollständige Erledigung langer Aufgaben mit einer Datei in Google Docs, Sheets oder Slides als Ergebnis, nicht das Finden einer Information. Der Abstand zu anderen Messungen: Die 97,7 Prozent im Eintrag zum Erfolg von Web-Agenten messen das Navigieren. Zusammen zeigen beide, dass ein Agent die richtige Seite finden und trotzdem ein unbrauchbares Ergebnis abliefern kann. Im Einzelnen: Zu jeder Aufgabe gehören mindestens fünf Informationen von mindestens zwei Websites; geprüft wurden Claude Opus 4.7, GPT-5.5 und DeepSeek V4 Pro sowie die KI-Browser ChatGPT Atlas und Perplexity Comet. Scheitern die Agenten an visuellen Schritten, ist die erzeugte Datei unbrauchbar, auch wenn sie mehr als die Hälfte der übrigen Prüfschritte erfüllen.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Die Arbeit ist laut den Autoren für die Findings der Konferenz EMNLP 2026 angenommen, der Tagungsband ist noch nicht erschienen; eine Arbeitsgruppe, 110 selbst gebaute Aufgaben. Eine menschliche Vergleichsgruppe gibt es nicht, jede Aufgabe hat beim Bau aber ein Autor vollständig gelöst. Gemessen ist die vollständige Erledigung langer Aufgaben mit einer Datei in Google Docs, Sheets oder Slides als Ergebnis, nicht das Finden einer Information. Der Abstand zu anderen Messungen: Die 97,7 Prozent im Eintrag zum Erfolg von Web-Agenten messen das Navigieren. Zusammen zeigen beide, dass ein Agent die richtige Seite finden und trotzdem ein unbrauchbares Ergebnis abliefern kann. Im Einzelnen: Zu jeder Aufgabe gehören mindestens fünf Informationen von mindestens zwei Websites; geprüft wurden Claude Opus 4.7, GPT-5.5 und DeepSeek V4 Pro sowie die KI-Browser ChatGPT Atlas und Perplexity Comet. Scheitern die Agenten an visuellen Schritten, ist die erzeugte Datei unbrauchbar, auch wenn sie mehr als die Hälfte der übrigen Prüfschritte erfüllen. Den getesteten Browser ChatGPT Atlas hat OpenAI inzwischen eingestellt.",
       "position": 118,
       "id": "agenten-wissensarbeit",
       "url": "https://robert-haase.de/belege.html#agenten-wissensarbeit",
       "topic": "agenten",
       "grade": {
-        "name": "Kontrollierter Test, Preprint ohne Begutachtung",
-        "group": "weak"
+        "name": "Kontrollierter Test, zur Konferenz angenommen",
+        "group": "plain"
       },
-      "sourceText": "Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, Preprint ohne Begutachtung · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · Zur Quelle",
+      "sourceText": "Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, laut Kommentarfeld angenommen für Findings of EMNLP 2026 (geprüft am 15. Oktober 2026) · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · Einstellung von ChatGPT Atlas: OpenAI Help Center, „ChatGPT Atlas retirement“, abgerufen am 15. Oktober 2026 (zur Einstellung) · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zur Einstellung",
+          "url": "https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://arxiv.org/abs/2609.30604"
         }
       ],
-      "citationText": "Sollen Web-Agenten im Netz gefundenes Wissen zu einem Dokument, einer Tabelle oder einer Präsentation verarbeiten, schafft selbst der beste weniger als 3 Prozent der Aufgaben vollständig. Im Test mit 110 Aufgaben hat überhaupt nur der KI-Browser Perplexity Comet Aufgaben vollständig gelöst, 2,7 Prozent insgesamt. (Gill et al., University of Utah, arXiv 2609.30604, Fassung vom 24. September 2026). https://arxiv.org/abs/2609.30604 · via https://robert-haase.de/belege.html#agenten-wissensarbeit"
+      "citationText": "Sollen Web-Agenten im Netz gefundenes Wissen zu einem Dokument, einer Tabelle oder einer Präsentation verarbeiten, schafft selbst der beste weniger als 3 Prozent der Aufgaben vollständig. Im Test mit 110 Aufgaben hat überhaupt nur der KI-Browser Perplexity Comet Aufgaben vollständig gelöst, 2,7 Prozent insgesamt. (Gill et al., University of Utah, arXiv 2609.30604, angenommen für Findings of EMNLP 2026). https://arxiv.org/abs/2609.30604 · via https://robert-haase.de/belege.html#agenten-wissensarbeit"
     },
     {
       "@type": "Claim",
@@ -3888,10 +3926,10 @@
       "text": "Ein US-Bundesberufungsgericht bestätigte am 29. September 2026, dass die Nutzung fremder Texte als KI-Trainingsmaterial in diesem Fall kein Fair Use war: ROSS Intelligence hat mit 2.243 Headnotes aus Westlaw, redaktionellen Leitsätzen von Thomson Reuters, eine juristische KI-Suche trainiert und damit das Urheberrecht verletzt.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026",
+        "name": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026 · Fristverlängerung für den Antrag auf Rehearing en banc bis 3. November 2026 laut öffentlichem RECAP-Aktenspiegel (CourtListener, Docket-Einträge 215 und 217), abgerufen am 15. Oktober 2026",
         "url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf"
       },
-      "disambiguatingDescription": "Was das Urteil nicht sagt: Es geht nicht um generative KI. ROSS’ System gab nur vorhandene Textstellen aus Urteilen zurück und erzeugte nichts Neues, und das Gericht grenzt sich in Fußnote 7 ausdrücklich von den Verfahren Bartz gegen Anthropic und In re OpenAI ab. ROSS wollte mit den Daten ein Konkurrenzprodukt zu Westlaw bauen. Entschieden ist eine Zwischenberufung gegen ein Teilurteil, das Verfahren in erster Instanz ist damit nicht abgeschlossen, und es ist US-Recht. Im Einzelnen: Als geschädigten Markt wertet das Gericht die Lizenzierung von Headnotes als KI-Trainingsdaten, einen Markt, der sich laut Urteil rasch entwickelt; dass Thomson Reuters selbst nie an Dritte lizenziert hat, widerlege ihn nicht.",
+      "disambiguatingDescription": "Was das Urteil nicht sagt: Es geht nicht um generative KI. ROSS’ System gab nur vorhandene Textstellen aus Urteilen zurück und erzeugte nichts Neues, und das Gericht grenzt sich in Fußnote 7 ausdrücklich von den Verfahren Bartz gegen Anthropic und In re OpenAI ab. ROSS wollte mit den Daten ein Konkurrenzprodukt zu Westlaw bauen. Entschieden ist eine Zwischenberufung gegen ein Teilurteil, das Verfahren in erster Instanz ist damit nicht abgeschlossen, und es ist US-Recht. ROSS kann bis zum 3. November 2026 beantragen, dass das Berufungsgericht in voller Besetzung neu verhandelt; die Frist hat das Gericht auf Antrag verlängert. Im Einzelnen: Als geschädigten Markt wertet das Gericht die Lizenzierung von Headnotes als KI-Trainingsdaten, einen Markt, der sich laut Urteil rasch entwickelt; dass Thomson Reuters selbst nie an Dritte lizenziert hat, widerlege ihn nicht.",
       "position": 122,
       "id": "ross-kein-fair-use",
       "url": "https://robert-haase.de/belege.html#ross-kein-fair-use",
@@ -3900,8 +3938,12 @@
         "name": "Gerichtsurteil, nicht endgültig",
         "group": "strong"
       },
-      "sourceText": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026 · Zur Quelle",
+      "sourceText": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026 · Fristverlängerung für den Antrag auf Rehearing en banc bis 3. November 2026 laut öffentlichem RECAP-Aktenspiegel (CourtListener, Docket-Einträge 215 und 217), abgerufen am 15. Oktober 2026 (zum Aktenspiegel) · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zum Aktenspiegel",
+          "url": "https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://www2.ca3.uscourts.gov/opinarch/252153p.pdf"
@@ -4031,10 +4073,10 @@
       "text": "Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH-Verfahren C-250/25: Stand laut Verfahrensakte des Gerichtshofs, geprüft am 5. Oktober 2026",
+        "name": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH-Verfahren C-250/25: Termin der Schlussanträge laut Gerichtskalender des Gerichtshofs, geprüft am 15. Oktober 2026 · BGH, Terminhinweis zu I ZR 281/25, geprüft am 15. Oktober 2026",
         "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204"
       },
-      "disambiguatingDescription": "Was das Urteil nicht sagt: Es ist erstinstanzlich und nicht rechtskräftig. OpenAI hat am 8. Dezember 2025 Berufung zum Oberlandesgericht München eingelegt (Aktenzeichen 6 U 3662/25 e); ein Termin oder eine Entscheidung ist bis zum 2. Oktober 2026 nicht bekannt. Gestritten wurde über neun Liedtexte in den Modellen GPT-4 und GPT-4o. Den Anspruch aus dem Persönlichkeitsrecht, verfälschte Liedtexte nicht mehr den Textdichtern zuzuschreiben, hat das Gericht abgewiesen, eine Vorlage an den EuGH abgelehnt. Bei Ausgaben, die ein Nutzer gezielt provoziert, könnte die Verantwortung anders liegen, schreibt das Gericht selbst. Beim EuGH ist mit Like Company gegen Google (C-250/25) die Frage anhängig, ob das Training eines Sprachmodells eine Vervielfältigung ist und die Ausnahme für Text und Data Mining greift; verhandelt wurde dort am 10. März 2026, Schlussanträge des Generalanwalts liegen bis zum 5. Oktober 2026 nicht vor. Im Einzelnen: Gedeckt ist laut Urteil das Zusammenstellen des Trainingsdatensatzes, nicht die Vervielfältigung im Modell; als unwesentliches Beiwerk nach § 57 UrhG gelten die Liedtexte ebenfalls nicht. Dieselbe Kammer hat am 31. Juli 2026 gegen Suno auf derselben Linie entschieden (42 O 763/25).",
+      "disambiguatingDescription": "Was das Urteil nicht sagt: Es ist erstinstanzlich und nicht rechtskräftig. OpenAI hat am 8. Dezember 2025 Berufung zum Oberlandesgericht München eingelegt (Aktenzeichen 6 U 3662/25 e); ein Termin oder eine Entscheidung ist bis zum 15. Oktober 2026 nicht bekannt. Gestritten wurde über neun Liedtexte in den Modellen GPT-4 und GPT-4o. Den Anspruch aus dem Persönlichkeitsrecht, verfälschte Liedtexte nicht mehr den Textdichtern zuzuschreiben, hat das Gericht abgewiesen, eine Vorlage an den EuGH abgelehnt. Bei Ausgaben, die ein Nutzer gezielt provoziert, könnte die Verantwortung anders liegen, schreibt das Gericht selbst. Beim EuGH ist mit Like Company gegen Google (C-250/25) die Frage anhängig, ob das Training eines Sprachmodells eine Vervielfältigung ist und die Ausnahme für Text und Data Mining greift; verhandelt wurde dort am 10. März 2026, die Schlussanträge des Generalanwalts sind für den 3. November 2026 angesetzt. Im Einzelnen: Gedeckt ist laut Urteil das Zusammenstellen des Trainingsdatensatzes, nicht die Vervielfältigung im Modell; als unwesentliches Beiwerk nach § 57 UrhG gelten die Liedtexte ebenfalls nicht. Dieselbe Kammer hat am 31. Juli 2026 gegen Suno auf derselben Linie entschieden (42 O 763/25). Über das Erstellen eines Datensatzes für KI-Training verkündet der Bundesgerichtshof am 17. Dezember 2026 eine Entscheidung (I ZR 281/25).",
       "position": 127,
       "id": "gema-openai",
       "url": "https://robert-haase.de/belege.html#gema-openai",
@@ -4043,7 +4085,7 @@
         "name": "Gerichtsurteil, nicht endgültig",
         "group": "strong"
       },
-      "sourceText": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH-Verfahren C-250/25: Stand laut Verfahrensakte des Gerichtshofs, geprüft am 5. Oktober 2026 · Pressemitteilung des Gerichts · GEMA zur Berufung · Initiative Urheberrecht · Verfahrensakte C-250/25 · Zur Quelle",
+      "sourceText": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH-Verfahren C-250/25: Termin der Schlussanträge laut Gerichtskalender des Gerichtshofs, geprüft am 15. Oktober 2026 · BGH, Terminhinweis zu I ZR 281/25, geprüft am 15. Oktober 2026 · Pressemitteilung des Gerichts · GEMA zur Berufung · Initiative Urheberrecht · Verfahrensakte C-250/25 · Terminhinweis des BGH · Zur Quelle",
       "sourceLinks": [
         {
           "name": "Pressemitteilung des Gerichts",
@@ -4062,11 +4104,158 @@
           "url": "https://curia.europa.eu/juris/liste.jsf?num=C-250/25&language=de"
         },
         {
+          "name": "Terminhinweis des BGH",
+          "url": "https://www.bundesgerichtshof.de/SharedDocs/Termine/DE/Termine/IZR281-25.html"
+        },
+        {
           "name": "Zur Quelle",
           "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204"
         }
       ],
       "citationText": "Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen. (LG München I, Endurteil vom 11. November 2025, 42 O 14139/24). https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204 · via https://robert-haase.de/belege.html#gema-openai"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#chatbot-nichtnutzung",
+      "text": "51 Prozent der US-Erwachsenen nutzen nie einen KI-Chatbot. Von ihnen nennen 83 Prozent fehlendes Interesse als Grund, 79 Prozent die Sorge um ihre persönlichen Daten und 76 Prozent Misstrauen in die Richtigkeit der Antworten; 67 Prozent halten es für unwahrscheinlich, in den nächsten zwölf Monaten damit anzufangen.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Pew Research Center, Michelle Faverio, „Why Don’t Some People Use Chatbots?“, 9. Oktober 2026 · American Trends Panel, 5.119 US-Erwachsene, befragt vom 17. bis 23. Februar 2026 · abgerufen am 15. Oktober 2026",
+        "url": "https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist Selbstauskunft, erhoben vom 17. bis 23. Februar 2026 und nur in den USA. Bei den Gründen sind große und kleine zusammengezählt, mehrere waren möglich. Was daraus für Marken folgt und was nicht: Chatbots sind nicht die ganze KI-Suche. Wer nie einen Chatbot nutzt, kann trotzdem KI-Übersichten in der Google-Suche sehen, wie der Eintrag zu den Markensuchen zeigt. Neben den Nutzerzahlen der Anbieter im Eintrag zur Marktgröße zählt diese Befragung Menschen, nicht Konten. Im Einzelnen: Als großen Grund nennen 60 Prozent fehlendes Interesse, 54 Prozent den Datenschutz und 45 Prozent die Richtigkeit.",
+      "position": 128,
+      "id": "chatbot-nichtnutzung",
+      "url": "https://robert-haase.de/belege.html#chatbot-nichtnutzung",
+      "topic": "markt",
+      "grade": {
+        "name": "Befragung",
+        "group": "plain"
+      },
+      "sourceText": "Pew Research Center, Michelle Faverio, „Why Don’t Some People Use Chatbots?“, 9. Oktober 2026 · American Trends Panel, 5.119 US-Erwachsene, befragt vom 17. bis 23. Februar 2026 · abgerufen am 15. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/"
+        }
+      ],
+      "citationText": "51 Prozent der US-Erwachsenen nutzen nie einen KI-Chatbot. Von ihnen nennen 83 Prozent fehlendes Interesse als Grund, 79 Prozent die Sorge um ihre persönlichen Daten und 76 Prozent Misstrauen in die Richtigkeit der Antworten; 67 Prozent halten es für unwahrscheinlich, in den nächsten zwölf Monaten damit anzufangen. (Pew Research Center, 9. Oktober 2026, American Trends Panel, 5.119 US-Erwachsene, Februar 2026). https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/ · via https://robert-haase.de/belege.html#chatbot-nichtnutzung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis",
+      "text": "Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im September 2026 kamen laut Cloudflare bei Anthropic 555 Abrufe auf einen Verweis, bei OpenAI 354 und bei Perplexity 2.283, bei Google 4,7 und bei Microsoft 40.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 30. September 2026, Werte über die Datenschnittstelle der Seite abgefragt am 15. Oktober 2026, ebenso Juli, August und 1. bis 14. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026",
+        "url": "https://radar.cloudflare.com/ai-insights"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Native Apps senden beim Weiterleiten keine Herkunftsangabe (Referrer), die Claude-App nachweislich nicht; Cloudflare zählt diese Besuche deshalb nicht mit und schreibt selbst, die Verhältnisse seien überzeichnet, unklar wie stark. Gemessen wird nur Verkehr im eigenen Netz und nur auf HTML-Seiten. Die Monatswerte schwanken stark: OpenAI kam im Juli auf 251, im August auf 425, im September auf 354 und in der ersten Oktoberhälfte auf 902, Perplexity stieg von 289 im Juli auf 3.523. Belastbar ist der Abstand zu den Suchmaschinen, nicht der einzelne Wert. Was daraus folgt: Wer KI-Crawler zulässt, bekommt dafür bisher wenig Besuch zurück; die Einträge zur Klickrate zeigen dasselbe von der Seite der Nutzer. Im Einzelnen: Gezählt werden HTML-Abrufe der Crawler eines Anbieters, geteilt durch HTML-Abrufe, deren Referrer auf seine Plattform zeigt. DuckDuckGo kommt im September auf 3,5.",
+      "position": 129,
+      "id": "crawl-verweis-verhaeltnis",
+      "url": "https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Marktbeobachtung",
+        "group": "plain"
+      },
+      "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 30. September 2026, Werte über die Datenschnittstelle der Seite abgefragt am 15. Oktober 2026, ebenso Juli, August und 1. bis 14. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026 (zum Methodenbeitrag) · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zum Methodenbeitrag",
+          "url": "https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://radar.cloudflare.com/ai-insights"
+        }
+      ],
+      "citationText": "Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im September 2026 kamen laut Cloudflare bei Anthropic 555 Abrufe auf einen Verweis, bei OpenAI 354 und bei Perplexity 2.283, bei Google 4,7 und bei Microsoft 40. (Cloudflare Radar, „Crawl-to-refer ratio“, September 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#ki-modus-klicks",
+      "text": "In einem vorregistrierten Feldexperiment mit 1.100 US-Teilnehmenden senkte Googles KI-Modus die Klicks auf Websites: Wer eine Woche lang nur den KI-Modus bekam, klickte um 18,8 Prozentpunkte seltener auf externe Seiten als mit der gewohnten Google-Suche.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Stephanie T. Wang, Jeffrey Gleason, Yakov Bart, Christo Wilson und Danaé Metaxa, „AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence“, arXiv 2608.18352, Fassung 1 vom 18. August 2026, Preprint ohne Begutachtung · vorregistriertes Feldexperiment, 1.100 aktive Teilnehmende in den USA · Volltext gelesen am 15. Oktober 2026",
+        "url": "https://arxiv.org/abs/2608.18352"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist ein Preprint ohne Begutachtung, eine Studie, nur USA, sieben Tage je Bedingung. Der Gegenversuch ist schwächer: Ohne KI-Übersichten und KI-Modus stieg die Klickrate über alle zugeteilten Teilnehmenden nur um 2,7 Punkte, nicht signifikant; um 8,8 Punkte bei denen, bei denen die Ausblendung tatsächlich wirkte. Was es zu den übrigen Einträgen beiträgt: Die Einträge zu Pew und Ahrefs messen Zusammenhänge; dieser Versuch teilt die Bedingungen zufällig zu und belegt damit für den KI-Modus eine Ursache, nicht nur einen Zusammenhang. Im Einzelnen: Rekrutiert wurde vom 17. bis 19. März 2026, auf drei Tage gewohnte Suche als Ausgangswert folgten sieben Tage in der zugeteilten Bedingung; gezählt sind die 1.100 von 1.444 Angemeldeten, die mindestens einmal suchten. Das Konfidenzintervall der 18,8 Punkte reicht von 15,3 bis 22,2.",
+      "position": 130,
+      "id": "ki-modus-klicks",
+      "url": "https://robert-haase.de/belege.html#ki-modus-klicks",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Feldexperiment, Preprint ohne Begutachtung",
+        "group": "weak"
+      },
+      "sourceText": "Stephanie T. Wang, Jeffrey Gleason, Yakov Bart, Christo Wilson und Danaé Metaxa, „AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence“, arXiv 2608.18352, Fassung 1 vom 18. August 2026, Preprint ohne Begutachtung · vorregistriertes Feldexperiment, 1.100 aktive Teilnehmende in den USA · Volltext gelesen am 15. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://arxiv.org/abs/2608.18352"
+        }
+      ],
+      "citationText": "In einem vorregistrierten Feldexperiment mit 1.100 US-Teilnehmenden senkte Googles KI-Modus die Klicks auf Websites: Wer eine Woche lang nur den KI-Modus bekam, klickte um 18,8 Prozentpunkte seltener auf externe Seiten als mit der gewohnten Google-Suche. (Wang u. a., arXiv 2608.18352, Fassung vom 18. August 2026, Preprint). https://arxiv.org/abs/2608.18352 · via https://robert-haase.de/belege.html#ki-modus-klicks"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#mcp-server-cards",
+      "text": "Für das Model Context Protocol ist eine Erweiterung abgeschlossen, mit der ein Agent einen entfernten MCP-Server vor dem Verbinden erkennt: Eine Server Card beschreibt Identität, Adressen und Protokollversionen. Werkzeuge, Ressourcen und Prompts lässt sie bewusst weg.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Model Context Protocol, SEP-2127 „MCP Server Cards“, Extensions Track, Status Final, angelegt am 21. Januar 2026, letzte inhaltliche Überarbeitung im Pull Request 3242 vom 20. August 2026 · abgerufen am 15. Oktober 2026 · Lighthouse: Pull Requests 17258 und 17259 zur Umstellung auf Agent Resource Discovery v0.91, zusammengeführt am 9. Oktober 2026, letztes Release 13.5.0 vom 18. September 2026",
+        "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/seps/2127-mcp-server-cards.md"
+      },
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: Verbreitung und Nutzung. Die Erweiterung ist optional; laut Cloudflare führten am 12. Oktober 2026 0,51 Prozent der geprüften Domains eine Server Card, wie der Eintrag zur Verbreitung der Agenten-Standards zeigt. Wo sie liegt, ist nicht einheitlich: Die Erweiterung empfiehlt die Adresse des Servers mit dem Zusatz /server-card und erlaubt einer Website, ihre Karten in einem Katalog unter /.well-known/ai-catalog.json aufzulisten. Cloudflares Zählung sucht unter /.well-known/mcp/server-card.json, und Googles Prüfwerkzeug Lighthouse stellt seine Prüfung auf ein drittes Format um, Agent Resource Discovery; ein Release dazu steht aus. Was daraus für Marken folgt: Eine Server Card sagt einem Agenten, dass es einen Markenserver gibt und wo; was die Marke darüber erlaubt, steht nicht darin.",
+      "position": 131,
+      "id": "mcp-server-cards",
+      "url": "https://robert-haase.de/belege.html#mcp-server-cards",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Stand der Normung",
+        "group": "plain"
+      },
+      "sourceText": "Model Context Protocol, SEP-2127 „MCP Server Cards“, Extensions Track, Status Final, angelegt am 21. Januar 2026, letzte inhaltliche Überarbeitung im Pull Request 3242 vom 20. August 2026 · abgerufen am 15. Oktober 2026 · Lighthouse: Pull Requests 17258 und 17259 zur Umstellung auf Agent Resource Discovery v0.91, zusammengeführt am 9. Oktober 2026, letztes Release 13.5.0 vom 18. September 2026 (zum Pull Request) · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zum Pull Request",
+          "url": "https://github.com/GoogleChrome/lighthouse/pull/17259"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/seps/2127-mcp-server-cards.md"
+        }
+      ],
+      "citationText": "Für das Model Context Protocol ist eine Erweiterung abgeschlossen, mit der ein Agent einen entfernten MCP-Server vor dem Verbinden erkennt: Eine Server Card beschreibt Identität, Adressen und Protokollversionen. Werkzeuge, Ressourcen und Prompts lässt sie bewusst weg. (Model Context Protocol, SEP-2127 „MCP Server Cards“, Status Final, abgerufen am 15. Oktober 2026). https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/seps/2127-mcp-server-cards.md · via https://robert-haase.de/belege.html#mcp-server-cards"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#aio-markensuchen",
+      "text": "Bei Suchen nach Markennamen erscheint inzwischen meist eine KI-Übersicht: am 29. September 2026 laut Ahrefs bei 82,9 Prozent der US-Desktop-Suchen nach Markenbegriffen, im Juli lag der Monatsdurchschnitt bei 61,3 Prozent. Von den 100 wertvollsten Marken nach Interbrand bekamen am 30. September 63 eine Übersicht, 48 davon ganz oben.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Ahrefs, Ryan Law und Xibeijia Guan, „AI Overviews Currently Appear for 83% of Branded Searches“, 2. Oktober 2026 · US-Desktop, Juli bis September 2026, 232,8 Millionen Ergebnisseiten, davon 92,5 Millionen zu Markenbegriffen · Panel aus den 100 Marken von Interbrands Best Global Brands 2025 · abgerufen am 15. Oktober 2026",
+        "url": "https://ahrefs.com/blog/ai-overviews-on-branded-searches/"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Ahrefs verkauft Werkzeuge für die Suchmaschinenoptimierung und misst mit eigenen Abrufen: US-Desktop, Juli bis September 2026, 232,8 Millionen Ergebnisseiten, davon 92,5 Millionen zu Markenbegriffen. Die 82,9 Prozent sind ein einzelner Stichtag, der Septemberdurchschnitt lag bei 73,3. Gemessen ist, ob eine Übersicht erscheint, nicht, was sie über die Marke sagt und wie viele Menschen danach noch klicken. Was daraus folgt: Auch wer nach der Marke selbst sucht, bekommt meist eine Zusammenfassung, deren Quellen Google auswählt. Im Einzelnen: Am 1. Juli zeigten 5 von 98 auswertbaren Markennamen eine Übersicht, am 30. September 63 von 100. Ohne Markenbezug lag der Anteil im Monatsdurchschnitt bei 73,5, 74,7 und 78,3 Prozent.",
+      "position": 132,
+      "id": "aio-markensuchen",
+      "url": "https://robert-haase.de/belege.html#aio-markensuchen",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Marktbeobachtung",
+        "group": "plain"
+      },
+      "sourceText": "Ahrefs, Ryan Law und Xibeijia Guan, „AI Overviews Currently Appear for 83% of Branded Searches“, 2. Oktober 2026 · US-Desktop, Juli bis September 2026, 232,8 Millionen Ergebnisseiten, davon 92,5 Millionen zu Markenbegriffen · Panel aus den 100 Marken von Interbrands Best Global Brands 2025 · abgerufen am 15. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://ahrefs.com/blog/ai-overviews-on-branded-searches/"
+        }
+      ],
+      "citationText": "Bei Suchen nach Markennamen erscheint inzwischen meist eine KI-Übersicht: am 29. September 2026 laut Ahrefs bei 82,9 Prozent der US-Desktop-Suchen nach Markenbegriffen, im Juli lag der Monatsdurchschnitt bei 61,3 Prozent. Von den 100 wertvollsten Marken nach Interbrand bekamen am 30. September 63 eine Übersicht, 48 davon ganz oben. (Ahrefs, 2. Oktober 2026, 232,8 Millionen US-Desktop-Ergebnisseiten, Juli bis September 2026). https://ahrefs.com/blog/ai-overviews-on-branded-searches/ · via https://robert-haase.de/belege.html#aio-markensuchen"
     }
   ]
 }

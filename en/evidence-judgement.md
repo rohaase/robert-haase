@@ -1,6 +1,6 @@
 # Evidence: Judgement
 
-21 of 127 entries in the collection “Evidence” by Robert Haase, as of 6 October 2026.
+21 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-urteil.md
 
@@ -142,11 +142,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## prognose-mensch-maschine
 
-**Claim:** On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.8 and ranks third, behind two Google DeepMind entries allowed to use tools and extra context (69.1 and 68.9). On the base leaderboard, without tools, the human median leads at 67.7 against the best model at 62.2.
+**Claim:** On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.7 and shares third place with a Google DeepMind entry, behind two more allowed to use tools and extra context (69.0 and 68.9). On the base leaderboard, without tools, the human median leads at 67.7 against the best model at 61.9.
 
-**What the leaderboard does not say:** the machines’ lead is not established. Its own significance column finds no difference for the places ahead of and just behind the median, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. The values shift by tenths with every nightly recalculation. **A best-of-many result:** Google DeepMind holds 52 of 377 entries and all three places ahead of and just behind the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 847. **On parity:** the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to June 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand. **In detail:** A third Google DeepMind entry follows just behind the median at 68.7.
+**What the leaderboard does not say:** the machines’ lead is not established. Its own significance column finds no difference for the places ahead of and level with the median, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. The values shift by tenths with every nightly recalculation. **A best-of-many result:** Google DeepMind holds 56 of 427 entries and all three places ahead of and level with the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 847. **On parity:** the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to June 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand. **In detail:** The best model on the base leaderboard on 15 October is Moonshot AI’s Kimi K3 Max (61.9); at the end of September Claude Sonnet 4.6 led with 62.2, now it stands at 61.1.
 
-**Source:** ForecastBench, Forecasting Research Institute, tournament and base leaderboards from the nightly updated leaderboard files, as of 28 September 2026; parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · [Leaderboard files](https://github.com/forecastingresearch/forecastbench-datasets/tree/main/leaderboards/csv) · [Leaderboard](https://www.forecastbench.org/leaderboards/)
+**Source:** ForecastBench, Forecasting Research Institute, tournament and base leaderboards from the nightly updated leaderboard files, as of 15 October 2026; parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · [Leaderboard files](https://github.com/forecastingresearch/forecastbench-datasets/tree/main/leaderboards/csv) · [Leaderboard](https://www.forecastbench.org/leaderboards/)
 
 **Grade:** Ongoing measurement · Group: Status, case report, or market observation
 

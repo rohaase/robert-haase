@@ -1,6 +1,6 @@
 # Evidence: Agents
 
-23 of 127 entries in the collection “Evidence” by Robert Haase, as of 6 October 2026.
+23 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-agenten.md
 
@@ -23,8 +23,8 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (15) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten, dots-freigaberegeln
-+ Preliminary: prototype, single test, forecast, or vendor figure (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt
-+ Status, case report, or market observation (1) → aipref
++ Preliminary: prototype, single test, forecast, or vendor figure (6) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt
++ Status, case report, or market observation (2) → aipref, agenten-wissensarbeit
 
 ---
 
@@ -214,9 +214,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in just over 16 months. By August 2026 the leading entry solves even the hardest tasks, those needing eleven steps or more, completely.
 
-**What the number does not say:** The current figures come from *four* leaderboard entries, submitted by the agents' own vendors and checked by the benchmark team — not an independent survey. **And a warning sits on the leaderboard itself:** the tasks have been public since April 2025, and the team explicitly asks that they not be used as training data. Whether the scores show capability or familiarity with known tasks is therefore undecided. What is measured is whether a task was completed, not how well — and not whether the brand was represented correctly along the way. **In detail:** When the benchmark was first evaluated in March 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024.
+**What the number does not say:** The current figures come from *four* leaderboard entries, submitted by the agents' own vendors. The benchmark team has outsourced human evaluation, with a price list for submitters; according to the leaderboard, the three 2026 entries were evaluated by the service provider Careerflow.ai. This is not an independent survey. **And a warning sits on the leaderboard itself:** the tasks have been public since April 2025, and the team explicitly asks that they not be used as training data. Whether the scores show capability or familiarity with known tasks is therefore undecided. What is measured is whether a task was completed, not how well — and not whether the brand was represented correctly along the way. **In detail:** When the benchmark was first evaluated in March 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024.
 
-**Source:** Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites · [to the leaderboard](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard) · [Source](https://arxiv.org/abs/2504.01382)
+**Source:** Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites · evaluator per the leaderboard’s “Source” column and the note “We have outsourced human evaluation”, retrieved 15 October 2026 · [to the leaderboard](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard) · [Source](https://arxiv.org/abs/2504.01382)
 
 **Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
 
@@ -312,11 +312,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Asked to turn knowledge found on the web into a document, a spreadsheet or a presentation, even the best web agent fully completes fewer than 3 percent of tasks. In the benchmark of 110 tasks, only the AI browser Perplexity Comet fully completed any tasks at all, 2.7 percent overall.
 
-**What the number does not say:** it is a preprint without peer review, one research group, 110 tasks the authors built themselves. There is no human comparison group, although an author fully solved every task during construction. What is measured is complete execution of long tasks that end in a file in Google Docs, Sheets or Slides, not finding a piece of information. **The gap to other measurements:** the 97.7 percent in the entry on web agent success measures navigation. Together they show that an agent can find the right page and still deliver an unusable result. **In detail:** Each task draws at least five pieces of information from at least two websites; the agents tested were Claude Opus 4.7, GPT-5.5 and DeepSeek V4 Pro plus the AI browsers ChatGPT Atlas and Perplexity Comet. When agents fail at visual steps, the resulting file is unusable, even if they pass more than half of the other checks.
+**What the number does not say:** according to the authors it has been accepted to the Findings of EMNLP 2026, and the proceedings are not yet out; one research group, 110 tasks the authors built themselves. There is no human comparison group, although an author fully solved every task during construction. What is measured is complete execution of long tasks that end in a file in Google Docs, Sheets or Slides, not finding a piece of information. **The gap to other measurements:** the 97.7 percent in the entry on web agent success measures navigation. Together they show that an agent can find the right page and still deliver an unusable result. **In detail:** Each task draws at least five pieces of information from at least two websites; the agents tested were Claude Opus 4.7, GPT-5.5 and DeepSeek V4 Pro plus the AI browsers ChatGPT Atlas and Perplexity Comet. When agents fail at visual steps, the resulting file is unusable, even if they pass more than half of the other checks. OpenAI has since retired the tested ChatGPT Atlas browser.
 
-**Source:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino and Marasović (University of Utah), “The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge”, arXiv 2609.30604, version 1 of 24 September 2026, preprint without peer review · KNOWS benchmark, 110 tasks, results in table 3 · full text read 28 September 2026 · [Source](https://arxiv.org/abs/2609.30604)
+**Source:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino and Marasović (University of Utah), “The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge”, arXiv 2609.30604, version 1 of 24 September 2026, accepted to Findings of EMNLP 2026 per the comments field (checked 15 October 2026) · KNOWS benchmark, 110 tasks, results in table 3 · full text read 28 September 2026 · retirement of ChatGPT Atlas: OpenAI Help Center, “ChatGPT Atlas retirement”, retrieved 15 October 2026 ([on the retirement](https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement)) · [Source](https://arxiv.org/abs/2609.30604)
 
-**Grade:** Controlled test, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Controlled test, accepted at a conference · Group: Status, case report, or market observation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-wissensarbeit
 
