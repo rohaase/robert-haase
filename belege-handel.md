@@ -1,6 +1,6 @@
 # Belege: Handel
 
-11 von 132 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 15. Oktober 2026.
+12 von 136 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 16. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -23,7 +23,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → agenten-lenkung-marktplatz
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (2) → agenten-lenkung-marktplatz, agent-werbung-steuerung
 + Sachstand, Fallbericht oder Marktbeobachtung (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 ---
@@ -74,9 +74,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** 30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. 2026 wollen 24 Prozent der Online-Käufer ihren Weihnachtseinkauf auf einer KI-Plattform beginnen, 2025 waren es 17 Prozent.
 
-**Was die Zahlen nicht sagen:** Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. **Und die beiden Zahlen messen Verschiedenes:** Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht. **Im Einzelnen:** Auf Websites von Händlern und Marken wollen 60 Prozent beginnen, 2025 waren es 51 Prozent; mit den KI-Agenten der Händler 13 Prozent. Mehrfachnennungen waren möglich. Befragt wurden im August 2026 1.105 US-Online-Käufer.
+**Was die Zahlen nicht sagen:** Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. **Und die beiden Zahlen messen Verschiedenes:** Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht. **Im Einzelnen:** Auf Websites von Händlern und Marken wollen 60 Prozent beginnen, 2025 waren es 51 Prozent; mit den KI-Agenten der Händler 13 Prozent. Mehrfachnennungen waren möglich. Befragt wurden im August 2026 1.105 US-Online-Käufer. Weltweit sagen laut NIQ 55 Prozent der Verbraucher, KI-Empfehlungen beeinflussten ihre Käufe für Haushalt und Lebensmittel zumindest manchmal, 27 Prozent haben in den drei Monaten davor KI-Werkzeuge genutzt, um Produkte zu recherchieren oder sich zu entscheiden; über 21.000 Befragte in 31 Ländern, Feldzeit und Fragetext nennt NIQ nicht.
 
-**Quelle:** Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 ([zur Befragung 2026](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), abgerufen am 15. Oktober 2026 · [Zur Quelle](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
+**Quelle:** Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 ([zur Befragung 2026](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), abgerufen am 15. Oktober 2026 · NIQ, Pressemitteilung „55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey“, 7. Oktober 2026 ([zur Pressemitteilung](https://nielseniq.com/global/en/news-center/2026/consumer-outlook-55-percent-of-consumers-now-use-ai-during-product-discovery/)), abgerufen am 16. Oktober 2026 · [Zur Quelle](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
 
 **Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -102,9 +102,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen; Google führt Beispielhändler an, verbunden mit dem Wort „bald“.
 
-**Was die Zahl nicht sagt:** Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. **Die fehlende Verbreitungszahl ist ein Negativbefund:** Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. **Eine Drittzählung gibt es:** Der Prüfdienst UCP Checker meldet am 26. August 2026 15.735 geprüfte Storefronts unter 19.336 beobachteten Domains; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). **Vorsicht bei Sekundärquellen:** Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug. **Im Einzelnen:** Im Shopping Tech Council sitzen außerdem Google, Shopify, Etsy, Target und Wayfair. Googles Beispielhändler sind Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.
+**Was die Zahl nicht sagt:** Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. **Die fehlende Verbreitungszahl ist ein Negativbefund:** Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. **Eine Drittzählung gibt es:** Der Prüfdienst UCP Checker meldet am 26. August 2026 15.735 geprüfte Storefronts unter 19.336 beobachteten Domains; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). **TikTok als weiterer Kanal:** Für den Kauf in der App, Buy Direct, setzt TikTok eine Anbindung über UCP voraus; der Händler bleibt Verkäufer im rechtlichen Sinn (Merchant of Record), und der Einkaufsassistent antwortet auf Grundlage der Angaben des Händlers. Angeboten wird beides nur in Tests nach Eignung, Zahlen und Länder nennt TikTok nicht (5. Oktober 2026). **Vorsicht bei Sekundärquellen:** Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug. **Im Einzelnen:** Im Shopping Tech Council sitzen außerdem Google, Shopify, Etsy, Target und Wayfair. Googles Beispielhändler sind Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.
 
-**Quelle:** Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 ([zur Zählung](https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026)) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · [zu Googles Ankündigung](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Zur Quelle](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
+**Quelle:** Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 ([zur Zählung](https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026)) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026 ([zu TikTok](https://ads.tiktok.com/business/en-US/blog/tiktok-agentic-solutions)), abgerufen am 16. Oktober 2026 · [zu Googles Ankündigung](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Zur Quelle](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
 **Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 
@@ -182,4 +182,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 11 von 11 Einträgen zum Thema Handel. Letzter Eintrag: agenten-lenkung-marktplatz.
+## agent-werbung-steuerung
+
+**Aussage:** Ein wahrer Satz in einer Produktbeschreibung kann Einkaufsagenten steuern: Steht dort „enthält kein Blizyester“, ein erfundener Stoff, und finden die Agenten im Netz gezielt platzierte Seiten über dessen angebliche Schäden, werten mehrere aktuelle Modelle die Angebote ohne diesen Satz ab. Gegen Plattformregeln verstößt das nicht.
+
+**Was die Zahl nicht sagt:** Es ist ein Preprint ohne Begutachtung, ein Laborversuch mit eingespielten Texten, kein echter Shop. Wie stark es wirkt, hängt von Modell, Domäne und Weg ab: Stand die erfundene Vorgeschichte im Kontext der Nutzeranfrage, wirkte der Angriff bei fast allen Modellen und Domänen; kam sie als Suchergebnis, also auf dem realistischen Weg, blieben die Claude-Modelle und Gemini 3.1 Pro in den meisten Domänen anfällig, GPT 5.4, die Grok-Modelle und Gemini 3.1 Flash Lite lagen auf oder unter dem Ausgangswert. **Was daraus folgt:** Werbung kann sich an Agenten richten statt an Menschen, ohne eine Regel zu brechen; die Autoren fordern dafür Regeln und geben Empfehlungen an Modell- und Plattformanbieter. Der Eintrag zur Lenkung von Agenten auf Marktplätzen zeigt dieselbe Schwäche mit anderen Mitteln. **Im Einzelnen:** Getestet wurden acht geschlossene Modelle, je zwei von Anthropic, OpenAI, Google und xAI, in vier Domänen (Kosmetik, Nahrungsergänzung, Stellenanzeigen, Mietwohnungen), 250 Durchläufe je Modell und Domäne. Die meisten Modelle hielten die erfundenen Stoffe für echt. Der Code ist öffentlich.
+
+**Quelle:** Tim R. Davidson, Marija Šakota und Robert West (EPFL) sowie Joshua Joseph (Harvard University), „Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions“, arXiv 2610.17195, Fassung 1 vom 12. Oktober 2026, Preprint ohne Begutachtung · Volltext gelesen am 16. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2610.17195)
+
+**Einstufung:** Kontrollierter Versuch, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#agent-werbung-steuerung
+
+---
+
+Ende der Datei: 12 von 12 Einträgen zum Thema Handel. Letzter Eintrag: agent-werbung-steuerung.

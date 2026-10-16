@@ -1,6 +1,6 @@
-# Evidence: all 132 claims
+# Evidence: all 136 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 15 October 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 16 October 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -24,19 +24,19 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Topic files
 
-- AI search, 20 entries: https://robert-haase.de/en/evidence-ai-search.md
+- AI search, 23 entries: https://robert-haase.de/en/evidence-ai-search.md
 - Agents, 23 entries: https://robert-haase.de/en/evidence-agents.md
 - Interfaces, 22 entries: https://robert-haase.de/en/evidence-interfaces.md
-- Commerce, 11 entries: https://robert-haase.de/en/evidence-commerce.md
+- Commerce, 12 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 16 entries: https://robert-haase.de/en/evidence-liability.md
 - Market size, 19 entries: https://robert-haase.de/en/evidence-market.md
 - Judgement, 21 entries: https://robert-haase.de/en/evidence-judgement.md
 
-## AI search (20)
+## AI search (23)
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Preliminary: prototype, single test, forecast, or vendor figure (8) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks
-+ Status, case report, or market observation (3) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen
++ Preliminary: prototype, single test, forecast, or vendor figure (10) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt
++ Status, case report, or market observation (4) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen
 
 - **llmstxt-abrufe** · Verified study · Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026. → https://robert-haase.de/en/evidence-ai-search.md
 - **llmstxt-wirkung** · Verified study · Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers. → https://robert-haase.de/en/evidence-ai-search.md
@@ -58,6 +58,9 @@ The collection does not map the state of the research, only the figures I needed
 - **crawl-verweis-verhaeltnis** · Market observation · For every visit they send to a website through a link, AI providers’ crawlers fetch many times as many of its pages. In September 2026, according to Cloudflare, Anthropic made 555 fetches per referral, OpenAI 354 and Perplexity 2,283, against 4.7 for Google and 40 for Microsoft. → https://robert-haase.de/en/evidence-ai-search.md
 - **ki-modus-klicks** · Field experiment, preprint without peer review · In a preregistered field experiment with 1,100 US participants, Google’s AI Mode reduced clicks to websites: those who got only AI Mode for a week clicked through to external sites 18.8 percentage points less often than with regular Google Search. → https://robert-haase.de/en/evidence-ai-search.md
 - **aio-markensuchen** · Market observation · Searches for brand names now mostly show an AI Overview: on 29 September 2026, according to Ahrefs, 82.9 percent of US desktop searches for branded terms did, against a July monthly average of 61.3 percent. Of the 100 most valuable brands according to Interbrand, 63 got an Overview on 30 September, 48 of them at the very top. → https://robert-haase.de/en/evidence-ai-search.md
+- **chatgpt-suchanfragen** · Market observation · Logged out, ChatGPT rarely searches the web, and when it does, often straight on brand websites: according to Ahrefs, only 14.4 percent of 66.6 million answers triggered a search. 6.8 percent of queries used site: to stay on one website; among the roughly 160 most frequent targets, 75.9 percent were brand websites such as apple.com. → https://robert-haase.de/en/evidence-ai-search.md
+- **abruf-vor-inhalt** · Analysis, preprint without peer review · Whether ChatGPT cites a page depends above all on whether its search retrieves it: within a website, retrieval explains 32 percent of the variation according to a University of Toronto study, page properties 2.8 percent. Brands it already knows the model writes into its own queries in 67 percent of cases, others in 11 percent. → https://robert-haase.de/en/evidence-ai-search.md
+- **ki-suche-vielfalt** · Field experiment, preprint without peer review · In a field experiment with 37,561 Washington Post readers, those who got AI answers above the search results read on average 69 percent more content that others also read, while spreading their attention more widely: the share of the ten most-read topics fell from 41.1 to 36.7 percent. → https://robert-haase.de/en/evidence-ai-search.md
 
 ## Agents (23)
 
@@ -118,10 +121,10 @@ The collection does not map the state of the research, only the figures I needed
 - **chatgpt-plugin-pruefung** · Vendor documentation · Anyone who wants to bring a plugin with an MCP connection into the ChatGPT directory has to state what it must not do: for the initial review, OpenAI requires exactly five positive and three negative test cases. After publication, OpenAI scans the MCP server daily, and new tools remain unavailable until approved. → https://robert-haase.de/en/evidence-interfaces.md
 - **mcp-server-cards** · State of standardization · The Model Context Protocol has finalised an extension that lets an agent recognise a remote MCP server before connecting: a Server Card describes identity, endpoints and protocol versions. It deliberately leaves out tools, resources and prompts. → https://robert-haase.de/en/evidence-interfaces.md
 
-## Commerce (11)
+## Commerce (12)
 
 + Verified study, vendor documentation, or court decision (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
-+ Preliminary: prototype, single test, forecast, or vendor figure (1) → agenten-lenkung-marktplatz
++ Preliminary: prototype, single test, forecast, or vendor figure (2) → agenten-lenkung-marktplatz, agent-werbung-steuerung
 + Status, case report, or market observation (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 - **checkout-rueckbau** · Market observation · OpenAI rolled back buying directly inside the chat for Shopify merchants a good five months after launch; payment now happens in the merchant’s store. ChatGPT still offers Instant Checkout for some eligible merchants, and Google, Microsoft and Meta offer Shopify merchants checkout inside their own channels. → https://robert-haase.de/en/evidence-commerce.md
@@ -135,6 +138,7 @@ The collection does not map the state of the research, only the figures I needed
 - **commerce-agent-freigabe** · Vendor documentation · Anthropic’s template for shopping and merchant agents explicitly leaves business rules, authorization and compliance to the company that deploys the agents. No agent in the template places an order, charges a card or changes a listing, and every change by the merchant agent waits for a person to approve it. → https://robert-haase.de/en/evidence-commerce.md
 - **agentenkanal-voreinstellung** · Vendor documentation · Shopify’s so-called agentic storefronts are “active by default for eligible stores”: products appear in AI channels such as ChatGPT, Google AI Mode and Gemini, Microsoft Copilot and Meta. Merchants who keep the default setting “Allow Shopify to manage for me” are automatically enrolled in all future channels as well. → https://robert-haase.de/en/evidence-commerce.md
 - **agenten-lenkung-marktplatz** · Controlled test, preprint without peer review · In nine replicated marketplaces, computer-use agents from five model families bought the user-optimal product in 78.6 percent of control runs; with steering mechanisms enabled, drawn from a taxonomy of eight common types, the share fell to 17.3 percent. → https://robert-haase.de/en/evidence-commerce.md
+- **agent-werbung-steuerung** · Controlled experiment, preprint without peer review · A true sentence in a product description can steer shopping agents: if it says “contains no blizyester”, a made-up substance, and the agents find planted pages about its supposed harms on the web, several current models rank the listings without that sentence lower. None of this breaks platform rules. → https://robert-haase.de/en/evidence-commerce.md
 
 ## Liability (16)
 
@@ -213,4 +217,4 @@ The collection does not map the state of the research, only the figures I needed
 - **unverwechselbare-markenelemente** · Verified study · Researchers at the Ehrenberg-Bass Institute analysed 1,162 distinctive brand assets of 128 brands across 21 categories, four countries and nine years. Shape-based assets such as logos and packaging perform best, colours weakest: on average 40 and 12 percent of respondents respectively link them to the brand. → https://robert-haase.de/en/evidence-judgement.md
 - **synthetische-befragte** · Controlled test · According to Pew Research Center, AI cannot yet stand in for survey respondents. Pew replicated three of its own surveys from January to April 2026 with so-called digital twins: across nearly 300 questions, the AI results were off by an average of 12 percentage points, and by more than 15 on around 28 percent of questions. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 132 of 132 claims in 7 topics.
+End of overview: 136 of 136 claims in 7 topics.

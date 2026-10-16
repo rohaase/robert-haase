@@ -1,6 +1,6 @@
 # Belege: KI-Suche
 
-20 von 132 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 15. Oktober 2026.
+23 von 136 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 16. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-ai-search.md
 
@@ -23,8 +23,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks
-+ Sachstand, Fallbericht oder Marktbeobachtung (3) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (10) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt
++ Sachstand, Fallbericht oder Marktbeobachtung (4) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen
 
 ---
 
@@ -308,4 +308,46 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 20 von 20 Einträgen zum Thema KI-Suche. Letzter Eintrag: aio-markensuchen.
+## chatgpt-suchanfragen
+
+**Aussage:** Ausgeloggt sucht ChatGPT selten im Netz, und wenn, dann oft direkt auf Markenwebsites: Laut Ahrefs löste nur jede siebte von 66,6 Millionen Antworten eine Websuche aus (14,4 Prozent). 6,8 Prozent der Suchanfragen beschränkten sich mit site: auf eine Website, bei den rund 160 häufigsten Zielen zu 75,9 Prozent auf Markenwebsites wie apple.com.
+
+**Was die Zahl nicht sagt:** Es ist eine Momentaufnahme eines Modells, GPT-5.6 Luna in kostenlosen, nicht angemeldeten Sitzungen im August und September 2026, gemessen von einem Anbieter von SEO-Werkzeugen mit eigenen, breit gestellten Fragen. Zahlende Nutzer und Modelle mit längerem Nachdenken suchen häufiger, und Studien mit kommerziellen Fragen messen andere Anteile für site:. **Was daraus folgt:** Fragt jemand nach einer Marke, sucht ChatGPT oft gezielt auf deren eigener Website; was dort steht und wie es dort steht, geht in die Antwort ein. Wie stark, hängt vom Fragetyp ab: In einem gesonderten US-Datensatz gingen bei Faktenfragen 63,4 Prozent der Quellenangaben an Websites, die Ahrefs als offiziell einstuft, bei Vergleichsfragen 46,4 Prozent. **Im Einzelnen:** Unter den häufigsten site:-Zielen kamen Händler auf 11,9 Prozent, Reddit und Facebook auf 1,9 Prozent. Reddit wurde von März bis September 2026 um 88 Prozent seltener zitiert, wie der Eintrag zu den Reddit-Zitaten zeigt.
+
+**Quelle:** Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026 · 66,6 Millionen Antworten mit 15 Millionen Suchanfragen aus kostenlosen, nicht angemeldeten Sitzungen mit GPT-5.6 Luna, August und September 2026 · Anteile der Quellenangaben aus einem gesonderten US-Datensatz, März bis September 2026 · abgerufen am 16. Oktober 2026 · [Zur Quelle](https://ahrefs.com/blog/query-fan-out-chatgpt/)
+
+**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#chatgpt-suchanfragen
+
+---
+
+## abruf-vor-inhalt
+
+**Aussage:** Ob ChatGPT eine Seite zitiert, hängt vor allem davon ab, ob seine Suche sie abruft: Innerhalb einer Website erklärt der Abruf laut einer Studie der University of Toronto 32 Prozent der Unterschiede, die Eigenschaften der Seite 2,8 Prozent. Bekannte Marken schreibt das Modell in 67 Prozent der Fälle selbst in seine Suchen, andere in 11 Prozent.
+
+**Was die Zahl nicht sagt:** Es ist ein Preprint ohne Begutachtung. Abgefragt wurde über die Programmierschnittstellen mit kleinen Modellen, GPT-5.4 nano mit Websuche, Gemini 3.1 Flash Lite und Perplexity Sonar, nicht über die Apps, die Menschen nutzen. Die Fragen sind kommerziell und stammen aus zwei Märkten, einem von wenigen großen Marken beherrschten Verbrauchermarkt und einer Nische kleiner Anbieter von Business-Software. Das Konfidenzintervall der 32 Prozent reicht von 24 bis 42. **Was daraus folgt:** Arbeit an der Seite selbst bewegt wenig, solange die Suche des Modells sie nicht findet, und was ein Modell vorher über eine Marke weiß, prägt, wonach es sucht. **Im Einzelnen:** 158.099 Antworten mit 468.037 Quellenangaben, täglich gesammelt vom 24. Juni bis 21. September 2026. 46 Prozent der Nennungen einer Marke, nach der die Frage nicht fragte, stützt keine zitierte Seite, die sie nennt. Die Autoren geben Daten und Code frei.
+
+**Quelle:** Mahe Chen und Nick Koudas (University of Toronto), „What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)“, arXiv 2610.15033, Fassung 1 vom 10. Oktober 2026, Preprint ohne Begutachtung · Zahlen aus den Abschnitten 6.4 und 6.5, Datenerhebung laut Abschnitt 3.1 · Volltext gelesen am 16. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2610.15033)
+
+**Einstufung:** Auswertung, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#abruf-vor-inhalt
+
+---
+
+## ki-suche-vielfalt
+
+**Aussage:** In einem Feldexperiment mit 37.561 Lesern der Washington Post lasen Leser mit KI-Antworten über den Suchergebnissen im Schnitt 69 Prozent mehr Inhalte, die auch andere lasen, und verteilten ihre Aufmerksamkeit zugleich breiter: Der Anteil der zehn meistgelesenen Themen sank von 41,1 auf 36,7 Prozent.
+
+**Was die Zahl nicht sagt:** Es ist ein Preprint ohne Begutachtung, mit Daten von Oktober und November 2024 aus einem einzigen Verlagsarchiv, keiner allgemeinen Suchmaschine. Die Gruppen sind ungleich groß, 26.639 Leser ohne und 10.922 mit KI-Antworten, und vor der ersten Suche gab es kleine Unterschiede, die gemeinsam signifikant sind. **Was es zur Debatte beiträgt:** Die verbreitete Sorge, KI-Antworten verengten den Blick, stützt der Versuch nicht, er widerspricht ihr für dieses Archiv. Zugleich sank der Artikelkonsum je Suche um 18,2 Prozent, weil die Antwort selbst Inhalte liefert, ohne dass jemand klickt; weil häufiger gesucht wurde, stieg er je Leser leicht. Der Eintrag zur Homogenisierung misst etwas anderes, die Vielfalt erzeugter Inhalte, nicht die gelesener. **Im Einzelnen:** Zugeteilt wurde per Browser-Cookie bei der ersten Suche auf der Website zwischen dem 1. Oktober und dem 7. November 2024. Den größten Teil der geteilten Inhalte liefern die KI-Antworten selbst.
+
+**Quelle:** Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee und Dongwon Lee, „Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption“, arXiv 2609.38946, Fassung 1 vom 30. September 2026, Preprint ohne Begutachtung · randomisiertes Feldexperiment mit 37.561 Lesern der Washington Post · Volltext gelesen am 16. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2609.38946)
+
+**Einstufung:** Feldexperiment, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#ki-suche-vielfalt
+
+---
+
+Ende der Datei: 23 von 23 Einträgen zum Thema KI-Suche. Letzter Eintrag: ki-suche-vielfalt.

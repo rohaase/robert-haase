@@ -1,6 +1,6 @@
-# Belege: alle 132 Aussagen
+# Belege: alle 136 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 15. Oktober 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 16. Oktober 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -24,19 +24,19 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Themendateien
 
-- KI-Suche, 20 Einträge: https://robert-haase.de/belege-ki-suche.md
+- KI-Suche, 23 Einträge: https://robert-haase.de/belege-ki-suche.md
 - Agenten, 23 Einträge: https://robert-haase.de/belege-agenten.md
 - Schnittstellen, 22 Einträge: https://robert-haase.de/belege-schnittstellen.md
-- Handel, 11 Einträge: https://robert-haase.de/belege-handel.md
+- Handel, 12 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 16 Einträge: https://robert-haase.de/belege-haftung.md
 - Marktgröße, 19 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 21 Einträge: https://robert-haase.de/belege-urteil.md
 
-## KI-Suche (20)
+## KI-Suche (23)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (8) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks
-+ Sachstand, Fallbericht oder Marktbeobachtung (3) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (10) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt
++ Sachstand, Fallbericht oder Marktbeobachtung (4) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen
 
 - **llmstxt-abrufe** · Geprüfte Erhebung · Von rund 38.000 Domains mit einer llms.txt erhielten 97 Prozent im Mai 2026 keinerlei Abruf der Datei. → https://robert-haase.de/belege-ki-suche.md
 - **llmstxt-wirkung** · Geprüfte Erhebung · Bei knapp 300.000 untersuchten Domains fand sich kein Zusammenhang zwischen einer llms.txt und der Häufigkeit, mit der eine Domain in KI-Antworten als Quelle auftauchte. → https://robert-haase.de/belege-ki-suche.md
@@ -58,6 +58,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **crawl-verweis-verhaeltnis** · Marktbeobachtung · Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im September 2026 kamen laut Cloudflare bei Anthropic 555 Abrufe auf einen Verweis, bei OpenAI 354 und bei Perplexity 2.283, bei Google 4,7 und bei Microsoft 40. → https://robert-haase.de/belege-ki-suche.md
 - **ki-modus-klicks** · Feldexperiment, Preprint ohne Begutachtung · In einem vorregistrierten Feldexperiment mit 1.100 US-Teilnehmenden senkte Googles KI-Modus die Klicks auf Websites: Wer eine Woche lang nur den KI-Modus bekam, klickte um 18,8 Prozentpunkte seltener auf externe Seiten als mit der gewohnten Google-Suche. → https://robert-haase.de/belege-ki-suche.md
 - **aio-markensuchen** · Marktbeobachtung · Bei Suchen nach Markennamen erscheint inzwischen meist eine KI-Übersicht: am 29. September 2026 laut Ahrefs bei 82,9 Prozent der US-Desktop-Suchen nach Markenbegriffen, im Juli lag der Monatsdurchschnitt bei 61,3 Prozent. Von den 100 wertvollsten Marken nach Interbrand bekamen am 30. September 63 eine Übersicht, 48 davon ganz oben. → https://robert-haase.de/belege-ki-suche.md
+- **chatgpt-suchanfragen** · Marktbeobachtung · Ausgeloggt sucht ChatGPT selten im Netz, und wenn, dann oft direkt auf Markenwebsites: Laut Ahrefs löste nur jede siebte von 66,6 Millionen Antworten eine Websuche aus (14,4 Prozent). 6,8 Prozent der Suchanfragen beschränkten sich mit site: auf eine Website, bei den rund 160 häufigsten Zielen zu 75,9 Prozent auf Markenwebsites wie apple.com. → https://robert-haase.de/belege-ki-suche.md
+- **abruf-vor-inhalt** · Auswertung, Preprint ohne Begutachtung · Ob ChatGPT eine Seite zitiert, hängt vor allem davon ab, ob seine Suche sie abruft: Innerhalb einer Website erklärt der Abruf laut einer Studie der University of Toronto 32 Prozent der Unterschiede, die Eigenschaften der Seite 2,8 Prozent. Bekannte Marken schreibt das Modell in 67 Prozent der Fälle selbst in seine Suchen, andere in 11 Prozent. → https://robert-haase.de/belege-ki-suche.md
+- **ki-suche-vielfalt** · Feldexperiment, Preprint ohne Begutachtung · In einem Feldexperiment mit 37.561 Lesern der Washington Post lasen Leser mit KI-Antworten über den Suchergebnissen im Schnitt 69 Prozent mehr Inhalte, die auch andere lasen, und verteilten ihre Aufmerksamkeit zugleich breiter: Der Anteil der zehn meistgelesenen Themen sank von 41,1 auf 36,7 Prozent. → https://robert-haase.de/belege-ki-suche.md
 
 ## Agenten (23)
 
@@ -118,10 +121,10 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **chatgpt-plugin-pruefung** · Herstellerdokumentation · Wer ein Plugin mit MCP-Verbindung ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll: Für die erste Prüfung verlangt OpenAI genau fünf positive und drei negative Testfälle. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. → https://robert-haase.de/belege-schnittstellen.md
 - **mcp-server-cards** · Stand der Normung · Für das Model Context Protocol ist eine Erweiterung abgeschlossen, mit der ein Agent einen entfernten MCP-Server vor dem Verbinden erkennt: Eine Server Card beschreibt Identität, Adressen und Protokollversionen. Werkzeuge, Ressourcen und Prompts lässt sie bewusst weg. → https://robert-haase.de/belege-schnittstellen.md
 
-## Handel (11)
+## Handel (12)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → agenten-lenkung-marktplatz
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (2) → agenten-lenkung-marktplatz, agent-werbung-steuerung
 + Sachstand, Fallbericht oder Marktbeobachtung (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 - **checkout-rueckbau** · Marktbeobachtung · Den Kauf direkt im Chat hat OpenAI gut fünf Monate nach dem Start für Shopify-Händler zurückgebaut, bezahlt wird dort seitdem im Shop des Händlers. Für einzelne berechtigte Händler bietet ChatGPT Instant Checkout weiter an, und Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im eigenen Kanal an. → https://robert-haase.de/belege-handel.md
@@ -135,6 +138,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **commerce-agent-freigabe** · Herstellerdokumentation · Anthropics Vorlage für Einkaufs- und Händler-Agenten legt Geschäftsregeln, Befugnisse und die Einhaltung von Vorschriften ausdrücklich beim einsetzenden Unternehmen ab. Kein Agent der Vorlage bestellt, belastet eine Karte oder ändert ein Angebot, und jede Änderung des Händler-Agenten wartet auf die Freigabe eines Menschen. → https://robert-haase.de/belege-handel.md
 - **agentenkanal-voreinstellung** · Herstellerdokumentation · Bei Shopify sind die sogenannten agentic storefronts für berechtigte Shops standardmäßig aktiv: Die Produkte erscheinen in KI-Kanälen wie ChatGPT, Google AI Mode und Gemini, Microsoft Copilot und Meta. Wer die Voreinstellung „Allow Shopify to manage for me“ behält, ist automatisch auch in allen künftigen Kanälen angemeldet. → https://robert-haase.de/belege-handel.md
 - **agenten-lenkung-marktplatz** · Kontrollierter Test, Preprint ohne Begutachtung · In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. → https://robert-haase.de/belege-handel.md
+- **agent-werbung-steuerung** · Kontrollierter Versuch, Preprint ohne Begutachtung · Ein wahrer Satz in einer Produktbeschreibung kann Einkaufsagenten steuern: Steht dort „enthält kein Blizyester“, ein erfundener Stoff, und finden die Agenten im Netz gezielt platzierte Seiten über dessen angebliche Schäden, werten mehrere aktuelle Modelle die Angebote ohne diesen Satz ab. Gegen Plattformregeln verstößt das nicht. → https://robert-haase.de/belege-handel.md
 
 ## Haftung (16)
 
@@ -213,4 +217,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **unverwechselbare-markenelemente** · Geprüfte Erhebung · Forscher des Ehrenberg-Bass-Instituts haben 1.162 unverwechselbare Markenelemente von 128 Marken aus 21 Warengruppen, vier Ländern und neun Jahren ausgewertet. Formen wie Logos und Verpackungen schneiden am besten ab, Farben am schwächsten: Im Mittel ordnen 40 beziehungsweise 12 Prozent der Befragten sie der Marke zu. → https://robert-haase.de/belege-urteil.md
 - **synthetische-befragte** · Kontrollierter Test · Als Ersatz für Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Umfragen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte daneben, bei rund 28 Prozent der Fragen mehr als 15. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 132 von 132 Aussagen in 7 Themen.
+Ende der Übersicht: 136 von 136 Aussagen in 7 Themen.

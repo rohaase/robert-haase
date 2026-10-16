@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-19 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
+19 of 136 entries in the collection “Evidence” by Robert Haase, as of 16 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 

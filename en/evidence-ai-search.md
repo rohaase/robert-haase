@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-20 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
+23 of 136 entries in the collection “Evidence” by Robert Haase, as of 16 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 
@@ -23,8 +23,8 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Preliminary: prototype, single test, forecast, or vendor figure (8) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks
-+ Status, case report, or market observation (3) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen
++ Preliminary: prototype, single test, forecast, or vendor figure (10) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt
++ Status, case report, or market observation (4) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen
 
 ---
 
@@ -308,4 +308,46 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 20 of 20 entries on AI search. Last entry: aio-markensuchen.
+## chatgpt-suchanfragen
+
+**Claim:** Logged out, ChatGPT rarely searches the web, and when it does, often straight on brand websites: according to Ahrefs, only 14.4 percent of 66.6 million answers triggered a search. 6.8 percent of queries used site: to stay on one website; among the roughly 160 most frequent targets, 75.9 percent were brand websites such as apple.com.
+
+**What the number does not say:** it is a snapshot of one model, GPT-5.6 Luna in free, logged-out sessions in August and September 2026, measured by a vendor of SEO tools with its own broadly phrased prompts. Paying users and reasoning models search more often, and studies with commercial prompts measure different shares for site:. **What follows:** when someone asks about a brand, ChatGPT often searches the brand’s own website directly; what it says there and how it says it feeds into the answer. How strongly depends on the type of question: in a separate US dataset, 63.4 percent of citations for factual questions went to websites Ahrefs classifies as official, 46.4 percent for comparison questions. **In detail:** Among the most frequent site: targets, retailers made up 11.9 percent and Reddit and Facebook 1.9 percent. Reddit was cited 88 percent less often from March to September 2026, as the entry on Reddit citations shows.
+
+**Source:** Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026 · 66.6 million answers with 15 million fan-out queries from free, logged-out GPT-5.6 Luna sessions, August and September 2026 · citation shares from a separate US dataset, March to September 2026 · retrieved 16 October 2026 · [Source](https://ahrefs.com/blog/query-fan-out-chatgpt/)
+
+**Grade:** Market observation · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-suchanfragen
+
+---
+
+## abruf-vor-inhalt
+
+**Claim:** Whether ChatGPT cites a page depends above all on whether its search retrieves it: within a website, retrieval explains 32 percent of the variation according to a University of Toronto study, page properties 2.8 percent. Brands it already knows the model writes into its own queries in 67 percent of cases, others in 11 percent.
+
+**What the number does not say:** it is a preprint without peer review. The queries went through the APIs with small models, GPT-5.4 nano with web search, Gemini 3.1 Flash Lite and Perplexity Sonar, not through the apps people use. The questions are commercial and come from two markets, a consumer market dominated by a few large brands and a niche of small business-software vendors. The confidence interval of the 32 percent runs from 24 to 42. **What follows:** work on the page itself moves little as long as the model’s search does not find it, and what a model already knows about a brand shapes what it searches for. **In detail:** 158,099 answers with 468,037 citations, collected daily from 24 June to 21 September 2026. 46 percent of mentions of a brand the question did not name are supported by no cited page that names it. The authors release data and code.
+
+**Source:** Mahe Chen and Nick Koudas (University of Toronto), “What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)”, arXiv 2610.15033, version 1 of 10 October 2026, preprint without peer review · figures from sections 6.4 and 6.5, data collection per section 3.1 · full text read 16 October 2026 · [Source](https://arxiv.org/abs/2610.15033)
+
+**Grade:** Analysis, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#abruf-vor-inhalt
+
+---
+
+## ki-suche-vielfalt
+
+**Claim:** In a field experiment with 37,561 Washington Post readers, those who got AI answers above the search results read on average 69 percent more content that others also read, while spreading their attention more widely: the share of the ten most-read topics fell from 41.1 to 36.7 percent.
+
+**What the number does not say:** it is a preprint without peer review, with data from October and November 2024 from a single publisher’s archive, not a general search engine. The groups differ in size, 26,639 readers without and 10,922 with AI answers, and before the first search there were small differences that are jointly significant. **What it adds to the debate:** the widespread fear that AI answers narrow the view finds no support here; for this archive the experiment contradicts it. At the same time article consumption per search fell by 18.2 percent, because the answer itself delivers content without anyone clicking; since readers searched more often, it rose slightly per reader. The entry on homogenisation measures something else, the diversity of content produced, not of content read. **In detail:** Readers were assigned by browser cookie at their first on-site search between 1 October and 7 November 2024. Most of the shared content comes from the AI answers themselves.
+
+**Source:** Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee and Dongwon Lee, “Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption”, arXiv 2609.38946, version 1 of 30 September 2026, preprint without peer review · randomised field experiment with 37,561 Washington Post readers · full text read 16 October 2026 · [Source](https://arxiv.org/abs/2609.38946)
+
+**Grade:** Field experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#ki-suche-vielfalt
+
+---
+
+End of file: 23 of 23 entries on AI search. Last entry: ki-suche-vielfalt.

@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-10-15T20:25:17+02:00",
+  "dateModified": "2026-10-16T10:59:25+02:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 132,
+  "numberOfItems": 136,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -27,7 +27,7 @@
     {
       "id": "ki-suche",
       "name": "KI-Suche",
-      "numberOfItems": 20,
+      "numberOfItems": 23,
       "textFile": "https://robert-haase.de/belege-ki-suche.md",
       "ids": [
         "llmstxt-abrufe",
@@ -49,7 +49,10 @@
         "eigene-seite-selten-zitiert",
         "crawl-verweis-verhaeltnis",
         "ki-modus-klicks",
-        "aio-markensuchen"
+        "aio-markensuchen",
+        "chatgpt-suchanfragen",
+        "abruf-vor-inhalt",
+        "ki-suche-vielfalt"
       ],
       "groups": {
         "strong": [
@@ -71,12 +74,15 @@
           "markenstatur-sichtbarkeit",
           "zitier-position",
           "eigene-seite-selten-zitiert",
-          "ki-modus-klicks"
+          "ki-modus-klicks",
+          "abruf-vor-inhalt",
+          "ki-suche-vielfalt"
         ],
         "plain": [
           "llmstxt-nutzen",
           "crawl-verweis-verhaeltnis",
-          "aio-markensuchen"
+          "aio-markensuchen",
+          "chatgpt-suchanfragen"
         ]
       }
     },
@@ -205,7 +211,7 @@
     {
       "id": "handel",
       "name": "Handel",
-      "numberOfItems": 11,
+      "numberOfItems": 12,
       "textFile": "https://robert-haase.de/belege-handel.md",
       "ids": [
         "checkout-rueckbau",
@@ -218,7 +224,8 @@
         "agenten-vollmacht-standard",
         "commerce-agent-freigabe",
         "agentenkanal-voreinstellung",
-        "agenten-lenkung-marktplatz"
+        "agenten-lenkung-marktplatz",
+        "agent-werbung-steuerung"
       ],
       "groups": {
         "strong": [
@@ -228,7 +235,8 @@
           "agentenkanal-voreinstellung"
         ],
         "weak": [
-          "agenten-lenkung-marktplatz"
+          "agenten-lenkung-marktplatz",
+          "agent-werbung-steuerung"
         ],
         "plain": [
           "checkout-rueckbau",
@@ -1253,10 +1261,10 @@
       "text": "30 bis 45 Prozent der US-Verbraucher nutzen generative KI für Produktrecherche und Vergleich. 2026 wollen 24 Prozent der Online-Käufer ihren Weihnachtseinkauf auf einer KI-Plattform beginnen, 2025 waren es 17 Prozent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026, abgerufen am 15. Oktober 2026",
+        "name": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026, abgerufen am 15. Oktober 2026 · NIQ, Pressemitteilung „55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey“, 7. Oktober 2026, abgerufen am 16. Oktober 2026",
         "url": "https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/"
       },
-      "disambiguatingDescription": "Was die Zahlen nicht sagen: Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. Und die beiden Zahlen messen Verschiedenes: Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht. Im Einzelnen: Auf Websites von Händlern und Marken wollen 60 Prozent beginnen, 2025 waren es 51 Prozent; mit den KI-Agenten der Händler 13 Prozent. Mehrfachnennungen waren möglich. Befragt wurden im August 2026 1.105 US-Online-Käufer.",
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: Sie beruhen auf Selbstauskunft und gelten für die USA, nicht für den deutschsprachigen Markt. Und die beiden Zahlen messen Verschiedenes: Recherche und Vergleich sind nicht dasselbe wie der Beginn der Kaufreise. Wer sie zusammenzieht, bekommt eine Zahl, die es nicht gibt. Ein begonnener Einkauf ist zudem kein Kauf. Als Größenordnung für die Verschiebung beim Entdecken sind sie brauchbar, als Umsatzaussage nicht. Im Einzelnen: Auf Websites von Händlern und Marken wollen 60 Prozent beginnen, 2025 waren es 51 Prozent; mit den KI-Agenten der Händler 13 Prozent. Mehrfachnennungen waren möglich. Befragt wurden im August 2026 1.105 US-Online-Käufer. Weltweit sagen laut NIQ 55 Prozent der Verbraucher, KI-Empfehlungen beeinflussten ihre Käufe für Haushalt und Lebensmittel zumindest manchmal, 27 Prozent haben in den drei Monaten davor KI-Werkzeuge genutzt, um Produkte zu recherchieren oder sich zu entscheiden; über 21.000 Befragte in 31 Ländern, Feldzeit und Fragetext nennt NIQ nicht.",
       "position": 30,
       "id": "journey-start",
       "url": "https://robert-haase.de/belege.html#journey-start",
@@ -1265,11 +1273,15 @@
         "name": "Befragung",
         "group": "plain"
       },
-      "sourceText": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 (zur Befragung 2026), abgerufen am 15. Oktober 2026 · Zur Quelle",
+      "sourceText": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 (zur Befragung 2026), abgerufen am 15. Oktober 2026 · NIQ, Pressemitteilung „55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey“, 7. Oktober 2026 (zur Pressemitteilung), abgerufen am 16. Oktober 2026 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zur Befragung 2026",
           "url": "https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/"
+        },
+        {
+          "name": "zur Pressemitteilung",
+          "url": "https://nielseniq.com/global/en/news-center/2026/consumer-outlook-55-percent-of-consumers-now-use-ai-during-product-discovery/"
         },
         {
           "name": "Zur Quelle",
@@ -1736,10 +1748,10 @@
       "text": "Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen; Google führt Beispielhändler an, verbunden mit dem Wort „bald“.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026",
+        "name": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026, abgerufen am 16. Oktober 2026",
         "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. Die fehlende Verbreitungszahl ist ein Negativbefund: Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. Eine Drittzählung gibt es: Der Prüfdienst UCP Checker meldet am 26. August 2026 15.735 geprüfte Storefronts unter 19.336 beobachteten Domains; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). Vorsicht bei Sekundärquellen: Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug. Im Einzelnen: Im Shopping Tech Council sitzen außerdem Google, Shopify, Etsy, Target und Wayfair. Googles Beispielhändler sind Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. Die fehlende Verbreitungszahl ist ein Negativbefund: Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. Eine Drittzählung gibt es: Der Prüfdienst UCP Checker meldet am 26. August 2026 15.735 geprüfte Storefronts unter 19.336 beobachteten Domains; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). TikTok als weiterer Kanal: Für den Kauf in der App, Buy Direct, setzt TikTok eine Anbindung über UCP voraus; der Händler bleibt Verkäufer im rechtlichen Sinn (Merchant of Record), und der Einkaufsassistent antwortet auf Grundlage der Angaben des Händlers. Angeboten wird beides nur in Tests nach Eignung, Zahlen und Länder nennt TikTok nicht (5. Oktober 2026). Vorsicht bei Sekundärquellen: Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug. Im Einzelnen: Im Shopping Tech Council sitzen außerdem Google, Shopify, Etsy, Target und Wayfair. Googles Beispielhändler sind Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.",
       "position": 47,
       "id": "ucp-gremium-ohne-zahlen",
       "url": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
@@ -1748,11 +1760,15 @@
         "name": "Stand der Normung",
         "group": "plain"
       },
-      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 (zur Zählung) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · zu Googles Ankündigung · Zur Quelle",
+      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 (zur Zählung) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026 (zu TikTok), abgerufen am 16. Oktober 2026 · zu Googles Ankündigung · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zur Zählung",
           "url": "https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026"
+        },
+        {
+          "name": "zu TikTok",
+          "url": "https://ads.tiktok.com/business/en-US/blog/tiktok-agentic-solutions"
         },
         {
           "name": "zu Googles Ankündigung",
@@ -4256,6 +4272,114 @@
         }
       ],
       "citationText": "Bei Suchen nach Markennamen erscheint inzwischen meist eine KI-Übersicht: am 29. September 2026 laut Ahrefs bei 82,9 Prozent der US-Desktop-Suchen nach Markenbegriffen, im Juli lag der Monatsdurchschnitt bei 61,3 Prozent. Von den 100 wertvollsten Marken nach Interbrand bekamen am 30. September 63 eine Übersicht, 48 davon ganz oben. (Ahrefs, 2. Oktober 2026, 232,8 Millionen US-Desktop-Ergebnisseiten, Juli bis September 2026). https://ahrefs.com/blog/ai-overviews-on-branded-searches/ · via https://robert-haase.de/belege.html#aio-markensuchen"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#chatgpt-suchanfragen",
+      "text": "Ausgeloggt sucht ChatGPT selten im Netz, und wenn, dann oft direkt auf Markenwebsites: Laut Ahrefs löste nur jede siebte von 66,6 Millionen Antworten eine Websuche aus (14,4 Prozent). 6,8 Prozent der Suchanfragen beschränkten sich mit site: auf eine Website, bei den rund 160 häufigsten Zielen zu 75,9 Prozent auf Markenwebsites wie apple.com.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026 · 66,6 Millionen Antworten mit 15 Millionen Suchanfragen aus kostenlosen, nicht angemeldeten Sitzungen mit GPT-5.6 Luna, August und September 2026 · Anteile der Quellenangaben aus einem gesonderten US-Datensatz, März bis September 2026 · abgerufen am 16. Oktober 2026",
+        "url": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist eine Momentaufnahme eines Modells, GPT-5.6 Luna in kostenlosen, nicht angemeldeten Sitzungen im August und September 2026, gemessen von einem Anbieter von SEO-Werkzeugen mit eigenen, breit gestellten Fragen. Zahlende Nutzer und Modelle mit längerem Nachdenken suchen häufiger, und Studien mit kommerziellen Fragen messen andere Anteile für site:. Was daraus folgt: Fragt jemand nach einer Marke, sucht ChatGPT oft gezielt auf deren eigener Website; was dort steht und wie es dort steht, geht in die Antwort ein. Wie stark, hängt vom Fragetyp ab: In einem gesonderten US-Datensatz gingen bei Faktenfragen 63,4 Prozent der Quellenangaben an Websites, die Ahrefs als offiziell einstuft, bei Vergleichsfragen 46,4 Prozent. Im Einzelnen: Unter den häufigsten site:-Zielen kamen Händler auf 11,9 Prozent, Reddit und Facebook auf 1,9 Prozent. Reddit wurde von März bis September 2026 um 88 Prozent seltener zitiert, wie der Eintrag zu den Reddit-Zitaten zeigt.",
+      "position": 133,
+      "id": "chatgpt-suchanfragen",
+      "url": "https://robert-haase.de/belege.html#chatgpt-suchanfragen",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Marktbeobachtung",
+        "group": "plain"
+      },
+      "sourceText": "Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026 · 66,6 Millionen Antworten mit 15 Millionen Suchanfragen aus kostenlosen, nicht angemeldeten Sitzungen mit GPT-5.6 Luna, August und September 2026 · Anteile der Quellenangaben aus einem gesonderten US-Datensatz, März bis September 2026 · abgerufen am 16. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
+        }
+      ],
+      "citationText": "Ausgeloggt sucht ChatGPT selten im Netz, und wenn, dann oft direkt auf Markenwebsites: Laut Ahrefs löste nur jede siebte von 66,6 Millionen Antworten eine Websuche aus (14,4 Prozent). 6,8 Prozent der Suchanfragen beschränkten sich mit site: auf eine Website, bei den rund 160 häufigsten Zielen zu 75,9 Prozent auf Markenwebsites wie apple.com. (Ahrefs, 12. Oktober 2026, 66,6 Millionen ChatGPT-Antworten, August und September 2026). https://ahrefs.com/blog/query-fan-out-chatgpt/ · via https://robert-haase.de/belege.html#chatgpt-suchanfragen"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#abruf-vor-inhalt",
+      "text": "Ob ChatGPT eine Seite zitiert, hängt vor allem davon ab, ob seine Suche sie abruft: Innerhalb einer Website erklärt der Abruf laut einer Studie der University of Toronto 32 Prozent der Unterschiede, die Eigenschaften der Seite 2,8 Prozent. Bekannte Marken schreibt das Modell in 67 Prozent der Fälle selbst in seine Suchen, andere in 11 Prozent.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Mahe Chen und Nick Koudas (University of Toronto), „What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)“, arXiv 2610.15033, Fassung 1 vom 10. Oktober 2026, Preprint ohne Begutachtung · Zahlen aus den Abschnitten 6.4 und 6.5, Datenerhebung laut Abschnitt 3.1 · Volltext gelesen am 16. Oktober 2026",
+        "url": "https://arxiv.org/abs/2610.15033"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist ein Preprint ohne Begutachtung. Abgefragt wurde über die Programmierschnittstellen mit kleinen Modellen, GPT-5.4 nano mit Websuche, Gemini 3.1 Flash Lite und Perplexity Sonar, nicht über die Apps, die Menschen nutzen. Die Fragen sind kommerziell und stammen aus zwei Märkten, einem von wenigen großen Marken beherrschten Verbrauchermarkt und einer Nische kleiner Anbieter von Business-Software. Das Konfidenzintervall der 32 Prozent reicht von 24 bis 42. Was daraus folgt: Arbeit an der Seite selbst bewegt wenig, solange die Suche des Modells sie nicht findet, und was ein Modell vorher über eine Marke weiß, prägt, wonach es sucht. Im Einzelnen: 158.099 Antworten mit 468.037 Quellenangaben, täglich gesammelt vom 24. Juni bis 21. September 2026. 46 Prozent der Nennungen einer Marke, nach der die Frage nicht fragte, stützt keine zitierte Seite, die sie nennt. Die Autoren geben Daten und Code frei.",
+      "position": 134,
+      "id": "abruf-vor-inhalt",
+      "url": "https://robert-haase.de/belege.html#abruf-vor-inhalt",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Auswertung, Preprint ohne Begutachtung",
+        "group": "weak"
+      },
+      "sourceText": "Mahe Chen und Nick Koudas (University of Toronto), „What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)“, arXiv 2610.15033, Fassung 1 vom 10. Oktober 2026, Preprint ohne Begutachtung · Zahlen aus den Abschnitten 6.4 und 6.5, Datenerhebung laut Abschnitt 3.1 · Volltext gelesen am 16. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://arxiv.org/abs/2610.15033"
+        }
+      ],
+      "citationText": "Ob ChatGPT eine Seite zitiert, hängt vor allem davon ab, ob seine Suche sie abruft: Innerhalb einer Website erklärt der Abruf laut einer Studie der University of Toronto 32 Prozent der Unterschiede, die Eigenschaften der Seite 2,8 Prozent. Bekannte Marken schreibt das Modell in 67 Prozent der Fälle selbst in seine Suchen, andere in 11 Prozent. (Chen und Koudas, University of Toronto, arXiv 2610.15033, Fassung vom 10. Oktober 2026, Preprint). https://arxiv.org/abs/2610.15033 · via https://robert-haase.de/belege.html#abruf-vor-inhalt"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#ki-suche-vielfalt",
+      "text": "In einem Feldexperiment mit 37.561 Lesern der Washington Post lasen Leser mit KI-Antworten über den Suchergebnissen im Schnitt 69 Prozent mehr Inhalte, die auch andere lasen, und verteilten ihre Aufmerksamkeit zugleich breiter: Der Anteil der zehn meistgelesenen Themen sank von 41,1 auf 36,7 Prozent.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee und Dongwon Lee, „Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption“, arXiv 2609.38946, Fassung 1 vom 30. September 2026, Preprint ohne Begutachtung · randomisiertes Feldexperiment mit 37.561 Lesern der Washington Post · Volltext gelesen am 16. Oktober 2026",
+        "url": "https://arxiv.org/abs/2609.38946"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist ein Preprint ohne Begutachtung, mit Daten von Oktober und November 2024 aus einem einzigen Verlagsarchiv, keiner allgemeinen Suchmaschine. Die Gruppen sind ungleich groß, 26.639 Leser ohne und 10.922 mit KI-Antworten, und vor der ersten Suche gab es kleine Unterschiede, die gemeinsam signifikant sind. Was es zur Debatte beiträgt: Die verbreitete Sorge, KI-Antworten verengten den Blick, stützt der Versuch nicht, er widerspricht ihr für dieses Archiv. Zugleich sank der Artikelkonsum je Suche um 18,2 Prozent, weil die Antwort selbst Inhalte liefert, ohne dass jemand klickt; weil häufiger gesucht wurde, stieg er je Leser leicht. Der Eintrag zur Homogenisierung misst etwas anderes, die Vielfalt erzeugter Inhalte, nicht die gelesener. Im Einzelnen: Zugeteilt wurde per Browser-Cookie bei der ersten Suche auf der Website zwischen dem 1. Oktober und dem 7. November 2024. Den größten Teil der geteilten Inhalte liefern die KI-Antworten selbst.",
+      "position": 135,
+      "id": "ki-suche-vielfalt",
+      "url": "https://robert-haase.de/belege.html#ki-suche-vielfalt",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Feldexperiment, Preprint ohne Begutachtung",
+        "group": "weak"
+      },
+      "sourceText": "Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee und Dongwon Lee, „Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption“, arXiv 2609.38946, Fassung 1 vom 30. September 2026, Preprint ohne Begutachtung · randomisiertes Feldexperiment mit 37.561 Lesern der Washington Post · Volltext gelesen am 16. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://arxiv.org/abs/2609.38946"
+        }
+      ],
+      "citationText": "In einem Feldexperiment mit 37.561 Lesern der Washington Post lasen Leser mit KI-Antworten über den Suchergebnissen im Schnitt 69 Prozent mehr Inhalte, die auch andere lasen, und verteilten ihre Aufmerksamkeit zugleich breiter: Der Anteil der zehn meistgelesenen Themen sank von 41,1 auf 36,7 Prozent. (Lee u. a., arXiv 2609.38946, Fassung vom 30. September 2026, Preprint). https://arxiv.org/abs/2609.38946 · via https://robert-haase.de/belege.html#ki-suche-vielfalt"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agent-werbung-steuerung",
+      "text": "Ein wahrer Satz in einer Produktbeschreibung kann Einkaufsagenten steuern: Steht dort „enthält kein Blizyester“, ein erfundener Stoff, und finden die Agenten im Netz gezielt platzierte Seiten über dessen angebliche Schäden, werten mehrere aktuelle Modelle die Angebote ohne diesen Satz ab. Gegen Plattformregeln verstößt das nicht.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Tim R. Davidson, Marija Šakota und Robert West (EPFL) sowie Joshua Joseph (Harvard University), „Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions“, arXiv 2610.17195, Fassung 1 vom 12. Oktober 2026, Preprint ohne Begutachtung · Volltext gelesen am 16. Oktober 2026",
+        "url": "https://arxiv.org/abs/2610.17195"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist ein Preprint ohne Begutachtung, ein Laborversuch mit eingespielten Texten, kein echter Shop. Wie stark es wirkt, hängt von Modell, Domäne und Weg ab: Stand die erfundene Vorgeschichte im Kontext der Nutzeranfrage, wirkte der Angriff bei fast allen Modellen und Domänen; kam sie als Suchergebnis, also auf dem realistischen Weg, blieben die Claude-Modelle und Gemini 3.1 Pro in den meisten Domänen anfällig, GPT 5.4, die Grok-Modelle und Gemini 3.1 Flash Lite lagen auf oder unter dem Ausgangswert. Was daraus folgt: Werbung kann sich an Agenten richten statt an Menschen, ohne eine Regel zu brechen; die Autoren fordern dafür Regeln und geben Empfehlungen an Modell- und Plattformanbieter. Der Eintrag zur Lenkung von Agenten auf Marktplätzen zeigt dieselbe Schwäche mit anderen Mitteln. Im Einzelnen: Getestet wurden acht geschlossene Modelle, je zwei von Anthropic, OpenAI, Google und xAI, in vier Domänen (Kosmetik, Nahrungsergänzung, Stellenanzeigen, Mietwohnungen), 250 Durchläufe je Modell und Domäne. Die meisten Modelle hielten die erfundenen Stoffe für echt. Der Code ist öffentlich.",
+      "position": 136,
+      "id": "agent-werbung-steuerung",
+      "url": "https://robert-haase.de/belege.html#agent-werbung-steuerung",
+      "topic": "handel",
+      "grade": {
+        "name": "Kontrollierter Versuch, Preprint ohne Begutachtung",
+        "group": "weak"
+      },
+      "sourceText": "Tim R. Davidson, Marija Šakota und Robert West (EPFL) sowie Joshua Joseph (Harvard University), „Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions“, arXiv 2610.17195, Fassung 1 vom 12. Oktober 2026, Preprint ohne Begutachtung · Volltext gelesen am 16. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://arxiv.org/abs/2610.17195"
+        }
+      ],
+      "citationText": "Ein wahrer Satz in einer Produktbeschreibung kann Einkaufsagenten steuern: Steht dort „enthält kein Blizyester“, ein erfundener Stoff, und finden die Agenten im Netz gezielt platzierte Seiten über dessen angebliche Schäden, werten mehrere aktuelle Modelle die Angebote ohne diesen Satz ab. Gegen Plattformregeln verstößt das nicht. (Davidson u. a., EPFL und Harvard, arXiv 2610.17195, Fassung vom 12. Oktober 2026, Preprint). https://arxiv.org/abs/2610.17195 · via https://robert-haase.de/belege.html#agent-werbung-steuerung"
     }
   ]
 }

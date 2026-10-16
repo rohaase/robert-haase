@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-11 of 132 entries in the collection “Evidence” by Robert Haase, as of 15 October 2026.
+12 of 136 entries in the collection “Evidence” by Robert Haase, as of 16 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
-+ Preliminary: prototype, single test, forecast, or vendor figure (1) → agenten-lenkung-marktplatz
++ Preliminary: prototype, single test, forecast, or vendor figure (2) → agenten-lenkung-marktplatz, agent-werbung-steuerung
 + Status, case report, or market observation (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
 
 ---
@@ -74,9 +74,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** 30 to 45 percent of US consumers use generative AI for product research and comparison. In 2026, 24 percent of online shoppers plan to begin their holiday shopping on an AI platform, up from 17 percent in 2025.
 
-**What the numbers do not say:** They rest on self-reporting and cover the US, not the German-speaking market. **And the two figures measure different things:** research and comparison is not the same as beginning the shopping journey. Merging them produces a number that does not exist. A journey begun is also not a purchase. As an order of magnitude for the shift in discovery they are usable; as a revenue statement they are not. **In detail:** 60 percent plan to begin on retailer or brand websites, up from 51 percent in 2025, and 13 percent with retailers’ AI shopping agents. Respondents could choose several answers. The survey covered 1,105 US online shoppers in August 2026.
+**What the numbers do not say:** They rest on self-reporting and cover the US, not the German-speaking market. **And the two figures measure different things:** research and comparison is not the same as beginning the shopping journey. Merging them produces a number that does not exist. A journey begun is also not a purchase. As an order of magnitude for the shift in discovery they are usable; as a revenue statement they are not. **In detail:** 60 percent plan to begin on retailer or brand websites, up from 51 percent in 2025, and 13 percent with retailers’ AI shopping agents. Respondents could choose several answers. The survey covered 1,105 US online shoppers in August 2026. Globally, according to NIQ, 55 percent of consumers say AI recommendations at least sometimes influence their household and grocery purchases, and 27 percent used AI tools to research or decide what to buy in the preceding three months; more than 21,000 respondents in 31 countries, with no fieldwork dates or question wording given by NIQ.
 
-**Source:** Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent · holiday survey 2026 with ROI Rocket, 1,105 US online shoppers, August 2026, published 3 September 2026 ([2026 survey](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), retrieved 15 October 2026 · [Source](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
+**Source:** Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent · holiday survey 2026 with ROI Rocket, 1,105 US online shoppers, August 2026, published 3 September 2026 ([2026 survey](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), retrieved 15 October 2026 · NIQ, press release “55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey”, 7 October 2026 ([press release](https://nielseniq.com/global/en/news-center/2026/consumer-outlook-55-percent-of-consumers-now-use-ai-during-product-discovery/)), retrieved 16 October 2026 · [Source](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
 
 **Grade:** Survey · Group: Status, case report, or market observation
 
@@ -102,9 +102,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** The Shopping Tech Council of the UCP commerce protocol has 16 seats; since 24 April 2026 they also include Amazon, Meta, Microsoft, Stripe and Salesforce. How many merchants actually run the protocol is stated by none of the companies involved; Google names example merchants, attached to the word “soon”.
 
-**What the number does not say:** A seat on a council is not an implementation. That Amazon, Meta and Microsoft help shape the protocol says nothing about whether they use it in their own stores. **The missing adoption figure is a negative finding:** it is absent from the primary sources checked — the UCP announcements in the project repository and two Google posts from 19 March and 19 May 2026. It may exist elsewhere. **A third-party count exists:** the checking service UCP Checker reports 15,735 verified storefronts among 19,336 monitored domains on 26 August 2026; it counts what stores declare technically and what responds, not orders. Besides the Shopping Tech Council there are now separate councils for food ordering, lodging and payments (as of 21 September 2026). **Care with secondary sources:** they widely reproduce Google's sentence without the “soon”, turning an announcement into a fact. **In detail:** The Shopping Tech Council also includes Google, Shopify, Etsy, Target and Wayfair. Google’s example merchants are Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden.
+**What the number does not say:** A seat on a council is not an implementation. That Amazon, Meta and Microsoft help shape the protocol says nothing about whether they use it in their own stores. **The missing adoption figure is a negative finding:** it is absent from the primary sources checked — the UCP announcements in the project repository and two Google posts from 19 March and 19 May 2026. It may exist elsewhere. **A third-party count exists:** the checking service UCP Checker reports 15,735 verified storefronts among 19,336 monitored domains on 26 August 2026; it counts what stores declare technically and what responds, not orders. Besides the Shopping Tech Council there are now separate councils for food ordering, lodging and payments (as of 21 September 2026). **TikTok as a further channel:** for in-app buying, Buy Direct, TikTok requires an integration through UCP; the merchant remains the Merchant of Record, and the shopping assistant answers based on information provided by the merchant. Both are offered only through eligibility-based testing, and TikTok names neither figures nor countries (5 October 2026). **Care with secondary sources:** they widely reproduce Google's sentence without the “soon”, turning an announcement into a fact. **In detail:** The Shopping Tech Council also includes Google, Shopify, Etsy, Target and Wayfair. Google’s example merchants are Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair, and Shopify merchants such as Fenty and Steve Madden.
 
-**Source:** Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · third-party count: UCP Checker, “The State of Agentic Commerce — August 2026”, 26 August 2026 ([to the count](https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026)) · councils per MAINTAINERS.md and GOVERNANCE.md in the Universal-Commerce-Protocol/.github repository, retrieved 21 September 2026 · [to Google’s announcement](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Source](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
+**Source:** Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026 — neither with an adoption figure · third-party count: UCP Checker, “The State of Agentic Commerce — August 2026”, 26 August 2026 ([to the count](https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026)) · councils per MAINTAINERS.md and GOVERNANCE.md in the Universal-Commerce-Protocol/.github repository, retrieved 21 September 2026 · TikTok for Business, “From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action”, 5 October 2026 ([to TikTok](https://ads.tiktok.com/business/en-US/blog/tiktok-agentic-solutions)), retrieved 16 October 2026 · [to Google’s announcement](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · [Source](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
 **Grade:** Standards status · Group: Status, case report, or market observation
 
@@ -182,4 +182,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 11 of 11 entries on Commerce. Last entry: agenten-lenkung-marktplatz.
+## agent-werbung-steuerung
+
+**Claim:** A true sentence in a product description can steer shopping agents: if it says “contains no blizyester”, a made-up substance, and the agents find planted pages about its supposed harms on the web, several current models rank the listings without that sentence lower. None of this breaks platform rules.
+
+**What the number does not say:** it is a preprint without peer review, a lab experiment with injected texts, not a live shop. How strongly it works depends on model, domain and route: when the made-up backstory sat in the context of the user’s request, the attack worked for almost all models and domains; when it arrived as a search result, the realistic route, the Claude models and Gemini 3.1 Pro remained vulnerable in most domains, while GPT 5.4, the Grok models and Gemini 3.1 Flash Lite performed at or below baseline. **What follows:** advertising can address agents instead of people without breaking a rule; the authors call for regulation and give recommendations to model and platform providers. The entry on steering agents in marketplaces shows the same weakness by other means. **In detail:** Eight closed models were tested, two each from Anthropic, OpenAI, Google and xAI, in four domains (beauty products, supplements, job postings, rental listings), 250 trials per model and domain. Most models believed the made-up substances were real. The code is public.
+
+**Source:** Tim R. Davidson, Marija Šakota and Robert West (EPFL) and Joshua Joseph (Harvard University), “Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions”, arXiv 2610.17195, version 1 of 12 October 2026, preprint without peer review · full text read 16 October 2026 · [Source](https://arxiv.org/abs/2610.17195)
+
+**Grade:** Controlled experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agent-werbung-steuerung
+
+---
+
+End of file: 12 of 12 entries on Commerce. Last entry: agent-werbung-steuerung.
