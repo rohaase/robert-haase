@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-10-16T10:59:25+02:00",
+  "dateModified": "2026-10-16T12:01:17+02:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
@@ -599,7 +599,7 @@
         "name": "Pew Research Center, passive browser tracking of 900 US adults, 68,879 Google searches in March 2025 · July 2025",
         "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
       },
-      "disambiguatingDescription": "What the number does not say: It establishes no cause. Queries that trigger an AI summary are systematically different from those that do not, so the comparison runs between query types, not within the same query. It also shows no revenue loss and says nothing about commercial queries. The harder number sits beside it: a link inside the summary was clicked on one percent of visits. And the mix of sources in the summaries resembled ordinary search, which contradicts the popular story about concentration on Reddit and Wikipedia.",
+      "disambiguatingDescription": "What the number does not say: It establishes no cause. Queries that trigger an AI summary are systematically different from those that do not, so the comparison runs between query types, not within the same query. It also shows no revenue loss and says nothing about commercial queries. Only a field experiment with random assignment establishes a cause, and it does so for Google’s AI Mode; its reverse test, removing AI Overviews and AI Mode, came out weaker, as the entry on the field experiment shows. The harder number sits beside it: a link inside the summary was clicked on one percent of visits. And the mix of sources in the summaries resembled ordinary search, which contradicts the popular story about concentration on Reddit and Wikipedia.",
       "position": 7,
       "id": "pew-klicks",
       "url": "https://robert-haase.de/en/evidence.html#pew-klicks",
@@ -626,7 +626,7 @@
         "name": "Ahrefs, Ryan Law, 300,000 keywords, 150,000 with and 150,000 without an AI summary, data from December 2025 · 4 February 2026",
         "url": "https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/"
       },
-      "disambiguatingDescription": "What the number does not say: Two different keyword sets are compared, not two states of the same query. That establishes no cause. The comparison also spans two years, December 2023 against December 2025, so every other change to search is folded in. Ahrefs sells search engine optimization tools. The self-limitation is worth noting: the authors point to competing studies with diverging results, among them Seer Interactive, Kevin Indig and Authoritas. Their own earlier study from April 2025 still put position 1 at 34.5 percent.",
+      "disambiguatingDescription": "What the number does not say: Two different keyword sets are compared, not two states of the same query. That establishes no cause; only a field experiment with random assignment does, and it does so for Google’s AI Mode, as the entry on the field experiment shows. The comparison also spans two years, December 2023 against December 2025, so every other change to search is folded in. Ahrefs sells search engine optimization tools. The self-limitation is worth noting: the authors point to competing studies with diverging results, among them Seer Interactive, Kevin Indig and Authoritas. Their own earlier study from April 2025 still put position 1 at 34.5 percent.",
       "position": 8,
       "id": "aio-klickrate",
       "url": "https://robert-haase.de/en/evidence.html#aio-klickrate",
@@ -681,10 +681,10 @@
       "text": "Reddit’s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days, according to one vendor panel; a second vendor panel counts a drop in daily Reddit citations from 497 to 132 over the same window, with total citation volume up by 3.5 percent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means",
+        "name": "Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means · third series: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month, retrieved 16 October 2026",
         "url": "https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt"
       },
-      "disambiguatingDescription": "What the numbers do not say: Both vendors sell visibility tools. Promptwatch does not rule out a collection error in its own data and calls the size of the drop provisional. Otterly calls its 73.4 percent a conservative floor: the before-window contains the break of 8 August, the after-window covers only four days. The two figures do not form a range: Promptwatch measures a share of all citations, Otterly absolute citations per day against a total volume that grew. Derived from Otterly’s own numbers, the starting level is 1.38 against 3.83 percent, a factor of 2.8 apart. Direction and timing are reliable, the decimal place and the level are not. Promptwatch discloses its denominator, the composition of the panel it does not. What the case does show: on Google’s AI surfaces Reddit fell by only 11 and 30 percent over the same period. The explanation that Reddit removed content is refuted: other engines keep citing the same posts. No vendor has evidenced the cause. A comparable collapse a year earlier was attributed to Google switching off the num=100 parameter, not to OpenAI. In detail: On 8 August 2026 ChatGPT’s use of the site: operator jumped from 0.37 to 16.8 percent of its derived search queries.",
+      "disambiguatingDescription": "What the numbers do not say: Both vendors sell visibility tools. Promptwatch does not rule out a collection error in its own data and calls the size of the drop provisional. Otterly calls its 73.4 percent a conservative floor: the before-window contains the break of 8 August, the after-window covers only four days. The two figures do not form a range: Promptwatch measures a share of all citations, Otterly absolute citations per day against a total volume that grew. Derived from Otterly’s own numbers, the starting level is 1.38 against 3.83 percent, a factor of 2.8 apart. Direction and timing are reliable, the decimal place and the level are not. Promptwatch discloses its denominator, the composition of the panel it does not. What the case does show: on Google’s AI surfaces Reddit fell by only 11 and 30 percent over the same period. The explanation that Reddit removed content is refuted: other engines keep citing the same posts. No vendor has evidenced the cause. A comparable collapse a year earlier was attributed to Google switching off the num=100 parameter, not to OpenAI. A third, longer series: according to Ahrefs, about one in five ChatGPT answers in the US cited Reddit in March 2026 and about one in 43 by late September, a drop of 88 percent in six months. What is measured is the share of answers, not of citations, and Ahrefs too sells visibility tools; where ChatGPT’s search queries are shifting is shown in the entry on ChatGPT’s search queries. In detail: On 8 August 2026 ChatGPT’s use of the site: operator jumped from 0.37 to 16.8 percent of its derived search queries.",
       "position": 10,
       "id": "reddit-zitate",
       "url": "https://robert-haase.de/en/evidence.html#reddit-zitate",
@@ -693,7 +693,7 @@
         "name": "Vendor measurement, preliminary",
         "group": "weak"
       },
-      "sourceText": "Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 (site: operator data page) · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication (blog version) · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means (second measurement) · Data page",
+      "sourceText": "Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 (site: operator data page) · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication (blog version) · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means (second measurement) · third series: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month, retrieved 16 October 2026 (third series) · Data page",
       "sourceLinks": [
         {
           "name": "site: operator data page",
@@ -706,6 +706,10 @@
         {
           "name": "second measurement",
           "url": "https://otterly.ai/blog/chatgpt-reddit-citations/"
+        },
+        {
+          "name": "third series",
+          "url": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
         },
         {
           "name": "Data page",
@@ -1721,10 +1725,10 @@
       "text": "Cloudflare reports that in 2026, for the first time, more than half of Internet traffic is not human. Better quantified in the same report: 52 percent of crawler requests served AI model training in June 2026, up from 22 percent in spring 2025.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026",
+        "name": "Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · Cloudflare, “The Internet has a second audience”, 30 September 2026 · Cloudflare Radar, AI Insights, series “HTML page requests by client type” and “Crawl purpose”, monthly values June to September and 1 to 14 October 2026, queried through the page’s data interface on 16 October 2026",
         "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
       },
-      "disambiguatingDescription": "What the number does not say: For the majority claim Cloudflare states neither what traffic was measured — page requests, all requests? — nor over what period. It rests on their own network, which is large but is not the Internet. The crawler figure is dated and carries a prior-year comparison, making it the more usable of the two. Care when reusing: secondary sources circulate the figure as “57.5 percent” — that number appears nowhere at Cloudflare.",
+      "disambiguatingDescription": "What the number does not say: For the majority claim Cloudflare states neither what traffic was measured nor over what period. Whether page requests or all requests are meant remains open; the post of 30 September 2026 also repeats the claim without a metric. It rests on their own network, which is large but is not the Internet. The crawler figure is dated and carries a prior-year comparison, making it the more usable of the two. Cloudflare Radar keeps a defined series: for HTML page requests, the human share was 42.7 percent in June 2026, 39.1 in September and 35.3 percent from 1 to 14 October; Cloudflare does not say whether the majority claim rests on this series. The training share of AI crawler traffic fell from 52.7 percent in June to 44.0 in September and stood at 45.9 percent from 1 to 14 October, while the share for search rose from 5.0 to 11.0 percent. Care when reusing: secondary sources circulate the figure as “57.5 percent”; that number appears nowhere at Cloudflare.",
       "position": 46,
       "id": "nicht-menschlicher-verkehr",
       "url": "https://robert-haase.de/en/evidence.html#nicht-menschlicher-verkehr",
@@ -1733,8 +1737,16 @@
         "name": "Market observation",
         "group": "plain"
       },
-      "sourceText": "Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · Source",
+      "sourceText": "Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · Cloudflare, “The Internet has a second audience”, 30 September 2026 (the post) · Cloudflare Radar, AI Insights, series “HTML page requests by client type” and “Crawl purpose”, monthly values June to September and 1 to 14 October 2026, queried through the page’s data interface on 16 October 2026 (Cloudflare Radar) · Source",
       "sourceLinks": [
+        {
+          "name": "the post",
+          "url": "https://blog.cloudflare.com/agentic-web/"
+        },
+        {
+          "name": "Cloudflare Radar",
+          "url": "https://radar.cloudflare.com/ai-insights"
+        },
         {
           "name": "Source",
           "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
@@ -1787,10 +1799,10 @@
       "text": "Under Article 10 of the new EU Product Liability Directive, a court shall presume defectiveness where proving it is “excessively difficult” for the claimant “in particular due to technical or scientific complexity” and they show only that it is likely. The directive must be transposed by 9 December 2026.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 15 October 2026: Bundestag text archive on the vote of 8 October 2026, committee recommendation, printed paper 21/8429, with entry into force in Article 17, government bill, printed paper 21/4297 of 25 February 2026, Bundesrat legislative file on printed paper 584/26",
+        "name": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 15 and 16 October 2026: Bundestag text archive on the vote of 8 October 2026, committee recommendation, printed paper 21/8429, with entry into force in Article 17, government bill, printed paper 21/4297 of 25 February 2026, Bundesrat legislative file on printed paper 584/26 with the decision of 16 October 2026, item 46",
         "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
       },
-      "disambiguatingDescription": "It does not apply yet: the directive has no direct effect and covers only products placed on the market after 9 December 2026. Article 21 repeals the old Directive 85/374/EEC on the same date but keeps it in force for products placed on the market earlier. And it does not reverse the burden of proof: Article 10(4) applies only “notwithstanding the disclosure of evidence pursuant to Article 9”, and under Article 10(5) the defendant may rebut every presumption. That is an evidential disadvantage, not strict liability. There can be no case law on “excessively difficult” yet, because the rule applies to no product. On the calendar, as of 15 October 2026: the Bundestag adopted the act modernising product liability law on 8 October 2026, on the basis of the legal affairs committee’s recommendation (printed paper 21/8429); CDU/CSU, SPD and the Greens voted in favour, AfD and Die Linke abstained. It is an objection act and is on the agenda of the Bundesrat sitting of 16 October 2026 as Bundesrat printed paper 584/26. Entry into force under the act: 9 December 2026, as the directive requires. In detail: The directive counts software explicitly among products in Article 4. The same presumption applies where the defendant fails to disclose evidence it has been ordered to produce.",
+      "disambiguatingDescription": "It does not apply yet: the directive has no direct effect and covers only products placed on the market after 9 December 2026. Article 21 repeals the old Directive 85/374/EEC on the same date but keeps it in force for products placed on the market earlier. And it does not reverse the burden of proof: Article 10(4) applies only “notwithstanding the disclosure of evidence pursuant to Article 9”, and under Article 10(5) the defendant may rebut every presumption. That is an evidential disadvantage, not strict liability. There can be no case law on “excessively difficult” yet, because the rule applies to no product. On the calendar, as of 16 October 2026: the Bundestag adopted the act modernising product liability law on 8 October 2026, on the basis of the legal affairs committee’s recommendation (printed paper 21/8429); CDU/CSU, SPD and the Greens voted in favour, AfD and Die Linke abstained. It is an objection act; at its sitting of 16 October 2026 (printed paper 584/26) the Bundesrat did not request that the mediation committee be convened, so the act has been passed. Signature and promulgation follow. Entry into force under the act: 9 December 2026, as the directive requires. In detail: The directive counts software explicitly among products in Article 4. The same presumption applies where the defendant fails to disclose evidence it has been ordered to produce.",
       "position": 48,
       "id": "produkthaftung-komplexitaet",
       "url": "https://robert-haase.de/en/evidence.html#produkthaftung-komplexitaet",
@@ -1799,7 +1811,7 @@
         "name": "Legal position",
         "group": "plain"
       },
-      "sourceText": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 15 October 2026: Bundestag text archive on the vote of 8 October 2026 (Bundestag), committee recommendation, printed paper 21/8429, with entry into force in Article 17 (recommendation), government bill, printed paper 21/4297 of 25 February 2026 (bill), Bundesrat legislative file on printed paper 584/26 (legislative file) · Directive",
+      "sourceText": "Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 15 and 16 October 2026: Bundestag text archive on the vote of 8 October 2026 (Bundestag), committee recommendation, printed paper 21/8429, with entry into force in Article 17 (recommendation), government bill, printed paper 21/4297 of 25 February 2026 (bill), Bundesrat legislative file on printed paper 584/26 with the decision of 16 October 2026, item 46 (legislative file) · Directive",
       "sourceLinks": [
         {
           "name": "Bundestag",
@@ -3400,10 +3412,10 @@
       "text": "Since version 13.5.0 of 18 September 2026, Google’s audit tool Lighthouse also checks whether a website’s catalogue for agents conforms to the “Agentic Resource Discovery” specification, and groups this check with the llms.txt check under a group of its own, “Agent Discoverability”.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” · retrieved 21 September 2026",
+        "name": "Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” · retrieved 21 September 2026 · Lighthouse, pull requests 17258 and 17259 moving to version 0.91, merged 9 October 2026, latest release still 13.5.0, checked 16 October 2026",
         "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0"
       },
-      "disambiguatingDescription": "What this entry does not establish: that agents read these files. An audit tool measures whether something is present and valid, not whether it is used. The llms.txt check has existed since version 13.3.0; for Google Search, Google declares the same file unnecessary, as an entry of its own on the Google Search guide documents. The specification is a proposal: ARD stands at version 0.91 of 26 August 2026 with the status “Proposal”, and its authors include people from Google and Hugging Face; it is not a standards-body specification. And tool and specification diverge: the specification requires the path /.well-known/ard.json, while Lighthouse still looks for the predecessor name /.well-known/ai-catalog.json. In detail: According to the release, the check ships in the DevTools of Chrome 156 and in PageSpeed Insights within two weeks.",
+      "disambiguatingDescription": "What this entry does not establish: that agents read these files. An audit tool measures whether something is present and valid, not whether it is used. The llms.txt check has existed since version 13.3.0; for Google Search, Google declares the same file unnecessary, as an entry of its own on the Google Search guide documents. The specification is a proposal: ARD stands at version 0.91 of 26 August 2026 with the status “Proposal”, and its authors include people from Google and Hugging Face; it is not a standards-body specification. And tool and specification diverge: the specification requires the path /.well-known/ard.json, while version 13.5.0 looks for the predecessor name /.well-known/ai-catalog.json and validates against a schema the specification has since removed. Two changes merged on 9 October 2026 move Lighthouse to version 0.91 and keep the predecessor names as a fallback; as of 16 October 2026 they have not shipped in a release. Where other mechanisms look for such catalogues is shown in the entry on MCP Server Cards. In detail: According to the release, the check ships in the DevTools of Chrome 156 and in PageSpeed Insights within two weeks.",
       "position": 104,
       "id": "lighthouse-agent-discovery",
       "url": "https://robert-haase.de/en/evidence.html#lighthouse-agent-discovery",
@@ -3412,11 +3424,15 @@
         "name": "Vendor documentation",
         "group": "strong"
       },
-      "sourceText": "Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” (to the specification) · retrieved 21 September 2026 · Source",
+      "sourceText": "Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” (to the specification) · retrieved 21 September 2026 · Lighthouse, pull requests 17258 and 17259 moving to version 0.91, merged 9 October 2026, latest release still 13.5.0, checked 16 October 2026 (pull request) · Source",
       "sourceLinks": [
         {
           "name": "to the specification",
           "url": "https://github.com/ards-project/ard-spec/blob/main/spec/ard.md"
+        },
+        {
+          "name": "pull request",
+          "url": "https://github.com/GoogleChrome/lighthouse/pull/17258"
         },
         {
           "name": "Source",
@@ -3431,10 +3447,10 @@
       "text": "When AI search recommends brands, it rarely relies on the brand’s own website. At AirOps, for queries in which users look for and compare vendors, 85 percent of 21,311 brand mentions in ChatGPT, Claude and Perplexity came from third-party sources and 13.2 percent from the brand’s own domain.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "AirOps, “Third-Party Sources Drive 85% of Brand Discovery”, 17 October 2025, 21,311 brand mentions in ChatGPT, Claude and Perplexity for vendor-discovery queries · Kumar (Ranqo), “Generative Engine Optimization at Scale”, arXiv 2606.20065, 18 June 2026, preprint without peer review, 102 brands, 102,025 responses, 149,912 source citations from five AI search engines, March to May 2026 · both retrieved 21 September 2026",
+        "name": "AirOps, “Third-Party Sources Drive 85% of Brand Discovery”, 17 October 2025, 21,311 brand mentions in ChatGPT, Claude and Perplexity for vendor-discovery queries · Kumar (Ranqo), “Generative Engine Optimization at Scale”, arXiv 2606.20065, 18 June 2026, preprint without peer review, 102 brands, 102,025 responses, 149,912 source citations from five AI search engines, March to May 2026 · both retrieved 21 September 2026 · type of question: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, separate test of 20,000 US prompts, retrieved 16 October 2026",
         "url": "https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search"
       },
-      "disambiguatingDescription": "What the figures do not say: Both come from vendors that sell tools for AI search visibility. The Ranqo author is a co-founder with an equity interest in the company, and the brands are those of its own customers, by its own account not a representative selection, mostly software vendors, fintechs and Indian direct-to-consumer brands. AirOps names no data collection period. What is measured is citation, not purchase or effect. Care when passing it on: Ranqo’s often-quoted “about 78 percent corporate websites” counts the brand’s own site and other companies’ sites together; the brand’s own site accounts for 2.9 percent of it. In detail: At Ranqo, only 2.9 percent of 149,912 source citations from five AI search engines point to the brand’s own domain, and 75.2 percent to pages of other companies in the same field.",
+      "disambiguatingDescription": "What the figures do not say: Both come from vendors that sell tools for AI search visibility. The Ranqo author is a co-founder with an equity interest in the company, and the brands are those of its own customers, by its own account not a representative selection, mostly software vendors, fintechs and Indian direct-to-consumer brands. AirOps names no data collection period. What is measured is citation, not purchase or effect. The type of question shifts the picture: for factual questions about prices, product features or company details, 63.4 percent of citations went to official websites in an Ahrefs test of 20,000 US prompts to ChatGPT, against 46.4 percent for comparison questions, as the entry on ChatGPT’s search queries shows. The post says neither how Ahrefs defines “official” nor when it measured; it is not the same as the brand’s own domain. Care when passing it on: Ranqo’s often-quoted “about 78 percent corporate websites” counts the brand’s own site and other companies’ sites together; the brand’s own site accounts for 2.9 percent of it. In detail: At Ranqo, only 2.9 percent of 149,912 source citations from five AI search engines point to the brand’s own domain, and 75.2 percent to pages of other companies in the same field.",
       "position": 105,
       "id": "eigene-seite-selten-zitiert",
       "url": "https://robert-haase.de/en/evidence.html#eigene-seite-selten-zitiert",
@@ -3443,11 +3459,15 @@
         "name": "Two vendor measurements, preliminary",
         "group": "weak"
       },
-      "sourceText": "AirOps, “Third-Party Sources Drive 85% of Brand Discovery”, 17 October 2025, 21,311 brand mentions in ChatGPT, Claude and Perplexity for vendor-discovery queries · Kumar (Ranqo), “Generative Engine Optimization at Scale”, arXiv 2606.20065, 18 June 2026, preprint without peer review, 102 brands, 102,025 responses, 149,912 source citations from five AI search engines, March to May 2026 (to the preprint) · both retrieved 21 September 2026 · Source",
+      "sourceText": "AirOps, “Third-Party Sources Drive 85% of Brand Discovery”, 17 October 2025, 21,311 brand mentions in ChatGPT, Claude and Perplexity for vendor-discovery queries · Kumar (Ranqo), “Generative Engine Optimization at Scale”, arXiv 2606.20065, 18 June 2026, preprint without peer review, 102 brands, 102,025 responses, 149,912 source citations from five AI search engines, March to May 2026 (to the preprint) · both retrieved 21 September 2026 · type of question: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, separate test of 20,000 US prompts, retrieved 16 October 2026 (Ahrefs) · Source",
       "sourceLinks": [
         {
           "name": "to the preprint",
           "url": "https://arxiv.org/abs/2606.20065"
+        },
+        {
+          "name": "Ahrefs",
+          "url": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
         },
         {
           "name": "Source",
@@ -3756,10 +3776,10 @@
       "text": "Google, too, stores brand rules as managed instructions for its assistant: in Google Workspace, so-called skills, introduced as a beta on 17 September 2026, are meant to, among other things, “maintain approved tone, voice, and visual identity across email drafts and files”.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026",
+        "name": "Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026 · Google Workspace Updates, “Introducing skills in the Gemini app and Workspace, plus what’s next for Gems”, 30 September 2026, with an update of 13 October 2026 · Google Workspace Help, “About the transition from Gems to skills” · both retrieved 16 October 2026",
         "url": "https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace"
       },
-      "disambiguatingDescription": "What this entry does not establish: use. It is vendor documentation without figures. In Workspace, skills are open only to organisations whose administrator has enabled the Gemini beta; the post says nothing about availability in the EU. In Gemini Enterprise, the Standard, Plus and pay-as-you-go editions can create skills, Frontline cannot. Context: after Microsoft’s brand kits and Adobe’s brand check, a third large vendor now stores brand rules as configuration of its assistant, as the entries on both show. In detail: Administrators can curate and distribute verified organisational skills. In Gemini Enterprise the documentation names writing “in your brand voice” as an example: each skill is a SKILL.md file built on an open standard, and where the administrator requires approval, a shared skill reaches others only once approved.",
+      "disambiguatingDescription": "What this entry does not establish: use. It is vendor documentation without figures. In Workspace, skills were at first open only to organisations whose administrator had enabled the Gemini beta. On 30 September 2026 Google announced the general rollout, from 5 October for organisations that receive new features early and from 19 October for the rest; on 13 October Google reported it delayed for the Workspace apps and Workspace Studio, with only the Gemini app rolling out. Neither post says anything about availability in the EU. In Gemini Enterprise, the Standard, Plus and pay-as-you-go editions can create skills, Frontline cannot. Context: after Microsoft’s brand kits and Adobe’s brand check, a third large vendor now stores brand rules as configuration of its assistant, as the entries on both show. Gems are folded into skills: from 17 November 2026 Gems move into the settings of the Gemini app and remain usable; no sooner than 1 March 2027 they can no longer be used in Business and Enterprise editions, and remaining Gems are converted automatically into draft skills. Brand rules stored as a Gem today will move with them. In detail: Administrators can curate and distribute verified organisational skills. In Gemini Enterprise the documentation names writing “in your brand voice” as an example: each skill is a SKILL.md file built on an open standard, and where the administrator requires approval, a shared skill reaches others only once approved.",
       "position": 116,
       "id": "markenstimme-als-skill",
       "url": "https://robert-haase.de/en/evidence.html#markenstimme-als-skill",
@@ -3768,8 +3788,16 @@
         "name": "Vendor documentation, beta",
         "group": "strong"
       },
-      "sourceText": "Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026 · Gemini Enterprise documentation · Source",
+      "sourceText": "Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026 · Google Workspace Updates, “Introducing skills in the Gemini app and Workspace, plus what’s next for Gems”, 30 September 2026, with an update of 13 October 2026 (announcement) · Google Workspace Help, “About the transition from Gems to skills” (help page) · both retrieved 16 October 2026 · Gemini Enterprise documentation · Source",
       "sourceLinks": [
+        {
+          "name": "announcement",
+          "url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
+        },
+        {
+          "name": "help page",
+          "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/about-the-transition-to-skills"
+        },
         {
           "name": "Gemini Enterprise documentation",
           "url": "https://docs.cloud.google.com/gemini/enterprise/docs/skills"
@@ -3876,10 +3904,10 @@
       "text": "Since 29 September 2026, america.gov has answered questions for the US government in one input field, according to its operator from roughly 29,000 government sites, with source links.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · FedScoop gives the 29,000 websites as America.gov’s own figure, and they were not on “How it works” on 1 October 2026 · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026",
+        "name": "America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · FedScoop gives the 29,000 websites as America.gov’s own figure, and they were not on “How it works” on 1 October 2026; on 16 October 2026 the FAQ carries the figure, without deriving it · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · Executive Order 14432, “Streamlining Access to Government Services Through America.gov”, 29 September 2026 · America.gov, FAQ · both retrieved 16 October 2026",
         "url": "https://america.gov/how-it-works"
       },
-      "disambiguatingDescription": "What this entry does not establish: that the answers are correct. There is no systematic test, only journalists’ samples: CBS News asked 37 health questions; emergencies were answered correctly, other answers were outdated or left out a court order, and the agency pages partly contradict each other. The 29,000 sites and the immediate updates are launch statements. According to Gebbia, models from Google (Gemini) and xAI (Grok) run behind it; the White House did not answer questions about privacy and contracts. The operator on itself: “The accuracy of our answers is never influenced by third parties.” In detail: According to the government’s Chief Design Officer, Joe Gebbia, changes on agency pages are meant to reach the answers immediately.",
+      "disambiguatingDescription": "What this entry does not establish: that the answers are correct. There is no systematic test, only journalists’ samples: CBS News asked 37 health questions; emergencies were answered correctly, other answers were outdated or left out a court order, and the agency pages partly contradict each other. The 29,000 sites and the immediate updates are launch statements. According to Gebbia, models from Google (Gemini) and xAI (Grok) run behind it; the White House did not answer questions about privacy and contracts. The operator on itself: “The accuracy of our answers is never influenced by third parties.” Its FAQ at the same time advises checking the sources given with each answer before an important decision. The legal basis: Executive Order 14432 of 29 September 2026 makes America.gov the “single point of entry” for federal services with more than 100,000 users in twelve months; the technology used is to be “accurate, reliable, and transparent”, and the order sets no requirements on citing sources. In detail: According to the government’s Chief Design Officer, Joe Gebbia, changes on agency pages are meant to reach the answers immediately.",
       "position": 120,
       "id": "staat-als-einzige-quelle",
       "url": "https://robert-haase.de/en/evidence.html#staat-als-einzige-quelle",
@@ -3888,8 +3916,16 @@
         "name": "Documented single case",
         "group": "plain"
       },
-      "sourceText": "America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · FedScoop gives the 29,000 websites as America.gov’s own figure, and they were not on “How it works” on 1 October 2026 · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · FedScoop · CBS News · Source",
+      "sourceText": "America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · FedScoop gives the 29,000 websites as America.gov’s own figure, and they were not on “How it works” on 1 October 2026; on 16 October 2026 the FAQ carries the figure, without deriving it · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · Executive Order 14432, “Streamlining Access to Government Services Through America.gov”, 29 September 2026 (the order) · America.gov, FAQ (FAQ) · both retrieved 16 October 2026 · FedScoop · CBS News · Source",
       "sourceLinks": [
+        {
+          "name": "the order",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/streamlining-access-to-government-services-through-america-gov/"
+        },
+        {
+          "name": "FAQ",
+          "url": "https://america.gov/faq"
+        },
         {
           "name": "FedScoop",
           "url": "https://fedscoop.com/trump-launches-ai-site-america-gov/"
@@ -4279,10 +4315,10 @@
       "text": "Logged out, ChatGPT rarely searches the web, and when it does, often straight on brand websites: according to Ahrefs, only 14.4 percent of 66.6 million answers triggered a search. 6.8 percent of queries used site: to stay on one website; among the roughly 160 most frequent targets, 75.9 percent were brand websites such as apple.com.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026 · 66.6 million answers with 15 million fan-out queries from free, logged-out GPT-5.6 Luna sessions, August and September 2026 · citation shares from a separate US dataset, March to September 2026 · retrieved 16 October 2026",
+        "name": "Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026 · 66.6 million answers with 15 million fan-out queries from free, logged-out GPT-5.6 Luna sessions, August and September 2026 · citation shares from a separate test of 20,000 US prompts, with no date given · Reddit decline from Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month · retrieved 16 October 2026",
         "url": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
       },
-      "disambiguatingDescription": "What the number does not say: it is a snapshot of one model, GPT-5.6 Luna in free, logged-out sessions in August and September 2026, measured by a vendor of SEO tools with its own broadly phrased prompts. Paying users and reasoning models search more often, and studies with commercial prompts measure different shares for site:. What follows: when someone asks about a brand, ChatGPT often searches the brand’s own website directly; what it says there and how it says it feeds into the answer. How strongly depends on the type of question: in a separate US dataset, 63.4 percent of citations for factual questions went to websites Ahrefs classifies as official, 46.4 percent for comparison questions. In detail: Among the most frequent site: targets, retailers made up 11.9 percent and Reddit and Facebook 1.9 percent. Reddit was cited 88 percent less often from March to September 2026, as the entry on Reddit citations shows.",
+      "disambiguatingDescription": "What the number does not say: it is a snapshot of one model, GPT-5.6 Luna in free, logged-out sessions in August and September 2026, measured by a vendor of SEO tools with its own broadly phrased prompts. Paying users and reasoning models search more often, and studies with commercial prompts measure different shares for site:. What follows: when someone asks about a brand, ChatGPT often searches the brand’s own website directly; what it says there and how it says it feeds into the answer. How strongly depends on the type of question: in a separate test of 20,000 US prompts, 63.4 percent of citations for factual questions went to websites Ahrefs classifies as official, 46.4 percent for comparison questions. In detail: Among the most frequent site: targets, retailers made up 11.9 percent and Reddit and Facebook 1.9 percent. Reddit was cited 88 percent less often from March to September 2026, as the entry on Reddit citations shows.",
       "position": 133,
       "id": "chatgpt-suchanfragen",
       "url": "https://robert-haase.de/en/evidence.html#chatgpt-suchanfragen",
@@ -4291,7 +4327,7 @@
         "name": "Market observation",
         "group": "plain"
       },
-      "sourceText": "Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026 · 66.6 million answers with 15 million fan-out queries from free, logged-out GPT-5.6 Luna sessions, August and September 2026 · citation shares from a separate US dataset, March to September 2026 · retrieved 16 October 2026 · Source",
+      "sourceText": "Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026 · 66.6 million answers with 15 million fan-out queries from free, logged-out GPT-5.6 Luna sessions, August and September 2026 · citation shares from a separate test of 20,000 US prompts, with no date given · Reddit decline from Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month · retrieved 16 October 2026 · Source",
       "sourceLinks": [
         {
           "name": "Source",
