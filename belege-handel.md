@@ -1,6 +1,6 @@
 # Belege: Handel
 
-12 von 136 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 16. Oktober 2026.
+12 von 138 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 20. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -88,9 +88,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Nur 11 Prozent der Befragten würden einer KI die Kaufentscheidung überlassen, und das auch nur in Kategorien mit geringem Einsatz wie Körperpflege und Haushaltswaren.
 
-**Was die Zahl relativiert:** Auch die Zustimmung zur bloßen *Hilfe* ist keine Mehrheit: 31 Prozent würden eine KI die Auswahl bei Haushaltswaren eingrenzen lassen, 28 Prozent bei Elektronik. Es ist das Gegengewicht zu den Prognosen über autonom kaufende Agenten. Geäußerte Präferenz und späteres Verhalten fallen allerdings regelmäßig auseinander, besonders wenn die Erfahrung fehlt. Stichprobe: 322 US-Verbraucher.
+**Was die Zahl relativiert:** Auch die Zustimmung zur bloßen *Hilfe* ist keine Mehrheit: 31 Prozent würden eine KI die Auswahl bei Haushaltswaren eingrenzen lassen, 28 Prozent bei Elektronik. Es ist das Gegengewicht zu den Prognosen über autonom kaufende Agenten. Geäußerte Präferenz und späteres Verhalten fallen allerdings regelmäßig auseinander, besonders wenn die Erfahrung fehlt. Stichprobe: 322 US-Verbraucher. **In Europa ähnlich:** Laut Deloitte wollen 8 Prozent der europäischen und knapp 6 Prozent der deutschen Befragten, die KI beim Einkaufen nutzen, Kaufentscheidungen ganz an die KI abgeben, obwohl 52 Prozent der Deutschen solche Hilfen schon nutzen; in einer vergleichbaren Befragung im September 2025 waren es 44 Prozent. Bezugsgröße sind diese Nutzer, nicht alle Befragten, und den Fragetext nennt die Pressemitteilung nicht. Befragt wurden im Mai 2026 online 13.500 Verbraucher in 15 Ländern, 1.500 davon in Deutschland.
 
-**Quelle:** Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026 · [Zur Quelle](https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions)
+**Quelle:** Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026 · Europa: Deloitte, Studie „The State of Agentic Commerce in Europe“, Pressemitteilung „Jeder Zweite in Europa shoppt mit KI-Unterstützung“, 13. Juli 2026, Online-Befragung von 13.500 Verbrauchern in 15 Ländern im Mai 2026, abgerufen am 20. Oktober 2026 ([zu Deloitte](https://www.deloitte.com/de/de/about/press-room/jeder-zweite-in-europa-shoppt-mit-KI-untersuetzung.html)) · [Zur Quelle](https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions)
 
 **Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
 

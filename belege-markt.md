@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-19 von 136 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 16. Oktober 2026.
+21 von 138 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 20. Oktober 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
-+ Sachstand, Fallbericht oder Marktbeobachtung (7) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung
++ Sachstand, Fallbericht oder Marktbeobachtung (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 ---
 
@@ -294,4 +294,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 19 von 19 Einträgen zum Thema Marktgröße. Letzter Eintrag: chatbot-nichtnutzung.
+## cmo-ki-budget
+
+**Aussage:** Marketingchefs geben im Schnitt 15,3 Prozent ihres Budgets für KI-Vorhaben aus, doch nur 30 Prozent nennen die KI-Fähigkeiten ihrer Organisation ausgereift. Die Marketingbudgets selbst stagnieren bei 7,8 Prozent des Umsatzes, 2025 waren es 7,7 Prozent; 56 Prozent sagen, ihnen fehle das Budget für ihre Strategie 2026.
+
+**Was die Zahl nicht sagt:** Was als KI-Vorhaben zählt, definiert die Pressemitteilung nicht; Werkzeuge, Personal und Agenturleistungen können darin stecken. Es sind Selbstauskünfte von 401 Marketingverantwortlichen in Nordamerika, Großbritannien und Europa, die meisten aus Unternehmen mit mehr als 1 Milliarde Dollar Jahresumsatz; für kleinere Unternehmen sagt die Zahl wenig. Der vollständige Bericht ist Gartner-Kunden vorbehalten, öffentlich ist nur die Pressemitteilung, und Gartner verkauft selbst Beratung zu KI. **Was daraus folgt:** Das Geld für KI kommt aus einem Budget, das nicht wächst, laut Gartner also aus Umschichtung. Der Eintrag zum KI-Anteil der Marketingzeit misst etwas anderes, den geschätzten Zeitanteil in US-Unternehmen. **Im Einzelnen:** Organisationen mit ausgereiften KI-Fähigkeiten geben 21,3 Prozent ihres Marketingbudgets für KI aus und haben Budgets von 8,9 Prozent des Umsatzes. 70 Prozent nennen es ein kritisches Ziel für 2026, bei KI führend zu werden; ebenso viele sagen, ihre Prozesse seien dafür nicht reif genug. Erhoben wurde von Januar bis März 2026.
+
+**Quelle:** Gartner, Pressemitteilung „Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities“, London, 11. Mai 2026 · CMO Spend Survey 2026, 401 Marketingverantwortliche in Nordamerika, Großbritannien und Europa, Januar bis März 2026 · abgerufen am 20. Oktober 2026 · [Zur Quelle](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities)
+
+**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#cmo-ki-budget
+
+---
+
+## marketing-prioritaeten
+
+**Aussage:** Unter 20 Themen setzen europäische Marketingentscheider für 2026 Branding auf Platz 1 und Marketing mit generativer KI auf Platz 17. Zugleich zählt die Hälfte der Marketingchefs es zu den drei am schnellsten wachsenden Investitionsfeldern; nur 6 Prozent beschreiben den Einsatz generativer KI im eigenen Unternehmen als ausgereift.
+
+**Was die Zahl nicht sagt:** Ein Rang ist keine Größe: Wie die Rangfolge berechnet ist und wie weit die Plätze auseinanderliegen, steht im Artikel nicht, und die 20 Themen hat McKinsey vorher aus Gesprächen mit Marketingleitern abgeleitet. Befragt wurden 500 Entscheider aus Frankreich, Deutschland, Italien, Spanien und Großbritannien, laut McKinsey auch aus Agenturen und Wissenschaft; eine Feldzeit nennt der Artikel nicht. McKinsey verkauft Beratung zu Marketing und KI. **Was es zur Debatte beiträgt:** Die Prioritäten widersprechen der Erzählung, im Marketing drehe sich alles um KI; die Investitionsabsicht zeigt zugleich, dass das Geld trotzdem dorthin fließt. **Im Einzelnen:** Datenschutz steht auf Platz 3, Authentizität auf Platz 4, Arbeitgebermarke auf Platz 5. 72 Prozent wollen ihr Marketingbudget im Verhältnis zum Umsatz 2026 erhöhen; McKinsey fragt nach der Absicht, Gartner nach dem Stand, wie der Eintrag zu den KI-Budgets zeigt. Wer den Einsatz generativer KI als ausgereift beschreibt, nennt 22 Prozent Effizienzgewinn und erwartet 28 Prozent binnen zwei Jahren.
+
+**Quelle:** McKinsey, Aurélia Bettati, Jesko Perrey u. a., „Past forward: The modern rethinking of marketing’s core“, Bericht State of Marketing Europe 2026, 20. November 2025 · Befragung von 500 Marketingentscheidern in fünf Ländern, ergänzt um Experteninterviews, Methodik im Kasten „About our research“ · abgerufen am 20. Oktober 2026 · [Zur Quelle](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core)
+
+**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#marketing-prioritaeten
+
+---
+
+Ende der Datei: 21 von 21 Einträgen zum Thema Marktgröße. Letzter Eintrag: marketing-prioritaeten.

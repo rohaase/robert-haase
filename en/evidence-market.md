@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-19 of 136 entries in the collection “Evidence” by Robert Haase, as of 16 October 2026.
+21 of 138 entries in the collection “Evidence” by Robert Haase, as of 20 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Preliminary: prototype, single test, forecast, or vendor figure (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
-+ Status, case report, or market observation (7) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung
++ Status, case report, or market observation (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 ---
 
@@ -294,4 +294,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 19 of 19 entries on Market size. Last entry: chatbot-nichtnutzung.
+## cmo-ki-budget
+
+**Claim:** CMOs spend on average 15.3 percent of their budget on AI initiatives, yet only 30 percent describe their organisation’s AI capabilities as mature. Marketing budgets themselves are flat at 7.8 percent of revenue, against 7.7 percent for 2025; 56 percent say they lack the budget for their 2026 strategy.
+
+**What the number does not say:** the press release does not define what counts as an AI initiative; tools, staff and agency services may all be in it. These are self-reports from 401 marketing leaders in North America, the United Kingdom and Europe, most of them at companies with more than 1 billion dollars in annual revenue; for smaller companies the figure says little. The full report is reserved for Gartner clients, only the press release is public, and Gartner itself sells advice on AI. **What follows:** the money for AI comes from a budget that is not growing, so according to Gartner from reallocation. The entry on the AI share of marketing time measures something else, the estimated share of time at US companies. **In detail:** Organisations with mature AI capabilities spend 21.3 percent of their marketing budget on AI and have budgets of 8.9 percent of revenue. 70 percent call becoming an AI leader a critical goal for 2026; just as many say their processes are not mature enough for it. The survey ran from January to March 2026.
+
+**Source:** Gartner, press release “Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities”, London, 11 May 2026 · CMO Spend Survey 2026, 401 marketing leaders in North America, the United Kingdom and Europe, January to March 2026 · retrieved 20 October 2026 · [Source](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities)
+
+**Grade:** Survey · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#cmo-ki-budget
+
+---
+
+## marketing-prioritaeten
+
+**Claim:** Out of 20 topics, European marketing decision-makers put branding at rank 1 for 2026 and marketing with generative AI at rank 17. At the same time half of the CMOs count it among their three fastest-growing investment areas; only 6 percent describe their company’s use of generative AI as mature.
+
+**What the number does not say:** a rank is not a size: the article does not say how the ranking was calculated or how far apart the ranks lie, and McKinsey derived the 20 topics beforehand from interviews with marketing leaders. The survey covered 500 decision-makers from France, Germany, Italy, Spain and the United Kingdom, according to McKinsey also from agencies and academia; the article gives no fieldwork period. McKinsey sells advice on marketing and AI. **What it adds to the debate:** the priorities contradict the story that marketing is all about AI; the investment intention shows at the same time that the money flows there anyway. **In detail:** Data privacy is at rank 3, authenticity at rank 4, employer branding at rank 5. 72 percent plan to raise their marketing budget relative to sales for 2026; McKinsey asks about intention, Gartner about the current state, as the entry on AI budgets shows. Those who describe their use of generative AI as mature report 22 percent efficiency gains and expect 28 percent within two years.
+
+**Source:** McKinsey, Aurélia Bettati, Jesko Perrey et al., “Past forward: The modern rethinking of marketing’s core”, State of Marketing Europe 2026 report, 20 November 2025 · survey of 500 marketing decision-makers in five countries, complemented by expert interviews, methodology in the box “About our research” · retrieved 20 October 2026 · [Source](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core)
+
+**Grade:** Survey · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#marketing-prioritaeten
+
+---
+
+End of file: 21 of 21 entries on Market size. Last entry: marketing-prioritaeten.

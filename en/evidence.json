@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-10-16T12:01:17+02:00",
+  "dateModified": "2026-10-20T09:06:00+02:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 136,
+  "numberOfItems": 138,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -299,7 +299,7 @@
     {
       "id": "markt",
       "name": "Market size",
-      "numberOfItems": 19,
+      "numberOfItems": 21,
       "textFile": "https://robert-haase.de/en/evidence-market.md",
       "ids": [
         "machine-customers",
@@ -320,7 +320,9 @@
         "agentur-selbstbild",
         "cmo-titel-schwindet",
         "ki-verkehr-handel-prognose",
-        "chatbot-nichtnutzung"
+        "chatbot-nichtnutzung",
+        "cmo-ki-budget",
+        "marketing-prioritaeten"
       ],
       "groups": {
         "strong": [
@@ -346,7 +348,9 @@
           "in-house-verlagerung",
           "insourcing-absicht",
           "agentur-selbstbild",
-          "chatbot-nichtnutzung"
+          "chatbot-nichtnutzung",
+          "cmo-ki-budget",
+          "marketing-prioritaeten"
         ]
       }
     },
@@ -1300,10 +1304,10 @@
       "text": "Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026",
+        "name": "Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026 · Europe: Deloitte, study “The State of Agentic Commerce in Europe”, German press release “Jeder Zweite in Europa shoppt mit KI-Unterstützung”, 13 July 2026, online survey of 13,500 consumers in 15 countries in May 2026, retrieved 20 October 2026",
         "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
       },
-      "disambiguatingDescription": "What puts the number in perspective: Even willingness to accept mere help is not a majority: 31 percent would let AI narrow choices for household supplies, 28 percent for electronics. It is the counterweight to forecasts about autonomously buying agents. Stated preference and later behaviour do diverge regularly, especially where experience is missing. Sample: 322 US consumers.",
+      "disambiguatingDescription": "What puts the number in perspective: Even willingness to accept mere help is not a majority: 31 percent would let AI narrow choices for household supplies, 28 percent for electronics. It is the counterweight to forecasts about autonomously buying agents. Stated preference and later behaviour do diverge regularly, especially where experience is missing. Sample: 322 US consumers. Similar in Europe: according to Deloitte, 8 percent of European and just under 6 percent of German respondents who use AI for shopping want to hand purchase decisions over to the AI entirely, although 52 percent of Germans already use such shopping aids; in a comparable survey in September 2025 it was 44 percent. The base is these users, not all respondents, and the press release does not give the question wording. The online survey covered 13,500 consumers in 15 countries in May 2026, 1,500 of them in Germany.",
       "position": 31,
       "id": "kaufentscheidung",
       "url": "https://robert-haase.de/en/evidence.html#kaufentscheidung",
@@ -1312,8 +1316,12 @@
         "name": "Survey",
         "group": "plain"
       },
-      "sourceText": "Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026 · Source",
+      "sourceText": "Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026 · Europe: Deloitte, study “The State of Agentic Commerce in Europe”, German press release “Jeder Zweite in Europa shoppt mit KI-Unterstützung”, 13 July 2026, online survey of 13,500 consumers in 15 countries in May 2026, retrieved 20 October 2026 (Deloitte) · Source",
       "sourceLinks": [
+        {
+          "name": "Deloitte",
+          "url": "https://www.deloitte.com/de/de/about/press-room/jeder-zweite-in-europa-shoppt-mit-KI-untersuetzung.html"
+        },
         {
           "name": "Source",
           "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
@@ -4416,6 +4424,60 @@
         }
       ],
       "citationText": "A true sentence in a product description can steer shopping agents: if it says “contains no blizyester”, a made-up substance, and the agents find planted pages about its supposed harms on the web, several current models rank the listings without that sentence lower. None of this breaks platform rules. (Davidson et al., EPFL and Harvard, arXiv 2610.17195, version of 12 October 2026, preprint). https://arxiv.org/abs/2610.17195 · via https://robert-haase.de/en/evidence.html#agent-werbung-steuerung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#cmo-ki-budget",
+      "text": "CMOs spend on average 15.3 percent of their budget on AI initiatives, yet only 30 percent describe their organisation’s AI capabilities as mature. Marketing budgets themselves are flat at 7.8 percent of revenue, against 7.7 percent for 2025; 56 percent say they lack the budget for their 2026 strategy.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Gartner, press release “Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities”, London, 11 May 2026 · CMO Spend Survey 2026, 401 marketing leaders in North America, the United Kingdom and Europe, January to March 2026 · retrieved 20 October 2026",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities"
+      },
+      "disambiguatingDescription": "What the number does not say: the press release does not define what counts as an AI initiative; tools, staff and agency services may all be in it. These are self-reports from 401 marketing leaders in North America, the United Kingdom and Europe, most of them at companies with more than 1 billion dollars in annual revenue; for smaller companies the figure says little. The full report is reserved for Gartner clients, only the press release is public, and Gartner itself sells advice on AI. What follows: the money for AI comes from a budget that is not growing, so according to Gartner from reallocation. The entry on the AI share of marketing time measures something else, the estimated share of time at US companies. In detail: Organisations with mature AI capabilities spend 21.3 percent of their marketing budget on AI and have budgets of 8.9 percent of revenue. 70 percent call becoming an AI leader a critical goal for 2026; just as many say their processes are not mature enough for it. The survey ran from January to March 2026.",
+      "position": 137,
+      "id": "cmo-ki-budget",
+      "url": "https://robert-haase.de/en/evidence.html#cmo-ki-budget",
+      "topic": "markt",
+      "grade": {
+        "name": "Survey",
+        "group": "plain"
+      },
+      "sourceText": "Gartner, press release “Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities”, London, 11 May 2026 · CMO Spend Survey 2026, 401 marketing leaders in North America, the United Kingdom and Europe, January to March 2026 · retrieved 20 October 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities"
+        }
+      ],
+      "citationText": "CMOs spend on average 15.3 percent of their budget on AI initiatives, yet only 30 percent describe their organisation’s AI capabilities as mature. Marketing budgets themselves are flat at 7.8 percent of revenue, against 7.7 percent for 2025; 56 percent say they lack the budget for their 2026 strategy. (Gartner, CMO Spend Survey 2026, 401 marketing leaders, press release of 11 May 2026). https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities · via https://robert-haase.de/en/evidence.html#cmo-ki-budget"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#marketing-prioritaeten",
+      "text": "Out of 20 topics, European marketing decision-makers put branding at rank 1 for 2026 and marketing with generative AI at rank 17. At the same time half of the CMOs count it among their three fastest-growing investment areas; only 6 percent describe their company’s use of generative AI as mature.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "McKinsey, Aurélia Bettati, Jesko Perrey et al., “Past forward: The modern rethinking of marketing’s core”, State of Marketing Europe 2026 report, 20 November 2025 · survey of 500 marketing decision-makers in five countries, complemented by expert interviews, methodology in the box “About our research” · retrieved 20 October 2026",
+        "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core"
+      },
+      "disambiguatingDescription": "What the number does not say: a rank is not a size: the article does not say how the ranking was calculated or how far apart the ranks lie, and McKinsey derived the 20 topics beforehand from interviews with marketing leaders. The survey covered 500 decision-makers from France, Germany, Italy, Spain and the United Kingdom, according to McKinsey also from agencies and academia; the article gives no fieldwork period. McKinsey sells advice on marketing and AI. What it adds to the debate: the priorities contradict the story that marketing is all about AI; the investment intention shows at the same time that the money flows there anyway. In detail: Data privacy is at rank 3, authenticity at rank 4, employer branding at rank 5. 72 percent plan to raise their marketing budget relative to sales for 2026; McKinsey asks about intention, Gartner about the current state, as the entry on AI budgets shows. Those who describe their use of generative AI as mature report 22 percent efficiency gains and expect 28 percent within two years.",
+      "position": 138,
+      "id": "marketing-prioritaeten",
+      "url": "https://robert-haase.de/en/evidence.html#marketing-prioritaeten",
+      "topic": "markt",
+      "grade": {
+        "name": "Survey",
+        "group": "plain"
+      },
+      "sourceText": "McKinsey, Aurélia Bettati, Jesko Perrey et al., “Past forward: The modern rethinking of marketing’s core”, State of Marketing Europe 2026 report, 20 November 2025 · survey of 500 marketing decision-makers in five countries, complemented by expert interviews, methodology in the box “About our research” · retrieved 20 October 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core"
+        }
+      ],
+      "citationText": "Out of 20 topics, European marketing decision-makers put branding at rank 1 for 2026 and marketing with generative AI at rank 17. At the same time half of the CMOs count it among their three fastest-growing investment areas; only 6 percent describe their company’s use of generative AI as mature. (McKinsey, State of Marketing Europe 2026, 500 marketing decision-makers, 20 November 2025). https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core · via https://robert-haase.de/en/evidence.html#marketing-prioritaeten"
     }
   ]
 }

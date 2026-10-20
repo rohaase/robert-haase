@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-23 of 136 entries in the collection “Evidence” by Robert Haase, as of 16 October 2026.
+23 of 138 entries in the collection “Evidence” by Robert Haase, as of 20 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 

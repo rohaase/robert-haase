@@ -1,6 +1,6 @@
-# Evidence: all 136 claims
+# Evidence: all 138 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 16 October 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 20 October 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -29,7 +29,7 @@ The collection does not map the state of the research, only the figures I needed
 - Interfaces, 22 entries: https://robert-haase.de/en/evidence-interfaces.md
 - Commerce, 12 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 16 entries: https://robert-haase.de/en/evidence-liability.md
-- Market size, 19 entries: https://robert-haase.de/en/evidence-market.md
+- Market size, 21 entries: https://robert-haase.de/en/evidence-market.md
 - Judgement, 21 entries: https://robert-haase.de/en/evidence-judgement.md
 
 ## AI search (23)
@@ -163,11 +163,11 @@ The collection does not map the state of the research, only the figures I needed
 - **ross-kein-fair-use** · Court ruling, not final · On 29 September 2026, a US federal appeals court affirmed that using others’ texts as AI training material was not fair use in this case: ROSS Intelligence used 2,243 Westlaw headnotes, Thomson Reuters’ editorial summaries of court decisions, to train a legal AI search tool and thereby infringed copyright. → https://robert-haase.de/en/evidence-liability.md
 - **gema-openai** · Court ruling, not final · According to the Munich Regional Court I (11 November 2025), OpenAI infringes the rights to nine song lyrics with its models and ChatGPT: lyrics memorised in a model are a reproduction that no text and data mining exception covers. The operators are liable for the outputs, not the users who call them up with simple prompts. → https://robert-haase.de/en/evidence-liability.md
 
-## Market size (19)
+## Market size (21)
 
 + Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Preliminary: prototype, single test, forecast, or vendor figure (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
-+ Status, case report, or market observation (7) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung
++ Status, case report, or market observation (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 - **machine-customers** · Self-assessment, forecast · In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. → https://robert-haase.de/en/evidence-market.md
 - **marktgroesse** · Vendor figures · The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: OpenAI cites 1.2 billion weekly users, added up across all its offerings, Google over one billion monthly users for its AI Mode. → https://robert-haase.de/en/evidence-market.md
@@ -188,6 +188,8 @@ The collection does not map the state of the research, only the figures I needed
 - **cmo-titel-schwindet** · Analyst analysis, method not public · Only 36 percent of Fortune 500 companies still use the title chief marketing officer, down from 49 percent a year earlier. A top marketing leader who sits on the executive team or reports to the CEO is found at 52 percent, down from 58 percent in 2025. → https://robert-haase.de/en/evidence-market.md
 - **ki-verkehr-handel-prognose** · Forecast and survey by the vendor · Adobe expects visits to US retail sites arriving via AI assistants, measured as shoppers clicking on a link, to grow 130 percent year over year in the 2026 holiday season, 1 November to 31 December; 159 percent on Thanksgiving, 95 on Black Friday and 88 percent on Cyber Monday. → https://robert-haase.de/en/evidence-market.md
 - **chatbot-nichtnutzung** · Survey · 51 percent of US adults never use an AI chatbot. Among them, 83 percent cite lack of interest, 79 percent concern about how their personal information is used and 76 percent distrust in the accuracy of the answers; 67 percent say they are unlikely to start within the next twelve months. → https://robert-haase.de/en/evidence-market.md
+- **cmo-ki-budget** · Survey · CMOs spend on average 15.3 percent of their budget on AI initiatives, yet only 30 percent describe their organisation’s AI capabilities as mature. Marketing budgets themselves are flat at 7.8 percent of revenue, against 7.7 percent for 2025; 56 percent say they lack the budget for their 2026 strategy. → https://robert-haase.de/en/evidence-market.md
+- **marketing-prioritaeten** · Survey · Out of 20 topics, European marketing decision-makers put branding at rank 1 for 2026 and marketing with generative AI at rank 17. At the same time half of the CMOs count it among their three fastest-growing investment areas; only 6 percent describe their company’s use of generative AI as mature. → https://robert-haase.de/en/evidence-market.md
 
 ## Judgement (21)
 
@@ -217,4 +219,4 @@ The collection does not map the state of the research, only the figures I needed
 - **unverwechselbare-markenelemente** · Verified study · Researchers at the Ehrenberg-Bass Institute analysed 1,162 distinctive brand assets of 128 brands across 21 categories, four countries and nine years. Shape-based assets such as logos and packaging perform best, colours weakest: on average 40 and 12 percent of respondents respectively link them to the brand. → https://robert-haase.de/en/evidence-judgement.md
 - **synthetische-befragte** · Controlled test · According to Pew Research Center, AI cannot yet stand in for survey respondents. Pew replicated three of its own surveys from January to April 2026 with so-called digital twins: across nearly 300 questions, the AI results were off by an average of 12 percentage points, and by more than 15 on around 28 percent of questions. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 136 of 136 claims in 7 topics.
+End of overview: 138 of 138 claims in 7 topics.

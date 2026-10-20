@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-10-16T12:01:17+02:00",
+  "dateModified": "2026-10-20T09:06:00+02:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 136,
+  "numberOfItems": 138,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -299,7 +299,7 @@
     {
       "id": "markt",
       "name": "Marktgröße",
-      "numberOfItems": 19,
+      "numberOfItems": 21,
       "textFile": "https://robert-haase.de/belege-markt.md",
       "ids": [
         "machine-customers",
@@ -320,7 +320,9 @@
         "agentur-selbstbild",
         "cmo-titel-schwindet",
         "ki-verkehr-handel-prognose",
-        "chatbot-nichtnutzung"
+        "chatbot-nichtnutzung",
+        "cmo-ki-budget",
+        "marketing-prioritaeten"
       ],
       "groups": {
         "strong": [
@@ -346,7 +348,9 @@
           "in-house-verlagerung",
           "insourcing-absicht",
           "agentur-selbstbild",
-          "chatbot-nichtnutzung"
+          "chatbot-nichtnutzung",
+          "cmo-ki-budget",
+          "marketing-prioritaeten"
         ]
       }
     },
@@ -1300,10 +1304,10 @@
       "text": "Nur 11 Prozent der Befragten würden einer KI die Kaufentscheidung überlassen, und das auch nur in Kategorien mit geringem Einsatz wie Körperpflege und Haushaltswaren.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026",
+        "name": "Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026 · Europa: Deloitte, Studie „The State of Agentic Commerce in Europe“, Pressemitteilung „Jeder Zweite in Europa shoppt mit KI-Unterstützung“, 13. Juli 2026, Online-Befragung von 13.500 Verbrauchern in 15 Ländern im Mai 2026, abgerufen am 20. Oktober 2026",
         "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
       },
-      "disambiguatingDescription": "Was die Zahl relativiert: Auch die Zustimmung zur bloßen Hilfe ist keine Mehrheit: 31 Prozent würden eine KI die Auswahl bei Haushaltswaren eingrenzen lassen, 28 Prozent bei Elektronik. Es ist das Gegengewicht zu den Prognosen über autonom kaufende Agenten. Geäußerte Präferenz und späteres Verhalten fallen allerdings regelmäßig auseinander, besonders wenn die Erfahrung fehlt. Stichprobe: 322 US-Verbraucher.",
+      "disambiguatingDescription": "Was die Zahl relativiert: Auch die Zustimmung zur bloßen Hilfe ist keine Mehrheit: 31 Prozent würden eine KI die Auswahl bei Haushaltswaren eingrenzen lassen, 28 Prozent bei Elektronik. Es ist das Gegengewicht zu den Prognosen über autonom kaufende Agenten. Geäußerte Präferenz und späteres Verhalten fallen allerdings regelmäßig auseinander, besonders wenn die Erfahrung fehlt. Stichprobe: 322 US-Verbraucher. In Europa ähnlich: Laut Deloitte wollen 8 Prozent der europäischen und knapp 6 Prozent der deutschen Befragten, die KI beim Einkaufen nutzen, Kaufentscheidungen ganz an die KI abgeben, obwohl 52 Prozent der Deutschen solche Hilfen schon nutzen; in einer vergleichbaren Befragung im September 2025 waren es 44 Prozent. Bezugsgröße sind diese Nutzer, nicht alle Befragten, und den Fragetext nennt die Pressemitteilung nicht. Befragt wurden im Mai 2026 online 13.500 Verbraucher in 15 Ländern, 1.500 davon in Deutschland.",
       "position": 31,
       "id": "kaufentscheidung",
       "url": "https://robert-haase.de/belege.html#kaufentscheidung",
@@ -1312,8 +1316,12 @@
         "name": "Befragung",
         "group": "plain"
       },
-      "sourceText": "Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026 · Zur Quelle",
+      "sourceText": "Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026 · Europa: Deloitte, Studie „The State of Agentic Commerce in Europe“, Pressemitteilung „Jeder Zweite in Europa shoppt mit KI-Unterstützung“, 13. Juli 2026, Online-Befragung von 13.500 Verbrauchern in 15 Ländern im Mai 2026, abgerufen am 20. Oktober 2026 (zu Deloitte) · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zu Deloitte",
+          "url": "https://www.deloitte.com/de/de/about/press-room/jeder-zweite-in-europa-shoppt-mit-KI-untersuetzung.html"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions"
@@ -4416,6 +4424,60 @@
         }
       ],
       "citationText": "Ein wahrer Satz in einer Produktbeschreibung kann Einkaufsagenten steuern: Steht dort „enthält kein Blizyester“, ein erfundener Stoff, und finden die Agenten im Netz gezielt platzierte Seiten über dessen angebliche Schäden, werten mehrere aktuelle Modelle die Angebote ohne diesen Satz ab. Gegen Plattformregeln verstößt das nicht. (Davidson u. a., EPFL und Harvard, arXiv 2610.17195, Fassung vom 12. Oktober 2026, Preprint). https://arxiv.org/abs/2610.17195 · via https://robert-haase.de/belege.html#agent-werbung-steuerung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#cmo-ki-budget",
+      "text": "Marketingchefs geben im Schnitt 15,3 Prozent ihres Budgets für KI-Vorhaben aus, doch nur 30 Prozent nennen die KI-Fähigkeiten ihrer Organisation ausgereift. Die Marketingbudgets selbst stagnieren bei 7,8 Prozent des Umsatzes, 2025 waren es 7,7 Prozent; 56 Prozent sagen, ihnen fehle das Budget für ihre Strategie 2026.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Gartner, Pressemitteilung „Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities“, London, 11. Mai 2026 · CMO Spend Survey 2026, 401 Marketingverantwortliche in Nordamerika, Großbritannien und Europa, Januar bis März 2026 · abgerufen am 20. Oktober 2026",
+        "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Was als KI-Vorhaben zählt, definiert die Pressemitteilung nicht; Werkzeuge, Personal und Agenturleistungen können darin stecken. Es sind Selbstauskünfte von 401 Marketingverantwortlichen in Nordamerika, Großbritannien und Europa, die meisten aus Unternehmen mit mehr als 1 Milliarde Dollar Jahresumsatz; für kleinere Unternehmen sagt die Zahl wenig. Der vollständige Bericht ist Gartner-Kunden vorbehalten, öffentlich ist nur die Pressemitteilung, und Gartner verkauft selbst Beratung zu KI. Was daraus folgt: Das Geld für KI kommt aus einem Budget, das nicht wächst, laut Gartner also aus Umschichtung. Der Eintrag zum KI-Anteil der Marketingzeit misst etwas anderes, den geschätzten Zeitanteil in US-Unternehmen. Im Einzelnen: Organisationen mit ausgereiften KI-Fähigkeiten geben 21,3 Prozent ihres Marketingbudgets für KI aus und haben Budgets von 8,9 Prozent des Umsatzes. 70 Prozent nennen es ein kritisches Ziel für 2026, bei KI führend zu werden; ebenso viele sagen, ihre Prozesse seien dafür nicht reif genug. Erhoben wurde von Januar bis März 2026.",
+      "position": 137,
+      "id": "cmo-ki-budget",
+      "url": "https://robert-haase.de/belege.html#cmo-ki-budget",
+      "topic": "markt",
+      "grade": {
+        "name": "Befragung",
+        "group": "plain"
+      },
+      "sourceText": "Gartner, Pressemitteilung „Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities“, London, 11. Mai 2026 · CMO Spend Survey 2026, 401 Marketingverantwortliche in Nordamerika, Großbritannien und Europa, Januar bis März 2026 · abgerufen am 20. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities"
+        }
+      ],
+      "citationText": "Marketingchefs geben im Schnitt 15,3 Prozent ihres Budgets für KI-Vorhaben aus, doch nur 30 Prozent nennen die KI-Fähigkeiten ihrer Organisation ausgereift. Die Marketingbudgets selbst stagnieren bei 7,8 Prozent des Umsatzes, 2025 waren es 7,7 Prozent; 56 Prozent sagen, ihnen fehle das Budget für ihre Strategie 2026. (Gartner, CMO Spend Survey 2026, 401 Marketingverantwortliche, Pressemitteilung vom 11. Mai 2026). https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities · via https://robert-haase.de/belege.html#cmo-ki-budget"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#marketing-prioritaeten",
+      "text": "Unter 20 Themen setzen europäische Marketingentscheider für 2026 Branding auf Platz 1 und Marketing mit generativer KI auf Platz 17. Zugleich zählt die Hälfte der Marketingchefs es zu den drei am schnellsten wachsenden Investitionsfeldern; nur 6 Prozent beschreiben den Einsatz generativer KI im eigenen Unternehmen als ausgereift.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "McKinsey, Aurélia Bettati, Jesko Perrey u. a., „Past forward: The modern rethinking of marketing’s core“, Bericht State of Marketing Europe 2026, 20. November 2025 · Befragung von 500 Marketingentscheidern in fünf Ländern, ergänzt um Experteninterviews, Methodik im Kasten „About our research“ · abgerufen am 20. Oktober 2026",
+        "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Rang ist keine Größe: Wie die Rangfolge berechnet ist und wie weit die Plätze auseinanderliegen, steht im Artikel nicht, und die 20 Themen hat McKinsey vorher aus Gesprächen mit Marketingleitern abgeleitet. Befragt wurden 500 Entscheider aus Frankreich, Deutschland, Italien, Spanien und Großbritannien, laut McKinsey auch aus Agenturen und Wissenschaft; eine Feldzeit nennt der Artikel nicht. McKinsey verkauft Beratung zu Marketing und KI. Was es zur Debatte beiträgt: Die Prioritäten widersprechen der Erzählung, im Marketing drehe sich alles um KI; die Investitionsabsicht zeigt zugleich, dass das Geld trotzdem dorthin fließt. Im Einzelnen: Datenschutz steht auf Platz 3, Authentizität auf Platz 4, Arbeitgebermarke auf Platz 5. 72 Prozent wollen ihr Marketingbudget im Verhältnis zum Umsatz 2026 erhöhen; McKinsey fragt nach der Absicht, Gartner nach dem Stand, wie der Eintrag zu den KI-Budgets zeigt. Wer den Einsatz generativer KI als ausgereift beschreibt, nennt 22 Prozent Effizienzgewinn und erwartet 28 Prozent binnen zwei Jahren.",
+      "position": 138,
+      "id": "marketing-prioritaeten",
+      "url": "https://robert-haase.de/belege.html#marketing-prioritaeten",
+      "topic": "markt",
+      "grade": {
+        "name": "Befragung",
+        "group": "plain"
+      },
+      "sourceText": "McKinsey, Aurélia Bettati, Jesko Perrey u. a., „Past forward: The modern rethinking of marketing’s core“, Bericht State of Marketing Europe 2026, 20. November 2025 · Befragung von 500 Marketingentscheidern in fünf Ländern, ergänzt um Experteninterviews, Methodik im Kasten „About our research“ · abgerufen am 20. Oktober 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core"
+        }
+      ],
+      "citationText": "Unter 20 Themen setzen europäische Marketingentscheider für 2026 Branding auf Platz 1 und Marketing mit generativer KI auf Platz 17. Zugleich zählt die Hälfte der Marketingchefs es zu den drei am schnellsten wachsenden Investitionsfeldern; nur 6 Prozent beschreiben den Einsatz generativer KI im eigenen Unternehmen als ausgereift. (McKinsey, State of Marketing Europe 2026, 500 Marketingentscheider, 20. November 2025). https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core · via https://robert-haase.de/belege.html#marketing-prioritaeten"
     }
   ]
 }

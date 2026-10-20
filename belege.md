@@ -1,6 +1,6 @@
-# Belege: alle 136 Aussagen
+# Belege: alle 138 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 16. Oktober 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 20. Oktober 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -29,7 +29,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - Schnittstellen, 22 Einträge: https://robert-haase.de/belege-schnittstellen.md
 - Handel, 12 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 16 Einträge: https://robert-haase.de/belege-haftung.md
-- Marktgröße, 19 Einträge: https://robert-haase.de/belege-markt.md
+- Marktgröße, 21 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 21 Einträge: https://robert-haase.de/belege-urteil.md
 
 ## KI-Suche (23)
@@ -163,11 +163,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **ross-kein-fair-use** · Gerichtsurteil, nicht endgültig · Ein US-Bundesberufungsgericht bestätigte am 29. September 2026, dass die Nutzung fremder Texte als KI-Trainingsmaterial in diesem Fall kein Fair Use war: ROSS Intelligence hat mit 2.243 Headnotes aus Westlaw, redaktionellen Leitsätzen von Thomson Reuters, eine juristische KI-Suche trainiert und damit das Urheberrecht verletzt. → https://robert-haase.de/belege-haftung.md
 - **gema-openai** · Gerichtsurteil, nicht endgültig · Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen. → https://robert-haase.de/belege-haftung.md
 
-## Marktgröße (19)
+## Marktgröße (21)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
-+ Sachstand, Fallbericht oder Marktbeobachtung (7) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung
++ Sachstand, Fallbericht oder Marktbeobachtung (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 - **machine-customers** · Selbsteinschätzung, Prognose · In einer Gartner-Befragung schätzen Vorstandschefs, dass bis 2030 15 bis 20 Prozent ihres Umsatzes von Maschinen als Kunden kommen. → https://robert-haase.de/belege-markt.md
 - **marktgroesse** · Anbieterangaben · Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: OpenAI nennt 1,2 Milliarden wöchentliche Nutzer, zusammengezählt über alle eigenen Angebote, Google über eine Milliarde monatliche Nutzer für seinen AI Mode. → https://robert-haase.de/belege-markt.md
@@ -188,6 +188,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **cmo-titel-schwindet** · Analystenauswertung, Methode nicht offen · Nur noch 36 Prozent der Fortune-500-Unternehmen führen den Titel Chief Marketing Officer, ein Jahr zuvor waren es 49 Prozent. Eine Marketingspitze, die zur Geschäftsleitung gehört oder an den CEO berichtet, haben noch 52 Prozent, 2025 waren es 58 Prozent. → https://robert-haase.de/belege-markt.md
 - **ki-verkehr-handel-prognose** · Prognose und Befragung des Anbieters · Adobe erwartet für die Weihnachtssaison 2026, vom 1. November bis 31. Dezember, 130 Prozent mehr Besuche auf US-Händlerseiten, die über KI-Assistenten kommen, als im Vorjahr, gemessen an Klicks auf einen Link; an Thanksgiving 159 Prozent, am Black Friday 95 und am Cyber Monday 88 Prozent. → https://robert-haase.de/belege-markt.md
 - **chatbot-nichtnutzung** · Befragung · 51 Prozent der US-Erwachsenen nutzen nie einen KI-Chatbot. Von ihnen nennen 83 Prozent fehlendes Interesse als Grund, 79 Prozent die Sorge um ihre persönlichen Daten und 76 Prozent Misstrauen in die Richtigkeit der Antworten; 67 Prozent halten es für unwahrscheinlich, in den nächsten zwölf Monaten damit anzufangen. → https://robert-haase.de/belege-markt.md
+- **cmo-ki-budget** · Befragung · Marketingchefs geben im Schnitt 15,3 Prozent ihres Budgets für KI-Vorhaben aus, doch nur 30 Prozent nennen die KI-Fähigkeiten ihrer Organisation ausgereift. Die Marketingbudgets selbst stagnieren bei 7,8 Prozent des Umsatzes, 2025 waren es 7,7 Prozent; 56 Prozent sagen, ihnen fehle das Budget für ihre Strategie 2026. → https://robert-haase.de/belege-markt.md
+- **marketing-prioritaeten** · Befragung · Unter 20 Themen setzen europäische Marketingentscheider für 2026 Branding auf Platz 1 und Marketing mit generativer KI auf Platz 17. Zugleich zählt die Hälfte der Marketingchefs es zu den drei am schnellsten wachsenden Investitionsfeldern; nur 6 Prozent beschreiben den Einsatz generativer KI im eigenen Unternehmen als ausgereift. → https://robert-haase.de/belege-markt.md
 
 ## Urteil (21)
 
@@ -217,4 +219,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **unverwechselbare-markenelemente** · Geprüfte Erhebung · Forscher des Ehrenberg-Bass-Instituts haben 1.162 unverwechselbare Markenelemente von 128 Marken aus 21 Warengruppen, vier Ländern und neun Jahren ausgewertet. Formen wie Logos und Verpackungen schneiden am besten ab, Farben am schwächsten: Im Mittel ordnen 40 beziehungsweise 12 Prozent der Befragten sie der Marke zu. → https://robert-haase.de/belege-urteil.md
 - **synthetische-befragte** · Kontrollierter Test · Als Ersatz für Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Umfragen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte daneben, bei rund 28 Prozent der Fragen mehr als 15. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 136 von 136 Aussagen in 7 Themen.
+Ende der Übersicht: 138 von 138 Aussagen in 7 Themen.

@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-12 of 136 entries in the collection “Evidence” by Robert Haase, as of 16 October 2026.
+12 of 138 entries in the collection “Evidence” by Robert Haase, as of 20 October 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -88,9 +88,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Only 11 percent of respondents would let an AI make the purchase decision, and only in low-stakes categories such as personal care and household supplies.
 
-**What puts the number in perspective:** Even willingness to accept mere *help* is not a majority: 31 percent would let AI narrow choices for household supplies, 28 percent for electronics. It is the counterweight to forecasts about autonomously buying agents. Stated preference and later behaviour do diverge regularly, especially where experience is missing. Sample: 322 US consumers.
+**What puts the number in perspective:** Even willingness to accept mere *help* is not a majority: 31 percent would let AI narrow choices for household supplies, 28 percent for electronics. It is the counterweight to forecasts about autonomously buying agents. Stated preference and later behaviour do diverge regularly, especially where experience is missing. Sample: 322 US consumers. **Similar in Europe:** according to Deloitte, 8 percent of European and just under 6 percent of German respondents who use AI for shopping want to hand purchase decisions over to the AI entirely, although 52 percent of Germans already use such shopping aids; in a comparable survey in September 2025 it was 44 percent. The base is these users, not all respondents, and the press release does not give the question wording. The online survey covered 13,500 consumers in 15 countries in May 2026, 1,500 of them in Germany.
 
-**Source:** Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026 · [Source](https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions)
+**Source:** Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026 · Europe: Deloitte, study “The State of Agentic Commerce in Europe”, German press release “Jeder Zweite in Europa shoppt mit KI-Unterstützung”, 13 July 2026, online survey of 13,500 consumers in 15 countries in May 2026, retrieved 20 October 2026 ([Deloitte](https://www.deloitte.com/de/de/about/press-room/jeder-zweite-in-europa-shoppt-mit-KI-untersuetzung.html)) · [Source](https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions)
 
 **Grade:** Survey · Group: Status, case report, or market observation
 
