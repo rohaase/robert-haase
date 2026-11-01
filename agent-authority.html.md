@@ -3,7 +3,7 @@ title: "Agent Authority: Dein Agent hat Vollmacht"
 description: "Agent Authority: Marken erteilen ihren KI-Agenten Vollmacht, meist ohne es entschieden zu haben. Was der Agent zusagen darf, und wer dafür geradesteht."
 author: "Robert Haase"
 datePublished: 2026-07-10
-dateModified: 2026-09-05T12:00:00+02:00
+dateModified: 2026-09-10T16:48:16+02:00
 inLanguage: de
 url: https://robert-haase.de/agent-authority.html
 translation: https://robert-haase.de/en/agent-authority.html.md

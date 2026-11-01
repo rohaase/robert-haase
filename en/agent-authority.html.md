@@ -3,7 +3,7 @@ title: "Agent Authority: Your Agent Holds a Mandate"
 description: "Agent Authority: brands grant their AI agents a mandate, mostly without ever deciding to. What an agent may promise, and who stands behind it."
 author: "Robert Haase"
 datePublished: 2026-07-10
-dateModified: 2026-09-05T12:00:00+02:00
+dateModified: 2026-09-05T22:57:26+02:00
 inLanguage: en
 url: https://robert-haase.de/en/agent-authority.html
 translation: https://robert-haase.de/agent-authority.html.md

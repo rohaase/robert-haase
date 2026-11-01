@@ -3,7 +3,7 @@ title: "Brand as an MCP Server: How a Brand Answers When an Agent Asks"
 description: "An MCP server makes a brand queryable and solves consistency. Whether a statement may be made in its name, it does not decide. That stays with brand management."
 author: "Robert Haase"
 datePublished: 2026-09-21
-dateModified: 2026-09-21T12:00:00+02:00
+dateModified: 2026-09-24T20:33:38+02:00
 inLanguage: en
 url: https://robert-haase.de/en/brand-as-mcp-server.html
 translation: https://robert-haase.de/marke-als-mcp-server.html.md

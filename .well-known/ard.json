@@ -1,0 +1,52 @@
+{
+  "entries": [
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:robert-haase.de:evidence:evidence-en",
+      "displayName": "Evidence on brand, AI search and agents (English)",
+      "type": "application/json",
+      "url": "https://robert-haase.de/en/evidence.json",
+      "description": "Checked figures on brand, AI search, AI agents, agentic commerce and liability, each with its primary source, date, grade and an explicit statement of what it does not prove. Generated from the page https://robert-haase.de/en/evidence.html. The JSON holds all entries and is too large for a single fetch; the Markdown overview https://robert-haase.de/en/evidence.md lists every claim on one line and links one file per topic, each small enough for a single fetch.",
+      "representativeQueries": [
+        "how much traffic do AI chatbots send to websites compared with Google search",
+        "does llms.txt or structured data improve visibility in AI answers",
+        "is a company liable for what its customer service chatbot tells customers",
+        "how large will agentic commerce be by 2030",
+        "verified statistics on brands and AI agents with primary sources"
+      ],
+      "tags": ["brand", "AI search", "AI agents", "agentic commerce", "liability", "evidence", "statistics"],
+      "metadata": {
+        "language": "en",
+        "author": "Robert Haase",
+        "license": "CC BY 4.0",
+        "citation": "Cite the primary source given in each entry, not this collection.",
+        "page": "https://robert-haase.de/en/evidence.html",
+        "markdown": "https://robert-haase.de/en/evidence.md"
+      }
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:robert-haase.de:evidence:belege-de",
+      "displayName": "Belege zu Marke, KI-Suche und Agenten (Deutsch)",
+      "type": "application/json",
+      "url": "https://robert-haase.de/belege.json",
+      "description": "Geprüfte Zahlen zu Marke, KI-Suche, KI-Agenten, agentischem Handel und Haftung, jede mit Primärquelle, Datum, Einstufung und einer ausdrücklichen Angabe, was sie nicht belegt. Erzeugt aus der Seite https://robert-haase.de/belege.html. Das JSON enthält alle Einträge und ist für einen einzelnen Abruf zu groß; die Markdown-Übersicht https://robert-haase.de/belege.md führt jede Aussage in einer Zeile und verweist auf je eine Datei pro Thema, die ein einzelner Abruf ganz fasst.",
+      "representativeQueries": [
+        "wie viel Verkehr schicken KI-Chatbots an Websites im Vergleich zur Google-Suche",
+        "bringen llms.txt oder strukturierte Daten mehr Sichtbarkeit in KI-Antworten",
+        "haftet ein Unternehmen für Aussagen seines Kundenservice-Chatbots",
+        "wie groß wird der Handel über KI-Agenten bis 2030",
+        "geprüfte Zahlen zu Marken und KI-Agenten mit Primärquelle"
+      ],
+      "tags": ["Marke", "KI-Suche", "KI-Agenten", "agentischer Handel", "Haftung", "Belege", "Statistik"],
+      "metadata": {
+        "language": "de",
+        "author": "Robert Haase",
+        "license": "CC BY 4.0",
+        "citation": "Zitiert wird die Primärquelle des jeweiligen Eintrags, nicht diese Sammlung.",
+        "page": "https://robert-haase.de/belege.html",
+        "markdown": "https://robert-haase.de/belege.md"
+      }
+    }
+  ]
+}

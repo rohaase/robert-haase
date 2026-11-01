@@ -3,7 +3,7 @@ title: "Marke als MCP-Server: Wie eine Marke antwortet, wenn ein Agent fragt"
 description: "Ein MCP-Server macht eine Marke abfragbar und löst die Konsistenz. Ob eine Aussage in ihrem Namen erlaubt ist, entscheidet er nicht. Das bleibt Markenführung."
 author: "Robert Haase"
 datePublished: 2026-09-21
-dateModified: 2026-09-21T12:00:00+02:00
+dateModified: 2026-09-24T20:33:38+02:00
 inLanguage: de
 url: https://robert-haase.de/marke-als-mcp-server.html
 translation: https://robert-haase.de/en/brand-as-mcp-server.html.md
