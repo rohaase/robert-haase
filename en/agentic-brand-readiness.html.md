@@ -13,11 +13,11 @@ keywords: ["Agentic Brand Readiness", "Brand Infrastructure", "Machine-Readable 
 
 ## What is Agentic Brand Readiness?
 
-**Agentic Brand Readiness is a brand's maturity level toward AI systems: whether it is correctly recognized, described, and recommended. A maturity level can be measured.**
+**Agentic Brand Readiness is a brand's maturity level toward AI systems: whether it is correctly recognised, described, and recommended. A maturity level can be measured.**
 
 The foundational article [Brand Infrastructure](https://robert-haase.de/en/brand-infrastructure.html) explains why brands need to become machine-readable. Agentic Brand Readiness is the follow-up question: where does my brand stand right now, and how do I find out?
 
-Machine readability has stages. The first is being read at all: found, correctly summarized, recommended. Brands that reach every stage are what I call Machine Readable Brands. Agentic Brand Readiness measures the first, and without it none of the later stages count.
+Machine readability has stages. The first is being read at all: found, correctly summarised, recommended. Brands that reach every stage are what I call Machine Readable Brands. Agentic Brand Readiness measures the first, and without it none of the later stages count.
 
 A brand that does not reach this stage is assembled by AI systems from [what third parties write about it](https://robert-haase.de/en/evidence.html#mentions-vs-backlinks). Control over its own description is lost, and in the open recommendation it is often missing entirely. There is no error message.
 
@@ -31,7 +31,7 @@ In September 2026 OpenAI cited 1.2 billion weekly users, added up across all its
 
 ## How does this differ from SEO?
 
-**SEO optimizes for keywords and backlinks. Agentic Brand Readiness optimizes for meaning, consistency, and structured attributes. The goal is a recommendation, not a ranking.**
+**SEO optimises for keywords and backlinks. Agentic Brand Readiness optimises for meaning, consistency, and structured attributes. The goal is a recommendation, not a ranking.**
 
 The two channels overlap little. SEO serves search engines that evaluate keywords and backlinks; Agentic Brand Readiness serves language models that process meaning and consistency. [In August 2025, Ahrefs put 15,000 low-volume questions](https://ahrefs.com/blog/ai-search-overlap/) to ChatGPT, Gemini, Copilot and Perplexity and compared the cited addresses with Google's organic top 10: for ChatGPT, Gemini and Copilot, around 8 percent of the cited pages were there, for Perplexity 28.6 percent. In Google's AI Overviews the share is higher, and the two large studies disagree: [Ahrefs arrives at around 37 percent in its March 2026 study across more than 863,000 search terms](https://ahrefs.com/blog/ai-overview-citations-top-10/), [BrightEdge at around 17 percent averaged over February 2025 to February 2026](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing). Most of the sources AI cites therefore don't appear in the organic top 10. How large the overlapping remainder is depends on the system and on the method of measurement.
 
@@ -49,7 +49,7 @@ Open ChatGPT and Perplexity and ask three questions, the way a customer would:
 
 Read the answers on four points. Is the brand named? Is the description accurate or outdated? Which sources does the system cite, your own site or third parties? And does the brand appear in the open recommendation, or only when you supply its name?
 
-The result usually follows a pattern. On the direct question the brand is almost always recognized, as long as the website provides the basics; recognized does not automatically mean described correctly. In the open recommendation, prominence decides: in a [study covering 102 brands, five systems and 102,025 answers gathered between March and May 2026](https://arxiv.org/abs/2606.20065), globally known brands appeared in 73 percent of unbranded category answers on their first measured run, established mid-sized brands in 44 percent, and small or niche brands in 11 percent. A brand that is not already well known is missing from roughly nine out of ten answers. The study comes from a vendor of AI visibility tracking, it is a June 2026 preprint without peer review, the field of well-known brands is small at eleven, and each figure rests on a single run per brand. The reason is the fourth building block: there it is not your own site that decides, but the consensus of third-party sources.
+The result usually follows a pattern. On the direct question the brand is almost always recognised, as long as the website provides the basics; recognised does not automatically mean described correctly. In the open recommendation, prominence decides: in a [study covering 102 brands, five systems and 102,025 answers gathered between March and May 2026](https://arxiv.org/abs/2606.20065), globally known brands appeared in 73 percent of unbranded category answers on their first measured run, established mid-sized brands in 44 percent, and small or niche brands in 11 percent. A brand that is not already well known is missing from roughly nine out of ten answers. The study comes from a vendor of AI visibility tracking, it is a June 2026 preprint without peer review, the field of well-known brands is small at eleven, and each figure rests on a single run per brand. The reason is the fourth building block: there it is not your own site that decides, but the consensus of third-party sources.
 
 ## The four building blocks
 

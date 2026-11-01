@@ -89,7 +89,7 @@ And clean structure is only the entry ticket. My own measurements show both side
 - **JSON-LD test:** [Ahrefs](https://ahrefs.com/blog/schema-ai-citations/) (2026), 1,885 pages against 4,000 control pages.
 - **The stuck standard:** the [IETF working group AIPREF](https://datatracker.ietf.org/wg/aipref/about/).
 - **97 percent with zero requests:** [Ahrefs](https://ahrefs.com/blog/llmstxt-study/) (May 2026), server logs across 137,210 domains; reported by [PPC Land](https://ppc.land/llms-txt-adoption-rises-8-8x-but-97-of-files-get-zero-ai-requests/).
-- **Google uses no special files:** [Optimizing for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) (Google Search Central, as of July 2026) — llms.txt, special markup, and chunking explicitly not needed; from Google's perspective, optimizing for AI search is still SEO.
+- **Google uses no special files:** [Optimizing for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) (Google Search Central, as of July 2026) — llms.txt, special markup, and chunking explicitly not needed; from Google's perspective, optimising for AI search is still SEO.
 
 These figures, and the others I have checked for my writing, are laid out one by one on the [Evidence](https://robert-haase.de/en/evidence.html) page: each with its primary source, sample size, date, and what it explicitly does not prove. Made for citing.
 

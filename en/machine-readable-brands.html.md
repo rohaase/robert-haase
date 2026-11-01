@@ -27,7 +27,7 @@ Used and defined in this sense by Robert Haase since March 2026. Related terms: 
 
 ## The Second Audience
 
-Brands have acquired a second audience. AI search summarizes them, agents compare and recommend them, teams produce in their name with AI tools. All three work only with what they can process. A brand book describes a brand. A [specification](https://robert-haase.de/en/glossary.html#brand-specification) can be applied. That difference decides whether a brand exists in systems or only in presentations.
+Brands have acquired a second audience. AI search summarises them, agents compare and recommend them, teams produce in their name with AI tools. All three work only with what they can process. A brand book describes a brand. A [specification](https://robert-haase.de/en/glossary.html#brand-specification) can be applied. That difference decides whether a brand exists in systems or only in presentations.
 
 One example: the brand book says "We communicate at eye level, approachable and clear." Three readers, three readings. The specification says: "Address the reader as you, never as the customer. At most one exclamation mark per text. Technical terms are explained on first use." A person can apply that, and so can a machine.
 
@@ -37,7 +37,7 @@ One example: the brand book says "We communicate at eye level, approachable and 
 
 **A brand becomes machine readable in three stages. The first two are groundwork.**
 
-→ **Stage one: being read.** AI search and agents find the brand, summarize it correctly, and can recommend it, for instance when ChatGPT describes it on request. Whether a brand reaches this stage is measurable: [Agentic Brand Readiness](https://robert-haase.de/en/agentic-brand-readiness.html) is the maturity level for it, self-test included.
+→ **Stage one: being read.** AI search and agents find the brand, summarise it correctly, and can recommend it, for instance when ChatGPT describes it on request. Whether a brand reaches this stage is measurable: [Agentic Brand Readiness](https://robert-haase.de/en/agentic-brand-readiness.html) is the maturity level for it, self-test included.
  → **Stage two: producing with AI.** Teams generate on-brand output, an ad built in Canva for instance, because the brand exists as a specification, not as text everyone reads differently. Without this stage, AI production sounds like no one or like everyone.
  → **Stage three: becoming applicable.** The brand becomes a logic that systems work with directly: language, claims, facts, approvals, boundaries. The agent answering a customer request in the brand's name works at this stage. Brands here are Machine Readable Brands.
 
@@ -51,7 +51,7 @@ Meaning, attitude, and trust remain what they are: human, meaning told and exper
 
 **Three common mix-ups.**
 
-**SEO and [GEO](https://robert-haase.de/en/glossary.html#geo)** optimize content for findability. Machine Readable Brands start earlier: with the brand itself as an applicable structure. Findability is a consequence, not the goal. **The brand book** describes the brand for people, usually as a PDF; it can be read but not applied. **The design system** structures the execution layer, that is, how the brand looks: components, colors, typography. At IBM, Porsche, and Deutsche Bahn it is public and versioned. How widespread that is overall has not been measured. What is missing is the same structure for the layer of meaning, that is, who the brand is: positioning, language, decision logic. The closest example for that comes from government: the Swiss Federal Chancellery provides its writing rules in a form language models can apply directly, described in [Open Brand Repo](https://robert-haase.de/en/open-brand-repo.html). A brand that runs its layer of meaning fully as a specification is not known to me. That is exactly where Machine Readable Brands begin.
+**SEO and [GEO](https://robert-haase.de/en/glossary.html#geo)** optimise content for findability. Machine Readable Brands start earlier: with the brand itself as an applicable structure. Findability is a consequence, not the goal. **The brand book** describes the brand for people, usually as a PDF; it can be read but not applied. **The design system** structures the execution layer, that is, how the brand looks: components, colours, typography. At IBM, Porsche, and Deutsche Bahn it is public and versioned. How widespread that is overall has not been measured. What is missing is the same structure for the layer of meaning, that is, who the brand is: positioning, language, decision logic. The closest example for that comes from government: the Swiss Federal Chancellery provides its writing rules in a form language models can apply directly, described in [Open Brand Repo](https://robert-haase.de/en/open-brand-repo.html). A brand that runs its layer of meaning fully as a specification is not known to me. That is exactly where Machine Readable Brands begin.
 
 ## Frequently Asked Questions
 

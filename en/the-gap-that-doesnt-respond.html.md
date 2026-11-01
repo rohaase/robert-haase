@@ -16,13 +16,13 @@ First published at [The Business of Brand Management](https://tbobm.com/en/7888/
 
 **Why the unsaid works on people and disappears for machines.**
 
-Erich Posselt recently published a piece at The Business of Brand Management that I believe is right. His text distinguishes clarity from smoothness: clarity is a stance, it can be rough, uncomfortable, polarizing. Smoothness is optimization for consensus, the result that upsets no one and truly moves no one. And strong brands, he finds, live not on completeness but on what they leave open. Apple never explained who "different" is. Hermès justifies neither its prices nor its waiting lists; the brand lets customers come to it, on its terms. The incomplete, he concludes, is not a weakness, it is an invitation.
+Erich Posselt recently published a piece at The Business of Brand Management that I believe is right. His text distinguishes clarity from smoothness: clarity is a stance, it can be rough, uncomfortable, polarizing. Smoothness is optimisation for consensus, the result that upsets no one and truly moves no one. And strong brands, he finds, live not on completeness but on what they leave open. Apple never explained who "different" is. Hermès justifies neither its prices nor its waiting lists; the brand lets customers come to it, on its terms. The incomplete, he concludes, is not a weakness, it is an invitation.
 
 I share that view from my own experience: I worked for Red Bull for several years. There, mystique was simply part of how the brand described itself. Something that is not explained. Up close, though, you noticed that behind the unsaid lies no accident, but a fairly precise idea of what is never said.
 
 A brand that commits to nothing isn't open; it is merely undecided. And text that falls out of a language model and gets published unedited as a brand's voice is exactly what Posselt describes: technically correct, often elegant and without character.
 
-Still, the principle has a limit. And that limit is becoming important: a growing share of those who deal with a brand are no longer human. AI search summarizes pages before anyone visits them. Browser agents compare offers on behalf of their users. And tools produce content in the brand's name without anyone sitting next to them who carries the brand in their head. This audience doesn't just read differently. It cannot do anything with the unsaid.
+Still, the principle has a limit. And that limit is becoming important: a growing share of those who deal with a brand are no longer human. AI search summarises pages before anyone visits them. Browser agents compare offers on behalf of their users. And tools produce content in the brand's name without anyone sitting next to them who carries the brand in their head. This audience doesn't just read differently. It cannot do anything with the unsaid.
 
 ## What happens when you read your own site like a machine
 
@@ -34,7 +34,7 @@ The interesting lines are not the ones that light up. They are the ones that nev
 
 For testing, I created a page built like a brand's campaign page: mood image on top, claim, image gallery, a decorative divider, a background image behind a block of text. Seven images, the kind found on every brand site. The result: **One arrives with its meaning intact. One disappears deliberately and rightly, because it isn't meant to say anything. Five are lost.**
 
-One case stands out: the claim. As usual, the campaign's most important sentence is in the image. The image is labeled; formally, everything is in order. What the machine reads is one word: "campaign visual."
+One case stands out: the claim. As usual, the campaign's most important sentence is in the image. The image is labelled; formally, everything is in order. What the machine reads is one word: "campaign visual."
 
 The message did not arrive distorted. It did not arrive.
 
@@ -54,7 +54,7 @@ This does not refute the principle. It marks out its range. It holds exactly as 
 
 It helps to think of a brand in two layers.
 
-One is the **execution layer**: how the brand looks and sounds. In classic vocabulary, the corporate design with its base elements logo, color, typography, imagery and grid, plus the tonality of the language. This is where the industry has been good for decades. Part of it has even become machine-capable: design systems and component libraries carry the design through a company's own digital products. But even this is not solved. A standard format in which a brand hands its design to outside tools does not exist, nor are many guidelines precisely written.
+One is the **execution layer**: how the brand looks and sounds. In classic vocabulary, the corporate design with its base elements logo, colour, typography, imagery and grid, plus the tonality of the language. This is where the industry has been good for decades. Part of it has even become machine-capable: design systems and component libraries carry the design through a company's own digital products. But even this is not solved. A standard format in which a brand hands its design to outside tools does not exist, nor are many guidelines precisely written.
 
 The other is the **layer of meaning**: who the brand is and what holds for it, in classic vocabulary the corporate identity. What it stands for, what it would never do, which claim it can back and which it cannot. Almost everywhere, this layer lives in a PDF, in sentences a human has to interpret.
 
@@ -108,7 +108,7 @@ Where this is heading can be told in three stages.
 
 The apparatus shows the first: machines read brands. That is where we are today. And much is already lost here.
 
-The second stage is here as well: machines apply brands. Design tools now carry brand profiles from which they take colors, fonts and tonality; assistants write in the company's tone. Readable means: the machine registers what is there. Applicable means more: it can produce something new that follows the rules. A PDF is readable. It is not applicable.
+The second stage is here as well: machines apply brands. Design tools now carry brand profiles from which they take colours, fonts and tonality; assistants write in the company's tone. Readable means: the machine registers what is there. Applicable means more: it can produce something new that follows the rules. A PDF is readable. It is not applicable.
 
 The third stage is emerging: agents negotiating with agents. A customer asks their assistant, the assistant asks the vendor's agent and that agent hands over a package: product data, prices, terms and the elements of the brand meant to travel along. No human in this chain. The big platforms are already building the protocols. And at that point, the format question becomes [a question of authority](https://robert-haase.de/en/agent-authority.html): what an agent may promise in a brand's name and who stands behind it. That is its own topic, bigger than this text.
 

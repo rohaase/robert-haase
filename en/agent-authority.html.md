@@ -27,7 +27,7 @@ The expression comes from the law of agency. Carried into the brand context and 
 
 **When Air Canada's chatbot promised a customer a refund policy that did not exist, the airline argued before the tribunal that it could not be held liable for information provided by its agents, servants or representatives, the chatbot included. The tribunal member noted that Air Canada was in effect suggesting the chatbot was a separate legal entity, responsible for its own actions.**
 
-The tribunal [called that defense, verbatim, "a remarkable submission"](https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/) and rejected it: the chatbot is part of the website, and the brand stands behind everything promised there. The amount in dispute was a few hundred dollars. The question behind it is considerably larger, and most brands have never asked it: Who is actually acting in our name, and what are they allowed to do?
+The tribunal [called that defence, verbatim, "a remarkable submission"](https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/) and rejected it: the chatbot is part of the website, and the brand stands behind everything promised there. The amount in dispute was a few hundred dollars. The question behind it is considerably larger, and most brands have never asked it: Who is actually acting in our name, and what are they allowed to do?
 
 ## Brands Have Started to Act
 
@@ -61,7 +61,7 @@ The counter-infrastructure is emerging right now, and at its core it is brand in
 
 ## What Brand Leadership Is Now
 
-**The brand does not become the agent. It becomes what governs the agent: its behavioral specification and its address of responsibility.**
+**The brand does not become the agent. It becomes what governs the agent: its behavioural specification and its address of responsibility.**
 
 One might think this turns the brand itself into an agent. The opposite is true. The agent is substrate, and interchangeable: today one provider's model, tomorrow another's. What has to stay constant through every switch is the logic by which it acts and the address that stands behind it. That is the brand. Whoever fails to define this layer will find that their brand is whatever the model provider makes of it.
 
