@@ -1,84 +1,46 @@
+# Content signals (https://contentsignals.org/): search and AI answers yes, training no.
+# search: building a search index and showing search results (links and short excerpts).
+# ai-input: using content as input to AI answers at the time of a request (retrieval, grounding, agents).
+# ai-train: training or fine-tuning AI models.
+# Restrictions expressed here are an express reservation of rights under Article 4 of
+# Directive (EU) 2019/790 and section 44b of the German Copyright Act (UrhG).
+
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 Disallow: /*?*
 
-# AI Crawlers — explicitly welcomed
+# Crawlers that collect training data: not permitted
 User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
 User-agent: Applebot-Extended
-Allow: /
-
-User-agent: GoogleOther
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: cohere-ai
-Allow: /
-
-User-agent: cohere-training-data-crawler
-Allow: /
-
 User-agent: Meta-ExternalAgent
-Allow: /
-
-User-agent: Meta-ExternalFetcher
-Allow: /
-
 User-agent: CCBot
-Allow: /
-
-User-agent: Amazonbot
-Allow: /
-
+User-agent: cohere-training-data-crawler
 User-agent: Bytespider
-Allow: /
+Disallow: /
 
+# AI search, answer engines and user-triggered agents: welcome
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Applebot
+User-agent: GoogleOther
+User-agent: Google-Extended
+User-agent: Bingbot
+User-agent: cohere-ai
+User-agent: Meta-ExternalFetcher
+User-agent: Amazonbot
 User-agent: Diffbot
-Allow: /
-
 User-agent: DuckAssistBot
-Allow: /
-
 User-agent: MistralAI-User
-Allow: /
-
 User-agent: YouBot
-Allow: /
-
 User-agent: Timpibot
-Allow: /
-
 User-agent: omgili
+Content-Signal: search=yes, ai-input=yes, ai-train=no
 Allow: /
 
 # Agent briefing (LLM-readable profile):
@@ -99,8 +61,9 @@ Allow: /
 # e.g. https://robert-haase.de/antworten-statt-seiten.html.md, generated from the page,
 # with title, summary, author, dates, language and keywords in a YAML header; list in llms.txt.
 #
-# This site welcomes AI agents and crawlers.
+# This site welcomes AI agents, AI search and answer engines.
 # No content is gated. No authentication required.
-# Training on this content is permitted.
+# Training on this content is not permitted: see Content-Signal above;
+# crawlers that only collect training data are disallowed.
 
 Sitemap: https://robert-haase.de/sitemap.xml
