@@ -3,7 +3,7 @@ title: "Machine View"
 description: "This page reads itself: on the left the page for humans, on the right the same page as AI search and browser agents process it. Read live from the source, not mocked up."
 author: "Robert Haase"
 datePublished: 2026-07-21
-dateModified: 2026-10-06T19:56:06+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: en
 url: https://robert-haase.de/en/machine-view.html
 translation: https://robert-haase.de/maschinensicht.html.md
@@ -67,7 +67,7 @@ This is not an edge case. A survey of one million home pages found empty buttons
 
 **Structured data creates visibility?** Ahrefs tracked 1,885 pages that added JSON-LD between August 2025 and March 2026 and compared them with 4,000 control pages at a similar citation level. In ChatGPT and Google's AI mode the effect was indistinguishable from zero. In AI Overviews the pages that added markup lost 4.6 percent against the controls. The study looked only at pages that were already heavily cited, each with more than a hundred mentions in AI Overviews. For pages that do not appear at all it says nothing, and the authors expressly allow for a benefit there. I keep the markup because it keeps the foundation clean. The figures and their limits are on the [evidence page](https://robert-haase.de/en/evidence.html#json-ld-test).
 
-**There are rules everyone follows?** Google, OpenAI, Perplexity, and Meta explicitly exempt their user-triggered fetches from robots.txt; Anthropic is the exception. Blocking AI crawlers blocks training and search. The agents keep running. And the standard meant to settle this has been stuck in a working group for over a year.
+**There are rules everyone follows?** Google, OpenAI, Perplexity, and Meta explicitly exempt their user-triggered fetches from robots.txt; Anthropic is the exception. Blocking AI crawlers blocks training and search at once wherever a vendor collects both with the same crawler. The agents keep running. And the standard meant to settle this has been stuck in a working group for over a year.
 
 And the promised answer on llms.txt: it is here because it exists. 97 percent of these files get not a single request, server logs across 137,000 domains show. The format was invented for tool documentation, not for visibility. Where it works, it saves agents time. That is shown for documentation sites: in a [test across 20 of them and 2,400 runs](https://www.mintlify.com/blog/llms-txt-agent-benchmark), response time and token use fell by about a fifth once the pages pointed to their llms.txt, measured against the same pages in markdown without that pointer. The measurement comes from Mintlify, a vendor that serves such documentation itself and has published the set-up along with the [raw data](https://github.com/mintlify/docs-url-discovery-bench). I know of no independent measurement. For brand websites, nothing is shown.
 
@@ -75,7 +75,7 @@ And the promised answer on llms.txt: it is here because it exists. 97 percent of
 
 **This website is the easiest case there is.**
 
-About thirty pages, static, no CMS, a single external script. On a grown brand site with a tag manager, a consent layer, and three agencies involved, the right-hand column would look different. What is handcraft here becomes a question of ownership and process there.
+About forty pages, static, no CMS, a single external script. On a grown brand site with a tag manager, a consent layer, and three agencies involved, the right-hand column would look different. What is handcraft here becomes a question of ownership and process there.
 
 And clean structure is only the entry ticket. My own measurements show both sides: ask about me, and two of three systems name this website as the most-cited source. In Google's AI mode, since late August, the trade publication I write for leads instead. Ask whom to hire for this topic, and my name does not come up, in four measurements since July not once. Between those two results lies no technical problem. What lies there is what third parties write, and that correlates with visibility in AI answers [far more strongly than the classic metrics of one's own site](https://robert-haase.de/en/evidence.html#mentions-vs-backlinks). That was measured on established brands; applying it to a query about a person is a transfer.
 

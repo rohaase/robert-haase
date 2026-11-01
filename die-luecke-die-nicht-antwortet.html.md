@@ -3,7 +3,7 @@ title: "Die Lücke, die nicht antwortet."
 description: "Warum das Ungesagte gegenüber Menschen wirkt und gegenüber Maschinen verschwindet. Antwort auf Erich Posselts „Die Glätte der Klarheit“."
 author: "Robert Haase"
 datePublished: 2026-08-12
-dateModified: 2026-09-28
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: de
 url: https://robert-haase.de/die-luecke-die-nicht-antwortet.html
 canonical: https://tbobm.com/7884/die-luecke-die-nicht-antwortet/
@@ -120,7 +120,7 @@ Bis hierhin ist das ein Argument und Argumente verdienen Misstrauen, meine einge
 
 **Belegt ist, dass Agenten eine Seite vor allem über ihre Struktur wahrnehmen.** Google nennt in seiner Entwickler-Dokumentation [drei Wege](https://robert-haase.de/belege.html#a11y-tree), auf denen ein Agent eine Seite sieht: Bildschirmfotos, rohes HTML und den Accessibility-Baum. Der Baum ist jene Struktur, die der Browser aus jeder Seite errechnet und die auch Screenreader nutzen: alle Elemente mit Rolle und Name, ohne Layout. Moderne Agenten kombinieren die Wege, schreibt Google, holen die Liste der bedienbaren Elemente aber aus DOM und Accessibility-Baum und gleichen sie erst danach mit dem Bild ab. In seiner Lighthouse-Dokumentation nennt Google den Baum das primäre Datenmodell der Agenten, und seit Mai 2026 prüft Lighthouse ihn in [einer eigenen Kategorie](https://robert-haase.de/belege.html#lighthouse), die Google selbst als experimentell führt. Ein Element ohne Namen fehlt damit in zwei der drei Wege. Es bleibt das Bildschirmfoto, und das führt Google selbst nur als Rückfallweg, wenn die Struktur unklar ist. Die Folge formuliert Google vorsichtig: Fehlende Beschriftungen können Agenten daran hindern, eine Aufgabe abzuschließen.
 
-**Belegt ist auch, wie weit verbreitet der Mangel ist.** Eine Erhebung über eine Million Startseiten fand auf 30,6 Prozent Schaltflächen ohne Beschriftung und auf der Hälfte aller Seiten fehlen Beschriftungen an Formularfeldern. Die durchschnittliche Website liest sich für ein System wie ein halb beschriftetes Formular.
+**Belegt ist auch, wie weit verbreitet der Mangel ist.** Eine Erhebung über eine Million Startseiten fand auf 30,6 Prozent Schaltflächen ohne Beschriftung und auf der Hälfte unbeschriftete Formularfelder. Die durchschnittliche Website liest sich für ein System wie ein halb beschriftetes Formular.
 
 Beide Befunde handeln von der ersten Stufe, der Website, und das hat einen einfachen Grund: Sie ist der Schauplatz, der sich am besten vermessen lässt. Für das Anwenden und das Übergeben gibt es solche Messungen noch kaum. Das ist kein Freibrief, es mahnt zur Vorsicht.
 

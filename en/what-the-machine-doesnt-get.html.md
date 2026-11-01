@@ -3,7 +3,7 @@ title: "What the Machine Doesn't Get"
 description: "AI makes the everyday surface of every brand cheap, and value shifts to what is deliberately withheld. Why the price premium sits on the decision, not on the machine’s inability, and what a brand’s two lists look like."
 author: "Robert Haase"
 datePublished: 2026-08-25
-dateModified: 2026-09-28T22:30:00+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: en
 url: https://robert-haase.de/en/what-the-machine-doesnt-get.html
 translation: https://robert-haase.de/was-die-maschine-nicht-bekommt.html.md
@@ -29,7 +29,7 @@ In almost every discussion right now I hear the question: What can't the machine
 
 That will flip. The same question becomes a pricing question: What do we deliberately not give the machine, and what exactly is that worth? The line of defense becomes a price list.
 
-But: Build the price list straight from that question and you walk into a trap.
+But build the price list straight from that question and you walk into a trap.
 
 ## The trap of "can't"
 
@@ -39,9 +39,9 @@ And the old examples show something more precise. The quartz watch keeps better 
 
 ## Where the value actually comes from
 
-The value comes from a decision you can see. Someone made it by hand although the machine was available. And someone puts their name to it. The painted portrait is valuable because a human spent lifetime on it and signed it. The signature is half the price.
+The value comes from a decision you can see. Someone made it by hand although the machine was available. And someone puts their name to it. The painted portrait is valuable because a human spent part of their life on it and signed it. The signature is half the price.
 
-This already works today, in the middle of the AI era: Klarna moved customer service to AI and is now [bringing humans back for part of it](https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/). "Talking to a human" is a promise [the Klarna CEO now makes publicly](https://techcrunch.com/2025/06/04/klarna-ceo-says-company-will-use-humans-to-offer-vip-customer-service). A human on the phone is a company decision there, and it visibly costs money.
+This already works today, in the middle of the AI era: Klarna moved most of its customer service to AI and [expressly keeps the route to a human open](https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/). "Talking to a human" is a promise [the Klarna CEO now makes publicly](https://techcrunch.com/2025/06/04/klarna-ceo-says-company-will-use-humans-to-offer-vip-customer-service). A human on the phone is a company decision there, and it visibly costs money.
 
 This decision needs two things to carry value. It has to be made before anyone asks. And it has to be verifiable: Who was it, who stands behind it? Handmade without proof is indistinguishable from the machine's product. And what can't be distinguished won't command a different price for long.
 
@@ -49,7 +49,7 @@ This decision needs two things to carry value. It has to be made before anyone a
 
 In practice, that means a brand needs two lists.
 
-The first list holds everything the machine may deliver. Applications, formats, variants, the daily surface. This list should be long, and what's on it may become cheap. That's not a loss. Only when watches cost twenty euros did the mechanics itself become a status symbol.
+The first list holds everything the machine may deliver. Applications, formats, variants, the daily surface. This list should be long, and what's on it may become cheap. That's not a loss. Only when watches cost twenty euros did the mechanical movement itself become a status symbol.
 
 The second list holds what you deliberately withhold from the machine. Not much, or it isn't a selection. Maybe the visual world. Maybe the one text the founder writes herself. Maybe the customer contact in the moment that matters. At Studio Ghibli, Hayao Miyazaki still draws his films by hand. His ["The Boy and the Heron" from 2023 is billed by its distributor as a hand-drawn film](https://gkids.com/films/the-boy-and-the-heron/), even though colouring and compositing at the studio have long since moved to the computer. When AI tools [flooded the internet with Ghibli-style images in 2025](https://www.forbes.com/sites/danidiplacido/2025/03/27/the-ai-generated-studio-ghibli-trend-explained/), the original didn't get any cheaper. The style can be copied; the decision behind it can't.
 
@@ -71,7 +71,7 @@ This reverses the familiar order of brand work. A brand used to be designed, app
 
 ## Not consolation, a sorting
 
-An honest postscript. Portrait painting becoming a luxury didn't help most portrait painters. Anyone who made a living from commissioned portraits lost their customers to the camera. A small top inherited the premium. The pattern is a sorting, and it's already running. Which is why the inventory is worth doing now, while you can still choose what goes on the second list, instead of explaining later why nothing is on it.
+An honest postscript. Portrait painting becoming a luxury didn't help most portrait painters. Anyone who made a living from commissioned portraits lost their customers to the camera. A small elite at the top inherited the premium. The pattern is a sorting, and it's already running. Which is why the inventory is worth doing now, while you can still choose what goes on the second list, instead of explaining later why nothing is on it.
 
 > The price premium doesn't sit on what the machine can't do. It sits on what you decided not to give it.
 

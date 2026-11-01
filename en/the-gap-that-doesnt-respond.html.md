@@ -3,7 +3,7 @@ title: "The Gap That Doesn't Respond."
 description: "Why the unsaid works on people and disappears for machines. A response to Erich Posselt’s “The Smoothness of Clarity”."
 author: "Robert Haase"
 datePublished: 2026-08-12
-dateModified: 2026-09-28
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: en
 url: https://robert-haase.de/en/the-gap-that-doesnt-respond.html
 canonical: https://tbobm.com/en/7888/the-gap-that-doesnt-respond/
@@ -156,7 +156,7 @@ A brand that explains everything has nothing left to believe in. For the layer o
 
 For the rules, the opposite holds. A rule that was never written down does not die of transparency. It dies of interpretation.
 
-You only have to know whom you are leaving the gap to. To humans, it is an invitation and the strongest brands will keep using it. To machines, it is silence and silence is not interpreted. It is passed over.
+You only have to know who you are leaving the gap for. To humans, it is an invitation and the strongest brands will keep using it. To machines, it is silence and silence is not interpreted. It is passed over.
 
 Brand remains a stance. But it now needs a form that still holds when no one is left in the room who can explain it.
 

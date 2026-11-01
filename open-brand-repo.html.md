@@ -1,9 +1,9 @@
 ---
 title: "Open Brand Repo: Markenregeln gehören ins Repository"
-description: "Die Schweiz hat ihre Schreibregeln für Sprachmodelle aufbereitet und ihr Corporate Design als PDF. Warum die Marken-Spezifikation als öffentliches, versioniertes Repository geführt gehört."
+description: "Die Schweiz hat ihre Schreibregeln für Sprachmodelle aufbereitet, ihr Corporate Design gibt es nur als PDF. Warum die Marken-Spezifikation als öffentliches, versioniertes Repository geführt gehört."
 author: "Robert Haase"
 datePublished: 2026-07-21
-dateModified: 2026-09-28T22:30:00+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: de
 url: https://robert-haase.de/open-brand-repo.html
 translation: https://robert-haase.de/en/open-brand-repo.html.md
@@ -19,13 +19,13 @@ Seit 2024 gilt in der Schweiz ein [Gesetz](https://interoperable-europe.ec.europ
 
 Das [Corporate Design des Bundes](https://www.bk.admin.ch/bk/de/home/dokumentation/cd-bund.html) gibt es seit 2007. Logo, Wappen, Gestaltungsraster, alles frei abrufbar. Als Handbuch zum Herunterladen.
 
-Dieselbe Behörde, zwei Arten von Offenheit. Die Sprachregeln sind für Maschinen gebaut. Die Marke ist für Menschen zum Nachschlagen. Marken haben bisher nur das PDF.
+Dieselbe Behörde, zwei Arten von Offenheit. Die Sprachregeln sind für Maschinen gebaut. Die Marke ist für Menschen zum Nachschlagen. Die meisten Marken haben dafür bisher nur das PDF.
 
 ## Die Grenze verläuft am Sinn
 
 **Der Einwand kommt sofort: Brand Books sind doch längst öffentlich. Stimmt. Nur nicht in einer Form, mit der ein System arbeiten kann.**
 
-Was Marken offenlegen, ist die Ausführungsschicht. IBM entwickelt sein Designsystem [Carbon](https://github.com/carbon-design-system/carbon) seit 2015 offen auf GitHub, Porsche und die [Deutsche Bahn](https://github.com/db-ux-design-system) machen es genauso. Seit Oktober 2025 gibt es sogar einen [Standard dafür](https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/), wie Design Tokens zwischen Werkzeugen ausgetauscht werden. Bis hierhin ist alles offen.
+Was Marken offenlegen, ist die Ausführungsschicht. IBM entwickelt sein Designsystem [Carbon](https://github.com/carbon-design-system/carbon) seit 2015 offen auf GitHub, Porsche und die [Deutsche Bahn](https://github.com/db-ux-design-system) machen es genauso. Seit Oktober 2025 gibt es sogar eine [stabile Fassung eines gemeinsamen Formats](https://www.w3.org/community/design-tokens/2025/10/28/design-tokens-specification-reaches-first-stable-version/), mit dem Design Tokens zwischen Werkzeugen ausgetauscht werden. Bis hierhin ist alles offen.
 
 Ab hier wird das Bild uneinheitlich. Die Deutsche Bahn stellt den Code ihres Designsystems unter Apache 2.0 und bindet Schriften, Icons und Markenzeichen an eine eigene Lizenz, die nur Auftragnehmern der DB die Nutzung erlaubt. Ihre Markenpositionierung samt Purpose und Markenwerten steht im Marketingportal ohne Anmeldung, allerdings als Kapitelseite eines Redaktionssystems. Von 33 geprüften Seiten des Bereichs Marke und Design verlangen 13 eine Anmeldung, darunter die Kommunikationsmuster, die Best Practices und die Schrift-Downloads. GitHub veröffentlicht seine [Brand Guidelines](https://brand.github.com/) offen im Netz: ein Toolkit mit Kapitelseiten, eine Figma-Datei und ein PDF, das in der Ausgabe 2026 auf 89 Seiten kommt.
 
@@ -57,7 +57,7 @@ Damit erledigt das Werkzeug etwas, das in der Markenarbeit sonst Vorsatz bleibt.
 
 **Der häufigste: Wer seine Marke offenlegt, macht es Fälschern leicht.**
 
-Das Gegenteil trifft zu. Marken werden längst pixelgenau geklont, ohne dass jemand eine Spezifikation braucht. Der Takedown-Anbieter Netcraft gibt an, zwischen März 2024 und März 2025 rund [1,3 Millionen Phishing-Seiten](https://www.netcraft.com/guide/phishing-website-detection-disruption) gestört zu haben, die mehr als 16.000 Organisationen nachahmten. Das ist ein Ausschnitt, denn nach eigener Angabe entfällt auf Netcraft rund ein Drittel der Abschaltungen weltweit. Wie hoch der Anteil KI-erzeugter Inhalte daran ist, weist keine der geprüften Quellen aus. Der Klon existiert. Was fehlt, ist ein Weg, das Original zu erkennen. Ein [signiertes](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work), öffentliches Repository ist genau das: die Referenz, gegen die sich prüfen lässt, was echt ist.
+Das Gegenteil trifft zu. Marken werden längst pixelgenau geklont, ohne dass jemand eine Spezifikation braucht. Der Takedown-Anbieter Netcraft gibt an, zwischen März 2024 und März 2025 rund [1,3 Millionen Phishing-Seiten](https://www.netcraft.com/guide/phishing-website-detection-disruption) gestört zu haben, die mehr als 16.000 Organisationen nachahmten. Das sind nur die eigenen Fälle eines einzelnen Anbieters. Wie hoch der Anteil KI-erzeugter Inhalte daran ist, weist keine der geprüften Quellen aus. Der Klon existiert. Was fehlt, ist ein Weg, das Original zu erkennen. Ein [signiertes](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work), öffentliches Repository ist genau das: die Referenz, gegen die sich prüfen lässt, was echt ist.
 
 Zwei andere Risiken sind real. Das erste ist Verwahrlosung. Etwa [sechzehn Prozent](https://arxiv.org/abs/1906.08058) der populären Projekte auf GitHub gelten als aufgegeben. Audi hatte sein UI-Repository jahrelang öffentlich, irgendwann zwischen November 2025 und Mai 2026 verschwand es. Ein totes Repository ist ein schlechteres Signal als gar keines.
 

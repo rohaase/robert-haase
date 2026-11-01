@@ -3,7 +3,7 @@ title: "Taste rettet die Markenarbeit nicht. Accountability schon."
 description: "KI übernimmt die Ausführung, die Branche tröstet sich mit Geschmack. Aber trainierbarer Geschmack ist Konsens-Geschmack. Was bleibt, ist die Instanz, die für Entscheidungen geradesteht."
 author: "Robert Haase"
 datePublished: 2026-07-10
-dateModified: 2026-09-28T22:30:00+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: de
 url: https://robert-haase.de/taste-accountability.html
 translation: https://robert-haase.de/en/taste-accountability.html.md
@@ -21,11 +21,11 @@ Das klingt beruhigend. Es hat nur zwei Probleme: Es unterschätzt die Maschine, 
 
 ## Trainierbarer Geschmack ist Konsens-Geschmack
 
-**Was durch Training entsteht, kann grundsätzlich auch eine Maschine lernen. Geschmack, der sich aus Daten lernen lässt, ist Durchschnitt. Aus der Maschine heißt er Slop, aus der Agentur Erfahrung.**
+**Was durch Training entsteht, kann grundsätzlich auch eine Maschine lernen. Geschmack, der sich aus Daten lernen lässt, ist Durchschnitt, egal wer ihn liefert.**
 
 Taste ist kein Talent, das vom Himmel fällt. Taste ist ein trainierter Muskel: Man sieht viel, vergleicht viel, verwirft viel und entwickelt daraus ein Urteil. Genau deshalb ist die Position brüchig. Was durch Exposition gegenüber vielen Beispielen entsteht, ist exakt das, worauf Sprachmodelle gebaut sind. Sie haben mehr gesehen als jeder Kreativdirektor, der je gelebt hat.
 
-Heute sind die Modelle stark in der Ausführung und schwach in Taste. Wer ChatGPT oder Claude nach Design, Strategie oder der eigenen Marke fragt, bekommt den Durchschnitt aller Antworten, die je gegeben wurden: kompetent, plausibel, austauschbar. Sieben Sprachmodelle standen vor sieben strategischen Grundsatzentscheidungen und wählten bei den meisten davon anbieterübergreifend dieselbe Seite. Ausgefeiltere Prompts halfen nicht, zusätzlicher Unternehmenskontext auch nicht. Die Zahlen und ihre Grenzen stehen in der [Belege-Sammlung](https://robert-haase.de/belege.html#strategie-trendslop), auch die Grenze, dass der Volltext hinter einer Bezahlschranke liegt und ich die Detailwerte nicht am Original prüfen konnte. Aber dieser Zustand ist eine Momentaufnahme, kein Schutzwall. Der trainierbare Teil des Geschmacks wird gelernt werden.
+Heute sind die Modelle stark in der Ausführung und schwach in Taste. Wer ChatGPT oder Claude nach Design, Strategie oder der eigenen Marke fragt, bekommt den Durchschnitt aller Antworten, die je gegeben wurden: kompetent, plausibel, austauschbar. Sieben Sprachmodelle standen vor sieben strategischen Grundsatzentscheidungen und wählten bei sechs davon anbieterübergreifend dieselbe Seite. Bei zwei dieser Fragen half auch ausgefeilteres Prompten kaum. Die Zahlen und ihre Grenzen stehen in der [Belege-Sammlung](https://robert-haase.de/belege.html#strategie-trendslop). Aber dieser Zustand ist eine Momentaufnahme, kein Schutzwall. Der trainierbare Teil des Geschmacks wird gelernt werden.
 
 Und hier liegt der unbequeme Kern: Geschmack, der sich aus Daten lernen lässt, ist Konsens-Geschmack. Er ist die Mitte dessen, was viele für gut halten. Kommt diese Mitte aus der Maschine, nennen wir sie Slop. Kommt sie aus der Agentur, nennen wir sie Erfahrung. Der Mechanismus ist derselbe, nur der Absender unterscheidet sich.
 
@@ -39,7 +39,7 @@ Wenn die zehnte Variante nichts mehr kostet, ist die Variante nicht mehr das kna
 
 Das nächste Wort der Branche wird deshalb keine Fähigkeit sein, sondern eine Adresse: Accountability. Jemand, auf den man zeigen kann.
 
-Eine verantwortete Entscheidung ist etwas anderes als eine Meinung. Eine Meinung äußert man und geht weiter. Eine verantwortete Entscheidung trifft man, begründet sie, und trägt die Konsequenzen. Der Unterschied ist das Geschäftsmodell: Meinungen gibt es umsonst, auch von Maschinen. Verantwortete Entscheidungen gibt es nur von jemandem, der etwas zu verlieren hat.
+Eine verantwortete Entscheidung ist etwas anderes als eine Meinung. Eine Meinung äußert man und geht weiter. Eine verantwortete Entscheidung trifft man, begründet sie und trägt die Konsequenzen. Der Unterschied ist das Geschäftsmodell: Meinungen gibt es umsonst, auch von Maschinen. Verantwortete Entscheidungen gibt es nur von jemandem, der etwas zu verlieren hat.
 
 ## Verantwortung braucht einen Ort
 
@@ -49,7 +49,7 @@ Verantwortung, die nur behauptet wird, ist von Taste nicht zu unterscheiden. Sic
 
 Beispiel Tonalität: „Wir klingen hochwertig“ ist eine Stimmung. „Wir sagen ‚Präzision‘, nie ‚Qualität‘, aus diesem Grund, entschieden von dieser Person, gültig seit diesem Datum“ ist eine dokumentierte, verantwortete Entscheidung. Das erste kann jede Maschine plausibel simulieren. Das zweite kann sie anwenden, aber nicht verantworten.
 
-Genau hier schließt sich der Kreis zur maschinenlesbaren Marke. Eine Brand-Spezifikation, wie ich sie in [Brand Infrastructure](https://robert-haase.de/brand-infrastructure.html) beschreibe, ist mehr als ein Format für Systeme: Sie ist der Ort, an dem Urteile explizit werden, versioniert und mit Absender. Jede Regel darin ist eine dokumentierte Entscheidung. Wenn KI die Ausführung übernimmt, wird die Spezifikation zum Ort, an dem Verantwortung sichtbar wird.
+Hier kommt die maschinenlesbare Marke ins Spiel. Eine Brand-Spezifikation, wie ich sie in [Brand Infrastructure](https://robert-haase.de/brand-infrastructure.html) beschreibe, ist mehr als ein Format für Systeme: Sie ist der Ort, an dem Urteile explizit werden, versioniert und mit Absender. Jede Regel darin ist eine dokumentierte Entscheidung. Wenn KI die Ausführung übernimmt, wird die Spezifikation zum Ort, an dem Verantwortung sichtbar wird.
 
 > Was von der Markenarbeit bleibt, ist nicht der bessere Geschmack. Es ist die Instanz, die für die Entscheidung geradesteht.
 

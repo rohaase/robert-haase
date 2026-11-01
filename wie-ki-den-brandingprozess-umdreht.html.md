@@ -3,7 +3,7 @@ title: "Wie KI den Brandingprozess umdreht."
 description: "Sichtbarkeit in KI-Suchen ist nur die erste Stufe. Warum die Prüfung, wie Maschinen die Marke heute lesen, an den Anfang des Brandingprozesses rückt."
 author: ["Robert Haase", "Tabea Otto"]
 datePublished: 2026-09-09
-dateModified: 2026-09-26
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: de
 url: https://robert-haase.de/wie-ki-den-brandingprozess-umdreht.html
 canonical: https://www.horizont.net/marketing/kommentare/markenfuehrung-wie-ki-den-brandingprozess-umdreht-235739
@@ -33,8 +33,6 @@ Das verändert auch, was überhaupt entworfen wird. Denn nicht alles lässt sich
 ## Die Ausnahme: genauso wichtig wie die Regel
 
 Zur Disziplin des Festlegens gehört auch die Gegenrichtung. Erst wer weiß, was sich alles explizit beschreiben und automatisieren lässt, kann ernsthaft entscheiden, was davon ausgenommen bleibt. Und genau diese Entscheidung wird zum Differenzierungsmerkmal: Manche Elemente bleiben in Menschenhand, obwohl die Maschine sie längst erzeugen könnte. Die Menschen hinter der Marke haben entschieden: Das geben wir nicht ab.
-
-> Je mehr die Maschine im Alltag übernimmt, desto mehr Wert tragen die Elemente, die erkennbar nicht aus ihr kommen.
 
 Eine handgeführte Illustration, ein Ereignis vor Ort, eine persönliche Antwort statt eines generierten Texts: Je mehr die Maschine im Alltag übernimmt, desto mehr Wert tragen die Elemente, die erkennbar nicht aus ihr kommen. Dieser Wert entsteht aber nicht von allein. Die Marke muss die Entscheidung bewusst treffen, durchhalten und zeigen: Das hier machen wir absichtlich anders. Ohne dieses Zeigen kann von außen niemand unterscheiden, ob etwas bewusst weggelassen wurde oder einfach übrig geblieben ist. Und was wie übrig geblieben wirkt, wirkt veraltet.
 

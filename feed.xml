@@ -4,9 +4,9 @@
     <title>Robert Haase | Artikel</title>
     <link>https://robert-haase.de/artikel.html</link>
     <atom:link href="https://robert-haase.de/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Texte zu Markenstrategie im KI-Zeitalter: wie Marken maschinenlesbar, anwendbar und verantwortbar werden.</description>
+    <description>Texte zur Marke, wenn Maschinen mitlesen: wie Marken maschinenlesbar, anwendbar und verantwortbar werden.</description>
     <language>de</language>
-    <lastBuildDate>Fri, 02 Oct 2026 12:26:13 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 21:49:01 +0100</lastBuildDate>
     <item>
       <title>Antworten statt Seiten: Eine Website darf sich widersprechen. Eine Antwort nicht.</title>
       <link>https://robert-haase.de/antworten-statt-seiten.html</link>
@@ -47,7 +47,7 @@
       <link>https://robert-haase.de/open-brand-repo.html</link>
       <guid>https://robert-haase.de/open-brand-repo.html</guid>
       <pubDate>Tue, 21 Jul 2026 12:00:00 +0200</pubDate>
-      <description>Die Schweiz hat ihre Schreibregeln für Sprachmodelle aufbereitet und ihr Corporate Design als PDF. Warum die Marken-Spezifikation als öffentliches, versioniertes Repository geführt gehört.</description>
+      <description>Die Schweiz hat ihre Schreibregeln für Sprachmodelle aufbereitet, ihr Corporate Design gibt es nur als PDF. Warum die Marken-Spezifikation als öffentliches, versioniertes Repository geführt gehört.</description>
     </item>
     <item>
       <title>Maschinensicht</title>
@@ -89,14 +89,14 @@
       <link>https://robert-haase.de/agentic-brand-readiness.html</link>
       <guid>https://robert-haase.de/agentic-brand-readiness.html</guid>
       <pubDate>Fri, 27 Mar 2026 09:00:00 +0100</pubDate>
-      <description>Agentic Brand Readiness ist die Fähigkeit einer Marke, von KI-Systemen und Agenten korrekt erkannt, beschrieben und empfohlen zu werden. Dazu müssen Markenattribute explizit, strukturiert und maschinenlesbar definiert sein.</description>
+      <description>Agentic Brand Readiness ist die Fähigkeit einer Marke, von KI-Systemen und Agenten gefunden, richtig beschrieben und empfohlen zu werden. Dafür muss sie eindeutig festlegen, was sie ist, und Dritte müssen sie genauso beschreiben.</description>
     </item>
     <item>
       <title>Brand Infrastructure: Warum Marken maschinenlesbar werden müssen.</title>
       <link>https://robert-haase.de/brand-infrastructure.html</link>
       <guid>https://robert-haase.de/brand-infrastructure.html</guid>
       <pubDate>Sat, 07 Mar 2026 09:00:00 +0100</pubDate>
-      <description>KI-Agenten erzählen deine Markengeschichte, ob du willst oder nicht. Brand Infrastructure ist die Antwort: Marke für Menschen und für Systeme gleichzeitig denken.</description>
+      <description>KI-Agenten erzählen die Geschichte einer Marke, ob sie will oder nicht. Brand Infrastructure ist die Antwort: Marke für Menschen und für Systeme gleichzeitig denken.</description>
     </item>
   </channel>
 </rss>

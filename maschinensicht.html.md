@@ -3,7 +3,7 @@ title: "Maschinensicht"
 description: "Diese Seite liest sich selbst aus: links die Seite für Menschen, rechts dieselbe Seite so, wie KI-Suche und Browser-Agenten sie verarbeiten. Live aus dem Quelltext, nicht nachgebaut."
 author: "Robert Haase"
 datePublished: 2026-07-21
-dateModified: 2026-10-06T19:56:06+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: de
 url: https://robert-haase.de/maschinensicht.html
 translation: https://robert-haase.de/en/machine-view.html.md
@@ -67,7 +67,7 @@ Das ist kein Randproblem. Eine Erhebung über eine Million Startseiten fand auf 
 
 **Strukturierte Daten machen sichtbar?** Ahrefs verfolgte 1.885 Seiten, die zwischen August 2025 und März 2026 JSON-LD ergänzten, und verglich sie mit 4.000 Kontrollseiten auf ähnlichem Zitierniveau. In ChatGPT und im Google-AI-Modus war der Effekt nicht von null zu unterscheiden, in den AI Overviews verloren die ergänzten Seiten 4,6 Prozent gegenüber den Kontrollseiten. Untersucht wurden allerdings nur Seiten, die ohnehin schon stark zitiert wurden, jede mit über hundert Nennungen in den AI Overviews. Für Seiten, die bisher gar nicht vorkommen, sagt die Erhebung nichts, und die Autoren halten dort einen Nutzen ausdrücklich für möglich. Ich pflege das Markup, weil es das Fundament sauber hält. Zahlen und Grenzen stehen auf der [Belege-Seite](https://robert-haase.de/belege.html#json-ld-test).
 
-**Es gibt Regeln, an die sich alle halten?** Google, OpenAI, Perplexity und Meta nehmen ihre nutzerausgelösten Abrufe ausdrücklich von der robots.txt aus, Anthropic ist die Ausnahme. Wer KI-Crawler blockiert, blockiert Training und Suche. Die Agenten laufen weiter. Und der Standard, der das regeln soll, hängt seit über einem Jahr in der Arbeitsgruppe fest.
+**Es gibt Regeln, an die sich alle halten?** Google, OpenAI, Perplexity und Meta nehmen ihre nutzerausgelösten Abrufe ausdrücklich von der robots.txt aus, Anthropic ist die Ausnahme. Wer KI-Crawler blockiert, sperrt bei Anbietern, die beides mit demselben Crawler sammeln, Training und Suche zugleich. Die Agenten laufen weiter. Und der Standard, der das regeln soll, hängt seit über einem Jahr in der Arbeitsgruppe fest.
 
 Und die angekündigte Auflösung zur llms.txt: Sie liegt hier, weil es sie gibt. 97 Prozent dieser Dateien bekommen keinen einzigen Zugriff, das zeigen Server-Logs über 137.000 Domains. Erfunden wurde das Format für Werkzeug-Dokumentation, nicht für Sichtbarkeit. Wo es wirkt, spart es Agenten Zeit. Belegt ist das an Dokumentationsseiten: In einem [Test über 20 solcher Sites und 2.400 Durchläufe](https://www.mintlify.com/blog/llms-txt-agent-benchmark) sanken Antwortzeit und Tokenverbrauch um rund ein Fünftel, sobald die Seiten auf ihre llms.txt verwiesen; verglichen mit denselben Seiten in Markdown ohne diesen Verweis. Gemessen hat das Mintlify, ein Anbieter, der solche Dokumentationen selbst ausliefert und den Aufbau samt [Rohdaten](https://github.com/mintlify/docs-url-discovery-bench) offengelegt hat. Eine unabhängige Messung kenne ich nicht. Für Marken-Websites ist damit nichts belegt.
 
@@ -75,7 +75,7 @@ Und die angekündigte Auflösung zur llms.txt: Sie liegt hier, weil es sie gibt.
 
 **Diese Website ist der einfachste Fall, den es gibt.**
 
-Rund dreißig Seiten, statisch, kein Redaktionssystem, ein einziges externes Skript. Bei einer gewachsenen Marken-Site mit Tag-Manager, Consent-Schicht und drei beteiligten Agenturen sähe die rechte Spalte anders aus. Was hier Handarbeit ist, wird dort eine Frage von Zuständigkeit und Prozess.
+Rund vierzig Seiten, statisch, kein Redaktionssystem, ein einziges externes Skript. Bei einer gewachsenen Marken-Site mit Tag-Manager, Consent-Schicht und drei beteiligten Agenturen sähe die rechte Spalte anders aus. Was hier Handarbeit ist, wird dort eine Frage von Zuständigkeit und Prozess.
 
 Und saubere Struktur ist nur die Eintrittskarte. Meine eigene Messreihe zeigt beides: Wer nach mir fragt, bekommt in zwei von drei Systemen diese Website als meistzitierte Quelle. Im Google-AI-Modus führt seit Ende August das Fachmedium, in dem ich schreibe. Wer fragt, wen man für das Thema beauftragen sollte, bekommt meinen Namen nicht, in vier Messungen seit Juli kein einziges Mal. Dazwischen liegt kein technisches Problem. Dazwischen liegt, was Dritte über einen schreiben, und das korreliert mit der Sichtbarkeit in KI-Antworten [deutlich stärker als die klassischen Größen der eigenen Website](https://robert-haase.de/belege.html#mentions-vs-backlinks). Gemessen wurde das an etablierten Marken; auf eine Personen-Abfrage wie meine ist es übertragen.
 

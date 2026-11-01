@@ -3,7 +3,7 @@ title: "Was die Maschine nicht bekommt"
 description: "KI macht die Fläche jeder Marke billig, und der Wert verschiebt sich auf das bewusst Zurückgehaltene. Warum das Preispremium auf der Entscheidung liegt, nicht auf dem Unvermögen der Maschine, und wie die zwei Listen einer Marke aussehen."
 author: "Robert Haase"
 datePublished: 2026-08-25
-dateModified: 2026-09-28T22:30:00+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: de
 url: https://robert-haase.de/was-die-maschine-nicht-bekommt.html
 translation: https://robert-haase.de/en/what-the-machine-doesnt-get.html.md
@@ -41,7 +41,7 @@ Und die alten Beispiele zeigen noch etwas Genaueres. Die Quarzuhr misst besser. 
 
 Der Wert kommt aus einer Entscheidung, die man sehen kann. Jemand hat es von Hand gemacht, obwohl die Maschine bereitstand. Und jemand steht mit seinem Namen dafür ein. Das gemalte Porträt ist wertvoll, weil ein Mensch Lebenszeit eingesetzt und signiert hat. Die Signatur ist der halbe Preis.
 
-Das funktioniert schon heute, mitten in der KI-Ära: Klarna hat den Kundenservice auf KI umgestellt und [holt inzwischen für einen Teil wieder Menschen zurück](https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/). „Mit einem Menschen sprechen“ ist ein Versprechen, das [der Klarna-Chef inzwischen öffentlich gibt](https://techcrunch.com/2025/06/04/klarna-ceo-says-company-will-use-humans-to-offer-vip-customer-service). Ein Mensch am Telefon ist dort eine Entscheidung der Firma, und die kostet sichtbar Geld.
+Das funktioniert schon heute, mitten in der KI-Ära: Klarna hat den Kundenservice weitgehend auf KI umgestellt und [hält den Weg zu einem Menschen ausdrücklich offen](https://www.customerexperiencedive.com/news/klarna-reinvests-human-talent-customer-service-AI-chatbot/747586/). „Mit einem Menschen sprechen“ ist ein Versprechen, das [der Klarna-Chef inzwischen öffentlich gibt](https://techcrunch.com/2025/06/04/klarna-ceo-says-company-will-use-humans-to-offer-vip-customer-service). Ein Mensch am Telefon ist dort eine Entscheidung der Firma, und die kostet sichtbar Geld.
 
 Zwei Dinge braucht diese Entscheidung, damit sie Wert trägt. Sie muss getroffen sein, bevor jemand danach fragt. Und sie muss belegbar sein: Wer war das, wer steht dafür gerade? Handarbeit ohne Beleg ist vom Maschinenprodukt nicht zu unterscheiden. Und was nicht zu unterscheiden ist, bekommt auf Dauer keinen anderen Preis.
 

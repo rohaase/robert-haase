@@ -3,7 +3,7 @@ title: "How AI Is Reversing the Branding Process."
 description: "Visibility in AI search is only the first stage. Why checking how machines read the brand today moves to the start of the branding process."
 author: ["Robert Haase", "Tabea Otto"]
 datePublished: 2026-09-09
-dateModified: 2026-09-26
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: en
 url: https://robert-haase.de/en/how-ai-is-reversing-the-branding-process.html
 translation: https://robert-haase.de/wie-ki-den-brandingprozess-umdreht.html.md
@@ -32,8 +32,6 @@ This also changes what gets designed in the first place. Not everything can be s
 ## The exception: just as important as the rule
 
 The discipline of definition also has a flip side. You can only seriously decide what to hold back once you know everything that can be spelled out and automated. And that decision is what sets a brand apart: some elements stay in human hands even though the machine could easily produce them by now. The people behind the brand have decided: we’re not handing this over.
-
-> The more the machine takes over in everyday work, the more value there is in the elements that clearly don’t come from it.
 
 A hand-drawn illustration, an in-person event, a personal reply instead of a generated text: the more the machine takes over in everyday work, the more value there is in the elements that clearly don’t come from it. But that value doesn’t create itself. The brand has to make this decision deliberately, stick to it and show it: we do this differently, on purpose. Without that signal, no one on the outside can tell whether something was deliberately left out or simply left over. And what looks left over looks outdated.
 

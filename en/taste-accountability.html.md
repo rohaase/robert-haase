@@ -3,7 +3,7 @@ title: "Taste Won't Save Brand Work. Accountability Will."
 description: "AI is taking over execution, and the industry consoles itself with taste. But trainable taste is consensus taste. What remains is the party that stands behind the decisions."
 author: "Robert Haase"
 datePublished: 2026-07-10
-dateModified: 2026-09-28T22:30:00+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: en
 url: https://robert-haase.de/en/taste-accountability.html
 translation: https://robert-haase.de/taste-accountability.html.md
@@ -21,11 +21,11 @@ It sounds reassuring. It has just two problems: it underestimates the machine, a
 
 ## Trainable Taste Is Consensus Taste
 
-**What emerges through training can, in principle, be learned by a machine. Taste that can be learned from data is average. From the machine we call it slop, from the agency we call it experience.**
+**What emerges through training can, in principle, be learned by a machine. Taste that can be learned from data is average, whoever delivers it.**
 
 Taste is not a talent that falls from the sky. Taste is a trained muscle: you see a lot, compare a lot, discard a lot, and develop a judgment from it. That is exactly why the position is fragile. What emerges through exposure to many examples is precisely what language models are built on. They have seen more than any creative director who ever lived.
 
-Today, the models are strong in execution and weak in taste. Ask ChatGPT or Claude about design, strategy, or your own brand, and you get the average of every answer ever given: competent, plausible, interchangeable. Seven language models faced seven fundamental strategic choices and picked the same side regardless of vendor on most of them. More elaborate prompts did not help, and neither did adding company context. The figures and their limits are in the [evidence collection](https://robert-haase.de/en/evidence.html#strategie-trendslop), including the limit that the full text sits behind a paywall and I could not check the detailed values against the original. But this state is a snapshot, not a protective wall. The trainable part of taste will be learned.
+Today, the models are strong in execution and weak in taste. Ask ChatGPT or Claude about design, strategy, or your own brand, and you get the average of every answer ever given: competent, plausible, interchangeable. Seven language models faced seven fundamental strategic choices and picked the same side regardless of vendor on six of them. On two of those, even more elaborate prompting barely helped. The figures and their limits are in the [evidence collection](https://robert-haase.de/en/evidence.html#strategie-trendslop). But this state is a snapshot, not a protective wall. The trainable part of taste will be learned.
 
 And here lies the uncomfortable core: taste that can be learned from data is consensus taste. It is the middle of what many consider good. When that middle comes from the machine, we call it slop. When it comes from the agency, we call it experience. The mechanism is the same; only the sender differs.
 
@@ -35,7 +35,7 @@ Honestly, taste would not have carried the industry even without AI. Taste canno
 
 **When execution costs nothing, value shifts to the decision. And to the person who stands behind it.**
 
-When the tenth variant costs nothing, the variant is no longer the scarce good. Scarce is the judgment of which one is right. And scarcer still: someone who makes that call and stands behind it when it turns out to be wrong.
+When the tenth variant costs nothing, the variant is no longer the scarce good. What is scarce is the judgment of which one is right. And scarcer still: someone who makes that call and stands behind it when it turns out to be wrong.
 
 The industry's next word will therefore not be a capability but an address: accountability. Someone you can point to.
 
@@ -49,7 +49,7 @@ Responsibility that is merely claimed is indistinguishable from taste. It become
 
 Take tone of voice: "We sound premium" is a mood. "We say 'precision,' never 'quality,' for this reason, decided by this person, effective from this date" is a documented, accountable decision. Any machine can plausibly simulate the first. It can apply the second, but it cannot be accountable for it.
 
-This is exactly where the circle closes with the machine-readable brand. A brand specification, as I describe it in [Brand Infrastructure](https://robert-haase.de/en/brand-infrastructure.html), is more than a format for systems: it is the place where judgments become explicit, versioned and with a named sender. Every rule in it is a documented decision. When AI takes over execution, the specification becomes the place where responsibility becomes visible.
+This is where the machine-readable brand comes in. A brand specification, as I describe it in [Brand Infrastructure](https://robert-haase.de/en/brand-infrastructure.html), is more than a format for systems: it is the place where judgments become explicit, versioned and with a named sender. Every rule in it is a documented decision. When AI takes over execution, the specification becomes the place where responsibility becomes visible.
 
 > What remains of brand work is not the better taste. It is the party that stands behind the decision.
 

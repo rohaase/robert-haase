@@ -3,7 +3,7 @@ title: "Brand as an MCP Server: How a Brand Answers When an Agent Asks"
 description: "An MCP server makes a brand queryable and solves consistency. Whether a statement may be made in its name, it does not decide. That stays with brand management."
 author: "Robert Haase"
 datePublished: 2026-09-21
-dateModified: 2026-09-24T20:33:38+02:00
+dateModified: 2026-11-01T21:49:24+01:00
 inLanguage: en
 url: https://robert-haase.de/en/brand-as-mcp-server.html
 translation: https://robert-haase.de/marke-als-mcp-server.html.md
@@ -17,7 +17,7 @@ Also published in German at [The Business of Brand Management](https://tbobm.com
 
 **The industry has found an answer to producing with AI: every tool gets its own copy of the brand. Only, you cannot ask a copy.**
 
-Microsoft’s Copilot can now [learn a brand](https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app). A brand manager uploads the guidelines, Copilot extracts colours, voice and rules. From one PDF. [Exactly one](https://robert-haase.de/en/evidence.html#microsoft-brand-kit): to upload a new one you have to delete the old one first, and the new values override the previous ones, brand voice included.
+Microsoft’s Copilot now keeps [brand kits](https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app) with templates, logos, colours, fonts and a described brand voice. A kit becomes official once a brand manager takes it over. [According to Microsoft](https://robert-haase.de/en/evidence.html#microsoft-brand-kit) there is no formal approval workflow, and alongside the official kits there are personal ones, which explicitly do not represent approval by the organisation.
 
 Canva keeps its own brand kit, with logos, colours, fonts and templates. The agency works from its deck. And somewhere sits the brand book all three were once copied from. That is four versions of the same brand, and each ages at its own pace.
 
@@ -53,15 +53,15 @@ It is worth a lot all the same. Build twelve formats today and you are working f
 
 **The question an agent really has in the middle of the work is not one you look up. It is: may I say this in the brand’s name? None of these servers answers it.**
 
-Pulumi’s list holds no tool that checks a statement. The brand only judges for itself on colours. For copy, images and designs there are three prompts a human has to trigger. Ask it to check a headline and you get back around 33,000 characters of guidelines, and the deciding is left to the model that reads them. Pulumi’s own rules are honest about it: nothing goes out without a human having checked it.
+Pulumi’s list holds no tool that checks a statement. The server makes a judgement of its own only on colours. For copy, images and designs there are three prompts a human has to trigger. Ask it to check a headline and you get back around 33,000 characters of guidelines, and the deciding is left to the model that reads them. Pulumi’s own rules are honest about it: nothing goes out without a human having checked it.
 
 The picture is the same elsewhere. Frontify’s server for brand portals carries a good fifty tools. They read, write and manage what sits in the portal, and Frontify itself advises checking every result before publishing. Through Canva’s server agents create designs and reach brand kits. Monotype has been testing a connector since July 2026 that detects unlicensed fonts. It flags them, nothing more.
 
 This is not a reproach to the vendors. They built the part that can be built for everyone. Handing out rules works the same way for every brand. Deciding statements is something every brand has to do for itself.
 
-Hand out rules only, and you still get a judgement. An anonymous one. A model reads the rules and interprets them, freshly every time, and next quarter it is a different model. Nobody sees how it was decided, and nobody stands behind it. The judgement has no address.
+Hand out rules only, and you still get a judgement, only an anonymous one: a model reads the rules and interprets them, freshly every time, and next quarter it is a different model. Nobody sees how it was decided, and nobody stands behind it. The judgement has no address.
 
-This is the old weakness in a new build. Paul Jun, who leads brand at the US financial software company Ramp, put it in one sentence in an [essay](https://pauljun.substack.com/p/brand-as-software) in September: “The old system distributed rules without distributing judgment.” The brand book took the rules everywhere and the judgement nowhere. A server that only delivers repeats that. Just faster. It is a brand book with an interface.
+This is the old weakness in a new build. Paul Jun, who leads brand at the US financial software company Ramp, put it in one sentence in an [essay](https://pauljun.substack.com/p/brand-as-software) in September: “The old system distributed rules without distributing judgment.” The brand book took the rules everywhere and the judgement nowhere. A server that only delivers repeats that, only faster: it is a brand book with an interface.
 
 Machines have long been able to check. Adobe’s campaign tool shows a [percentage](https://robert-haase.de/en/evidence.html#adobe-markenpruefung) for every draft, namely how many of the stored guidelines it passes, and recalculates after every edit. [Markup AI](https://robert-haase.de/en/evidence.html#markup-ai-stilpruefung), born out of the text checker Acrolinx, flags what does not match the style guide, explains why and offers wording, over MCP as well. Furthest along is pharma. There the [pre-check by an agent](https://robert-haase.de/en/evidence.html#veeva-mlr) can be bought off the shelf, as a step before the mandatory approval. And even there it only checks against stored specifications and decides nothing. All three measure the draft against a copy of the guidelines, and none of them says who decided a rule or since when it applies.
 
@@ -81,7 +81,7 @@ Most brands are distributed, across agencies, markets and licensees. For them th
 
 That applies all the more to what an agent may do. Which tools a brand gives to which agent is not a technical question. A tool that grants discounts is a power of attorney. That is [Agent Authority](https://robert-haase.de/en/agent-authority.html) in its technical form. For access and money there is already software for it: the open-source [Olivares](https://robert-haase.de/en/evidence.html#olivares-access-map) keeps every agent’s permissions as a map, reports what an agent does without being allowed to, and writes every call into a signed ledger. For statements made in the brand’s name there is nothing of the kind.
 
-The technology will keep changing anyway. MCP has been through five revisions since November 2024 and may change again. The interface is replaceable. The decisions are not.
+The technology will keep changing anyway. MCP has been through five revisions since November 2024 and may change again. The interface can be swapped; the decisions stay.
 
 ## Where to start
 

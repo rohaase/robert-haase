@@ -4,9 +4,9 @@
     <title>Robert Haase | Articles</title>
     <link>https://robert-haase.de/en/articles.html</link>
     <atom:link href="https://robert-haase.de/en/feed.xml" rel="self" type="application/rss+xml"/>
-    <description>Writing on brand strategy in the AI age: how brands become machine-readable, applicable, and accountable.</description>
+    <description>Writing on brands when machines read along: how brands become machine-readable, applicable, and accountable.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 12:26:13 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 21:49:01 +0100</lastBuildDate>
     <item>
       <title>Answers Instead of Pages: A Website May Contradict Itself. An Answer May Not.</title>
       <link>https://robert-haase.de/en/answers-instead-of-pages.html</link>
@@ -47,7 +47,7 @@
       <link>https://robert-haase.de/en/open-brand-repo.html</link>
       <guid>https://robert-haase.de/en/open-brand-repo.html</guid>
       <pubDate>Tue, 21 Jul 2026 12:00:00 +0200</pubDate>
-      <description>Switzerland prepared its writing rules for language models and its corporate design as a PDF. Why the brand specification belongs in a public, versioned repository.</description>
+      <description>Switzerland has prepared its writing rules for language models; its corporate design exists only as a PDF. Why the brand specification belongs in a public, versioned repository.</description>
     </item>
     <item>
       <title>Machine View</title>
@@ -68,7 +68,7 @@
       <link>https://robert-haase.de/en/the-bet.html</link>
       <guid>https://robert-haase.de/en/the-bet.html</guid>
       <pubDate>Sat, 18 Jul 2026 12:00:00 +0200</pubDate>
-      <description>When clients can generate any analysis in minutes, authority through knowing more collapses. What strategy work sells instead: the recommendation that commits. The bet.</description>
+      <description>When clients can generate any analysis in minutes, authority through knowing more collapses. What strategy work sells instead: the recommendation that commits.</description>
     </item>
     <item>
       <title>Agent Authority: Your Agent Holds a Mandate.</title>
@@ -89,7 +89,7 @@
       <link>https://robert-haase.de/en/agentic-brand-readiness.html</link>
       <guid>https://robert-haase.de/en/agentic-brand-readiness.html</guid>
       <pubDate>Fri, 27 Mar 2026 09:00:00 +0100</pubDate>
-      <description>Agentic Brand Readiness is the ability of a brand to be correctly recognized, described, and recommended by AI systems and agents. This requires brand attributes to be defined explicitly, in structured and machine-readable form.</description>
+      <description>Agentic Brand Readiness is the ability of a brand to be found, described correctly, and recommended by AI systems and agents. It takes a brand that states unambiguously what it is, and third parties that describe it the same way.</description>
     </item>
     <item>
       <title>Brand Infrastructure: Why Brands Must Become Machine-Readable.</title>
