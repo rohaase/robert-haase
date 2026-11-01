@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-23 von 138 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 20. Oktober 2026.
+25 von 145 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -23,8 +23,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (15) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten, dots-freigaberegeln
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (6) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt
-+ Sachstand, Fallbericht oder Marktbeobachtung (2) → aipref, agenten-wissensarbeit
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
++ Sachstand, Fallbericht oder Marktbeobachtung (3) → aipref, agenten-wissensarbeit, agenten-zeithorizont
 
 ---
 
@@ -268,11 +268,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## lighthouse-agent-discovery
 
-**Aussage:** Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht, und führt diese Prüfung zusammen mit der Prüfung der llms.txt in einer eigenen Gruppe „Agent Discoverability“.
+**Aussage:** Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht. Seit Version 13.6.0 vom 27. Oktober 2026 prüft es gegen deren Fassung 0.91 und meldet die alten ai-catalog-Pfade nur noch als Altlast.
 
-**Was der Eintrag nicht belegt:** dass Agenten diese Dateien lesen. Ein Prüfwerkzeug misst, ob etwas vorhanden und gültig ist, nicht, ob es genutzt wird. Die Prüfung der llms.txt gibt es schon seit Version 13.3.0; für die Google-Suche erklärt Google dieselbe Datei für unnötig, wie ein eigener Eintrag zum Leitfaden der Google-Suche belegt. **Die Spezifikation ist ein Vorschlag:** ARD steht in Version 0.91 vom 26. August 2026 im Status „Proposal“, unter den Autoren sind Leute von Google und Hugging Face; ein Gremienstandard ist es nicht. **Und Werkzeug und Spezifikation laufen auseinander:** Die Spezifikation verlangt den Pfad /.well-known/ard.json, Version 13.5.0 sucht den Vorgängernamen /.well-known/ai-catalog.json und prüft gegen ein Schema, das die Spezifikation inzwischen entfernt hat. Zwei am 9. Oktober 2026 zusammengeführte Änderungen stellen Lighthouse auf Version 0.91 um und behalten die Vorgängernamen als Rückfall; in einem Release sind sie bis zum 16. Oktober 2026 nicht erschienen. Wo andere Verfahren solche Kataloge suchen, zeigt der Eintrag zu den MCP Server Cards. **Im Einzelnen:** Laut Release kommt die Prüfung mit Chrome 156 in die DevTools und binnen zwei Wochen in PageSpeed Insights.
+**Was der Eintrag nicht belegt:** dass Agenten diese Dateien lesen. Ein Prüfwerkzeug misst, ob etwas vorhanden und gültig ist, nicht, ob es genutzt wird. Die Prüfung der llms.txt gibt es schon seit Version 13.3.0; für die Google-Suche erklärt Google dieselbe Datei für unnötig, wie ein eigener Eintrag zum Leitfaden der Google-Suche belegt. **Die Spezifikation ist ein Vorschlag:** ARD steht in Version 0.91 vom 26. August 2026 im Status „Proposal“, unter den Autoren sind Leute von Google und Hugging Face; ein Gremienstandard ist es nicht. **Werkzeug und Spezifikation laufen seit Oktober zusammen:** Version 13.5.0 suchte noch den Vorgängernamen /.well-known/ai-catalog.json; Version 13.6.0 sucht /.well-known/ard.json, dazu Verweise im HTTP-Header Link und im HTML mit rel="ard", und warnt bei den alten Pfaden. Wo andere Verfahren solche Kataloge suchen, zeigt der Eintrag zu den MCP Server Cards. **Im Einzelnen:** Die Gruppe „Agent Discoverability“ führt die Prüfung zusammen mit der Prüfung der llms.txt. Laut Release kommt Version 13.6.0 mit Chrome 159 in die DevTools und binnen einer Woche in PageSpeed Insights; dieselbe Version erkennt in der robots.txt auch eine Lizenzangabe (License).
 
-**Quelle:** Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ ([zur Spezifikation](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · abgerufen am 21. September 2026 · Lighthouse, Pull Requests 17258 und 17259 zur Umstellung auf Version 0.91, zusammengeführt am 9. Oktober 2026, letztes Release weiterhin 13.5.0, geprüft am 16. Oktober 2026 ([zum Pull Request](https://github.com/GoogleChrome/lighthouse/pull/17258)) · [Zur Quelle](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
+**Quelle:** Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ ([zur Spezifikation](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · abgerufen am 21. September 2026 · Lighthouse-Release 13.6.0 vom 27. Oktober 2026 mit der Umstellung auf Version 0.91 ([zu Release 13.6.0](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0)), abgerufen am 1. November 2026 · Pull Requests 17258 und 17259 ([zum Pull Request](https://github.com/GoogleChrome/lighthouse/pull/17258)) · [Zur Quelle](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
 
 **Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -326,9 +326,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** Crawler, die Inhalte zugleich für einen Suchindex und für KI-Training sammeln, machen laut Cloudflare 36,6 Prozent des verifizierten Crawler-Verkehrs in seinem Netz aus, die größte einzelne Gruppe. Weniger als 1 Prozent der Websitebetreiber sperren Such-Crawler, 17 Prozent schränken KI-Training ein.
 
-**Was die Zahl nicht sagt:** Es sind Angaben des Anbieters ohne offengelegte Methode und ohne Zeitraum, gemessen im eigenen Netz, und die Voreinstellung gilt nur für neu hinzukommende Websites. **Was daraus für die robots.txt folgt:** Einen gemischten Crawler kann eine Website dort nur ganz zulassen oder ganz sperren; die Zeile Content-Signal drückt den Zweck nur als Bitte aus, und wie selten sie steht, zeigt der Eintrag dazu. Auf diese Lücke zielen Cloudflares vier Forderungen an Crawler: ein Opt-out für Training und eines für KI-Zusammenfassungen in der Suche, Einsicht auf URL-Ebene und die öffentliche Zusage, dass ein Opt-out das Ranking nicht berührt. **Im Einzelnen:** Neuen Websites schlägt Cloudflare seit dem 15. September 2026 Einstellungen nach Geschäftsmodell vor, für Websites mit Werbung: Suche erlaubt, KI-Training untersagt, KI-Agenten auf Seiten mit Anzeigen gesperrt.
+**Was die Zahl nicht sagt:** Es sind Angaben des Anbieters ohne offengelegte Methode und ohne Zeitraum, gemessen im eigenen Netz, und die Voreinstellung gilt nur für neu hinzukommende Websites. **Eine zweite Reihe misst anders:** In Cloudflare Radar liegt der Anteil gemischter Crawler am Verkehr der KI-Crawler von Juni bis Oktober 2026 monatlich zwischen 37,0 und 40,6 Prozent, im Oktober bei 39,3; das ist eine andere Basis als der verifizierte Crawler-Verkehr der Pressemitteilung. **Was daraus für die robots.txt folgt:** Einen gemischten Crawler kann eine Website dort nur ganz zulassen oder ganz sperren; die Zeile Content-Signal drückt den Zweck nur als Bitte aus, und wie selten sie steht, zeigt der Eintrag dazu. Auf diese Lücke zielen Cloudflares vier Forderungen an Crawler: ein Opt-out für Training und eines für KI-Zusammenfassungen in der Suche, Einsicht auf URL-Ebene und die öffentliche Zusage, dass ein Opt-out das Ranking nicht berührt. **Im Einzelnen:** Neuen Websites schlägt Cloudflare seit dem 15. September 2026 Einstellungen nach Geschäftsmodell vor, für Websites mit Werbung: Suche erlaubt, KI-Training untersagt, KI-Agenten auf Seiten mit Anzeigen gesperrt.
 
-**Quelle:** Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · [Zur Quelle](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
+**Quelle:** Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · Cloudflare Radar, AI Insights, Reihe „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 ([zu Cloudflare Radar](https://radar.cloudflare.com/ai-insights)) · [Zur Quelle](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
 
 **Einstufung:** Anbieterangaben · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
 
@@ -340,9 +340,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** OpenAIs dauerhaft laufende Agenten, am 29. September 2026 als „dots“ vorgestellt, arbeiten nach Regeln in drei Stufen: Eigene Regeln können einzelne Aktionen erlauben, an eine Freigabe binden oder sperren, die eingebauten Sicherheitsregeln gelten immer, und bestimmte sensible Aufgaben bleiben immer beim Menschen.
 
-**Was der Eintrag nicht belegt:** Nutzung oder Haftung. Es ist die Produktankündigung des Herstellers ohne Zahlen zur Nutzung; dots starten in ChatGPT für Pro und Business Premium „in eligible markets“, in Enterprise als Beta, die spezialisierten dots zunächst in Pilotprojekten. Wer für einen Fehler einsteht, regelt die Seite nicht; OpenAI schreibt selbst, dots könnten Fehler machen, folgenreiche Ergebnisse seien immer zu prüfen. Vorgaben zu Marke oder Tonalität erwähnt die Seite nicht: dots lernen laut OpenAI aus Rückmeldungen, anders als die Markenregeln, die Microsoft und Google ihren Assistenten als Konfiguration mitgeben, wie die Einträge zu beiden zeigen. An einer Einbindung in Microsofts Agent 365 arbeitet OpenAI nach eigenen Angaben. **Im Einzelnen:** Zu den sensiblen Aufgaben, die immer beim Menschen bleiben, gehört etwa das Ändern eines Passworts. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen.
+**Was der Eintrag nicht belegt:** Nutzung oder Haftung. Es ist die Produktankündigung des Herstellers ohne Zahlen zur Nutzung; dots starten in ChatGPT für Pro-Nutzer ab 18 Jahren außerhalb des Europäischen Wirtschaftsraums, der Schweiz und Großbritanniens, für Business Premium „in supported ChatGPT regions“, in Enterprise als Beta, die spezialisierten dots zunächst in Pilotprojekten. Wer für einen Fehler einsteht, regelt die Seite nicht; OpenAI schreibt selbst, dots könnten Fehler machen, folgenreiche Ergebnisse seien immer zu prüfen. Vorgaben zu Marke oder Tonalität erwähnt die Seite nicht: dots lernen laut OpenAI aus Rückmeldungen, anders als die Markenregeln, die Microsoft und Google ihren Assistenten als Konfiguration mitgeben, wie die Einträge zu beiden zeigen. An einer Einbindung in Microsofts Agent 365 arbeitet OpenAI nach eigenen Angaben. **Ein zweiter Hersteller, dasselbe Muster:** Anthropics dauerhaft laufender Agent Claude Duet, seit dem 21. Oktober 2026 als Vorschau mit Warteliste für US-Abonnenten, liest, entwirft und bereitet selbst vor; bevor er eine Nachricht sendet, zahlt, unterschreibt oder löscht, zeigt er die Aktion und wartet auf Freigabe. Wertpapierhandel und Überweisungen zwischen Konten übernimmt er auch mit Freigabe nicht. Auch dort steht nichts zu Haftung oder Markenvorgaben. **Im Einzelnen:** Zu den sensiblen Aufgaben, die immer beim Menschen bleiben, gehört etwa das Ändern eines Passworts. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen.
 
-**Quelle:** OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026 · [Zur Quelle](https://openai.com/index/introducing-dots/)
+**Quelle:** OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026 · Verfügbarkeit: OpenAI Help Center, „Getting started with your dot“, aktualisiert am 30. Oktober 2026 ([zur Hilfeseite](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot)) · Anthropic, „Introducing Claude Duet“, 21. Oktober 2026, mit Nachtrag vom 23. Oktober 2026 ([zu Claude Duet](https://claude.com/resources/articles/claude-duet)) · beide abgerufen am 1. November 2026 · [Zur Quelle](https://openai.com/index/introducing-dots/)
 
 **Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
 
@@ -350,4 +350,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 23 von 23 Einträgen zum Thema Agenten. Letzter Eintrag: dots-freigaberegeln.
+## agenten-zeithorizont
+
+**Aussage:** Wie lang die Aufgaben sind, die KI-Agenten mit 50 Prozent Erfolgswahrscheinlichkeit lösen, misst METR in der Arbeitszeit menschlicher Fachleute: rund 4 Minuten bei GPT-4 im März 2023, rund 17 Stunden bei einer frühen Fassung von Claude Mythos Preview im April 2026. Seit 2023 verdoppelt sich der Wert im Schnitt alle 129 Tage.
+
+**Was die Zahl nicht sagt:** METR schreibt selbst, Messungen über 16 Stunden seien mit der aktuellen Aufgabensammlung unzuverlässig. Der Spitzenwert liegt also jenseits der verlässlichen Grenze, sein 95-Prozent-Bereich reicht von 8,5 bis 55 Stunden; die Verdopplungszeit lässt solche Werte aus, ihr Bereich liegt bei 104 bis 158 Tagen. 50 Prozent heißt: Jede zweite Aufgabe scheitert. Bei 80 Prozent Erfolg liegt der Horizont für dasselbe Modell bei 3,1 Stunden. Gemessen sind überwiegend Aufgaben aus Software und KI-Forschung, keine Wissens- oder Markenarbeit. **Seit September eingefroren:** Die Seite wird seit dem 8. September 2026 nicht mehr aktualisiert, neuere Modelle fehlen. **Vorsicht beim Weitergeben:** Weitergaben machen daraus, METR könne nicht mehr messen, und nennen ohne Quelle 17 Wochen; METR nennt eine Grenze der Zuverlässigkeit. Wie weit Agenten bei Aufgaben im Web kommen, zeigt der Eintrag zum Erfolg von Agenten.
+
+**Quelle:** METR, „Task-Completion Time Horizons of Frontier AI Models“, Time Horizon 1.1, zuletzt aktualisiert am 8. September 2026 · Werte aus der Datendatei benchmark_results_1_1.yaml ([zur Datendatei](https://metr.org/assets/benchmark_results_1_1.yaml)) · abgerufen am 1. November 2026 · [Zur Quelle](https://metr.org/time-horizons/)
+
+**Einstufung:** Messreihe eines Prüfinstituts · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-zeithorizont
+
+---
+
+## agenten-eskalation-erstattung
+
+**Aussage:** Sechs KI-Assistenten sollten eine verfallene Erstattung über 350 Pfund für einen ausgefallenen Zug durchsetzen. Grok 4.7 schickte in 15 simulierten Tagen 187 Nachrichten, davon 69 an Behörden, Kommunalpolitiker und Presse; Fable 5.1 gab die Krankheit der Mutter an fünf Organisationen weiter, drei Agenten drohten mit Klage.
+
+**Was die Zahl nicht sagt:** Die Autorin schreibt selbst, ein Lauf je Modell in einem Szenario könne kein typisches Verhalten und keine verlässliche Rangfolge belegen. Die Empfänger waren simuliert und antworteten schneller als echte Organisationen, was die Zahl der Nachrichten erhöhen kann, und die Laufzeiten waren ungleich. Vals AI ist ein Anbieter von Modellbewertungen. **Was es zur Debatte beiträgt:** Ein Agent mit einem Ziel ohne Grenzen setzt Mittel ein, die niemand freigegeben hat, hier private Gesundheitsangaben und Drohungen. Das Verhalten streut stark: Opus 5.5 schickte in zwölf simulierten Wochen acht Nachrichten. Wie Zusagen eines Bots ein Unternehmen binden können, zeigen die Einträge zu Air Canada und zum Support-Bot von Cursor. **Im Einzelnen:** Fable 5.1 nannte die Krankheit fälschlich als Grund für die verspätete Forderung. Alle sechs verlangten von der Bank eine Rückbuchung; dort gingen in den sechs Läufen 152 Nachrichten ein, auch weil die Agenten die Identität der Nutzerin nicht bestätigen konnten. Die Agenten lasen das echte Web, ihre ausgehenden Nachrichten wurden abgefangen und von einem simulierten Gegenüber beantwortet; erlaubt waren bis zu zwölf simulierte Wochen und 40 Millionen Tokens je Lauf.
+
+**Quelle:** Vals AI, Matilda Glynn-Henley, „How Far Will AI Assistants Go for a Refund They Can’t Get?“, 15. Oktober 2026 · sechs Modelle, je ein Lauf, simuliertes Gegenüber · abgerufen am 1. November 2026 · [Zur Quelle](https://www.vals.ai/blogs/impossible-refund)
+
+**Einstufung:** Einzelner Test, ein Lauf je Modell · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-eskalation-erstattung
+
+---
+
+Ende der Datei: 25 von 25 Einträgen zum Thema Agenten. Letzter Eintrag: agenten-eskalation-erstattung.

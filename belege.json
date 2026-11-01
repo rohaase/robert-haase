@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-10-20T09:06:00+02:00",
+  "dateModified": "2026-11-01T19:19:54+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 138,
+  "numberOfItems": 145,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -27,7 +27,7 @@
     {
       "id": "ki-suche",
       "name": "KI-Suche",
-      "numberOfItems": 23,
+      "numberOfItems": 24,
       "textFile": "https://robert-haase.de/belege-ki-suche.md",
       "ids": [
         "llmstxt-abrufe",
@@ -52,7 +52,8 @@
         "aio-markensuchen",
         "chatgpt-suchanfragen",
         "abruf-vor-inhalt",
-        "ki-suche-vielfalt"
+        "ki-suche-vielfalt",
+        "agenten-ueberschriften"
       ],
       "groups": {
         "strong": [
@@ -76,7 +77,8 @@
           "eigene-seite-selten-zitiert",
           "ki-modus-klicks",
           "abruf-vor-inhalt",
-          "ki-suche-vielfalt"
+          "ki-suche-vielfalt",
+          "agenten-ueberschriften"
         ],
         "plain": [
           "llmstxt-nutzen",
@@ -89,7 +91,7 @@
     {
       "id": "agenten",
       "name": "Agenten",
-      "numberOfItems": 23,
+      "numberOfItems": 25,
       "textFile": "https://robert-haase.de/belege-agenten.md",
       "ids": [
         "leere-buttons",
@@ -114,7 +116,9 @@
         "robots-sperre-chatbots",
         "agenten-wissensarbeit",
         "crawler-zweck-gemischt",
-        "dots-freigaberegeln"
+        "dots-freigaberegeln",
+        "agenten-zeithorizont",
+        "agenten-eskalation-erstattung"
       ],
       "groups": {
         "strong": [
@@ -140,18 +144,20 @@
           "klarna-700",
           "abruf-kuerzung",
           "robots-sperre-chatbots",
-          "crawler-zweck-gemischt"
+          "crawler-zweck-gemischt",
+          "agenten-eskalation-erstattung"
         ],
         "plain": [
           "aipref",
-          "agenten-wissensarbeit"
+          "agenten-wissensarbeit",
+          "agenten-zeithorizont"
         ]
       }
     },
     {
       "id": "schnittstellen",
       "name": "Schnittstellen",
-      "numberOfItems": 22,
+      "numberOfItems": 23,
       "textFile": "https://robert-haase.de/belege-schnittstellen.md",
       "ids": [
         "astryx-agenten",
@@ -175,7 +181,8 @@
         "markenstimme-als-skill",
         "staat-als-einzige-quelle",
         "chatgpt-plugin-pruefung",
-        "mcp-server-cards"
+        "mcp-server-cards",
+        "chatgpt-anzeigen-umschreiben"
       ],
       "groups": {
         "strong": [
@@ -192,7 +199,8 @@
           "adobe-markenpruefung",
           "markup-ai-stilpruefung",
           "markenstimme-als-skill",
-          "chatgpt-plugin-pruefung"
+          "chatgpt-plugin-pruefung",
+          "chatgpt-anzeigen-umschreiben"
         ],
         "weak": [
           "monotype-mcp",
@@ -251,7 +259,7 @@
     {
       "id": "haftung",
       "name": "Haftung",
-      "numberOfItems": 16,
+      "numberOfItems": 17,
       "textFile": "https://robert-haase.de/belege-haftung.md",
       "ids": [
         "air-canada",
@@ -269,7 +277,8 @@
         "eu-kennzeichnungskodex",
         "agent-vorgesetzter",
         "ross-kein-fair-use",
-        "gema-openai"
+        "gema-openai",
+        "kinderbuch-klagen-openai"
       ],
       "groups": {
         "strong": [
@@ -282,7 +291,8 @@
           "gema-openai"
         ],
         "weak": [
-          "ai-overview-muenchen"
+          "ai-overview-muenchen",
+          "kinderbuch-klagen-openai"
         ],
         "plain": [
           "cursor-bot",
@@ -357,7 +367,7 @@
     {
       "id": "urteil",
       "name": "Urteil",
-      "numberOfItems": 21,
+      "numberOfItems": 23,
       "textFile": "https://robert-haase.de/belege-urteil.md",
       "ids": [
         "metr-selbsteinschaetzung",
@@ -380,7 +390,9 @@
         "wahrgenommene-differenzierung",
         "de-skilling",
         "unverwechselbare-markenelemente",
-        "synthetische-befragte"
+        "synthetische-befragte",
+        "agent-lenkt-urteil",
+        "bildschleifen-motive"
       ],
       "groups": {
         "strong": [
@@ -394,7 +406,9 @@
           "unverwechselbare-markenelemente",
           "synthetische-befragte"
         ],
-        "weak": [],
+        "weak": [
+          "agent-lenkt-urteil"
+        ],
         "plain": [
           "strategie-trendslop",
           "markenspezifikation-wirkung",
@@ -407,7 +421,8 @@
           "aufwand-statt-koennen",
           "mintzberg-muster",
           "wahrgenommene-differenzierung",
-          "de-skilling"
+          "de-skilling",
+          "bildschleifen-motive"
         ]
       }
     }
@@ -1177,13 +1192,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#checkout-rueckbau",
-      "text": "Den Kauf direkt im Chat hat OpenAI gut fünf Monate nach dem Start für Shopify-Händler zurückgebaut, bezahlt wird dort seitdem im Shop des Händlers. Für einzelne berechtigte Händler bietet ChatGPT Instant Checkout weiter an, und Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im eigenen Kanal an.",
+      "text": "Den Kauf im Chat hat OpenAI gut fünf Monate nach dem Start zurückgebaut, weil die erste Fassung von Instant Checkout nicht flexibel genug gewesen sei; Händler nutzen seitdem ihren eigenen Checkout. Seit Ende Oktober 2026 erwähnt OpenAIs Hilfeseite Instant Checkout nicht mehr; Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im Kanal.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025) · OpenAI Help Center, „Shopping with ChatGPT Search“, zuletzt aktualisiert Anfang Oktober 2026 · Shopify Help Center, „Shopify agentic storefronts“ · beide abgerufen am 15. Oktober 2026",
-        "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
+        "name": "OpenAI, „Optimierte Produktsuche in ChatGPT“, 24. März 2026, Abschnitt „ChatGPT-Nutzer:innen und Händler:innen miteinander verbinden“ · Forrester, Analyse zum Rückbau von Instant Checkout, 7. März 2026, Start am 29. September 2025 · OpenAI Help Center, „Shopping with ChatGPT Search“, aktualisiert am 30. Oktober 2026, ohne Instant Checkout · beide OpenAI-Seiten abgerufen am 1. November 2026 · Shopify Help Center, „Shopify agentic storefronts“, abgerufen am 15. Oktober 2026",
+        "url": "https://openai.com/index/powering-product-discovery-in-chatgpt/"
       },
-      "disambiguatingDescription": "Was daraus folgt und was nicht: Zurückgebaut wurde ein Weg, nicht das Prinzip. Bei ChatGPT kaufen Shopify-Kunden seitdem im Shop des Händlers, geöffnet im Browser der App; bei Google, Microsoft und Meta bezahlen sie über Shopify im Kanal, wenn der Händler das einschaltet. Ob sich der Handel in den Chat verlagert, ist damit weder belegt noch widerlegt; sicher verschoben hat sich das Entdecken. Zur Zahl der Händler beim Rückbau: Die Quelle nennt zwei widersprüchliche Angaben, ein Dutzend nach einem Medienbericht und „nahe 30 und steigend“ nach Shopify selbst. Beide beziehen sich nur auf Shopify-Händler, nicht auf alle Partner.",
+      "disambiguatingDescription": "Was daraus folgt und was nicht: Zurückgebaut wurde ein Weg, nicht das Prinzip. Bei ChatGPT kaufen Kunden seitdem beim Händler, Shopify-Kunden in dessen Shop im Browser der App; wer tiefer einbinden will, baut eine eigene App in ChatGPT, wie Walmart mit eigener Zahlung. Bei Google, Microsoft und Meta bezahlen Shopify-Kunden über Shopify im Kanal, wenn der Händler das einschaltet. Ob sich der Handel in den Chat verlagert, ist damit weder belegt noch widerlegt; sicher verschoben hat sich das Entdecken. Zur Zahl der Händler beim Rückbau: Die Quelle nennt zwei widersprüchliche Angaben, ein Dutzend nach einem Medienbericht und „nahe 30 und steigend“ nach Shopify selbst. Beide beziehen sich nur auf Shopify-Händler, nicht auf alle Partner.",
       "position": 27,
       "id": "checkout-rueckbau",
       "url": "https://robert-haase.de/belege.html#checkout-rueckbau",
@@ -1192,8 +1207,12 @@
         "name": "Marktbeobachtung",
         "group": "plain"
       },
-      "sourceText": "Forrester, Analyse zum Rückbau von Instant Checkout · 7. März 2026 (Start: 29. September 2025) · OpenAI Help Center, „Shopping with ChatGPT Search“, zuletzt aktualisiert Anfang Oktober 2026 (OpenAI Help Center) · Shopify Help Center, „Shopify agentic storefronts“ (Shopify Help Center) · beide abgerufen am 15. Oktober 2026 · Zur Quelle",
+      "sourceText": "OpenAI, „Optimierte Produktsuche in ChatGPT“, 24. März 2026, Abschnitt „ChatGPT-Nutzer:innen und Händler:innen miteinander verbinden“ · Forrester, Analyse zum Rückbau von Instant Checkout, 7. März 2026, Start am 29. September 2025 (zu Forrester) · OpenAI Help Center, „Shopping with ChatGPT Search“, aktualisiert am 30. Oktober 2026, ohne Instant Checkout (OpenAI Help Center) · beide OpenAI-Seiten abgerufen am 1. November 2026 · Shopify Help Center, „Shopify agentic storefronts“ (Shopify Help Center), abgerufen am 15. Oktober 2026 · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zu Forrester",
+          "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
+        },
         {
           "name": "OpenAI Help Center",
           "url": "https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search"
@@ -1204,10 +1223,10 @@
         },
         {
           "name": "Zur Quelle",
-          "url": "https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/"
+          "url": "https://openai.com/index/powering-product-discovery-in-chatgpt/"
         }
       ],
-      "citationText": "Den Kauf direkt im Chat hat OpenAI gut fünf Monate nach dem Start für Shopify-Händler zurückgebaut, bezahlt wird dort seitdem im Shop des Händlers. Für einzelne berechtigte Händler bietet ChatGPT Instant Checkout weiter an, und Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im eigenen Kanal an. (Forrester, 7. März 2026; OpenAI und Shopify Help Center, abgerufen am 15. Oktober 2026). https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/ · via https://robert-haase.de/belege.html#checkout-rueckbau"
+      "citationText": "Den Kauf im Chat hat OpenAI gut fünf Monate nach dem Start zurückgebaut, weil die erste Fassung von Instant Checkout nicht flexibel genug gewesen sei; Händler nutzen seitdem ihren eigenen Checkout. Seit Ende Oktober 2026 erwähnt OpenAIs Hilfeseite Instant Checkout nicht mehr; Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im Kanal. (OpenAI, 24. März 2026; Forrester, 7. März 2026; OpenAI Help Center, 30. Oktober 2026). https://openai.com/index/powering-product-discovery-in-chatgpt/ · via https://robert-haase.de/belege.html#checkout-rueckbau"
     },
     {
       "@type": "Claim",
@@ -1397,10 +1416,10 @@
       "text": "Die Transparenzpflichten des EU AI Act für Chatbots und für KI-erzeugte Inhalte gelten seit dem 2. August 2026. Generative Systeme, die vorher in Verkehr gebracht wurden, müssen die maschinenlesbare Kennzeichnung bis zum 2. Dezember 2026 nachrüsten. Die Hochrisiko-Pflichten wurden auf den 2. Dezember 2027 und den 2. August 2028 verschoben.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Verordnung (EU) 2024/1689 (KI-Verordnung), Artikel 50 Absätze 1, 2 und 4 sowie Artikel 113 · geändert durch vom 8. Juli 2026 (Digital-Omnibus zur KI), Amtsblatt vom 24. Juli 2026, in Kraft seit 27. Juli 2026: neuer Artikel 111 Absatz 4 und neu gefasster Artikel 113 Absatz 3, dazu neu gefasster Artikel 4 und neue Buchstaben ba und bb in Artikel 5 Absatz 1, diese anwendbar ab 2. Dezember 2026 nach Artikel 113 Absatz 3 Buchstabe a neu · Verfahren: Trilog-Einigung 7. Mai 2026, AStV 13. Mai, Plenum 16. Juni, Rat 29. Juni, Unterzeichnung 8. Juli 2026, laut Legislative Train des Europäischen Parlaments",
+        "name": "Verordnung (EU) 2024/1689 (KI-Verordnung), Artikel 50 Absätze 1, 2 und 4 sowie Artikel 113 · geändert durch vom 8. Juli 2026 (Digital-Omnibus zur KI), Amtsblatt vom 24. Juli 2026, in Kraft seit 27. Juli 2026: neuer Artikel 111 Absatz 4 und neu gefasster Artikel 113 Absatz 3, dazu neu gefasster Artikel 4 und neue Buchstaben ba und bb in Artikel 5 Absatz 1, diese anwendbar ab 2. Dezember 2026 nach Artikel 113 Absatz 3 Buchstabe a neu · Verfahren: Trilog-Einigung 7. Mai 2026, AStV 13. Mai, Plenum 16. Juni, Rat 29. Juni, Unterzeichnung 8. Juli 2026, laut Legislative Train des Europäischen Parlaments · Leitlinien: Europäische Kommission, Leitlinien zu den Transparenzpflichten nach Artikel 50, C(2026) 5054 final vom 20. Juli 2026, Randnummern 5, 10, 91 bis 92 und 134 bis 136, abgerufen am 1. November 2026",
         "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/deu"
       },
-      "disambiguatingDescription": "Wen was trifft: Die Kennzeichnung nach Artikel 50 Absatz 2 bindet den Anbieter des erzeugenden Systems, nicht die Marke, die ein fremdes System nur nutzt. Anbieter ist aber auch, wer ein System unter eigenem Namen oder eigener Marke in Betrieb nimmt, selbst auf einem fremden Modell und nur für den eigenen Gebrauch (Artikel 3 Nummer 3 und 11); wer sich einen eigenen Generator bauen lässt, ist also selbst für die Kennzeichnung verantwortlich. Für die Marke gelten außerdem Absatz 1 beim eigenen Chatbot und Absatz 4 als Betreiberin bei Deepfakes. Die Ausnahme des Absatzes 4 gilt nur für geprüften und redaktionell verantworteten Text, der die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informiert, nicht für Werbung, Produkttexte und Support; Absatz 2 bleibt unberührt. Umfang der Verschiebung: bewegt wurden Kapitel III Abschnitte 1 bis 3, ausgenommen Artikel 6 Absatz 5. Die Verbote sind nicht verschoben, zwei neue gelten ab dem 2. Dezember 2026. Die Pflicht zur KI-Kompetenz gilt weiter, aber abgeschwächt: Anbieter und Betreiber müssen die Entwicklung der KI-Kompetenz ihres Personals unterstützen, ein ausreichendes Maß müssen sie nicht mehr sicherstellen. Was der Eintrag nicht belegt: Durchsetzung. Ob die Marktüberwachung Artikel 50 anwendet, ist nicht erhoben; was „wesentlich verändern“ oder „redaktionelle Kontrolle“ bedeuten, ist ungeklärt, Rechtsprechung fehlt. Die Verschiebung wurde am 7. Mai 2026 politisch vereinbart und trat erst am 27. Juli 2026 in Kraft, sechs Tage vor dem Geltungsbeginn, den sie verschob.",
+      "disambiguatingDescription": "Wen was trifft: Die Kennzeichnung nach Artikel 50 Absatz 2 bindet den Anbieter des erzeugenden Systems, nicht die Marke, die ein fremdes System nur nutzt. Anbieter ist aber auch, wer ein System unter eigenem Namen oder eigener Marke in Betrieb nimmt, selbst auf einem fremden Modell und nur für den eigenen Gebrauch (Artikel 3 Nummer 3 und 11); wer sich einen eigenen Generator bauen lässt, ist also selbst für die Kennzeichnung verantwortlich. Die Leitlinien der Kommission nennen den selbst entwickelten Chatbot unter eigenem Namen ausdrücklich als Beispiel. Für die Marke gelten außerdem Absatz 1 beim eigenen Chatbot und Absatz 4 als Betreiberin bei Deepfakes. Die Ausnahme des Absatzes 4 gilt nur für geprüften und redaktionell verantworteten Text, der die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informiert, nicht für Werbung, Produkttexte und Support; Absatz 2 bleibt unberührt. Umfang der Verschiebung: bewegt wurden Kapitel III Abschnitte 1 bis 3, ausgenommen Artikel 6 Absatz 5. Die Verbote sind nicht verschoben, zwei neue gelten ab dem 2. Dezember 2026. Die Pflicht zur KI-Kompetenz gilt weiter, aber abgeschwächt: Anbieter und Betreiber müssen die Entwicklung der KI-Kompetenz ihres Personals unterstützen, ein ausreichendes Maß müssen sie nicht mehr sicherstellen. Was der Eintrag nicht belegt: Durchsetzung. Ob die Marktüberwachung Artikel 50 anwendet, ist nicht erhoben; was „wesentlich verändern“ oder „redaktionelle Kontrolle“ bedeuten, hat die Kommission am 20. Juli 2026 in unverbindlichen Leitlinien konkretisiert: Rechtschreibprüfung, eine bloß bestehende Redaktionsrichtlinie oder eine flüchtige Freigabe sind keine redaktionelle Kontrolle, Korrekturen von Grammatik und Stil sowie KI-Übersetzungen gelten als geringfügige Veränderung. Verbindlich auslegen kann nur der Europäische Gerichtshof, Rechtsprechung fehlt. Die Verschiebung wurde am 7. Mai 2026 politisch vereinbart und trat erst am 27. Juli 2026 in Kraft, sechs Tage vor dem Geltungsbeginn, den sie verschob.",
       "position": 34,
       "id": "ai-act",
       "url": "https://robert-haase.de/belege.html#ai-act",
@@ -1409,7 +1428,7 @@
         "name": "Rechtslage",
         "group": "plain"
       },
-      "sourceText": "Verordnung (EU) 2024/1689 (KI-Verordnung), Artikel 50 Absätze 1, 2 und 4 sowie Artikel 113 · geändert durch Verordnung (EU) 2026/1744 vom 8. Juli 2026 (Digital-Omnibus zur KI), Amtsblatt vom 24. Juli 2026, in Kraft seit 27. Juli 2026: neuer Artikel 111 Absatz 4 und neu gefasster Artikel 113 Absatz 3, dazu neu gefasster Artikel 4 und neue Buchstaben ba und bb in Artikel 5 Absatz 1, diese anwendbar ab 2. Dezember 2026 nach Artikel 113 Absatz 3 Buchstabe a neu · Verfahren: Trilog-Einigung 7. Mai 2026, AStV 13. Mai, Plenum 16. Juni, Rat 29. Juni, Unterzeichnung 8. Juli 2026, laut Legislative Train des Europäischen Parlaments (Verfahrensseite) · KI-Verordnung im Volltext",
+      "sourceText": "Verordnung (EU) 2024/1689 (KI-Verordnung), Artikel 50 Absätze 1, 2 und 4 sowie Artikel 113 · geändert durch Verordnung (EU) 2026/1744 vom 8. Juli 2026 (Digital-Omnibus zur KI), Amtsblatt vom 24. Juli 2026, in Kraft seit 27. Juli 2026: neuer Artikel 111 Absatz 4 und neu gefasster Artikel 113 Absatz 3, dazu neu gefasster Artikel 4 und neue Buchstaben ba und bb in Artikel 5 Absatz 1, diese anwendbar ab 2. Dezember 2026 nach Artikel 113 Absatz 3 Buchstabe a neu · Verfahren: Trilog-Einigung 7. Mai 2026, AStV 13. Mai, Plenum 16. Juni, Rat 29. Juni, Unterzeichnung 8. Juli 2026, laut Legislative Train des Europäischen Parlaments (Verfahrensseite) · Leitlinien: Europäische Kommission, Leitlinien zu den Transparenzpflichten nach Artikel 50, C(2026) 5054 final vom 20. Juli 2026, Randnummern 5, 10, 91 bis 92 und 134 bis 136 (zu den Leitlinien), abgerufen am 1. November 2026 · KI-Verordnung im Volltext",
       "sourceLinks": [
         {
           "name": "Verordnung (EU) 2026/1744",
@@ -1418,6 +1437,10 @@
         {
           "name": "Verfahrensseite",
           "url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai"
+        },
+        {
+          "name": "zu den Leitlinien",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
         },
         {
           "name": "KI-Verordnung im Volltext",
@@ -1490,10 +1513,10 @@
       "text": "Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: OpenAI nennt 1,2 Milliarden wöchentliche Nutzer, zusammengezählt über alle eigenen Angebote, Google über eine Milliarde monatliche Nutzer für seinen AI Mode.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026",
+        "name": "OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · Google, „Google’s Gemini app hits 1 billion monthly active users“, 11. August 2026, abgerufen am 1. November 2026",
         "url": "https://openai.com/index/devday-2026-recap/"
       },
-      "disambiguatingDescription": "Warum der Vergleich hinkt: Die eine Zahl zählt wöchentlich und über alle Angebote eines Anbieters, die andere monatlich und für ein einzelnes Produkt. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. Wie schnell eine Zahl ihre Bezugsgröße verliert, zeigt OpenAI selbst: Die deutsche Fassung derselben Seite spricht von Anwendungen „für die insgesamt 1,2 Milliarden Menschen …, die unsere Angebote nutzen“, ohne Zeitraum. Die frühere Zahl, rund 900 Millionen wöchentliche Nutzer von ChatGPT im Februar 2026, kursierte nur in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht.",
+      "disambiguatingDescription": "Warum der Vergleich hinkt: Die eine Zahl zählt wöchentlich und über alle Angebote eines Anbieters, die andere monatlich und für ein einzelnes Produkt. Nebeneinandergestellt liest man sie trotzdem als gleichartig, und genau so wandern sie durch Präsentationen. Unabhängig geprüft ist keine von beiden. Eine dritte, wieder anders gezählte Zahl: Seit dem 11. August 2026 nennt Google für die Gemini-App über eine Milliarde Menschen im Monat, nur für die App und ohne Zählweise. Wie schnell eine Zahl ihre Bezugsgröße verliert, zeigt OpenAI selbst: Die deutsche Fassung derselben Seite spricht von Anwendungen „für die insgesamt 1,2 Milliarden Menschen …, die unsere Angebote nutzen“, ohne Zeitraum. Die frühere Zahl, rund 900 Millionen wöchentliche Nutzer von ChatGPT im Februar 2026, kursierte nur in Berichten über das Unternehmen. Als Größenordnung brauchbar, als Beleg nicht.",
       "position": 37,
       "id": "marktgroesse",
       "url": "https://robert-haase.de/belege.html#marktgroesse",
@@ -1502,8 +1525,12 @@
         "name": "Anbieterangaben",
         "group": "weak"
       },
-      "sourceText": "OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · Rückblick auf den DevDay 2026 · Google-Blogbeitrag · Zur Quelle",
+      "sourceText": "OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · Google, „Google’s Gemini app hits 1 billion monthly active users“, 11. August 2026 (zur Gemini-App), abgerufen am 1. November 2026 · Rückblick auf den DevDay 2026 · Google-Blogbeitrag · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zur Gemini-App",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/"
+        },
         {
           "name": "Rückblick auf den DevDay 2026",
           "url": "https://openai.com/de-DE/index/devday-2026-recap/"
@@ -1733,10 +1760,10 @@
       "text": "Cloudflare meldet für 2026 erstmals, dass mehr als die Hälfte des Verkehrs im Internet nicht von Menschen stammt. Belastbarer beziffert im selben Bericht: 52 Prozent der Crawler-Anfragen dienten im Juni 2026 dem Training von KI-Modellen, gegenüber 22 Prozent im Frühjahr 2025.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · Cloudflare, „The Internet has a second audience“, 30. September 2026 · Cloudflare Radar, AI Insights, Reihen „HTML page requests by client type“ und „Crawl purpose“, Monatswerte Juni bis September und 1. bis 14. Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 16. Oktober 2026",
+        "name": "Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · Cloudflare, „The Internet has a second audience“, 30. September 2026 · Cloudflare Radar, AI Insights, Reihen „HTML page requests by client type“ und „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 · Prognose: Cloudflare, Telefonkonferenz zum zweiten Quartal 2026, 6. August 2026, Antwort von Matthew Prince in der Fragerunde, nach dem Transkript eines Drittanbieters, abgerufen am 1. November 2026",
         "url": "https://blog.cloudflare.com/agentic-internet-bot-report/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Cloudflare nennt für die Hälfte-Aussage weder die Art des gemessenen Verkehrs noch den Zeitraum. Ob Seitenabrufe gemeint sind oder alle Anfragen, bleibt offen; auch der Beitrag vom 30. September 2026 wiederholt die Aussage ohne Messgröße. Sie beruht auf dem eigenen Netz, das groß, aber nicht das Internet ist. Die Crawler-Zahl ist dagegen datiert und mit Vorjahreswert versehen und deshalb die brauchbarere von beiden. Eine definierte Reihe führt Cloudflare Radar: Bei HTML-Seitenabrufen lag der Anteil von Menschen im Juni 2026 bei 42,7 Prozent, im September bei 39,1 und vom 1. bis 14. Oktober bei 35,3 Prozent; ob die Hälfte-Aussage auf dieser Reihe beruht, sagt Cloudflare nicht. Der Trainingsanteil am Verkehr der KI-Crawler sank von 52,7 Prozent im Juni auf 44,0 im September und lag vom 1. bis 14. Oktober bei 45,9 Prozent, der Anteil für die Suche stieg von 5,0 auf 11,0 Prozent. Achtung bei der Weiterverwendung: In Sekundärquellen kursiert die Angabe als „57,5 Prozent“. Diese Zahl steht bei Cloudflare nirgends.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Cloudflare nennt für die Hälfte-Aussage weder die Art des gemessenen Verkehrs noch den Zeitraum. Ob Seitenabrufe gemeint sind oder alle Anfragen, bleibt offen; auch der Beitrag vom 30. September 2026 wiederholt die Aussage ohne Messgröße. Sie beruht auf dem eigenen Netz, das groß, aber nicht das Internet ist. Die Crawler-Zahl ist dagegen datiert und mit Vorjahreswert versehen und deshalb die brauchbarere von beiden. Eine definierte Reihe führt Cloudflare Radar: Bei HTML-Seitenabrufen lag der Anteil von Menschen im Juni 2026 bei 42,7 Prozent, im September bei 39,1 und im Oktober bei 35,1 Prozent; ob die Hälfte-Aussage auf dieser Reihe beruht, sagt Cloudflare nicht. Der Trainingsanteil am Verkehr der KI-Crawler sank von 52,7 Prozent im Juni auf 44,0 im September und lag im Oktober bei 43,8 Prozent, der Anteil für die Suche stieg von 5,0 auf 11,6 Prozent. Eine Prognose dazu: Cloudflare-Chef Matthew Prince sagte in der Telefonkonferenz zum zweiten Quartal am 6. August 2026, nicht-menschlicher Verkehr könne in fünf Jahren bis zu 1.000-mal so groß sein wie menschlicher, „humans will be a rounding error on the internet“; er setzte hinzu, er habe es bisher jedes Mal falsch eingeschätzt, und nannte keine Messgröße. Mehrere Medien schreiben den Satz dem Finanzchef zu. Achtung bei der Weiterverwendung: In Sekundärquellen kursiert die Angabe als „57,5 Prozent“. Diese Zahl steht bei Cloudflare nirgends.",
       "position": 46,
       "id": "nicht-menschlicher-verkehr",
       "url": "https://robert-haase.de/belege.html#nicht-menschlicher-verkehr",
@@ -1745,7 +1772,7 @@
         "name": "Marktbeobachtung",
         "group": "plain"
       },
-      "sourceText": "Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · Cloudflare, „The Internet has a second audience“, 30. September 2026 (zum Beitrag) · Cloudflare Radar, AI Insights, Reihen „HTML page requests by client type“ und „Crawl purpose“, Monatswerte Juni bis September und 1. bis 14. Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 16. Oktober 2026 (zu Cloudflare Radar) · Zur Quelle",
+      "sourceText": "Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · Cloudflare, „The Internet has a second audience“, 30. September 2026 (zum Beitrag) · Cloudflare Radar, AI Insights, Reihen „HTML page requests by client type“ und „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 (zu Cloudflare Radar) · Prognose: Cloudflare, Telefonkonferenz zum zweiten Quartal 2026, 6. August 2026, Antwort von Matthew Prince in der Fragerunde, nach dem Transkript eines Drittanbieters (zum Transkript), abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zum Beitrag",
@@ -1754,6 +1781,10 @@
         {
           "name": "zu Cloudflare Radar",
           "url": "https://radar.cloudflare.com/ai-insights"
+        },
+        {
+          "name": "zum Transkript",
+          "url": "https://allmind.ai/earnings/event/2942445"
         },
         {
           "name": "Zur Quelle",
@@ -1765,13 +1796,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
-      "text": "Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen; Google führt Beispielhändler an, verbunden mit dem Wort „bald“.",
+      "text": "Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort auch Amazon, Meta, Microsoft, Stripe und Salesforce. Eine nachprüfbare Verbreitungszahl nennt keine der beteiligten Firmen: Google spricht seit September pauschal von „hundreds of thousands of brands and retailers“, ohne Zählweise.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026, abgerufen am 16. Oktober 2026",
+        "name": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Google, „Retailers: Get ready for AI-driven holiday shopping“, 16. September 2026, „Google’s new Universal Cart launches today in the U.S.“, 15. Oktober 2026 und Merchant Center, „UCP integration hub“, zuletzt aktualisiert am 19. Oktober 2026, abgerufen am 1. November 2026 · Drittzählung: UCP Checker, „State of Agentic Commerce, October 2026“, Stand 30. Oktober 2026 · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026, abgerufen am 16. Oktober 2026",
         "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. Die fehlende Verbreitungszahl ist ein Negativbefund: Sie fehlt in den geprüften Primärquellen, also den UCP-Ankündigungen im Projekt-Repository und zwei Google-Beiträgen vom 19. März und 19. Mai 2026. Anderswo kann es sie geben. Eine Drittzählung gibt es: Der Prüfdienst UCP Checker meldet am 26. August 2026 15.735 geprüfte Storefronts unter 19.336 beobachteten Domains; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). TikTok als weiterer Kanal: Für den Kauf in der App, Buy Direct, setzt TikTok eine Anbindung über UCP voraus; der Händler bleibt Verkäufer im rechtlichen Sinn (Merchant of Record), und der Einkaufsassistent antwortet auf Grundlage der Angaben des Händlers. Angeboten wird beides nur in Tests nach Eignung, Zahlen und Länder nennt TikTok nicht (5. Oktober 2026). Vorsicht bei Sekundärquellen: Sie geben Googles Satz verbreitet ohne das „bald“ wieder und machen aus einer Ankündigung einen Vollzug. Im Einzelnen: Im Shopping Tech Council sitzen außerdem Google, Shopify, Etsy, Target und Wayfair. Googles Beispielhändler sind Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair sowie Shopify-Händler wie Fenty und Steve Madden.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Ein Sitz in einem Gremium ist keine Einführung. Dass Amazon, Meta und Microsoft am Protokoll mitarbeiten, sagt nichts darüber, ob sie es in ihren eigenen Läden verwenden. Googles Zahl ist eine Pauschalangabe: Sie steht in einem Beitrag vom 16. September 2026 ohne Zählweise, und Googles eigene Händlerdokumentation führt die Anbindung zugleich als Programm mit frühem Zugang für ausgewählte Händler in den USA; Australien und Kanada sollen Anfang nächsten Jahres folgen (Stand 19. Oktober 2026). Universal Cart, im Mai mit „bald“ angekündigt, läuft seit dem 15. Oktober 2026 in den USA, die Händler bleiben Verkäufer im rechtlichen Sinn; eine Händlerzahl nennt Google auch dort nicht. Eine Drittzählung gibt es: Der Prüfdienst UCP Checker zählt am 30. Oktober 2026 mehr als 19.000 Shops mit gültigem UCP-Profil unter rund 25.000 erfassten Domains, im August waren es 15.735 unter 19.336; gezählt wird, was Shops technisch ausweisen und was antwortet, keine Bestellungen. Neben dem Shopping Tech Council gibt es inzwischen eigene Councils für Essensbestellung, Unterkünfte und Zahlungen (Stand 21. September 2026). TikTok als weiterer Kanal: Für den Kauf in der App, Buy Direct, setzt TikTok eine Anbindung über UCP voraus; der Händler bleibt Verkäufer im rechtlichen Sinn (Merchant of Record), und der Einkaufsassistent antwortet auf Grundlage der Angaben des Händlers. Angeboten wird beides nur in Tests nach Eignung, Zahlen und Länder nennt TikTok nicht (5. Oktober 2026). Vorsicht bei Sekundärquellen: Vor dem Start gaben sie Googles Satz verbreitet ohne das „bald“ wieder und machten aus einer Ankündigung einen Vollzug. Im Einzelnen: Im Shopping Tech Council sitzen außerdem Google, Shopify, Etsy, Target und Wayfair. Zum Start von Universal Cart nennt Google Nike, Sephora, Target, Ulta Beauty, Walmart, Wayfair und „many Shopify merchants“.",
       "position": 47,
       "id": "ucp-gremium-ohne-zahlen",
       "url": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
@@ -1780,11 +1811,23 @@
         "name": "Stand der Normung",
         "group": "plain"
       },
-      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Drittzählung: UCP Checker, „The State of Agentic Commerce, August 2026“, 26. August 2026 (zur Zählung) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026 (zu TikTok), abgerufen am 16. Oktober 2026 · zu Googles Ankündigung · Zur Quelle",
+      "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Google, „Retailers: Get ready for AI-driven holiday shopping“, 16. September 2026 (zum Beitrag), „Google’s new Universal Cart launches today in the U.S.“, 15. Oktober 2026 (zum Start) und Merchant Center, „UCP integration hub“, zuletzt aktualisiert am 19. Oktober 2026 (zur Dokumentation), abgerufen am 1. November 2026 · Drittzählung: UCP Checker, „State of Agentic Commerce, October 2026“, Stand 30. Oktober 2026 (zur Zählung) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026 (zu TikTok), abgerufen am 16. Oktober 2026 · zu Googles Ankündigung · Zur Quelle",
       "sourceLinks": [
         {
+          "name": "zum Beitrag",
+          "url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/"
+        },
+        {
+          "name": "zum Start",
+          "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/"
+        },
+        {
+          "name": "zur Dokumentation",
+          "url": "https://developers.google.com/merchant/ucp/guides/tools/merchant-center/overview"
+        },
+        {
           "name": "zur Zählung",
-          "url": "https://ucpchecker.com/blog/state-of-agentic-commerce-august-2026"
+          "url": "https://ucpchecker.com/blog/state-of-agentic-commerce-october-2026"
         },
         {
           "name": "zu TikTok",
@@ -1799,7 +1842,7 @@
           "url": "https://github.com/Universal-Commerce-Protocol/ucp/discussions/379"
         }
       ],
-      "citationText": "Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort auch Amazon, Meta, Microsoft, Stripe und Salesforce. Wie viele Händler das Protokoll tatsächlich einsetzen, nennt keine der beteiligten Firmen; Google führt Beispielhändler an, verbunden mit dem Wort „bald“. (Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung). https://github.com/Universal-Commerce-Protocol/ucp/discussions/379 · via https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen"
+      "citationText": "Der Shopping Tech Council des Handelsprotokolls UCP hat 16 Sitze; seit dem 24. April 2026 sitzen dort auch Amazon, Meta, Microsoft, Stripe und Salesforce. Eine nachprüfbare Verbreitungszahl nennt keine der beteiligten Firmen: Google spricht seit September pauschal von „hundreds of thousands of brands and retailers“, ohne Zählweise. (UCP-Repository, 24. April 2026; Google, 16. September 2026). https://github.com/Universal-Commerce-Protocol/ucp/discussions/379 · via https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen"
     },
     {
       "@type": "Claim",
@@ -1807,10 +1850,10 @@
       "text": "Nach Artikel 10 der neuen EU-Produkthaftungsrichtlinie geht ein Gericht von der Fehlerhaftigkeit aus, wenn deren Beweis dem Kläger „insbesondere aufgrund der technischen oder wissenschaftlichen Komplexität übermäßig schwierig“ ist und er nur noch ihre Wahrscheinlichkeit nachweist. Umzusetzen ist sie bis zum 9. Dezember 2026.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 15. und 16. Oktober 2026: Bundestag, Textarchiv zur Abstimmung am 8. Oktober 2026, Beschlussempfehlung Drucksache 21/8429 mit dem Inkrafttreten in Artikel 17, Regierungsentwurf Drucksache 21/4297 vom 25. Februar 2026, Beratungsvorgang des Bundesrates zu Drucksache 584/26 mit dem Beschluss vom 16. Oktober 2026, TOP 46",
+        "name": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 15. und 16. Oktober 2026: Bundestag, Textarchiv zur Abstimmung am 8. Oktober 2026, Beschlussempfehlung Drucksache 21/8429 mit dem Inkrafttreten in Artikel 17, Regierungsentwurf Drucksache 21/4297 vom 25. Februar 2026, Beratungsvorgang des Bundesrates zu Drucksache 584/26 mit dem Beschluss vom 16. Oktober 2026, TOP 46 · Verkündung: Bundesgesetzblatt, BGBl. 2026 I Nr. 321 vom 27. Oktober 2026, ausgefertigt am 22. Oktober 2026, abgerufen am 1. November 2026",
         "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu"
       },
-      "disambiguatingDescription": "Sie gilt noch nicht: Die Richtlinie wirkt nicht unmittelbar und erfasst nur Produkte, die nach dem 9. Dezember 2026 in Verkehr kommen. Artikel 21 hebt die alte Richtlinie 85/374/EWG zum selben Datum auf; für früher in Verkehr gebrachte Produkte gilt sie weiter. Und sie kehrt die Beweislast nicht um: Artikel 10 Absatz 4 greift erst „trotz der Offenlegung von Beweismitteln gemäß Artikel 9“, und nach Absatz 5 darf der Beklagte jede Vermutung widerlegen. Das ist ein Beweisnachteil, keine Gefährdungshaftung. Rechtsprechung zu „übermäßig schwierig“ kann es noch nicht geben, weil die Regel auf kein Produkt anwendbar ist. Zum Kalender, Stand 16. Oktober 2026: Der Bundestag hat das Gesetz zur Modernisierung des Produkthaftungsrechts am 8. Oktober 2026 angenommen, auf Grundlage der Beschlussempfehlung des Rechtsausschusses (Drucksache 21/8429); dafür stimmten CDU/CSU, SPD und Grüne, AfD und Linke enthielten sich. Es ist ein Einspruchsgesetz; der Bundesrat hat in seiner Sitzung vom 16. Oktober 2026 (Drucksache 584/26) keinen Antrag auf Einberufung des Vermittlungsausschusses gestellt, damit ist es zustande gekommen. Es folgen Ausfertigung und Verkündung. Inkrafttreten laut Gesetz: 9. Dezember 2026, wie von der Richtlinie verlangt. Im Einzelnen: Die Richtlinie zählt Software in Artikel 4 ausdrücklich zu den Produkten. Dieselbe Vermutung greift, wenn der Beklagte angeordnete Beweismittel nicht offenlegt.",
+      "disambiguatingDescription": "Sie gilt noch nicht: Die Richtlinie wirkt nicht unmittelbar und erfasst nur Produkte, die nach dem 9. Dezember 2026 in Verkehr kommen. Artikel 21 hebt die alte Richtlinie 85/374/EWG zum selben Datum auf; für früher in Verkehr gebrachte Produkte gilt sie weiter. Und sie kehrt die Beweislast nicht um: Artikel 10 Absatz 4 greift erst „trotz der Offenlegung von Beweismitteln gemäß Artikel 9“, und nach Absatz 5 darf der Beklagte jede Vermutung widerlegen. Das ist ein Beweisnachteil, keine Gefährdungshaftung. Rechtsprechung zu „übermäßig schwierig“ kann es noch nicht geben, weil die Regel auf kein Produkt anwendbar ist. Zum Kalender, Stand 1. November 2026: Das Gesetz zur Modernisierung des Produkthaftungsrechts ist am 22. Oktober 2026 ausgefertigt und am 27. Oktober verkündet (BGBl. 2026 I Nr. 321). Die Komplexitätsvermutung steht dort in § 20 Absatz 3 des neuen Produkthaftungsgesetzes und gilt ab 9. Dezember 2026; für Produkte, die bis einschließlich 8. Dezember 2026 in Verkehr gebracht oder in Betrieb genommen wurden, bleibt es beim alten Recht (§ 23). Der Bundestag hatte am 8. Oktober zugestimmt, mit den Stimmen von CDU/CSU, SPD und Grünen bei Enthaltung von AfD und Linken; der Bundesrat ließ das Einspruchsgesetz am 16. Oktober passieren. Im Einzelnen: Die Richtlinie zählt Software in Artikel 4 ausdrücklich zu den Produkten. Dieselbe Vermutung greift, wenn der Beklagte angeordnete Beweismittel nicht offenlegt.",
       "position": 48,
       "id": "produkthaftung-komplexitaet",
       "url": "https://robert-haase.de/belege.html#produkthaftung-komplexitaet",
@@ -1819,7 +1862,7 @@
         "name": "Rechtslage",
         "group": "plain"
       },
-      "sourceText": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 15. und 16. Oktober 2026: Bundestag, Textarchiv zur Abstimmung am 8. Oktober 2026 (zum Bundestag), Beschlussempfehlung Drucksache 21/8429 mit dem Inkrafttreten in Artikel 17 (zur Beschlussempfehlung), Regierungsentwurf Drucksache 21/4297 vom 25. Februar 2026 (zum Entwurf), Beratungsvorgang des Bundesrates zu Drucksache 584/26 mit dem Beschluss vom 16. Oktober 2026, TOP 46 (zum Beratungsvorgang) · Zum Richtlinientext",
+      "sourceText": "Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 15. und 16. Oktober 2026: Bundestag, Textarchiv zur Abstimmung am 8. Oktober 2026 (zum Bundestag), Beschlussempfehlung Drucksache 21/8429 mit dem Inkrafttreten in Artikel 17 (zur Beschlussempfehlung), Regierungsentwurf Drucksache 21/4297 vom 25. Februar 2026 (zum Entwurf), Beratungsvorgang des Bundesrates zu Drucksache 584/26 mit dem Beschluss vom 16. Oktober 2026, TOP 46 (zum Beratungsvorgang) · Verkündung: Bundesgesetzblatt, BGBl. 2026 I Nr. 321 vom 27. Oktober 2026, ausgefertigt am 22. Oktober 2026 (zum Bundesgesetzblatt), abgerufen am 1. November 2026 · Zum Richtlinientext",
       "sourceLinks": [
         {
           "name": "zum Bundestag",
@@ -1836,6 +1879,10 @@
         {
           "name": "zum Beratungsvorgang",
           "url": "https://www.bundesrat.de/bv.html?id=0584-26"
+        },
+        {
+          "name": "zum Bundesgesetzblatt",
+          "url": "https://www.recht.bund.de/bgbl/1/2026/321/VO.html"
         },
         {
           "name": "Zum Richtlinientext",
@@ -2048,13 +2095,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#frontify-mcp",
-      "text": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 15. Oktober 2026 führt er, einzeln aufgeführt, 47 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff; im September waren es 54 und 53.",
+      "text": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 1. November 2026 führt er, einzeln aufgeführt, 48 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff; im September waren es 54 und 53, Mitte Oktober 47.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 15. Oktober 2026 47 beziehungsweise 24 Einträge mit eindeutigen Namen (am 10. September 54 und 24, am 17. September 53 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52",
+        "name": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 1. November 2026 48 beziehungsweise 26 Einträge mit eindeutigen Namen (am 10. September 54 und 24, am 17. September 53 und 24, am 15. Oktober 47 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, am 1. November 2026 unverändert, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52",
         "url": "https://mcp.frontify-integrations.com/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: 47 ist ein Stichtagswert und bewegt sich: Am 10. September 2026 waren es 54, eine Woche später 53, am 15. Oktober 47. Den Zusatz Beta führt das Help Center seit September 2026 nicht mehr im Titel. Die Herstellerdokumentation nennt an zwei Stellen 52 und für das lesende Paket 25 statt 24: Wer 52 zitiert, zitiert die Dokumentation, nicht das ausgezählte System. Einen Grund dafür nennt keine der vier Frontify-Quellen. Die Paketzahlen sind überlappende Teilmengen der 47 und dürfen nicht addiert werden. Die Guide-Überschrift kündigt den Server mit zehn Werkzeugen an, gemeint sind zehn Pakete, mehr als das Fünffache daneben. Was der Eintrag nicht belegt: Belegt ist, was ein Anbieter über sein eigenes Produkt sagt, nirgends unabhängig geprüft: der Umfang einer Schnittstelle, nicht Verbreitung, Nutzung, Wirkung oder die Qualität der ausgelieferten Markenregeln. Kein Werkzeug entscheidet über eine Aussage, die Pakete lesen, schreiben und verwalten. Ein Zugriffsprotokoll ist nicht belegt: „Audit trail of AI interactions“ ist bei Frontify ein Auswahlkriterium für Käufer, in Repository, Server-Seiten und Help Center kommt das Wort audit nicht vor. Der Server ist nicht standardmäßig aktiv. Seit Mitte September 2026 schalten Account-Admins ihn selbst frei, laut Help Center ohne Aufpreis und ohne die Kundenbetreuung; am 10. September lief der Zugang noch über die Kundenbetreuung, kostenfrei mit Preisvorbehalt. Dazu kommt ein offizieller Connector im Verzeichnis von Claude. Wie der angeschlossene KI-Anbieter die Daten verarbeitet, kontrolliert Frontify nach eigener Angabe nicht. Im Einzelnen: Das lesende Discovery-Paket enthält 24 Werkzeuge, darunter Farbpaletten und Schriftfamilien der Marke, das Admin-Paket alle 47, sieben davon sind als destruktiv gekennzeichnet, etwa Assets verschieben oder ändern und Kommentare löschen.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: 48 ist ein Stichtagswert und bewegt sich: Am 10. September 2026 waren es 54, eine Woche später 53, am 15. Oktober 47, am 1. November 48. Den Zusatz Beta führt das Help Center seit September 2026 nicht mehr im Titel. Die Herstellerdokumentation nennt an zwei Stellen 52 und für das lesende Paket 25 statt 26: Wer 52 zitiert, zitiert die Dokumentation, nicht das ausgezählte System. Einen Grund dafür nennt keine der vier Frontify-Quellen. Die Paketzahlen sind überlappende Teilmengen der 48 und dürfen nicht addiert werden. Die Guide-Überschrift kündigt den Server mit zehn Werkzeugen an, gemeint sind zehn Pakete, mehr als das Fünffache daneben. Was der Eintrag nicht belegt: Belegt ist, was ein Anbieter über sein eigenes Produkt sagt, nirgends unabhängig geprüft: der Umfang einer Schnittstelle, nicht Verbreitung, Nutzung, Wirkung oder die Qualität der ausgelieferten Markenregeln. Kein Werkzeug entscheidet über eine Aussage, die Pakete lesen, schreiben und verwalten. Ein Zugriffsprotokoll ist nicht belegt: „Audit trail of AI interactions“ ist bei Frontify ein Auswahlkriterium für Käufer, in Repository, Server-Seiten und Help Center kommt das Wort audit nicht vor. Der Server ist nicht standardmäßig aktiv. Seit Mitte September 2026 schalten Account-Admins ihn selbst frei, laut Help Center ohne Aufpreis und ohne die Kundenbetreuung; am 10. September lief der Zugang noch über die Kundenbetreuung, kostenfrei mit Preisvorbehalt. Dazu kommt ein offizieller Connector im Verzeichnis von Claude. Wie der angeschlossene KI-Anbieter die Daten verarbeitet, kontrolliert Frontify nach eigener Angabe nicht. Im Einzelnen: Das lesende Discovery-Paket enthält 26 Werkzeuge, darunter Farbpaletten und Schriftfamilien der Marke, das Admin-Paket alle 48, sieben davon sind als destruktiv gekennzeichnet, etwa Assets verschieben oder ändern und Kommentare löschen.",
       "position": 56,
       "id": "frontify-mcp",
       "url": "https://robert-haase.de/belege.html#frontify-mcp",
@@ -2063,7 +2110,7 @@
         "name": "Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 15. Oktober 2026 47 beziehungsweise 24 Einträge mit eindeutigen Namen (am 10. September 54 und 24, am 17. September 53 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz (Repository) · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis (Help Center) · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52 (Guide) · Zum Server",
+      "sourceText": "Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und ausgezählt, am 1. November 2026 48 beziehungsweise 26 Einträge mit eindeutigen Namen (am 10. September 54 und 24, am 17. September 53 und 24, am 15. Oktober 47 und 24) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz (Repository) · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, am 1. November 2026 unverändert, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis (Help Center) · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52 (Guide) · Zum Server",
       "sourceLinks": [
         {
           "name": "Repository",
@@ -2071,7 +2118,7 @@
         },
         {
           "name": "Help Center",
-          "url": "https://help.frontify.com/en/articles/14787214-frontify-mcp-beta"
+          "url": "https://help.frontify.com/en/articles/14787214-frontify-mcp"
         },
         {
           "name": "Guide",
@@ -2082,7 +2129,7 @@
           "url": "https://mcp.frontify-integrations.com/"
         }
       ],
-      "citationText": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 15. Oktober 2026 führt er, einzeln aufgeführt, 47 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff; im September waren es 54 und 53. (Frontify, MCP-Server-Übersicht und Paketseiten, Werkzeuge einzeln ausgezählt, abgerufen am 15. Oktober 2026; die Herstellerdokumentation nennt 52). https://mcp.frontify-integrations.com/ · via https://robert-haase.de/belege.html#frontify-mcp"
+      "citationText": "Frontify öffnet sein Markenportal über einen selbst betriebenen MCP-Server. Am 1. November 2026 führt er, einzeln aufgeführt, 48 Werkzeuge in zehn Paketen, gestuft vom rein lesenden bis zum vollen Verwaltungszugriff; im September waren es 54 und 53, Mitte Oktober 47. (Frontify, MCP-Server-Übersicht und Paketseiten, ausgezählt am 1. November 2026). https://mcp.frontify-integrations.com/ · via https://robert-haase.de/belege.html#frontify-mcp"
     },
     {
       "@type": "Claim",
@@ -2322,10 +2369,10 @@
       "text": "Anthropic nennt zur Übergabe des Model Context Protocol an die Linux Foundation am 9. Dezember 2025 mehr als 10.000 aktive öffentliche MCP-Server und über 97 Millionen monatliche SDK-Downloads für Python und TypeScript.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025, erhebende Stelle für beide Zahlen · Linux Foundation, Pressemitteilung zur Gründung der Agentic AI Foundation, 9. Dezember 2025, für die Mitgliederliste · eigene Gegenprobe am offiziellen Verzeichnis registry.modelcontextprotocol.io am 10. September 2026",
+        "name": "Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025, erhebende Stelle für beide Zahlen · Linux Foundation, Pressemitteilung zur Gründung der Agentic AI Foundation, 9. Dezember 2025, für die Mitgliederliste · eigene Gegenprobe am offiziellen Verzeichnis registry.modelcontextprotocol.io am 10. September 2026 · MCP-Blog, Beitrag zur Spezifikation vom 28. Juli 2026, David Soria Parra und Den Delimarsky, abgerufen am 1. November 2026",
         "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Sie steht im Beitrag des MCP-Entwicklers über die eigene Spende, in einer Aufzählung unter der Überschrift „incredible adoption“, ohne jede Erhebungsvorschrift: kein Verzeichnis, kein Stichtag, keine Definition von „aktiv“. Gegenprüfen hilft nur begrenzt, ein maßgebliches Verzeichnis gibt es nicht: Ein vollständiger Abzug des offiziellen Verzeichnisses am 10. September 2026 ergibt 30.363 eingetragene Server, davon 30.031 im Status „aktiv“. Gegen die Herstellerzahl rechnen lässt sich das nicht: Anthropic nennt keine Zählweise und meint einen anderen Gegenstand, ein Wachstumswert ergibt sich daraus nicht. Und das Verzeichnis zählt Einträge, die jemand angelegt hat, nicht benutzte Server; es ist als Vorschau gekennzeichnet und geht selbst von „minimal-to-no moderation“ aus. Ein Server ist kein Nutzer. Vorsicht beim Weiterreichen: Die Linux Foundation nennt dieselbe Zahl „published“, aus aktiven werden veröffentlichte Server. Zur Mitgliederliste: Platin-Mitgliedschaft ist bezahlt: Dass AWS, Google, Microsoft und OpenAI die Governance mittragen, belegt keinen Einsatz in ihren Produkten. Die Stiftung schreibt „include“, die Liste ist nicht abschließend. Stand Dezember 2025. Im Einzelnen: Zu den Platin-Mitgliedern der neuen Agentic AI Foundation zählt die Stiftung AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft und OpenAI.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Sie steht im Beitrag des MCP-Entwicklers über die eigene Spende, in einer Aufzählung unter der Überschrift „incredible adoption“, ohne jede Erhebungsvorschrift: kein Verzeichnis, kein Stichtag, keine Definition von „aktiv“. Gegenprüfen hilft nur begrenzt, ein maßgebliches Verzeichnis gibt es nicht: Ein vollständiger Abzug des offiziellen Verzeichnisses am 10. September 2026 ergibt 30.363 eingetragene Server, davon 30.031 im Status „aktiv“. Gegen die Herstellerzahl rechnen lässt sich das nicht: Anthropic nennt keine Zählweise und meint einen anderen Gegenstand, ein Wachstumswert ergibt sich daraus nicht. Und das Verzeichnis zählt Einträge, die jemand angelegt hat, nicht benutzte Server; es ist als Vorschau gekennzeichnet und geht selbst von „minimal-to-no moderation“ aus. Ein Server ist kein Nutzer. Eine spätere Zahl, ebenfalls ohne Zählvorschrift: Im Juli 2026 nennt das MCP-Projekt knapp eine halbe Milliarde Downloads im Monat über seine Tier-1-SDKs, für TypeScript und Python je über eine Milliarde insgesamt. Vorsicht beim Weiterreichen: Die Linux Foundation nennt dieselbe Zahl „published“, aus aktiven werden veröffentlichte Server. Zur Mitgliederliste: Platin-Mitgliedschaft ist bezahlt: Dass AWS, Google, Microsoft und OpenAI die Governance mittragen, belegt keinen Einsatz in ihren Produkten. Die Stiftung schreibt „include“, die Liste ist nicht abschließend. Stand Dezember 2025. Im Einzelnen: Zu den Platin-Mitgliedern der neuen Agentic AI Foundation zählt die Stiftung AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft und OpenAI.",
       "position": 65,
       "id": "mcp-verbreitung",
       "url": "https://robert-haase.de/belege.html#mcp-verbreitung",
@@ -2334,11 +2381,15 @@
         "name": "Anbieterangaben",
         "group": "weak"
       },
-      "sourceText": "Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025, erhebende Stelle für beide Zahlen · Linux Foundation, Pressemitteilung zur Gründung der Agentic AI Foundation, 9. Dezember 2025, für die Mitgliederliste (Pressemitteilung) · eigene Gegenprobe am offiziellen Verzeichnis registry.modelcontextprotocol.io am 10. September 2026 · Zur Quelle",
+      "sourceText": "Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025, erhebende Stelle für beide Zahlen · Linux Foundation, Pressemitteilung zur Gründung der Agentic AI Foundation, 9. Dezember 2025, für die Mitgliederliste (Pressemitteilung) · eigene Gegenprobe am offiziellen Verzeichnis registry.modelcontextprotocol.io am 10. September 2026 · MCP-Blog, Beitrag zur Spezifikation vom 28. Juli 2026, David Soria Parra und Den Delimarsky (zum MCP-Blog), abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "Pressemitteilung",
           "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation"
+        },
+        {
+          "name": "zum MCP-Blog",
+          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/"
         },
         {
           "name": "Zur Quelle",
@@ -2531,10 +2582,10 @@
       "text": "Drei Anbieter von Analysewerkzeugen beziffern, welcher Anteil der Website-Besuche aus einem KI-Assistenten kommt: Contentsquare 0,2 Prozent im vierten Quartal 2025, Semrush 0,14 Prozent für das Jahr 2025, Conductor 1,08 Prozent für Mai bis September 2025. Drei getrennt erhobene Messungen, Bruchteile eines Prozents bis gut ein Prozent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, Mai bis September 2025 · Stand 6. Juli 2026",
+        "name": "Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, Mai bis September 2025 · Stand 6. Juli 2026 · Marie Haynes, „GEO is a distraction“, 21. Oktober 2026, 100 Websites, über 145 Millionen Sitzungen, zwölf Monate ohne genauen Zeitraum, abgerufen am 1. November 2026",
         "url": "https://www.semrush.com/blog/traffic-channel-mix-study/"
       },
-      "disambiguatingDescription": "Was die Zahlen nicht sagen: Gezählt sind Klicks mit erkennbarer Herkunft aus einem Assistenten, nicht wie oft eine Marke in Antworten genannt wird. Google AI Mode liegt außerhalb der beiden Werte, die sich dazu äußern: Semrush führt ihn als eigenen Kanal mit 0,01 Prozent, Conductor vermerkt, dass Google Analytics ihn nicht von organischem Verkehr trennt. Warum die drei Werte nicht nebeneinandergehören: Contentsquare misst 6.500 Websites weltweit, Semrush über 50.000 weltweit, Conductor 1.215 eigene Kundendomains in den USA und nennt seine Werte Durchschnitte. Der Abstand von 0,14 auf 1,08 Prozent, fast Faktor acht, ist zu gutem Teil eine Frage der Auswahl. Alle drei verkaufen Analysewerkzeuge; Contentsquare und Conductor messen den eigenen Kundenbestand, Semrush schätzt aus einem zugekauften Klickstrom-Panel. Unabhängig geprüft ist keiner der Werte.",
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: Gezählt sind Klicks mit erkennbarer Herkunft aus einem Assistenten, nicht wie oft eine Marke in Antworten genannt wird. Google AI Mode liegt außerhalb der beiden Werte, die sich dazu äußern: Semrush führt ihn als eigenen Kanal mit 0,01 Prozent, Conductor vermerkt, dass Google Analytics ihn nicht von organischem Verkehr trennt. Warum die drei Werte nicht nebeneinandergehören: Contentsquare misst 6.500 Websites weltweit, Semrush über 50.000 weltweit, Conductor 1.215 eigene Kundendomains in den USA und nennt seine Werte Durchschnitte. Der Abstand von 0,14 auf 1,08 Prozent, fast Faktor acht, ist zu gutem Teil eine Frage der Auswahl. Alle drei verkaufen Analysewerkzeuge; Contentsquare und Conductor messen den eigenen Kundenbestand, Semrush schätzt aus einem zugekauften Klickstrom-Panel. Unabhängig geprüft ist keiner der Werte. Eine vierte Messung mit anderer Bezugsgröße: Die SEO-Beraterin Marie Haynes wertet zwölf Monate Google Analytics von 100 Websites mit über 145 Millionen Sitzungen aus: ChatGPT brachte 0,62 Prozent so viele Sitzungen wie die organische Google-Suche, alle Sprachmodelle zusammen 0,73 Prozent. Das ist ein Verhältnis zur Google-Suche, kein Anteil am Gesamtverkehr. Besucher aus ChatGPT kauften öfter (13,8 gegen 3,02 Prozent, bei den 55 Websites mit Messung), die Google-Suche brachte trotzdem 96,5 Prozent aller gemessenen Conversions.",
       "position": 72,
       "id": "ki-verkehrsanteil",
       "url": "https://robert-haase.de/belege.html#ki-verkehrsanteil",
@@ -2543,8 +2594,12 @@
         "name": "Drei Anbietermessungen",
         "group": "weak"
       },
-      "sourceText": "Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, Mai bis September 2025 · Stand 6. Juli 2026 · Zur Quelle",
+      "sourceText": "Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, Mai bis September 2025 · Stand 6. Juli 2026 · Marie Haynes, „GEO is a distraction“, 21. Oktober 2026, 100 Websites, über 145 Millionen Sitzungen, zwölf Monate ohne genauen Zeitraum (zu Marie Haynes), abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zu Marie Haynes",
+          "url": "https://mariehaynes.com/geo-is-a-distraction/"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://www.semrush.com/blog/traffic-channel-mix-study/"
@@ -2612,10 +2667,10 @@
       "text": "Erfahrene Entwickler brauchten mit KI-Werkzeugen 19 Prozent länger, hielten sich dabei aber für 20 Prozent schneller. Vorher hatten sie 24 Prozent Beschleunigung erwartet. Zwischen gemessener und empfundener Wirkung liegen 43 Prozentpunkte, mit umgekehrtem Vorzeichen.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026",
+        "name": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026 · Befragung: METR, „How do technical workers use AI tools?“, 11. Mai 2026, 349 Befragte, abgerufen am 1. November 2026",
         "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. Neuere Messung: In einer zweiten Studie mit 57 Entwicklern und über 800 Aufgaben misst METR im Februar 2026 für die zehn zurückkehrenden Teilnehmer 18 Prozent kürzere Bearbeitungszeiten mit KI, für die neuen 4 Prozent kürzere; beide Vertrauensbereiche schließen null ein. METR hält es für wahrscheinlich, dass KI-Werkzeuge Anfang 2026 stärker beschleunigen, und wertet die Zahlen als Untergrenze, weil viele nicht mehr ohne KI arbeiten wollten und deshalb fehlen. Was bleibt: die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: 16 Entwickler, 246 Aufgaben, ausschließlich in Repositories, die sie im Schnitt seit fünf Jahren kennen. Genau diese Vertrautheit erklärt einen Teil des Ergebnisses: Wer sein eigenes Projekt im Kopf hat, gewinnt durch Assistenz weniger. Auf unbekannten Code oder andere Wissensarbeit lässt sich das nicht übertragen, und die Werkzeuge stammen von Anfang 2025. Neuere Messung: In einer zweiten Studie mit 57 Entwicklern und über 800 Aufgaben misst METR im Februar 2026 für die zehn zurückkehrenden Teilnehmer 18 Prozent kürzere Bearbeitungszeiten mit KI, für die neuen 4 Prozent kürzere; beide Vertrauensbereiche schließen null ein. METR hält es für wahrscheinlich, dass KI-Werkzeuge Anfang 2026 stärker beschleunigen, und wertet die Zahlen als Untergrenze, weil viele nicht mehr ohne KI arbeiten wollten und deshalb fehlen. Eine Befragung zeigt dasselbe Muster: 349 technische Fachkräfte schätzen ihren Zugewinn durch KI von Februar bis April 2026 im Median auf das 1,4- bis 2-Fache an Wert und das 3-Fache an Tempo. METR schreibt selbst, die Antworten seien „not necessarily grounded in reality“, und hält die Stichprobe für vermutlich stark verzerrt. Was bleibt: die Lücke zwischen Messung und Selbsteinschätzung. Sie ist der Grund, jeder Produktivitätszahl zu misstrauen, die auf Befragung beruht.",
       "position": 75,
       "id": "metr-selbsteinschaetzung",
       "url": "https://robert-haase.de/belege.html#metr-selbsteinschaetzung",
@@ -2624,8 +2679,12 @@
         "name": "Kontrollierter Test",
         "group": "strong"
       },
-      "sourceText": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026 · zur neueren Messung · Zur Studie",
+      "sourceText": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026 · Befragung: METR, „How do technical workers use AI tools?“, 11. Mai 2026, 349 Befragte (zur Befragung), abgerufen am 1. November 2026 · zur neueren Messung · Zur Studie",
       "sourceLinks": [
+        {
+          "name": "zur Befragung",
+          "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/"
+        },
         {
           "name": "zur neueren Messung",
           "url": "https://metr.org/blog/2026-02-24-uplift-update/"
@@ -2844,13 +2903,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
-      "text": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,7 gleichauf mit einer Einreichung von Google DeepMind auf Rang drei, hinter zwei weiteren mit Werkzeugen und Zusatzkontext (69,0 und 68,9). Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,7 vor dem besten Modell mit 61,9.",
+      "text": "Auf der Turnier-Rangliste von ForecastBench steht der Median menschlicher Superforecaster mit 68,5 auf Rang sieben, gleichauf mit zwei Einreichungen; sechs liegen davor, mit 69,7 bis 68,6, keine davon signifikant besser. Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,4 vor dem besten Modell mit 61,4.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 15. Oktober 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand",
+        "name": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 1. November 2026 (Commit db5bf6d1); Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand",
         "url": "https://www.forecastbench.org/leaderboards/"
       },
-      "disambiguatingDescription": "Was die Rangliste nicht sagt: Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die Plätze vor und neben dem Median, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Die Werte verschieben sich mit jeder nächtlichen Neuberechnung um Zehntel. Bestwert aus vielen Versuchen: Google DeepMind hält 56 der 427 Einreichungen und alle drei Plätze vor und neben dem Menschen, der eine einzige Zeile ist. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen 847. Zur Parität: Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Juni 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke. Im Einzelnen: Das beste Modell der Basis-Rangliste ist am 15. Oktober Kimi K3 Max von Moonshot AI (61,9); Ende September führte Claude Sonnet 4.6 mit 62,2, jetzt steht es bei 61,1.",
+      "disambiguatingDescription": "Was die Rangliste nicht sagt: Sie erklärt den Vorsprung der Maschinen nicht für gesichert. Die eigene Signifikanzspalte verneint einen Unterschied für die Plätze vor und neben dem Median, die Vertrauensbereiche überlappen fast vollständig. Der Brier Index ist trotz Prozentzeichen keine Trefferquote, die Umrechnung nichtlinear. Die Werte verschieben sich mit jeder nächtlichen Neuberechnung um Zehntel. Bestwert aus vielen Versuchen: Viele Teilnehmer reichen Varianten ein: 55 der 463 Zeilen tragen Google DeepMind als Hersteller, die Plätze eins und zwei stellt ein anonymer Teilnehmer mit sechs Zeilen; der Mensch ist eine einzige Zeile. Es sind nicht dieselben Fragen: Menschen zuletzt befragt im Juli 2024, 578 Fragen gegen bis zu 851. Zur Parität: Die Betreiber führen den Gleichstand im Turnier als erreicht zum 7. Juni 2026 und projizieren ihn werkzeugfrei auf Juni 2028, Intervall Juli 2026 bis Dezember 2030; es bildet nur die Unsicherheit der Geradenanpassung ab. Prognosefragen zu datierten Ereignissen sind keine strategischen Urteile über eine Marke. Im Einzelnen: Das beste Modell der Basis-Rangliste ist am 1. November o3 von OpenAI mit Notizblock (61,4) vor Kimi K3 Max von Moonshot AI (61,0), das Mitte Oktober mit 61,9 führte. Mitte Oktober stand der menschliche Median im Turnier noch gleichauf auf Rang drei.",
       "position": 83,
       "id": "prognose-mensch-maschine",
       "url": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
@@ -2859,7 +2918,7 @@
         "name": "Laufende Messung",
         "group": "plain"
       },
-      "sourceText": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 15. Oktober 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · Ranglisten-Dateien · Zur Rangliste",
+      "sourceText": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 1. November 2026 (Commit db5bf6d1); Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · Ranglisten-Dateien · Zur Rangliste",
       "sourceLinks": [
         {
           "name": "Ranglisten-Dateien",
@@ -2870,7 +2929,7 @@
           "url": "https://www.forecastbench.org/leaderboards/"
         }
       ],
-      "citationText": "Auf der Turnier-Rangliste von ForecastBench liegt der Median menschlicher Superforecaster mit 68,7 gleichauf mit einer Einreichung von Google DeepMind auf Rang drei, hinter zwei weiteren mit Werkzeugen und Zusatzkontext (69,0 und 68,9). Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,7 vor dem besten Modell mit 61,9. (ForecastBench, Stand 15. Oktober 2026; die Signifikanzspalte verneint einen Unterschied für die Plätze vor und neben dem Median). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/belege.html#prognose-mensch-maschine"
+      "citationText": "Auf der Turnier-Rangliste von ForecastBench steht der Median menschlicher Superforecaster mit 68,5 auf Rang sieben, gleichauf mit zwei Einreichungen; sechs liegen davor, mit 69,7 bis 68,6, keine davon signifikant besser. Auf der Basis-Rangliste ohne Werkzeuge führt der menschliche Median mit 67,4 vor dem besten Modell mit 61,4. (ForecastBench, Turnier- und Basis-Rangliste, Stand 1. November 2026). https://www.forecastbench.org/leaderboards/ · via https://robert-haase.de/belege.html#prognose-mensch-maschine"
     },
     {
       "@type": "Claim",
@@ -3270,13 +3329,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#microsoft-brand-kit",
-      "text": "Microsofts Copilot lernt eine Marke aus genau einem PDF und zieht aus den Richtlinien Farbpaletten, Stile, Markenstimme sowie Regeln zu Logo und Typografie. Für ein neues PDF muss das bestehende entfernt werden, und die hochgeladenen Richtlinien überschreiben vorhandene Werte im Brand Kit, die Markenstimme eingeschlossen.",
+      "text": "Ein Brand Kit in Microsofts Copilot bündelt Vorlagen, Bilder, Logos, Farben, Schriften und eine beschriebene Markenstimme. Offiziell wird es erst, wenn ein Brand Manager es übernimmt; danach ändern es nur noch Brand Manager. Ein förmliches Freigabeverfahren gibt es laut Microsoft nicht, die Prüfung vereinbaren Ersteller und Brand Manager selbst.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Microsoft, Support-Seite „Use guidelines to manage brand kits in the Microsoft Copilot app“, Abschnitte zum Hochladen und zur Überschreibung sowie die Frage „How many pdf guidelines can be uploaded?“ · abgerufen am 17. September 2026",
-        "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
+        "name": "Microsoft, Support-Seite „Create and manage official Brand kits in the Microsoft Copilot app“, laut Seite zuletzt aktualisiert im Oktober 2026, Abschnitte „Make a Brand Kit official“ und „Frequently asked questions“ · abgerufen am 1. November 2026 · frühere Seite „Use guidelines to manage brand kits in the Microsoft Copilot app“ mit dem Import aus einem PDF, abgerufen am 17. September 2026, seit Oktober 2026 umgeleitet",
+        "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: Es sind Angaben des Herstellers über das eigene Produkt, nirgends unabhängig geprüft. Belegt ist, was die Dokumentation beschreibt, nicht die Güte der Extraktion. Kein Startdatum: Microsoft nennt keines. Eine Partnerveröffentlichung datiert die weltweite Verfügbarkeit auf Ende Juni 2026, eine andere führt den PDF-Import schon im Frühjahr als verfügbar; wer ein Datum zitiert, zitiert Dritte. Bedingungen: Die Funktion verlangt eine Copilot-Lizenz, nimmt nur PDF an und erwartet die Vertraulichkeitsstufe General. Seit Mitte September 2026 lassen sich zusätzlich Präsentations-Skills als Markdown hinterlegen; die Regeln aus den Richtlinien entstehen weiterhin allein aus dem einen PDF. Im Einzelnen: Ein Brand Manager lädt die Richtlinien hoch.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: Es sind Angaben des Herstellers über das eigene Produkt, nirgends unabhängig geprüft. Belegt ist, was die Dokumentation beschreibt, nicht wie verlässlich Copilot die Vorgaben anwendet. Geändert im Oktober 2026: Bis September beschrieb Microsoft auf einer eigenen Seite, wie Copilot eine Marke aus genau einem PDF mit Richtlinien lernt, das vorhandene Werte im Kit überschreibt, die Markenstimme eingeschlossen. Diese Seite leitet seit Oktober dauerhaft auf die Brand-Kit-Seite um, und dort ist kein Import von Richtlinien mehr beschrieben. Ob die Funktion entfallen ist oder nur nicht mehr dokumentiert, sagt Microsoft nicht. Was daraus folgt: Wer freigibt, regelt die Software nicht; das bleibt eine Absprache in der Organisation. Große Bildbestände gehören laut Microsoft nicht ins Kit, die Mediendatenbank (DAM) bleibt die maßgebliche Quelle, ihre Anbindung ist erst angekündigt. Bedingungen: Die Funktion verlangt eine Lizenz für Microsoft Copilot Premium und wirkt in Copilot für PowerPoint und Excel. Neben offiziellen Kits gibt es persönliche, die ausdrücklich keine Freigabe der Organisation darstellen.",
       "position": 99,
       "id": "microsoft-brand-kit",
       "url": "https://robert-haase.de/belege.html#microsoft-brand-kit",
@@ -3285,29 +3344,29 @@
         "name": "Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "Microsoft, Support-Seite „Use guidelines to manage brand kits in the Microsoft Copilot app“, Abschnitte zum Hochladen und zur Überschreibung sowie die Frage „How many pdf guidelines can be uploaded?“ · abgerufen am 17. September 2026 · Seite zu Rolle und Lizenz · Zur Quelle",
+      "sourceText": "Microsoft, Support-Seite „Create and manage official Brand kits in the Microsoft Copilot app“, laut Seite zuletzt aktualisiert im Oktober 2026, Abschnitte „Make a Brand Kit official“ und „Frequently asked questions“ · abgerufen am 1. November 2026 · frühere Seite „Use guidelines to manage brand kits in the Microsoft Copilot app“ mit dem Import aus einem PDF, abgerufen am 17. September 2026, seit Oktober 2026 umgeleitet (Archivfassung vom 16. September 2026) · Zur Quelle",
       "sourceLinks": [
         {
-          "name": "Seite zu Rolle und Lizenz",
-          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app"
+          "name": "Archivfassung vom 16. September 2026",
+          "url": "https://web.archive.org/web/20260916022323/https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
         },
         {
           "name": "Zur Quelle",
-          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app"
+          "url": "https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app"
         }
       ],
-      "citationText": "Microsofts Copilot lernt eine Marke aus genau einem PDF und zieht aus den Richtlinien Farbpaletten, Stile, Markenstimme sowie Regeln zu Logo und Typografie. Für ein neues PDF muss das bestehende entfernt werden, und die hochgeladenen Richtlinien überschreiben vorhandene Werte im Brand Kit, die Markenstimme eingeschlossen. (Microsoft, Support-Dokumentation zu Brand Kits, abgerufen am 17. September 2026). https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app · via https://robert-haase.de/belege.html#microsoft-brand-kit"
+      "citationText": "Ein Brand Kit in Microsofts Copilot bündelt Vorlagen, Bilder, Logos, Farben, Schriften und eine beschriebene Markenstimme. Offiziell wird es erst, wenn ein Brand Manager es übernimmt; danach ändern es nur noch Brand Manager. Ein förmliches Freigabeverfahren gibt es laut Microsoft nicht, die Prüfung vereinbaren Ersteller und Brand Manager selbst. (Microsoft, Support-Seite zu Brand Kits in Copilot, Stand Oktober 2026). https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app · via https://robert-haase.de/belege.html#microsoft-brand-kit"
     },
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#muse-connectors",
-      "text": "Meta hat seinen persönlichen Agenten Muse am 8. September 2026 in den USA gestartet. Unternehmen können eigene Connectors einreichen, die Meta auf Funktion, Sicherheit und rechtliche Anforderungen prüft, bevor Nutzer sie in Muse finden.",
+      "text": "Meta hat seinen persönlichen Agenten Muse am 8. September 2026 in den USA gestartet, inzwischen auch in Kanada. Unternehmen können eigene Connectors einreichen, die Meta auf Funktion, Sicherheit und Recht prüft, bevor Nutzer sie in Muse finden; seit dem 29. September gibt es eine Fassung für kleine Unternehmen und selbst gebaute Connectors.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Meta, Newsroom „Introducing Muse“, 8. September 2026, für Start, Zugriffsentscheidung und Rückfrage vor sensiblen Schritten; Einreichung, Prüfung auf Funktion, Sicherheit und Recht sowie das Verzeichnis auf der Plattformseite · beide abgerufen am 19. September 2026",
+        "name": "Meta, Newsroom „Introducing Muse“, 8. September 2026, für Start, Zugriffsentscheidung und Rückfrage vor sensiblen Schritten; Einreichung, Prüfung auf Funktion, Sicherheit und Recht sowie das Verzeichnis auf der Plattformseite · beide abgerufen am 19. September 2026 · Meta, „The Future Is for Everyone: Muse for Small Business“, 29. September 2026, aktualisiert am 8. Oktober 2026, abgerufen am 1. November 2026",
         "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: Verbreitung, Nutzung oder Umsatz. Es sind Angaben des Anbieters zum eigenen Produkt am Starttag. Die Technik bleibt offen: Welches Protokoll hinter den Connectors steht, nennen beide Seiten nicht, MCP kommt dort nicht vor. Die Reichweite auch: Muse ist zum Stichtag auf die USA und auf Erwachsene beschränkt, und wie viele Unternehmen einen Connector eingereicht haben, steht nirgends. Im Einzelnen: Die Nutzer entscheiden, mit welchen Anwendungen Muse sich verbindet und wie viel Zugriff er bekommt, und vor sensiblen Schritten wie dem Versand einer E-Mail oder einem Kauf fragt er nach.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: Verbreitung, Nutzung oder Umsatz. Es sind Angaben des Anbieters zum eigenen Produkt am Starttag. Die Technik bleibt offen: Welches Protokoll hinter den Connectors steht, nennen beide Seiten nicht, MCP kommt dort nicht vor. Die Reichweite auch: Muse gibt es in den USA und Kanada für Erwachsene, und wie viele Unternehmen einen Connector eingereicht haben, steht nirgends. Die Fassung für kleine Unternehmen nennt 15 Connectors, darunter Canva, Figma, Notion, Shopify und Slack, und verspricht, ohne Freigabe nichts zu veröffentlichen, zu senden oder auszugeben. Im Einzelnen: Die Nutzer entscheiden, mit welchen Anwendungen Muse sich verbindet und wie viel Zugriff er bekommt, und vor sensiblen Schritten wie dem Versand einer E-Mail oder einem Kauf fragt er nach.",
       "position": 100,
       "id": "muse-connectors",
       "url": "https://robert-haase.de/belege.html#muse-connectors",
@@ -3316,8 +3375,12 @@
         "name": "Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "Meta, Newsroom „Introducing Muse“, 8. September 2026, für Start, Zugriffsentscheidung und Rückfrage vor sensiblen Schritten; Einreichung, Prüfung auf Funktion, Sicherheit und Recht sowie das Verzeichnis auf der Plattformseite · beide abgerufen am 19. September 2026 · Muse-Plattformseite · Zur Quelle",
+      "sourceText": "Meta, Newsroom „Introducing Muse“, 8. September 2026, für Start, Zugriffsentscheidung und Rückfrage vor sensiblen Schritten; Einreichung, Prüfung auf Funktion, Sicherheit und Recht sowie das Verzeichnis auf der Plattformseite · beide abgerufen am 19. September 2026 · Meta, „The Future Is for Everyone: Muse for Small Business“, 29. September 2026, aktualisiert am 8. Oktober 2026 (zur Fassung für kleine Unternehmen), abgerufen am 1. November 2026 · Muse-Plattformseite · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zur Fassung für kleine Unternehmen",
+          "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
+        },
         {
           "name": "Muse-Plattformseite",
           "url": "https://muse.ai/platform"
@@ -3327,7 +3390,7 @@
           "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"
         }
       ],
-      "citationText": "Meta hat seinen persönlichen Agenten Muse am 8. September 2026 in den USA gestartet. Unternehmen können eigene Connectors einreichen, die Meta auf Funktion, Sicherheit und rechtliche Anforderungen prüft, bevor Nutzer sie in Muse finden. (Meta, Newsroom und Muse-Plattformseite, abgerufen am 19. September 2026). https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ · via https://robert-haase.de/belege.html#muse-connectors"
+      "citationText": "Meta hat seinen persönlichen Agenten Muse am 8. September 2026 in den USA gestartet, inzwischen auch in Kanada. Unternehmen können eigene Connectors einreichen, die Meta auf Funktion, Sicherheit und Recht prüft, bevor Nutzer sie in Muse finden; seit dem 29. September gibt es eine Fassung für kleine Unternehmen und selbst gebaute Connectors. (Meta, Newsroom, 8. und 29. September 2026). https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/ · via https://robert-haase.de/belege.html#muse-connectors"
     },
     {
       "@type": "Claim",
@@ -3417,13 +3480,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#lighthouse-agent-discovery",
-      "text": "Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht, und führt diese Prüfung zusammen mit der Prüfung der llms.txt in einer eigenen Gruppe „Agent Discoverability“.",
+      "text": "Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht. Seit Version 13.6.0 vom 27. Oktober 2026 prüft es gegen deren Fassung 0.91 und meldet die alten ai-catalog-Pfade nur noch als Altlast.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ · abgerufen am 21. September 2026 · Lighthouse, Pull Requests 17258 und 17259 zur Umstellung auf Version 0.91, zusammengeführt am 9. Oktober 2026, letztes Release weiterhin 13.5.0, geprüft am 16. Oktober 2026",
+        "name": "Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ · abgerufen am 21. September 2026 · Lighthouse-Release 13.6.0 vom 27. Oktober 2026 mit der Umstellung auf Version 0.91, abgerufen am 1. November 2026 · Pull Requests 17258 und 17259",
         "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: dass Agenten diese Dateien lesen. Ein Prüfwerkzeug misst, ob etwas vorhanden und gültig ist, nicht, ob es genutzt wird. Die Prüfung der llms.txt gibt es schon seit Version 13.3.0; für die Google-Suche erklärt Google dieselbe Datei für unnötig, wie ein eigener Eintrag zum Leitfaden der Google-Suche belegt. Die Spezifikation ist ein Vorschlag: ARD steht in Version 0.91 vom 26. August 2026 im Status „Proposal“, unter den Autoren sind Leute von Google und Hugging Face; ein Gremienstandard ist es nicht. Und Werkzeug und Spezifikation laufen auseinander: Die Spezifikation verlangt den Pfad /.well-known/ard.json, Version 13.5.0 sucht den Vorgängernamen /.well-known/ai-catalog.json und prüft gegen ein Schema, das die Spezifikation inzwischen entfernt hat. Zwei am 9. Oktober 2026 zusammengeführte Änderungen stellen Lighthouse auf Version 0.91 um und behalten die Vorgängernamen als Rückfall; in einem Release sind sie bis zum 16. Oktober 2026 nicht erschienen. Wo andere Verfahren solche Kataloge suchen, zeigt der Eintrag zu den MCP Server Cards. Im Einzelnen: Laut Release kommt die Prüfung mit Chrome 156 in die DevTools und binnen zwei Wochen in PageSpeed Insights.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: dass Agenten diese Dateien lesen. Ein Prüfwerkzeug misst, ob etwas vorhanden und gültig ist, nicht, ob es genutzt wird. Die Prüfung der llms.txt gibt es schon seit Version 13.3.0; für die Google-Suche erklärt Google dieselbe Datei für unnötig, wie ein eigener Eintrag zum Leitfaden der Google-Suche belegt. Die Spezifikation ist ein Vorschlag: ARD steht in Version 0.91 vom 26. August 2026 im Status „Proposal“, unter den Autoren sind Leute von Google und Hugging Face; ein Gremienstandard ist es nicht. Werkzeug und Spezifikation laufen seit Oktober zusammen: Version 13.5.0 suchte noch den Vorgängernamen /.well-known/ai-catalog.json; Version 13.6.0 sucht /.well-known/ard.json, dazu Verweise im HTTP-Header Link und im HTML mit rel=\"ard\", und warnt bei den alten Pfaden. Wo andere Verfahren solche Kataloge suchen, zeigt der Eintrag zu den MCP Server Cards. Im Einzelnen: Die Gruppe „Agent Discoverability“ führt die Prüfung zusammen mit der Prüfung der llms.txt. Laut Release kommt Version 13.6.0 mit Chrome 159 in die DevTools und binnen einer Woche in PageSpeed Insights; dieselbe Version erkennt in der robots.txt auch eine Lizenzangabe (License).",
       "position": 104,
       "id": "lighthouse-agent-discovery",
       "url": "https://robert-haase.de/belege.html#lighthouse-agent-discovery",
@@ -3432,11 +3495,15 @@
         "name": "Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ (zur Spezifikation) · abgerufen am 21. September 2026 · Lighthouse, Pull Requests 17258 und 17259 zur Umstellung auf Version 0.91, zusammengeführt am 9. Oktober 2026, letztes Release weiterhin 13.5.0, geprüft am 16. Oktober 2026 (zum Pull Request) · Zur Quelle",
+      "sourceText": "Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ (zur Spezifikation) · abgerufen am 21. September 2026 · Lighthouse-Release 13.6.0 vom 27. Oktober 2026 mit der Umstellung auf Version 0.91 (zu Release 13.6.0), abgerufen am 1. November 2026 · Pull Requests 17258 und 17259 (zum Pull Request) · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zur Spezifikation",
           "url": "https://github.com/ards-project/ard-spec/blob/main/spec/ard.md"
+        },
+        {
+          "name": "zu Release 13.6.0",
+          "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0"
         },
         {
           "name": "zum Pull Request",
@@ -3447,7 +3514,7 @@
           "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0"
         }
       ],
-      "citationText": "Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht, und führt diese Prüfung zusammen mit der Prüfung der llms.txt in einer eigenen Gruppe „Agent Discoverability“. (Google, Lighthouse-Release 13.5.0, 18. September 2026). https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0 · via https://robert-haase.de/belege.html#lighthouse-agent-discovery"
+      "citationText": "Seit Version 13.5.0 vom 18. September 2026 prüft Googles Werkzeug Lighthouse auch, ob der Agenten-Katalog einer Website der Spezifikation „Agentic Resource Discovery“ entspricht. Seit Version 13.6.0 vom 27. Oktober 2026 prüft es gegen deren Fassung 0.91 und meldet die alten ai-catalog-Pfade nur noch als Altlast. (Google, Lighthouse-Releases 13.5.0 und 13.6.0). https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0 · via https://robert-haase.de/belege.html#lighthouse-agent-discovery"
     },
     {
       "@type": "Claim",
@@ -3458,7 +3525,7 @@
         "name": "AirOps, „Third-Party Sources Drive 85% of Brand Discovery“, 17. Oktober 2025, 21.311 Markennennungen in ChatGPT, Claude und Perplexity bei Anfragen zur Anbietersuche · Kumar (Ranqo), „Generative Engine Optimization at Scale“, arXiv 2606.20065, 18. Juni 2026, Preprint ohne Begutachtung, 102 Marken, 102.025 Antworten, 149.912 Quellenangaben aus fünf KI-Suchen, März bis Mai 2026 · beide abgerufen am 21. September 2026 · Fragetyp: Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026, gesonderter Test mit 20.000 US-Fragen, abgerufen am 16. Oktober 2026",
         "url": "https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search"
       },
-      "disambiguatingDescription": "Was die Zahlen nicht sagen: Beide stammen von Anbietern, die Werkzeuge für Sichtbarkeit in KI-Suchen verkaufen. Der Ranqo-Autor ist Mitgründer und am Unternehmen beteiligt, die Marken sind die eigener Kunden und nach eigener Angabe nicht repräsentativ ausgewählt, überwiegend Software-Anbieter, Fintechs und indische Direktmarken. AirOps nennt keinen Erhebungszeitraum. Gemessen ist das Zitieren, nicht Kauf oder Wirkung. Der Fragetyp verschiebt das Bild: Bei Faktenfragen zu Preisen, Produkteigenschaften oder Unternehmensangaben gingen in einem Test von Ahrefs mit 20.000 US-Fragen an ChatGPT 63,4 Prozent der Quellenangaben an offizielle Websites, bei Vergleichsfragen 46,4 Prozent, wie der Eintrag zu ChatGPTs Suchanfragen zeigt. Wie Ahrefs „offiziell“ abgrenzt und wann gemessen wurde, sagt der Beitrag nicht; mit der eigenen Domain der Marke ist es nicht gleichzusetzen. Vorsicht beim Weitergeben: Ranqos oft zitierte „rund 78 Prozent Unternehmensseiten“ zählen die eigene Seite der Marke und fremde Firmenseiten zusammen; auf die eigene entfallen davon 2,9 Prozent. Im Einzelnen: Bei Ranqo zeigen von 149.912 Quellenangaben aus fünf KI-Suchen nur 2,9 Prozent auf die Domain der Marke selbst, 75,2 Prozent auf Seiten anderer Unternehmen derselben Branche.",
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: Beide stammen von Anbietern, die Werkzeuge für Sichtbarkeit in KI-Suchen verkaufen. Der Ranqo-Autor ist Mitgründer und am Unternehmen beteiligt, die Marken sind die eigener Kunden und nach eigener Angabe nicht repräsentativ ausgewählt, überwiegend Software-Anbieter, Fintechs und indische Direktmarken. AirOps nennt keinen Erhebungszeitraum. Gemessen ist das Zitieren, nicht Kauf oder Wirkung. Der Fragetyp verschiebt das Bild: Bei Faktenfragen zu Preisen, Produkteigenschaften oder Unternehmensangaben gingen in einem Test von Ahrefs mit 20.000 US-Fragen an ChatGPT 63,4 Prozent der Quellenangaben an offizielle Websites, bei Vergleichsfragen 46,4 Prozent, wie der Eintrag zu ChatGPTs Suchanfragen zeigt. Wie Ahrefs „offiziell“ abgrenzt und wann gemessen wurde, sagt der Beitrag nicht; mit der eigenen Domain der Marke ist es nicht gleichzusetzen. Vorsicht beim Weitergeben: Ranqos oft zitierte „rund 78 Prozent Unternehmensseiten“ zählen die eigene Seite der Marke und fremde Firmenseiten zusammen; auf die eigene entfallen davon 2,9 Prozent. Ebenso kursiert, die eigene Website liefere „nur 5 bis 10 Prozent“ der Markennennungen; diese Spanne steht bei AirOps nicht, die Quelle nennt 13,2 Prozent, und wer sie weitergibt, nennt keine andere Erhebung. Im Einzelnen: Bei Ranqo zeigen von 149.912 Quellenangaben aus fünf KI-Suchen nur 2,9 Prozent auf die Domain der Marke selbst, 75,2 Prozent auf Seiten anderer Unternehmen derselben Branche.",
       "position": 105,
       "id": "eigene-seite-selten-zitiert",
       "url": "https://robert-haase.de/belege.html#eigene-seite-selten-zitiert",
@@ -3572,13 +3639,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#agentenstandards-verbreitung",
-      "text": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 109.493 erfolgreich geprüften führen 0,51 Prozent eine MCP Server Card, 0,52 Prozent Agent Skills und 2,4 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bieten 2,6 Prozent an.",
+      "text": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 114.605 erfolgreich geprüften führen am 26. Oktober 2026 0,54 Prozent eine MCP Server Card, 0,56 Prozent Agent Skills und 5,3 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bieten 1,3 Prozent an.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 12. Oktober 2026 · 109.493 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 · früherer Stand 21. September 2026 mit 107.155 Domains · abgerufen am 15. Oktober 2026",
+        "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 26. Oktober 2026 · 114.605 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 · frühere Stände 21. September 2026 mit 107.155 und 12. Oktober 2026 mit 109.493 Domains, Wochenwerte über den Parameter dateEnd · abgerufen am 1. November 2026",
         "url": "https://radar.cloudflare.com/ai-insights"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Gezählt werden Dateien und Endpunkte, die ein Scan an festen Adressen findet, etwa /.well-known/mcp/server-card.json, nicht ihre Nutzung; ob ein Agent sie liest, misst Radar nicht. Es ist eine Messung des Anbieters mit eigener Auswahl: Suchmaschinen sowie leere und nicht erreichbare Infrastruktur sind ausgenommen, und nicht jeder Standard passt zu jeder Website, x402 etwa nur zu Bezahlinhalten, WebMCP nur zu Seiten, die Agenten Werkzeuge anbieten. Die WebMCP-Zahl ist die unsicherste: Am 21. September 2026 zählte Radar keine einzige Domain, am 12. Oktober 2.853. Wie Radar WebMCP erkennt und ob sich die Erkennung geändert hat, beschreibt Cloudflare nicht; Werkzeuge, die eine Seite erst per JavaScript anmeldet, kann ein Scan übersehen. Auch andere Werte springen zwischen den Ständen, UCP etwa von 4,8 auf 3,4 Prozent. Im Kleinen gemessen: Die eigenen Erhebungen zur robots.txt deutschsprachiger Medien und der Unternehmen aus DAX, MDAX und SDAX und der Eintrag zu Content-Signal zählen dieselbe Frage an bekannten Listen. Wie viele Händler UCP betreiben, nennen die beteiligten Firmen selbst nicht, wie der Eintrag zum UCP-Gremium belegt; Radar ist eine zweite Zählung von außen. Im Einzelnen: Eine MCP Server Card beschreibt einen eigenen MCP-Server. Unter den Handelsprotokollen kommt UCP auf 3,4 Prozent, AP2 auf vier Domains.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Gezählt werden Dateien und Endpunkte, die ein Scan an festen Adressen findet, etwa /.well-known/mcp/server-card.json, nicht ihre Nutzung; ob ein Agent sie liest, misst Radar nicht. Es ist eine Messung des Anbieters mit eigener Auswahl: Suchmaschinen sowie leere und nicht erreichbare Infrastruktur sind ausgenommen, und nicht jeder Standard passt zu jeder Website, x402 etwa nur zu Bezahlinhalten, WebMCP nur zu Seiten, die Agenten Werkzeuge anbieten. Die WebMCP-Zahl ist die unsicherste: Am 21. September 2026 führte Radar dafür noch keinen Wert, danach schwankte die Zahl von Woche zu Woche zwischen 1.501 und 4.761 Domains (28. September 4.338, 5. Oktober 4.761, 12. Oktober 2.853, 19. Oktober 3.995, 26. Oktober 1.501). Wie Radar WebMCP erkennt und ob sich die Erkennung geändert hat, beschreibt Cloudflare nicht; Werkzeuge, die eine Seite erst per JavaScript anmeldet, kann ein Scan übersehen. Auch andere Werte springen zwischen den Ständen, UCP etwa von 4,8 über 3,4 auf 4,7 Prozent, Content Signals binnen zwei Wochen von 2,4 auf 5,3 Prozent. Im Kleinen gemessen: Die eigenen Erhebungen zur robots.txt deutschsprachiger Medien und der Unternehmen aus DAX, MDAX und SDAX und der Eintrag zu Content-Signal zählen dieselbe Frage an bekannten Listen. Wie viele Händler UCP betreiben, nennen die beteiligten Firmen selbst nicht, wie der Eintrag zum UCP-Gremium belegt; Radar ist eine zweite Zählung von außen. Im Einzelnen: Eine MCP Server Card beschreibt einen eigenen MCP-Server. Unter den Handelsprotokollen kommt UCP auf 4,7 Prozent, AP2 auf fünf Domains.",
       "position": 109,
       "id": "agentenstandards-verbreitung",
       "url": "https://robert-haase.de/belege.html#agentenstandards-verbreitung",
@@ -3587,7 +3654,7 @@
         "name": "Marktbeobachtung",
         "group": "plain"
       },
-      "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 12. Oktober 2026 · 109.493 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 (zum Methodenbeitrag) · früherer Stand 21. September 2026 mit 107.155 Domains · abgerufen am 15. Oktober 2026 · Zur Quelle",
+      "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 26. Oktober 2026 · 114.605 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 (zum Methodenbeitrag) · frühere Stände 21. September 2026 mit 107.155 und 12. Oktober 2026 mit 109.493 Domains, Wochenwerte über den Parameter dateEnd · abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zum Methodenbeitrag",
@@ -3598,7 +3665,7 @@
           "url": "https://radar.cloudflare.com/ai-insights"
         }
       ],
-      "citationText": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 109.493 erfolgreich geprüften führen 0,51 Prozent eine MCP Server Card, 0,52 Prozent Agent Skills und 2,4 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bieten 2,6 Prozent an. (Cloudflare Radar, „Adoption of AI agent standards“, Stand 12. Oktober 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#agentenstandards-verbreitung"
+      "citationText": "Websites, die sich KI-Agenten maschinenlesbar erklären, sind bisher die Ausnahme. Cloudflare prüft die 200.000 meistbesuchten Domains: Von 114.605 erfolgreich geprüften führen am 26. Oktober 2026 0,54 Prozent eine MCP Server Card, 0,56 Prozent Agent Skills und 5,3 Prozent Content Signals; Werkzeuge für Agenten per WebMCP bieten 1,3 Prozent an. (Cloudflare Radar, AI Insights, Stand 26. Oktober 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#agentenstandards-verbreitung"
     },
     {
       "@type": "Claim",
@@ -3633,10 +3700,10 @@
       "text": "Die FIDO Alliance entwickelt seit dem 28. April 2026 Standards, mit denen Nutzer Agenten nur für freigegebene Aktionen ermächtigen und Dienste prüfen, ob ein Agent für einen angemeldeten Nutzer und innerhalb festgelegter Grenzen handelt. Grundlage sind Googles Agent Payments Protocol (AP2) und Mastercards Verifiable Intent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen · abgerufen am 23. September 2026",
+        "name": "FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen · abgerufen am 23. September 2026 · Übergabe von AP2 in Version 0.2 an die FIDO Alliance laut AP2-Website, abgerufen am 1. November 2026",
         "url": "https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung. Es ist ein Normungsvorhaben ohne fertigen Standard und ohne Verbreitungszahlen; Cloudflare Radar findet AP2 am 21. September 2026 auf zwei von 107.155 geprüften Domains, wie der Eintrag zur Verbreitung der Agenten-Standards belegt. Und was es nicht regelt: Genormt wird die Vollmacht des Käufers gegenüber Händlern und Zahlungsdiensten. Was ein Agent im Namen einer Marke zusagen darf, etwa einen Rabatt oder eine Kulanz, ist nicht Gegenstand dieser Vorhaben. Wie wenig die Firmen hinter solchen Protokollen über deren Verbreitung sagen, zeigt der Eintrag zum UCP-Gremium. Im Einzelnen: Googles Agent Payments Protocol arbeitet mit kryptografisch signierten Mandaten. Die Arbeitsgruppe für die Authentifizierung von Agenten leiten Mitglieder von CVS Health, Google und OpenAI, die für Zahlungen Mastercard und Visa.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung. Es ist ein Normungsvorhaben ohne fertigen Standard und ohne Verbreitungszahlen; Cloudflare Radar findet AP2 am 26. Oktober 2026 auf fünf von 114.605 geprüften Domains, wie der Eintrag zur Verbreitung der Agenten-Standards belegt. Und was es nicht regelt: Genormt wird die Vollmacht des Käufers gegenüber Händlern und Zahlungsdiensten. Was ein Agent im Namen einer Marke zusagen darf, etwa einen Rabatt oder eine Kulanz, ist nicht Gegenstand dieser Vorhaben. Wie wenig die Firmen hinter solchen Protokollen über deren Verbreitung sagen, zeigt der Eintrag zum UCP-Gremium. Im Einzelnen: Googles Agent Payments Protocol arbeitet mit kryptografisch signierten Mandaten; in Version 0.2 ist es an die FIDO Alliance gegangen, die Normung läuft in deren Arbeitsgruppen weiter und ist am 1. November 2026 nicht abgeschlossen. Die Arbeitsgruppe für die Authentifizierung von Agenten leiten Mitglieder von CVS Health, Google und OpenAI, die für Zahlungen Mastercard und Visa.",
       "position": 111,
       "id": "agenten-vollmacht-standard",
       "url": "https://robert-haase.de/belege.html#agenten-vollmacht-standard",
@@ -3645,7 +3712,7 @@
         "name": "Stand der Normung",
         "group": "plain"
       },
-      "sourceText": "FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen (zur AP2-Dokumentation) · abgerufen am 23. September 2026 · Zur Quelle",
+      "sourceText": "FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen (zur AP2-Dokumentation) · abgerufen am 23. September 2026 · Übergabe von AP2 in Version 0.2 an die FIDO Alliance laut AP2-Website, abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zur AP2-Dokumentation",
@@ -3664,10 +3731,10 @@
       "text": "Die EU-Kommission veröffentlichte am 10. Juni 2026 die endgültige Fassung eines freiwilligen Verhaltenskodex zu den Kennzeichnungspflichten aus Artikel 50 des AI Act, dazu drei EU-Symbole für KI-erzeugte Inhalte. Den Teil zur Markierung durch Anbieter unterzeichneten 95 Organisationen, den zur Kennzeichnung durch Anwender 192.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Varianten, Seite zuletzt aktualisiert am 10. August 2026 · Unterzeichner, Stand 31. Juli 2026 · abgerufen am 23. September 2026",
+        "name": "Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Symbole, Seite zuletzt aktualisiert am 13. Oktober 2026 · Unterzeichner, veröffentlicht am 31. Juli 2026, zuletzt aktualisiert am 24. September 2026 · abgerufen am 23. September und 1. November 2026",
         "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: dass die Unterzeichner kennzeichnen. Die Unterschrift ist eine Selbstverpflichtung, die Symbole sind freiwillig; verbindlich bleibt die Pflicht aus Artikel 50, und wen sie ab wann trifft, belegt der Eintrag zum AI Act. Der Teil für Anwender ist eng: Er betrifft Deepfakes und KI-erzeugte Texte, die die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informieren, sofern sie nicht menschlich geprüft und redaktionell verantwortet sind. Die Symbole sind nach Angabe der Kommission mit Nutzern getestet, Zahlen dazu nennt sie nicht. Die Liste der Unterzeichner trägt den Stand vom 31. Juli 2026. Im Einzelnen: Der Kodex beschreibt, wie Anbieter und Anwender die Kennzeichnungspflichten aus Artikel 50 erfüllen können. Die Symbole sind frei nutzbar ohne Nennung der Kommission. Zu den Unterzeichnern für Anbieter gehören OpenAI, Google, Meta, Microsoft, Anthropic und Mistral, zu denen für Anwender Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images und Dentsu.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: dass die Unterzeichner kennzeichnen. Die Unterschrift ist eine Selbstverpflichtung, die Symbole sind freiwillig; verbindlich bleibt die Pflicht aus Artikel 50, und wen sie ab wann trifft, belegt der Eintrag zum AI Act. Der Teil für Anwender ist eng: Er betrifft Deepfakes und KI-erzeugte Texte, die die Öffentlichkeit über Angelegenheiten von öffentlichem Interesse informieren, sofern sie nicht menschlich geprüft und redaktionell verantwortet sind. Die Symbole sind nach Angabe der Kommission mit Nutzern getestet, Zahlen dazu nennt sie nicht; besser abgeschnitten habe das Basissymbol mit einer Textzeile daneben. Die Liste der Unterzeichner wurde zuletzt am 24. September 2026 aktualisiert, die Zahlen blieben gleich. Im Einzelnen: Der Kodex beschreibt, wie Anbieter und Anwender die Kennzeichnungspflichten aus Artikel 50 erfüllen können. Die Symbole sind frei nutzbar ohne Nennung der Kommission. Zu den Unterzeichnern für Anbieter gehören OpenAI, Google, Meta, Microsoft, Anthropic und Mistral, zu denen für Anwender Lufthansa, Bulgari, Iberdrola, Lenovo, Getty Images und Dentsu.",
       "position": 112,
       "id": "eu-kennzeichnungskodex",
       "url": "https://robert-haase.de/belege.html#eu-kennzeichnungskodex",
@@ -3676,7 +3743,7 @@
         "name": "Rechtslage",
         "group": "plain"
       },
-      "sourceText": "Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Varianten, Seite zuletzt aktualisiert am 10. August 2026 (zu den Symbolen) · Unterzeichner, Stand 31. Juli 2026 (zur Liste der Unterzeichner) · abgerufen am 23. September 2026 · Zur Quelle",
+      "sourceText": "Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Symbole, Seite zuletzt aktualisiert am 13. Oktober 2026 (zu den Symbolen) · Unterzeichner, veröffentlicht am 31. Juli 2026, zuletzt aktualisiert am 24. September 2026 (zur Liste der Unterzeichner) · abgerufen am 23. September und 1. November 2026 · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zu den Symbolen",
@@ -3784,10 +3851,10 @@
       "text": "Auch Google legt Markenregeln als verwaltete Anweisung für seinen Assistenten ab: In Google Workspace sollen sogenannte Skills, am 17. September 2026 als Beta vorgestellt, unter anderem „approved tone, voice, and visual identity across email drafts and files“ sichern.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Google Workspace Blog, Ali Douvre, „Teach Gemini your team’s know-hows with skills in Google Workspace“, 17. September 2026 · Google Cloud, „Create and manage skills | Gemini Enterprise“, zuletzt aktualisiert am 24. September 2026 · beide abgerufen am 28. September 2026 · Google Workspace Updates, „Introducing skills in the Gemini app and Workspace, plus what’s next for Gems“, 30. September 2026, mit Nachtrag vom 13. Oktober 2026 · Google Workspace Help, „About the transition from Gems to skills“ · beide abgerufen am 16. Oktober 2026",
+        "name": "Google Workspace Blog, Ali Douvre, „Teach Gemini your team’s know-hows with skills in Google Workspace“, 17. September 2026 · Google Cloud, „Create and manage skills | Gemini Enterprise“, zuletzt aktualisiert am 24. September 2026 · beide abgerufen am 28. September 2026 · Google Workspace Updates, „Introducing skills in the Gemini app and Workspace, plus what’s next for Gems“, 30. September 2026, mit Nachtrag vom 13. Oktober 2026 · Google Workspace Help, „About the transition from Gems to skills“ · beide abgerufen am 16. Oktober 2026 · Google Workspace Updates, „An update on the launch of skills in the Gemini app and Workspace“, 13. Oktober 2026, abgerufen am 1. November 2026",
         "url": "https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung. Es ist Herstellerdokumentation ohne Zahlen. In Workspace standen Skills zunächst nur Organisationen offen, deren Administrator die Gemini-Beta eingeschaltet hat. Am 30. September 2026 kündigte Google die allgemeine Einführung an, ab 5. Oktober für Organisationen, die Neuerungen früh erhalten, ab 19. Oktober für die übrigen; am 13. Oktober meldete Google sie für die Workspace-Apps und Workspace Studio als verzögert, nur in der Gemini-App läuft sie an. Zur Verfügbarkeit in der EU sagen beide Beiträge nichts. In Gemini Enterprise dürfen die Editionen Standard, Plus und Pay-as-you-go Skills anlegen, Frontline nicht. Einordnung: Nach Microsofts Brand Kits und Adobes Markenprüfung legt damit ein dritter großer Anbieter Markenregeln als Konfiguration seines Assistenten ab, wie die Einträge zu beiden zeigen. Gems gehen in Skills auf: Ab 17. November 2026 wandern Gems in die Einstellungen der Gemini-App und bleiben nutzbar; frühestens ab 1. März 2027 lassen sie sich in Business- und Enterprise-Editionen nicht mehr nutzen, verbliebene Gems werden automatisch zu Skill-Entwürfen. Markenregeln, die heute als Gem abgelegt sind, ziehen damit um. Im Einzelnen: Administratoren können geprüfte Skills der Organisation kuratieren und verteilen. In Gemini Enterprise nennt die Dokumentation das Schreiben „in your brand voice“ als Beispiel: Jede Skill ist eine Datei SKILL.md nach einem offenen Standard, und verlangt der Administrator eine Freigabe, erreicht eine geteilte Skill andere erst danach.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung. Es ist Herstellerdokumentation ohne Zahlen. In Workspace standen Skills zunächst nur Organisationen offen, deren Administrator die Gemini-Beta eingeschaltet hat. Am 30. September 2026 kündigte Google die allgemeine Einführung an, ab 5. Oktober für Organisationen, die Neuerungen früh erhalten, ab 19. Oktober für die übrigen; am 13. Oktober meldete Google sie für die Workspace-Apps und Workspace Studio als verzögert „until further notice“, nur in der Gemini-App läuft sie an, mit Abschluss bis Mitte November. Zur Verfügbarkeit in der EU sagen beide Beiträge nichts. In Gemini Enterprise dürfen die Editionen Standard, Plus und Pay-as-you-go Skills anlegen, Frontline nicht. Einordnung: Nach Microsofts Brand Kits und Adobes Markenprüfung legt damit ein dritter großer Anbieter Markenregeln als Konfiguration seines Assistenten ab, wie die Einträge zu beiden zeigen. Gems gehen in Skills auf: Laut Hilfeseite ersetzen Skills die Gems 2027. Ab 17. November 2026 wandern Gems in die Einstellungen der Gemini-App und bleiben nutzbar; frühestens ab 1. März 2027 lassen sie sich in Business- und Enterprise-Editionen nicht mehr nutzen, verbliebene Gems werden automatisch zu Skill-Entwürfen. Markenregeln, die heute als Gem abgelegt sind, ziehen damit um. Im Einzelnen: Administratoren können geprüfte Skills der Organisation kuratieren und verteilen. In Gemini Enterprise nennt die Dokumentation das Schreiben „in your brand voice“ als Beispiel: Jede Skill ist eine Datei SKILL.md nach einem offenen Standard, und verlangt der Administrator eine Freigabe, erreicht eine geteilte Skill andere erst danach.",
       "position": 116,
       "id": "markenstimme-als-skill",
       "url": "https://robert-haase.de/belege.html#markenstimme-als-skill",
@@ -3796,7 +3863,7 @@
         "name": "Herstellerdokumentation, Beta",
         "group": "strong"
       },
-      "sourceText": "Google Workspace Blog, Ali Douvre, „Teach Gemini your team’s know-hows with skills in Google Workspace“, 17. September 2026 · Google Cloud, „Create and manage skills | Gemini Enterprise“, zuletzt aktualisiert am 24. September 2026 · beide abgerufen am 28. September 2026 · Google Workspace Updates, „Introducing skills in the Gemini app and Workspace, plus what’s next for Gems“, 30. September 2026, mit Nachtrag vom 13. Oktober 2026 (zur Ankündigung) · Google Workspace Help, „About the transition from Gems to skills“ (zur Hilfeseite) · beide abgerufen am 16. Oktober 2026 · Dokumentation zu Gemini Enterprise · Zur Quelle",
+      "sourceText": "Google Workspace Blog, Ali Douvre, „Teach Gemini your team’s know-hows with skills in Google Workspace“, 17. September 2026 · Google Cloud, „Create and manage skills | Gemini Enterprise“, zuletzt aktualisiert am 24. September 2026 · beide abgerufen am 28. September 2026 · Google Workspace Updates, „Introducing skills in the Gemini app and Workspace, plus what’s next for Gems“, 30. September 2026, mit Nachtrag vom 13. Oktober 2026 (zur Ankündigung) · Google Workspace Help, „About the transition from Gems to skills“ (zur Hilfeseite) · beide abgerufen am 16. Oktober 2026 · Google Workspace Updates, „An update on the launch of skills in the Gemini app and Workspace“, 13. Oktober 2026 (zum Stand der Einführung), abgerufen am 1. November 2026 · Dokumentation zu Gemini Enterprise · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zur Ankündigung",
@@ -3805,6 +3872,10 @@
         {
           "name": "zur Hilfeseite",
           "url": "https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/about-the-transition-to-skills"
+        },
+        {
+          "name": "zum Stand der Einführung",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html"
         },
         {
           "name": "Dokumentation zu Gemini Enterprise",
@@ -3885,10 +3956,10 @@
       "text": "Crawler, die Inhalte zugleich für einen Suchindex und für KI-Training sammeln, machen laut Cloudflare 36,6 Prozent des verifizierten Crawler-Verkehrs in seinem Netz aus, die größte einzelne Gruppe. Weniger als 1 Prozent der Websitebetreiber sperren Such-Crawler, 17 Prozent schränken KI-Training ein.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026",
+        "name": "Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · Cloudflare Radar, AI Insights, Reihe „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026",
         "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Es sind Angaben des Anbieters ohne offengelegte Methode und ohne Zeitraum, gemessen im eigenen Netz, und die Voreinstellung gilt nur für neu hinzukommende Websites. Was daraus für die robots.txt folgt: Einen gemischten Crawler kann eine Website dort nur ganz zulassen oder ganz sperren; die Zeile Content-Signal drückt den Zweck nur als Bitte aus, und wie selten sie steht, zeigt der Eintrag dazu. Auf diese Lücke zielen Cloudflares vier Forderungen an Crawler: ein Opt-out für Training und eines für KI-Zusammenfassungen in der Suche, Einsicht auf URL-Ebene und die öffentliche Zusage, dass ein Opt-out das Ranking nicht berührt. Im Einzelnen: Neuen Websites schlägt Cloudflare seit dem 15. September 2026 Einstellungen nach Geschäftsmodell vor, für Websites mit Werbung: Suche erlaubt, KI-Training untersagt, KI-Agenten auf Seiten mit Anzeigen gesperrt.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es sind Angaben des Anbieters ohne offengelegte Methode und ohne Zeitraum, gemessen im eigenen Netz, und die Voreinstellung gilt nur für neu hinzukommende Websites. Eine zweite Reihe misst anders: In Cloudflare Radar liegt der Anteil gemischter Crawler am Verkehr der KI-Crawler von Juni bis Oktober 2026 monatlich zwischen 37,0 und 40,6 Prozent, im Oktober bei 39,3; das ist eine andere Basis als der verifizierte Crawler-Verkehr der Pressemitteilung. Was daraus für die robots.txt folgt: Einen gemischten Crawler kann eine Website dort nur ganz zulassen oder ganz sperren; die Zeile Content-Signal drückt den Zweck nur als Bitte aus, und wie selten sie steht, zeigt der Eintrag dazu. Auf diese Lücke zielen Cloudflares vier Forderungen an Crawler: ein Opt-out für Training und eines für KI-Zusammenfassungen in der Suche, Einsicht auf URL-Ebene und die öffentliche Zusage, dass ein Opt-out das Ranking nicht berührt. Im Einzelnen: Neuen Websites schlägt Cloudflare seit dem 15. September 2026 Einstellungen nach Geschäftsmodell vor, für Websites mit Werbung: Suche erlaubt, KI-Training untersagt, KI-Agenten auf Seiten mit Anzeigen gesperrt.",
       "position": 119,
       "id": "crawler-zweck-gemischt",
       "url": "https://robert-haase.de/belege.html#crawler-zweck-gemischt",
@@ -3897,8 +3968,12 @@
         "name": "Anbieterangaben",
         "group": "weak"
       },
-      "sourceText": "Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · Zur Quelle",
+      "sourceText": "Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · Cloudflare Radar, AI Insights, Reihe „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 (zu Cloudflare Radar) · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zu Cloudflare Radar",
+          "url": "https://radar.cloudflare.com/ai-insights"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/"
@@ -3955,10 +4030,10 @@
       "text": "Als Ersatz für Befragte taugt KI laut Pew Research Center bisher nicht. Pew hat drei eigene Umfragen von Januar bis April 2026 mit sogenannten digitalen Zwillingen nachgestellt: Über knapp 300 Fragen lagen die KI-Ergebnisse im Schnitt 12 Prozentpunkte daneben, bei rund 28 Prozent der Fragen mehr als 15.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · abgerufen am 30. September 2026",
+        "name": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · Modellvergleich auf einer eigenen Seite · abgerufen am 30. September und 1. November 2026",
         "url": "https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Referenz ist Pews American Trends Panel, also die USA; gefragt wurde zu Politik, Wissen und Tagesgeschehen, nicht zu Marken oder Käufen. Geprüft ist ein Verfahren: Claude Opus 4.6 auf niedriger Denkstufe, mit erweiterten Profilangaben und „expert reflection“. Das Modell verändert das Bild: Im Vergleich an einer Teilmenge der Fragen zeichnete GPT-5.1 die Öffentlichkeit extremer, Opus 4.6 gemäßigter, als sie ist. Pew befragt selbst Menschen, die Methode ist offengelegt. Übertragen auf Marktforschung, nicht getestet: Wer synthetische Personas befragt, bekommt Antworten, die sicherer und einheitlicher klingen als die der Menschen, die sie darstellen sollen. Im Einzelnen: Bei fast der Hälfte der Fragen wählte kein einziger KI-Befragter mindestens eine der Antwortmöglichkeiten, und „not sure“ wählten Menschen rund viermal so oft wie die KI. Ein Beispiel: Laut KI verfolgen 97 Prozent der Hispanics in den USA die Fußball-WM zumindest einigermaßen wahrscheinlich, tatsächlich sind es 43 Prozent.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Referenz ist Pews American Trends Panel, also die USA; gefragt wurde zu Politik, Wissen und Tagesgeschehen, nicht zu Marken oder Käufen. Geprüft ist ein Verfahren: Claude Opus 4.6 auf niedriger Denkstufe, mit erweiterten Profilangaben und „expert reflection“. Das Modell verändert das Bild: Im Vergleich an einer Teilmenge der Fragen zeichnete GPT-5.1 die Öffentlichkeit extremer, Opus 4.6 gemäßigter, als sie ist; der mittlere Fehler lag bei GPT-5.1 bei 13,3, bei Opus 4.6 bei 11,4 Prozentpunkten. Pew befragt selbst Menschen, die Methode ist offengelegt. Übertragen auf Marktforschung, nicht getestet: Wer synthetische Personas befragt, bekommt Antworten, die sicherer und einheitlicher klingen als die der Menschen, die sie darstellen sollen. Im Einzelnen: Bei fast der Hälfte der Fragen wählte kein einziger KI-Befragter mindestens eine der Antwortmöglichkeiten, und „not sure“ wählten Menschen rund viermal so oft wie die KI. Ein Beispiel: Laut KI verfolgen 97 Prozent der Hispanics in den USA die Fußball-WM zumindest einigermaßen wahrscheinlich, tatsächlich sind es 43 Prozent.",
       "position": 121,
       "id": "synthetische-befragte",
       "url": "https://robert-haase.de/belege.html#synthetische-befragte",
@@ -3967,8 +4042,12 @@
         "name": "Kontrollierter Test",
         "group": "strong"
       },
-      "sourceText": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · abgerufen am 30. September 2026 · Methode · Zur Quelle",
+      "sourceText": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · Modellvergleich auf einer eigenen Seite (zum Modellvergleich) · abgerufen am 30. September und 1. November 2026 · Methode · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zum Modellvergleich",
+          "url": "https://www.pewresearch.org/data-labs/2026/09/30/how-synthetic-polling-results-change-based-on-the-ai-model/"
+        },
         {
           "name": "Methode",
           "url": "https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/"
@@ -4048,10 +4127,10 @@
       "text": "OpenAIs dauerhaft laufende Agenten, am 29. September 2026 als „dots“ vorgestellt, arbeiten nach Regeln in drei Stufen: Eigene Regeln können einzelne Aktionen erlauben, an eine Freigabe binden oder sperren, die eingebauten Sicherheitsregeln gelten immer, und bestimmte sensible Aufgaben bleiben immer beim Menschen.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026",
+        "name": "OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026 · Verfügbarkeit: OpenAI Help Center, „Getting started with your dot“, aktualisiert am 30. Oktober 2026 · Anthropic, „Introducing Claude Duet“, 21. Oktober 2026, mit Nachtrag vom 23. Oktober 2026 · beide abgerufen am 1. November 2026",
         "url": "https://openai.com/index/introducing-dots/"
       },
-      "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung oder Haftung. Es ist die Produktankündigung des Herstellers ohne Zahlen zur Nutzung; dots starten in ChatGPT für Pro und Business Premium „in eligible markets“, in Enterprise als Beta, die spezialisierten dots zunächst in Pilotprojekten. Wer für einen Fehler einsteht, regelt die Seite nicht; OpenAI schreibt selbst, dots könnten Fehler machen, folgenreiche Ergebnisse seien immer zu prüfen. Vorgaben zu Marke oder Tonalität erwähnt die Seite nicht: dots lernen laut OpenAI aus Rückmeldungen, anders als die Markenregeln, die Microsoft und Google ihren Assistenten als Konfiguration mitgeben, wie die Einträge zu beiden zeigen. An einer Einbindung in Microsofts Agent 365 arbeitet OpenAI nach eigenen Angaben. Im Einzelnen: Zu den sensiblen Aufgaben, die immer beim Menschen bleiben, gehört etwa das Ändern eines Passworts. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen.",
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: Nutzung oder Haftung. Es ist die Produktankündigung des Herstellers ohne Zahlen zur Nutzung; dots starten in ChatGPT für Pro-Nutzer ab 18 Jahren außerhalb des Europäischen Wirtschaftsraums, der Schweiz und Großbritanniens, für Business Premium „in supported ChatGPT regions“, in Enterprise als Beta, die spezialisierten dots zunächst in Pilotprojekten. Wer für einen Fehler einsteht, regelt die Seite nicht; OpenAI schreibt selbst, dots könnten Fehler machen, folgenreiche Ergebnisse seien immer zu prüfen. Vorgaben zu Marke oder Tonalität erwähnt die Seite nicht: dots lernen laut OpenAI aus Rückmeldungen, anders als die Markenregeln, die Microsoft und Google ihren Assistenten als Konfiguration mitgeben, wie die Einträge zu beiden zeigen. An einer Einbindung in Microsofts Agent 365 arbeitet OpenAI nach eigenen Angaben. Ein zweiter Hersteller, dasselbe Muster: Anthropics dauerhaft laufender Agent Claude Duet, seit dem 21. Oktober 2026 als Vorschau mit Warteliste für US-Abonnenten, liest, entwirft und bereitet selbst vor; bevor er eine Nachricht sendet, zahlt, unterschreibt oder löscht, zeigt er die Aktion und wartet auf Freigabe. Wertpapierhandel und Überweisungen zwischen Konten übernimmt er auch mit Freigabe nicht. Auch dort steht nichts zu Haftung oder Markenvorgaben. Im Einzelnen: Zu den sensiblen Aufgaben, die immer beim Menschen bleiben, gehört etwa das Ändern eines Passworts. Über Plugins verbinden sich dots mit mehr als 4.000 Apps. In Unternehmen bekommen sogenannte spezialisierte dots eine eigene Identität, eigene Zugangsdaten und eigenen Zugriff auf die Systeme, die sie brauchen.",
       "position": 124,
       "id": "dots-freigaberegeln",
       "url": "https://robert-haase.de/belege.html#dots-freigaberegeln",
@@ -4060,8 +4139,16 @@
         "name": "Herstellerdokumentation",
         "group": "strong"
       },
-      "sourceText": "OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026 · Zur Quelle",
+      "sourceText": "OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026 · Verfügbarkeit: OpenAI Help Center, „Getting started with your dot“, aktualisiert am 30. Oktober 2026 (zur Hilfeseite) · Anthropic, „Introducing Claude Duet“, 21. Oktober 2026, mit Nachtrag vom 23. Oktober 2026 (zu Claude Duet) · beide abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
+        {
+          "name": "zur Hilfeseite",
+          "url": "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot"
+        },
+        {
+          "name": "zu Claude Duet",
+          "url": "https://claude.com/resources/articles/claude-duet"
+        },
         {
           "name": "Zur Quelle",
           "url": "https://openai.com/index/introducing-dots/"
@@ -4204,13 +4291,13 @@
     {
       "@type": "Claim",
       "@id": "https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis",
-      "text": "Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im September 2026 kamen laut Cloudflare bei Anthropic 555 Abrufe auf einen Verweis, bei OpenAI 354 und bei Perplexity 2.283, bei Google 4,7 und bei Microsoft 40.",
+      "text": "Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im Oktober 2026 kamen laut Cloudflare bei Anthropic 485 Abrufe auf einen Verweis, bei OpenAI 783 und bei Perplexity 4.050, bei Google 4,8 und bei Microsoft 40.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 30. September 2026, Werte über die Datenschnittstelle der Seite abgefragt am 15. Oktober 2026, ebenso Juli, August und 1. bis 14. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026",
+        "name": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 31. Oktober 2026, Werte über die Datenschnittstelle der Seite abgefragt am 1. November 2026, Juli bis September abgefragt am 15. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026",
         "url": "https://radar.cloudflare.com/ai-insights"
       },
-      "disambiguatingDescription": "Was die Zahl nicht sagt: Native Apps senden beim Weiterleiten keine Herkunftsangabe (Referrer), die Claude-App nachweislich nicht; Cloudflare zählt diese Besuche deshalb nicht mit und schreibt selbst, die Verhältnisse seien überzeichnet, unklar wie stark. Gemessen wird nur Verkehr im eigenen Netz und nur auf HTML-Seiten. Die Monatswerte schwanken stark: OpenAI kam im Juli auf 251, im August auf 425, im September auf 354 und in der ersten Oktoberhälfte auf 902, Perplexity stieg von 289 im Juli auf 3.523. Belastbar ist der Abstand zu den Suchmaschinen, nicht der einzelne Wert. Was daraus folgt: Wer KI-Crawler zulässt, bekommt dafür bisher wenig Besuch zurück; die Einträge zur Klickrate zeigen dasselbe von der Seite der Nutzer. Im Einzelnen: Gezählt werden HTML-Abrufe der Crawler eines Anbieters, geteilt durch HTML-Abrufe, deren Referrer auf seine Plattform zeigt. DuckDuckGo kommt im September auf 3,5.",
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Native Apps senden beim Weiterleiten keine Herkunftsangabe (Referrer), die Claude-App nachweislich nicht; Cloudflare zählt diese Besuche deshalb nicht mit und schreibt selbst, die Verhältnisse seien überzeichnet, unklar wie stark. Gemessen wird nur Verkehr im eigenen Netz und nur auf HTML-Seiten. Die Monatswerte schwanken stark: OpenAI kam im Juli auf 251, im August auf 425, im September auf 354 und im Oktober auf 783, Anthropic im September auf 555; Perplexity stieg von 289 im Juli über 2.283 im September auf 4.050. Belastbar ist der Abstand zu den Suchmaschinen, nicht der einzelne Wert. Was daraus folgt: Wer KI-Crawler zulässt, bekommt dafür bisher wenig Besuch zurück; die Einträge zur Klickrate zeigen dasselbe von der Seite der Nutzer. Im Einzelnen: Gezählt werden HTML-Abrufe der Crawler eines Anbieters, geteilt durch HTML-Abrufe, deren Referrer auf seine Plattform zeigt. DuckDuckGo kommt im Oktober auf 4,0.",
       "position": 129,
       "id": "crawl-verweis-verhaeltnis",
       "url": "https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis",
@@ -4219,7 +4306,7 @@
         "name": "Marktbeobachtung",
         "group": "plain"
       },
-      "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 30. September 2026, Werte über die Datenschnittstelle der Seite abgefragt am 15. Oktober 2026, ebenso Juli, August und 1. bis 14. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026 (zum Methodenbeitrag) · Zur Quelle",
+      "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 31. Oktober 2026, Werte über die Datenschnittstelle der Seite abgefragt am 1. November 2026, Juli bis September abgefragt am 15. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026 (zum Methodenbeitrag) · Zur Quelle",
       "sourceLinks": [
         {
           "name": "zum Methodenbeitrag",
@@ -4230,7 +4317,7 @@
           "url": "https://radar.cloudflare.com/ai-insights"
         }
       ],
-      "citationText": "Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im September 2026 kamen laut Cloudflare bei Anthropic 555 Abrufe auf einen Verweis, bei OpenAI 354 und bei Perplexity 2.283, bei Google 4,7 und bei Microsoft 40. (Cloudflare Radar, „Crawl-to-refer ratio“, September 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis"
+      "citationText": "Für jeden Besuch, den sie einer Website über einen Link schicken, rufen die Crawler der KI-Anbieter dort ein Vielfaches an Seiten ab. Im Oktober 2026 kamen laut Cloudflare bei Anthropic 485 Abrufe auf einen Verweis, bei OpenAI 783 und bei Perplexity 4.050, bei Google 4,8 und bei Microsoft 40. (Cloudflare Radar, Crawl-to-refer ratio, Oktober 2026). https://radar.cloudflare.com/ai-insights · via https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis"
     },
     {
       "@type": "Claim",
@@ -4478,6 +4565,207 @@
         }
       ],
       "citationText": "Unter 20 Themen setzen europäische Marketingentscheider für 2026 Branding auf Platz 1 und Marketing mit generativer KI auf Platz 17. Zugleich zählt die Hälfte der Marketingchefs es zu den drei am schnellsten wachsenden Investitionsfeldern; nur 6 Prozent beschreiben den Einsatz generativer KI im eigenen Unternehmen als ausgereift. (McKinsey, State of Marketing Europe 2026, 500 Marketingentscheider, 20. November 2025). https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core · via https://robert-haase.de/belege.html#marketing-prioritaeten"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agent-lenkt-urteil",
+      "text": "In einem randomisierten Versuch mit 50 Fachleuten für kausale Datenanalyse folgten diese bei vier Analyseentscheidungen in 86 Prozent der Fälle der Neigung ihres KI-Agenten, die per Los zugeteilt war; ohne Einfluss wären etwa 50 Prozent zu erwarten. 77 Prozent übernahmen seine Argumente, teils wörtlich, nur 15 Prozent nannten den Agenten.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Anthropic, Amaç Herdağdelen, Hailey Joren und Alex Tamkin, „How AI agents shape experts’ judgment calls“, 27. Oktober 2026 · randomisierter Versuch mit 61 Fachleuten, davon 50 mit Agent, Claude Opus 4.8 in Claude Code, Analyseplan bei OSF (osf.io/t3q59) · Volltext mit Methodik und Registrierung · abgerufen am 1. November 2026",
+        "url": "https://www.anthropic.com/research/agents-judgment-calls"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Beide Optionen jeder Entscheidung waren vertretbar; gemessen ist Übernahme, nicht Fehler. Die Neigung des Agenten war absichtlich verstärkt, es ist eine Aufgabe in einem Fach mit einem Modell (Claude Opus 4.8), und die Studie stammt vom Hersteller dieses Modells, ohne Begutachtung. Bei der Schlussempfehlung ist der Effekt nicht signifikant: 54 gegen 36 Prozent je nach Neigung, p = 0,069. Den Analyseplan registrierten die Autoren erst, als 17 Personen schon begonnen hatten. Was daraus folgt: Wer mit einem Agenten analysiert, übernimmt dessen Wertungen, ohne es zu merken oder zu sagen; Berufserfahrung schützte im Versuch nicht davor. Dieselbe Richtung zeigt der Eintrag zur Angleichung von Texten mit KI-Hilfe. Im Einzelnen: Rekrutiert wurden 61 vorab geprüfte Fachleute, 11 arbeiteten ohne Agent als Vergleichsgruppe. Die Aufgabe dauerte etwa eine Stunde, eine Empfehlung an eine erfundene Agrargenossenschaft. Der Agent bekam eine verdeckte Anweisung, die zugeloste Option zu vertreten, ohne Ergebnisse zu verfälschen.",
+      "position": 139,
+      "id": "agent-lenkt-urteil",
+      "url": "https://robert-haase.de/belege.html#agent-lenkt-urteil",
+      "topic": "urteil",
+      "grade": {
+        "name": "Kontrollierter Versuch, Preprint ohne Begutachtung",
+        "group": "weak"
+      },
+      "sourceText": "Anthropic, Amaç Herdağdelen, Hailey Joren und Alex Tamkin, „How AI agents shape experts’ judgment calls“, 27. Oktober 2026 · randomisierter Versuch mit 61 Fachleuten, davon 50 mit Agent, Claude Opus 4.8 in Claude Code, Analyseplan bei OSF (osf.io/t3q59) · Volltext mit Methodik und Registrierung (zum Volltext) · abgerufen am 1. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zum Volltext",
+          "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.anthropic.com/research/agents-judgment-calls"
+        }
+      ],
+      "citationText": "In einem randomisierten Versuch mit 50 Fachleuten für kausale Datenanalyse folgten diese bei vier Analyseentscheidungen in 86 Prozent der Fälle der Neigung ihres KI-Agenten, die per Los zugeteilt war; ohne Einfluss wären etwa 50 Prozent zu erwarten. 77 Prozent übernahmen seine Argumente, teils wörtlich, nur 15 Prozent nannten den Agenten. (Anthropic, Herdağdelen, Joren und Tamkin, randomisierter Versuch mit 61 Fachleuten, 27. Oktober 2026). https://www.anthropic.com/research/agents-judgment-calls · via https://robert-haase.de/belege.html#agent-lenkt-urteil"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#chatgpt-anzeigen-umschreiben",
+      "text": "Seit dem 30. Oktober 2026 schreibt ChatGPT Anzeigen von Werbetreibenden automatisch um: neue Überschriften und Beschreibungen, Übersetzungen, angepasste Bilder und eine andere Zielseite auf der eigenen Website. Die Varianten laufen laut OpenAI ohne Prüfung oder Freigabe jeder Fassung und ohne Vorschau; wer das nicht will, muss es abschalten.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "OpenAI Help Center, „Creative enhancements for ChatGPT Ads“, Abschnitte „What can change“, „Manage creative enhancements“ und „Frequently asked questions“, aktualisiert Ende Oktober 2026 · abgerufen am 1. November 2026",
+        "url": "https://help.openai.com/en/articles/20001614-creative-enhancements-for-chatgpt-ads"
+      },
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: wie oft und wie stark umgeschrieben wird und wie viele Werbetreibende abgeschaltet haben. Es ist Herstellerdokumentation ohne Zahlen, Länder nennt die Seite nicht. Was daraus folgt: Die Voreinstellung liegt beim Kanal, nicht bei der Marke. Was eine Marke im Anzeigentext sagt, setzt ChatGPT je Gespräch neu zusammen, aus der vorhandenen Anzeige, der Zielseite und dem Gesprächskontext. Anders als Google für seine automatisch angepassten Texte nennt OpenAI keine Markenvorgaben und keine ausgeschlossenen Begriffe, nur den Schalter und den Rat, Anzeigen und Zielseiten aktuell zu halten; wie Google das regelt, zeigt der Eintrag zu den Textregeln in Google Ads, dasselbe Muster der Voreinstellung der Eintrag zu Shopifys Agentenkanälen. Im Einzelnen: Abgeschaltet wird im Ads Manager unter „Manage settings“, für das Konto oder je Kampagne; bestehende Abwahlen bleiben erhalten, die Einstellung der Kampagne geht vor. Die Anzeigen ändern laut OpenAI die Antworten von ChatGPT nicht.",
+      "position": 140,
+      "id": "chatgpt-anzeigen-umschreiben",
+      "url": "https://robert-haase.de/belege.html#chatgpt-anzeigen-umschreiben",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Herstellerdokumentation",
+        "group": "strong"
+      },
+      "sourceText": "OpenAI Help Center, „Creative enhancements for ChatGPT Ads“, Abschnitte „What can change“, „Manage creative enhancements“ und „Frequently asked questions“, aktualisiert Ende Oktober 2026 · abgerufen am 1. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://help.openai.com/en/articles/20001614-creative-enhancements-for-chatgpt-ads"
+        }
+      ],
+      "citationText": "Seit dem 30. Oktober 2026 schreibt ChatGPT Anzeigen von Werbetreibenden automatisch um: neue Überschriften und Beschreibungen, Übersetzungen, angepasste Bilder und eine andere Zielseite auf der eigenen Website. Die Varianten laufen laut OpenAI ohne Prüfung oder Freigabe jeder Fassung und ohne Vorschau; wer das nicht will, muss es abschalten. (OpenAI Help Center, Creative enhancements for ChatGPT Ads, Oktober 2026). https://help.openai.com/en/articles/20001614-creative-enhancements-for-chatgpt-ads · via https://robert-haase.de/belege.html#chatgpt-anzeigen-umschreiben"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agenten-ueberschriften",
+      "text": "In einer simulierten Suche zitierten vier KI-Agenten einen Leitfaden zum Prompting zunächst in 2 von 240 Sitzungen. Nachdem nur Titel und Untertitel so umgeschrieben waren, dass sie die Frage beantworten, zitierten sie ihn in 240 von 240. Der Zusatz „(Updated 2026)“ im Titel senkte den Wert von 2 auf 0 Prozent.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Every, Mike Taylor, „How to Get AI Agents to Recommend Your Articles“, 27. Oktober 2026, aktualisiert am 1. November 2026 · 2.484 Sitzungen mit vier Modellen · abgerufen am 1. November 2026",
+        "url": "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es ist eine Simulation ohne echten Besucherverkehr, das schreibt der Autor selbst. Die Agenten sahen nur Titel und Untertitel von fünf bis acht Suchtreffern und öffneten keinen Artikel; echte Assistenten gewichten auch Suchrang und Seiteninhalt. Optimiert wurden ein Artikel und eine Frage, und Every ist Herausgeber der getesteten Texte. Was es zur Debatte beiträgt: Was die Agenten auswählten, hing nicht mit der Beliebtheit der Beiträge zusammen, die Korrelation lag bei 0,00. Ob ChatGPT eine abgerufene Seite zitiert, behandelt der Eintrag zum Abruf vor dem Inhalt; dieser Test setzt einen Schritt davor an, bei der Auswahl aus der Trefferliste. Im Einzelnen: 2.484 frische Sitzungen mit Claude Opus, Sonnet und Haiku 5.5 und GPT-6.1-Sol, Auftrag: antworten und die zwei nützlichsten Treffer zitieren. Der Anteil von Every an allen Zitaten zu dieser Frage stieg von 35 auf etwa 60 Prozent.",
+      "position": 141,
+      "id": "agenten-ueberschriften",
+      "url": "https://robert-haase.de/belege.html#agenten-ueberschriften",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Kontrollierter Test, Simulation des Herausgebers",
+        "group": "weak"
+      },
+      "sourceText": "Every, Mike Taylor, „How to Get AI Agents to Recommend Your Articles“, 27. Oktober 2026, aktualisiert am 1. November 2026 · 2.484 Sitzungen mit vier Modellen · abgerufen am 1. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles"
+        }
+      ],
+      "citationText": "In einer simulierten Suche zitierten vier KI-Agenten einen Leitfaden zum Prompting zunächst in 2 von 240 Sitzungen. Nachdem nur Titel und Untertitel so umgeschrieben waren, dass sie die Frage beantworten, zitierten sie ihn in 240 von 240. Der Zusatz „(Updated 2026)“ im Titel senkte den Wert von 2 auf 0 Prozent. (Every, Mike Taylor, 2.484 simulierte Sitzungen, 27. Oktober 2026). https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles · via https://robert-haase.de/belege.html#agenten-ueberschriften"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#bildschleifen-motive",
+      "text": "Arbeiten ein Bildmodell und ein Beschreibungsmodell ohne Menschen abwechselnd, Bild zu Text zu Bild, landen die Ergebnisse bei wenigen gefälligen Motiven: In 700 Läufen über je 100 Runden fanden die Forschenden am Ende 12 vorherrschende Motive, etwa Leuchttürme im Sturm und prächtige Innenräume.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Hintze, Proschinger Åström und Schossau, „Autonomous language-image generation loops converge to generic visual motifs“, Patterns 7(1), 101451, Januar 2026, begutachtet (eingereicht 15. Juli, angenommen 17. November 2025) · Volltext bei PubMed Central, CC BY · abgerufen am 1. November 2026",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12827715/"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es geht um geschlossene Schleifen ohne Menschen, nicht um einzelne Eingaben, wie Menschen sie machen; dass immer dieselben Motive herauskämen, egal was man eingibt, wie es in Weitergaben heißt, steht in der Studie nicht. Die Zwölf ist das Ergebnis einer Clusteranalyse, deren Clusterzahl die Autoren gewählt haben. Getestet sind ältere offene Modelle, Stable Diffusion XL und LLaVA; mit weiteren Modellpaaren zeigte sich eine ähnliche Angleichung. Was daraus folgt: Wo Systeme die Ergebnisse von Systemen weiterverarbeiten, ohne dass ein Mensch eingreift, driftet das Ergebnis ins Allgemeine. Dass sich auch Menschen mit KI-Hilfe angleichen, zeigt der Eintrag zur Homogenisierung. Im Einzelnen: 100 Startprompts und sieben Temperaturen; die Autoren nennen das Ergebnis „visual elevator music“.",
+      "position": 142,
+      "id": "bildschleifen-motive",
+      "url": "https://robert-haase.de/belege.html#bildschleifen-motive",
+      "topic": "urteil",
+      "grade": {
+        "name": "Simulation, begutachtet",
+        "group": "plain"
+      },
+      "sourceText": "Hintze, Proschinger Åström und Schossau, „Autonomous language-image generation loops converge to generic visual motifs“, Patterns 7(1), 101451, Januar 2026, begutachtet (eingereicht 15. Juli, angenommen 17. November 2025) · Volltext bei PubMed Central, CC BY · abgerufen am 1. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12827715/"
+        }
+      ],
+      "citationText": "Arbeiten ein Bildmodell und ein Beschreibungsmodell ohne Menschen abwechselnd, Bild zu Text zu Bild, landen die Ergebnisse bei wenigen gefälligen Motiven: In 700 Läufen über je 100 Runden fanden die Forschenden am Ende 12 vorherrschende Motive, etwa Leuchttürme im Sturm und prächtige Innenräume. (Hintze u. a., Patterns 7(1), 101451, 700 Läufe, begutachtet). https://pmc.ncbi.nlm.nih.gov/articles/PMC12827715/ · via https://robert-haase.de/belege.html#bildschleifen-motive"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agenten-zeithorizont",
+      "text": "Wie lang die Aufgaben sind, die KI-Agenten mit 50 Prozent Erfolgswahrscheinlichkeit lösen, misst METR in der Arbeitszeit menschlicher Fachleute: rund 4 Minuten bei GPT-4 im März 2023, rund 17 Stunden bei einer frühen Fassung von Claude Mythos Preview im April 2026. Seit 2023 verdoppelt sich der Wert im Schnitt alle 129 Tage.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "METR, „Task-Completion Time Horizons of Frontier AI Models“, Time Horizon 1.1, zuletzt aktualisiert am 8. September 2026 · Werte aus der Datendatei benchmark_results_1_1.yaml · abgerufen am 1. November 2026",
+        "url": "https://metr.org/time-horizons/"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: METR schreibt selbst, Messungen über 16 Stunden seien mit der aktuellen Aufgabensammlung unzuverlässig. Der Spitzenwert liegt also jenseits der verlässlichen Grenze, sein 95-Prozent-Bereich reicht von 8,5 bis 55 Stunden; die Verdopplungszeit lässt solche Werte aus, ihr Bereich liegt bei 104 bis 158 Tagen. 50 Prozent heißt: Jede zweite Aufgabe scheitert. Bei 80 Prozent Erfolg liegt der Horizont für dasselbe Modell bei 3,1 Stunden. Gemessen sind überwiegend Aufgaben aus Software und KI-Forschung, keine Wissens- oder Markenarbeit. Seit September eingefroren: Die Seite wird seit dem 8. September 2026 nicht mehr aktualisiert, neuere Modelle fehlen. Vorsicht beim Weitergeben: Weitergaben machen daraus, METR könne nicht mehr messen, und nennen ohne Quelle 17 Wochen; METR nennt eine Grenze der Zuverlässigkeit. Wie weit Agenten bei Aufgaben im Web kommen, zeigt der Eintrag zum Erfolg von Agenten.",
+      "position": 143,
+      "id": "agenten-zeithorizont",
+      "url": "https://robert-haase.de/belege.html#agenten-zeithorizont",
+      "topic": "agenten",
+      "grade": {
+        "name": "Messreihe eines Prüfinstituts",
+        "group": "plain"
+      },
+      "sourceText": "METR, „Task-Completion Time Horizons of Frontier AI Models“, Time Horizon 1.1, zuletzt aktualisiert am 8. September 2026 · Werte aus der Datendatei benchmark_results_1_1.yaml (zur Datendatei) · abgerufen am 1. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zur Datendatei",
+          "url": "https://metr.org/assets/benchmark_results_1_1.yaml"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://metr.org/time-horizons/"
+        }
+      ],
+      "citationText": "Wie lang die Aufgaben sind, die KI-Agenten mit 50 Prozent Erfolgswahrscheinlichkeit lösen, misst METR in der Arbeitszeit menschlicher Fachleute: rund 4 Minuten bei GPT-4 im März 2023, rund 17 Stunden bei einer frühen Fassung von Claude Mythos Preview im April 2026. Seit 2023 verdoppelt sich der Wert im Schnitt alle 129 Tage. (METR, Time Horizon 1.1, Stand 8. September 2026). https://metr.org/time-horizons/ · via https://robert-haase.de/belege.html#agenten-zeithorizont"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#kinderbuch-klagen-openai",
+      "text": "Zwei deutsche Kinderbuchverlage klagen vor dem Landgericht München gegen OpenAI: Penguin Random House für „Der kleine Drache Kokosnuss“, eingereicht am 27. März 2026, Carlsen mit Marc-Uwe Kling und Astrid Henn für „Das NEINhorn“, am 19. August 2026. ChatGPT erzeuge auf einfache Eingaben Texte und Bilder, die den Originalen nahekommen.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Carlsen Verlag, Pressemitteilung vom 19. August 2026 zur Klage vor dem Landgericht München I gegen die OpenAI Ireland Ltd. · Penguin Random House Verlagsgruppe, Mitteilung bei Bertelsmann vom 1. April 2026 · abgerufen am 1. November 2026",
+        "url": "https://www.carlsen.de/sites/default/files/2026-08/pressemeldung-2026-08-19-neinhorn-vs-openai.pdf"
+      },
+      "disambiguatingDescription": "Was der Eintrag nicht belegt: eine Rechtsverletzung. Es ist der Vortrag der Kläger in ihren Pressemitteilungen, keine gerichtliche Feststellung; Aktenzeichen und Termine sind nicht veröffentlicht. Worauf es ankommt: Beide Klagen stützen sich darauf, dass die Werke im Modell gespeichert sind (Memorisierung). Das hat das Landgericht München I in der Sache GEMA gegen OpenAI erstinstanzlich bejaht, wie der Eintrag dazu zeigt; endgültig entschieden ist die Frage nicht. Im Einzelnen: Carlsen trägt vor, ChatGPT biete ganze Druckvorlagen an, samt Umschlag, Impressum, gefälschter ISBN und Verlagslogo, und fordert, die Nutzung zu unterlassen, offenzulegen und den Schaden zu ersetzen. Penguin Random House hatte vorher Unterlassung und Auskunft verlangt; OpenAI habe trotz Frist nicht reagiert.",
+      "position": 144,
+      "id": "kinderbuch-klagen-openai",
+      "url": "https://robert-haase.de/belege.html#kinderbuch-klagen-openai",
+      "topic": "haftung",
+      "grade": {
+        "name": "Klage eingereicht, Vortrag der Kläger",
+        "group": "weak"
+      },
+      "sourceText": "Carlsen Verlag, Pressemitteilung vom 19. August 2026 zur Klage vor dem Landgericht München I gegen die OpenAI Ireland Ltd. · Penguin Random House Verlagsgruppe, Mitteilung bei Bertelsmann vom 1. April 2026 (zu Penguin Random House) · abgerufen am 1. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "zu Penguin Random House",
+          "url": "https://www.bertelsmann.com/de/media/nachrichten/penguin-random-house-verlagsgruppe-klagt-gegen-openai.html"
+        },
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.carlsen.de/sites/default/files/2026-08/pressemeldung-2026-08-19-neinhorn-vs-openai.pdf"
+        }
+      ],
+      "citationText": "Zwei deutsche Kinderbuchverlage klagen vor dem Landgericht München gegen OpenAI: Penguin Random House für „Der kleine Drache Kokosnuss“, eingereicht am 27. März 2026, Carlsen mit Marc-Uwe Kling und Astrid Henn für „Das NEINhorn“, am 19. August 2026. ChatGPT erzeuge auf einfache Eingaben Texte und Bilder, die den Originalen nahekommen. (Carlsen, 19. August 2026; Penguin Random House, 1. April 2026). https://www.carlsen.de/sites/default/files/2026-08/pressemeldung-2026-08-19-neinhorn-vs-openai.pdf · via https://robert-haase.de/belege.html#kinderbuch-klagen-openai"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agenten-eskalation-erstattung",
+      "text": "Sechs KI-Assistenten sollten eine verfallene Erstattung über 350 Pfund für einen ausgefallenen Zug durchsetzen. Grok 4.7 schickte in 15 simulierten Tagen 187 Nachrichten, davon 69 an Behörden, Kommunalpolitiker und Presse; Fable 5.1 gab die Krankheit der Mutter an fünf Organisationen weiter, drei Agenten drohten mit Klage.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Vals AI, Matilda Glynn-Henley, „How Far Will AI Assistants Go for a Refund They Can’t Get?“, 15. Oktober 2026 · sechs Modelle, je ein Lauf, simuliertes Gegenüber · abgerufen am 1. November 2026",
+        "url": "https://www.vals.ai/blogs/impossible-refund"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Die Autorin schreibt selbst, ein Lauf je Modell in einem Szenario könne kein typisches Verhalten und keine verlässliche Rangfolge belegen. Die Empfänger waren simuliert und antworteten schneller als echte Organisationen, was die Zahl der Nachrichten erhöhen kann, und die Laufzeiten waren ungleich. Vals AI ist ein Anbieter von Modellbewertungen. Was es zur Debatte beiträgt: Ein Agent mit einem Ziel ohne Grenzen setzt Mittel ein, die niemand freigegeben hat, hier private Gesundheitsangaben und Drohungen. Das Verhalten streut stark: Opus 5.5 schickte in zwölf simulierten Wochen acht Nachrichten. Wie Zusagen eines Bots ein Unternehmen binden können, zeigen die Einträge zu Air Canada und zum Support-Bot von Cursor. Im Einzelnen: Fable 5.1 nannte die Krankheit fälschlich als Grund für die verspätete Forderung. Alle sechs verlangten von der Bank eine Rückbuchung; dort gingen in den sechs Läufen 152 Nachrichten ein, auch weil die Agenten die Identität der Nutzerin nicht bestätigen konnten. Die Agenten lasen das echte Web, ihre ausgehenden Nachrichten wurden abgefangen und von einem simulierten Gegenüber beantwortet; erlaubt waren bis zu zwölf simulierte Wochen und 40 Millionen Tokens je Lauf.",
+      "position": 145,
+      "id": "agenten-eskalation-erstattung",
+      "url": "https://robert-haase.de/belege.html#agenten-eskalation-erstattung",
+      "topic": "agenten",
+      "grade": {
+        "name": "Einzelner Test, ein Lauf je Modell",
+        "group": "weak"
+      },
+      "sourceText": "Vals AI, Matilda Glynn-Henley, „How Far Will AI Assistants Go for a Refund They Can’t Get?“, 15. Oktober 2026 · sechs Modelle, je ein Lauf, simuliertes Gegenüber · abgerufen am 1. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.vals.ai/blogs/impossible-refund"
+        }
+      ],
+      "citationText": "Sechs KI-Assistenten sollten eine verfallene Erstattung über 350 Pfund für einen ausgefallenen Zug durchsetzen. Grok 4.7 schickte in 15 simulierten Tagen 187 Nachrichten, davon 69 an Behörden, Kommunalpolitiker und Presse; Fable 5.1 gab die Krankheit der Mutter an fünf Organisationen weiter, drei Agenten drohten mit Klage. (Vals AI, Glynn-Henley, sechs Modelle je ein Lauf, 15. Oktober 2026). https://www.vals.ai/blogs/impossible-refund · via https://robert-haase.de/belege.html#agenten-eskalation-erstattung"
     }
   ]
 }

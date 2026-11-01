@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-23 of 138 entries in the collection “Evidence” by Robert Haase, as of 20 October 2026.
+24 of 145 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Preliminary: prototype, single test, forecast, or vendor figure (10) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt
++ Preliminary: prototype, single test, forecast, or vendor figure (11) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften
 + Status, case report, or market observation (4) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen
 
 ---
@@ -256,7 +256,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** When AI search recommends brands, it rarely relies on the brand’s own website. At AirOps, for queries in which users look for and compare vendors, 85 percent of 21,311 brand mentions in ChatGPT, Claude and Perplexity came from third-party sources and 13.2 percent from the brand’s own domain.
 
-**What the figures do not say:** Both come from vendors that sell tools for AI search visibility. The Ranqo author is a co-founder with an equity interest in the company, and the brands are those of its own customers, by its own account not a representative selection, mostly software vendors, fintechs and Indian direct-to-consumer brands. AirOps names no data collection period. What is measured is citation, not purchase or effect. **The type of question shifts the picture:** for factual questions about prices, product features or company details, 63.4 percent of citations went to official websites in an Ahrefs test of 20,000 US prompts to ChatGPT, against 46.4 percent for comparison questions, as the entry on ChatGPT’s search queries shows. The post says neither how Ahrefs defines “official” nor when it measured; it is not the same as the brand’s own domain. **Care when passing it on:** Ranqo’s often-quoted “about 78 percent corporate websites” counts the brand’s own site and other companies’ sites together; the brand’s own site accounts for 2.9 percent of it. **In detail:** At Ranqo, only 2.9 percent of 149,912 source citations from five AI search engines point to the brand’s own domain, and 75.2 percent to pages of other companies in the same field.
+**What the figures do not say:** Both come from vendors that sell tools for AI search visibility. The Ranqo author is a co-founder with an equity interest in the company, and the brands are those of its own customers, by its own account not a representative selection, mostly software vendors, fintechs and Indian direct-to-consumer brands. AirOps names no data collection period. What is measured is citation, not purchase or effect. **The type of question shifts the picture:** for factual questions about prices, product features or company details, 63.4 percent of citations went to official websites in an Ahrefs test of 20,000 US prompts to ChatGPT, against 46.4 percent for comparison questions, as the entry on ChatGPT’s search queries shows. The post says neither how Ahrefs defines “official” nor when it measured; it is not the same as the brand’s own domain. **Care when passing it on:** Ranqo’s often-quoted “about 78 percent corporate websites” counts the brand’s own site and other companies’ sites together; the brand’s own site accounts for 2.9 percent of it. Equally, the claim circulates that a brand’s own website supplies “only 5 to 10 percent” of brand mentions; that range does not appear at AirOps, which gives 13.2 percent, and those passing it on name no other study. **In detail:** At Ranqo, only 2.9 percent of 149,912 source citations from five AI search engines point to the brand’s own domain, and 75.2 percent to pages of other companies in the same field.
 
 **Source:** AirOps, “Third-Party Sources Drive 85% of Brand Discovery”, 17 October 2025, 21,311 brand mentions in ChatGPT, Claude and Perplexity for vendor-discovery queries · Kumar (Ranqo), “Generative Engine Optimization at Scale”, arXiv 2606.20065, 18 June 2026, preprint without peer review, 102 brands, 102,025 responses, 149,912 source citations from five AI search engines, March to May 2026 ([to the preprint](https://arxiv.org/abs/2606.20065)) · both retrieved 21 September 2026 · type of question: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, separate test of 20,000 US prompts, retrieved 16 October 2026 ([Ahrefs](https://ahrefs.com/blog/query-fan-out-chatgpt/)) · [Source](https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search)
 
@@ -268,11 +268,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## crawl-verweis-verhaeltnis
 
-**Claim:** For every visit they send to a website through a link, AI providers’ crawlers fetch many times as many of its pages. In September 2026, according to Cloudflare, Anthropic made 555 fetches per referral, OpenAI 354 and Perplexity 2,283, against 4.7 for Google and 40 for Microsoft.
+**Claim:** For every visit they send to a website through a link, AI providers’ crawlers fetch many times as many of its pages. In October 2026, according to Cloudflare, Anthropic made 485 fetches per referral, OpenAI 783 and Perplexity 4,050, against 4.8 for Google and 40 for Microsoft.
 
-**What the number does not say:** native apps send no referrer when passing visitors on, Claude’s app demonstrably not; Cloudflare therefore does not count those visits and writes itself that the ratios are overstated, by an unknown amount. Only traffic in its own network and only HTML pages are measured. Monthly values swing widely: OpenAI stood at 251 in July, 425 in August, 354 in September and 902 in the first half of October, and Perplexity rose from 289 in July to 3,523. What holds is the gap to the search engines, not any single value. **What follows:** a site that admits AI crawlers gets little traffic back for it so far; the entries on click-through show the same from the users’ side. **In detail:** The ratio divides a provider’s crawler HTML requests by HTML requests whose referrer points to its platform. DuckDuckGo stands at 3.5 in September.
+**What the number does not say:** native apps send no referrer when passing visitors on, Claude’s app demonstrably not; Cloudflare therefore does not count those visits and writes itself that the ratios are overstated, by an unknown amount. Only traffic in its own network and only HTML pages are measured. Monthly values swing widely: OpenAI stood at 251 in July, 425 in August, 354 in September and 783 in October, Anthropic at 555 in September; Perplexity rose from 289 in July via 2,283 in September to 4,050. What holds is the gap to the search engines, not any single value. **What follows:** a site that admits AI crawlers gets little traffic back for it so far; the entries on click-through show the same from the users’ side. **In detail:** The ratio divides a provider’s crawler HTML requests by HTML requests whose referrer points to its platform. DuckDuckGo stands at 4.0 in October.
 
-**Source:** Cloudflare Radar, “AI Insights” page, section “Crawl-to-refer ratio”, period 1 to 30 September 2026, values queried through the page’s data interface on 15 October 2026, likewise July, August and 1 to 14 October 2026 · method in the blog post “The crawl before the fall… of referrals: understanding AI’s impact on content providers”, 1 July 2025, last changed 15 July 2026 ([to the method post](https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/)) · [Source](https://radar.cloudflare.com/ai-insights)
+**Source:** Cloudflare Radar, “AI Insights” page, section “Crawl-to-refer ratio”, period 1 to 31 October 2026, values queried through the page’s data interface on 1 November 2026, July to September queried on 15 October 2026 · method in the blog post “The crawl before the fall… of referrals: understanding AI’s impact on content providers”, 1 July 2025, last changed 15 July 2026 ([to the method post](https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/)) · [Source](https://radar.cloudflare.com/ai-insights)
 
 **Grade:** Market observation · Group: Status, case report, or market observation
 
@@ -350,4 +350,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 23 of 23 entries on AI search. Last entry: ki-suche-vielfalt.
+## agenten-ueberschriften
+
+**Claim:** In a simulated search, four AI agents at first cited a prompting guide in 2 of 240 sessions. After only its title and subtitle were rewritten to answer the question, they cited it in 240 of 240. Adding “(Updated 2026)” to the title lowered the rate from 2 to 0 percent.
+
+**What the number does not say:** it is a simulation without live traffic, as the author says himself. The agents saw only the titles and subtitles of five to eight search results and opened no article; real assistants also weigh search rank and page content. One article and one question were optimised, and Every publishes the texts tested. **What it adds to the debate:** what the agents chose was unrelated to how popular the posts were, with a correlation of 0.00. Whether ChatGPT cites a page it has retrieved is covered by the entry on retrieval before content; this test starts one step earlier, at the choice from the list of results. **In detail:** 2,484 fresh sessions with Claude Opus, Sonnet and Haiku 5.5 and GPT-6.1-Sol; the instruction was to answer and cite the two most useful results. Every’s share of all citations for this question rose from 35 to about 60 percent.
+
+**Source:** Every, Mike Taylor, “How to Get AI Agents to Recommend Your Articles”, 27 October 2026, updated 1 November 2026 · 2,484 sessions with four models · retrieved 1 November 2026 · [Source](https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles)
+
+**Grade:** Controlled test, publisher’s simulation · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-ueberschriften
+
+---
+
+End of file: 24 of 24 entries on AI search. Last entry: agenten-ueberschriften.

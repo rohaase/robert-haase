@@ -1,6 +1,6 @@
 # Evidence: Judgement
 
-21 of 138 entries in the collection “Evidence” by Robert Haase, as of 20 October 2026.
+23 of 145 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-urteil.md
 
@@ -23,18 +23,18 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (9) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte
-+ Preliminary: prototype, single test, forecast, or vendor figure (0)
-+ Status, case report, or market observation (12) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
++ Preliminary: prototype, single test, forecast, or vendor figure (1) → agent-lenkt-urteil
++ Status, case report, or market observation (13) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling, bildschleifen-motive
 
 ---
 
 ## metr-selbsteinschaetzung
 
-**Claim:** Experienced developers took 19 percent *longer* with AI tools — while believing they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed.
+**Claim:** Experienced developers took 19 percent *longer* with AI tools but believed they had been 20 percent faster. Beforehand they had expected a 24 percent speed-up. Between measured and perceived effect lie 43 percentage points, with the sign reversed.
 
-**What the number does not say:** 16 developers, 246 tasks, exclusively in repositories they had known for five years on average. That familiarity explains part of the result — anyone who holds their own project in their head gains less from assistance. It does not transfer to unfamiliar code or other knowledge work, and the tools date from early 2025. **Newer measurement:** In a second study with 57 developers and over 800 tasks, METR measured in February 2026 task times 18 percent shorter with AI for the ten returning participants and 4 percent shorter for the new ones; both confidence intervals include zero. METR considers it likely that AI tools speed developers up more in early 2026 and treats the figures as a lower bound, because many no longer wanted to work without AI and are therefore missing. **What holds:** the gap between measurement and self-assessment. It is the reason to distrust any productivity figure based on asking people.
+**What the number does not say:** 16 developers, 246 tasks, exclusively in repositories they had known for five years on average. That familiarity explains part of the result: anyone who holds their own project in their head gains less from assistance. It does not transfer to unfamiliar code or other knowledge work, and the tools date from early 2025. **Newer measurement:** In a second study with 57 developers and over 800 tasks, METR measured in February 2026 task times 18 percent shorter with AI for the ten returning participants and 4 percent shorter for the new ones; both confidence intervals include zero. METR considers it likely that AI tools speed developers up more in early 2026 and treats the figures as a lower bound, because many no longer wanted to work without AI and are therefore missing. **A survey shows the same pattern:** 349 technical workers put their gain from AI between February and April 2026 at a median 1.4 to 2 times in value and 3 times in speed. METR itself writes that the answers are “not necessarily grounded in reality” and considers the sample likely to suffer from significant selection bias. **What holds:** the gap between measurement and self-assessment. It is the reason to distrust any productivity figure based on asking people.
 
-**Source:** METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · newer measurement: METR, “We are Changing our Developer Productivity Experiment Design”, 24 February 2026, 57 developers, 143 repositories, over 800 tasks, retrieved 21 September 2026 · [to the newer measurement](https://metr.org/blog/2026-02-24-uplift-update/) · [Study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+**Source:** METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · newer measurement: METR, “We are Changing our Developer Productivity Experiment Design”, 24 February 2026, 57 developers, 143 repositories, over 800 tasks, retrieved 21 September 2026 · survey: METR, “How do technical workers use AI tools?”, 11 May 2026, 349 respondents ([survey](https://metr.org/blog/2026-05-11-ai-usage-survey/)), retrieved 1 November 2026 · [to the newer measurement](https://metr.org/blog/2026-02-24-uplift-update/) · [Study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
 **Grade:** Controlled trial · Group: Verified study, vendor documentation, or court decision
 
@@ -142,11 +142,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## prognose-mensch-maschine
 
-**Claim:** On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.7 and shares third place with a Google DeepMind entry, behind two more allowed to use tools and extra context (69.0 and 68.9). On the base leaderboard, without tools, the human median leads at 67.7 against the best model at 61.9.
+**Claim:** On the ForecastBench tournament leaderboard, the median of human superforecasters scores 68.5 and ranks seventh, level with two entries; six are ahead of it, at 69.7 to 68.6, none of them significantly better. On the base leaderboard, without tools, the human median leads at 67.4 against the best model at 61.4.
 
-**What the leaderboard does not say:** the machines’ lead is not established. Its own significance column finds no difference for the places ahead of and level with the median, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. The values shift by tenths with every nightly recalculation. **A best-of-many result:** Google DeepMind holds 56 of 427 entries and all three places ahead of and level with the humans, whose comparison group is a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against 847. **On parity:** the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to June 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand. **In detail:** The best model on the base leaderboard on 15 October is Moonshot AI’s Kimi K3 Max (61.9); at the end of September Claude Sonnet 4.6 led with 62.2, now it stands at 61.1.
+**What the leaderboard does not say:** the machines’ lead is not established. Its own significance column finds no difference for the places ahead of and level with the median, and the confidence intervals almost fully overlap. The Brier Index is not a hit rate despite the percent sign, and the conversion is non-linear. The values shift by tenths with every nightly recalculation. **A best-of-many result:** many participants submit variants: 55 of the 463 rows list Google DeepMind as the developer, and an anonymous participant with six rows holds first and second place; the humans are a single row. The questions differ too: the humans were last surveyed in July 2024, 578 questions against up to 851. **On parity:** the operators record parity reached on 7 June 2026 for the tournament evaluation and project it for the tool-free one to June 2028, interval July 2026 to December 2030, which reflects only the uncertainty of the line fit. And forecasting dated events is not a strategic judgement about a brand. **In detail:** The best model on the base leaderboard on 1 November is OpenAI’s o3 with a scratchpad (61.4), ahead of Moonshot AI’s Kimi K3 Max (61.0), which led with 61.9 in mid-October. In mid-October the human median still shared third place in the tournament.
 
-**Source:** ForecastBench, Forecasting Research Institute, tournament and base leaderboards from the nightly updated leaderboard files, as of 15 October 2026; parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · [Leaderboard files](https://github.com/forecastingresearch/forecastbench-datasets/tree/main/leaderboards/csv) · [Leaderboard](https://www.forecastbench.org/leaderboards/)
+**Source:** ForecastBench, Forecasting Research Institute, tournament and base leaderboards from the nightly updated leaderboard files, as of 1 November 2026 (commit db5bf6d1); parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · [Leaderboard files](https://github.com/forecastingresearch/forecastbench-datasets/tree/main/leaderboards/csv) · [Leaderboard](https://www.forecastbench.org/leaderboards/)
 
 **Grade:** Ongoing measurement · Group: Status, case report, or market observation
 
@@ -312,9 +312,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** According to Pew Research Center, AI cannot yet stand in for survey respondents. Pew replicated three of its own surveys from January to April 2026 with so-called digital twins: across nearly 300 questions, the AI results were off by an average of 12 percentage points, and by more than 15 on around 28 percent of questions.
 
-**What the number does not say:** the reference is Pew’s American Trends Panel, so the US; the questions covered politics, knowledge and current events, not brands or purchases. One method was tested: Claude Opus 4.6 at low reasoning, with extended profile information and “expert reflection”. The model changes the picture: in a comparison on a subset of questions, GPT-5.1 portrayed the public as more extreme, Opus 4.6 as more middle-of-the-road than it is. Pew surveys people itself; the method is published. **Carried over to market research, not tested:** whoever surveys synthetic personas gets answers that sound more certain and more uniform than the people they are meant to represent. **In detail:** On nearly half the questions, at least one answer option was not chosen by a single AI respondent, and humans picked “not sure” around four times as often as the AI. One example: according to the AI, 97 percent of Hispanic adults in the US are at least somewhat likely to follow the World Cup; the actual share is 43 percent.
+**What the number does not say:** the reference is Pew’s American Trends Panel, so the US; the questions covered politics, knowledge and current events, not brands or purchases. One method was tested: Claude Opus 4.6 at low reasoning, with extended profile information and “expert reflection”. The model changes the picture: in a comparison on a subset of questions, GPT-5.1 portrayed the public as more extreme, Opus 4.6 as more middle-of-the-road than it is; the average absolute error was 13.3 percentage points for GPT-5.1 and 11.4 for Opus 4.6. Pew surveys people itself; the method is published. **Carried over to market research, not tested:** whoever surveys synthetic personas gets answers that sound more certain and more uniform than the people they are meant to represent. **In detail:** On nearly half the questions, at least one answer option was not chosen by a single AI respondent, and humans picked “not sure” around four times as often as the AI. One example: according to the AI, 97 percent of Hispanic adults in the US are at least somewhat likely to follow the World Cup; the actual share is 43 percent.
 
-**Source:** Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer and Aaron Smith, “Can AI Stand In for Human Survey-Takers? Not Really”, 30 September 2026 · three American Trends Panel waves of 20 to 26 January, 23 to 29 March and 20 to 26 April 2026, replicated with Claude Opus 4.6 · retrieved 30 September 2026 · [Method](https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/) · [Source](https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/)
+**Source:** Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer and Aaron Smith, “Can AI Stand In for Human Survey-Takers? Not Really”, 30 September 2026 · three American Trends Panel waves of 20 to 26 January, 23 to 29 March and 20 to 26 April 2026, replicated with Claude Opus 4.6 · model comparison on a separate page ([model comparison](https://www.pewresearch.org/data-labs/2026/09/30/how-synthetic-polling-results-change-based-on-the-ai-model/)) · retrieved 30 September and 1 November 2026 · [Method](https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/) · [Source](https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/)
 
 **Grade:** Controlled test · Group: Verified study, vendor documentation, or court decision
 
@@ -322,4 +322,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 21 of 21 entries on Judgement. Last entry: synthetische-befragte.
+## agent-lenkt-urteil
+
+**Claim:** In a randomised experiment with 50 experts in causal data analysis, participants went with their AI agent’s lean in 86 percent of four analytical choices; the lean had been assigned by lot, so without influence about 50 percent would be expected. 77 percent adopted the agent’s arguments, sometimes word for word, and only 15 percent credited it.
+
+**What the number does not say:** both options of every choice were defensible; what is measured is adoption, not error. The agent’s lean was deliberately strengthened, it is one task in one field with one model (Claude Opus 4.8), and the study comes from the maker of that model, without peer review. For the final recommendation the effect is not significant: 54 against 36 percent depending on the lean, p = 0.069. The authors registered the analysis plan only after 17 people had already started. **What follows:** whoever analyses with an agent takes on its judgements without noticing or saying so; professional experience did not protect against it in the experiment. The entry on the convergence of texts written with AI help points the same way. **In detail:** 61 pre-screened experts were recruited, 11 worked without an agent as a comparison group. The task took about an hour: a recommendation to a fictional agricultural cooperative. The agent received a hidden instruction to argue for the option drawn by lot without falsifying results.
+
+**Source:** Anthropic, Amaç Herdağdelen, Hailey Joren and Alex Tamkin, “How AI agents shape experts’ judgment calls”, 27 October 2026 · randomised experiment with 61 experts, 50 of them with an agent, Claude Opus 4.8 in Claude Code, analysis plan at OSF (osf.io/t3q59) · full paper with methods and registration ([full paper](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf)) · retrieved 1 November 2026 · [Source](https://www.anthropic.com/research/agents-judgment-calls)
+
+**Grade:** Controlled experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agent-lenkt-urteil
+
+---
+
+## bildschleifen-motive
+
+**Claim:** When an image model and a captioning model take turns without humans, image to text to image, the results end up in a few pleasing motifs: across 700 runs of 100 rounds each, the researchers found 12 dominant motifs at the end, such as stormy lighthouses and palatial interiors.
+
+**What the number does not say:** it concerns closed loops without humans, not single prompts as people write them; that the same motifs come out whatever one types, as retellings put it, is not in the study. The twelve is the result of a cluster analysis whose number of clusters the authors chose. Older open models were tested, Stable Diffusion XL and LLaVA; other model pairs showed a similar convergence. **What follows:** where systems process the output of systems without a human stepping in, the result drifts towards the generic. That people writing with AI help converge too is shown in the entry on homogenisation. **In detail:** 100 starting prompts and seven temperatures; the authors call the result “visual elevator music”.
+
+**Source:** Hintze, Proschinger Åström and Schossau, “Autonomous language-image generation loops converge to generic visual motifs”, Patterns 7(1), 101451, January 2026, peer-reviewed (submitted 15 July, accepted 17 November 2025) · full text at PubMed Central, CC BY · retrieved 1 November 2026 · [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12827715/)
+
+**Grade:** Simulation, peer-reviewed · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#bildschleifen-motive
+
+---
+
+End of file: 23 of 23 entries on Judgement. Last entry: bildschleifen-motive.

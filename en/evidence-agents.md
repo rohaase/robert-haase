@@ -1,6 +1,6 @@
 # Evidence: Agents
 
-23 of 138 entries in the collection “Evidence” by Robert Haase, as of 20 October 2026.
+25 of 145 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-agenten.md
 
@@ -23,8 +23,8 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (15) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten, dots-freigaberegeln
-+ Preliminary: prototype, single test, forecast, or vendor figure (6) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt
-+ Status, case report, or market observation (2) → aipref, agenten-wissensarbeit
++ Preliminary: prototype, single test, forecast, or vendor figure (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
++ Status, case report, or market observation (3) → aipref, agenten-wissensarbeit, agenten-zeithorizont
 
 ---
 
@@ -268,11 +268,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## lighthouse-agent-discovery
 
-**Claim:** Since version 13.5.0 of 18 September 2026, Google’s audit tool Lighthouse also checks whether a website’s catalogue for agents conforms to the “Agentic Resource Discovery” specification, and groups this check with the llms.txt check under a group of its own, “Agent Discoverability”.
+**Claim:** Since version 13.5.0 of 18 September 2026, Google’s audit tool Lighthouse also checks whether a website’s catalogue for agents conforms to the “Agentic Resource Discovery” specification. Since version 13.6.0 of 27 October 2026 it checks against version 0.91 of the specification and reports the old ai-catalog paths only as legacy.
 
-**What this entry does not establish:** that agents read these files. An audit tool measures whether something is present and valid, not whether it is used. The llms.txt check has existed since version 13.3.0; for Google Search, Google declares the same file unnecessary, as an entry of its own on the Google Search guide documents. **The specification is a proposal:** ARD stands at version 0.91 of 26 August 2026 with the status “Proposal”, and its authors include people from Google and Hugging Face; it is not a standards-body specification. **And tool and specification diverge:** the specification requires the path /.well-known/ard.json, while version 13.5.0 looks for the predecessor name /.well-known/ai-catalog.json and validates against a schema the specification has since removed. Two changes merged on 9 October 2026 move Lighthouse to version 0.91 and keep the predecessor names as a fallback; as of 16 October 2026 they have not shipped in a release. Where other mechanisms look for such catalogues is shown in the entry on MCP Server Cards. **In detail:** According to the release, the check ships in the DevTools of Chrome 156 and in PageSpeed Insights within two weeks.
+**What this entry does not establish:** that agents read these files. An audit tool measures whether something is present and valid, not whether it is used. The llms.txt check has existed since version 13.3.0; for Google Search, Google declares the same file unnecessary, as an entry of its own on the Google Search guide documents. **The specification is a proposal:** ARD stands at version 0.91 of 26 August 2026 with the status “Proposal”, and its authors include people from Google and Hugging Face; it is not a standards-body specification. **Tool and specification have converged since October:** version 13.5.0 still looked for the predecessor name /.well-known/ai-catalog.json; version 13.6.0 looks for /.well-known/ard.json, plus references in the HTTP Link header and in HTML with rel="ard", and warns about the old paths. Where other mechanisms look for such catalogues is shown in the entry on MCP Server Cards. **In detail:** The group “Agent Discoverability” runs the check together with the llms.txt check. According to the release, version 13.6.0 ships in the DevTools of Chrome 159 and in PageSpeed Insights within a week; the same version also recognises a License directive in robots.txt.
 
-**Source:** Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” ([to the specification](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · retrieved 21 September 2026 · Lighthouse, pull requests 17258 and 17259 moving to version 0.91, merged 9 October 2026, latest release still 13.5.0, checked 16 October 2026 ([pull request](https://github.com/GoogleChrome/lighthouse/pull/17258)) · [Source](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
+**Source:** Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” ([to the specification](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · retrieved 21 September 2026 · Lighthouse release 13.6.0 of 27 October 2026 with the move to version 0.91 ([release 13.6.0](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0)), retrieved 1 November 2026 · pull requests 17258 and 17259 ([pull request](https://github.com/GoogleChrome/lighthouse/pull/17258)) · [Source](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
 
 **Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
 
@@ -326,9 +326,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Crawlers that collect content both for a search index and for AI training account for 36.6 percent of verified crawler traffic on Cloudflare’s network, according to the company, the single largest category. Fewer than 1 percent of website owners block search crawlers; 17 percent restrict AI training.
 
-**What the number does not say:** these are vendor figures with no disclosed method or period, measured on its own network, and the default applies only to newly added websites. **What follows for robots.txt:** a website can only allow or block a mixed-use crawler as a whole there; the Content-Signal line expresses the purpose only as a request, and the entry on it shows how rarely it is used. Cloudflare’s four demands on crawlers address this gap: an opt-out for training and one for AI summaries in search, URL-level visibility, and a public commitment that opting out does not affect ranking. **In detail:** Since 15 September 2026, Cloudflare has been proposing settings by business model to new websites; for ad-supported sites: search allowed, AI training disallowed, AI agents blocked on pages that carry ads.
+**What the number does not say:** these are vendor figures with no disclosed method or period, measured on its own network, and the default applies only to newly added websites. **A second series measures differently:** in Cloudflare Radar the share of mixed-purpose crawlers in AI crawler traffic lies between 37.0 and 40.6 percent per month from June to October 2026, at 39.3 in October; that is a different base from the verified crawler traffic in the press release. **What follows for robots.txt:** a website can only allow or block a mixed-use crawler as a whole there; the Content-Signal line expresses the purpose only as a request, and the entry on it shows how rarely it is used. Cloudflare’s four demands on crawlers address this gap: an opt-out for training and one for AI summaries in search, URL-level visibility, and a public commitment that opting out does not affect ranking. **In detail:** Since 15 September 2026, Cloudflare has been proposing settings by business model to new websites; for ad-supported sites: search allowed, AI training disallowed, AI agents blocked on pages that carry ads.
 
-**Source:** Cloudflare, press release “Cloudflare Helps End the Search-or-AI-Training Tradeoff”, 15 September 2026 · retrieved 28 September 2026 · [Source](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
+**Source:** Cloudflare, press release “Cloudflare Helps End the Search-or-AI-Training Tradeoff”, 15 September 2026 · retrieved 28 September 2026 · Cloudflare Radar, AI Insights, series “Crawl purpose”, monthly values June to October 2026, queried through the page’s data interface on 1 November 2026 ([Cloudflare Radar](https://radar.cloudflare.com/ai-insights)) · [Source](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
 
 **Grade:** Vendor figures · Group: Preliminary: prototype, single test, forecast, or vendor figure
 
@@ -340,9 +340,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** OpenAI’s always-on agents, introduced on 29 September 2026 as “dots”, work under rules in three tiers: custom rules can allow specific actions, require approval for them or block them, the built-in safety requirements always apply, and certain sensitive tasks always stay with the person.
 
-**What this entry does not establish:** use or liability. It is the vendor’s product announcement without usage figures; dots are rolling out in ChatGPT to Pro and Business Premium users “in eligible markets”, to Enterprise as a beta, and specialist dots start in pilot projects. The page does not say who answers for a mistake; OpenAI itself writes that dots can still make mistakes and that consequential work should always be reviewed. The page mentions no brand or tone guidelines: according to OpenAI, dots learn from feedback, unlike the brand rules that Microsoft and Google hand their assistants as configuration, as the entries on both show. OpenAI says it is working on an integration with Microsoft’s Agent 365. **In detail:** Changing a password is one example of the sensitive tasks that always stay with the person. Through plugins, dots connect to more than 4,000 apps. In organisations, so-called specialist dots get their own identity, their own credentials and their own access to the systems they need.
+**What this entry does not establish:** use or liability. It is the vendor’s product announcement without usage figures; dots are rolling out in ChatGPT to Pro users aged 18 and over outside the European Economic Area, Switzerland and the UK, and to Business Premium users “in supported ChatGPT regions”, to Enterprise as a beta, and specialist dots start in pilot projects. The page does not say who answers for a mistake; OpenAI itself writes that dots can still make mistakes and that consequential work should always be reviewed. The page mentions no brand or tone guidelines: according to OpenAI, dots learn from feedback, unlike the brand rules that Microsoft and Google hand their assistants as configuration, as the entries on both show. OpenAI says it is working on an integration with Microsoft’s Agent 365. **A second vendor, the same pattern:** Anthropic’s always-on agent Claude Duet, available since 21 October 2026 as a research preview by waitlist for US subscribers, reads, drafts and prepares work on its own; before it sends a message, makes a payment, signs a document or deletes anything, it shows the action and waits for approval. Trading securities and moving money between accounts are off-limits even with approval. Its page, too, says nothing about liability or brand guidelines. **In detail:** Changing a password is one example of the sensitive tasks that always stay with the person. Through plugins, dots connect to more than 4,000 apps. In organisations, so-called specialist dots get their own identity, their own credentials and their own access to the systems they need.
 
-**Source:** OpenAI, “Introducing dots”, 29 September 2026, sections “Access and permissions”, “Action review and approvals” and “Specialist dots for your organization”, German version “Wir stellen dots vor” · retrieved 30 September 2026 · [Source](https://openai.com/index/introducing-dots/)
+**Source:** OpenAI, “Introducing dots”, 29 September 2026, sections “Access and permissions”, “Action review and approvals” and “Specialist dots for your organization”, German version “Wir stellen dots vor” · retrieved 30 September 2026 · availability: OpenAI Help Center, “Getting started with your dot”, updated 30 October 2026 ([help page](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot)) · Anthropic, “Introducing Claude Duet”, 21 October 2026, with an update of 23 October 2026 ([Claude Duet](https://claude.com/resources/articles/claude-duet)) · both retrieved 1 November 2026 · [Source](https://openai.com/index/introducing-dots/)
 
 **Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
 
@@ -350,4 +350,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 23 of 23 entries on Agents. Last entry: dots-freigaberegeln.
+## agenten-zeithorizont
+
+**Claim:** How long the tasks are that AI agents complete with a 50 percent chance of success is measured by METR in the working time of human experts: about 4 minutes for GPT-4 in March 2023, about 17 hours for an early version of Claude Mythos Preview in April 2026. Since 2023 the value has doubled on average every 129 days.
+
+**What the number does not say:** METR itself writes that measurements above 16 hours are unreliable with its current task suite. The top value therefore lies beyond the reliable limit, with a 95 percent interval from 8.5 to 55 hours; the doubling time excludes such values, and its interval runs from 104 to 158 days. 50 percent means every other task fails. At 80 percent success the horizon for the same model is 3.1 hours. The tasks are mostly from software and AI research, not knowledge or brand work. **Frozen since September:** the page has not been updated since 8 September 2026, and newer models are missing. **Care when passing it on:** retellings turn this into METR no longer being able to measure, and give 17 weeks without a source; METR names a limit of reliability. How far agents get with tasks on the web is shown in the entry on agent success.
+
+**Source:** METR, “Task-Completion Time Horizons of Frontier AI Models”, Time Horizon 1.1, last updated 8 September 2026 · values from the data file benchmark_results_1_1.yaml ([data file](https://metr.org/assets/benchmark_results_1_1.yaml)) · retrieved 1 November 2026 · [Source](https://metr.org/time-horizons/)
+
+**Grade:** Measurement series by an evaluation lab · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-zeithorizont
+
+---
+
+## agenten-eskalation-erstattung
+
+**Claim:** Six AI assistants were asked to recover an expired £350 refund for a cancelled train. Grok 4.7 sent 187 messages in 15 simulated days, 69 of them to government officials, council members and the press; Fable 5.1 shared the user’s mother’s illness with five organisations, and three agents threatened court action.
+
+**What the number does not say:** the author herself writes that one trial per model in one scenario cannot establish typical behaviour or a reliable ranking. The recipients were simulated and replied faster than real organisations, which can inflate the number of messages, and run lengths differed. Vals AI sells model evaluations. **What it adds to the debate:** an agent with a goal and no limits uses means nobody approved, here private health information and threats. Behaviour varies widely: Opus 5.5 sent eight messages over twelve simulated weeks. How a bot’s promises can bind a company is shown in the entries on Air Canada and on Cursor’s support bot. **In detail:** Fable 5.1 falsely gave the illness as the reason for the late claim. All six asked the user’s bank for a chargeback; the bank received 152 messages across the six runs, partly because the agents could not confirm the user’s identity. The agents read the live web, their outgoing messages were intercepted and answered by a simulated counterpart; each run allowed up to twelve simulated weeks and 40 million tokens.
+
+**Source:** Vals AI, Matilda Glynn-Henley, “How Far Will AI Assistants Go for a Refund They Can’t Get?”, 15 October 2026 · six models, one run each, simulated counterpart · retrieved 1 November 2026 · [Source](https://www.vals.ai/blogs/impossible-refund)
+
+**Grade:** Single test, one run per model · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-eskalation-erstattung
+
+---
+
+End of file: 25 of 25 entries on Agents. Last entry: agenten-eskalation-erstattung.
