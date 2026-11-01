@@ -1,6 +1,6 @@
 # Belege: KI-Suche
 
-24 von 145 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
+26 von 153 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-ai-search.md
 
@@ -23,8 +23,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (11) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften
-+ Sachstand, Fallbericht oder Marktbeobachtung (4) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (12) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10
++ Sachstand, Fallbericht oder Marktbeobachtung (5) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat
 
 ---
 
@@ -364,4 +364,32 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 24 von 24 Einträgen zum Thema KI-Suche. Letzter Eintrag: agenten-ueberschriften.
+## ki-zitate-ausserhalb-top10
+
+**Aussage:** Von den Adressen, die KI-Assistenten als Quelle nennen, steht nur ein kleiner Teil in Googles Top 10 für dieselbe Frage: Ahrefs fand bei 15.000 Long-Tail-Fragen an ChatGPT, Gemini und Copilot rund 8 Prozent, bei Perplexity 28,6 Prozent. Moz fand bei fast 40.000 Anfragen an Googles AI Mode 12 Prozent.
+
+**Was die Zahlen nicht sagen:** Verglichen wird die genaue Adresse. Auf Ebene der Website stammt bei Moz jede fünfte Quelle aus einer Top-10-Domain, und der AI Mode sucht laut Moz über mehrere verwandte Anfragen zugleich, was den Abgleich mit einer einzigen Anfrage drückt. Die oft zitierte Ahrefs-Zahl von 12 Prozent ist ein einfacher Mittelwert aus fünf Werten, ChatGPT geht darin zweimal ein. Ahrefs erhob Anfang Juli 2025 und veröffentlichte im August, Moz wertete Daten aus den USA und Großbritannien aus; beide verkaufen SEO-Werkzeuge, unabhängig geprüft ist keine der Messungen. Für Googles KI-Übersichten liegen die Werte höher, wie der Eintrag zu den uneinigen Erhebungen dort zeigt. **Was daraus folgt:** Ein Platz in Googles Top 10 ist nicht das Tor zu einer Nennung in KI-Antworten. Ein höherer Rang erhöht bei Moz die Chance, selbst Platz eins wird aber nur manchmal zitiert.
+
+**Quelle:** Ahrefs, Louise Linehan und Xibeijia Guan, „Only 12% of AI Cited URLs Rank in Google’s Top 10 for the Original Prompt“, 11. August 2025, Daten Anfang Juli 2025 · Moz, Chima Mmeje, „Only 12% of AI Mode Citations Match URLs in the Organic SERP“, 18. Februar 2026, Daten aus STAT, Desktop und Mobil ([zu Moz](https://moz.com/blog/ai-mode-citations)) · abgerufen am 1. November 2026 · [Zur Quelle](https://ahrefs.com/blog/ai-search-overlap/)
+
+**Einstufung:** Zwei Anbietermessungen · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#ki-zitate-ausserhalb-top10
+
+---
+
+## govuk-chat
+
+**Aussage:** Die britische Regierung schaltete GOV.UK Chat am 26. März 2026 ohne Ankündigung in der GOV.UK-App frei; in den Wochen danach stellten mehr als 7.800 Menschen über 15.000 Fragen. Zu den Grenzen gehört laut Government Digital Service, dass der Assistent keine Beratung versucht und sagt, wann die Originalleitfäden zu prüfen sind.
+
+**Was der Eintrag nicht belegt:** wie gut die Antworten sind. Zahlen zu Genauigkeit oder Fehlern veröffentlicht der Betreiber nicht, er schreibt nur, die Leistung entspreche dem früheren Pilotversuch. Einen Stichtag für die Nutzerzahlen nennt er nicht; bekannt gemacht hat er den Dienst am 14. Mai 2026, sieben Wochen nach dem Start. **Was daraus folgt:** Ein staatliches Antwortfeld legt seine Grenzen vor dem Start fest und nennt sie öffentlich: keine Beratung, Verweis auf die Quelle, persönliche Angaben werden herausgefiltert, laufende Überwachung. Sicherheitsprüfungen machten Fachleute, darunter das AI Security Institute.
+
+**Quelle:** Government Digital Service, Shelina Hargrove, „GOV.UK Chat launches“, GDS-Blog, 14. Mai 2026 · abgerufen am 1. November 2026 · [Zur Quelle](https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/)
+
+**Einstufung:** Angaben des Betreibers · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#govuk-chat
+
+---
+
+Ende der Datei: 26 von 26 Einträgen zum Thema KI-Suche. Letzter Eintrag: govuk-chat.

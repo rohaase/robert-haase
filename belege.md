@@ -1,4 +1,4 @@
-# Belege: alle 145 Aussagen
+# Belege: alle 153 Aussagen
 
 Übersicht der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
@@ -24,19 +24,19 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Themendateien
 
-- KI-Suche, 24 Einträge: https://robert-haase.de/belege-ki-suche.md
+- KI-Suche, 26 Einträge: https://robert-haase.de/belege-ki-suche.md
 - Agenten, 25 Einträge: https://robert-haase.de/belege-agenten.md
-- Schnittstellen, 23 Einträge: https://robert-haase.de/belege-schnittstellen.md
-- Handel, 12 Einträge: https://robert-haase.de/belege-handel.md
+- Schnittstellen, 24 Einträge: https://robert-haase.de/belege-schnittstellen.md
+- Handel, 15 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 17 Einträge: https://robert-haase.de/belege-haftung.md
-- Marktgröße, 21 Einträge: https://robert-haase.de/belege-markt.md
+- Marktgröße, 23 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 23 Einträge: https://robert-haase.de/belege-urteil.md
 
-## KI-Suche (24)
+## KI-Suche (26)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (11) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften
-+ Sachstand, Fallbericht oder Marktbeobachtung (4) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (12) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10
++ Sachstand, Fallbericht oder Marktbeobachtung (5) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat
 
 - **llmstxt-abrufe** · Geprüfte Erhebung · Von rund 38.000 Domains mit einer llms.txt erhielten 97 Prozent im Mai 2026 keinerlei Abruf der Datei. → https://robert-haase.de/belege-ki-suche.md
 - **llmstxt-wirkung** · Geprüfte Erhebung · Bei knapp 300.000 untersuchten Domains fand sich kein Zusammenhang zwischen einer llms.txt und der Häufigkeit, mit der eine Domain in KI-Antworten als Quelle auftauchte. → https://robert-haase.de/belege-ki-suche.md
@@ -62,6 +62,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **abruf-vor-inhalt** · Auswertung, Preprint ohne Begutachtung · Ob ChatGPT eine Seite zitiert, hängt vor allem davon ab, ob seine Suche sie abruft: Innerhalb einer Website erklärt der Abruf laut einer Studie der University of Toronto 32 Prozent der Unterschiede, die Eigenschaften der Seite 2,8 Prozent. Bekannte Marken schreibt das Modell in 67 Prozent der Fälle selbst in seine Suchen, andere in 11 Prozent. → https://robert-haase.de/belege-ki-suche.md
 - **ki-suche-vielfalt** · Feldexperiment, Preprint ohne Begutachtung · In einem Feldexperiment mit 37.561 Lesern der Washington Post lasen Leser mit KI-Antworten über den Suchergebnissen im Schnitt 69 Prozent mehr Inhalte, die auch andere lasen, und verteilten ihre Aufmerksamkeit zugleich breiter: Der Anteil der zehn meistgelesenen Themen sank von 41,1 auf 36,7 Prozent. → https://robert-haase.de/belege-ki-suche.md
 - **agenten-ueberschriften** · Kontrollierter Test, Simulation des Herausgebers · In einer simulierten Suche zitierten vier KI-Agenten einen Leitfaden zum Prompting zunächst in 2 von 240 Sitzungen. Nachdem nur Titel und Untertitel so umgeschrieben waren, dass sie die Frage beantworten, zitierten sie ihn in 240 von 240. Der Zusatz „(Updated 2026)“ im Titel senkte den Wert von 2 auf 0 Prozent. → https://robert-haase.de/belege-ki-suche.md
+- **ki-zitate-ausserhalb-top10** · Zwei Anbietermessungen · Von den Adressen, die KI-Assistenten als Quelle nennen, steht nur ein kleiner Teil in Googles Top 10 für dieselbe Frage: Ahrefs fand bei 15.000 Long-Tail-Fragen an ChatGPT, Gemini und Copilot rund 8 Prozent, bei Perplexity 28,6 Prozent. Moz fand bei fast 40.000 Anfragen an Googles AI Mode 12 Prozent. → https://robert-haase.de/belege-ki-suche.md
+- **govuk-chat** · Angaben des Betreibers · Die britische Regierung schaltete GOV.UK Chat am 26. März 2026 ohne Ankündigung in der GOV.UK-App frei; in den Wochen danach stellten mehr als 7.800 Menschen über 15.000 Fragen. Zu den Grenzen gehört laut Government Digital Service, dass der Assistent keine Beratung versucht und sagt, wann die Originalleitfäden zu prüfen sind. → https://robert-haase.de/belege-ki-suche.md
 
 ## Agenten (25)
 
@@ -95,9 +97,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agenten-zeithorizont** · Messreihe eines Prüfinstituts · Wie lang die Aufgaben sind, die KI-Agenten mit 50 Prozent Erfolgswahrscheinlichkeit lösen, misst METR in der Arbeitszeit menschlicher Fachleute: rund 4 Minuten bei GPT-4 im März 2023, rund 17 Stunden bei einer frühen Fassung von Claude Mythos Preview im April 2026. Seit 2023 verdoppelt sich der Wert im Schnitt alle 129 Tage. → https://robert-haase.de/belege-agenten.md
 - **agenten-eskalation-erstattung** · Einzelner Test, ein Lauf je Modell · Sechs KI-Assistenten sollten eine verfallene Erstattung über 350 Pfund für einen ausgefallenen Zug durchsetzen. Grok 4.7 schickte in 15 simulierten Tagen 187 Nachrichten, davon 69 an Behörden, Kommunalpolitiker und Presse; Fable 5.1 gab die Krankheit der Mutter an fünf Organisationen weiter, drei Agenten drohten mit Klage. → https://robert-haase.de/belege-agenten.md
 
-## Schnittstellen (23)
+## Schnittstellen (24)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (15) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → monotype-mcp, veeva-mlr, olivares-access-map
 + Sachstand, Fallbericht oder Marktbeobachtung (5) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards
 
@@ -124,12 +126,13 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **chatgpt-plugin-pruefung** · Herstellerdokumentation · Wer ein Plugin mit MCP-Verbindung ins ChatGPT-Verzeichnis bringen will, muss festlegen, was es nicht tun soll: Für die erste Prüfung verlangt OpenAI genau fünf positive und drei negative Testfälle. Nach der Veröffentlichung prüft OpenAI den MCP-Server täglich, neue Werkzeuge bleiben bis zur Freigabe gesperrt. → https://robert-haase.de/belege-schnittstellen.md
 - **mcp-server-cards** · Stand der Normung · Für das Model Context Protocol ist eine Erweiterung abgeschlossen, mit der ein Agent einen entfernten MCP-Server vor dem Verbinden erkennt: Eine Server Card beschreibt Identität, Adressen und Protokollversionen. Werkzeuge, Ressourcen und Prompts lässt sie bewusst weg. → https://robert-haase.de/belege-schnittstellen.md
 - **chatgpt-anzeigen-umschreiben** · Herstellerdokumentation · Seit dem 30. Oktober 2026 schreibt ChatGPT Anzeigen von Werbetreibenden automatisch um: neue Überschriften und Beschreibungen, Übersetzungen, angepasste Bilder und eine andere Zielseite auf der eigenen Website. Die Varianten laufen laut OpenAI ohne Prüfung oder Freigabe jeder Fassung und ohne Vorschau; wer das nicht will, muss es abschalten. → https://robert-haase.de/belege-schnittstellen.md
+- **open-source-aufgegeben** · Geprüfte Erhebung · Von 1.932 populären GitHub-Projekten waren in einer Studie von 2019 315 aufgegeben, 16 Prozent: Keiner der Kernentwickler hatte seit mindestens einem Jahr etwas beigetragen. 128 davon, 41 Prozent, überlebten, weil neue Kernentwickler die Pflege übernahmen. → https://robert-haase.de/belege-schnittstellen.md
 
-## Handel (12)
+## Handel (15)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (2) → agenten-lenkung-marktplatz, agent-werbung-steuerung
-+ Sachstand, Fallbericht oder Marktbeobachtung (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum
++ Sachstand, Fallbericht oder Marktbeobachtung (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
 
 - **checkout-rueckbau** · Marktbeobachtung · Den Kauf im Chat hat OpenAI gut fünf Monate nach dem Start zurückgebaut, weil die erste Fassung von Instant Checkout nicht flexibel genug gewesen sei; Händler nutzen seitdem ihren eigenen Checkout. Seit Ende Oktober 2026 erwähnt OpenAIs Hilfeseite Instant Checkout nicht mehr; Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im Kanal. → https://robert-haase.de/belege-handel.md
 - **airline-direktkanal** · Kontrollierter Test · In einem Test der Flugsuche steuerten Sprachmodelle die Website der Airline nur in etwa fünf Prozent der Fälle direkt an. Bevorzugt wurden Buchungsportale. → https://robert-haase.de/belege-handel.md
@@ -143,6 +146,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agentenkanal-voreinstellung** · Herstellerdokumentation · Bei Shopify sind die sogenannten agentic storefronts für berechtigte Shops standardmäßig aktiv: Die Produkte erscheinen in KI-Kanälen wie ChatGPT, Google AI Mode und Gemini, Microsoft Copilot und Meta. Wer die Voreinstellung „Allow Shopify to manage for me“ behält, ist automatisch auch in allen künftigen Kanälen angemeldet. → https://robert-haase.de/belege-handel.md
 - **agenten-lenkung-marktplatz** · Kontrollierter Test, Preprint ohne Begutachtung · In neun nachgebauten Marktplätzen wählten Computer-Use-Agenten aus fünf Modellfamilien in 78,6 Prozent der Kontrollläufe das für den Nutzer beste Produkt; waren Lenkungsmechanismen aktiv, aus einer Einteilung von acht verbreiteten Arten, waren es nur 17,3 Prozent. → https://robert-haase.de/belege-handel.md
 - **agent-werbung-steuerung** · Kontrollierter Versuch, Preprint ohne Begutachtung · Ein wahrer Satz in einer Produktbeschreibung kann Einkaufsagenten steuern: Steht dort „enthält kein Blizyester“, ein erfundener Stoff, und finden die Agenten im Netz gezielt platzierte Seiten über dessen angebliche Schäden, werten mehrere aktuelle Modelle die Angebote ohne diesen Satz ab. Gegen Plattformregeln verstößt das nicht. → https://robert-haase.de/belege-handel.md
+- **chatgpt-verweise-konversion** · Geprüfte Erhebung · Über zwölf Monate und 973 Onlineshops mit zusammen 20 Milliarden Dollar Umsatz konvertierte Verkehr aus organischen ChatGPT-Links seltener als jeder klassische Kanal außer bezahltem Social; auch der Umsatz je Sitzung lag darunter. Adobe meldet für US-Händler im Mai 2026 das Gegenteil, 54 Prozent mehr Konversion als Nicht-KI-Verkehr. → https://robert-haase.de/belege-handel.md
+- **ki-verweise-handel-wachstum** · Anbietermessung · Besuche auf US-Handelsseiten, die über einen Link in einem KI-Assistenten kommen, wuchsen laut Adobe im Juli 2025 um 4.700 Prozent gegenüber dem Vorjahr und im Mai 2026 noch um 138 Prozent; seit Oktober 2024, dem Beginn der Zählung, summiert Adobe das Wachstum auf 1.324 Prozent. → https://robert-haase.de/belege-handel.md
+- **aldi-ohne-app** · Unternehmenserklärung · Aldi Nord und Aldi Süd haben am 20. Juli 2026 erklärt, auf exklusive App-Rabatte, Kundenbindungs-Apps und Couponpreise zu verzichten: ein Preis für alle, ohne Bedingungen, gegen eine „Zweikassengesellschaft“, in der laut Aldi vielerorts mehr zahlt, wer keine App nutzt. → https://robert-haase.de/belege-handel.md
 
 ## Haftung (17)
 
@@ -168,10 +174,10 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **gema-openai** · Gerichtsurteil, nicht endgültig · Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen. → https://robert-haase.de/belege-haftung.md
 - **kinderbuch-klagen-openai** · Klage eingereicht, Vortrag der Kläger · Zwei deutsche Kinderbuchverlage klagen vor dem Landgericht München gegen OpenAI: Penguin Random House für „Der kleine Drache Kokosnuss“, eingereicht am 27. März 2026, Carlsen mit Marc-Uwe Kling und Astrid Henn für „Das NEINhorn“, am 19. August 2026. ChatGPT erzeuge auf einfache Eingaben Texte und Bilder, die den Originalen nahekommen. → https://robert-haase.de/belege-haftung.md
 
-## Marktgröße (21)
+## Marktgröße (23)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat
 + Sachstand, Fallbericht oder Marktbeobachtung (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 - **machine-customers** · Selbsteinschätzung, Prognose · In einer Gartner-Befragung schätzen Vorstandschefs, dass bis 2030 15 bis 20 Prozent ihres Umsatzes von Maschinen als Kunden kommen. → https://robert-haase.de/belege-markt.md
@@ -195,6 +201,8 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **chatbot-nichtnutzung** · Befragung · 51 Prozent der US-Erwachsenen nutzen nie einen KI-Chatbot. Von ihnen nennen 83 Prozent fehlendes Interesse als Grund, 79 Prozent die Sorge um ihre persönlichen Daten und 76 Prozent Misstrauen in die Richtigkeit der Antworten; 67 Prozent halten es für unwahrscheinlich, in den nächsten zwölf Monaten damit anzufangen. → https://robert-haase.de/belege-markt.md
 - **cmo-ki-budget** · Befragung · Marketingchefs geben im Schnitt 15,3 Prozent ihres Budgets für KI-Vorhaben aus, doch nur 30 Prozent nennen die KI-Fähigkeiten ihrer Organisation ausgereift. Die Marketingbudgets selbst stagnieren bei 7,8 Prozent des Umsatzes, 2025 waren es 7,7 Prozent; 56 Prozent sagen, ihnen fehle das Budget für ihre Strategie 2026. → https://robert-haase.de/belege-markt.md
 - **marketing-prioritaeten** · Befragung · Unter 20 Themen setzen europäische Marketingentscheider für 2026 Branding auf Platz 1 und Marketing mit generativer KI auf Platz 17. Zugleich zählt die Hälfte der Marketingchefs es zu den drei am schnellsten wachsenden Investitionsfeldern; nur 6 Prozent beschreiben den Einsatz generativer KI im eigenen Unternehmen als ausgereift. → https://robert-haase.de/belege-markt.md
+- **reddit-lizenzerloese** · Geprüfter Jahresabschluss · Reddit wies für 2025 sonstige Erlöse von 140 Millionen Dollar aus, nach 115 Millionen 2024 und 15 Millionen 2023, rund 6 Prozent des Umsatzes. Sie stammen aus Inhaltslizenzen und direkt an Nutzer verkauften Produkten, Letztere laut Reddit unwesentlich; im Wesentlichen der gesamte Vertragswert der Lizenzen kommt von zwei Partnern. → https://robert-haase.de/belege-markt.md
+- **trainingsdaten-vorrat** · Prognose, Modellrechnung · Epoch AI schätzt den nutzbaren Bestand öffentlicher, von Menschen geschriebener Texte auf rund 300 Billionen Token und erwartet mit 80 Prozent Wahrscheinlichkeit, dass Sprachmodelle ihn bei anhaltendem Trend zwischen 2026 und 2032 vollständig aufgebraucht haben. → https://robert-haase.de/belege-markt.md
 
 ## Urteil (23)
 
@@ -226,4 +234,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agent-lenkt-urteil** · Kontrollierter Versuch, Preprint ohne Begutachtung · In einem randomisierten Versuch mit 50 Fachleuten für kausale Datenanalyse folgten diese bei vier Analyseentscheidungen in 86 Prozent der Fälle der Neigung ihres KI-Agenten, die per Los zugeteilt war; ohne Einfluss wären etwa 50 Prozent zu erwarten. 77 Prozent übernahmen seine Argumente, teils wörtlich, nur 15 Prozent nannten den Agenten. → https://robert-haase.de/belege-urteil.md
 - **bildschleifen-motive** · Simulation, begutachtet · Arbeiten ein Bildmodell und ein Beschreibungsmodell ohne Menschen abwechselnd, Bild zu Text zu Bild, landen die Ergebnisse bei wenigen gefälligen Motiven: In 700 Läufen über je 100 Runden fanden die Forschenden am Ende 12 vorherrschende Motive, etwa Leuchttürme im Sturm und prächtige Innenräume. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 145 von 145 Aussagen in 7 Themen.
+Ende der Übersicht: 153 von 153 Aussagen in 7 Themen.

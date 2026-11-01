@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-01T19:19:54+01:00",
+  "dateModified": "2026-11-01T22:34:00+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 145,
+  "numberOfItems": 153,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -27,7 +27,7 @@
     {
       "id": "ki-suche",
       "name": "AI search",
-      "numberOfItems": 24,
+      "numberOfItems": 26,
       "textFile": "https://robert-haase.de/en/evidence-ai-search.md",
       "ids": [
         "llmstxt-abrufe",
@@ -53,7 +53,9 @@
         "chatgpt-suchanfragen",
         "abruf-vor-inhalt",
         "ki-suche-vielfalt",
-        "agenten-ueberschriften"
+        "agenten-ueberschriften",
+        "ki-zitate-ausserhalb-top10",
+        "govuk-chat"
       ],
       "groups": {
         "strong": [
@@ -78,13 +80,15 @@
           "ki-modus-klicks",
           "abruf-vor-inhalt",
           "ki-suche-vielfalt",
-          "agenten-ueberschriften"
+          "agenten-ueberschriften",
+          "ki-zitate-ausserhalb-top10"
         ],
         "plain": [
           "llmstxt-nutzen",
           "crawl-verweis-verhaeltnis",
           "aio-markensuchen",
-          "chatgpt-suchanfragen"
+          "chatgpt-suchanfragen",
+          "govuk-chat"
         ]
       }
     },
@@ -157,7 +161,7 @@
     {
       "id": "schnittstellen",
       "name": "Interfaces",
-      "numberOfItems": 23,
+      "numberOfItems": 24,
       "textFile": "https://robert-haase.de/en/evidence-interfaces.md",
       "ids": [
         "astryx-agenten",
@@ -182,7 +186,8 @@
         "staat-als-einzige-quelle",
         "chatgpt-plugin-pruefung",
         "mcp-server-cards",
-        "chatgpt-anzeigen-umschreiben"
+        "chatgpt-anzeigen-umschreiben",
+        "open-source-aufgegeben"
       ],
       "groups": {
         "strong": [
@@ -200,7 +205,8 @@
           "markup-ai-stilpruefung",
           "markenstimme-als-skill",
           "chatgpt-plugin-pruefung",
-          "chatgpt-anzeigen-umschreiben"
+          "chatgpt-anzeigen-umschreiben",
+          "open-source-aufgegeben"
         ],
         "weak": [
           "monotype-mcp",
@@ -219,7 +225,7 @@
     {
       "id": "handel",
       "name": "Commerce",
-      "numberOfItems": 12,
+      "numberOfItems": 15,
       "textFile": "https://robert-haase.de/en/evidence-commerce.md",
       "ids": [
         "checkout-rueckbau",
@@ -233,18 +239,23 @@
         "commerce-agent-freigabe",
         "agentenkanal-voreinstellung",
         "agenten-lenkung-marktplatz",
-        "agent-werbung-steuerung"
+        "agent-werbung-steuerung",
+        "chatgpt-verweise-konversion",
+        "ki-verweise-handel-wachstum",
+        "aldi-ohne-app"
       ],
       "groups": {
         "strong": [
           "airline-direktkanal",
           "shopify-knowledge-base",
           "commerce-agent-freigabe",
-          "agentenkanal-voreinstellung"
+          "agentenkanal-voreinstellung",
+          "chatgpt-verweise-konversion"
         ],
         "weak": [
           "agenten-lenkung-marktplatz",
-          "agent-werbung-steuerung"
+          "agent-werbung-steuerung",
+          "ki-verweise-handel-wachstum"
         ],
         "plain": [
           "checkout-rueckbau",
@@ -252,7 +263,8 @@
           "journey-start",
           "kaufentscheidung",
           "ucp-gremium-ohne-zahlen",
-          "agenten-vollmacht-standard"
+          "agenten-vollmacht-standard",
+          "aldi-ohne-app"
         ]
       }
     },
@@ -309,7 +321,7 @@
     {
       "id": "markt",
       "name": "Market size",
-      "numberOfItems": 21,
+      "numberOfItems": 23,
       "textFile": "https://robert-haase.de/en/evidence-market.md",
       "ids": [
         "machine-customers",
@@ -332,12 +344,15 @@
         "ki-verkehr-handel-prognose",
         "chatbot-nichtnutzung",
         "cmo-ki-budget",
-        "marketing-prioritaeten"
+        "marketing-prioritaeten",
+        "reddit-lizenzerloese",
+        "trainingsdaten-vorrat"
       ],
       "groups": {
         "strong": [
           "ki-nutzung-deutschland",
-          "ki-anteil-artikel"
+          "ki-anteil-artikel",
+          "reddit-lizenzerloese"
         ],
         "weak": [
           "machine-customers",
@@ -349,7 +364,8 @@
           "markenklone",
           "suchmarkt-wachstum",
           "cmo-titel-schwindet",
-          "ki-verkehr-handel-prognose"
+          "ki-verkehr-handel-prognose",
+          "trainingsdaten-vorrat"
         ],
         "plain": [
           "nicht-menschlicher-verkehr",
@@ -2582,7 +2598,7 @@
       "text": "Three analytics vendors put a number on the share of website visits that arrive from an AI assistant: Contentsquare 0.2 percent in the fourth quarter of 2025, Semrush 0.14 percent for the year 2025, Conductor 1.08 percent for May to September 2025. Three separately collected measurements, fractions of a percent up to a good one percent.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Contentsquare, 2026 Digital Experience Benchmarks, 99 billion sessions and 6,500 websites worldwide, fourth quarter 2024 against fourth quarter 2025 · 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites and 17 industries worldwide, January to December 2025 · 27 April 2026 · Conductor, AEO/GEO Benchmarks, traffic section from 1,215 of its own enterprise customer domains in the US, May to September 2025 · last updated 6 July 2026 · Marie Haynes, “GEO is a distraction”, 21 October 2026, 100 websites, more than 145 million sessions, twelve months without an exact period, retrieved 1 November 2026",
+        "name": "Contentsquare, 2026 Digital Experience Benchmarks, 99 billion sessions and 6,500 websites worldwide, fourth quarter 2024 against fourth quarter 2025 · 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites and 17 industries worldwide, January to December 2025 · 27 April 2026 · Conductor, AEO/GEO Benchmarks, traffic section from 1,215 of its own enterprise customer domains in the US, more than 3.3 billion sessions, 35.7 million of them from language models and chatbots, May to September 2025 · last updated 6 July 2026 · Marie Haynes, “GEO is a distraction”, 21 October 2026, 100 websites, more than 145 million sessions, twelve months without an exact period, retrieved 1 November 2026",
         "url": "https://www.semrush.com/blog/traffic-channel-mix-study/"
       },
       "disambiguatingDescription": "What the numbers do not say: They count clicks arriving with an identifiable AI referral source, not how often a brand is named in answers. Google AI Mode sits outside the two values that address it: Semrush tracks it as a separate channel at 0.01 percent, and Conductor notes that Google Analytics does not separate it from organic traffic. Why the three values do not belong side by side: Contentsquare measures 6,500 websites worldwide, Semrush more than 50,000 worldwide, Conductor 1,215 of its own customer domains in the US and calls its figures averages. The near eightfold gap between them, 0.14 to 1.08 percent, is largely a question of who was measured. All three sell analytics tools; Contentsquare and Conductor measure their own customer base, Semrush estimates from a bought-in clickstream panel. None of the values is independently audited. A fourth measurement on a different base: the SEO consultant Marie Haynes analysed twelve months of Google Analytics data from 100 websites with more than 145 million sessions: ChatGPT brought 0.62 percent as many sessions as organic Google search, all language models together 0.73 percent. That is a ratio to Google search, not a share of total traffic. Visitors from ChatGPT converted more often (13.8 against 3.02 percent, at the 55 sites that track conversions), yet Google search still brought 96.5 percent of all measured conversions.",
@@ -2594,7 +2610,7 @@
         "name": "Three vendor measurements",
         "group": "weak"
       },
-      "sourceText": "Contentsquare, 2026 Digital Experience Benchmarks, 99 billion sessions and 6,500 websites worldwide, fourth quarter 2024 against fourth quarter 2025 · 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites and 17 industries worldwide, January to December 2025 · 27 April 2026 · Conductor, AEO/GEO Benchmarks, traffic section from 1,215 of its own enterprise customer domains in the US, May to September 2025 · last updated 6 July 2026 · Marie Haynes, “GEO is a distraction”, 21 October 2026, 100 websites, more than 145 million sessions, twelve months without an exact period (Marie Haynes), retrieved 1 November 2026 · Source",
+      "sourceText": "Contentsquare, 2026 Digital Experience Benchmarks, 99 billion sessions and 6,500 websites worldwide, fourth quarter 2024 against fourth quarter 2025 · 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites and 17 industries worldwide, January to December 2025 · 27 April 2026 · Conductor, AEO/GEO Benchmarks, traffic section from 1,215 of its own enterprise customer domains in the US, more than 3.3 billion sessions, 35.7 million of them from language models and chatbots, May to September 2025 · last updated 6 July 2026 · Marie Haynes, “GEO is a distraction”, 21 October 2026, 100 websites, more than 145 million sessions, twelve months without an exact period (Marie Haynes), retrieved 1 November 2026 · Source",
       "sourceLinks": [
         {
           "name": "Marie Haynes",
@@ -4766,6 +4782,242 @@
         }
       ],
       "citationText": "Six AI assistants were asked to recover an expired £350 refund for a cancelled train. Grok 4.7 sent 187 messages in 15 simulated days, 69 of them to government officials, council members and the press; Fable 5.1 shared the user’s mother’s illness with five organisations, and three agents threatened court action. (Vals AI, Glynn-Henley, six models one run each, 15 October 2026). https://www.vals.ai/blogs/impossible-refund · via https://robert-haase.de/en/evidence.html#agenten-eskalation-erstattung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#chatgpt-verweise-konversion",
+      "text": "Across twelve months and 973 online shops with 20 billion dollars in combined revenue, traffic from organic ChatGPT links converted less often than every traditional channel except paid social, and revenue per session was lower too. For US retailers in May 2026 Adobe reports the opposite: 54 percent higher conversion than non-AI traffic.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Maximilian Kaiser and Christian Schulze, “Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?”, Marketing Science 45 (4), online 21 April 2026, open access, peer-reviewed through the journal’s Frontiers process · 973 websites, twelve months of the shops’ own data · Adobe Digital Insights, Vivek Pandya, 17 June 2026, more than one trillion visits to US retail sites, and 21 August 2025, conversion in July 2025 · retrieved 1 November 2026",
+        "url": "https://doi.org/10.1287/mksc.2025.0489"
+      },
+      "disambiguatingDescription": "What the numbers do not say: the study describes the first year after ChatGPT started showing purchase links in August 2024, with just over 50,000 transactions from ChatGPT against 164 million from traditional channels; it measures associations, not causes. Adobe compares against all non-AI traffic combined, that is paid and organic search, affiliates, email and social, and analyses data from its own customers; none of it is independently audited. In July 2025, within the study period, Adobe itself still reported the opposite: AI traffic was 23 percent less likely to convert. What follows: whether AI traffic buys better depends on the period and the comparison. The only peer-reviewed value places it below organic search in its first year, with conversion rising and basket size falling. In detail: ChatGPT traffic does better in complex product categories; visitors bounce less but stay shorter and view fewer pages. The authors see a channel for informed users, not yet a broad sales channel.",
+      "position": 146,
+      "id": "chatgpt-verweise-konversion",
+      "url": "https://robert-haase.de/en/evidence.html#chatgpt-verweise-konversion",
+      "topic": "handel",
+      "grade": {
+        "name": "Verified study",
+        "group": "strong"
+      },
+      "sourceText": "Maximilian Kaiser and Christian Schulze, “Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?”, Marketing Science 45 (4), online 21 April 2026, open access, peer-reviewed through the journal’s Frontiers process · 973 websites, twelve months of the shops’ own data · Adobe Digital Insights, Vivek Pandya, 17 June 2026, more than one trillion visits to US retail sites (Adobe 2026), and 21 August 2025, conversion in July 2025 (Adobe 2025) · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Adobe 2026",
+          "url": "https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent"
+        },
+        {
+          "name": "Adobe 2025",
+          "url": "https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites"
+        },
+        {
+          "name": "Source",
+          "url": "https://doi.org/10.1287/mksc.2025.0489"
+        }
+      ],
+      "citationText": "Across twelve months and 973 online shops with 20 billion dollars in combined revenue, traffic from organic ChatGPT links converted less often than every traditional channel except paid social, and revenue per session was lower too. For US retailers in May 2026 Adobe reports the opposite: 54 percent higher conversion than non-AI traffic. (Kaiser and Schulze, Marketing Science, 21 April 2026; Adobe Digital Insights, 17 June 2026). https://doi.org/10.1287/mksc.2025.0489 · via https://robert-haase.de/en/evidence.html#chatgpt-verweise-konversion"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#ki-verweise-handel-wachstum",
+      "text": "Visits to US retail sites that arrive via a link in an AI assistant grew 4,700 percent year over year in July 2025, according to Adobe, and still 138 percent in May 2026; since October 2024, when the count began, Adobe puts the growth at 1,324 percent.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Adobe Digital Insights, Vivek Pandya, “Generative AI-powered shopping rises with traffic to U.S. retail sites up 4,700%”, 21 August 2025, measured by clicks on a link · “AI traffic to travel sites soars nearly 200%”, 17 June 2026, section on retail · retrieved 1 November 2026",
+        "url": "https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites"
+      },
+      "disambiguatingDescription": "What the numbers do not say: how large AI traffic is. The rates grow from a very small base; Adobe itself calls it modest compared with channels such as paid search or email, and for January and April 2025 Adobe compares against July 2024 because earlier values were too small to serve as a baseline. What share of visits comes from AI assistants is shown in the entry on the AI traffic share: fractions of a percent up to a good one percent. What is counted is clicks on a link, not mentions in answers. The data come from more than one trillion visits at Adobe’s customers and are not independently audited. What follows: growth rates in the thousands say little about the weight of the channel without its share; they only show the direction.",
+      "position": 147,
+      "id": "ki-verweise-handel-wachstum",
+      "url": "https://robert-haase.de/en/evidence.html#ki-verweise-handel-wachstum",
+      "topic": "handel",
+      "grade": {
+        "name": "Vendor measurement",
+        "group": "weak"
+      },
+      "sourceText": "Adobe Digital Insights, Vivek Pandya, “Generative AI-powered shopping rises with traffic to U.S. retail sites up 4,700%”, 21 August 2025, measured by clicks on a link · “AI traffic to travel sites soars nearly 200%”, 17 June 2026, section on retail (Adobe 2026) · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Adobe 2026",
+          "url": "https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent"
+        },
+        {
+          "name": "Source",
+          "url": "https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites"
+        }
+      ],
+      "citationText": "Visits to US retail sites that arrive via a link in an AI assistant grew 4,700 percent year over year in July 2025, according to Adobe, and still 138 percent in May 2026; since October 2024, when the count began, Adobe puts the growth at 1,324 percent. (Adobe Digital Insights, 21 August 2025 and 17 June 2026). https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites · via https://robert-haase.de/en/evidence.html#ki-verweise-handel-wachstum"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#ki-zitate-ausserhalb-top10",
+      "text": "Of the addresses AI assistants cite as sources, only a small share sits in Google’s top 10 for the same question: Ahrefs found around 8 percent for 15,000 long-tail questions to ChatGPT, Gemini and Copilot, and 28.6 percent for Perplexity. Moz found 12 percent across nearly 40,000 queries to Google’s AI Mode.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Ahrefs, Louise Linehan and Xibeijia Guan, “Only 12% of AI Cited URLs Rank in Google’s Top 10 for the Original Prompt”, 11 August 2025, data from early July 2025 · Moz, Chima Mmeje, “Only 12% of AI Mode Citations Match URLs in the Organic SERP”, 18 February 2026, data from STAT, desktop and mobile · retrieved 1 November 2026",
+        "url": "https://ahrefs.com/blog/ai-search-overlap/"
+      },
+      "disambiguatingDescription": "What the numbers do not say: what is compared is the exact address. At site level, one in five of Moz’s sources comes from a top-10 domain, and according to Moz the AI Mode searches several related queries at once, which depresses a match against a single query. Ahrefs’ much-quoted 12 percent is a simple mean of five values, with ChatGPT counted twice. Ahrefs collected its data in early July 2025 and published in August; Moz analysed data from the US and the UK. Both sell SEO tools, and neither measurement is independently audited. For Google’s AI Overviews the values are higher, as the entry on the studies that disagree there shows. What follows: a place in Google’s top 10 is not the gate to being cited in AI answers. At Moz a higher rank raises the odds, yet even position one is cited only some of the time.",
+      "position": 148,
+      "id": "ki-zitate-ausserhalb-top10",
+      "url": "https://robert-haase.de/en/evidence.html#ki-zitate-ausserhalb-top10",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Two vendor measurements",
+        "group": "weak"
+      },
+      "sourceText": "Ahrefs, Louise Linehan and Xibeijia Guan, “Only 12% of AI Cited URLs Rank in Google’s Top 10 for the Original Prompt”, 11 August 2025, data from early July 2025 · Moz, Chima Mmeje, “Only 12% of AI Mode Citations Match URLs in the Organic SERP”, 18 February 2026, data from STAT, desktop and mobile (Moz) · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Moz",
+          "url": "https://moz.com/blog/ai-mode-citations"
+        },
+        {
+          "name": "Source",
+          "url": "https://ahrefs.com/blog/ai-search-overlap/"
+        }
+      ],
+      "citationText": "Of the addresses AI assistants cite as sources, only a small share sits in Google’s top 10 for the same question: Ahrefs found around 8 percent for 15,000 long-tail questions to ChatGPT, Gemini and Copilot, and 28.6 percent for Perplexity. Moz found 12 percent across nearly 40,000 queries to Google’s AI Mode. (Ahrefs, 11 August 2025; Moz, 18 February 2026). https://ahrefs.com/blog/ai-search-overlap/ · via https://robert-haase.de/en/evidence.html#ki-zitate-ausserhalb-top10"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#reddit-lizenzerloese",
+      "text": "Reddit reported other revenue of 140 million dollars for 2025, after 115 million in 2024 and 15 million in 2023, around 6 percent of revenue. It comes from content licensing and products sold directly to users, the latter immaterial according to Reddit; substantially all of the licensing contract value comes from two partners.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Reddit, Inc., Form 10-K for fiscal year 2025, February 2026, revenue note (other revenue 140.0 million dollars, total revenue 2.2 billion) and risk factors on licensing · Reuters, Anna Tong, Echo Wang and Martin Coulter, “Exclusive: Reddit in AI content licensing deal with Google, sources say”, 22 February 2024, syndicated by Yahoo · retrieved 1 November 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm"
+      },
+      "disambiguatingDescription": "What the number does not say: who pays how much. Reddit names neither the partners nor individual amounts in the report. The much-quoted 60 million dollars a year from Google rests on anonymous sources: Bloomberg reported the deal first without naming the buyer; Reuters attributed it to Google and based the annual sum on a single source; Reddit and Google declined to comment. What follows: revenue from content licensing can be read in a mandatory filing. It is growing, but it is small and depends on two contracts, which according to Reddit may not be renewed or may be renewed on less favourable terms.",
+      "position": 149,
+      "id": "reddit-lizenzerloese",
+      "url": "https://robert-haase.de/en/evidence.html#reddit-lizenzerloese",
+      "topic": "markt",
+      "grade": {
+        "name": "Audited annual report",
+        "group": "strong"
+      },
+      "sourceText": "Reddit, Inc., Form 10-K for fiscal year 2025, February 2026, revenue note (other revenue 140.0 million dollars, total revenue 2.2 billion) and risk factors on licensing · Reuters, Anna Tong, Echo Wang and Martin Coulter, “Exclusive: Reddit in AI content licensing deal with Google, sources say”, 22 February 2024, syndicated by Yahoo (Reuters report) · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Reuters report",
+          "url": "https://tech.yahoo.com/ai/articles/exclusive-reddit-ai-content-licensing-041012503.html"
+        },
+        {
+          "name": "Source",
+          "url": "https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm"
+        }
+      ],
+      "citationText": "Reddit reported other revenue of 140 million dollars for 2025, after 115 million in 2024 and 15 million in 2023, around 6 percent of revenue. It comes from content licensing and products sold directly to users, the latter immaterial according to Reddit; substantially all of the licensing contract value comes from two partners. (Reddit, Form 10-K for 2025, February 2026). https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm · via https://robert-haase.de/en/evidence.html#reddit-lizenzerloese"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#govuk-chat",
+      "text": "The UK government switched on GOV.UK Chat in the GOV.UK app on 26 March 2026 without any announcement; in the weeks that followed, more than 7,800 people asked over 15,000 questions. According to the Government Digital Service, its limits include not attempting to give advice and signposting when to check the original guidance.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Government Digital Service, Shelina Hargrove, “GOV.UK Chat launches”, GDS blog, 14 May 2026 · retrieved 1 November 2026",
+        "url": "https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/"
+      },
+      "disambiguatingDescription": "What this entry does not establish: how good the answers are. The operator publishes no figures on accuracy or errors; it only states that performance matched the earlier pilot. It gives no cut-off date for the usage figures; it announced the service on 14 May 2026, seven weeks after launch. What follows: a government answer field sets its limits before launch and states them publicly: no advice, signposting to the source, personal information filtered out, ongoing monitoring. Safety checks were carried out by experts including the AI Security Institute.",
+      "position": 150,
+      "id": "govuk-chat",
+      "url": "https://robert-haase.de/en/evidence.html#govuk-chat",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Operator’s statement",
+        "group": "plain"
+      },
+      "sourceText": "Government Digital Service, Shelina Hargrove, “GOV.UK Chat launches”, GDS blog, 14 May 2026 · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/"
+        }
+      ],
+      "citationText": "The UK government switched on GOV.UK Chat in the GOV.UK app on 26 March 2026 without any announcement; in the weeks that followed, more than 7,800 people asked over 15,000 questions. According to the Government Digital Service, its limits include not attempting to give advice and signposting when to check the original guidance. (Government Digital Service, GDS blog, 14 May 2026). https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/ · via https://robert-haase.de/en/evidence.html#govuk-chat"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#aldi-ohne-app",
+      "text": "On 20 July 2026, Aldi Nord and Aldi Süd declared that they forgo exclusive app discounts, loyalty apps and coupon prices: one price for everyone, no conditions, against what Aldi calls a two-checkout society, in which, according to Aldi, anyone without the app often pays more.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "ALDI Nord and ALDI SÜD, joint press release, “ALDI setzt auf den besten Preis für alle und verzichtet deshalb auf App-Rabatte”, Essen and Mülheim an der Ruhr, 20 July 2026, in German · retrieved 1 November 2026",
+        "url": "https://www.aldi-sued.de/newsroom/alle-pressemitteilungen/unternehmen/2026/aldi-setzt-auf-den-besten-preis-fuer-alle-und-verzichtet-deshalb-auf-app-rabatte"
+      },
+      "disambiguatingDescription": "What this entry does not establish: it is a positioning, not a measurement. The release gives no figures on prices, sales or how many customers use other retailers’ apps, and it says nothing about purchase data or personalised offers. What follows: the refusal is part of the brand statement here. Because both companies declare it publicly, it can be measured against their conduct.",
+      "position": 151,
+      "id": "aldi-ohne-app",
+      "url": "https://robert-haase.de/en/evidence.html#aldi-ohne-app",
+      "topic": "handel",
+      "grade": {
+        "name": "Company statement",
+        "group": "plain"
+      },
+      "sourceText": "ALDI Nord and ALDI SÜD, joint press release, “ALDI setzt auf den besten Preis für alle und verzichtet deshalb auf App-Rabatte”, Essen and Mülheim an der Ruhr, 20 July 2026, in German · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.aldi-sued.de/newsroom/alle-pressemitteilungen/unternehmen/2026/aldi-setzt-auf-den-besten-preis-fuer-alle-und-verzichtet-deshalb-auf-app-rabatte"
+        }
+      ],
+      "citationText": "On 20 July 2026, Aldi Nord and Aldi Süd declared that they forgo exclusive app discounts, loyalty apps and coupon prices: one price for everyone, no conditions, against what Aldi calls a two-checkout society, in which, according to Aldi, anyone without the app often pays more. (ALDI Nord and ALDI SÜD, press release, 20 July 2026). https://www.aldi-sued.de/newsroom/alle-pressemitteilungen/unternehmen/2026/aldi-setzt-auf-den-besten-preis-fuer-alle-und-verzichtet-deshalb-auf-app-rabatte · via https://robert-haase.de/en/evidence.html#aldi-ohne-app"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#open-source-aufgegeben",
+      "text": "Of 1,932 popular GitHub projects, a 2019 study found 315 abandoned, 16 percent: none of the core developers had contributed for at least a year. 128 of them, 41 percent, survived because new core developers took over maintenance.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Guilherme Avelino, Eleni Constantinou, Marco Tulio Valente and Alexander Serebrenik, “On the abandonment and survival of open source projects: An empirical investigation”, ESEM 2019, IEEE, arXiv 1906.08058 of 19 June 2019 · retrieved 1 November 2026",
+        "url": "https://arxiv.org/abs/1906.08058"
+      },
+      "disambiguatingDescription": "What the numbers do not say: how repositories fare in general. The study took the 500 most-starred projects in each of six languages (JavaScript, Python, Ruby, C/C++, Java, PHP) and filtered 3,000 down to 1,932, dropping projects with incomplete history, under two years of development or no software. These are large, popular projects, and the data are from 2019. Core developers are the smallest group that together accounts for at least half of the files; the authors chose the one-year threshold as the least error-prone of five they tested. What follows: even popular public repositories lose their maintainers, and some are saved only because someone else takes over. Anyone who runs a repository in public needs a named owner for it. In detail: in a survey of 33 developers who had taken over, their own use of the software was the main motive; lack of time and missing push access were the biggest barriers.",
+      "position": 152,
+      "id": "open-source-aufgegeben",
+      "url": "https://robert-haase.de/en/evidence.html#open-source-aufgegeben",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Verified study",
+        "group": "strong"
+      },
+      "sourceText": "Guilherme Avelino, Eleni Constantinou, Marco Tulio Valente and Alexander Serebrenik, “On the abandonment and survival of open source projects: An empirical investigation”, ESEM 2019, IEEE, arXiv 1906.08058 of 19 June 2019 · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://arxiv.org/abs/1906.08058"
+        }
+      ],
+      "citationText": "Of 1,932 popular GitHub projects, a 2019 study found 315 abandoned, 16 percent: none of the core developers had contributed for at least a year. 128 of them, 41 percent, survived because new core developers took over maintenance. (Avelino et al., ESEM 2019, arXiv 1906.08058). https://arxiv.org/abs/1906.08058 · via https://robert-haase.de/en/evidence.html#open-source-aufgegeben"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#trainingsdaten-vorrat",
+      "text": "Epoch AI puts the usable stock of public human-written text at around 300 trillion tokens and expects, with 80 percent probability, that language models will have used it up entirely between 2026 and 2032 if current trends continue.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Pablo Villalobos, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim and Marius Hobbhahn, “Will we run out of data? Limits of LLM scaling based on human-generated data”, Epoch AI, 6 June 2024, arXiv 2211.04325 · retrieved 1 November 2026",
+        "url": "https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data"
+      },
+      "disambiguatingDescription": "What the forecast does not say: the range is wide; the 90 percent interval for the stock runs from 100 to 1,000 trillion tokens. Only public human text is counted, not images, video, private messages or synthetic data. The timing depends on how far models are trained beyond the compute-optimal amount: overtrained fivefold, the stock lasts until about 2027. The 2022 version had still expected high-quality text to run out by 2024. What follows: private data acquires a price, and content licensing becomes a business, as the entry on Reddit’s licensing revenue shows. The authors expect more investment in synthetic data, other data types and more efficient training.",
+      "position": 153,
+      "id": "trainingsdaten-vorrat",
+      "url": "https://robert-haase.de/en/evidence.html#trainingsdaten-vorrat",
+      "topic": "markt",
+      "grade": {
+        "name": "Forecast, model estimate",
+        "group": "weak"
+      },
+      "sourceText": "Pablo Villalobos, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim and Marius Hobbhahn, “Will we run out of data? Limits of LLM scaling based on human-generated data”, Epoch AI, 6 June 2024, arXiv 2211.04325 · retrieved 1 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data"
+        }
+      ],
+      "citationText": "Epoch AI puts the usable stock of public human-written text at around 300 trillion tokens and expects, with 80 percent probability, that language models will have used it up entirely between 2026 and 2032 if current trends continue. (Villalobos et al., Epoch AI, 6 June 2024). https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data · via https://robert-haase.de/en/evidence.html#trainingsdaten-vorrat"
     }
   ]
 }

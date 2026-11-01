@@ -1,6 +1,6 @@
 # Belege: Handel
 
-12 von 145 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
+15 von 153 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (2) → agenten-lenkung-marktplatz, agent-werbung-steuerung
-+ Sachstand, Fallbericht oder Marktbeobachtung (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum
++ Sachstand, Fallbericht oder Marktbeobachtung (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
 
 ---
 
@@ -196,4 +196,46 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 12 von 12 Einträgen zum Thema Handel. Letzter Eintrag: agent-werbung-steuerung.
+## chatgpt-verweise-konversion
+
+**Aussage:** Über zwölf Monate und 973 Onlineshops mit zusammen 20 Milliarden Dollar Umsatz konvertierte Verkehr aus organischen ChatGPT-Links seltener als jeder klassische Kanal außer bezahltem Social; auch der Umsatz je Sitzung lag darunter. Adobe meldet für US-Händler im Mai 2026 das Gegenteil, 54 Prozent mehr Konversion als Nicht-KI-Verkehr.
+
+**Was die Zahlen nicht sagen:** Die Studie beschreibt das erste Jahr nach dem Start der Kauflinks in ChatGPT im August 2024, mit gut 50.000 Transaktionen aus ChatGPT gegen 164 Millionen aus klassischen Kanälen; sie misst Zusammenhänge, keine Ursachen. Adobe misst gegen allen Nicht-KI-Verkehr zusammen, also bezahlte und organische Suche, Affiliates, E-Mail und Social, und wertet die Daten der eigenen Kunden aus, unabhängig geprüft ist das nicht. Im Juli 2025, im Zeitraum der Studie, meldete Adobe selbst noch das Gegenteil: KI-Verkehr konvertierte 23 Prozent schlechter. **Was daraus folgt:** Ob KI-Verkehr besser kauft, hängt vom Zeitraum und vom Vergleich ab. Der einzige begutachtete Wert ordnet ihn in seinem ersten Jahr unter der organischen Suche ein, mit steigender Konversion und sinkendem Warenkorb. **Im Einzelnen:** In komplexen Produktkategorien schneidet ChatGPT-Verkehr besser ab; Besucher springen seltener ab, bleiben aber kürzer und sehen weniger Seiten. Die Autoren sehen darin einen Kanal für informierte Nutzer, noch keinen breiten Verkaufskanal.
+
+**Quelle:** Maximilian Kaiser und Christian Schulze, „Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?“, Marketing Science 45 (4), online am 21. April 2026, Open Access, begutachtet im Frontiers-Verfahren der Zeitschrift · 973 Websites, zwölf Monate eigene Daten der Shops · Adobe Digital Insights, Vivek Pandya, 17. Juni 2026, über eine Billion Besuche auf US-Handelsseiten ([zu Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)), und 21. August 2025, Konversion im Juli 2025 ([zu Adobe 2025](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)) · abgerufen am 1. November 2026 · [Zur Quelle](https://doi.org/10.1287/mksc.2025.0489)
+
+**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#chatgpt-verweise-konversion
+
+---
+
+## ki-verweise-handel-wachstum
+
+**Aussage:** Besuche auf US-Handelsseiten, die über einen Link in einem KI-Assistenten kommen, wuchsen laut Adobe im Juli 2025 um 4.700 Prozent gegenüber dem Vorjahr und im Mai 2026 noch um 138 Prozent; seit Oktober 2024, dem Beginn der Zählung, summiert Adobe das Wachstum auf 1.324 Prozent.
+
+**Was die Zahlen nicht sagen:** wie groß der KI-Verkehr ist. Die Raten wachsen von einer sehr kleinen Basis; Adobe nennt ihn selbst bescheiden im Vergleich zu Kanälen wie bezahlter Suche oder E-Mail, und für Januar und April 2025 rechnet Adobe gegen Juli 2024, weil die Werte davor zu klein für einen Vergleich waren. Welcher Anteil der Besuche aus KI-Assistenten kommt, zeigt der Eintrag zum KI-Verkehrsanteil: Bruchteile eines Prozents bis gut ein Prozent. Gezählt sind Klicks auf einen Link, nicht Nennungen in Antworten. Die Daten stammen aus über einer Billion Besuchen bei Adobes Kunden, unabhängig geprüft sind sie nicht. **Was daraus folgt:** Wachstumsraten im Tausenderbereich sagen ohne Anteil wenig über das Gewicht des Kanals, sie zeigen nur die Richtung.
+
+**Quelle:** Adobe Digital Insights, Vivek Pandya, „Generative AI-powered shopping rises with traffic to U.S. retail sites up 4,700%“, 21. August 2025, gemessen an Klicks auf einen Link · „AI traffic to travel sites soars nearly 200%“, 17. Juni 2026, Abschnitt zum Handel ([zu Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)) · abgerufen am 1. November 2026 · [Zur Quelle](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)
+
+**Einstufung:** Anbietermessung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#ki-verweise-handel-wachstum
+
+---
+
+## aldi-ohne-app
+
+**Aussage:** Aldi Nord und Aldi Süd haben am 20. Juli 2026 erklärt, auf exklusive App-Rabatte, Kundenbindungs-Apps und Couponpreise zu verzichten: ein Preis für alle, ohne Bedingungen, gegen eine „Zweikassengesellschaft“, in der laut Aldi vielerorts mehr zahlt, wer keine App nutzt.
+
+**Was der Eintrag nicht belegt:** Es ist eine Positionierung, keine Messung. Die Mitteilung nennt keine Zahlen zu Preisen, Umsatz oder dazu, wie viele Kunden Apps anderer Händler nutzen, und sie sagt nichts über Kaufdaten oder personalisierte Angebote. **Was daraus folgt:** Der Verzicht ist hier Teil der Markenaussage. Weil beide Unternehmen ihn öffentlich erklären, lässt er sich an ihrem Verhalten messen.
+
+**Quelle:** ALDI Nord und ALDI SÜD, gemeinsame Pressemitteilung, „ALDI setzt auf den besten Preis für alle und verzichtet deshalb auf App-Rabatte“, Essen und Mülheim an der Ruhr, 20. Juli 2026 · abgerufen am 1. November 2026 · [Zur Quelle](https://www.aldi-sued.de/newsroom/alle-pressemitteilungen/unternehmen/2026/aldi-setzt-auf-den-besten-preis-fuer-alle-und-verzichtet-deshalb-auf-app-rabatte)
+
+**Einstufung:** Unternehmenserklärung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#aldi-ohne-app
+
+---
+
+Ende der Datei: 15 von 15 Einträgen zum Thema Handel. Letzter Eintrag: aldi-ohne-app.

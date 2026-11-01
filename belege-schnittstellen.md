@@ -1,6 +1,6 @@
 # Belege: Schnittstellen
 
-23 von 145 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
+24 von 153 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-interfaces.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (15) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → monotype-mcp, veeva-mlr, olivares-access-map
 + Sachstand, Fallbericht oder Marktbeobachtung (5) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards
 
@@ -350,4 +350,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 23 von 23 Einträgen zum Thema Schnittstellen. Letzter Eintrag: chatgpt-anzeigen-umschreiben.
+## open-source-aufgegeben
+
+**Aussage:** Von 1.932 populären GitHub-Projekten waren in einer Studie von 2019 315 aufgegeben, 16 Prozent: Keiner der Kernentwickler hatte seit mindestens einem Jahr etwas beigetragen. 128 davon, 41 Prozent, überlebten, weil neue Kernentwickler die Pflege übernahmen.
+
+**Was die Zahlen nicht sagen:** wie es um Repositories allgemein steht. Ausgewählt wurden je die 500 meistbesternten Projekte in sechs Sprachen (JavaScript, Python, Ruby, C/C++, Java, PHP), gefiltert von 3.000 auf 1.932: ohne Projekte mit lückenhafter Geschichte, unter zwei Jahren Entwicklung oder ohne Software. Es sind große, beliebte Projekte, und der Stand ist von 2019. Kernentwickler sind die kleinste Gruppe, die zusammen mindestens die Hälfte der Dateien verantwortet; die Schwelle von einem Jahr haben die Autoren unter fünf getesteten als die am wenigsten fehleranfällige gewählt. **Was daraus folgt:** Auch beliebte öffentliche Repositories verlieren ihre Pflege, und ein Teil wird nur gerettet, weil jemand anderes übernimmt. Wer ein Repository öffentlich führt, braucht eine benannte Zuständigkeit. **Im Einzelnen:** In einer Befragung von 33 Entwicklern, die übernommen hatten, war die eigene Nutzung das wichtigste Motiv; Zeitmangel und fehlende Schreibrechte waren die größten Hürden.
+
+**Quelle:** Guilherme Avelino, Eleni Constantinou, Marco Tulio Valente und Alexander Serebrenik, „On the abandonment and survival of open source projects: An empirical investigation“, ESEM 2019, IEEE, arXiv 1906.08058 vom 19. Juni 2019 · abgerufen am 1. November 2026 · [Zur Quelle](https://arxiv.org/abs/1906.08058)
+
+**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#open-source-aufgegeben
+
+---
+
+Ende der Datei: 24 von 24 Einträgen zum Thema Schnittstellen. Letzter Eintrag: open-source-aufgegeben.

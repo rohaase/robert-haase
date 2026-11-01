@@ -1,6 +1,6 @@
 # Evidence: Interfaces
 
-23 of 145 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
+24 of 153 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-schnittstellen.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (15) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben
++ Verified study, vendor documentation, or court decision (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
 + Preliminary: prototype, single test, forecast, or vendor figure (3) → monotype-mcp, veeva-mlr, olivares-access-map
 + Status, case report, or market observation (5) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards
 
@@ -350,4 +350,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 23 of 23 entries on Interfaces. Last entry: chatgpt-anzeigen-umschreiben.
+## open-source-aufgegeben
+
+**Claim:** Of 1,932 popular GitHub projects, a 2019 study found 315 abandoned, 16 percent: none of the core developers had contributed for at least a year. 128 of them, 41 percent, survived because new core developers took over maintenance.
+
+**What the numbers do not say:** how repositories fare in general. The study took the 500 most-starred projects in each of six languages (JavaScript, Python, Ruby, C/C++, Java, PHP) and filtered 3,000 down to 1,932, dropping projects with incomplete history, under two years of development or no software. These are large, popular projects, and the data are from 2019. Core developers are the smallest group that together accounts for at least half of the files; the authors chose the one-year threshold as the least error-prone of five they tested. **What follows:** even popular public repositories lose their maintainers, and some are saved only because someone else takes over. Anyone who runs a repository in public needs a named owner for it. **In detail:** in a survey of 33 developers who had taken over, their own use of the software was the main motive; lack of time and missing push access were the biggest barriers.
+
+**Source:** Guilherme Avelino, Eleni Constantinou, Marco Tulio Valente and Alexander Serebrenik, “On the abandonment and survival of open source projects: An empirical investigation”, ESEM 2019, IEEE, arXiv 1906.08058 of 19 June 2019 · retrieved 1 November 2026 · [Source](https://arxiv.org/abs/1906.08058)
+
+**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#open-source-aufgegeben
+
+---
+
+End of file: 24 of 24 entries on Interfaces. Last entry: open-source-aufgegeben.

@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-12 of 145 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
+15 of 153 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (4) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung
-+ Preliminary: prototype, single test, forecast, or vendor figure (2) → agenten-lenkung-marktplatz, agent-werbung-steuerung
-+ Status, case report, or market observation (6) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard
++ Verified study, vendor documentation, or court decision (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
++ Preliminary: prototype, single test, forecast, or vendor figure (3) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum
++ Status, case report, or market observation (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
 
 ---
 
@@ -196,4 +196,46 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 12 of 12 entries on Commerce. Last entry: agent-werbung-steuerung.
+## chatgpt-verweise-konversion
+
+**Claim:** Across twelve months and 973 online shops with 20 billion dollars in combined revenue, traffic from organic ChatGPT links converted less often than every traditional channel except paid social, and revenue per session was lower too. For US retailers in May 2026 Adobe reports the opposite: 54 percent higher conversion than non-AI traffic.
+
+**What the numbers do not say:** the study describes the first year after ChatGPT started showing purchase links in August 2024, with just over 50,000 transactions from ChatGPT against 164 million from traditional channels; it measures associations, not causes. Adobe compares against all non-AI traffic combined, that is paid and organic search, affiliates, email and social, and analyses data from its own customers; none of it is independently audited. In July 2025, within the study period, Adobe itself still reported the opposite: AI traffic was 23 percent less likely to convert. **What follows:** whether AI traffic buys better depends on the period and the comparison. The only peer-reviewed value places it below organic search in its first year, with conversion rising and basket size falling. **In detail:** ChatGPT traffic does better in complex product categories; visitors bounce less but stay shorter and view fewer pages. The authors see a channel for informed users, not yet a broad sales channel.
+
+**Source:** Maximilian Kaiser and Christian Schulze, “Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?”, Marketing Science 45 (4), online 21 April 2026, open access, peer-reviewed through the journal’s Frontiers process · 973 websites, twelve months of the shops’ own data · Adobe Digital Insights, Vivek Pandya, 17 June 2026, more than one trillion visits to US retail sites ([Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)), and 21 August 2025, conversion in July 2025 ([Adobe 2025](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)) · retrieved 1 November 2026 · [Source](https://doi.org/10.1287/mksc.2025.0489)
+
+**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-verweise-konversion
+
+---
+
+## ki-verweise-handel-wachstum
+
+**Claim:** Visits to US retail sites that arrive via a link in an AI assistant grew 4,700 percent year over year in July 2025, according to Adobe, and still 138 percent in May 2026; since October 2024, when the count began, Adobe puts the growth at 1,324 percent.
+
+**What the numbers do not say:** how large AI traffic is. The rates grow from a very small base; Adobe itself calls it modest compared with channels such as paid search or email, and for January and April 2025 Adobe compares against July 2024 because earlier values were too small to serve as a baseline. What share of visits comes from AI assistants is shown in the entry on the AI traffic share: fractions of a percent up to a good one percent. What is counted is clicks on a link, not mentions in answers. The data come from more than one trillion visits at Adobe’s customers and are not independently audited. **What follows:** growth rates in the thousands say little about the weight of the channel without its share; they only show the direction.
+
+**Source:** Adobe Digital Insights, Vivek Pandya, “Generative AI-powered shopping rises with traffic to U.S. retail sites up 4,700%”, 21 August 2025, measured by clicks on a link · “AI traffic to travel sites soars nearly 200%”, 17 June 2026, section on retail ([Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)) · retrieved 1 November 2026 · [Source](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)
+
+**Grade:** Vendor measurement · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#ki-verweise-handel-wachstum
+
+---
+
+## aldi-ohne-app
+
+**Claim:** On 20 July 2026, Aldi Nord and Aldi Süd declared that they forgo exclusive app discounts, loyalty apps and coupon prices: one price for everyone, no conditions, against what Aldi calls a two-checkout society, in which, according to Aldi, anyone without the app often pays more.
+
+**What this entry does not establish:** it is a positioning, not a measurement. The release gives no figures on prices, sales or how many customers use other retailers’ apps, and it says nothing about purchase data or personalised offers. **What follows:** the refusal is part of the brand statement here. Because both companies declare it publicly, it can be measured against their conduct.
+
+**Source:** ALDI Nord and ALDI SÜD, joint press release, “ALDI setzt auf den besten Preis für alle und verzichtet deshalb auf App-Rabatte”, Essen and Mülheim an der Ruhr, 20 July 2026, in German · retrieved 1 November 2026 · [Source](https://www.aldi-sued.de/newsroom/alle-pressemitteilungen/unternehmen/2026/aldi-setzt-auf-den-besten-preis-fuer-alle-und-verzichtet-deshalb-auf-app-rabatte)
+
+**Grade:** Company statement · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#aldi-ohne-app
+
+---
+
+End of file: 15 of 15 entries on Commerce. Last entry: aldi-ohne-app.

@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-21 of 145 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
+23 of 153 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -22,8 +22,8 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (2) → ki-nutzung-deutschland, ki-anteil-artikel
-+ Preliminary: prototype, single test, forecast, or vendor figure (10) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose
++ Verified study, vendor documentation, or court decision (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
++ Preliminary: prototype, single test, forecast, or vendor figure (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat
 + Status, case report, or market observation (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 ---
@@ -188,7 +188,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **What the numbers do not say:** They count clicks arriving with an identifiable AI referral source, not how often a brand is named in answers. Google AI Mode sits outside the two values that address it: Semrush tracks it as a separate channel at 0.01 percent, and Conductor notes that Google Analytics does not separate it from organic traffic. **Why the three values do not belong side by side:** Contentsquare measures 6,500 websites worldwide, Semrush more than 50,000 worldwide, Conductor 1,215 of its own customer domains in the US and calls its figures averages. The near eightfold gap between them, 0.14 to 1.08 percent, is largely a question of who was measured. All three sell analytics tools; Contentsquare and Conductor measure their own customer base, Semrush estimates from a bought-in clickstream panel. None of the values is independently audited. **A fourth measurement on a different base:** the SEO consultant Marie Haynes analysed twelve months of Google Analytics data from 100 websites with more than 145 million sessions: ChatGPT brought 0.62 percent as many sessions as organic Google search, all language models together 0.73 percent. That is a ratio to Google search, not a share of total traffic. Visitors from ChatGPT converted more often (13.8 against 3.02 percent, at the 55 sites that track conversions), yet Google search still brought 96.5 percent of all measured conversions.
 
-**Source:** Contentsquare, 2026 Digital Experience Benchmarks, 99 billion sessions and 6,500 websites worldwide, fourth quarter 2024 against fourth quarter 2025 · 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites and 17 industries worldwide, January to December 2025 · 27 April 2026 · Conductor, AEO/GEO Benchmarks, traffic section from 1,215 of its own enterprise customer domains in the US, May to September 2025 · last updated 6 July 2026 · Marie Haynes, “GEO is a distraction”, 21 October 2026, 100 websites, more than 145 million sessions, twelve months without an exact period ([Marie Haynes](https://mariehaynes.com/geo-is-a-distraction/)), retrieved 1 November 2026 · [Source](https://www.semrush.com/blog/traffic-channel-mix-study/)
+**Source:** Contentsquare, 2026 Digital Experience Benchmarks, 99 billion sessions and 6,500 websites worldwide, fourth quarter 2024 against fourth quarter 2025 · 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites and 17 industries worldwide, January to December 2025 · 27 April 2026 · Conductor, AEO/GEO Benchmarks, traffic section from 1,215 of its own enterprise customer domains in the US, more than 3.3 billion sessions, 35.7 million of them from language models and chatbots, May to September 2025 · last updated 6 July 2026 · Marie Haynes, “GEO is a distraction”, 21 October 2026, 100 websites, more than 145 million sessions, twelve months without an exact period ([Marie Haynes](https://mariehaynes.com/geo-is-a-distraction/)), retrieved 1 November 2026 · [Source](https://www.semrush.com/blog/traffic-channel-mix-study/)
 
 **Grade:** Three vendor measurements · Group: Preliminary: prototype, single test, forecast, or vendor figure
 
@@ -322,4 +322,32 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 21 of 21 entries on Market size. Last entry: marketing-prioritaeten.
+## reddit-lizenzerloese
+
+**Claim:** Reddit reported other revenue of 140 million dollars for 2025, after 115 million in 2024 and 15 million in 2023, around 6 percent of revenue. It comes from content licensing and products sold directly to users, the latter immaterial according to Reddit; substantially all of the licensing contract value comes from two partners.
+
+**What the number does not say:** who pays how much. Reddit names neither the partners nor individual amounts in the report. The much-quoted 60 million dollars a year from Google rests on anonymous sources: Bloomberg reported the deal first without naming the buyer; Reuters attributed it to Google and based the annual sum on a single source; Reddit and Google declined to comment. **What follows:** revenue from content licensing can be read in a mandatory filing. It is growing, but it is small and depends on two contracts, which according to Reddit may not be renewed or may be renewed on less favourable terms.
+
+**Source:** Reddit, Inc., Form 10-K for fiscal year 2025, February 2026, revenue note (other revenue 140.0 million dollars, total revenue 2.2 billion) and risk factors on licensing · Reuters, Anna Tong, Echo Wang and Martin Coulter, “Exclusive: Reddit in AI content licensing deal with Google, sources say”, 22 February 2024, syndicated by Yahoo ([Reuters report](https://tech.yahoo.com/ai/articles/exclusive-reddit-ai-content-licensing-041012503.html)) · retrieved 1 November 2026 · [Source](https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm)
+
+**Grade:** Audited annual report · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#reddit-lizenzerloese
+
+---
+
+## trainingsdaten-vorrat
+
+**Claim:** Epoch AI puts the usable stock of public human-written text at around 300 trillion tokens and expects, with 80 percent probability, that language models will have used it up entirely between 2026 and 2032 if current trends continue.
+
+**What the forecast does not say:** the range is wide; the 90 percent interval for the stock runs from 100 to 1,000 trillion tokens. Only public human text is counted, not images, video, private messages or synthetic data. The timing depends on how far models are trained beyond the compute-optimal amount: overtrained fivefold, the stock lasts until about 2027. The 2022 version had still expected high-quality text to run out by 2024. **What follows:** private data acquires a price, and content licensing becomes a business, as the entry on Reddit’s licensing revenue shows. The authors expect more investment in synthetic data, other data types and more efficient training.
+
+**Source:** Pablo Villalobos, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim and Marius Hobbhahn, “Will we run out of data? Limits of LLM scaling based on human-generated data”, Epoch AI, 6 June 2024, arXiv 2211.04325 · retrieved 1 November 2026 · [Source](https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data)
+
+**Grade:** Forecast, model estimate · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#trainingsdaten-vorrat
+
+---
+
+End of file: 23 of 23 entries on Market size. Last entry: trainingsdaten-vorrat.
