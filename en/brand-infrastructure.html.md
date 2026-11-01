@@ -3,7 +3,7 @@ title: "Brand Infrastructure: Why Brands Must Become Machine-Readable"
 description: "AI agents are telling your brand story, whether you want them to or not. Brand Infrastructure is the answer: designing brand for humans and for systems at once."
 author: "Robert Haase"
 datePublished: 2026-03-07
-dateModified: 2026-11-01T22:05:15+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: en
 url: https://robert-haase.de/en/brand-infrastructure.html
 translation: https://robert-haase.de/brand-infrastructure.html.md
@@ -103,7 +103,7 @@ Technically, none of this is new. What it takes is a strategic decision: we take
 
 When I first published this article in March 2026, Brand Infrastructure was a thesis. The data has since thickened.
 
-**Brand mentions matter more than backlinks.** An [Ahrefs analysis across 75,000 brands](https://ahrefs.com/blog/ai-brand-visibility-correlations/) shows that brand mentions correlate most strongly with AI visibility, while backlinks show only a weak correlation. Of the URLs that AI assistants cite, on average only [12 percent rank in Google's top 10](https://ahrefs.com/blog/ai-search-overlap/) for the exact query asked, measured across 15,000 long-tail queries put to ChatGPT, Gemini, Copilot, and Perplexity. The average hides a wide spread; Perplexity reaches 28.6 percent. A [Moz analysis of around 40,000 queries](https://moz.com/blog/ai-mode-citations) finds 88 percent of sources cited by Google's AI Mode outside the organic top 10. Two studies, the same finding. On-site structure is the entry ticket. Third-party consensus is the lever.
+**Brand mentions matter more than backlinks.** An [Ahrefs analysis across 75,000 brands](https://ahrefs.com/blog/ai-brand-visibility-correlations/) shows that brand mentions correlate most strongly with AI visibility, while backlinks show only a weak correlation. Of the URLs that AI assistants cite, on average only [12 percent rank in Google's top 10](https://ahrefs.com/blog/ai-search-overlap/) for the exact query asked, measured across 15,000 long-tail queries put to ChatGPT, Gemini, Copilot, and Perplexity. The average hides a wide spread; Perplexity reaches 28.6 percent. A [Moz analysis of around 40,000 queries](https://moz.com/blog/ai-mode-citations) finds 88 percent of the URLs cited by Google's AI Mode outside the organic top 10 for the same query. Two studies, the same finding. On-site structure is the entry ticket. Third-party consensus is the lever.
 
 **AI traffic is small, and its quality is contested.** When an AI overview appears in Google Search, users click a classic result on 8 percent of visits, against 15 percent without one; a link inside the overview gets [1 percent of visits](https://robert-haase.de/en/evidence.html#pew-klicks). Whether the traffic that does arrive converts better than classic search is an open question. A peer-reviewed study across 973 shops and twelve months places ChatGPT referral traffic below organic search, while Adobe reports the opposite for US retail, measured against all non-AI traffic. Neither figure is a multiple.
 

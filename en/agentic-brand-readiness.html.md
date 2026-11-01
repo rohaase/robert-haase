@@ -3,7 +3,7 @@ title: "Agentic Brand Readiness"
 description: "Agentic Brand Readiness is the ability of a brand to be found, described correctly, and recommended by AI systems and agents. It takes a brand that states unambiguously what it is, and third parties that describe it the same way."
 author: "Robert Haase"
 datePublished: 2026-03-27
-dateModified: 2026-11-01T22:05:15+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: en
 url: https://robert-haase.de/en/agentic-brand-readiness.html
 translation: https://robert-haase.de/agentic-brand-readiness.html.md
@@ -33,7 +33,7 @@ In September 2026 OpenAI cited 1.2 billion weekly users, added up across all its
 
 **SEO optimises for keywords and backlinks. Agentic Brand Readiness optimises for meaning, consistency, and structured attributes. The goal is a recommendation, not a ranking.**
 
-The two channels overlap little. SEO serves search engines that evaluate keywords and backlinks; Agentic Brand Readiness serves language models that process meaning and consistency. [In August 2025, Ahrefs put 15,000 low-volume questions](https://ahrefs.com/blog/ai-search-overlap/) to ChatGPT, Gemini, Copilot and Perplexity and compared the cited addresses with Google's organic top 10: for ChatGPT, Gemini and Copilot, around 8 percent of the cited pages were there, for Perplexity 28.6 percent. In Google's AI Overviews the share is higher, and the two large studies disagree: [Ahrefs arrives at around 37 percent in its March 2026 study across more than 863,000 search terms](https://ahrefs.com/blog/ai-overview-citations-top-10/), [BrightEdge at around 17 percent averaged over February 2025 to February 2026](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing). Most of the sources AI cites therefore don't appear in the organic top 10. How large the overlapping remainder is depends on the system and on the method of measurement.
+The two channels overlap little. SEO serves search engines that evaluate keywords and backlinks; Agentic Brand Readiness serves language models that process meaning and consistency. [In early July 2025, Ahrefs put 15,000 low-volume questions](https://ahrefs.com/blog/ai-search-overlap/) to ChatGPT, Gemini, Copilot and Perplexity, published in August, and compared the cited addresses with Google's organic top 10: for ChatGPT, Gemini and Copilot, around 8 percent of the cited pages were there, for Perplexity 28.6 percent. In Google's AI Overviews the share is higher, and the two large studies disagree: [Ahrefs arrives at around 37 percent in a study published in March 2026 across more than 863,000 search terms](https://ahrefs.com/blog/ai-overview-citations-top-10/), [BrightEdge at around 17 percent averaged over February 2025 to February 2026](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing). Most of the sources AI cites therefore don't appear in the organic top 10. How large the overlapping remainder is depends on the system and on the method of measurement.
 
 The goal is not a position on a list. It is the recommendation from a system answering a specific query: *"Which energy provider aligns with my values?"* Or: *"Which brand agency has experience with B2B industry clients in the DACH region?"*
 

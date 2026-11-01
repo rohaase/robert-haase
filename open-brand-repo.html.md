@@ -3,7 +3,7 @@ title: "Open Brand Repo: Markenregeln gehören ins Repository"
 description: "Die Schweiz hat ihre Schreibregeln für Sprachmodelle aufbereitet, ihr Corporate Design gibt es nur als PDF. Warum die Marken-Spezifikation als öffentliches, versioniertes Repository geführt gehört."
 author: "Robert Haase"
 datePublished: 2026-07-21
-dateModified: 2026-11-01T21:49:24+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: de
 url: https://robert-haase.de/open-brand-repo.html
 translation: https://robert-haase.de/en/open-brand-repo.html.md
@@ -59,7 +59,7 @@ Damit erledigt das Werkzeug etwas, das in der Markenarbeit sonst Vorsatz bleibt.
 
 Das Gegenteil trifft zu. Marken werden längst pixelgenau geklont, ohne dass jemand eine Spezifikation braucht. Der Takedown-Anbieter Netcraft gibt an, zwischen März 2024 und März 2025 rund [1,3 Millionen Phishing-Seiten](https://www.netcraft.com/guide/phishing-website-detection-disruption) gestört zu haben, die mehr als 16.000 Organisationen nachahmten. Das sind nur die eigenen Fälle eines einzelnen Anbieters. Wie hoch der Anteil KI-erzeugter Inhalte daran ist, weist keine der geprüften Quellen aus. Der Klon existiert. Was fehlt, ist ein Weg, das Original zu erkennen. Ein [signiertes](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work), öffentliches Repository ist genau das: die Referenz, gegen die sich prüfen lässt, was echt ist.
 
-Zwei andere Risiken sind real. Das erste ist Verwahrlosung. Etwa [sechzehn Prozent](https://arxiv.org/abs/1906.08058) der populären Projekte auf GitHub gelten als aufgegeben. Audi hatte sein UI-Repository jahrelang öffentlich, irgendwann zwischen November 2025 und Mai 2026 verschwand es. Ein totes Repository ist ein schlechteres Signal als gar keines.
+Zwei andere Risiken sind real. Das erste ist Verwahrlosung. In einer Studie von 2019 waren rund [sechzehn Prozent](https://arxiv.org/abs/1906.08058) von 1.932 populären GitHub-Projekten aufgegeben, alle Kernentwickler hatten aufgehört; nur bei zwei von fünf davon übernahmen neue. Audi hatte sein UI-Repository jahrelang öffentlich, irgendwann zwischen November 2025 und Mai 2026 verschwand es. Ein totes Repository ist ein schlechteres Signal als gar keines.
 
 Das zweite ist Inkonsistenz. Everlane hat radikale Transparenz zur Marke gemacht und die Kostenstruktur jedes T-Shirts veröffentlicht. 2020 entließ das Unternehmen 42 der 57 Mitglieder seines remote arbeitenden Kundenservice-Teams, [vier Tage nachdem dieses die Anerkennung seiner Gewerkschaft verlangt hatte](https://www.thefashionlaw.com/bernie-sanders-calls-out-everlane-for-union-busting-amid-layoffs/). Im Mai 2026 wurde Everlane [von Shein übernommen](https://fashionista.com/2026/05/shein-acquires-everlane). Offenheit erhöht die Fallhöhe. Wer sie behauptet und nicht liefert, fällt tiefer als jemand, der nie etwas versprochen hat.
 

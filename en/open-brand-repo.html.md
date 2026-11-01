@@ -3,7 +3,7 @@ title: "Open Brand Repo: Brand Rules Belong in a Repository"
 description: "Switzerland has prepared its writing rules for language models; its corporate design exists only as a PDF. Why the brand specification belongs in a public, versioned repository."
 author: "Robert Haase"
 datePublished: 2026-07-21
-dateModified: 2026-11-01T21:49:24+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: en
 url: https://robert-haase.de/en/open-brand-repo.html
 translation: https://robert-haase.de/open-brand-repo.html.md
@@ -59,7 +59,7 @@ The tool therefore handles something that otherwise stays a matter of intention 
 
 The opposite applies. Brands are already cloned pixel by pixel without anyone needing a specification. The takedown provider Netcraft says it disrupted around [1.3 million phishing sites](https://www.netcraft.com/guide/phishing-website-detection-disruption) between March 2024 and March 2025, imitating more than 16,000 organisations. And those are only one vendor's own cases. None of the sources checked says how much of that content was AI-generated. The clone exists. What is missing is a way to recognise the original. A [signed](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work), public repository is exactly that: the reference against which what is genuine can be checked.
 
-Two other risks are real. The first is neglect. Roughly [sixteen percent](https://arxiv.org/abs/1906.08058) of popular projects on GitHub are considered abandoned. Audi kept its UI repository public for years; sometime between November 2025 and May 2026 it disappeared. A dead repository is a worse signal than none at all.
+Two other risks are real. The first is neglect. In a 2019 study, roughly [sixteen percent](https://arxiv.org/abs/1906.08058) of 1,932 popular GitHub projects had been abandoned by all their core developers; new ones took over in only two out of five of those. Audi kept its UI repository public for years; sometime between November 2025 and May 2026 it disappeared. A dead repository is a worse signal than none at all.
 
 The second is inconsistency. Everlane made radical transparency part of its brand and published the cost structure of every T-shirt. In 2020 the company laid off 42 of the 57 members of its remote customer experience team, [four days after they had asked for recognition of their union](https://www.thefashionlaw.com/bernie-sanders-calls-out-everlane-for-union-busting-amid-layoffs/). In May 2026 Everlane was [acquired by Shein](https://fashionista.com/2026/05/shein-acquires-everlane). Openness raises the stakes. Whoever claims it and does not deliver falls further than someone who never promised anything.
 

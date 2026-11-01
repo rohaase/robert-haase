@@ -3,7 +3,7 @@ title: "Marke als MCP-Server: Wie eine Marke antwortet, wenn ein Agent fragt"
 description: "Ein MCP-Server macht eine Marke abfragbar und löst die Konsistenz. Ob eine Aussage in ihrem Namen erlaubt ist, entscheidet er nicht. Das bleibt Markenführung."
 author: "Robert Haase"
 datePublished: 2026-09-21
-dateModified: 2026-11-01T21:49:24+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: de
 url: https://robert-haase.de/marke-als-mcp-server.html
 translation: https://robert-haase.de/en/brand-as-mcp-server.html.md
@@ -53,7 +53,7 @@ Viel wert ist es trotzdem. Wer heute zwölf Formate baut, arbeitet mit vier alte
 
 **Die Frage, die ein Agent mitten in der Arbeit wirklich hat, ist keine zum Nachschlagen. Sie lautet: Darf ich das im Namen der Marke sagen? Keiner dieser Server beantwortet sie.**
 
-In Pulumis Liste steht kein Werkzeug, das eine Aussage prüft. Ein eigenes Urteil fällt der Server nur bei Farben. Für Texte, Bilder und Entwürfe liegen drei Vorlagen bereit, die ein Mensch auslösen muss. Wer dort eine Headline prüfen lassen will, bekommt rund 33.000 Zeichen Richtlinien zurück, und entscheiden muss das Modell, das sie liest. Pulumis eigene Regeln sind da ehrlich: Nichts geht hinaus, ohne dass ein Mensch es geprüft hat.
+In Pulumis Liste steht kein Werkzeug, das eine Aussage prüft. Ein eigenes Urteil fällt der Server nur bei Farben. Für Texte, Bilder und Entwürfe liegen drei Vorlagen bereit, die ein Mensch auslösen muss. Wer dort eine Headline prüfen lassen will, bekommt eine vorbereitete Anfrage von rund 33.000 Zeichen zurück, die Richtlinien im Volltext, und entscheiden muss das Modell, das sie liest. Pulumis eigene Regeln sind da ehrlich: Nichts geht hinaus, ohne dass ein Mensch es geprüft hat.
 
 Bei den anderen dasselbe Bild. Frontifys Server für Markenportale führt gut fünfzig Werkzeuge. Sie lesen, schreiben und verwalten, was im Portal steht, und Frontify rät selbst, jedes Ergebnis vor dem Veröffentlichen zu prüfen. Über den Server von Canva legen Agenten Designs an und greifen auf Brand Kits zu. Monotype testet seit Juli 2026 einen Anschluss, der nicht freigegebene Schriften erkennt. Er markiert sie, mehr nicht.
 

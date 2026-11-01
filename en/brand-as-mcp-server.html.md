@@ -3,7 +3,7 @@ title: "Brand as an MCP Server: How a Brand Answers When an Agent Asks"
 description: "An MCP server makes a brand queryable and solves consistency. Whether a statement may be made in its name, it does not decide. That stays with brand management."
 author: "Robert Haase"
 datePublished: 2026-09-21
-dateModified: 2026-11-01T21:49:24+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: en
 url: https://robert-haase.de/en/brand-as-mcp-server.html
 translation: https://robert-haase.de/marke-als-mcp-server.html.md
@@ -53,7 +53,7 @@ It is worth a lot all the same. Build twelve formats today and you are working f
 
 **The question an agent really has in the middle of the work is not one you look up. It is: may I say this in the brand’s name? None of these servers answers it.**
 
-Pulumi’s list holds no tool that checks a statement. The server makes a judgement of its own only on colours. For copy, images and designs there are three prompts a human has to trigger. Ask it to check a headline and you get back around 33,000 characters of guidelines, and the deciding is left to the model that reads them. Pulumi’s own rules are honest about it: nothing goes out without a human having checked it.
+Pulumi’s list holds no tool that checks a statement. The server makes a judgement of its own only on colours. For copy, images and designs there are three prompts a human has to trigger. Ask it to check a headline and you get back a prepared request of around 33,000 characters, the guidelines in full, and the deciding is left to the model that reads them. Pulumi’s own rules are honest about it: nothing goes out without a human having checked it.
 
 The picture is the same elsewhere. Frontify’s server for brand portals carries a good fifty tools. They read, write and manage what sits in the portal, and Frontify itself advises checking every result before publishing. Through Canva’s server agents create designs and reach brand kits. Monotype has been testing a connector since July 2026 that detects unlicensed fonts. It flags them, nothing more.
 

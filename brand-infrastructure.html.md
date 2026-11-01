@@ -3,7 +3,7 @@ title: "Brand Infrastructure: Warum Marken maschinenlesbar werden müssen"
 description: "KI-Agenten erzählen die Geschichte einer Marke, ob sie will oder nicht. Brand Infrastructure ist die Antwort: Marke für Menschen und für Systeme gleichzeitig denken."
 author: "Robert Haase"
 datePublished: 2026-03-07
-dateModified: 2026-11-01T22:05:15+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: de
 url: https://robert-haase.de/brand-infrastructure.html
 translation: https://robert-haase.de/en/brand-infrastructure.html.md
@@ -103,7 +103,7 @@ Technisch ist nichts davon neu. Es braucht eine strategische Entscheidung: Wir n
 
 Als ich diesen Artikel im März 2026 erstmals veröffentlicht habe, war Brand Infrastructure eine These. Inzwischen verdichten sich die Daten.
 
-**Brand Mentions sind wichtiger als Backlinks.** Eine [Ahrefs-Analyse über 75.000 Marken](https://ahrefs.com/blog/ai-brand-visibility-correlations/) zeigt: Am stärksten korrelieren Markenerwähnungen mit KI-Sichtbarkeit, Backlinks dagegen nur schwach. Von den URLs, die KI-Assistenten zitieren, stehen im Mittel nur [12 Prozent in Googles Top 10](https://ahrefs.com/blog/ai-search-overlap/) für genau die gestellte Anfrage; erhoben an 15.000 Long-Tail-Anfragen an ChatGPT, Gemini, Copilot und Perplexity. Der Mittelwert verdeckt eine große Spanne, Perplexity kommt auf 28,6 Prozent. Eine [Moz-Auswertung über rund 40.000 Anfragen](https://moz.com/blog/ai-mode-citations) findet 88 Prozent der von Googles AI Mode zitierten Quellen außerhalb der organischen Top 10. Zwei Studien, derselbe Befund. Die maschinenlesbare Technik auf der eigenen Seite ist die Eintrittskarte. Der Hebel liegt darin, dass andere konsistent über eine Marke sprechen, deckungsgleich mit dem, was sie über sich selbst sagt.
+**Brand Mentions sind wichtiger als Backlinks.** Eine [Ahrefs-Analyse über 75.000 Marken](https://ahrefs.com/blog/ai-brand-visibility-correlations/) zeigt: Am stärksten korrelieren Markenerwähnungen mit KI-Sichtbarkeit, Backlinks dagegen nur schwach. Von den URLs, die KI-Assistenten zitieren, stehen im Mittel nur [12 Prozent in Googles Top 10](https://ahrefs.com/blog/ai-search-overlap/) für genau die gestellte Anfrage; erhoben an 15.000 Long-Tail-Anfragen an ChatGPT, Gemini, Copilot und Perplexity. Der Mittelwert verdeckt eine große Spanne, Perplexity kommt auf 28,6 Prozent. Eine [Moz-Auswertung über rund 40.000 Anfragen](https://moz.com/blog/ai-mode-citations) findet 88 Prozent der von Googles AI Mode zitierten Adressen außerhalb der organischen Top 10 für dieselbe Anfrage. Zwei Studien, derselbe Befund. Die maschinenlesbare Technik auf der eigenen Seite ist die Eintrittskarte. Der Hebel liegt darin, dass andere konsistent über eine Marke sprechen, deckungsgleich mit dem, was sie über sich selbst sagt.
 
 **KI-Traffic ist klein, seine Qualität ist umstritten.** Erscheint in der Google-Suche eine KI-Übersicht, klicken Nutzer bei 8 Prozent der Besuche auf ein klassisches Suchergebnis, ohne Übersicht sind es 15 Prozent; auf einen Link innerhalb der Übersicht entfällt [ein Prozent der Besuche](https://robert-haase.de/belege.html#pew-klicks). Ob der Verkehr, der doch ankommt, besser konvertiert als die klassische Suche, ist offen. Eine begutachtete Erhebung über 973 Shops und zwölf Monate ordnet den ChatGPT-Empfehlungsverkehr unterhalb der organischen Suche ein, Adobe meldet für den US-Einzelhandel das Gegenteil, misst aber gegen allen Nicht-KI-Verkehr. Ein Vielfaches ist keine dieser Zahlen.
 

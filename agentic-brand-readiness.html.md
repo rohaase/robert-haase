@@ -3,7 +3,7 @@ title: "Agentic Brand Readiness"
 description: "Agentic Brand Readiness ist die Fähigkeit einer Marke, von KI-Systemen und Agenten gefunden, richtig beschrieben und empfohlen zu werden. Dafür muss sie eindeutig festlegen, was sie ist, und Dritte müssen sie genauso beschreiben."
 author: "Robert Haase"
 datePublished: 2026-03-27
-dateModified: 2026-11-01T22:05:15+01:00
+dateModified: 2026-11-01T22:23:25+01:00
 inLanguage: de
 url: https://robert-haase.de/agentic-brand-readiness.html
 translation: https://robert-haase.de/en/agentic-brand-readiness.html.md
@@ -33,7 +33,7 @@ OpenAI nannte im September 2026 1,2 Milliarden wöchentliche Nutzer, zusammengez
 
 **SEO optimiert für Keywords und Backlinks. Agentic Brand Readiness optimiert für Bedeutung, Konsistenz und strukturierte Attribute. Das Ziel ist die Empfehlung, nicht das Ranking.**
 
-Die beiden Kanäle überschneiden sich wenig: SEO bedient Suchmaschinen, die Keywords und Backlinks bewerten, Agentic Brand Readiness die Sprachmodelle, die Bedeutung und Konsistenz verarbeiten. [Ahrefs stellte im August 2025 15.000 selten gesuchte Fragen](https://ahrefs.com/blog/ai-search-overlap/) an ChatGPT, Gemini, Copilot und Perplexity und verglich die zitierten Adressen mit Googles organischen Top-10: Bei ChatGPT, Gemini und Copilot standen dort rund 8 Prozent der zitierten Seiten, bei Perplexity 28,6 Prozent. In Googles KI-Übersichten liegt der Wert höher, und die beiden großen Erhebungen sind sich uneinig: [Ahrefs kommt in seiner Erhebung vom März 2026 über 863.000 Suchbegriffe auf rund 37 Prozent](https://ahrefs.com/blog/ai-overview-citations-top-10/), [BrightEdge im Mittel über Februar 2025 bis Februar 2026 auf rund 17 Prozent](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing). Der Großteil der von KI zitierten Quellen taucht in den organischen Top-10 also nicht auf. Wie groß der überschneidende Rest ist, hängt vom System und vom Messverfahren ab.
+Die beiden Kanäle überschneiden sich wenig: SEO bedient Suchmaschinen, die Keywords und Backlinks bewerten, Agentic Brand Readiness die Sprachmodelle, die Bedeutung und Konsistenz verarbeiten. [Ahrefs stellte Anfang Juli 2025 15.000 selten gesuchte Fragen](https://ahrefs.com/blog/ai-search-overlap/) an ChatGPT, Gemini, Copilot und Perplexity, veröffentlicht im August, und verglich die zitierten Adressen mit Googles organischen Top-10: Bei ChatGPT, Gemini und Copilot standen dort rund 8 Prozent der zitierten Seiten, bei Perplexity 28,6 Prozent. In Googles KI-Übersichten liegt der Wert höher, und die beiden großen Erhebungen sind sich uneinig: [Ahrefs kommt in einer im März 2026 veröffentlichten Erhebung über 863.000 Suchbegriffe auf rund 37 Prozent](https://ahrefs.com/blog/ai-overview-citations-top-10/), [BrightEdge im Mittel über Februar 2025 bis Februar 2026 auf rund 17 Prozent](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing). Der Großteil der von KI zitierten Quellen taucht in den organischen Top-10 also nicht auf. Wie groß der überschneidende Rest ist, hängt vom System und vom Messverfahren ab.
 
 Das Ziel ist nicht ein Ranking in einer Liste. Es ist die Empfehlung durch ein System, das eine spezifische Anfrage beantwortet: *„Welcher Energieversorger passt zu meinen Werten?“* Oder: *„Welche Markenagentur hat Erfahrung mit B2B-Industrie in der DACH-Region?“*
 
