@@ -2,6 +2,24 @@
   "entries": [
     {
       "@context": "https://agenticresourcediscovery.org/context/v1",
+      "identifier": "urn:air:robert-haase.de:skill:cite-evidence",
+      "displayName": "Cite checked figures from robert-haase.de",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
+      "url": "https://robert-haase.de/skills/cite-evidence/SKILL.md",
+      "description": "Agent skill: how to find an entry in the evidence collection on brand, AI search, AI agents, agentic commerce and liability, and how to cite it with its primary source, grade, date and stated limit. Works for the English and the German collection.",
+      "representativeQueries": [
+        "find a verified statistic on AI search with its primary source",
+        "check whether a widely cited number about AI agents holds up",
+        "cite a study on agentic commerce correctly, including what it does not prove"
+      ],
+      "tags": ["agent skill", "citation", "evidence", "brand", "AI search", "AI agents"],
+      "metadata": {
+        "author": "Robert Haase",
+        "license": "CC BY 4.0"
+      }
+    },
+    {
+      "@context": "https://agenticresourcediscovery.org/context/v1",
       "identifier": "urn:air:robert-haase.de:evidence:evidence-en",
       "displayName": "Evidence on brand, AI search and agents (English)",
       "type": "application/json",
