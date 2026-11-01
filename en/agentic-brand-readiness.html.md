@@ -3,7 +3,7 @@ title: "Agentic Brand Readiness"
 description: "Agentic Brand Readiness is the ability of a brand to be found, described correctly, and recommended by AI systems and agents. It takes a brand that states unambiguously what it is, and third parties that describe it the same way."
 author: "Robert Haase"
 datePublished: 2026-03-27
-dateModified: 2026-11-01T21:49:24+01:00
+dateModified: 2026-11-01T22:05:15+01:00
 inLanguage: en
 url: https://robert-haase.de/en/agentic-brand-readiness.html
 translation: https://robert-haase.de/agentic-brand-readiness.html.md
@@ -66,9 +66,9 @@ The sequence is deliberate. The first two building blocks make a brand readable 
 
 **My assessment, as of September 2026: in three to five years, Agentic Brand Readiness will be a baseline requirement. Brands that start early shape the consensus. Those that wait have to shift it.**
 
-Today it is a competitive advantage. Brands that have it get found and recommended by systems. Those that don't are overlooked.
+Today it is a competitive advantage.
 
-In three to five years, so around 2030, it will be hygiene, the way a website stopped being a differentiator in the 2000s and became a basic prerequisite. The difference: early movers shape the consensus that forms around them. Late arrivals have to fight against one that's already set.
+In three to five years, so around 2030, it will be hygiene, the way a website stopped being a differentiator in the 2000s and became a basic prerequisite.
 
 That window is closing faster than expected. Anthropic's [Model Context Protocol](https://robert-haase.de/en/glossary.html#mcp) established itself as a shared standard in late 2025, backed by the major AI providers. Chrome Lighthouse has measured website agent-readiness since 2026, in a category it labels experimental. And the [transparency obligations of the EU AI Act](https://robert-haase.de/en/evidence.html#ai-act) have applied since 2 August 2026: anyone communicating with an AI system must be able to tell, unless that is obvious anyway, and AI-generated content must be marked in machine-readable form. The marking falls on the provider of the generating system, not on a brand that merely uses it; systems already on the market before that date have until 2 December 2026. A brand that runs such a system under its own name, even on a third-party model, is itself the provider. The brand is also bound for its own chatbot and for deepfakes. Structured self-description by brands is nowhere required by the law. Machine-readable provenance is becoming the norm all the same, and that readability is exactly what this article is about.
 

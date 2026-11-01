@@ -3,7 +3,7 @@ title: "Agentic Brand Readiness"
 description: "Agentic Brand Readiness ist die Fähigkeit einer Marke, von KI-Systemen und Agenten gefunden, richtig beschrieben und empfohlen zu werden. Dafür muss sie eindeutig festlegen, was sie ist, und Dritte müssen sie genauso beschreiben."
 author: "Robert Haase"
 datePublished: 2026-03-27
-dateModified: 2026-11-01T21:49:24+01:00
+dateModified: 2026-11-01T22:05:15+01:00
 inLanguage: de
 url: https://robert-haase.de/agentic-brand-readiness.html
 translation: https://robert-haase.de/en/agentic-brand-readiness.html.md
@@ -66,9 +66,9 @@ Die Reihenfolge ist kein Zufall. Die ersten beiden Bausteine machen eine Marke �
 
 **Meine Einschätzung, Stand September 2026: In drei bis fünf Jahren wird Agentic Brand Readiness zur Grundvoraussetzung. Wer früh anfängt, prägt den Konsens, wer wartet, muss ihn verschieben.**
 
-Heute ist Agentic Brand Readiness ein Wettbewerbsvorteil. Wer es hat, wird von Systemen gefunden und empfohlen. Wer es nicht hat, wird übersehen.
+Heute ist Agentic Brand Readiness ein Wettbewerbsvorteil.
 
-In drei bis fünf Jahren, also gegen 2030, wird es Hygiene sein. So wie eine Website in den 2000ern kein Differenzierungsmerkmal mehr war, sondern eine Grundvoraussetzung. Der Unterschied: Wer früh anfängt, prägt den Konsens. Wer wartet, muss ihn verschieben.
+In drei bis fünf Jahren, also gegen 2030, wird es Hygiene sein. So wie eine Website in den 2000ern kein Differenzierungsmerkmal mehr war, sondern eine Grundvoraussetzung.
 
 Diese Frist verkürzt sich gerade. Anthropics [Model Context Protocol](https://robert-haase.de/begriffe.html#mcp) hat sich Ende 2025 als gemeinsamer Standard etabliert, den die großen KI-Anbieter tragen; Chrome Lighthouse misst seit 2026 versuchsweise, wie agententauglich eine Website ist. Und die [Transparenzpflichten des EU AI Act](https://robert-haase.de/belege.html#ai-act) gelten seit dem 2. August 2026: Wer mit einem KI-System kommuniziert, muss das erkennen können, sofern es nicht ohnehin offensichtlich ist, und KI-erzeugte Inhalte müssen maschinenlesbar gekennzeichnet sein. Kennzeichnen muss der Anbieter des erzeugenden Systems, nicht die Marke, die es nur nutzt; Systeme, die schon vorher auf dem Markt waren, haben dafür bis zum 2. Dezember 2026 Zeit. Betreibt die Marke ein solches System unter eigenem Namen, auch auf einem fremden Modell, ist sie selbst Anbieter. Gefordert ist sie außerdem beim eigenen Chatbot und bei Deepfakes. Eine strukturierte Selbstbeschreibung von Marken schreibt das Gesetz an keiner Stelle vor. Die maschinenlesbare Herkunftsangabe wird damit trotzdem zum Normalfall, und genau diese Auskunftsfähigkeit ist das Thema hier.
 
