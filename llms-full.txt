@@ -199,6 +199,7 @@ The collection is deliberately unflattering to its own position where the eviden
 - [Agent Authority](https://robert-haase.de/agent-authority.html): Essay on Agent Authority: your agent holds a mandate (July 2026)
 - [Taste & Accountability](https://robert-haase.de/taste-accountability.html): Essay: Taste won't save brand work, accountability will (July 2026)
 - [Open Brand Repo](https://robert-haase.de/open-brand-repo.html): Essay on Open Brand Repo: the brand specification as a public, versioned repository (July 2026)
+- [Agent skill cite-evidence](https://robert-haase.de/skills/cite-evidence/SKILL.md): how an agent finds an entry in the evidence collection and cites it with its limit and primary source; listed in the agent catalog at https://robert-haase.de/.well-known/ard.json
 - [About](https://robert-haase.de/about.html): Full career history, stations (MetaDesign, diesdas.digital, Helder, KMS TEAM), client list
 
 ## For AI Systems
