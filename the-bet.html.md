@@ -3,7 +3,7 @@ title: "Die Analyse ist nicht mehr das Produkt"
 description: "Wenn Kunden jede Analyse in Minuten selbst generieren, kollabiert Autorität durch Wissensvorsprung. Was Strategiearbeit dann verkauft: die Empfehlung, die sich festlegt."
 author: "Robert Haase"
 datePublished: 2026-07-18
-dateModified: 2026-11-02T19:07:51+01:00
+dateModified: 2026-11-02T19:27:16+01:00
 inLanguage: de
 url: https://robert-haase.de/the-bet.html
 translation: https://robert-haase.de/en/the-bet.html.md
@@ -11,7 +11,7 @@ keywords: ["Strategieberatung", "Evidenzbasierte Markenführung", "Falsifizierba
 ---
 # Die Analyse ist nicht mehr das Produkt.
 
-## Vier Minuten
+## In Minuten
 
 **Ein Feldexperiment mit 758 BCG-Beratern zeigte schon 2023: Mit GPT-4 erledigten Berater 18 realistische Beratungsaufgaben, von der Ideenfindung über die Marktsegmentierung bis zum fertigen Memo, 25 Prozent schneller und in über 30 Prozent besserer Qualität.**
 
@@ -45,7 +45,7 @@ Roger Martin, 2017 vom Thinkers50-Ranking zum wichtigsten Managementdenker der W
 
 Diese Form kann ein Sprachmodell bauartbedingt nicht liefern. Sprachmodelle werden darauf trainiert, Antworten zu geben, die gefallen: In Anthropics Untersuchung an 266 verbreiteten Fehlannahmen zogen die Testpersonen bei den schwierigsten davon die überzeugend formulierte, zustimmende Antwort [in rund einem Fünftel der Fälle](https://arxiv.org/abs/2310.13548) (aus einer Abbildung abgelesen) der korrigierenden vor, und die Modelle lernen aus genau diesem Feedback; OpenAI musste 2025 ein Update zurückziehen, weil das Modell [„übermäßig gefällig“](https://openai.com/index/sycophancy-in-gpt-4o/) geworden war. Der Output ist Plausibilität: der wahrscheinlichste Konsens, glatt formuliert. Das Gegenteil von Konsens ist eine Empfehlung, die sich festlegt: eine These, ein benanntes Scheiter-Signal, ein Absender, der die Folgen trägt.
 
-> Wenn der Kunde dieselbe Analyse in vier Minuten bekommt, ist die Analyse nicht mehr das Produkt. Das Produkt ist die Empfehlung, die sich festlegt.
+> Wenn der Kunde dieselbe Analyse in Minuten bekommt, ist die Analyse nicht mehr das Produkt. Das Produkt ist die Empfehlung, die sich festlegt.
 
 Der naheliegende Einwand: Marke ließ sich noch nie durchrechnen, das Ganze sei Zahlengläubigkeit. Aber darum geht es nicht. Sich festlegen heißt nicht, alles in ein Modell mit zwei Nachkommastellen zu pressen. Es heißt, ein Signal zu benennen: Woran erkennen wir in zwölf Monaten, dass diese Positionierung nicht trägt? Gerade die Entscheidungen, die sich nicht durchrechnen lassen, die distinktiven, brauchen das am dringendsten. Ohne benanntes Signal enden sie als Geschmacksfrage, und Geschmacksfragen verlieren gegen jede Zahl im Raum.
 

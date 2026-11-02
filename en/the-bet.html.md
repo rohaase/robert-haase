@@ -3,7 +3,7 @@ title: "The Analysis Is No Longer the Product"
 description: "When clients can generate any analysis in minutes, authority through knowing more collapses. What strategy work sells instead: the recommendation that commits."
 author: "Robert Haase"
 datePublished: 2026-07-18
-dateModified: 2026-11-02T19:07:51+01:00
+dateModified: 2026-11-02T19:27:16+01:00
 inLanguage: en
 url: https://robert-haase.de/en/the-bet.html
 translation: https://robert-haase.de/the-bet.html.md
@@ -11,7 +11,7 @@ keywords: ["Strategy Consulting", "Evidence-Based Marketing", "Falsifiability", 
 ---
 # The Analysis Is No Longer the Product.
 
-## Four Minutes
+## In Minutes
 
 **A field experiment with 758 BCG consultants showed as early as 2023: with GPT-4, consultants completed 18 realistic consulting tasks, from idea generation through market segmentation to a finished memo, 25 percent faster and at more than 30 percent higher quality.**
 
@@ -45,7 +45,7 @@ Roger Martin, named the world’s most important management thinker by Thinkers5
 
 This is the form a language model cannot deliver, by design. Language models are trained to give answers people like: in Anthropic’s study of 266 common misconceptions, on the hardest of them raters preferred the convincingly written, agreeable answer over the correcting one [in about one case in five](https://arxiv.org/abs/2310.13548) (read off a figure), and the models learn from exactly that feedback; OpenAI had to roll back an update in 2025 because the model had become [“overly agreeable.”](https://openai.com/index/sycophancy-in-gpt-4o/) The output is plausibility: the most likely consensus, smoothly worded. A bet is the opposite of consensus. It commits, it names its failure signal, and it has a sender who bears the consequences.
 
-> If the client gets the same analysis in four minutes, the analysis is no longer the product. The product is the bet.
+> If the client gets the same analysis in minutes, the analysis is no longer the product. The product is the bet.
 
 The obvious objection: brand never could be computed, and all this is number worship. But that is not the point. A bet does not mean pressing everything into a two-decimal model. It means naming a signal: how will we know, twelve months from now, that this positioning does not hold? The decisions that cannot be computed, the distinctive ones, need this form most urgently. Without a named signal they end up as matters of taste, and matters of taste lose to any number in the room.
 
