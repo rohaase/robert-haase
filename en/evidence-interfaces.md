@@ -1,6 +1,6 @@
 # Evidence: Interfaces
 
-24 of 153 entries in the collection “Evidence” by Robert Haase, as of 1 November 2026.
+25 of 154 entries in the collection “Evidence” by Robert Haase, as of 2 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-schnittstellen.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Verified study, vendor documentation, or court decision (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
 + Preliminary: prototype, single test, forecast, or vendor figure (3) → monotype-mcp, veeva-mlr, olivares-access-map
-+ Status, case report, or market observation (5) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards
++ Status, case report, or market observation (6) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
 
 ---
 
@@ -364,4 +364,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 24 of 24 entries on Interfaces. Last entry: open-source-aufgegeben.
+## agenten-skill-zitieren
+
+**Claim:** Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5.
+
+**What the numbers do not say:** how agents perform in general. One agent was tested, Claude Sonnet 5.5 in Claude Code, with page fetch only and no web search, on my own site, with my questions and my scoring. The three runs without a figure each came after fetching the full evidence page, which the tool shortens; tools that do not shorten long pages may do better. The other six misses gave another figure the collection also holds. That the agent hits with the skill is to be expected: the skill names the text files and the citation format. What is measured is that it follows them, not that it finds the skill. Without the skill, 3 of 24 runs read the llms.txt file. Scoring used patterns fixed in advance and was read by hand.
+
+**Source:** Own measurement, 2 November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, page fetch only · eight questions in English, three runs each with and without the cite-evidence skill, 48 runs · scored per answer: figure, limit, primary source, grade, permalink · setup, questions, patterns and all results in the measurement file · [Source](https://robert-haase.de/messungen/agenten-skill-2026-11-02.md)
+
+**Grade:** Controlled test, one agent · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-skill-zitieren
+
+---
+
+End of file: 25 of 25 entries on Interfaces. Last entry: agenten-skill-zitieren.

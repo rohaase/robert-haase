@@ -1,6 +1,6 @@
 # Belege: Schnittstellen
 
-24 von 153 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026.
+25 von 154 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 2. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-interfaces.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → monotype-mcp, veeva-mlr, olivares-access-map
-+ Sachstand, Fallbericht oder Marktbeobachtung (5) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards
++ Sachstand, Fallbericht oder Marktbeobachtung (6) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
 
 ---
 
@@ -364,4 +364,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 24 von 24 Einträgen zum Thema Schnittstellen. Letzter Eintrag: open-source-aufgegeben.
+## agenten-skill-zitieren
+
+**Aussage:** Ohne Hilfe fand ein Agent bei acht Fragen zu dieser Sammlung den passenden Eintrag nur in 15 von 24 Läufen; dreimal kam er ohne Zahl zurück, obwohl der Eintrag existiert. Den Agentenkatalog und den Skill dieser Seite rief er in keinem Lauf von selbst ab. Mit installiertem Skill traf er 24 von 24, nach zwei statt 4,5 Abrufen.
+
+**Was die Zahlen nicht sagen:** wie Agenten allgemein abschneiden. Getestet ist ein Agent, Claude Sonnet 5.5 in Claude Code, nur mit Seitenabruf und ohne Websuche, auf meiner eigenen Seite, mit meinen Fragen und meiner Bewertung. Die drei Läufe ohne Zahl kamen jedes Mal nach dem Abruf der vollen Belege-Seite, die das Werkzeug kürzt; Werkzeuge, die lange Seiten nicht kürzen, schneiden womöglich besser ab. Die übrigen sechs Fehlgriffe nannten eine andere Zahl, die die Sammlung ebenfalls führt. Dass der Agent mit Skill trifft, ist erwartbar: Der Skill nennt ihm die Textdateien und das Zitierformat. Gemessen ist, dass er sich daran hält, nicht dass er den Skill findet. Die Datei llms.txt lasen ohne Skill 3 von 24 Läufen. Bewertet wurde nach vorher festgelegten Mustern und von Hand nachgelesen.
+
+**Quelle:** Eigene Messung, 2. November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, nur Seitenabruf · acht Fragen auf Englisch, je drei Läufe mit und ohne den Skill cite-evidence, 48 Läufe · bewertet je Antwort: Zahl, Grenze, Primärquelle, Einstufung, Permalink · Aufbau, Fragen, Muster und alle Ergebnisse in der Messdatei (englisch) · [Zur Quelle](https://robert-haase.de/messungen/agenten-skill-2026-11-02.md)
+
+**Einstufung:** Kontrollierter Test, ein Agent · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-skill-zitieren
+
+---
+
+Ende der Datei: 25 von 25 Einträgen zum Thema Schnittstellen. Letzter Eintrag: agenten-skill-zitieren.

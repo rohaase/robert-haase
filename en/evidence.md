@@ -1,6 +1,6 @@
-# Evidence: all 153 claims
+# Evidence: all 154 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 1 November 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 2 November 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -26,7 +26,7 @@ The collection does not map the state of the research, only the figures I needed
 
 - AI search, 26 entries: https://robert-haase.de/en/evidence-ai-search.md
 - Agents, 25 entries: https://robert-haase.de/en/evidence-agents.md
-- Interfaces, 24 entries: https://robert-haase.de/en/evidence-interfaces.md
+- Interfaces, 25 entries: https://robert-haase.de/en/evidence-interfaces.md
 - Commerce, 15 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 17 entries: https://robert-haase.de/en/evidence-liability.md
 - Market size, 23 entries: https://robert-haase.de/en/evidence-market.md
@@ -97,11 +97,11 @@ The collection does not map the state of the research, only the figures I needed
 - **agenten-zeithorizont** · Measurement series by an evaluation lab · How long the tasks are that AI agents complete with a 50 percent chance of success is measured by METR in the working time of human experts: about 4 minutes for GPT-4 in March 2023, about 17 hours for an early version of Claude Mythos Preview in April 2026. Since 2023 the value has doubled on average every 129 days. → https://robert-haase.de/en/evidence-agents.md
 - **agenten-eskalation-erstattung** · Single test, one run per model · Six AI assistants were asked to recover an expired £350 refund for a cancelled train. Grok 4.7 sent 187 messages in 15 simulated days, 69 of them to government officials, council members and the press; Fable 5.1 shared the user’s mother’s illness with five organisations, and three agents threatened court action. → https://robert-haase.de/en/evidence-agents.md
 
-## Interfaces (24)
+## Interfaces (25)
 
 + Verified study, vendor documentation, or court decision (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
 + Preliminary: prototype, single test, forecast, or vendor figure (3) → monotype-mcp, veeva-mlr, olivares-access-map
-+ Status, case report, or market observation (5) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards
++ Status, case report, or market observation (6) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
 
 - **astryx-agenten** · Vendor documentation · Meta open-sourced its design system in June 2026, after eight years of internal growth, and explicitly cites agents as the reason for how it is built: design systems were historically made for human consumption, and as more code is written by agents, their structure has to be rethought. → https://robert-haase.de/en/evidence-interfaces.md
 - **designsysteme-maschinenschnittstelle** · Verified study · Of 21 open-source design systems surveyed, 18 ship a first-party MCP server, 18 official agent skills and 15 an llms.txt. The survey sums it up: “Nobody is still arguing about whether to ship a machine interface.” → https://robert-haase.de/en/evidence-interfaces.md
@@ -127,6 +127,7 @@ The collection does not map the state of the research, only the figures I needed
 - **mcp-server-cards** · State of standardization · The Model Context Protocol has finalised an extension that lets an agent recognise a remote MCP server before connecting: a Server Card describes identity, endpoints and protocol versions. It deliberately leaves out tools, resources and prompts. → https://robert-haase.de/en/evidence-interfaces.md
 - **chatgpt-anzeigen-umschreiben** · Vendor documentation · Since 30 October 2026 ChatGPT has been rewriting advertisers’ ads automatically: new headlines and descriptions, translations, resized images and a different landing page on the advertiser’s own site. According to OpenAI the variations run without review or approval of each version and without a preview; advertisers who object must switch it off. → https://robert-haase.de/en/evidence-interfaces.md
 - **open-source-aufgegeben** · Verified study · Of 1,932 popular GitHub projects, a 2019 study found 315 abandoned, 16 percent: none of the core developers had contributed for at least a year. 128 of them, 41 percent, survived because new core developers took over maintenance. → https://robert-haase.de/en/evidence-interfaces.md
+- **agenten-skill-zitieren** · Controlled test, one agent · Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5. → https://robert-haase.de/en/evidence-interfaces.md
 
 ## Commerce (15)
 
@@ -234,4 +235,4 @@ The collection does not map the state of the research, only the figures I needed
 - **agent-lenkt-urteil** · Controlled experiment, preprint without peer review · In a randomised experiment with 50 experts in causal data analysis, participants went with their AI agent’s lean in 86 percent of four analytical choices; the lean had been assigned by lot, so without influence about 50 percent would be expected. 77 percent adopted the agent’s arguments, sometimes word for word, and only 15 percent credited it. → https://robert-haase.de/en/evidence-judgement.md
 - **bildschleifen-motive** · Simulation, peer-reviewed · When an image model and a captioning model take turns without humans, image to text to image, the results end up in a few pleasing motifs: across 700 runs of 100 rounds each, the researchers found 12 dominant motifs at the end, such as stormy lighthouses and palatial interiors. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 153 of 153 claims in 7 topics.
+End of overview: 154 of 154 claims in 7 topics.

@@ -64,12 +64,12 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-01T22:34:00+01:00",
+  "dateModified": "2026-11-02T20:42:22+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "mainEntity": {
     "@type": "ItemList",
     "name": "Verified numbers on brand, AI search, and agents",
-    "numberOfItems": 153,
+    "numberOfItems": 154,
     "itemListElement": [
       {
         "@type": "ListItem",
@@ -2386,6 +2386,21 @@
           },
           "disambiguatingDescription": "What the forecast does not say: the range is wide; the 90 percent interval for the stock runs from 100 to 1,000 trillion tokens. Only public human text is counted, not images, video, private messages or synthetic data. The timing depends on how far models are trained beyond the compute-optimal amount: overtrained fivefold, the stock lasts until about 2027. The 2022 version had still expected high-quality text to run out by 2024. What follows: private data acquires a price, and content licensing becomes a business, as the entry on Reddit’s licensing revenue shows. The authors expect more investment in synthetic data, other data types and more efficient training."
         }
+      },
+      {
+        "@type": "ListItem",
+        "position": 154,
+        "item": {
+          "@type": "Claim",
+          "@id": "https://robert-haase.de/en/evidence.html#agenten-skill-zitieren",
+          "text": "Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5.",
+          "appearance": {
+            "@type": "CreativeWork",
+            "name": "Own measurement, 2 November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, page fetch only · eight questions in English, three runs each with and without the cite-evidence skill, 48 runs · scored per answer: figure, limit, primary source, grade, permalink · setup, questions, patterns and all results in the measurement file",
+            "url": "https://robert-haase.de/messungen/agenten-skill-2026-11-02.md"
+          },
+          "disambiguatingDescription": "What the numbers do not say: how agents perform in general. One agent was tested, Claude Sonnet 5.5 in Claude Code, with page fetch only and no web search, on my own site, with my questions and my scoring. The three runs without a figure each came after fetching the full evidence page, which the tool shortens; tools that do not shorten long pages may do better. The other six misses gave another figure the collection also holds. That the agent hits with the skill is to be expected: the skill names the text files and the citation format. What is measured is that it follows them, not that it finds the skill. Without the skill, 3 of 24 runs read the llms.txt file. Scoring used patterns fixed in advance and was read by hand."
+        }
       }
     ]
   }
@@ -2648,16 +2663,16 @@
 
       <p class="ev-note">How the checking works is <a href="#ev-method-heading">at the end of this page</a>. For agents and scripts, the full collection is also available as text, one file per topic (<a href="https://robert-haase.de/en/evidence-ai-search.md">AI search</a>, <a href="https://robert-haase.de/en/evidence-agents.md">Agents</a>, <a href="https://robert-haase.de/en/evidence-interfaces.md">Interfaces</a>, <a href="https://robert-haase.de/en/evidence-commerce.md">Commerce</a>, <a href="https://robert-haase.de/en/evidence-liability.md">Liability</a>, <a href="https://robert-haase.de/en/evidence-market.md">Market size</a>, <a href="https://robert-haase.de/en/evidence-judgement.md">Judgement</a>), plus an <a href="https://robert-haase.de/en/evidence.md">overview of all claims</a> and, for scripts, the data as <a href="https://robert-haase.de/en/evidence.json">JSON</a>.</p>
 
-      <p class="ev-count" id="ev-count">153 entries in 7 topics: AI search 26 · Agents 25 · Interfaces 24 · Commerce 15 · Liability 17 · Market size 23 · Judgement 23.</p>
+      <p class="ev-count" id="ev-count">154 entries in 7 topics: AI search 26 · Agents 25 · Interfaces 25 · Commerce 15 · Liability 17 · Market size 23 · Judgement 23.</p>
       <p class="ev-sr-status" role="status" id="ev-status"></p>
 
       <!-- ev-karte -->
       <details class="ev-map" id="ev-map">
-        <summary>Anchors of all 153 entries, by topic</summary>
+        <summary>Anchors of all 154 entries, by topic</summary>
         <p>Look up an entry's anchor here; the file named at the start of its line holds the entry in full.</p>
         <p><a href="https://robert-haase.de/en/evidence-ai-search.md">AI search</a>, 26: llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, json-ld-test, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, reddit-zitate, geo-40-prozent, ebu-nachrichten, aio-top10-uneinig, llmstxt-nutzen, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, crawl-verweis-verhaeltnis, ki-modus-klicks, aio-markensuchen, chatgpt-suchanfragen, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, govuk-chat</p>
         <p><a href="https://robert-haase.de/en/evidence-agents.md">Agents</a>, 25: leere-buttons, agent-ready, a11y-cua, javascript, lighthouse, a11y-tree, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, klarna-700, rechtsvorbehalt-kommentar, abruf-kuerzung, lighthouse-agent-discovery, content-signal-selten, robots-sperre-chatbots, agenten-wissensarbeit, crawler-zweck-gemischt, dots-freigaberegeln, agenten-zeithorizont, agenten-eskalation-erstattung</p>
-        <p><a href="https://robert-haase.de/en/evidence-interfaces.md">Interfaces</a>, 24: astryx-agenten, designsysteme-maschinenschnittstelle, gitlab-markenrepo, frontify-mcp, canva-mcp, mcp-primitive, mcp-tool-poisoning, monotype-mcp, pulumi-brand-mcp, statista-mcp, veeva-mlr, google-ads-textregeln, microsoft-brand-kit, muse-connectors, olivares-access-map, adobe-markenpruefung, markup-ai-stilpruefung, agentenstandards-verbreitung, markenstimme-als-skill, staat-als-einzige-quelle, chatgpt-plugin-pruefung, mcp-server-cards, chatgpt-anzeigen-umschreiben, open-source-aufgegeben</p>
+        <p><a href="https://robert-haase.de/en/evidence-interfaces.md">Interfaces</a>, 25: astryx-agenten, designsysteme-maschinenschnittstelle, gitlab-markenrepo, frontify-mcp, canva-mcp, mcp-primitive, mcp-tool-poisoning, monotype-mcp, pulumi-brand-mcp, statista-mcp, veeva-mlr, google-ads-textregeln, microsoft-brand-kit, muse-connectors, olivares-access-map, adobe-markenpruefung, markup-ai-stilpruefung, agentenstandards-verbreitung, markenstimme-als-skill, staat-als-einzige-quelle, chatgpt-plugin-pruefung, mcp-server-cards, chatgpt-anzeigen-umschreiben, open-source-aufgegeben, agenten-skill-zitieren</p>
         <p><a href="https://robert-haase.de/en/evidence-commerce.md">Commerce</a>, 15: checkout-rueckbau, airline-direktkanal, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, shopify-knowledge-base, agenten-vollmacht-standard, commerce-agent-freigabe, agentenkanal-voreinstellung, agenten-lenkung-marktplatz, agent-werbung-steuerung, chatgpt-verweise-konversion, ki-verweise-handel-wachstum, aldi-ohne-app</p>
         <p><a href="https://robert-haase.de/en/evidence-liability.md">Liability</a>, 17: air-canada, cursor-bot, ai-act, olg-hamm, produkthaftung-komplexitaet, ai-overview-muenchen, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, perplexity-cfaa, screenshot-metadaten, eu-kennzeichnungskodex, agent-vorgesetzter, ross-kein-fair-use, gema-openai, kinderbuch-klagen-openai</p>
         <p><a href="https://robert-haase.de/en/evidence-market.md">Market size</a>, 23: machine-customers, marktgroesse, ki-nutzung-deutschland, nicht-menschlicher-verkehr, mcp-verbreitung, agentenhandel-2030, cmo-ki-anteil, dark-data-55, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, insourcing-absicht, agentur-selbstbild, cmo-titel-schwindet, ki-verkehr-handel-prognose, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten, reddit-lizenzerloese, trainingsdaten-vorrat</p>
@@ -4464,7 +4479,18 @@
           <a class="ev-permalink" href="#trainingsdaten-vorrat">Permalink</a>
         </div>
       </article>
-      <p class="ev-end" id="ev-end">End of list: 153 of 153 entries. Last entry: trainingsdaten-vorrat.</p>
+      <article class="ev-item" id="agenten-skill-zitieren" data-topic="schnittstellen" data-cite="Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5. (Own measurement, 2 November 2026). https://robert-haase.de/messungen/agenten-skill-2026-11-02.md · via https://robert-haase.de/en/evidence.html#agenten-skill-zitieren">
+        <p class="ev-grade is-plain">Controlled test, one agent</p>
+        <p class="ev-claim">Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5.</p>
+        <p class="ev-limit"><strong>What the numbers do not say:</strong> how agents perform in general. One agent was tested, Claude Sonnet 5.5 in Claude Code, with page fetch only and no web search, on my own site, with my questions and my scoring. The three runs without a figure each came after fetching the full evidence page, which the tool shortens; tools that do not shorten long pages may do better. The other six misses gave another figure the collection also holds. That the agent hits with the skill is to be expected: the skill names the text files and the citation format. What is measured is that it follows them, not that it finds the skill. Without the skill, 3 of 24 runs read the llms.txt file. Scoring used patterns fixed in advance and was read by hand.</p>
+        <p class="ev-source">Own measurement, 2 November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, page fetch only · eight questions in English, three runs each with and without the cite-evidence skill, 48 runs · scored per answer: figure, limit, primary source, grade, permalink · setup, questions, patterns and all results in the measurement file</p>
+        <div class="ev-actions">
+          <a class="ev-source-link" href="https://robert-haase.de/messungen/agenten-skill-2026-11-02.md" target="_blank" rel="noopener" aria-label="Source (opens in a new tab)">Source</a>
+          <button type="button" class="ev-copy">Copy quote</button>
+          <a class="ev-permalink" href="#agenten-skill-zitieren">Permalink</a>
+        </div>
+      </article>
+      <p class="ev-end" id="ev-end">End of list: 154 of 154 entries. Last entry: agenten-skill-zitieren.</p>
 
       <p class="ev-empty" id="ev-empty" hidden>No entry matches this selection.</p>
 

@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-01T22:34:00+01:00",
+  "dateModified": "2026-11-02T20:42:22+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 153,
+  "numberOfItems": 154,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -161,7 +161,7 @@
     {
       "id": "schnittstellen",
       "name": "Schnittstellen",
-      "numberOfItems": 24,
+      "numberOfItems": 25,
       "textFile": "https://robert-haase.de/belege-schnittstellen.md",
       "ids": [
         "astryx-agenten",
@@ -187,7 +187,8 @@
         "chatgpt-plugin-pruefung",
         "mcp-server-cards",
         "chatgpt-anzeigen-umschreiben",
-        "open-source-aufgegeben"
+        "open-source-aufgegeben",
+        "agenten-skill-zitieren"
       ],
       "groups": {
         "strong": [
@@ -218,7 +219,8 @@
           "mcp-primitive",
           "agentenstandards-verbreitung",
           "staat-als-einzige-quelle",
-          "mcp-server-cards"
+          "mcp-server-cards",
+          "agenten-skill-zitieren"
         ]
       }
     },
@@ -5018,6 +5020,33 @@
         }
       ],
       "citationText": "Epoch AI schätzt den nutzbaren Bestand öffentlicher, von Menschen geschriebener Texte auf rund 300 Billionen Token und erwartet mit 80 Prozent Wahrscheinlichkeit, dass Sprachmodelle ihn bei anhaltendem Trend zwischen 2026 und 2032 vollständig aufgebraucht haben. (Villalobos u. a., Epoch AI, 6. Juni 2024). https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data · via https://robert-haase.de/belege.html#trainingsdaten-vorrat"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agenten-skill-zitieren",
+      "text": "Ohne Hilfe fand ein Agent bei acht Fragen zu dieser Sammlung den passenden Eintrag nur in 15 von 24 Läufen; dreimal kam er ohne Zahl zurück, obwohl der Eintrag existiert. Den Agentenkatalog und den Skill dieser Seite rief er in keinem Lauf von selbst ab. Mit installiertem Skill traf er 24 von 24, nach zwei statt 4,5 Abrufen.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Eigene Messung, 2. November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, nur Seitenabruf · acht Fragen auf Englisch, je drei Läufe mit und ohne den Skill cite-evidence, 48 Läufe · bewertet je Antwort: Zahl, Grenze, Primärquelle, Einstufung, Permalink · Aufbau, Fragen, Muster und alle Ergebnisse in der Messdatei (englisch)",
+        "url": "https://robert-haase.de/messungen/agenten-skill-2026-11-02.md"
+      },
+      "disambiguatingDescription": "Was die Zahlen nicht sagen: wie Agenten allgemein abschneiden. Getestet ist ein Agent, Claude Sonnet 5.5 in Claude Code, nur mit Seitenabruf und ohne Websuche, auf meiner eigenen Seite, mit meinen Fragen und meiner Bewertung. Die drei Läufe ohne Zahl kamen jedes Mal nach dem Abruf der vollen Belege-Seite, die das Werkzeug kürzt; Werkzeuge, die lange Seiten nicht kürzen, schneiden womöglich besser ab. Die übrigen sechs Fehlgriffe nannten eine andere Zahl, die die Sammlung ebenfalls führt. Dass der Agent mit Skill trifft, ist erwartbar: Der Skill nennt ihm die Textdateien und das Zitierformat. Gemessen ist, dass er sich daran hält, nicht dass er den Skill findet. Die Datei llms.txt lasen ohne Skill 3 von 24 Läufen. Bewertet wurde nach vorher festgelegten Mustern und von Hand nachgelesen.",
+      "position": 154,
+      "id": "agenten-skill-zitieren",
+      "url": "https://robert-haase.de/belege.html#agenten-skill-zitieren",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Kontrollierter Test, ein Agent",
+        "group": "plain"
+      },
+      "sourceText": "Eigene Messung, 2. November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, nur Seitenabruf · acht Fragen auf Englisch, je drei Läufe mit und ohne den Skill cite-evidence, 48 Läufe · bewertet je Antwort: Zahl, Grenze, Primärquelle, Einstufung, Permalink · Aufbau, Fragen, Muster und alle Ergebnisse in der Messdatei (englisch) · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://robert-haase.de/messungen/agenten-skill-2026-11-02.md"
+        }
+      ],
+      "citationText": "Ohne Hilfe fand ein Agent bei acht Fragen zu dieser Sammlung den passenden Eintrag nur in 15 von 24 Läufen; dreimal kam er ohne Zahl zurück, obwohl der Eintrag existiert. Den Agentenkatalog und den Skill dieser Seite rief er in keinem Lauf von selbst ab. Mit installiertem Skill traf er 24 von 24, nach zwei statt 4,5 Abrufen. (Eigene Messung, 2. November 2026). https://robert-haase.de/messungen/agenten-skill-2026-11-02.md · via https://robert-haase.de/belege.html#agenten-skill-zitieren"
     }
   ]
 }

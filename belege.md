@@ -1,6 +1,6 @@
-# Belege: alle 153 Aussagen
+# Belege: alle 154 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 1. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 2. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -26,7 +26,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 - KI-Suche, 26 Einträge: https://robert-haase.de/belege-ki-suche.md
 - Agenten, 25 Einträge: https://robert-haase.de/belege-agenten.md
-- Schnittstellen, 24 Einträge: https://robert-haase.de/belege-schnittstellen.md
+- Schnittstellen, 25 Einträge: https://robert-haase.de/belege-schnittstellen.md
 - Handel, 15 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 17 Einträge: https://robert-haase.de/belege-haftung.md
 - Marktgröße, 23 Einträge: https://robert-haase.de/belege-markt.md
@@ -97,11 +97,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agenten-zeithorizont** · Messreihe eines Prüfinstituts · Wie lang die Aufgaben sind, die KI-Agenten mit 50 Prozent Erfolgswahrscheinlichkeit lösen, misst METR in der Arbeitszeit menschlicher Fachleute: rund 4 Minuten bei GPT-4 im März 2023, rund 17 Stunden bei einer frühen Fassung von Claude Mythos Preview im April 2026. Seit 2023 verdoppelt sich der Wert im Schnitt alle 129 Tage. → https://robert-haase.de/belege-agenten.md
 - **agenten-eskalation-erstattung** · Einzelner Test, ein Lauf je Modell · Sechs KI-Assistenten sollten eine verfallene Erstattung über 350 Pfund für einen ausgefallenen Zug durchsetzen. Grok 4.7 schickte in 15 simulierten Tagen 187 Nachrichten, davon 69 an Behörden, Kommunalpolitiker und Presse; Fable 5.1 gab die Krankheit der Mutter an fünf Organisationen weiter, drei Agenten drohten mit Klage. → https://robert-haase.de/belege-agenten.md
 
-## Schnittstellen (24)
+## Schnittstellen (25)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → monotype-mcp, veeva-mlr, olivares-access-map
-+ Sachstand, Fallbericht oder Marktbeobachtung (5) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards
++ Sachstand, Fallbericht oder Marktbeobachtung (6) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
 
 - **astryx-agenten** · Herstellerdokumentation · Meta hat sein acht Jahre intern gewachsenes Designsystem im Juni 2026 als Open Source veröffentlicht und begründet dessen Bauweise ausdrücklich mit Agenten: Designsysteme seien historisch für den menschlichen Gebrauch entworfen worden, und da immer mehr Code von Agenten geschrieben werde, müsse man ihre Struktur neu denken. → https://robert-haase.de/belege-schnittstellen.md
 - **designsysteme-maschinenschnittstelle** · Geprüfte Erhebung · Von 21 untersuchten Open-Source-Designsystemen liefern 18 einen herstellereigenen MCP-Server, 18 offizielle Agent Skills und 15 eine llms.txt. Die Erhebung fasst das so zusammen: „Nobody is still arguing about whether to ship a machine interface.“ → https://robert-haase.de/belege-schnittstellen.md
@@ -127,6 +127,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **mcp-server-cards** · Stand der Normung · Für das Model Context Protocol ist eine Erweiterung abgeschlossen, mit der ein Agent einen entfernten MCP-Server vor dem Verbinden erkennt: Eine Server Card beschreibt Identität, Adressen und Protokollversionen. Werkzeuge, Ressourcen und Prompts lässt sie bewusst weg. → https://robert-haase.de/belege-schnittstellen.md
 - **chatgpt-anzeigen-umschreiben** · Herstellerdokumentation · Seit dem 30. Oktober 2026 schreibt ChatGPT Anzeigen von Werbetreibenden automatisch um: neue Überschriften und Beschreibungen, Übersetzungen, angepasste Bilder und eine andere Zielseite auf der eigenen Website. Die Varianten laufen laut OpenAI ohne Prüfung oder Freigabe jeder Fassung und ohne Vorschau; wer das nicht will, muss es abschalten. → https://robert-haase.de/belege-schnittstellen.md
 - **open-source-aufgegeben** · Geprüfte Erhebung · Von 1.932 populären GitHub-Projekten waren in einer Studie von 2019 315 aufgegeben, 16 Prozent: Keiner der Kernentwickler hatte seit mindestens einem Jahr etwas beigetragen. 128 davon, 41 Prozent, überlebten, weil neue Kernentwickler die Pflege übernahmen. → https://robert-haase.de/belege-schnittstellen.md
+- **agenten-skill-zitieren** · Kontrollierter Test, ein Agent · Ohne Hilfe fand ein Agent bei acht Fragen zu dieser Sammlung den passenden Eintrag nur in 15 von 24 Läufen; dreimal kam er ohne Zahl zurück, obwohl der Eintrag existiert. Den Agentenkatalog und den Skill dieser Seite rief er in keinem Lauf von selbst ab. Mit installiertem Skill traf er 24 von 24, nach zwei statt 4,5 Abrufen. → https://robert-haase.de/belege-schnittstellen.md
 
 ## Handel (15)
 
@@ -234,4 +235,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agent-lenkt-urteil** · Kontrollierter Versuch, Preprint ohne Begutachtung · In einem randomisierten Versuch mit 50 Fachleuten für kausale Datenanalyse folgten diese bei vier Analyseentscheidungen in 86 Prozent der Fälle der Neigung ihres KI-Agenten, die per Los zugeteilt war; ohne Einfluss wären etwa 50 Prozent zu erwarten. 77 Prozent übernahmen seine Argumente, teils wörtlich, nur 15 Prozent nannten den Agenten. → https://robert-haase.de/belege-urteil.md
 - **bildschleifen-motive** · Simulation, begutachtet · Arbeiten ein Bildmodell und ein Beschreibungsmodell ohne Menschen abwechselnd, Bild zu Text zu Bild, landen die Ergebnisse bei wenigen gefälligen Motiven: In 700 Läufen über je 100 Runden fanden die Forschenden am Ende 12 vorherrschende Motive, etwa Leuchttürme im Sturm und prächtige Innenräume. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 153 von 153 Aussagen in 7 Themen.
+Ende der Übersicht: 154 von 154 Aussagen in 7 Themen.

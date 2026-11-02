@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-01T22:34:00+01:00",
+  "dateModified": "2026-11-02T20:42:22+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 153,
+  "numberOfItems": 154,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -161,7 +161,7 @@
     {
       "id": "schnittstellen",
       "name": "Interfaces",
-      "numberOfItems": 24,
+      "numberOfItems": 25,
       "textFile": "https://robert-haase.de/en/evidence-interfaces.md",
       "ids": [
         "astryx-agenten",
@@ -187,7 +187,8 @@
         "chatgpt-plugin-pruefung",
         "mcp-server-cards",
         "chatgpt-anzeigen-umschreiben",
-        "open-source-aufgegeben"
+        "open-source-aufgegeben",
+        "agenten-skill-zitieren"
       ],
       "groups": {
         "strong": [
@@ -218,7 +219,8 @@
           "mcp-primitive",
           "agentenstandards-verbreitung",
           "staat-als-einzige-quelle",
-          "mcp-server-cards"
+          "mcp-server-cards",
+          "agenten-skill-zitieren"
         ]
       }
     },
@@ -5018,6 +5020,33 @@
         }
       ],
       "citationText": "Epoch AI puts the usable stock of public human-written text at around 300 trillion tokens and expects, with 80 percent probability, that language models will have used it up entirely between 2026 and 2032 if current trends continue. (Villalobos et al., Epoch AI, 6 June 2024). https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data · via https://robert-haase.de/en/evidence.html#trainingsdaten-vorrat"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agenten-skill-zitieren",
+      "text": "Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Own measurement, 2 November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, page fetch only · eight questions in English, three runs each with and without the cite-evidence skill, 48 runs · scored per answer: figure, limit, primary source, grade, permalink · setup, questions, patterns and all results in the measurement file",
+        "url": "https://robert-haase.de/messungen/agenten-skill-2026-11-02.md"
+      },
+      "disambiguatingDescription": "What the numbers do not say: how agents perform in general. One agent was tested, Claude Sonnet 5.5 in Claude Code, with page fetch only and no web search, on my own site, with my questions and my scoring. The three runs without a figure each came after fetching the full evidence page, which the tool shortens; tools that do not shorten long pages may do better. The other six misses gave another figure the collection also holds. That the agent hits with the skill is to be expected: the skill names the text files and the citation format. What is measured is that it follows them, not that it finds the skill. Without the skill, 3 of 24 runs read the llms.txt file. Scoring used patterns fixed in advance and was read by hand.",
+      "position": 154,
+      "id": "agenten-skill-zitieren",
+      "url": "https://robert-haase.de/en/evidence.html#agenten-skill-zitieren",
+      "topic": "schnittstellen",
+      "grade": {
+        "name": "Controlled test, one agent",
+        "group": "plain"
+      },
+      "sourceText": "Own measurement, 2 November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, page fetch only · eight questions in English, three runs each with and without the cite-evidence skill, 48 runs · scored per answer: figure, limit, primary source, grade, permalink · setup, questions, patterns and all results in the measurement file · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://robert-haase.de/messungen/agenten-skill-2026-11-02.md"
+        }
+      ],
+      "citationText": "Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5. (Own measurement, 2 November 2026). https://robert-haase.de/messungen/agenten-skill-2026-11-02.md · via https://robert-haase.de/en/evidence.html#agenten-skill-zitieren"
     }
   ]
 }
