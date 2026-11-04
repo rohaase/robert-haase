@@ -3,7 +3,7 @@ title: "Antworten statt Seiten: Eine Website darf sich widersprechen. Eine Antwo
 description: "Wenn vorne nur noch ein Feld steht, ist die Antwort das Markenerlebnis. Strukturierte Inhalte reichen dafür nicht. Die Marke muss festlegen, welche ihrer Aussagen gilt."
 author: "Robert Haase"
 datePublished: 2026-10-02
-dateModified: 2026-10-05T14:20:00+02:00
+dateModified: 2026-11-04T19:43:18+01:00
 inLanguage: de
 url: https://robert-haase.de/antworten-statt-seiten.html
 translation: https://robert-haase.de/en/answers-instead-of-pages.html.md
@@ -59,7 +59,7 @@ In Unternehmen steckt die Regel, welche Aussage gilt, in den Anweisungen an den 
 
 **Ohne Festlegung verliert eine Marke im Antwortfeld so oder so. Legt sie fest, gibt sie die einzige Antwort, auf die sich ein Kunde berufen kann.**
 
-Gewinnt das Kleingedruckte, klingt die Marke wie ihre AGB. Gewinnt die Kampagne, muss die Marke ihr Versprechen halten. america.gov schreibt in seine [Nutzungsbedingungen](https://america.gov/terms), die Regierung hafte nicht für Schäden aus dem Verlass auf eine Antwort. Bei Unternehmen sieht das anders aus. Das Oberlandesgericht Hamm hat im Mai 2026 entschieden, dass ein Unternehmen für die irreführenden Auskünfte seines eigenen Chatbots haftet. Dass nur korrekte Daten eingespeist waren, half nicht. Entscheidend war, dass das Unternehmen die Antworten per Anweisung und Filter steuern konnte. Es ging um Wettbewerbsrecht und einen selbst betriebenen Chatbot. Das Urteil ist [rechtskräftig](https://robert-haase.de/belege.html#olg-hamm), weil niemand Revision eingelegt hat. Der Bundesgerichtshof hat die Frage deshalb nie geprüft.
+Gewinnt das Kleingedruckte, klingt die Marke wie ihre AGB. Gewinnt die Kampagne, muss die Marke ihr Versprechen halten. america.gov schreibt in seine [Nutzungsbedingungen](https://america.gov/terms), die Regierung hafte nicht für Schäden aus dem Verlass auf eine Antwort. Bei Unternehmen sieht das anders aus. Das Oberlandesgericht Hamm hat im Mai 2026 entschieden, dass ein Unternehmen für die irreführenden Auskünfte seines eigenen Chatbots haftet. Dass die Website und die FAQs des Unternehmens in diesem Punkt stimmten, half nicht. Entscheidend war, dass das Unternehmen die Antworten per Anweisung und Filter steuern konnte. Es ging um Wettbewerbsrecht und einen selbst betriebenen Chatbot. Das Urteil ist [rechtskräftig](https://robert-haase.de/belege.html#olg-hamm), weil niemand Revision eingelegt hat. Der Bundesgerichtshof hat die Frage deshalb nie geprüft.
 
 Für Kunden ist diese Haftung der Wert. Über eine Marke antworten heute viele Maschinen, bei Empfehlungen meist aus [Quellen, die die Marke nicht in der Hand hat](https://robert-haase.de/belege.html#eigene-seite-selten-zitiert). Gefragt werden sie auch dort, wo eine falsche Antwort teuer wird. Das Fachmedium [Nikkei Cross Trend](https://xtrend.nikkei.com/atcl/contents/18/01455/00001/) hat Ende August in Japan [rund 1.000 Menschen](https://xtrend.nikkei.com/atcl/contents/18/01467/00001/) befragt, die beim Einkaufen schon einmal KI genutzt haben. Bei Reisen und Finanzprodukten hatten 50 bis 60 Prozent von ihnen eine KI um Rat gefragt, bei Alltagswaren und Lebensmitteln rund 30 Prozent. Ob das für Deutschland gilt, ist offen. Im eigenen Feld bestimmt die Marke, woraus geantwortet wird, und steht dafür ein.
 

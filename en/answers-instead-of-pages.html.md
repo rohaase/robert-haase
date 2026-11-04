@@ -3,7 +3,7 @@ title: "Answers Instead of Pages: A Website May Contradict Itself. An Answer May
 description: "When all that is left at the front is a field, the answer is the brand experience. Structured content is not enough. The brand has to commit to which of its statements applies."
 author: "Robert Haase"
 datePublished: 2026-10-02
-dateModified: 2026-10-05T14:20:00+02:00
+dateModified: 2026-11-04T19:43:18+01:00
 inLanguage: en
 url: https://robert-haase.de/en/answers-instead-of-pages.html
 translation: https://robert-haase.de/antworten-statt-seiten.html.md
@@ -59,7 +59,7 @@ In companies, the rule on which statement applies sits in the instructions given
 
 **Without a commitment, a brand loses in the answer field either way. If it commits, it gives the only answer a customer can rely on.**
 
-If the small print wins, the brand sounds like its terms and conditions. If the campaign wins, the brand has to keep its promise. America.gov writes into its [terms of use](https://america.gov/terms) that the government is not liable for losses resulting from reliance on an answer. For companies it is different. In May 2026 the Higher Regional Court of Hamm ruled that a company is liable for the misleading information given by its own chatbot. That only correct data had been fed in did not help. What decided it was that the company could steer the answers through instructions and filters. The case concerned competition law and a chatbot the company ran itself. The judgment is [final](https://robert-haase.de/en/evidence.html#olg-hamm) because nobody appealed. Germany’s Federal Court of Justice has therefore never examined the question.
+If the small print wins, the brand sounds like its terms and conditions. If the campaign wins, the brand has to keep its promise. America.gov writes into its [terms of use](https://america.gov/terms) that the government is not liable for losses resulting from reliance on an answer. For companies it is different. In May 2026 the Higher Regional Court of Hamm ruled that a company is liable for the misleading information given by its own chatbot. That the company’s website and FAQs were accurate on this point did not help. What decided it was that the company could steer the answers through instructions and filters. The case concerned competition law and a chatbot the company ran itself. The judgment is [final](https://robert-haase.de/en/evidence.html#olg-hamm) because nobody appealed. Germany’s Federal Court of Justice has therefore never examined the question.
 
 For customers, this liability is the value. Many machines answer questions about a brand today, for recommendations mostly from [sources the brand does not control](https://robert-haase.de/en/evidence.html#eigene-seite-selten-zitiert). They are asked even where a wrong answer gets expensive. At the end of August, the trade publication [Nikkei Cross Trend](https://xtrend.nikkei.com/atcl/contents/18/01455/00001/) surveyed [around 1,000 people](https://xtrend.nikkei.com/atcl/contents/18/01467/00001/) in Japan who had used AI when shopping. For travel and financial products, 50 to 60 percent of them had asked an AI for advice; for everyday goods and groceries, around 30 percent. Whether that holds outside Japan is open. In its own field, the brand decides what the answers are drawn from, and stands behind them.
 
