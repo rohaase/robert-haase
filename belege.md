@@ -1,6 +1,6 @@
 # Belege: alle 154 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 2. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 4. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 

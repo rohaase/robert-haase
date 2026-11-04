@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-25 von 154 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 2. November 2026.
+25 von 154 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 4. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
