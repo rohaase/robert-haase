@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-26 of 155 entries in the collection “Evidence” by Robert Haase, as of 12 November 2026.
+29 of 160 entries in the collection “Evidence” by Robert Haase, as of 12 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 
@@ -23,8 +23,8 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Preliminary: prototype, single test, forecast, or vendor figure (12) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10
-+ Status, case report, or market observation (5) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat
++ Preliminary: prototype, single test, forecast, or vendor figure (14) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
++ Status, case report, or market observation (6) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters
 
 ---
 
@@ -158,9 +158,9 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Reddit’s share of the sources ChatGPT cites fell from 3.83 to 0.52 percent within a few days, according to one vendor panel; a second vendor panel counts a drop in daily Reddit citations from 497 to 132 over the same window, with total citation volume up by 3.5 percent.
 
-**What the numbers do not say:** Both vendors sell visibility tools. Promptwatch does not rule out a collection error in its own data and calls the size of the drop provisional. Otterly calls its 73.4 percent a conservative floor: the before-window contains the break of 8 August, the after-window covers only four days. **The two figures do not form a range:** Promptwatch measures a share of all citations, Otterly absolute citations per day against a total volume that grew. Derived from Otterly’s own numbers, the starting level is 1.38 against 3.83 percent, a factor of 2.8 apart. Direction and timing are reliable, the decimal place and the level are not. Promptwatch discloses its denominator, the composition of the panel it does not. **What the case does show:** on Google’s AI surfaces Reddit fell by only 11 and 30 percent over the same period. The explanation that Reddit removed content is refuted: other engines keep citing the same posts. No vendor has evidenced the cause. A comparable collapse a year earlier was attributed to Google switching off the num=100 parameter, not to OpenAI. **A third, longer series:** according to Ahrefs, about one in five ChatGPT answers in the US cited Reddit in March 2026 and about one in 43 by late September, a drop of 88 percent in six months. What is measured is the share of answers, not of citations, and Ahrefs too sells visibility tools; where ChatGPT’s search queries are shifting is shown in the entry on ChatGPT’s search queries. **In detail:** On 8 August 2026 ChatGPT’s use of the site: operator jumped from 0.37 to 16.8 percent of its derived search queries.
+**What the numbers do not say:** Both vendors sell visibility tools. Promptwatch does not rule out a collection error in its own data and calls the size of the drop provisional. Otterly calls its 73.4 percent a conservative floor: the before-window contains the break of 8 August, the after-window covers only four days. **The two figures do not form a range:** Promptwatch measures a share of all citations, Otterly absolute citations per day against a total volume that grew. Derived from Otterly’s own numbers, the starting level is 1.38 against 3.83 percent, a factor of 2.8 apart. Direction and timing are reliable, the decimal place and the level are not. Promptwatch discloses its denominator, the composition of the panel it does not. **What the case does show:** on Google’s AI surfaces Reddit fell by only 11 and 30 percent over the same period. The explanation that Reddit removed content is refuted: other engines keep citing the same posts. No vendor has evidenced the cause. A comparable collapse a year earlier was attributed to Google switching off the num=100 parameter, not to OpenAI. **A third, longer series:** according to Ahrefs, about one in five ChatGPT answers in the US cited Reddit in March 2026 and about one in 43 by late September, a drop of 88 percent in six months. What is measured is the share of answers, not of citations, and Ahrefs too sells visibility tools; where ChatGPT’s search queries are shifting is shown in the entry on ChatGPT’s search queries. **Since then:** Promptwatch measures 0.40 percent again for ChatGPT from 11 October to 9 November 2026, after 0.09 percent in late September; as the level before the collapse it now gives 5.19 instead of 3.83 percent, and the windows differ in length, 30 against 7 days. **In detail:** On 8 August 2026 ChatGPT’s use of the site: operator jumped from 0.37 to 16.8 percent of its derived search queries.
 
-**Source:** Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 ([site: operator data page](https://promptwatch.com/data/chatgpt-site-operator-fanouts)) · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication ([blog version](https://promptwatch.com/blog/chatgpt-stop-citing-reddit)) · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means ([second measurement](https://otterly.ai/blog/chatgpt-reddit-citations/)) · third series: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month, retrieved 16 October 2026 ([third series](https://ahrefs.com/blog/query-fan-out-chatgpt/)) · [Data page](https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt)
+**Source:** Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 ([site: operator data page](https://promptwatch.com/data/chatgpt-site-operator-fanouts)) · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication ([blog version](https://promptwatch.com/blog/chatgpt-stop-citing-reddit)) · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means ([second measurement](https://otterly.ai/blog/chatgpt-reddit-citations/)) · third series: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month, retrieved 16 October 2026 ([third series](https://ahrefs.com/blog/query-fan-out-chatgpt/)) · update: Promptwatch, data page for November 2026, window 11 October to 9 November, read 12 November 2026 ([update](https://promptwatch.com/data/social-media-citations-by-ai-model-november-2026)) · [Data page](https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt)
 
 **Grade:** Vendor measurement, preliminary · Group: Preliminary: prototype, single test, forecast, or vendor figure
 
@@ -392,4 +392,46 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 26 of 26 entries on AI search. Last entry: govuk-chat.
+## aio-klicks-feldexperiment
+
+**Claim:** In a randomised field experiment with 1,065 US users, Google’s AI Overviews cut clicks on organic results by 39.8 percent where they appeared: 0.37 instead of 0.62 clicks per search. Across all searches that is roughly 18.5 percent fewer; paid clicks and the number of searches did not change.
+
+**What the number does not say:** It is a working paper without peer review, desktop Chrome in the US only, recruited through Prolific in January 2026. Overviews appeared on about 41 percent of searches; the effect sits with overviews at the top of the page and with informational queries, while for navigational and transactional searches it cannot be distinguished from zero. What is measured is clicks, not brand effect. **What it adds to the other entries:** the entries on Pew and Ahrefs measure associations, here the conditions are randomly assigned. The reverse test in the entry on AI Mode came out weaker; it removed overviews and AI Mode together and counts across all participants. **In detail:** searches without any click became 34.5 percent more likely, roughly 20.4 percent across all searches; both groups rated satisfaction and search quality the same. The AI Mode arm is exploratory only, because many dropped out there.
+
+**Source:** Saharsh Agarwal (Indian School of Business) and Ananya Sen (Carnegie Mellon University), “The Impact of Google AI Overviews on Publisher Traffic and User Experience: Evidence from a Field Experiment”, working paper, version of 17 June 2026, preregistered in the AEA RCT Registry (AEARCTR-0017393) · 1,065 US participants, random assignment through a Chrome extension · full text read 12 November 2026 · university summary ([summary](https://www.isb.edu/faculty-and-research/isb-institute-of-data-science/research/ai-summaries-in-search-and-their-impact-on-publisher-traffic)) · [Source](https://ssrn.com/abstract=6513059)
+
+**Grade:** Field experiment, preregistered, working paper without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#aio-klicks-feldexperiment
+
+---
+
+## ki-informationssuche-reuters
+
+**Claim:** In six countries with earlier figures, half of respondents use generative AI weekly, 51 percent after 34 percent in 2025, and 38 percent use it weekly to get information, after 11 percent in 2024. Across nine countries, 57 percent say they saw or engaged with AI answers in search engines.
+
+**What the numbers do not say:** It is an online panel without random sampling, so no margin of error can be given; people who are not online are under-represented, and everything is self-reported. Germany is not included: the trend figures come from Argentina, Denmark, France, Japan, the UK and the US, with Australia, Finland and Norway added in 2026. Seeing or engaging is not clicking.
+
+**Source:** Reuters Institute for the Study of Journalism, Felix Simon, Rasmus Kleis Nielsen and Richard Fletcher, “Generative AI and News Report 2026: From standalone tools to information infrastructure”, 29 October 2026 · survey by YouGov, about 2,000 respondents per country in nine countries, 14 August to 28 September 2026 · read 12 November 2026 · [Source](https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure)
+
+**Grade:** Survey · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#ki-informationssuche-reuters
+
+---
+
+## wikipedia-aio-rueckgang
+
+**Claim:** How much Google’s AI Overviews reduce search visits to Wikipedia, the same authors estimate very differently from version to version: by about 15 percent in the first, of February 2026, and in the seventh, of October, by 5.45 percent against the German and 4.82 percent against the French articles.
+
+**What the numbers do not say:** It is a preprint without peer review in seven versions, the second withdrawn. The versions measure different things: the first daily traffic to English articles across 161,382 article-language pairs, the seventh monthly referrals from external search. The method uses the staggered rollout of the overviews and assumes that the German and French articles were unaffected. Wikipedia only. **What the entry shows:** an early estimate can shrink to a third in later versions by the same authors; anyone quoting the 15 percent is quoting a superseded version.
+
+**Source:** Mehrzad Khosravi and Hema Yoganarasimhan, “Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia”, arXiv 2602.18455, version 1 of 5 February 2026 and version 7 of 25 October 2026, preprint without peer review · abstracts of both versions read 12 November 2026 · [Source](https://arxiv.org/abs/2602.18455)
+
+**Grade:** Quasi-experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#wikipedia-aio-rueckgang
+
+---
+
+End of file: 29 of 29 entries on AI search. Last entry: wikipedia-aio-rueckgang.
