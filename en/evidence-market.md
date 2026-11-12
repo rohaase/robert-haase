@@ -352,11 +352,11 @@ The collection does not map the state of the research, only the figures I needed
 
 ## block-brand-hub
 
-**Claim:** The financial group Block (Cash App, Square, Tidal, Afterpay) says it has built its own platform bringing together the guidelines, assets, templates and generative tools of its brands. Since launching in August it counts more than 43,000 generations and nearly 4,000 downloads; growth and lifecycle teams create on-brand designs with it themselves.
+**Claim:** Block (Cash App, Square, Tidal, Afterpay) says it has built its own platform that brings together the guidelines, assets, templates and generative tools of its brands and lets growth and lifecycle teams create designs themselves. Since launching in August the group counts more than 43,000 generations there.
 
-**What the figures do not say:** this is the Head of Brand Design's own account in a LinkedIn post, checked by nobody; there is no company statement and no second report. What is counted is use, not whether the results were used or fit the brand. Whether the downloads refer to the generations or to files from the asset manager, the post does not say; no share can be derived from the two. **What stays open:** how many employees use the platform, in what form the brand rules are stored in it, who approves results, which purchased tools it replaced and what that saves. The post does not name the year of the launch; from context it is 2026. **It is a single company** with its own team of designers and engineers, whom the post lists by name; the case does not transfer to companies without such a team.
+**What the figure does not say:** this is the Head of Brand Design's own account in a LinkedIn post, checked by nobody. What is counted is use, not whether the results were used or fit the brand. **What stays open** is the form in which the brand rules are stored, who approves results, and which year is meant; from context it is 2026. It is a single company with its own team of designers and engineers.
 
-**Source:** Christian W., Head of Brand Design at Block, LinkedIn post of 11 November 2026 with a short video of the platform, checked 12 November 2026 · [Source](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
+**Source:** Christian W., Head of Brand Design at Block, LinkedIn post of 11 November 2026, checked 12 November 2026 · [Source](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
 
 **Grade:** Self-reported single case · Group: Preliminary: prototype, single test, forecast, or vendor figure
 

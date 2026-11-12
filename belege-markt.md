@@ -352,11 +352,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## block-brand-hub
 
-**Aussage:** Der Finanzkonzern Block (Cash App, Square, Tidal, Afterpay) hat nach eigenen Angaben selbst eine Plattform gebaut, die Guidelines, Assets, Vorlagen und generative Werkzeuge seiner Marken bündelt. Seit dem Start im August zählt er über 43.000 Generierungen und knapp 4.000 Downloads; Growth- und Lifecycle-Teams gestalten damit selbst im Markenstil.
+**Aussage:** Block (Cash App, Square, Tidal, Afterpay) hat nach eigenen Angaben selbst eine Plattform gebaut, die Guidelines, Assets, Vorlagen und generative Werkzeuge seiner Marken bündelt und mit der Growth- und Lifecycle-Teams selbst gestalten. Seit dem Start im August zählt der Konzern dort über 43.000 Generierungen.
 
-**Was die Zahlen nicht sagen:** Es ist die Eigenangabe des Head of Brand Design in einem LinkedIn-Beitrag, von niemandem geprüft; eine Mitteilung des Unternehmens oder einen zweiten Bericht gibt es dazu nicht. Gezählt ist Nutzung, nicht ob die Ergebnisse verwendet wurden oder zur Marke passen. Ob sich die Downloads auf die Generierungen beziehen oder auf Dateien aus der Asset-Verwaltung, sagt der Beitrag nicht; ein Anteil lässt sich daraus nicht bilden. **Was offen bleibt:** wie viele Beschäftigte die Plattform nutzen, in welcher Form die Markenregeln darin abgelegt sind, wer Ergebnisse freigibt, welche gekauften Werkzeuge sie ersetzt hat und was das spart. Das Jahr des Starts nennt der Beitrag nicht, dem Zusammenhang nach ist es 2026. **Es ist ein einzelnes Unternehmen** mit einem eigenen Team aus Gestaltung und Entwicklung, das der Beitrag namentlich aufführt; auf Unternehmen ohne ein solches Team lässt sich der Fall nicht übertragen.
+**Was die Zahl nicht sagt:** Es ist die Eigenangabe des Head of Brand Design in einem LinkedIn-Beitrag, von niemandem geprüft. Gezählt ist Nutzung, nicht ob die Ergebnisse verwendet wurden oder zur Marke passen. **Offen bleibt,** in welcher Form die Markenregeln abgelegt sind, wer Ergebnisse freigibt und welches Jahr gemeint ist, dem Zusammenhang nach 2026. Es ist ein einzelnes Unternehmen mit eigenem Team aus Gestaltung und Entwicklung.
 
-**Quelle:** Christian W., Head of Brand Design bei Block, LinkedIn-Beitrag vom 11. November 2026 mit kurzem Video der Plattform, geprüft am 12. November 2026 · [Zur Quelle](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
+**Quelle:** Christian W., Head of Brand Design bei Block, LinkedIn-Beitrag vom 11. November 2026, geprüft am 12. November 2026 · [Zur Quelle](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
 
 **Einstufung:** Eigenangabe, Einzelfall · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
 
