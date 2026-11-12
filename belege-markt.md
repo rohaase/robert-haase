@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-23 von 154 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 4. November 2026.
+24 von 155 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -23,7 +23,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (12) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
 + Sachstand, Fallbericht oder Marktbeobachtung (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 ---
@@ -350,4 +350,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 23 von 23 Einträgen zum Thema Marktgröße. Letzter Eintrag: trainingsdaten-vorrat.
+## block-brand-hub
+
+**Aussage:** Der Finanzkonzern Block (Cash App, Square, Tidal, Afterpay) hat nach eigenen Angaben selbst eine Plattform gebaut, die Guidelines, Assets, Vorlagen und generative Werkzeuge seiner Marken bündelt. Seit dem Start im August zählt er über 43.000 Generierungen und knapp 4.000 Downloads; Growth- und Lifecycle-Teams gestalten damit selbst im Markenstil.
+
+**Was die Zahlen nicht sagen:** Es ist die Eigenangabe des Head of Brand Design in einem LinkedIn-Beitrag, von niemandem geprüft; eine Mitteilung des Unternehmens oder einen zweiten Bericht gibt es dazu nicht. Gezählt ist Nutzung, nicht ob die Ergebnisse verwendet wurden oder zur Marke passen. Ob sich die Downloads auf die Generierungen beziehen oder auf Dateien aus der Asset-Verwaltung, sagt der Beitrag nicht; ein Anteil lässt sich daraus nicht bilden. **Was offen bleibt:** wie viele Beschäftigte die Plattform nutzen, in welcher Form die Markenregeln darin abgelegt sind, wer Ergebnisse freigibt, welche gekauften Werkzeuge sie ersetzt hat und was das spart. Das Jahr des Starts nennt der Beitrag nicht, dem Zusammenhang nach ist es 2026. **Es ist ein einzelnes Unternehmen** mit einem eigenen Team aus Gestaltung und Entwicklung, das der Beitrag namentlich aufführt; auf Unternehmen ohne ein solches Team lässt sich der Fall nicht übertragen.
+
+**Quelle:** Christian W., Head of Brand Design bei Block, LinkedIn-Beitrag vom 11. November 2026 mit kurzem Video der Plattform, geprüft am 12. November 2026 · [Zur Quelle](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
+
+**Einstufung:** Eigenangabe, Einzelfall · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#block-brand-hub
+
+---
+
+Ende der Datei: 24 von 24 Einträgen zum Thema Marktgröße. Letzter Eintrag: block-brand-hub.

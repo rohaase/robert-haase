@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-04T19:42:43+01:00",
+  "dateModified": "2026-11-12T08:30:03+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 154,
+  "numberOfItems": 155,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -323,7 +323,7 @@
     {
       "id": "markt",
       "name": "Market size",
-      "numberOfItems": 23,
+      "numberOfItems": 24,
       "textFile": "https://robert-haase.de/en/evidence-market.md",
       "ids": [
         "machine-customers",
@@ -348,7 +348,8 @@
         "cmo-ki-budget",
         "marketing-prioritaeten",
         "reddit-lizenzerloese",
-        "trainingsdaten-vorrat"
+        "trainingsdaten-vorrat",
+        "block-brand-hub"
       ],
       "groups": {
         "strong": [
@@ -367,7 +368,8 @@
           "suchmarkt-wachstum",
           "cmo-titel-schwindet",
           "ki-verkehr-handel-prognose",
-          "trainingsdaten-vorrat"
+          "trainingsdaten-vorrat",
+          "block-brand-hub"
         ],
         "plain": [
           "nicht-menschlicher-verkehr",
@@ -5047,6 +5049,33 @@
         }
       ],
       "citationText": "Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5. (Own measurement, 2 November 2026). https://robert-haase.de/messungen/agenten-skill-2026-11-02.md · via https://robert-haase.de/en/evidence.html#agenten-skill-zitieren"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#block-brand-hub",
+      "text": "The financial group Block (Cash App, Square, Tidal, Afterpay) says it has built its own platform bringing together the guidelines, assets, templates and generative tools of its brands. Since launching in August it counts more than 43,000 generations and nearly 4,000 downloads; growth and lifecycle teams create on-brand designs with it themselves.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Christian W., Head of Brand Design at Block, LinkedIn post of 11 November 2026 with a short video of the platform, checked 12 November 2026",
+        "url": "https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/"
+      },
+      "disambiguatingDescription": "What the figures do not say: this is the Head of Brand Design's own account in a LinkedIn post, checked by nobody; there is no company statement and no second report. What is counted is use, not whether the results were used or fit the brand. Whether the downloads refer to the generations or to files from the asset manager, the post does not say; no share can be derived from the two. What stays open: how many employees use the platform, in what form the brand rules are stored in it, who approves results, which purchased tools it replaced and what that saves. The post does not name the year of the launch; from context it is 2026. It is a single company with its own team of designers and engineers, whom the post lists by name; the case does not transfer to companies without such a team.",
+      "position": 155,
+      "id": "block-brand-hub",
+      "url": "https://robert-haase.de/en/evidence.html#block-brand-hub",
+      "topic": "markt",
+      "grade": {
+        "name": "Self-reported single case",
+        "group": "weak"
+      },
+      "sourceText": "Christian W., Head of Brand Design at Block, LinkedIn post of 11 November 2026 with a short video of the platform, checked 12 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/"
+        }
+      ],
+      "citationText": "The financial group Block (Cash App, Square, Tidal, Afterpay) says it has built its own platform bringing together the guidelines, assets, templates and generative tools of its brands. Since launching in August it counts more than 43,000 generations and nearly 4,000 downloads; growth and lifecycle teams create on-brand designs with it themselves. (Christian W., Head of Brand Design at Block, LinkedIn post of 11 November 2026; self-reported, not independently verified). https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/ · via https://robert-haase.de/en/evidence.html#block-brand-hub"
     }
   ]
 }

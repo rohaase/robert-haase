@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-23 of 154 entries in the collection “Evidence” by Robert Haase, as of 4 November 2026.
+24 of 155 entries in the collection “Evidence” by Robert Haase, as of 12 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
-+ Preliminary: prototype, single test, forecast, or vendor figure (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat
++ Preliminary: prototype, single test, forecast, or vendor figure (12) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
 + Status, case report, or market observation (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 ---
@@ -350,4 +350,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 23 of 23 entries on Market size. Last entry: trainingsdaten-vorrat.
+## block-brand-hub
+
+**Claim:** The financial group Block (Cash App, Square, Tidal, Afterpay) says it has built its own platform bringing together the guidelines, assets, templates and generative tools of its brands. Since launching in August it counts more than 43,000 generations and nearly 4,000 downloads; growth and lifecycle teams create on-brand designs with it themselves.
+
+**What the figures do not say:** this is the Head of Brand Design's own account in a LinkedIn post, checked by nobody; there is no company statement and no second report. What is counted is use, not whether the results were used or fit the brand. Whether the downloads refer to the generations or to files from the asset manager, the post does not say; no share can be derived from the two. **What stays open:** how many employees use the platform, in what form the brand rules are stored in it, who approves results, which purchased tools it replaced and what that saves. The post does not name the year of the launch; from context it is 2026. **It is a single company** with its own team of designers and engineers, whom the post lists by name; the case does not transfer to companies without such a team.
+
+**Source:** Christian W., Head of Brand Design at Block, LinkedIn post of 11 November 2026 with a short video of the platform, checked 12 November 2026 · [Source](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
+
+**Grade:** Self-reported single case · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#block-brand-hub
+
+---
+
+End of file: 24 of 24 entries on Market size. Last entry: block-brand-hub.

@@ -1,6 +1,6 @@
-# Belege: alle 154 Aussagen
+# Belege: alle 155 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 4. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 12. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -29,7 +29,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - Schnittstellen, 25 Einträge: https://robert-haase.de/belege-schnittstellen.md
 - Handel, 15 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 17 Einträge: https://robert-haase.de/belege-haftung.md
-- Marktgröße, 23 Einträge: https://robert-haase.de/belege-markt.md
+- Marktgröße, 24 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 23 Einträge: https://robert-haase.de/belege-urteil.md
 
 ## KI-Suche (26)
@@ -175,10 +175,10 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **gema-openai** · Gerichtsurteil, nicht endgültig · Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen. → https://robert-haase.de/belege-haftung.md
 - **kinderbuch-klagen-openai** · Klage eingereicht, Vortrag der Kläger · Zwei deutsche Kinderbuchverlage klagen vor dem Landgericht München gegen OpenAI: Penguin Random House für „Der kleine Drache Kokosnuss“, eingereicht am 27. März 2026, Carlsen mit Marc-Uwe Kling und Astrid Henn für „Das NEINhorn“, am 19. August 2026. ChatGPT erzeuge auf einfache Eingaben Texte und Bilder, die den Originalen nahekommen. → https://robert-haase.de/belege-haftung.md
 
-## Marktgröße (23)
+## Marktgröße (24)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (12) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
 + Sachstand, Fallbericht oder Marktbeobachtung (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 - **machine-customers** · Selbsteinschätzung, Prognose · In einer Gartner-Befragung schätzen Vorstandschefs, dass bis 2030 15 bis 20 Prozent ihres Umsatzes von Maschinen als Kunden kommen. → https://robert-haase.de/belege-markt.md
@@ -204,6 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **marketing-prioritaeten** · Befragung · Unter 20 Themen setzen europäische Marketingentscheider für 2026 Branding auf Platz 1 und Marketing mit generativer KI auf Platz 17. Zugleich zählt die Hälfte der Marketingchefs es zu den drei am schnellsten wachsenden Investitionsfeldern; nur 6 Prozent beschreiben den Einsatz generativer KI im eigenen Unternehmen als ausgereift. → https://robert-haase.de/belege-markt.md
 - **reddit-lizenzerloese** · Geprüfter Jahresabschluss · Reddit wies für 2025 sonstige Erlöse von 140 Millionen Dollar aus, nach 115 Millionen 2024 und 15 Millionen 2023, rund 6 Prozent des Umsatzes. Sie stammen aus Inhaltslizenzen und direkt an Nutzer verkauften Produkten, Letztere laut Reddit unwesentlich; im Wesentlichen der gesamte Vertragswert der Lizenzen kommt von zwei Partnern. → https://robert-haase.de/belege-markt.md
 - **trainingsdaten-vorrat** · Prognose, Modellrechnung · Epoch AI schätzt den nutzbaren Bestand öffentlicher, von Menschen geschriebener Texte auf rund 300 Billionen Token und erwartet mit 80 Prozent Wahrscheinlichkeit, dass Sprachmodelle ihn bei anhaltendem Trend zwischen 2026 und 2032 vollständig aufgebraucht haben. → https://robert-haase.de/belege-markt.md
+- **block-brand-hub** · Eigenangabe, Einzelfall · Der Finanzkonzern Block (Cash App, Square, Tidal, Afterpay) hat nach eigenen Angaben selbst eine Plattform gebaut, die Guidelines, Assets, Vorlagen und generative Werkzeuge seiner Marken bündelt. Seit dem Start im August zählt er über 43.000 Generierungen und knapp 4.000 Downloads; Growth- und Lifecycle-Teams gestalten damit selbst im Markenstil. → https://robert-haase.de/belege-markt.md
 
 ## Urteil (23)
 
@@ -235,4 +236,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agent-lenkt-urteil** · Kontrollierter Versuch, Preprint ohne Begutachtung · In einem randomisierten Versuch mit 50 Fachleuten für kausale Datenanalyse folgten diese bei vier Analyseentscheidungen in 86 Prozent der Fälle der Neigung ihres KI-Agenten, die per Los zugeteilt war; ohne Einfluss wären etwa 50 Prozent zu erwarten. 77 Prozent übernahmen seine Argumente, teils wörtlich, nur 15 Prozent nannten den Agenten. → https://robert-haase.de/belege-urteil.md
 - **bildschleifen-motive** · Simulation, begutachtet · Arbeiten ein Bildmodell und ein Beschreibungsmodell ohne Menschen abwechselnd, Bild zu Text zu Bild, landen die Ergebnisse bei wenigen gefälligen Motiven: In 700 Läufen über je 100 Runden fanden die Forschenden am Ende 12 vorherrschende Motive, etwa Leuchttürme im Sturm und prächtige Innenräume. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 154 von 154 Aussagen in 7 Themen.
+Ende der Übersicht: 155 von 155 Aussagen in 7 Themen.

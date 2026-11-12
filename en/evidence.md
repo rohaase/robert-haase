@@ -1,6 +1,6 @@
-# Evidence: all 154 claims
+# Evidence: all 155 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 4 November 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 12 November 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -29,7 +29,7 @@ The collection does not map the state of the research, only the figures I needed
 - Interfaces, 25 entries: https://robert-haase.de/en/evidence-interfaces.md
 - Commerce, 15 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 17 entries: https://robert-haase.de/en/evidence-liability.md
-- Market size, 23 entries: https://robert-haase.de/en/evidence-market.md
+- Market size, 24 entries: https://robert-haase.de/en/evidence-market.md
 - Judgement, 23 entries: https://robert-haase.de/en/evidence-judgement.md
 
 ## AI search (26)
@@ -175,10 +175,10 @@ The collection does not map the state of the research, only the figures I needed
 - **gema-openai** · Court ruling, not final · According to the Munich Regional Court I (11 November 2025), OpenAI infringes the rights to nine song lyrics with its models and ChatGPT: lyrics memorised in a model are a reproduction that no text and data mining exception covers. The operators are liable for the outputs, not the users who call them up with simple prompts. → https://robert-haase.de/en/evidence-liability.md
 - **kinderbuch-klagen-openai** · Lawsuit filed, claimants’ case · Two German children’s book publishers are suing OpenAI at the Munich Regional Court: Penguin Random House over “Der kleine Drache Kokosnuss”, filed on 27 March 2026, and Carlsen with Marc-Uwe Kling and Astrid Henn over “Das NEINhorn”, on 19 August 2026. They say ChatGPT produces texts and images close to the originals from simple prompts. → https://robert-haase.de/en/evidence-liability.md
 
-## Market size (23)
+## Market size (24)
 
 + Verified study, vendor documentation, or court decision (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
-+ Preliminary: prototype, single test, forecast, or vendor figure (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat
++ Preliminary: prototype, single test, forecast, or vendor figure (12) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
 + Status, case report, or market observation (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 - **machine-customers** · Self-assessment, forecast · In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. → https://robert-haase.de/en/evidence-market.md
@@ -204,6 +204,7 @@ The collection does not map the state of the research, only the figures I needed
 - **marketing-prioritaeten** · Survey · Out of 20 topics, European marketing decision-makers put branding at rank 1 for 2026 and marketing with generative AI at rank 17. At the same time half of the CMOs count it among their three fastest-growing investment areas; only 6 percent describe their company’s use of generative AI as mature. → https://robert-haase.de/en/evidence-market.md
 - **reddit-lizenzerloese** · Audited annual report · Reddit reported other revenue of 140 million dollars for 2025, after 115 million in 2024 and 15 million in 2023, around 6 percent of revenue. It comes from content licensing and products sold directly to users, the latter immaterial according to Reddit; substantially all of the licensing contract value comes from two partners. → https://robert-haase.de/en/evidence-market.md
 - **trainingsdaten-vorrat** · Forecast, model estimate · Epoch AI puts the usable stock of public human-written text at around 300 trillion tokens and expects, with 80 percent probability, that language models will have used it up entirely between 2026 and 2032 if current trends continue. → https://robert-haase.de/en/evidence-market.md
+- **block-brand-hub** · Self-reported single case · The financial group Block (Cash App, Square, Tidal, Afterpay) says it has built its own platform bringing together the guidelines, assets, templates and generative tools of its brands. Since launching in August it counts more than 43,000 generations and nearly 4,000 downloads; growth and lifecycle teams create on-brand designs with it themselves. → https://robert-haase.de/en/evidence-market.md
 
 ## Judgement (23)
 
@@ -235,4 +236,4 @@ The collection does not map the state of the research, only the figures I needed
 - **agent-lenkt-urteil** · Controlled experiment, preprint without peer review · In a randomised experiment with 50 experts in causal data analysis, participants went with their AI agent’s lean in 86 percent of four analytical choices; the lean had been assigned by lot, so without influence about 50 percent would be expected. 77 percent adopted the agent’s arguments, sometimes word for word, and only 15 percent credited it. → https://robert-haase.de/en/evidence-judgement.md
 - **bildschleifen-motive** · Simulation, peer-reviewed · When an image model and a captioning model take turns without humans, image to text to image, the results end up in a few pleasing motifs: across 700 runs of 100 rounds each, the researchers found 12 dominant motifs at the end, such as stormy lighthouses and palatial interiors. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 154 of 154 claims in 7 topics.
+End of overview: 155 of 155 claims in 7 topics.
