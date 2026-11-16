@@ -1,6 +1,6 @@
 # Belege: Handel
 
-15 von 160 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. November 2026.
+16 von 163 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 16. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-commerce.md
 
@@ -23,7 +23,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Einstufung in diesem Thema
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (4) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum, agenten-buchungen-uber
 + Sachstand, Fallbericht oder Marktbeobachtung (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
 
 ---
@@ -238,4 +238,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 15 von 15 Einträgen zum Thema Handel. Letzter Eintrag: aldi-ohne-app.
+## agenten-buchungen-uber
+
+**Aussage:** In der Halloween-Woche 2026, einer seiner stärksten Wochen, wickelte Uber rund 320 Millionen Fahrten und Bestellungen ab. Über KI-Agenten kamen davon rund 500 Bestellungen bei Uber Eats und vier Fahrten, sagte Finanzchef Balaji Krishnamurthy: sehr früh, sehr wenig Zugkraft.
+
+**Was die Zahl nicht sagt:** wie viele Menschen Agenten für solche Käufe nutzen wollen. Es ist eine einzelne Woche, mündlich im Quartalscall genannt, ohne Angabe, welche Assistenten gezählt sind. Laut Vorstandschef Dara Khosrowshahi verhandelt Uber die Bedingungen mit den Anbietern der Assistenten erst noch; gemessen ist also ein Kanal, der kaum geöffnet ist. Uber will Kunden in der eigenen App halten und nennt dafür Zeiten: Eine Fahrt ist im Mittel in 50 Sekunden gebucht, eine Nachbestellung im Median in 90. **Zur Einordnung:** Die Woche lag vor dem Call am 4. November, also schon im vierten Quartal; Berichte, die von der besten Woche des Quartals sprechen, ordnen sie falsch zu.
+
+**Quelle:** Uber Technologies, Q3 2026 Earnings Call vom 4. November 2026, Corrected Transcript (FactSet CallStreet), S. 15 bis 17, Antworten von Dara Khosrowshahi und Balaji Krishnamurthy auf eine Frage von Doug Anmuth (JPMorgan) · gelesen am 16. November 2026 · [Zur Quelle](https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf)
+
+**Einstufung:** Unternehmensangabe, eine Woche · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-buchungen-uber
+
+---
+
+Ende der Datei: 16 von 16 Einträgen zum Thema Handel. Letzter Eintrag: agenten-buchungen-uber.

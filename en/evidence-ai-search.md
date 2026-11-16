@@ -1,6 +1,6 @@
 # Evidence: AI search
 
-29 of 160 entries in the collection “Evidence” by Robert Haase, as of 12 November 2026.
+30 of 163 entries in the collection “Evidence” by Robert Haase, as of 16 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-ki-suche.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
 + Preliminary: prototype, single test, forecast, or vendor figure (14) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
-+ Status, case report, or market observation (6) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters
++ Status, case report, or market observation (7) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters, aio-deutschland-keywords
 
 ---
 
@@ -434,4 +434,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 29 of 29 entries on AI search. Last entry: wikipedia-aio-rueckgang.
+## aio-deutschland-keywords
+
+**Claim:** In Germany, Google shows an AI Overview for more than half of all keywords: 57.9 percent on 6 November 2026 according to SISTRIX, against 20 percent in mid-November 2025. The last ten percentage points up to half took 52 days.
+
+**What the number does not say:** SISTRIX sells search engine optimisation tools and measures with its own crawls. What is counted is a share of keywords, not of queries or clicks; whether it is weighted by search volume, how large the keyword set is and whether it is desktop or mobile, the post does not say. What is measured is whether an Overview appears, not what it says. **What it adds to the other entries:** the entry on branded searches measures US desktop at Ahrefs; this is the German series. **In detail:** 10 percent on 10 June 2025, 20 percent on 15 November 2025, 30 percent on 10 July 2026, 40 percent on 11 September, 50 percent on 2 November 2026.
+
+**Source:** SISTRIX, Johannes Beus, “AI Overviews jetzt bei über 50 % der Keywords”, 6 November 2026, in German · thresholds and dates from the post · read 16 November 2026 · [Source](https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/)
+
+**Grade:** Market observation · Group: Status, case report, or market observation
+
+**Permalink:** https://robert-haase.de/en/evidence.html#aio-deutschland-keywords
+
+---
+
+End of file: 30 of 30 entries on AI search. Last entry: aio-deutschland-keywords.

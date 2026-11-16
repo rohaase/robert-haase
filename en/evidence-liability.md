@@ -1,6 +1,6 @@
 # Evidence: Liability
 
-18 of 160 entries in the collection “Evidence” by Robert Haase, as of 12 November 2026.
+19 of 163 entries in the collection “Evidence” by Robert Haase, as of 16 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-haftung.md
 
@@ -22,7 +22,7 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
++ Verified study, vendor documentation, or court decision (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
 + Preliminary: prototype, single test, forecast, or vendor figure (2) → ai-overview-muenchen, kinderbuch-klagen-openai
 + Status, case report, or market observation (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
 
@@ -280,4 +280,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 18 of 18 entries on Liability. Last entry: eugh-chatbot-presseverleger.
+## chatgpt-business-hub-verzicht
+
+**Claim:** Anyone who uses OpenAI’s offering for businesses in ChatGPT irrevocably waives, under its terms, for itself and all affiliates, any claims over content ever published on its own websites. Anyone supplying a product feed must admit OpenAI’s crawlers; a text and data mining reservation then has no effect against OpenAI.
+
+**What the text does not say:** whether the waiver holds. These are US standard terms; whether so broad a waiver in pre-formulated terms would stand before German or European courts is not examined here. The only exception is claims that OpenAI breached these terms. **What follows:** a business is bound not only once it claims a profile but as soon as it uses the offering or provides data through it. If a single company in a group uses it, the wording extends the waiver to all affiliates. **In detail:** the waiver also covers unknown claims and content on third-party websites in which the business holds rights; injunctions and deletion are excluded. OpenAI creates a listing even if nobody claims it, and claiming it gives no exclusive control. The licence for name, address, contact details and opening hours is perpetual and irrevocable; the visibility figures OpenAI provides are confidential.
+
+**Source:** OpenAI, “Businesses in ChatGPT Terms”, last updated 9 November 2026 · preamble (who is bound), section 3 (product feed), 4 (listings), 6 (insight data), 10 (covenant not to sue and release), 11 (definition of “Covered Claim”) · read 16 November 2026 · [Source](https://openai.com/policies/businesses-in-chatgpt-terms/)
+
+**Grade:** Provider’s terms of use · Group: Verified study, vendor documentation, or court decision
+
+**Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-business-hub-verzicht
+
+---
+
+End of file: 19 of 19 entries on Liability. Last entry: chatgpt-business-hub-verzicht.

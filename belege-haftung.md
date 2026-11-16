@@ -1,6 +1,6 @@
 # Belege: Haftung
 
-18 von 160 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. November 2026.
+19 von 163 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 16. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-liability.md
 
@@ -22,7 +22,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (2) → ai-overview-muenchen, kinderbuch-klagen-openai
 + Sachstand, Fallbericht oder Marktbeobachtung (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
 
@@ -280,4 +280,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 18 von 18 Einträgen zum Thema Haftung. Letzter Eintrag: eugh-chatbot-presseverleger.
+## chatgpt-business-hub-verzicht
+
+**Aussage:** Wer OpenAIs Angebot für Unternehmen in ChatGPT nutzt, verzichtet laut dessen Bedingungen für sich und alle verbundenen Unternehmen unwiderruflich auf Klagen wegen Inhalten, die je auf den eigenen Websites standen. Wer einen Produkt-Feed liefert, muss OpenAIs Crawler zulassen; ein Vorbehalt gegen Text- und Data-Mining gilt gegenüber OpenAI nicht.
+
+**Was der Text nicht sagt:** ob der Verzicht hält. Es sind US-Standardbedingungen; ob ein so weiter Verzicht in vorformulierten Bedingungen vor deutschen oder europäischen Gerichten Bestand hat, ist hier nicht geprüft. Ausgenommen sind nur Ansprüche, weil OpenAI diese Bedingungen verletzt. **Was daraus folgt:** Gebunden ist nicht erst, wer ein Profil beansprucht, sondern wer das Angebot nutzt oder Daten darüber liefert. Nutzt es eine einzelne Gesellschaft, erstreckt der Wortlaut den Verzicht auf alle verbundenen Unternehmen. **Im Einzelnen:** Der Verzicht umfasst auch unbekannte Ansprüche und Inhalte auf fremden Websites, an denen das Unternehmen Rechte hat; Unterlassung und Löschung sind ausgeschlossen. Einen Eintrag legt OpenAI auch ohne Beanspruchen an, und wer ihn beansprucht, bekommt keine alleinige Kontrolle darüber. Die Lizenz für Name, Adresse, Kontaktdaten und Öffnungszeiten ist unbefristet und unwiderruflich; die Zahlen zur eigenen Sichtbarkeit, die OpenAI liefert, sind vertraulich.
+
+**Quelle:** OpenAI, „Businesses in ChatGPT Terms“, zuletzt aktualisiert am 9. November 2026 · Präambel (wer gebunden ist), Ziffer 3 (Produkt-Feed), 4 (Einträge), 6 (Sichtbarkeitszahlen), 10 (Klageverzicht und Freigabe), 11 (Begriff „Covered Claim“) · gelesen am 16. November 2026 · [Zur Quelle](https://openai.com/policies/businesses-in-chatgpt-terms/)
+
+**Einstufung:** Nutzungsbedingungen des Anbieters · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+
+**Direktlink:** https://robert-haase.de/belege.html#chatgpt-business-hub-verzicht
+
+---
+
+Ende der Datei: 19 von 19 Einträgen zum Thema Haftung. Letzter Eintrag: chatgpt-business-hub-verzicht.

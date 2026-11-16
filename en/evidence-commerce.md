@@ -1,6 +1,6 @@
 # Evidence: Commerce
 
-15 of 160 entries in the collection “Evidence” by Robert Haase, as of 12 November 2026.
+16 of 163 entries in the collection “Evidence” by Robert Haase, as of 16 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-handel.md
 
@@ -23,7 +23,7 @@ The collection does not map the state of the research, only the figures I needed
 ## Grades in this topic
 
 + Verified study, vendor documentation, or court decision (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
-+ Preliminary: prototype, single test, forecast, or vendor figure (3) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum
++ Preliminary: prototype, single test, forecast, or vendor figure (4) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum, agenten-buchungen-uber
 + Status, case report, or market observation (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
 
 ---
@@ -238,4 +238,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 15 of 15 entries on Commerce. Last entry: aldi-ohne-app.
+## agenten-buchungen-uber
+
+**Claim:** In Halloween week 2026, one of its largest weeks, Uber handled around 320 million trips and orders. Of these, AI agents brought around 500 Uber Eats orders and four rides, said CFO Balaji Krishnamurthy: very early, very limited traction.
+
+**What the number does not say:** how many people want to use agents for such purchases. It is a single week, stated orally on the earnings call, without saying which assistants are counted. According to CEO Dara Khosrowshahi, Uber is still negotiating terms with the assistant providers; what is measured is a channel that is barely open. Uber wants to keep customers in its own app and cites times for it: a ride is booked in 50 seconds on average, a reorder takes a median of 90. **For context:** the week fell before the call on 4 November, i.e. already in the fourth quarter; reports that call it the best week of the quarter place it wrongly.
+
+**Source:** Uber Technologies, Q3 2026 earnings call of 4 November 2026, corrected transcript (FactSet CallStreet), pp. 15 to 17, answers by Dara Khosrowshahi and Balaji Krishnamurthy to a question from Doug Anmuth (JPMorgan) · read 16 November 2026 · [Source](https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf)
+
+**Grade:** Company statement, one week · Group: Preliminary: prototype, single test, forecast, or vendor figure
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-buchungen-uber
+
+---
+
+End of file: 16 of 16 entries on Commerce. Last entry: agenten-buchungen-uber.

@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-12T13:17:20+01:00",
+  "dateModified": "2026-11-16T07:48:43+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 160,
+  "numberOfItems": 163,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -27,7 +27,7 @@
     {
       "id": "ki-suche",
       "name": "KI-Suche",
-      "numberOfItems": 29,
+      "numberOfItems": 30,
       "textFile": "https://robert-haase.de/belege-ki-suche.md",
       "ids": [
         "llmstxt-abrufe",
@@ -58,7 +58,8 @@
         "govuk-chat",
         "aio-klicks-feldexperiment",
         "ki-informationssuche-reuters",
-        "wikipedia-aio-rueckgang"
+        "wikipedia-aio-rueckgang",
+        "aio-deutschland-keywords"
       ],
       "groups": {
         "strong": [
@@ -94,7 +95,8 @@
           "aio-markensuchen",
           "chatgpt-suchanfragen",
           "govuk-chat",
-          "ki-informationssuche-reuters"
+          "ki-informationssuche-reuters",
+          "aio-deutschland-keywords"
         ]
       }
     },
@@ -235,7 +237,7 @@
     {
       "id": "handel",
       "name": "Handel",
-      "numberOfItems": 15,
+      "numberOfItems": 16,
       "textFile": "https://robert-haase.de/belege-handel.md",
       "ids": [
         "checkout-rueckbau",
@@ -252,7 +254,8 @@
         "agent-werbung-steuerung",
         "chatgpt-verweise-konversion",
         "ki-verweise-handel-wachstum",
-        "aldi-ohne-app"
+        "aldi-ohne-app",
+        "agenten-buchungen-uber"
       ],
       "groups": {
         "strong": [
@@ -265,7 +268,8 @@
         "weak": [
           "agenten-lenkung-marktplatz",
           "agent-werbung-steuerung",
-          "ki-verweise-handel-wachstum"
+          "ki-verweise-handel-wachstum",
+          "agenten-buchungen-uber"
         ],
         "plain": [
           "checkout-rueckbau",
@@ -281,7 +285,7 @@
     {
       "id": "haftung",
       "name": "Haftung",
-      "numberOfItems": 18,
+      "numberOfItems": 19,
       "textFile": "https://robert-haase.de/belege-haftung.md",
       "ids": [
         "air-canada",
@@ -301,7 +305,8 @@
         "ross-kein-fair-use",
         "gema-openai",
         "kinderbuch-klagen-openai",
-        "eugh-chatbot-presseverleger"
+        "eugh-chatbot-presseverleger",
+        "chatgpt-business-hub-verzicht"
       ],
       "groups": {
         "strong": [
@@ -311,7 +316,8 @@
           "screenshot-metadaten",
           "agent-vorgesetzter",
           "ross-kein-fair-use",
-          "gema-openai"
+          "gema-openai",
+          "chatgpt-business-hub-verzicht"
         ],
         "weak": [
           "ai-overview-muenchen",
@@ -5282,6 +5288,87 @@
         }
       ],
       "citationText": "Wie stark Googles KI-Übersichten die Suchbesuche auf Wikipedia senken, schätzen dieselben Autoren je nach Fassung sehr verschieden: in der ersten vom Februar 2026 um etwa 15 Prozent, in der siebten vom Oktober um 5,45 Prozent gegen die deutschen und 4,82 Prozent gegen die französischen Artikel. (Khosravi und Yoganarasimhan, arXiv 2602.18455, Fassungen 1 und 7). https://arxiv.org/abs/2602.18455 · via https://robert-haase.de/belege.html#wikipedia-aio-rueckgang"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#chatgpt-business-hub-verzicht",
+      "text": "Wer OpenAIs Angebot für Unternehmen in ChatGPT nutzt, verzichtet laut dessen Bedingungen für sich und alle verbundenen Unternehmen unwiderruflich auf Klagen wegen Inhalten, die je auf den eigenen Websites standen. Wer einen Produkt-Feed liefert, muss OpenAIs Crawler zulassen; ein Vorbehalt gegen Text- und Data-Mining gilt gegenüber OpenAI nicht.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "OpenAI, „Businesses in ChatGPT Terms“, zuletzt aktualisiert am 9. November 2026 · Präambel (wer gebunden ist), Ziffer 3 (Produkt-Feed), 4 (Einträge), 6 (Sichtbarkeitszahlen), 10 (Klageverzicht und Freigabe), 11 (Begriff „Covered Claim“) · gelesen am 16. November 2026",
+        "url": "https://openai.com/policies/businesses-in-chatgpt-terms/"
+      },
+      "disambiguatingDescription": "Was der Text nicht sagt: ob der Verzicht hält. Es sind US-Standardbedingungen; ob ein so weiter Verzicht in vorformulierten Bedingungen vor deutschen oder europäischen Gerichten Bestand hat, ist hier nicht geprüft. Ausgenommen sind nur Ansprüche, weil OpenAI diese Bedingungen verletzt. Was daraus folgt: Gebunden ist nicht erst, wer ein Profil beansprucht, sondern wer das Angebot nutzt oder Daten darüber liefert. Nutzt es eine einzelne Gesellschaft, erstreckt der Wortlaut den Verzicht auf alle verbundenen Unternehmen. Im Einzelnen: Der Verzicht umfasst auch unbekannte Ansprüche und Inhalte auf fremden Websites, an denen das Unternehmen Rechte hat; Unterlassung und Löschung sind ausgeschlossen. Einen Eintrag legt OpenAI auch ohne Beanspruchen an, und wer ihn beansprucht, bekommt keine alleinige Kontrolle darüber. Die Lizenz für Name, Adresse, Kontaktdaten und Öffnungszeiten ist unbefristet und unwiderruflich; die Zahlen zur eigenen Sichtbarkeit, die OpenAI liefert, sind vertraulich.",
+      "position": 161,
+      "id": "chatgpt-business-hub-verzicht",
+      "url": "https://robert-haase.de/belege.html#chatgpt-business-hub-verzicht",
+      "topic": "haftung",
+      "grade": {
+        "name": "Nutzungsbedingungen des Anbieters",
+        "group": "strong"
+      },
+      "sourceText": "OpenAI, „Businesses in ChatGPT Terms“, zuletzt aktualisiert am 9. November 2026 · Präambel (wer gebunden ist), Ziffer 3 (Produkt-Feed), 4 (Einträge), 6 (Sichtbarkeitszahlen), 10 (Klageverzicht und Freigabe), 11 (Begriff „Covered Claim“) · gelesen am 16. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://openai.com/policies/businesses-in-chatgpt-terms/"
+        }
+      ],
+      "citationText": "Wer OpenAIs Angebot für Unternehmen in ChatGPT nutzt, verzichtet laut dessen Bedingungen für sich und alle verbundenen Unternehmen unwiderruflich auf Klagen wegen Inhalten, die je auf den eigenen Websites standen. Wer einen Produkt-Feed liefert, muss OpenAIs Crawler zulassen; ein Vorbehalt gegen Text- und Data-Mining gilt gegenüber OpenAI nicht. (OpenAI, Businesses in ChatGPT Terms, Stand 9. November 2026, Ziffern 3, 10 und 11). https://openai.com/policies/businesses-in-chatgpt-terms/ · via https://robert-haase.de/belege.html#chatgpt-business-hub-verzicht"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#aio-deutschland-keywords",
+      "text": "In Deutschland zeigt Google bei mehr als der Hälfte der Keywords eine KI-Übersicht: am 6. November 2026 laut SISTRIX bei 57,9 Prozent, Mitte November 2025 bei 20 Prozent. Die letzten zehn Prozentpunkte bis zur Hälfte kamen in 52 Tagen.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "SISTRIX, Johannes Beus, „AI Overviews jetzt bei über 50 % der Keywords“, 6. November 2026 · Schwellen und Stichtage aus dem Beitrag · gelesen am 16. November 2026",
+        "url": "https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: SISTRIX verkauft Werkzeuge für die Suchmaschinenoptimierung und misst mit eigenen Abrufen. Gezählt ist ein Anteil an Keywords, nicht an Suchanfragen oder Klicks; ob nach Suchvolumen gewichtet wird, wie groß das Keyword-Set ist und ob Desktop oder Mobil, nennt der Beitrag nicht. Gemessen ist, ob eine Übersicht erscheint, nicht, was sie sagt. Was es zu den übrigen Einträgen beiträgt: Der Eintrag zu Markensuchen misst US-Desktop bei Ahrefs; das hier ist die deutsche Reihe. Im Einzelnen: 10 Prozent am 10. Juni 2025, 20 Prozent am 15. November 2025, 30 Prozent am 10. Juli 2026, 40 Prozent am 11. September, 50 Prozent am 2. November 2026.",
+      "position": 162,
+      "id": "aio-deutschland-keywords",
+      "url": "https://robert-haase.de/belege.html#aio-deutschland-keywords",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Marktbeobachtung",
+        "group": "plain"
+      },
+      "sourceText": "SISTRIX, Johannes Beus, „AI Overviews jetzt bei über 50 % der Keywords“, 6. November 2026 · Schwellen und Stichtage aus dem Beitrag · gelesen am 16. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/"
+        }
+      ],
+      "citationText": "In Deutschland zeigt Google bei mehr als der Hälfte der Keywords eine KI-Übersicht: am 6. November 2026 laut SISTRIX bei 57,9 Prozent, Mitte November 2025 bei 20 Prozent. Die letzten zehn Prozentpunkte bis zur Hälfte kamen in 52 Tagen. (SISTRIX, 6. November 2026, Anteil der Keywords mit KI-Übersicht in Deutschland). https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/ · via https://robert-haase.de/belege.html#aio-deutschland-keywords"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agenten-buchungen-uber",
+      "text": "In der Halloween-Woche 2026, einer seiner stärksten Wochen, wickelte Uber rund 320 Millionen Fahrten und Bestellungen ab. Über KI-Agenten kamen davon rund 500 Bestellungen bei Uber Eats und vier Fahrten, sagte Finanzchef Balaji Krishnamurthy: sehr früh, sehr wenig Zugkraft.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Uber Technologies, Q3 2026 Earnings Call vom 4. November 2026, Corrected Transcript (FactSet CallStreet), S. 15 bis 17, Antworten von Dara Khosrowshahi und Balaji Krishnamurthy auf eine Frage von Doug Anmuth (JPMorgan) · gelesen am 16. November 2026",
+        "url": "https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: wie viele Menschen Agenten für solche Käufe nutzen wollen. Es ist eine einzelne Woche, mündlich im Quartalscall genannt, ohne Angabe, welche Assistenten gezählt sind. Laut Vorstandschef Dara Khosrowshahi verhandelt Uber die Bedingungen mit den Anbietern der Assistenten erst noch; gemessen ist also ein Kanal, der kaum geöffnet ist. Uber will Kunden in der eigenen App halten und nennt dafür Zeiten: Eine Fahrt ist im Mittel in 50 Sekunden gebucht, eine Nachbestellung im Median in 90. Zur Einordnung: Die Woche lag vor dem Call am 4. November, also schon im vierten Quartal; Berichte, die von der besten Woche des Quartals sprechen, ordnen sie falsch zu.",
+      "position": 163,
+      "id": "agenten-buchungen-uber",
+      "url": "https://robert-haase.de/belege.html#agenten-buchungen-uber",
+      "topic": "handel",
+      "grade": {
+        "name": "Unternehmensangabe, eine Woche",
+        "group": "weak"
+      },
+      "sourceText": "Uber Technologies, Q3 2026 Earnings Call vom 4. November 2026, Corrected Transcript (FactSet CallStreet), S. 15 bis 17, Antworten von Dara Khosrowshahi und Balaji Krishnamurthy auf eine Frage von Doug Anmuth (JPMorgan) · gelesen am 16. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf"
+        }
+      ],
+      "citationText": "In der Halloween-Woche 2026, einer seiner stärksten Wochen, wickelte Uber rund 320 Millionen Fahrten und Bestellungen ab. Über KI-Agenten kamen davon rund 500 Bestellungen bei Uber Eats und vier Fahrten, sagte Finanzchef Balaji Krishnamurthy: sehr früh, sehr wenig Zugkraft. (Uber, Q3 2026 Earnings Call, 4. November 2026, Finanzchef Balaji Krishnamurthy). https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf · via https://robert-haase.de/belege.html#agenten-buchungen-uber"
     }
   ]
 }

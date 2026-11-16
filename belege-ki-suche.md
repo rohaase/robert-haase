@@ -1,6 +1,6 @@
 # Belege: KI-Suche
 
-29 von 160 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 12. November 2026.
+30 von 163 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 16. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-ai-search.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (14) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
-+ Sachstand, Fallbericht oder Marktbeobachtung (6) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters
++ Sachstand, Fallbericht oder Marktbeobachtung (7) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters, aio-deutschland-keywords
 
 ---
 
@@ -434,4 +434,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 29 von 29 Einträgen zum Thema KI-Suche. Letzter Eintrag: wikipedia-aio-rueckgang.
+## aio-deutschland-keywords
+
+**Aussage:** In Deutschland zeigt Google bei mehr als der Hälfte der Keywords eine KI-Übersicht: am 6. November 2026 laut SISTRIX bei 57,9 Prozent, Mitte November 2025 bei 20 Prozent. Die letzten zehn Prozentpunkte bis zur Hälfte kamen in 52 Tagen.
+
+**Was die Zahl nicht sagt:** SISTRIX verkauft Werkzeuge für die Suchmaschinenoptimierung und misst mit eigenen Abrufen. Gezählt ist ein Anteil an Keywords, nicht an Suchanfragen oder Klicks; ob nach Suchvolumen gewichtet wird, wie groß das Keyword-Set ist und ob Desktop oder Mobil, nennt der Beitrag nicht. Gemessen ist, ob eine Übersicht erscheint, nicht, was sie sagt. **Was es zu den übrigen Einträgen beiträgt:** Der Eintrag zu Markensuchen misst US-Desktop bei Ahrefs; das hier ist die deutsche Reihe. **Im Einzelnen:** 10 Prozent am 10. Juni 2025, 20 Prozent am 15. November 2025, 30 Prozent am 10. Juli 2026, 40 Prozent am 11. September, 50 Prozent am 2. November 2026.
+
+**Quelle:** SISTRIX, Johannes Beus, „AI Overviews jetzt bei über 50 % der Keywords“, 6. November 2026 · Schwellen und Stichtage aus dem Beitrag · gelesen am 16. November 2026 · [Zur Quelle](https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/)
+
+**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+
+**Direktlink:** https://robert-haase.de/belege.html#aio-deutschland-keywords
+
+---
+
+Ende der Datei: 30 von 30 Einträgen zum Thema KI-Suche. Letzter Eintrag: aio-deutschland-keywords.

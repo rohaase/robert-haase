@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-12T13:17:20+01:00",
+  "dateModified": "2026-11-16T07:48:43+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 160,
+  "numberOfItems": 163,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -27,7 +27,7 @@
     {
       "id": "ki-suche",
       "name": "AI search",
-      "numberOfItems": 29,
+      "numberOfItems": 30,
       "textFile": "https://robert-haase.de/en/evidence-ai-search.md",
       "ids": [
         "llmstxt-abrufe",
@@ -58,7 +58,8 @@
         "govuk-chat",
         "aio-klicks-feldexperiment",
         "ki-informationssuche-reuters",
-        "wikipedia-aio-rueckgang"
+        "wikipedia-aio-rueckgang",
+        "aio-deutschland-keywords"
       ],
       "groups": {
         "strong": [
@@ -94,7 +95,8 @@
           "aio-markensuchen",
           "chatgpt-suchanfragen",
           "govuk-chat",
-          "ki-informationssuche-reuters"
+          "ki-informationssuche-reuters",
+          "aio-deutschland-keywords"
         ]
       }
     },
@@ -235,7 +237,7 @@
     {
       "id": "handel",
       "name": "Commerce",
-      "numberOfItems": 15,
+      "numberOfItems": 16,
       "textFile": "https://robert-haase.de/en/evidence-commerce.md",
       "ids": [
         "checkout-rueckbau",
@@ -252,7 +254,8 @@
         "agent-werbung-steuerung",
         "chatgpt-verweise-konversion",
         "ki-verweise-handel-wachstum",
-        "aldi-ohne-app"
+        "aldi-ohne-app",
+        "agenten-buchungen-uber"
       ],
       "groups": {
         "strong": [
@@ -265,7 +268,8 @@
         "weak": [
           "agenten-lenkung-marktplatz",
           "agent-werbung-steuerung",
-          "ki-verweise-handel-wachstum"
+          "ki-verweise-handel-wachstum",
+          "agenten-buchungen-uber"
         ],
         "plain": [
           "checkout-rueckbau",
@@ -281,7 +285,7 @@
     {
       "id": "haftung",
       "name": "Liability",
-      "numberOfItems": 18,
+      "numberOfItems": 19,
       "textFile": "https://robert-haase.de/en/evidence-liability.md",
       "ids": [
         "air-canada",
@@ -301,7 +305,8 @@
         "ross-kein-fair-use",
         "gema-openai",
         "kinderbuch-klagen-openai",
-        "eugh-chatbot-presseverleger"
+        "eugh-chatbot-presseverleger",
+        "chatgpt-business-hub-verzicht"
       ],
       "groups": {
         "strong": [
@@ -311,7 +316,8 @@
           "screenshot-metadaten",
           "agent-vorgesetzter",
           "ross-kein-fair-use",
-          "gema-openai"
+          "gema-openai",
+          "chatgpt-business-hub-verzicht"
         ],
         "weak": [
           "ai-overview-muenchen",
@@ -5282,6 +5288,87 @@
         }
       ],
       "citationText": "How much Google’s AI Overviews reduce search visits to Wikipedia, the same authors estimate very differently from version to version: by about 15 percent in the first, of February 2026, and in the seventh, of October, by 5.45 percent against the German and 4.82 percent against the French articles. (Khosravi and Yoganarasimhan, arXiv 2602.18455, versions 1 and 7). https://arxiv.org/abs/2602.18455 · via https://robert-haase.de/en/evidence.html#wikipedia-aio-rueckgang"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#chatgpt-business-hub-verzicht",
+      "text": "Anyone who uses OpenAI’s offering for businesses in ChatGPT irrevocably waives, under its terms, for itself and all affiliates, any claims over content ever published on its own websites. Anyone supplying a product feed must admit OpenAI’s crawlers; a text and data mining reservation then has no effect against OpenAI.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "OpenAI, “Businesses in ChatGPT Terms”, last updated 9 November 2026 · preamble (who is bound), section 3 (product feed), 4 (listings), 6 (insight data), 10 (covenant not to sue and release), 11 (definition of “Covered Claim”) · read 16 November 2026",
+        "url": "https://openai.com/policies/businesses-in-chatgpt-terms/"
+      },
+      "disambiguatingDescription": "What the text does not say: whether the waiver holds. These are US standard terms; whether so broad a waiver in pre-formulated terms would stand before German or European courts is not examined here. The only exception is claims that OpenAI breached these terms. What follows: a business is bound not only once it claims a profile but as soon as it uses the offering or provides data through it. If a single company in a group uses it, the wording extends the waiver to all affiliates. In detail: the waiver also covers unknown claims and content on third-party websites in which the business holds rights; injunctions and deletion are excluded. OpenAI creates a listing even if nobody claims it, and claiming it gives no exclusive control. The licence for name, address, contact details and opening hours is perpetual and irrevocable; the visibility figures OpenAI provides are confidential.",
+      "position": 161,
+      "id": "chatgpt-business-hub-verzicht",
+      "url": "https://robert-haase.de/en/evidence.html#chatgpt-business-hub-verzicht",
+      "topic": "haftung",
+      "grade": {
+        "name": "Provider’s terms of use",
+        "group": "strong"
+      },
+      "sourceText": "OpenAI, “Businesses in ChatGPT Terms”, last updated 9 November 2026 · preamble (who is bound), section 3 (product feed), 4 (listings), 6 (insight data), 10 (covenant not to sue and release), 11 (definition of “Covered Claim”) · read 16 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://openai.com/policies/businesses-in-chatgpt-terms/"
+        }
+      ],
+      "citationText": "Anyone who uses OpenAI’s offering for businesses in ChatGPT irrevocably waives, under its terms, for itself and all affiliates, any claims over content ever published on its own websites. Anyone supplying a product feed must admit OpenAI’s crawlers; a text and data mining reservation then has no effect against OpenAI. (OpenAI, Businesses in ChatGPT Terms, as of 9 November 2026, sections 3, 10 and 11). https://openai.com/policies/businesses-in-chatgpt-terms/ · via https://robert-haase.de/en/evidence.html#chatgpt-business-hub-verzicht"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#aio-deutschland-keywords",
+      "text": "In Germany, Google shows an AI Overview for more than half of all keywords: 57.9 percent on 6 November 2026 according to SISTRIX, against 20 percent in mid-November 2025. The last ten percentage points up to half took 52 days.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "SISTRIX, Johannes Beus, “AI Overviews jetzt bei über 50 % der Keywords”, 6 November 2026, in German · thresholds and dates from the post · read 16 November 2026",
+        "url": "https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/"
+      },
+      "disambiguatingDescription": "What the number does not say: SISTRIX sells search engine optimisation tools and measures with its own crawls. What is counted is a share of keywords, not of queries or clicks; whether it is weighted by search volume, how large the keyword set is and whether it is desktop or mobile, the post does not say. What is measured is whether an Overview appears, not what it says. What it adds to the other entries: the entry on branded searches measures US desktop at Ahrefs; this is the German series. In detail: 10 percent on 10 June 2025, 20 percent on 15 November 2025, 30 percent on 10 July 2026, 40 percent on 11 September, 50 percent on 2 November 2026.",
+      "position": 162,
+      "id": "aio-deutschland-keywords",
+      "url": "https://robert-haase.de/en/evidence.html#aio-deutschland-keywords",
+      "topic": "ki-suche",
+      "grade": {
+        "name": "Market observation",
+        "group": "plain"
+      },
+      "sourceText": "SISTRIX, Johannes Beus, “AI Overviews jetzt bei über 50 % der Keywords”, 6 November 2026, in German · thresholds and dates from the post · read 16 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/"
+        }
+      ],
+      "citationText": "In Germany, Google shows an AI Overview for more than half of all keywords: 57.9 percent on 6 November 2026 according to SISTRIX, against 20 percent in mid-November 2025. The last ten percentage points up to half took 52 days. (SISTRIX, 6 November 2026, share of keywords with an AI Overview in Germany). https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/ · via https://robert-haase.de/en/evidence.html#aio-deutschland-keywords"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agenten-buchungen-uber",
+      "text": "In Halloween week 2026, one of its largest weeks, Uber handled around 320 million trips and orders. Of these, AI agents brought around 500 Uber Eats orders and four rides, said CFO Balaji Krishnamurthy: very early, very limited traction.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Uber Technologies, Q3 2026 earnings call of 4 November 2026, corrected transcript (FactSet CallStreet), pp. 15 to 17, answers by Dara Khosrowshahi and Balaji Krishnamurthy to a question from Doug Anmuth (JPMorgan) · read 16 November 2026",
+        "url": "https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf"
+      },
+      "disambiguatingDescription": "What the number does not say: how many people want to use agents for such purchases. It is a single week, stated orally on the earnings call, without saying which assistants are counted. According to CEO Dara Khosrowshahi, Uber is still negotiating terms with the assistant providers; what is measured is a channel that is barely open. Uber wants to keep customers in its own app and cites times for it: a ride is booked in 50 seconds on average, a reorder takes a median of 90. For context: the week fell before the call on 4 November, i.e. already in the fourth quarter; reports that call it the best week of the quarter place it wrongly.",
+      "position": 163,
+      "id": "agenten-buchungen-uber",
+      "url": "https://robert-haase.de/en/evidence.html#agenten-buchungen-uber",
+      "topic": "handel",
+      "grade": {
+        "name": "Company statement, one week",
+        "group": "weak"
+      },
+      "sourceText": "Uber Technologies, Q3 2026 earnings call of 4 November 2026, corrected transcript (FactSet CallStreet), pp. 15 to 17, answers by Dara Khosrowshahi and Balaji Krishnamurthy to a question from Doug Anmuth (JPMorgan) · read 16 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf"
+        }
+      ],
+      "citationText": "In Halloween week 2026, one of its largest weeks, Uber handled around 320 million trips and orders. Of these, AI agents brought around 500 Uber Eats orders and four rides, said CFO Balaji Krishnamurthy: very early, very limited traction. (Uber, Q3 2026 earnings call, 4 November 2026, CFO Balaji Krishnamurthy). https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf · via https://robert-haase.de/en/evidence.html#agenten-buchungen-uber"
     }
   ]
 }

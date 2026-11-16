@@ -1,6 +1,6 @@
-# Belege: alle 160 Aussagen
+# Belege: alle 163 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 12. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 16. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -24,19 +24,19 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Themendateien
 
-- KI-Suche, 29 Einträge: https://robert-haase.de/belege-ki-suche.md
+- KI-Suche, 30 Einträge: https://robert-haase.de/belege-ki-suche.md
 - Agenten, 25 Einträge: https://robert-haase.de/belege-agenten.md
 - Schnittstellen, 26 Einträge: https://robert-haase.de/belege-schnittstellen.md
-- Handel, 15 Einträge: https://robert-haase.de/belege-handel.md
-- Haftung, 18 Einträge: https://robert-haase.de/belege-haftung.md
+- Handel, 16 Einträge: https://robert-haase.de/belege-handel.md
+- Haftung, 19 Einträge: https://robert-haase.de/belege-haftung.md
 - Marktgröße, 24 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 23 Einträge: https://robert-haase.de/belege-urteil.md
 
-## KI-Suche (29)
+## KI-Suche (30)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (14) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
-+ Sachstand, Fallbericht oder Marktbeobachtung (6) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters
++ Sachstand, Fallbericht oder Marktbeobachtung (7) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters, aio-deutschland-keywords
 
 - **llmstxt-abrufe** · Geprüfte Erhebung · Von rund 38.000 Domains mit einer llms.txt erhielten 97 Prozent im Mai 2026 keinerlei Abruf der Datei. → https://robert-haase.de/belege-ki-suche.md
 - **llmstxt-wirkung** · Geprüfte Erhebung · Bei knapp 300.000 untersuchten Domains fand sich kein Zusammenhang zwischen einer llms.txt und der Häufigkeit, mit der eine Domain in KI-Antworten als Quelle auftauchte. → https://robert-haase.de/belege-ki-suche.md
@@ -67,6 +67,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **aio-klicks-feldexperiment** · Feldexperiment, präregistriert, Arbeitspapier ohne Begutachtung · In einem Feldexperiment mit Zufallszuteilung und 1.065 US-Nutzern senkten Googles KI-Übersichten die Klicks auf organische Ergebnisse um 39,8 Prozent, wo sie erschienen: 0,37 statt 0,62 Klicks je Suche. Über alle Suchen gerechnet sind das rund 18,5 Prozent weniger; bezahlte Klicks und die Zahl der Suchen änderten sich nicht. → https://robert-haase.de/belege-ki-suche.md
 - **ki-informationssuche-reuters** · Befragung · In sechs Ländern mit Vorjahreswerten nutzt die Hälfte der Befragten generative KI wöchentlich, 51 Prozent nach 34 Prozent 2025, und 38 Prozent nutzen sie wöchentlich, um sich zu informieren, nach 11 Prozent 2024. In neun Ländern sagen 57 Prozent, sie hätten KI-Antworten in Suchmaschinen gesehen oder genutzt. → https://robert-haase.de/belege-ki-suche.md
 - **wikipedia-aio-rueckgang** · Quasi-Experiment, Preprint ohne Begutachtung · Wie stark Googles KI-Übersichten die Suchbesuche auf Wikipedia senken, schätzen dieselben Autoren je nach Fassung sehr verschieden: in der ersten vom Februar 2026 um etwa 15 Prozent, in der siebten vom Oktober um 5,45 Prozent gegen die deutschen und 4,82 Prozent gegen die französischen Artikel. → https://robert-haase.de/belege-ki-suche.md
+- **aio-deutschland-keywords** · Marktbeobachtung · In Deutschland zeigt Google bei mehr als der Hälfte der Keywords eine KI-Übersicht: am 6. November 2026 laut SISTRIX bei 57,9 Prozent, Mitte November 2025 bei 20 Prozent. Die letzten zehn Prozentpunkte bis zur Hälfte kamen in 52 Tagen. → https://robert-haase.de/belege-ki-suche.md
 
 ## Agenten (25)
 
@@ -133,10 +134,10 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agenten-skill-zitieren** · Kontrollierter Test, ein Agent · Ohne Hilfe fand ein Agent bei acht Fragen zu dieser Sammlung den passenden Eintrag nur in 15 von 24 Läufen; dreimal kam er ohne Zahl zurück, obwohl der Eintrag existiert. Den Agentenkatalog und den Skill dieser Seite rief er in keinem Lauf von selbst ab. Mit installiertem Skill traf er 24 von 24, nach zwei statt 4,5 Abrufen. → https://robert-haase.de/belege-schnittstellen.md
 - **webmcp-angeboten-kaum-abgefragt** · Angaben des Herstellers, Testbetrieb · Werkzeuge für KI-Agenten per WebMCP werden in Chrome auf rund 0,51 Prozent aller Seitenaufrufe angemeldet; abgefragt werden sie laut einem öffentlichen Chrome-Zähler auf 0,01 Prozent. Ausgeführt werden sie nach Angabe des WebMCP-Teams um Größenordnungen seltener als angemeldet. → https://robert-haase.de/belege-schnittstellen.md
 
-## Handel (15)
+## Handel (16)
 
 + Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (3) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum
++ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (4) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum, agenten-buchungen-uber
 + Sachstand, Fallbericht oder Marktbeobachtung (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
 
 - **checkout-rueckbau** · Marktbeobachtung · Den Kauf im Chat hat OpenAI gut fünf Monate nach dem Start zurückgebaut, weil die erste Fassung von Instant Checkout nicht flexibel genug gewesen sei; Händler nutzen seitdem ihren eigenen Checkout. Seit Ende Oktober 2026 erwähnt OpenAIs Hilfeseite Instant Checkout nicht mehr; Google, Microsoft und Meta bieten Shopify-Händlern den Kauf im Kanal. → https://robert-haase.de/belege-handel.md
@@ -154,10 +155,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **chatgpt-verweise-konversion** · Geprüfte Erhebung · Über zwölf Monate und 973 Onlineshops mit zusammen 20 Milliarden Dollar Umsatz konvertierte Verkehr aus organischen ChatGPT-Links seltener als jeder klassische Kanal außer bezahltem Social; auch der Umsatz je Sitzung lag darunter. Adobe meldet für US-Händler im Mai 2026 das Gegenteil, 54 Prozent mehr Konversion als Nicht-KI-Verkehr. → https://robert-haase.de/belege-handel.md
 - **ki-verweise-handel-wachstum** · Anbietermessung · Besuche auf US-Handelsseiten, die über einen Link in einem KI-Assistenten kommen, wuchsen laut Adobe im Juli 2025 um 4.700 Prozent gegenüber dem Vorjahr und im Mai 2026 noch um 138 Prozent; seit Oktober 2024, dem Beginn der Zählung, summiert Adobe das Wachstum auf 1.324 Prozent. → https://robert-haase.de/belege-handel.md
 - **aldi-ohne-app** · Unternehmenserklärung · Aldi Nord und Aldi Süd haben am 20. Juli 2026 erklärt, auf exklusive App-Rabatte, Kundenbindungs-Apps und Couponpreise zu verzichten: ein Preis für alle, ohne Bedingungen, gegen eine „Zweikassengesellschaft“, in der laut Aldi vielerorts mehr zahlt, wer keine App nutzt. → https://robert-haase.de/belege-handel.md
+- **agenten-buchungen-uber** · Unternehmensangabe, eine Woche · In der Halloween-Woche 2026, einer seiner stärksten Wochen, wickelte Uber rund 320 Millionen Fahrten und Bestellungen ab. Über KI-Agenten kamen davon rund 500 Bestellungen bei Uber Eats und vier Fahrten, sagte Finanzchef Balaji Krishnamurthy: sehr früh, sehr wenig Zugkraft. → https://robert-haase.de/belege-handel.md
 
-## Haftung (18)
+## Haftung (19)
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
++ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
 + Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (2) → ai-overview-muenchen, kinderbuch-klagen-openai
 + Sachstand, Fallbericht oder Marktbeobachtung (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
 
@@ -179,6 +181,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **gema-openai** · Gerichtsurteil, nicht endgültig · Laut Landgericht München I (11. November 2025) verletzt OpenAI mit seinen Modellen und ChatGPT die Rechte an neun Liedtexten: Sind Texte im Modell memorisiert, ist das eine Vervielfältigung, die keine Schranke für Text und Data Mining deckt. Für die Ausgaben haften die Betreiber, nicht die Nutzer, die sie mit einfachen Prompts abrufen. → https://robert-haase.de/belege-haftung.md
 - **kinderbuch-klagen-openai** · Klage eingereicht, Vortrag der Kläger · Zwei deutsche Kinderbuchverlage klagen vor dem Landgericht München gegen OpenAI: Penguin Random House für „Der kleine Drache Kokosnuss“, eingereicht am 27. März 2026, Carlsen mit Marc-Uwe Kling und Astrid Henn für „Das NEINhorn“, am 19. August 2026. ChatGPT erzeuge auf einfache Eingaben Texte und Bilder, die den Originalen nahekommen. → https://robert-haase.de/belege-haftung.md
 - **eugh-chatbot-presseverleger** · Schlussanträge, nicht bindend · Ein KI-Chatbot, der Presseartikel in Echtzeit abruft und für Antworten nutzt, verletzt nach Generalanwalt Szpunar das Recht der Presseverleger, wenn er technische Sperren umgeht oder die Antwort das Original ersetzt. Haften soll der Anbieter, wenn das zum Geschäftsmodell gehört oder er zumutbare Gegenmaßnahmen unterlässt. → https://robert-haase.de/belege-haftung.md
+- **chatgpt-business-hub-verzicht** · Nutzungsbedingungen des Anbieters · Wer OpenAIs Angebot für Unternehmen in ChatGPT nutzt, verzichtet laut dessen Bedingungen für sich und alle verbundenen Unternehmen unwiderruflich auf Klagen wegen Inhalten, die je auf den eigenen Websites standen. Wer einen Produkt-Feed liefert, muss OpenAIs Crawler zulassen; ein Vorbehalt gegen Text- und Data-Mining gilt gegenüber OpenAI nicht. → https://robert-haase.de/belege-haftung.md
 
 ## Marktgröße (24)
 
@@ -241,4 +244,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agent-lenkt-urteil** · Kontrollierter Versuch, Preprint ohne Begutachtung · In einem randomisierten Versuch mit 50 Fachleuten für kausale Datenanalyse folgten diese bei vier Analyseentscheidungen in 86 Prozent der Fälle der Neigung ihres KI-Agenten, die per Los zugeteilt war; ohne Einfluss wären etwa 50 Prozent zu erwarten. 77 Prozent übernahmen seine Argumente, teils wörtlich, nur 15 Prozent nannten den Agenten. → https://robert-haase.de/belege-urteil.md
 - **bildschleifen-motive** · Simulation, begutachtet · Arbeiten ein Bildmodell und ein Beschreibungsmodell ohne Menschen abwechselnd, Bild zu Text zu Bild, landen die Ergebnisse bei wenigen gefälligen Motiven: In 700 Läufen über je 100 Runden fanden die Forschenden am Ende 12 vorherrschende Motive, etwa Leuchttürme im Sturm und prächtige Innenräume. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 160 von 160 Aussagen in 7 Themen.
+Ende der Übersicht: 163 von 163 Aussagen in 7 Themen.

@@ -1,6 +1,6 @@
-# Evidence: all 160 claims
+# Evidence: all 163 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 12 November 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 16 November 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -24,19 +24,19 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Topic files
 
-- AI search, 29 entries: https://robert-haase.de/en/evidence-ai-search.md
+- AI search, 30 entries: https://robert-haase.de/en/evidence-ai-search.md
 - Agents, 25 entries: https://robert-haase.de/en/evidence-agents.md
 - Interfaces, 26 entries: https://robert-haase.de/en/evidence-interfaces.md
-- Commerce, 15 entries: https://robert-haase.de/en/evidence-commerce.md
-- Liability, 18 entries: https://robert-haase.de/en/evidence-liability.md
+- Commerce, 16 entries: https://robert-haase.de/en/evidence-commerce.md
+- Liability, 19 entries: https://robert-haase.de/en/evidence-liability.md
 - Market size, 24 entries: https://robert-haase.de/en/evidence-market.md
 - Judgement, 23 entries: https://robert-haase.de/en/evidence-judgement.md
 
-## AI search (29)
+## AI search (30)
 
 + Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
 + Preliminary: prototype, single test, forecast, or vendor figure (14) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
-+ Status, case report, or market observation (6) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters
++ Status, case report, or market observation (7) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters, aio-deutschland-keywords
 
 - **llmstxt-abrufe** · Verified study · Of roughly 38,000 domains that have an llms.txt, 97 percent saw no request for the file at all in May 2026. → https://robert-haase.de/en/evidence-ai-search.md
 - **llmstxt-wirkung** · Verified study · Across nearly 300,000 domains studied, no relationship was found between having an llms.txt and how often a domain appeared as a source in AI answers. → https://robert-haase.de/en/evidence-ai-search.md
@@ -67,6 +67,7 @@ The collection does not map the state of the research, only the figures I needed
 - **aio-klicks-feldexperiment** · Field experiment, preregistered, working paper without peer review · In a randomised field experiment with 1,065 US users, Google’s AI Overviews cut clicks on organic results by 39.8 percent where they appeared: 0.37 instead of 0.62 clicks per search. Across all searches that is roughly 18.5 percent fewer; paid clicks and the number of searches did not change. → https://robert-haase.de/en/evidence-ai-search.md
 - **ki-informationssuche-reuters** · Survey · In six countries with earlier figures, half of respondents use generative AI weekly, 51 percent after 34 percent in 2025, and 38 percent use it weekly to get information, after 11 percent in 2024. Across nine countries, 57 percent say they saw or engaged with AI answers in search engines. → https://robert-haase.de/en/evidence-ai-search.md
 - **wikipedia-aio-rueckgang** · Quasi-experiment, preprint without peer review · How much Google’s AI Overviews reduce search visits to Wikipedia, the same authors estimate very differently from version to version: by about 15 percent in the first, of February 2026, and in the seventh, of October, by 5.45 percent against the German and 4.82 percent against the French articles. → https://robert-haase.de/en/evidence-ai-search.md
+- **aio-deutschland-keywords** · Market observation · In Germany, Google shows an AI Overview for more than half of all keywords: 57.9 percent on 6 November 2026 according to SISTRIX, against 20 percent in mid-November 2025. The last ten percentage points up to half took 52 days. → https://robert-haase.de/en/evidence-ai-search.md
 
 ## Agents (25)
 
@@ -133,10 +134,10 @@ The collection does not map the state of the research, only the figures I needed
 - **agenten-skill-zitieren** · Controlled test, one agent · Without help, an agent answering eight questions about this collection found the matching entry in only 15 of 24 runs; three times it came back without a figure although the entry exists. In no run did it request this site’s agent catalog or skill on its own. With the skill installed it hit 24 of 24, after two fetches instead of 4.5. → https://robert-haase.de/en/evidence-interfaces.md
 - **webmcp-angeboten-kaum-abgefragt** · Vendor statements, trial phase · Tools for AI agents via WebMCP are registered in Chrome on about 0.51 percent of all page loads; according to a public Chrome counter they are queried on 0.01 percent. According to the WebMCP team, they are executed orders of magnitude less often than they are registered. → https://robert-haase.de/en/evidence-interfaces.md
 
-## Commerce (15)
+## Commerce (16)
 
 + Verified study, vendor documentation, or court decision (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
-+ Preliminary: prototype, single test, forecast, or vendor figure (3) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum
++ Preliminary: prototype, single test, forecast, or vendor figure (4) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum, agenten-buchungen-uber
 + Status, case report, or market observation (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
 
 - **checkout-rueckbau** · Market observation · OpenAI rolled back buying directly inside the chat a good five months after launch, saying the first version of Instant Checkout was not flexible enough; merchants now use their own checkout. Since late October 2026 OpenAI’s help page no longer mentions it; Google, Microsoft and Meta offer Shopify merchants checkout in their own channels. → https://robert-haase.de/en/evidence-commerce.md
@@ -154,10 +155,11 @@ The collection does not map the state of the research, only the figures I needed
 - **chatgpt-verweise-konversion** · Verified study · Across twelve months and 973 online shops with 20 billion dollars in combined revenue, traffic from organic ChatGPT links converted less often than every traditional channel except paid social, and revenue per session was lower too. For US retailers in May 2026 Adobe reports the opposite: 54 percent higher conversion than non-AI traffic. → https://robert-haase.de/en/evidence-commerce.md
 - **ki-verweise-handel-wachstum** · Vendor measurement · Visits to US retail sites that arrive via a link in an AI assistant grew 4,700 percent year over year in July 2025, according to Adobe, and still 138 percent in May 2026; since October 2024, when the count began, Adobe puts the growth at 1,324 percent. → https://robert-haase.de/en/evidence-commerce.md
 - **aldi-ohne-app** · Company statement · On 20 July 2026, Aldi Nord and Aldi Süd declared that they forgo exclusive app discounts, loyalty apps and coupon prices: one price for everyone, no conditions, against what Aldi calls a two-checkout society, in which, according to Aldi, anyone without the app often pays more. → https://robert-haase.de/en/evidence-commerce.md
+- **agenten-buchungen-uber** · Company statement, one week · In Halloween week 2026, one of its largest weeks, Uber handled around 320 million trips and orders. Of these, AI agents brought around 500 Uber Eats orders and four rides, said CFO Balaji Krishnamurthy: very early, very limited traction. → https://robert-haase.de/en/evidence-commerce.md
 
-## Liability (18)
+## Liability (19)
 
-+ Verified study, vendor documentation, or court decision (7) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai
++ Verified study, vendor documentation, or court decision (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
 + Preliminary: prototype, single test, forecast, or vendor figure (2) → ai-overview-muenchen, kinderbuch-klagen-openai
 + Status, case report, or market observation (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
 
@@ -179,6 +181,7 @@ The collection does not map the state of the research, only the figures I needed
 - **gema-openai** · Court ruling, not final · According to the Munich Regional Court I (11 November 2025), OpenAI infringes the rights to nine song lyrics with its models and ChatGPT: lyrics memorised in a model are a reproduction that no text and data mining exception covers. The operators are liable for the outputs, not the users who call them up with simple prompts. → https://robert-haase.de/en/evidence-liability.md
 - **kinderbuch-klagen-openai** · Lawsuit filed, claimants’ case · Two German children’s book publishers are suing OpenAI at the Munich Regional Court: Penguin Random House over “Der kleine Drache Kokosnuss”, filed on 27 March 2026, and Carlsen with Marc-Uwe Kling and Astrid Henn over “Das NEINhorn”, on 19 August 2026. They say ChatGPT produces texts and images close to the originals from simple prompts. → https://robert-haase.de/en/evidence-liability.md
 - **eugh-chatbot-presseverleger** · Advocate General’s opinion, not binding · An AI chatbot that retrieves press articles in real time for its answers infringes press publishers’ rights, according to Advocate General Szpunar, where it circumvents technical measures or the answer replaces the original. The provider is to be liable where this is inherent to its business model or it fails to take reasonable countermeasures. → https://robert-haase.de/en/evidence-liability.md
+- **chatgpt-business-hub-verzicht** · Provider’s terms of use · Anyone who uses OpenAI’s offering for businesses in ChatGPT irrevocably waives, under its terms, for itself and all affiliates, any claims over content ever published on its own websites. Anyone supplying a product feed must admit OpenAI’s crawlers; a text and data mining reservation then has no effect against OpenAI. → https://robert-haase.de/en/evidence-liability.md
 
 ## Market size (24)
 
@@ -241,4 +244,4 @@ The collection does not map the state of the research, only the figures I needed
 - **agent-lenkt-urteil** · Controlled experiment, preprint without peer review · In a randomised experiment with 50 experts in causal data analysis, participants went with their AI agent’s lean in 86 percent of four analytical choices; the lean had been assigned by lot, so without influence about 50 percent would be expected. 77 percent adopted the agent’s arguments, sometimes word for word, and only 15 percent credited it. → https://robert-haase.de/en/evidence-judgement.md
 - **bildschleifen-motive** · Simulation, peer-reviewed · When an image model and a captioning model take turns without humans, image to text to image, the results end up in a few pleasing motifs: across 700 runs of 100 rounds each, the researchers found 12 dominant motifs at the end, such as stormy lighthouses and palatial interiors. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 160 of 160 claims in 7 topics.
+End of overview: 163 of 163 claims in 7 topics.
