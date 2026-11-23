@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-16T07:48:43+01:00",
+  "dateModified": "2026-11-23T21:20:50+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
@@ -1204,10 +1204,10 @@
       "text": "A common standard for how websites permit or refuse AI use of their content still does not exist.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "IETF, AI Preferences working group (aipref), state “Active” · draft-ietf-aipref-vocab-08 of 14 September 2026 and draft-ietf-aipref-attach-05 of 19 August 2026, IESG state “I-D Exists”, WG state “WG Document”, intended status Proposed Standard, no RFC · milestones for both blocks moved on 23 September 2025 from August 2025 to 31 August 2026 and unchanged since · full text of the vocabulary draft with the consensus note · checked 21 September 2026 · individual draft draft-kelley-aipref-training-preference-signal-00 of 30 October 2026 and Google Search Central of 30 October 2026, both read 12 November 2026 (, )",
+        "name": "IETF, AI Preferences working group (aipref), state “Active” · draft-ietf-aipref-vocab-08 of 14 September 2026 and draft-ietf-aipref-attach-05 of 19 August 2026, IESG state “I-D Exists”, WG state “WG Document”, intended status Proposed Standard, no RFC · milestones for both blocks moved on 23 September 2025 from August 2025 to 31 August 2026 and unchanged since · full text of the vocabulary draft with the consensus note · checked 21 September 2026 · individual draft draft-kelley-aipref-training-preference-signal-00 of 30 October 2026 and Google Search Central of 30 October 2026, both read 12 November 2026 (, ) · revision -01 of 16 November 2026, session materials and notes of the sessions of 16 and 19 November 2026, read 23 November 2026 (, )",
         "url": "https://datatracker.ietf.org/wg/aipref/about/"
       },
-      "disambiguatingDescription": "How far the work has come: The IETF working group AIPREF is developing two building blocks, a vocabulary and an attachment mechanism. On 21 September 2026 both are in IESG state “I-D Exists”, so not yet submitted, no RFC. From 4 September to 3 November 2025 they were in working group last call and returned to “WG Document”. Since April 2026 the vocabulary draft carries a note that its content does not reflect working group consensus, and marks two of its sections as not yet agreed; the attachment draft carries no such note. The group has missed its own schedule twice: due in August 2025, moved on 23 September 2025 to 31 August 2026, and that date too passed without submission and has not been re-dated. What this entry does not say: whether such a standard is coming or when, and how well today’s workarounds hold, robots.txt and vendor-specific tokens. It measures the state at the IETF, not at other bodies or vendors. Eight further individual drafts on the same subject sit with the working group, none adopted. On 30 October 2026 an individual draft by Kevin Kelley (Anthropic) was added, with a robots.txt token __usage_ai-training; on the same day Google announced it aims to support a shared training signal based on the AIPREF work in 2027. The Datatracker lists both drafts a day earlier, 13 September and 18 August 2026, because it renders US Pacific time; the drafts themselves are dated 14 September and 19 August 2026.",
+      "disambiguatingDescription": "How far the work has come: The IETF working group AIPREF is developing two building blocks, a vocabulary and an attachment mechanism. On 21 September 2026 both are in IESG state “I-D Exists”, so not yet submitted, no RFC. From 4 September to 3 November 2025 they were in working group last call and returned to “WG Document”. Since April 2026 the vocabulary draft carries a note that its content does not reflect working group consensus, and marks two of its sections as not yet agreed; the attachment draft carries no such note. The group has missed its own schedule twice: due in August 2025, moved on 23 September 2025 to 31 August 2026, and that date too passed without submission and has not been re-dated. What this entry does not say: whether such a standard is coming or when, and how well today’s workarounds hold, robots.txt and vendor-specific tokens. It measures the state at the IETF, not at other bodies or vendors. Eight further individual drafts on the same subject sit with the working group, none adopted. On 30 October 2026 an individual draft by Kevin Kelley (Anthropic) was added, with a robots.txt token __usage_ai-training; on the same day Google announced it aims to support a shared training signal based on the AIPREF work in 2027. At IETF 127 on 16 November 2026 Kelley presented it as revision -01; it has not been adopted, and according to the session notes a design team coordinated by him is to collect the open issues, with an interim meeting planned for February. The Datatracker lists both drafts a day earlier, 13 September and 18 August 2026, because it renders US Pacific time; the drafts themselves are dated 14 September and 19 August 2026.",
       "position": 26,
       "id": "aipref",
       "url": "https://robert-haase.de/en/evidence.html#aipref",
@@ -1216,7 +1216,7 @@
         "name": "State of standardization",
         "group": "plain"
       },
-      "sourceText": "IETF, AI Preferences working group (aipref), state “Active” · draft-ietf-aipref-vocab-08 of 14 September 2026 and draft-ietf-aipref-attach-05 of 19 August 2026, IESG state “I-D Exists”, WG state “WG Document”, intended status Proposed Standard, no RFC · milestones for both blocks moved on 23 September 2025 from August 2025 to 31 August 2026 and unchanged since (working group history) · full text of the vocabulary draft with the consensus note (draft text) · checked 21 September 2026 · individual draft draft-kelley-aipref-training-preference-signal-00 of 30 October 2026 and Google Search Central of 30 October 2026, both read 12 November 2026 (the draft, Google) · Working group",
+      "sourceText": "IETF, AI Preferences working group (aipref), state “Active” · draft-ietf-aipref-vocab-08 of 14 September 2026 and draft-ietf-aipref-attach-05 of 19 August 2026, IESG state “I-D Exists”, WG state “WG Document”, intended status Proposed Standard, no RFC · milestones for both blocks moved on 23 September 2025 from August 2025 to 31 August 2026 and unchanged since (working group history) · full text of the vocabulary draft with the consensus note (draft text) · checked 21 September 2026 · individual draft draft-kelley-aipref-training-preference-signal-00 of 30 October 2026 and Google Search Central of 30 October 2026, both read 12 November 2026 (the draft, Google) · revision -01 of 16 November 2026, session materials and notes of the sessions of 16 and 19 November 2026, read 23 November 2026 (session materials, notes) · Working group",
       "sourceLinks": [
         {
           "name": "working group history",
@@ -1233,6 +1233,14 @@
         {
           "name": "Google",
           "url": "https://developers.google.com/search/blog/2026/10/ai-training-control"
+        },
+        {
+          "name": "session materials",
+          "url": "https://datatracker.ietf.org/meeting/127/session/aipref"
+        },
+        {
+          "name": "notes",
+          "url": "https://notes.ietf.org/notes-ietf-127-aipref"
         },
         {
           "name": "Working group",
@@ -2100,10 +2108,10 @@
       "text": "A US federal appeals court vacated the preliminary injunction against Perplexity on 4 August 2026 and remanded. Under the Computer Fraud and Abuse Act, the user of a shopping agent accesses the third-party site, not the provider, as long as the agent runs in the user’s browser and the provider’s servers never call the site.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, opinion by Judge Milan D. Smith, Jr. · 21 pages, FOR PUBLICATION, no separate opinion, on appeal from N.D. Cal., Judge Maxine M. Chesney · decided 4 August 2026 · petition for rehearing en banc filed 18 August 2026 as docket entry 66 per the public RECAP docket mirror (CourtListener, docket 72502129), last refreshed 21 August 2026, not from the linked opinion · denial of the petition: order of 10 September 2026, docket entry 71.1, read in the copy at Courthouse News · first instance, case 3:25-cv-09514 (N.D. Cal.): amended complaint of 21 September 2026 and motion to dismiss of 13 October 2026 with a hearing on 20 November 2026, both read on 15 October 2026 via the public RECAP docket mirror",
+        "name": "Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, opinion by Judge Milan D. Smith, Jr. · 21 pages, FOR PUBLICATION, no separate opinion, on appeal from N.D. Cal., Judge Maxine M. Chesney · decided 4 August 2026 · petition for rehearing en banc filed 18 August 2026 as docket entry 66 per the public RECAP docket mirror (CourtListener, docket 72502129), last refreshed 21 August 2026, not from the linked opinion · denial of the petition: order of 10 September 2026, docket entry 71.1, read in the copy at Courthouse News · first instance, case 3:25-cv-09514 (N.D. Cal.): amended complaint of 21 September 2026 and motion to dismiss of 13 October 2026 with a hearing on 20 November 2026, both read on 15 October 2026 via the public RECAP docket mirror · civil minutes of the hearing of 20 November 2026, document 139, read 23 November 2026",
         "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf"
       },
-      "disambiguatingDescription": "What the ruling is and is not: It is preliminary, only the prospects of success at the injunction stage were tested. On 18 August 2026 Amazon petitioned for rehearing en banc; the court denied the petition on 10 September 2026, and no judge requested a vote. It is US law and binds no one in Europe. What the court leaves open: It says nothing about server-side agents, it establishes no new legal regime for agentic AI, it decides nothing about liability in tort, and on a different record the provider might exercise enough control to gain entry itself. That is exactly what Amazon now relies on in its amended complaint of 21 September 2026 at first instance: with Comet for iOS, Perplexity’s own servers allegedly accessed Amazon directly with users’ authentication cookies from 18 March until at least 11 May 2026; a claim of tortious interference with contract is also new. Perplexity has moved to dismiss, with a hearing set for 20 November 2026. The case concerns someone else’s agent on your site, not liability for your own. The site’s terms of service remain untouched. In detail: The agent is the user’s tool.",
+      "disambiguatingDescription": "What the ruling is and is not: It is preliminary, only the prospects of success at the injunction stage were tested. On 18 August 2026 Amazon petitioned for rehearing en banc; the court denied the petition on 10 September 2026, and no judge requested a vote. It is US law and binds no one in Europe. What the court leaves open: It says nothing about server-side agents, it establishes no new legal regime for agentic AI, it decides nothing about liability in tort, and on a different record the provider might exercise enough control to gain entry itself. That is exactly what Amazon now relies on in its amended complaint of 21 September 2026 at first instance: with Comet for iOS, Perplexity’s own servers allegedly accessed Amazon directly with users’ authentication cookies from 18 March until at least 11 May 2026; a claim of tortious interference with contract is also new. Perplexity has moved to dismiss; after the hearing on 20 November 2026 the judge stayed discovery and took the motion under submission, with no ruling yet. The case concerns someone else’s agent on your site, not liability for your own. The site’s terms of service remain untouched. In detail: The agent is the user’s tool.",
       "position": 54,
       "id": "perplexity-cfaa",
       "url": "https://robert-haase.de/en/evidence.html#perplexity-cfaa",
@@ -2112,7 +2120,7 @@
         "name": "Court ruling, not final",
         "group": "strong"
       },
-      "sourceText": "Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, opinion by Judge Milan D. Smith, Jr. · 21 pages, FOR PUBLICATION, no separate opinion, on appeal from N.D. Cal., Judge Maxine M. Chesney · decided 4 August 2026 · petition for rehearing en banc filed 18 August 2026 as docket entry 66 per the public RECAP docket mirror (CourtListener, docket 72502129), last refreshed 21 August 2026, not from the linked opinion · denial of the petition: order of 10 September 2026, docket entry 71.1, read in the copy at Courthouse News (order) · first instance, case 3:25-cv-09514 (N.D. Cal.): amended complaint of 21 September 2026 and motion to dismiss of 13 October 2026 with a hearing on 20 November 2026, both read on 15 October 2026 via the public RECAP docket mirror (first-instance docket) · Source",
+      "sourceText": "Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, opinion by Judge Milan D. Smith, Jr. · 21 pages, FOR PUBLICATION, no separate opinion, on appeal from N.D. Cal., Judge Maxine M. Chesney · decided 4 August 2026 · petition for rehearing en banc filed 18 August 2026 as docket entry 66 per the public RECAP docket mirror (CourtListener, docket 72502129), last refreshed 21 August 2026, not from the linked opinion · denial of the petition: order of 10 September 2026, docket entry 71.1, read in the copy at Courthouse News (order) · first instance, case 3:25-cv-09514 (N.D. Cal.): amended complaint of 21 September 2026 and motion to dismiss of 13 October 2026 with a hearing on 20 November 2026, both read on 15 October 2026 via the public RECAP docket mirror (first-instance docket) · civil minutes of the hearing of 20 November 2026, document 139, read 23 November 2026 (minutes) · Source",
       "sourceLinks": [
         {
           "name": "order",
@@ -2121,6 +2129,10 @@
         {
           "name": "first-instance docket",
           "url": "https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/"
+        },
+        {
+          "name": "minutes",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.459191/gov.uscourts.cand.459191.139.0.pdf"
         },
         {
           "name": "Source",
