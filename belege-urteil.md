@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte, bildschleifen-motive
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (9) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, prognose-assistenz, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte, bildschleifen-motive
 + Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (3) → strategie-trendslop, drei-arbeitsweisen, agent-lenkt-urteil
-+ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (12) → markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, kompetenz-nivellierung, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (11) → markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, abbott-zustaendigkeit, esposito-kommunikation, kompetenz-nivellierung, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 ---
 
@@ -158,11 +158,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Aussage:** 991 Teilnehmende beantworteten sechs Prognosefragen, teils mit Zugang zu einem Sprachmodell. Die Assistenz verbesserte die Treffsicherheit um 24 bis 28 Prozent gegenüber der Kontrollgruppe. Bemerkenswert ist der Vergleich innerhalb der Gruppen: Auch ein bewusst überkonfident und verrauscht eingestellter Assistent half deutlich.
 
-**Was das Ergebnis nahelegt und nicht beweist:** Dass auch der schlechte Assistent wirkte, spricht dafür, dass ein Teil des Gewinns aus dem Vorgang des Befragens stammt und nicht aus der Güte der Maschinenantwort. Bewiesen ist das nicht. Die Autoren weisen selbst darauf hin, dass Ausreißer das Bild beeinflussen und die Robustheit zu prüfen bleibt. Sechs Fragen sind eine schmale Grundlage, und es ist ein Preprint.
+**Was das Ergebnis nahelegt und nicht beweist:** Dass auch der schlechte Assistent wirkte, spricht dafür, dass ein Teil des Gewinns aus dem Vorgang des Befragens stammt und nicht aus der Güte der Maschinenantwort. Bewiesen ist das nicht. Die Autoren weisen selbst darauf hin, dass Ausreißer das Bild beeinflussen und die Robustheit zu prüfen bleibt. Sechs Fragen sind eine schmale Grundlage. Ohne die Ausreißerfrage lag der Gewinn bei 41 Prozent mit dem guten und 29 Prozent mit dem verrauschten Assistenten; diese Auswertung war nicht präregistriert.
 
-**Quelle:** Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · [Zur Studie](https://arxiv.org/abs/2402.07862)
+**Quelle:** Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, ACM Transactions on Interactive Intelligent Systems 15 (1), Artikel 4, Februar 2025, begutachtet, präregistriert, Open Access unter CC BY 4.0 · Vorabfassung arXiv 2402.07862, Februar 2024 · 991 Teilnehmende · [Zur Studie](https://doi.org/10.1145/3707649)
 
-**Einstufung:** Experiment · Zahlen der Vorfassung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
+**Einstufung:** Experiment · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#prognose-assistenz
 

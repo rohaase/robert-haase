@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-23T21:57:50+01:00",
+  "dateModified": "2026-11-23T22:06:31+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
@@ -436,6 +436,7 @@
           "jagged-frontier",
           "homogenisierung",
           "sykophanz",
+          "prognose-assistenz",
           "boussioux-neuheit-wert",
           "unverwechselbare-markenelemente",
           "synthetische-befragte",
@@ -451,7 +452,6 @@
           "cowan-standards",
           "foresight-performance",
           "prognose-mensch-maschine",
-          "prognose-assistenz",
           "abbott-zustaendigkeit",
           "esposito-kommunikation",
           "kompetenz-nivellierung",
@@ -3013,26 +3013,26 @@
       "text": "991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants",
-        "url": "https://arxiv.org/abs/2402.07862"
+        "name": "Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, ACM Transactions on Interactive Intelligent Systems 15 (1), article 4, February 2025, peer-reviewed, preregistered, open access under CC BY 4.0 · preprint arXiv 2402.07862, February 2024 · 991 participants",
+        "url": "https://doi.org/10.1145/3707649"
       },
-      "disambiguatingDescription": "What the result suggests but does not prove: That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer, but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base, and this is a preprint.",
+      "disambiguatingDescription": "What the result suggests but does not prove: That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer, but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base. Without the outlier question, the gain was 41 percent with the good assistant and 29 percent with the noisy one; that analysis was not preregistered.",
       "position": 84,
       "id": "prognose-assistenz",
       "url": "https://robert-haase.de/en/evidence.html#prognose-assistenz",
       "topic": "urteil",
       "grade": {
-        "name": "Experiment · preprint figures",
-        "group": "plain"
+        "name": "Experiment · peer-reviewed",
+        "group": "strong"
       },
-      "sourceText": "Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants · Study",
+      "sourceText": "Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, ACM Transactions on Interactive Intelligent Systems 15 (1), article 4, February 2025, peer-reviewed, preregistered, open access under CC BY 4.0 · preprint arXiv 2402.07862, February 2024 · 991 participants · Study",
       "sourceLinks": [
         {
           "name": "Study",
-          "url": "https://arxiv.org/abs/2402.07862"
+          "url": "https://doi.org/10.1145/3707649"
         }
       ],
-      "citationText": "991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially. (Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants). https://arxiv.org/abs/2402.07862 · via https://robert-haase.de/en/evidence.html#prognose-assistenz"
+      "citationText": "991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially. (Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, ACM Transactions on Interactive Intelligent Systems 15 (1), article 4, February 2025, peer-reviewed, preregistered, open access under CC BY 4.0 · preprint arXiv 2402.07862, February 2024 · 991 participants). https://doi.org/10.1145/3707649 · via https://robert-haase.de/en/evidence.html#prognose-assistenz"
     },
     {
       "@type": "Claim",

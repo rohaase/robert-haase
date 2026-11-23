@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-23T21:57:50+01:00",
+  "dateModified": "2026-11-23T22:06:31+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
@@ -436,6 +436,7 @@
           "jagged-frontier",
           "homogenisierung",
           "sykophanz",
+          "prognose-assistenz",
           "boussioux-neuheit-wert",
           "unverwechselbare-markenelemente",
           "synthetische-befragte",
@@ -451,7 +452,6 @@
           "cowan-standards",
           "foresight-performance",
           "prognose-mensch-maschine",
-          "prognose-assistenz",
           "abbott-zustaendigkeit",
           "esposito-kommunikation",
           "kompetenz-nivellierung",
@@ -3013,26 +3013,26 @@
       "text": "991 Teilnehmende beantworteten sechs Prognosefragen, teils mit Zugang zu einem Sprachmodell. Die Assistenz verbesserte die Treffsicherheit um 24 bis 28 Prozent gegenüber der Kontrollgruppe. Bemerkenswert ist der Vergleich innerhalb der Gruppen: Auch ein bewusst überkonfident und verrauscht eingestellter Assistent half deutlich.",
       "appearance": {
         "@type": "CreativeWork",
-        "name": "Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende",
-        "url": "https://arxiv.org/abs/2402.07862"
+        "name": "Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, ACM Transactions on Interactive Intelligent Systems 15 (1), Artikel 4, Februar 2025, begutachtet, präregistriert, Open Access unter CC BY 4.0 · Vorabfassung arXiv 2402.07862, Februar 2024 · 991 Teilnehmende",
+        "url": "https://doi.org/10.1145/3707649"
       },
-      "disambiguatingDescription": "Was das Ergebnis nahelegt und nicht beweist: Dass auch der schlechte Assistent wirkte, spricht dafür, dass ein Teil des Gewinns aus dem Vorgang des Befragens stammt und nicht aus der Güte der Maschinenantwort. Bewiesen ist das nicht. Die Autoren weisen selbst darauf hin, dass Ausreißer das Bild beeinflussen und die Robustheit zu prüfen bleibt. Sechs Fragen sind eine schmale Grundlage, und es ist ein Preprint.",
+      "disambiguatingDescription": "Was das Ergebnis nahelegt und nicht beweist: Dass auch der schlechte Assistent wirkte, spricht dafür, dass ein Teil des Gewinns aus dem Vorgang des Befragens stammt und nicht aus der Güte der Maschinenantwort. Bewiesen ist das nicht. Die Autoren weisen selbst darauf hin, dass Ausreißer das Bild beeinflussen und die Robustheit zu prüfen bleibt. Sechs Fragen sind eine schmale Grundlage. Ohne die Ausreißerfrage lag der Gewinn bei 41 Prozent mit dem guten und 29 Prozent mit dem verrauschten Assistenten; diese Auswertung war nicht präregistriert.",
       "position": 84,
       "id": "prognose-assistenz",
       "url": "https://robert-haase.de/belege.html#prognose-assistenz",
       "topic": "urteil",
       "grade": {
-        "name": "Experiment · Zahlen der Vorfassung",
-        "group": "plain"
+        "name": "Experiment · begutachtet",
+        "group": "strong"
       },
-      "sourceText": "Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · Zur Studie",
+      "sourceText": "Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, ACM Transactions on Interactive Intelligent Systems 15 (1), Artikel 4, Februar 2025, begutachtet, präregistriert, Open Access unter CC BY 4.0 · Vorabfassung arXiv 2402.07862, Februar 2024 · 991 Teilnehmende · Zur Studie",
       "sourceLinks": [
         {
           "name": "Zur Studie",
-          "url": "https://arxiv.org/abs/2402.07862"
+          "url": "https://doi.org/10.1145/3707649"
         }
       ],
-      "citationText": "991 Teilnehmende beantworteten sechs Prognosefragen, teils mit Zugang zu einem Sprachmodell. Die Assistenz verbesserte die Treffsicherheit um 24 bis 28 Prozent gegenüber der Kontrollgruppe. Bemerkenswert ist der Vergleich innerhalb der Gruppen: Auch ein bewusst überkonfident und verrauscht eingestellter Assistent half deutlich. (Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende). https://arxiv.org/abs/2402.07862 · via https://robert-haase.de/belege.html#prognose-assistenz"
+      "citationText": "991 Teilnehmende beantworteten sechs Prognosefragen, teils mit Zugang zu einem Sprachmodell. Die Assistenz verbesserte die Treffsicherheit um 24 bis 28 Prozent gegenüber der Kontrollgruppe. Bemerkenswert ist der Vergleich innerhalb der Gruppen: Auch ein bewusst überkonfident und verrauscht eingestellter Assistent half deutlich. (Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, ACM Transactions on Interactive Intelligent Systems 15 (1), Artikel 4, Februar 2025, begutachtet, präregistriert, Open Access unter CC BY 4.0 · Vorabfassung arXiv 2402.07862, Februar 2024 · 991 Teilnehmende). https://doi.org/10.1145/3707649 · via https://robert-haase.de/belege.html#prognose-assistenz"
     },
     {
       "@type": "Claim",

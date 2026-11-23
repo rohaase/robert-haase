@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte, bildschleifen-motive
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (9) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, prognose-assistenz, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte, bildschleifen-motive
 + Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (3) → strategie-trendslop, drei-arbeitsweisen, agent-lenkt-urteil
-+ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (12) → markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, kompetenz-nivellierung, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (11) → markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, abbott-zustaendigkeit, esposito-kommunikation, kompetenz-nivellierung, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 ---
 
@@ -158,11 +158,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** 991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially.
 
-**What the result suggests but does not prove:** That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer, but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base, and this is a preprint.
+**What the result suggests but does not prove:** That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer, but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base. Without the outlier question, the gain was 41 percent with the good assistant and 29 percent with the noisy one; that analysis was not preregistered.
 
-**Source:** Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants · [Study](https://arxiv.org/abs/2402.07862)
+**Source:** Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, ACM Transactions on Interactive Intelligent Systems 15 (1), article 4, February 2025, peer-reviewed, preregistered, open access under CC BY 4.0 · preprint arXiv 2402.07862, February 2024 · 991 participants · [Study](https://doi.org/10.1145/3707649)
 
-**Grade:** Experiment · preprint figures · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
+**Grade:** Experiment · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#prognose-assistenz
 
