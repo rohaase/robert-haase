@@ -12,7 +12,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
 
-**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.
 
 Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (2) → ai-overview-muenchen, kinderbuch-klagen-openai
-+ Sachstand, Fallbericht oder Marktbeobachtung (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
++ Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (2) → ai-overview-muenchen, kinderbuch-klagen-openai
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
 
 ---
 
@@ -36,7 +36,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal British Columbia · 14. Februar 2024 · [Entscheidung im Volltext](https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html) · [Zur Quelle](https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/)
 
-**Einstufung:** Tribunal-Entscheidung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Gerichtsverfahren · Tribunal · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#air-canada
 
@@ -50,7 +50,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** The Register, 18. April 2025 (erfundene Regel, Entschuldigung) · [Fortune, 19. April 2025](https://fortune.com/article/customer-support-ai-cursor-went-rogue) (Name „Sam“, Kündigungen) · [Zur Quelle](https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/)
 
-**Einstufung:** Dokumentierter Vorfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#cursor-bot
 
@@ -64,7 +64,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Verordnung (EU) 2024/1689 (KI-Verordnung), Artikel 50 Absätze 1, 2 und 4 sowie Artikel 113 · geändert durch [Verordnung (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/deu) vom 8. Juli 2026 (Digital-Omnibus zur KI), Amtsblatt vom 24. Juli 2026, in Kraft seit 27. Juli 2026: neuer Artikel 111 Absatz 4 und neu gefasster Artikel 113 Absatz 3, dazu neu gefasster Artikel 4 und neue Buchstaben ba und bb in Artikel 5 Absatz 1, diese anwendbar ab 2. Dezember 2026 nach Artikel 113 Absatz 3 Buchstabe a neu · Verfahren: Trilog-Einigung 7. Mai 2026, AStV 13. Mai, Plenum 16. Juni, Rat 29. Juni, Unterzeichnung 8. Juli 2026, laut Legislative Train des Europäischen Parlaments ([Verfahrensseite](https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai)) · Leitlinien: Europäische Kommission, Leitlinien zu den Transparenzpflichten nach Artikel 50, C(2026) 5054 final vom 20. Juli 2026, Randnummern 5, 10, 91 bis 92 und 134 bis 136 ([zu den Leitlinien](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems)), abgerufen am 1. November 2026 · [KI-Verordnung im Volltext](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/deu)
 
-**Einstufung:** Rechtslage · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Rechtslage · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ai-act
 
@@ -78,7 +78,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** OLG Hamm, Urteil vom 12. Mai 2026, Az. 4 UKl 3/25 (Verbraucherzentrale Nordrhein-Westfalen gegen Aesthetify GmbH) · Rechtskraft seit 21. Juni 2026 laut Verbandsklageregister des Bundesamts für Justiz · [Verbandsklageregister](https://www.bundesjustizamt.de/DE/Themen/Verbraucherrechte/VerbandsklageregisterMusterfeststellungsklagenregister/Verbandsklagenregister/Unterlassungsklagen/Klagen/2025/172/UKlag_172_2025_node.html) · [Urteil im Volltext](https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html)
 
-**Einstufung:** Gerichtsurteil, rechtskräftig · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Gerichtsverfahren · Urteil, rechtskräftig · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#olg-hamm
 
@@ -92,7 +92,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Richtlinie (EU) 2024/2853 über die Haftung für fehlerhafte Produkte, 23. Oktober 2024, Artikel 4 Nr. 1, Artikel 9 Absatz 1, Artikel 10 Absätze 1 bis 5, Artikel 21 und Artikel 22 Absatz 1 · Volltext über den Cellar-Dienst des Amts für Veröffentlichungen der EU, weil eur-lex.europa.eu automatisierte Abrufe abweist · Umsetzungsstand abgerufen am 15. und 16. Oktober 2026: Bundestag, Textarchiv zur Abstimmung am 8. Oktober 2026 ([zum Bundestag](https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-produkthaftungsrecht-1222456)), Beschlussempfehlung Drucksache 21/8429 mit dem Inkrafttreten in Artikel 17 ([zur Beschlussempfehlung](https://dserver.bundestag.de/btd/21/084/2108429.pdf)), Regierungsentwurf Drucksache 21/4297 vom 25. Februar 2026 ([zum Entwurf](https://dserver.bundestag.de/btd/21/042/2104297.pdf)), Beratungsvorgang des Bundesrates zu Drucksache 584/26 mit dem Beschluss vom 16. Oktober 2026, TOP 46 ([zum Beratungsvorgang](https://www.bundesrat.de/bv.html?id=0584-26)) · Verkündung: Bundesgesetzblatt, BGBl. 2026 I Nr. 321 vom 27. Oktober 2026, ausgefertigt am 22. Oktober 2026 ([zum Bundesgesetzblatt](https://www.recht.bund.de/bgbl/1/2026/321/VO.html)), abgerufen am 1. November 2026 · [Zum Richtlinientext](https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu)
 
-**Einstufung:** Rechtslage · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Rechtslage · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#produkthaftung-komplexitaet
 
@@ -106,7 +106,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** LG München I, Endurteil vom 28. Mai 2026, Az. 26 O 869/26, einstweiliges Verfügungsverfahren, Unterlassung nach Unternehmenspersönlichkeitsrecht · Berufung OLG München, Az. 18 U 1744/26 Pre e, durch Vergleich beendet, Urteil gegenstandslos laut redaktioneller Anmerkung bei BAYERN.RECHT · Fundstellen u. a. NJW 2026, 2271 und MMR 2026, 814 · geprüft am 10. September 2026 · [Zur Quelle](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860)
 
-**Einstufung:** Einstweilige Verfügung, durch Vergleich gegenstandslos · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Gerichtsverfahren · Eilverfahren, erledigt · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#ai-overview-muenchen
 
@@ -120,7 +120,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Verordnung (EU) 2016/679 (Datenschutz-Grundverordnung), Art. 28 Abs. 3 lit. a, Art. 29, Art. 24 Abs. 1 und Art. 28 Abs. 10 · an der Amtsblattfassung geprüft und gegen die konsolidierte Fassung 02016R0679 abgeglichen, von den drei Berichtigungen (ABl. L 314/2016, L 127/2018, L 74/2021) ist keine der vier Stellen berührt; die Berichtigungen von 2016 und 2021 gibt es nicht auf Englisch, geprüft sind alle drei am deutschen Text; in Kraft getretene Änderungen gibt es bis heute nicht, zwei Änderungsvorschläge liegen vor, COM(2025) 837 (Digital Omnibus) und COM(2025) 501 (Erleichterungen für kleine Mid-Caps), beide betreffen Art. 28 und 29 nicht · Amtsblatt L 119 vom 4. Mai 2016 · [Zur Quelle](https://eur-lex.europa.eu/eli/reg/2016/679/oj/deu)
 
-**Einstufung:** Rechtslage · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Rechtslage · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#auftragsverarbeitung-weisung
 
@@ -134,7 +134,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** GM Authority, Jonathan Lopez, 18. Dezember 2023 (Wortlaut beider Seiten, Abschaltung, GM-Stellungnahme) · Business Insider, Katie Notopoulos, 18. Dezember 2023 (Anbieter- und GM-Stellungnahme; Volltext hinter der Zählschranke von businessinsider.com, frei gelesen in der lizenzierten Yahoo-Übernahme vom 19. Dezember 2023) · Originalbeleg: Beitrag von Chris Bakke auf X, 17. Dezember 2023, mit Screenshot · [Zur Quelle](https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/)
 
-**Einstufung:** Dokumentierter Vorfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#chevrolet-dollar
 
@@ -148,7 +148,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Tom Gerken, BBC News · Stellungnahme von DPD, Wortlaut der Bot-Antworten aus Screenshots des Kunden · 19. Januar 2024 · Gegenprobe: Guardian, 20. Januar 2024 · [Zur Quelle](https://www.bbc.com/news/technology-68025677)
 
-**Einstufung:** Dokumentierter Vorfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#dpd-chatbot
 
@@ -162,7 +162,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Colin Lecher, The Markup, copubliziert mit Documented und THE CITY · Stichprobentests am MyCity-Chatbot der Stadt New York · 29. März 2024 · Abschaltung bestätigt in der Aktualisierung vom 4. Februar 2026 zum Folgeartikel „Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law“ von Colin Lecher und Katie Honan, The Markup mit THE CITY, 30. Januar 2026; chat.nyc.gov leitet seit dem 3. Februar 2026 auf eine Seite der Stadt weiter, Überschrift dort „The Chatbot beta test has ended.“ · [Folgeartikel vom 30. Januar 2026](https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law) · [Zur Quelle](https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law)
 
-**Einstufung:** Dokumentierter Vorfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#nyc-mycity
 
@@ -176,7 +176,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026 · Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66 nach dem öffentlichen RECAP-Aktenspiegel (CourtListener, Docket 72502129), letzter Abgleich 21. August 2026, nicht aus der verlinkten Entscheidung · Ablehnung des Antrags: Beschluss vom 10. September 2026, Docket-Eintrag 71.1, gelesen in der Kopie bei Courthouse News ([Beschluss](https://www.courthousenews.com/wp-content/uploads/2026/09/amazon-perplexity-no-rehearing.pdf)) · erste Instanz, Case 3:25-cv-09514 (N.D. Cal.): geänderte Klage vom 21. September 2026 und Antrag auf Abweisung vom 13. Oktober 2026 mit Anhörung am 20. November 2026, beide gelesen am 15. Oktober 2026 über den öffentlichen RECAP-Aktenspiegel ([Aktenspiegel der ersten Instanz](https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/)) · Sitzungsprotokoll (Civil Minutes) der Anhörung vom 20. November 2026, Dokument 139, gelesen am 23. November 2026 ([zum Protokoll](https://storage.courtlistener.com/recap/gov.uscourts.cand.459191/gov.uscourts.cand.459191.139.0.pdf)) · [Zur Quelle](https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf)
 
-**Einstufung:** Gerichtsurteil, nicht endgültig · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Gerichtsverfahren · Urteil, nicht rechtskräftig · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#perplexity-cfaa
 
@@ -190,7 +190,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Content Authenticity Initiative (Adobe), Entwicklerdokumentation · FAQ, sieben Fragen · Stand 10. September 2026 · [Zur Quelle](https://opensource.contentauthenticity.org/docs/getting-started/faqs/)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#screenshot-metadaten
 
@@ -204,7 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Europäische Kommission, „Code of Practice on Transparency of AI-generated Content“, endgültige Fassung vom 10. Juni 2026: Abschnitt 1 für Anbieter (Markierung und Erkennung), Abschnitt 2 für Anwender (Kennzeichnung von Deepfakes und Texten) · EU-Symbole zur Kennzeichnung KI-erzeugter Inhalte, drei Symbole, Seite zuletzt aktualisiert am 13. Oktober 2026 ([zu den Symbolen](https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content)) · Unterzeichner, veröffentlicht am 31. Juli 2026, zuletzt aktualisiert am 24. September 2026 ([zur Liste der Unterzeichner](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)) · abgerufen am 23. September und 1. November 2026 · [Zur Quelle](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)
 
-**Einstufung:** Rechtslage · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Rechtslage · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#eu-kennzeichnungskodex
 
@@ -218,7 +218,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Microsoft Learn, „Autopilot lifecycle in Microsoft Foundry“, Stand 25. August 2026, aktualisiert am 26. August 2026, Abschnitte „Who does what“, „Accountability compared with governance“ und „Hire“ · Start in Microsoft 365 laut Microsoft-Blog vom 25. September 2026: Autopilot „lives in your tenant with its own identity“ und ist „expanding to private preview at the end of the month“ · beide abgerufen am 28. September 2026 · [Microsoft-Blog vom 25. September 2026](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/) · [Zur Quelle](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#agent-vorgesetzter
 
@@ -232,7 +232,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026 · Fristverlängerung für den Antrag auf Rehearing en banc bis 3. November 2026 laut öffentlichem RECAP-Aktenspiegel (CourtListener, Docket-Einträge 215 und 217), abgerufen am 15. Oktober 2026 ([zum Aktenspiegel](https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/)) · Antrag „Petition for Panel Rehearing or Rehearing En Banc“ vom 3. November 2026, RECAP-Dokument 225, gelesen am 12. November 2026 ([zum Antrag](https://storage.courtlistener.com/recap/gov.uscourts.ca3.125346/gov.uscourts.ca3.125346.225.0.pdf)) · [Zur Quelle](https://www2.ca3.uscourts.gov/opinarch/252153p.pdf)
 
-**Einstufung:** Gerichtsurteil, nicht endgültig · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Gerichtsverfahren · Urteil, nicht rechtskräftig · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#ross-kein-fair-use
 
@@ -246,7 +246,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH, Schlussanträge des Generalanwalts Szpunar vom 3. November 2026 in der Rechtssache C-250/25, Nr. 58, 89 bis 92, 99 und 152 mit Fußnote 80, vorläufige Fassung auf Englisch gelesen am 12. November 2026 ([zu den Schlussanträgen](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62025CC0250)) · BGH, Terminhinweis zu I ZR 281/25, geprüft am 12. November 2026 · [Pressemitteilung des Gerichts](https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php) · [GEMA zur Berufung](https://www.gema.de/de/w/suno-entscheidung-2026) · [Initiative Urheberrecht](https://urheber.info/diskurs/openai-legt-berufung-ein) · [Verfahrensakte C-250/25](https://curia.europa.eu/juris/liste.jsf?num=C-250/25&language=de) · [Terminhinweis des BGH](https://www.bundesgerichtshof.de/SharedDocs/Termine/DE/Termine/IZR281-25.html) · [Zur Quelle](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204)
 
-**Einstufung:** Gerichtsurteil, nicht endgültig · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Gerichtsverfahren · Urteil, nicht rechtskräftig · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#gema-openai
 
@@ -260,7 +260,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Carlsen Verlag, Pressemitteilung vom 19. August 2026 zur Klage vor dem Landgericht München I gegen die OpenAI Ireland Ltd. · Penguin Random House Verlagsgruppe, Mitteilung bei Bertelsmann vom 1. April 2026 ([zu Penguin Random House](https://www.bertelsmann.com/de/media/nachrichten/penguin-random-house-verlagsgruppe-klagt-gegen-openai.html)) · abgerufen am 1. November 2026 · [Zur Quelle](https://www.carlsen.de/sites/default/files/2026-08/pressemeldung-2026-08-19-neinhorn-vs-openai.pdf)
 
-**Einstufung:** Klage eingereicht, Vortrag der Kläger · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Gerichtsverfahren · Klage · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#kinderbuch-klagen-openai
 
@@ -274,7 +274,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Gerichtshof der Europäischen Union, Schlussanträge des Generalanwalts Maciej Szpunar vom 3. November 2026, Rechtssache C-250/25, Like Company gegen Google Ireland, Vorabentscheidungsersuchen des Budapest Környéki Törvényszék · Antrag Nr. 240, Training Nr. 58, 89 bis 92, 99 und 152, Zurechnung Nr. 219 bis 221, Verhandlungsposition Nr. 236 · vorläufige englische Fassung gelesen am 12. November 2026 · Pressemitteilung Nr. 155/26 ([zur Pressemitteilung](https://curia.europa.eu/site/jcms/p1_1000088855)) · [Zur Quelle](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62025CC0250)
 
-**Einstufung:** Schlussanträge, nicht bindend · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Gerichtsverfahren · Schlussanträge · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#eugh-chatbot-presseverleger
 
@@ -288,7 +288,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** OpenAI, „Businesses in ChatGPT Terms“, zuletzt aktualisiert am 9. November 2026 · Präambel (wer gebunden ist), Ziffer 3 (Produkt-Feed), 4 (Einträge), 6 (Sichtbarkeitszahlen), 10 (Klageverzicht und Freigabe), 11 (Begriff „Covered Claim“) · gelesen am 16. November 2026 · [Zur Quelle](https://openai.com/policies/businesses-in-chatgpt-terms/)
 
-**Einstufung:** Nutzungsbedingungen des Anbieters · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#chatgpt-business-hub-verzicht
 

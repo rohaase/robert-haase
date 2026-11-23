@@ -12,7 +12,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
 
-**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is and who produced it, from peer-reviewed study to self-report. The colour shows how far it carries.
 
 What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
-+ Preliminary: prototype, single test, forecast, or vendor figure (2) → ai-overview-muenchen, kinderbuch-klagen-openai
-+ Status, case report, or market observation (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (8) → air-canada, olg-hamm, perplexity-cfaa, screenshot-metadaten, agent-vorgesetzter, ross-kein-fair-use, gema-openai, chatgpt-business-hub-verzicht
++ Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (2) → ai-overview-muenchen, kinderbuch-klagen-openai
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (9) → cursor-bot, ai-act, produkthaftung-komplexitaet, auftragsverarbeitung-weisung, chevrolet-dollar, dpd-chatbot, nyc-mycity, eu-kennzeichnungskodex, eugh-chatbot-presseverleger
 
 ---
 
@@ -36,7 +36,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal of British Columbia · 14 February 2024 · [full decision](https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html) · [Source](https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/)
 
-**Grade:** Tribunal decision · Group: Verified study, vendor documentation, or court decision
+**Grade:** Court case · tribunal · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#air-canada
 
@@ -50,7 +50,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** The Register, 18 April 2025 (invented rule, apology) · [Fortune, 19 April 2025](https://fortune.com/article/customer-support-ai-cursor-went-rogue) (the name "Sam", cancellations) · [Source](https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/)
 
-**Grade:** Documented incident · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#cursor-bot
 
@@ -64,7 +64,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Regulation (EU) 2024/1689 (AI Act), Article 50(1), (2) and (4) and Article 113 · amended by [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj) of 8 July 2026 (Digital Omnibus on AI), Official Journal of 24 July 2026, in force since 27 July 2026: new Article 111(4) and recast Article 113(3), plus recast Article 4 and new points (ba) and (bb) of Article 5(1), these applying from 2 December 2026 under new Article 113(3)(a) · procedure: trilogue agreement 7 May 2026, Coreper 13 May, plenary 16 June, Council 29 June, signature 8 July 2026, per the European Parliament’s Legislative Train ([procedure page](https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai)) · guidelines: European Commission, guidelines on the transparency obligations under Article 50, C(2026) 5054 final of 20 July 2026, paragraphs 5, 10, 91 to 92 and 134 to 136 ([guidelines](https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems)), retrieved 1 November 2026 · [AI Act full text](https://eur-lex.europa.eu/eli/reg/2024/1689/oj)
 
-**Grade:** Legal status · Group: Status, case report, or market observation
+**Grade:** Legal framework · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ai-act
 
@@ -78,7 +78,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Higher Regional Court of Hamm, judgment of 12 May 2026, case 4 UKl 3/25 (Verbraucherzentrale Nordrhein-Westfalen v. Aesthetify GmbH) · final since 21 June 2026 per the class action register of the Federal Office of Justice · [class action register](https://www.bundesjustizamt.de/DE/Themen/Verbraucherrechte/VerbandsklageregisterMusterfeststellungsklagenregister/Verbandsklagenregister/Unterlassungsklagen/Klagen/2025/172/UKlag_172_2025_node.html) · [Full judgment](https://nrwe.justiz.nrw.de/olgs/hamm/j2026/4_UKl_3_25_Urteil_20260512.html)
 
-**Grade:** Court judgment, final · Group: Verified study, vendor documentation, or court decision
+**Grade:** Court case · judgment, final · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#olg-hamm
 
@@ -92,7 +92,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Directive (EU) 2024/2853 on liability for defective products, 23 October 2024, Article 4(1), Article 9(1), Article 10(1) to (5), Article 21 and Article 22(1) · full text via the Cellar service of the EU Publications Office, because eur-lex.europa.eu refuses automated requests · transposition status retrieved 15 and 16 October 2026: Bundestag text archive on the vote of 8 October 2026 ([Bundestag](https://www.bundestag.de/dokumente/textarchiv/2026/kw41-de-produkthaftungsrecht-1222456)), committee recommendation, printed paper 21/8429, with entry into force in Article 17 ([recommendation](https://dserver.bundestag.de/btd/21/084/2108429.pdf)), government bill, printed paper 21/4297 of 25 February 2026 ([bill](https://dserver.bundestag.de/btd/21/042/2104297.pdf)), Bundesrat legislative file on printed paper 584/26 with the decision of 16 October 2026, item 46 ([legislative file](https://www.bundesrat.de/bv.html?id=0584-26)) · promulgation: Federal Law Gazette, BGBl. 2026 I No. 321 of 27 October 2026, signed 22 October 2026 ([Federal Law Gazette](https://www.recht.bund.de/bgbl/1/2026/321/VO.html)), retrieved 1 November 2026 · [Directive](https://eur-lex.europa.eu/eli/dir/2024/2853/oj/deu)
 
-**Grade:** Legal position · Group: Status, case report, or market observation
+**Grade:** Legal framework · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#produkthaftung-komplexitaet
 
@@ -106,7 +106,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Regional Court Munich I, final judgment of 28 May 2026, case 26 O 869/26, preliminary injunction proceedings, injunction based on corporate personality rights · Appeal at Higher Regional Court Munich, case 18 U 1744/26 Pre e, ended by settlement, judgment void per the editorial note at BAYERN.RECHT · citations include NJW 2026, 2271 and MMR 2026, 814 · checked 10 September 2026 · [Source](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860)
 
-**Grade:** Preliminary injunction, void after settlement · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Court case · interim injunction, settled · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ai-overview-muenchen
 
@@ -120,7 +120,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Regulation (EU) 2016/679 (General Data Protection Regulation), Art. 28(3)(a), Art. 29, Art. 24(1) and Art. 28(10) · verified against the Official Journal text and diffed against consolidated version 02016R0679; none of the three corrigenda (OJ L 314/2016, L 127/2018, L 74/2021) touches any of the four provisions; the 2016 and 2021 corrigenda do not exist in English, all three were checked in German; no amendment has ever entered into force, and the two pending proposals, COM(2025) 837 (Digital Omnibus) and COM(2025) 501 (relief for small mid-caps), do not concern Art. 28 or 29 · Official Journal L 119 of 4 May 2016 · [Source](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng)
 
-**Grade:** Legal status · Group: Status, case report, or market observation
+**Grade:** Legal framework · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#auftragsverarbeitung-weisung
 
@@ -134,7 +134,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** GM Authority, Jonathan Lopez, 18 December 2023 (wording on both sides, shutdown, GM statement) · Business Insider, Katie Notopoulos, 18 December 2023 (vendor and GM statements; full text behind businessinsider.com’s metered paywall, read free of charge in the licensed Yahoo republication of 19 December 2023) · Original evidence: Chris Bakke’s post on X, 17 December 2023, with screenshot · [Source](https://gmauthority.com/blog/2023/12/gm-dealer-chat-bot-agrees-to-sell-2024-chevy-tahoe-for-1/)
 
-**Grade:** Documented incident · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#chevrolet-dollar
 
@@ -148,7 +148,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Tom Gerken, BBC News · statement from DPD, bot replies quoted from the customer’s screenshots · 19 January 2024 · cross-check: Guardian, 20 January 2024 · [Source](https://www.bbc.com/news/technology-68025677)
 
-**Grade:** Documented incident · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#dpd-chatbot
 
@@ -162,7 +162,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Colin Lecher, The Markup, copublished with Documented and THE CITY · spot-check testing of New York City’s MyCity chatbot · March 29, 2024 · shutdown confirmed in the February 4, 2026 update to the follow-up article “Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law” by Colin Lecher and Katie Honan, The Markup with THE CITY, January 30, 2026; chat.nyc.gov has redirected since February 3, 2026 to a city page headed “The Chatbot beta test has ended.” · [Follow-up article of January 30, 2026](https://themarkup.org/artificial-intelligence/2026/01/30/mamdani-to-kill-the-nyc-ai-chatbot-we-caught-telling-businesses-to-break-the-law) · [Source](https://themarkup.org/artificial-intelligence/2024/03/29/nycs-ai-chatbot-tells-businesses-to-break-the-law)
 
-**Grade:** Documented incident · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#nyc-mycity
 
@@ -176,7 +176,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Amazon.com Services, LLC v. Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, opinion by Judge Milan D. Smith, Jr. · 21 pages, FOR PUBLICATION, no separate opinion, on appeal from N.D. Cal., Judge Maxine M. Chesney · decided 4 August 2026 · petition for rehearing en banc filed 18 August 2026 as docket entry 66 per the public RECAP docket mirror (CourtListener, docket 72502129), last refreshed 21 August 2026, not from the linked opinion · denial of the petition: order of 10 September 2026, docket entry 71.1, read in the copy at Courthouse News ([order](https://www.courthousenews.com/wp-content/uploads/2026/09/amazon-perplexity-no-rehearing.pdf)) · first instance, case 3:25-cv-09514 (N.D. Cal.): amended complaint of 21 September 2026 and motion to dismiss of 13 October 2026 with a hearing on 20 November 2026, both read on 15 October 2026 via the public RECAP docket mirror ([first-instance docket](https://www.courtlistener.com/docket/71874820/amazoncom-services-llc-v-perplexity-ai-inc/)) · civil minutes of the hearing of 20 November 2026, document 139, read 23 November 2026 ([minutes](https://storage.courtlistener.com/recap/gov.uscourts.cand.459191/gov.uscourts.cand.459191.139.0.pdf)) · [Source](https://cdn.ca9.uscourts.gov/datastore/opinions/2026/08/04/26-1444.pdf)
 
-**Grade:** Court ruling, not final · Group: Verified study, vendor documentation, or court decision
+**Grade:** Court case · judgment, not final · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#perplexity-cfaa
 
@@ -190,7 +190,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Content Authenticity Initiative (Adobe), developer documentation · FAQ, seven questions · retrieved 10 September 2026 · [Source](https://opensource.contentauthenticity.org/docs/getting-started/faqs/)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#screenshot-metadaten
 
@@ -204,7 +204,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** European Commission, “Code of Practice on Transparency of AI-generated Content”, final version of 10 June 2026: section 1 for providers (marking and detection), section 2 for deployers (labelling of deepfakes and text) · EU icons for labelling AI-generated content, three icons, page last updated 13 October 2026 ([to the icons](https://digital-strategy.ec.europa.eu/en/policies/eu-icons-labelling-ai-generated-content)) · signatories, published 31 July 2026, last updated 24 September 2026 ([to the list of signatories](https://digital-strategy.ec.europa.eu/en/news/strong-backing-code-practice-transparency-ai-generated-content)) · retrieved 23 September and 1 November 2026 · [Source](https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content)
 
-**Grade:** Legal status · Group: Status, case report, or market observation
+**Grade:** Legal framework · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#eu-kennzeichnungskodex
 
@@ -218,7 +218,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Microsoft Learn, “Autopilot lifecycle in Microsoft Foundry”, dated 25 August 2026, updated 26 August 2026, sections “Who does what”, “Accountability compared with governance” and “Hire” · launch in Microsoft 365 according to Microsoft’s blog of 25 September 2026: autopilot “lives in your tenant with its own identity” and is “expanding to private preview at the end of the month” · both retrieved 28 September 2026 · [Microsoft blog of 25 September 2026](https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/) · [Source](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/autopilot-lifecycle)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agent-vorgesetzter
 
@@ -232,7 +232,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, argued 11 June 2026, filed 29 September 2026, opinion of the court by Montgomery-Reeves · quotes p. 26, distinction in footnote 7 · full text read 30 September 2026 · extension of time for a petition for rehearing en banc until 3 November 2026 per the public RECAP docket mirror (CourtListener, docket entries 215 and 217), retrieved 15 October 2026 ([docket](https://www.courtlistener.com/docket/70622297/thomson-reuters-enterprise-centre-gmbh-v-ross-intelligence-inc/)) · “Petition for Panel Rehearing or Rehearing En Banc” of 3 November 2026, RECAP document 225, read 12 November 2026 ([the petition](https://storage.courtlistener.com/recap/gov.uscourts.ca3.125346/gov.uscourts.ca3.125346.225.0.pdf)) · [Source](https://www2.ca3.uscourts.gov/opinarch/252153p.pdf)
 
-**Grade:** Court ruling, not final · Group: Verified study, vendor documentation, or court decision
+**Grade:** Court case · judgment, not final · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ross-kein-fair-use
 
@@ -246,7 +246,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Munich Regional Court I, final judgment of 11 November 2025, case no. 42 O 14139/24, GEMA v two companies of the OpenAI group · full text at Bayern.Recht, paragraphs 181 (reproduction in the model), 191 to 193 (exceptions), 277 (liability for outputs) and 301 to 304 (dismissed part) · appeal: GEMA in its press release of 31 July 2026, date and case number according to Initiative Urheberrecht of 10 December 2025 · full text read on 2 October 2026 · CJEU, opinion of Advocate General Szpunar of 3 November 2026 in case C-250/25, points 58, 89 to 92, 99 and 152 with footnote 80, provisional English text read on 12 November 2026 ([the opinion](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62025CC0250)) · Federal Court of Justice, hearing notice for I ZR 281/25, checked on 12 November 2026 · [Court press release](https://www.justiz.bayern.de/gerichte-und-behoerden/landgericht/muenchen-1/presse/2025/11.php) · [GEMA on the appeal](https://www.gema.de/de/w/suno-entscheidung-2026) · [Initiative Urheberrecht](https://urheber.info/diskurs/openai-legt-berufung-ein) · [Case file C-250/25](https://curia.europa.eu/juris/liste.jsf?num=C-250/25&language=en) · [Federal Court of Justice notice](https://www.bundesgerichtshof.de/SharedDocs/Termine/DE/Termine/IZR281-25.html) · [Source](https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2025-N-30204)
 
-**Grade:** Court ruling, not final · Group: Verified study, vendor documentation, or court decision
+**Grade:** Court case · judgment, not final · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#gema-openai
 
@@ -260,7 +260,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Carlsen Verlag, press release of 19 August 2026 on the lawsuit at the Munich Regional Court I against OpenAI Ireland Ltd. · Penguin Random House Verlagsgruppe, announcement at Bertelsmann of 1 April 2026 ([Penguin Random House](https://www.bertelsmann.com/de/media/nachrichten/penguin-random-house-verlagsgruppe-klagt-gegen-openai.html)) · retrieved 1 November 2026 · [Source](https://www.carlsen.de/sites/default/files/2026-08/pressemeldung-2026-08-19-neinhorn-vs-openai.pdf)
 
-**Grade:** Lawsuit filed, claimants’ case · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Court case · lawsuit · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#kinderbuch-klagen-openai
 
@@ -274,7 +274,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Court of Justice of the European Union, opinion of Advocate General Maciej Szpunar of 3 November 2026, case C-250/25, Like Company v Google Ireland, reference from the Budapest Környéki Törvényszék · proposal point 240, training points 58, 89 to 92, 99 and 152, attribution points 219 to 221, bargaining position point 236 · provisional English text read 12 November 2026 · press release No 155/26 ([press release](https://curia.europa.eu/site/jcms/p1_1000088855)) · [Source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62025CC0250)
 
-**Grade:** Advocate General’s opinion, not binding · Group: Status, case report, or market observation
+**Grade:** Court case · Advocate General’s opinion · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#eugh-chatbot-presseverleger
 
@@ -288,7 +288,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** OpenAI, “Businesses in ChatGPT Terms”, last updated 9 November 2026 · preamble (who is bound), section 3 (product feed), 4 (listings), 6 (insight data), 10 (covenant not to sue and release), 11 (definition of “Covered Claim”) · read 16 November 2026 · [Source](https://openai.com/policies/businesses-in-chatgpt-terms/)
 
-**Grade:** Provider’s terms of use · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-business-hub-verzicht
 

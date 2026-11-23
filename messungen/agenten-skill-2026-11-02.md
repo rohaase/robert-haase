@@ -107,3 +107,5 @@ Run the eight prompts above with the same flags: `claude -p "<prompt>" --model c
 **Read by hand:** The miss (`chatgpt-verweise-konversion`, run 2) fetched the HTML page four times and never a Markdown file; it reported no figure and quoted a sentence the page does not contain, a paraphrase produced by the fetch tool from a shortened page. `reddit-lizenzerloese` run 2 misses the limit by pattern but gives another part of the entry's limit (two partners hold substantially all of the contract value), not the one about the anonymously sourced 60 million.
 
 **Limits:** Six runs, two questions, one agent: an indication, not proof. The model and tool behind the runs on 2 and 23 November may differ in ways the version number does not show. The evidence entry `agenten-skill-zitieren` is unchanged by this follow-up.
+
+Note: after this follow-up, on 23 November 2026, the grades on the page moved to a fixed scale (kind of evidence, who produced it, status). The stufe patterns above match the labels in use at the time of the runs.

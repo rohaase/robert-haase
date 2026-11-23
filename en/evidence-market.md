@@ -12,7 +12,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
 
-**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is and who produced it, from peer-reviewed study to self-report. The colour shows how far it carries.
 
 What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
-+ Preliminary: prototype, single test, forecast, or vendor figure (12) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
-+ Status, case report, or market observation (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (2) → ki-nutzung-deutschland, reddit-lizenzerloese
++ Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (11) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 ---
 
@@ -36,7 +36,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Gartner, CEO survey, cited in the Think Again series · archive snapshot July 2026 · [Source](https://www.gartner.com/en/experts/think-again-series/machine-customers)
 
-**Grade:** Self-assessment, forecast · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Forecast · surveyed CEOs · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#machine-customers
 
@@ -50,7 +50,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** OpenAI, “DevDay 2026 Recap”, 29 September 2026 (“our collective 1.2B weekly users”), German version “Rückblick auf den DevDay 2026”, both retrieved 30 September 2026 · Google, AI Mode blog post, 19 May 2026 · Google, “Google’s Gemini app hits 1 billion monthly active users”, 11 August 2026 ([Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/)), retrieved 1 November 2026 · [German version](https://openai.com/de-DE/index/devday-2026-recap/) · [Google blog post](https://blog.google/products-and-platforms/products/search/search-io-2026/) · [Source](https://openai.com/index/devday-2026-recap/)
 
-**Grade:** Vendor figures · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#marktgroesse
 
@@ -60,11 +60,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** 26 percent of German companies with ten or more employees used AI technologies in 2025. Among large companies with 250 or more employees it is 57 percent, among small ones 23 percent.
 
-**What the number does not say:** It is collected as a yes-or-no and says nothing about intensity, maturity, or effect, and it is not broken down by function — so it is no evidence about marketing or brand management. **Why it belongs here anyway:** it is the most methodologically rigorous German figure available and a sober anchor against industry-association surveys reporting markedly higher numbers for the same year. When two figures on the same question diverge widely, the cause lies in population and method, not in reality.
+**What the number does not say:** It is collected as a yes-or-no and says nothing about intensity, maturity, or effect, and it is not broken down by function, so it is no evidence about marketing or brand management. **Why it belongs here anyway:** it is the most methodologically rigorous German figure available and a sober anchor against industry-association surveys reporting markedly higher numbers for the same year. When two figures on the same question diverge widely, the cause lies in population and method, not in reality.
 
 **Source:** German Federal Statistical Office, ICT usage survey, companies with 10 or more employees · November 2025 · [Source](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html)
 
-**Grade:** Official statistics · Group: Verified study, vendor documentation, or court decision
+**Grade:** Official statistics · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-nutzung-deutschland
 
@@ -78,7 +78,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Cloudflare, “Content Independence Day, one year on”, 1 July 2026 · data basis per the report: Cloudflare Radar and Investor Day 2026 · Cloudflare, “The Internet has a second audience”, 30 September 2026 ([the post](https://blog.cloudflare.com/agentic-web/)) · Cloudflare Radar, AI Insights, series “HTML page requests by client type” and “Crawl purpose”, monthly values June to October 2026, queried through the page’s data interface on 1 November 2026 ([Cloudflare Radar](https://radar.cloudflare.com/ai-insights)) · forecast: Cloudflare, Q2 2026 earnings call, 6 August 2026, Matthew Prince answering in the Q&A, per a third-party transcript ([transcript](https://allmind.ai/earnings/event/2942445)), retrieved 1 November 2026 · [Source](https://blog.cloudflare.com/agentic-internet-bot-report/)
 
-**Grade:** Market observation · Group: Status, case report, or market observation
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#nicht-menschlicher-verkehr
 
@@ -92,7 +92,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Anthropic, “Donating the Model Context Protocol and establishing the Agentic AI Foundation”, 9 December 2025, the originating source for both figures · Linux Foundation, press release on the founding of the Agentic AI Foundation, 9 December 2025, for the membership list ([press release](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation)) · own cross-check against the official registry registry.modelcontextprotocol.io on 10 September 2026 · MCP blog, post on the specification of 28 July 2026, David Soria Parra and Den Delimarsky ([MCP blog](https://blog.modelcontextprotocol.io/posts/2026-07-28/)), retrieved 1 November 2026 · [Source](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
 
-**Grade:** Vendor figures · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#mcp-verbreitung
 
@@ -106,7 +106,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Morgan Stanley Research, “Here Come the Shopping Bots”, house forecast for US online retail · 8 December 2025 · Bain & Company, Snap Chart “2030 Forecast: How Agentic AI Will Reshape US Retail” by Aaron Cheris, Mikey Vu, Stephanie Koszyk and Katherine Hall, house forecast for US online retail · 17 December 2025 · bain.com blocks automated retrieval, HTTP 403 on 10 September 2026, read in the archive capture of 17 December 2025 · [Archive capture](https://web.archive.org/web/20251217213656/https://www.bain.com/insights/2030-forecast-how-agentic-ai-will-reshape-us-retail-snap-chart/) · [Source](https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook)
 
-**Grade:** House forecasts, not comparable · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Forecast · not comparable · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agentenhandel-2030
 
@@ -120,7 +120,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** The CMO Survey, 35th edition, conducted by Christine Moorman at Duke University’s Fuqua School of Business, sponsored by Duke, Deloitte and the American Marketing Association · 2,111 marketing leaders at U.S. for-profit companies invited, 308 responses, 14.6 percent response rate, 191 of them to this question, 97 percent VP level or above · fielded 7 to 29 January 2026, report published April 2026 · Highlights Report page 21 (AI and machine learning) and page 23 (generative AI), figures in the Topline Report page 11, sector cell sizes in the Firm and Industry Breakout Report pages 35 and 44 · generative AI values for spring and autumn 2024 (7.0 and 11.1 percent) in the Highlights Report Fall 2024, page 34 · [Highlights Report Fall 2024](https://cmosurvey.org/wp-content/uploads/2024/11/The_CMO_Survey-Highlights_and_Insights_Report-Fall_2024.pdf) · [Breakout Report](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Firm_and_Industry_Breakout_Report-2026-1.pdf) · [Source](https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · university · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#cmo-ki-anteil
 
@@ -134,7 +134,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** TRUE Global Intelligence (FleishmanHillard) for Splunk, The State of Dark Data, 1,357 respondents from IT and business across seven countries · fielded October 2018 to January 2019, report May 2019 · [Source](https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf)
 
-**Grade:** Usually miscited · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Survey · vendor, usually miscited · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#dark-data-55
 
@@ -148,7 +148,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** The CMO Survey, 35th edition, run at the Fuqua School of Business, Duke University, sponsored by Duke, Deloitte and the American Marketing Association · Topline Report 2026, page 12, answer option “GEO (i.e., Generative Engine Optimization to get content to appear in AI-generated search results)”: 78 of 188 cases, 41.5 percent, plus or minus 7.1 percentage points · 308 respondents out of 2,111 marketing leaders contacted at US for-profit companies · fielded 7 to 29 January 2026 · take care when looking it up: the row above, “Predictive analytics for customer insights”, carries the same 41.5 percent and likewise 78 cases · [Source](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · university · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#geo-verbreitung
 
@@ -162,7 +162,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Association of National Advertisers, member survey “The Continued Rise of the In-House Agency: 2023 Edition”, 162 respondents, fielded February and March 2023 · press release of 2 May 2023, the report itself sits behind the membership wall · comparison values and per-question bases from the predecessor report of October 2018, 412 respondents, 57 pages · [Predecessor report](https://www.ana.net/content/show/id/pr-2018-inhouse-rising) · [Source](https://www.ana.net/content/show/id/79185)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · association · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#in-house-verlagerung
 
@@ -176,7 +176,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Graphite, growth agency · about 55,400 English-language articles randomly drawn from Common Crawl, carrying article markup and at least 100 words, published between January 2020 and March 2026 · classified by averaging three detectors (Pangram, Copyleaks, GPTZero), whose false positive rates of 1.844, 1.836 and 1.355 percent were measured on about 15,700 articles from the same sample published before ChatGPT · quarterly data openly available · May 2026 · [Source](https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-anteil-artikel
 
@@ -190,7 +190,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Contentsquare, 2026 Digital Experience Benchmarks, 99 billion sessions and 6,500 websites worldwide, fourth quarter 2024 against fourth quarter 2025 · 29 January 2026 · Semrush, Traffic & Market Toolkit, more than 50,000 websites and 17 industries worldwide, January to December 2025 · 27 April 2026 · Conductor, AEO/GEO Benchmarks, traffic section from 1,215 of its own enterprise customer domains in the US, more than 3.3 billion sessions, 35.7 million of them from language models and chatbots, May to September 2025 · last updated 6 July 2026 · Marie Haynes, “GEO is a distraction”, 21 October 2026, 100 websites, more than 145 million sessions, twelve months without an exact period ([Marie Haynes](https://mariehaynes.com/geo-is-a-distraction/)), retrieved 1 November 2026 · [Source](https://www.semrush.com/blog/traffic-channel-mix-study/)
 
-**Grade:** Three vendor measurements · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-verkehrsanteil
 
@@ -204,7 +204,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Netcraft, guide to detecting and disrupting phishing websites, the vendor’s own operations from March 2024 to March 2025 · 12 December 2025, last modified 12 March 2026 · [Source](https://www.netcraft.com/guide/phishing-website-detection-disruption)
 
-**Grade:** Vendor figures · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#markenklone
 
@@ -218,7 +218,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Graphite (Ethan Smith) · analysis of Similarweb estimates for web visits and app sessions worldwide, July 2020 to December 2025, raw data public · March 2026 · [Source](https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think)
 
-**Grade:** Market observation on estimated data · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor, estimated data · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#suchmarkt-wachstum
 
@@ -232,7 +232,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** GWA KI-Whitepaper 2026, "KI-Studien" section, question 6 · 170 executives at German companies with budget and decision authority · 1 to 9 April 2026 · descriptive online survey with self-reports · conducted by Handelsblatt Research Institute and techconsult in cooperation with GWA · [Source](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · association · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#insourcing-absicht
 
@@ -246,7 +246,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** GWA KI-Whitepaper 2026, "KI-Studien" section · 78 executives from GWA member agencies · 12 February to 6 March 2026 · descriptive online survey with self-reports · published by GWA Tech & Innovation Forum · questions: "How would you rate your agency's current level of AI maturity?" and "How do you rate the current average level of AI knowledge across the agency industry in the DACH region?" · [Source](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · association · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agentur-selbstbild
 
@@ -260,7 +260,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Forrester, Ian Bruce, “New Analysis Suggests The CMO’s Role In The Fortune 500 Is At A Crossroads”, blog post of 7 July 2026, third annual analysis · full report “The Representation And Tenure Of Fortune 500 CMOs in 2026” for clients only · retrieved 23 September 2026 · [Source](https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/)
 
-**Grade:** Analyst analysis, method not public · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · analyst firm, method not disclosed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#cmo-titel-schwindet
 
@@ -274,7 +274,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Adobe, press release “Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY”, 28 September 2026 · basis according to Adobe: Adobe Analytics with more than one trillion visits to US retail sites, 100 million SKUs and 18 product categories, plus a survey of 5,000 consumers in July 2026 · retrieved 28 September 2026 · [Adobe on the LLM Optimizer, 20 April 2026](https://news.adobe.com/news/2026/04/adobe-introduces-brand-visibility-solution) · [Source](https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record)
 
-**Grade:** Forecast and survey by the vendor · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Forecast · vendor · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-verkehr-handel-prognose
 
@@ -288,7 +288,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Pew Research Center, Michelle Faverio, “Why Don’t Some People Use Chatbots?”, 9 October 2026 · American Trends Panel, 5,119 US adults, surveyed 17 to 23 February 2026 · retrieved 15 October 2026 · [Source](https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · research institute · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#chatbot-nichtnutzung
 
@@ -302,7 +302,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Gartner, press release “Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities”, London, 11 May 2026 · CMO Spend Survey 2026, 401 marketing leaders in North America, the United Kingdom and Europe, January to March 2026 · retrieved 20 October 2026 · [Source](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · analyst firm · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#cmo-ki-budget
 
@@ -316,7 +316,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** McKinsey, Aurélia Bettati, Jesko Perrey et al., “Past forward: The modern rethinking of marketing’s core”, State of Marketing Europe 2026 report, 20 November 2025 · survey of 500 marketing decision-makers in five countries, complemented by expert interviews, methodology in the box “About our research” · retrieved 20 October 2026 · [Source](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · consultancy · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#marketing-prioritaeten
 
@@ -330,7 +330,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Reddit, Inc., Form 10-K for fiscal year 2025, February 2026, revenue note (other revenue 140.0 million dollars, total revenue 2.2 billion) and risk factors on licensing · Reuters, Anna Tong, Echo Wang and Martin Coulter, “Exclusive: Reddit in AI content licensing deal with Google, sources say”, 22 February 2024, syndicated by Yahoo ([Reuters report](https://tech.yahoo.com/ai/articles/exclusive-reddit-ai-content-licensing-041012503.html)) · retrieved 1 November 2026 · [Source](https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm)
 
-**Grade:** Audited annual report · Group: Verified study, vendor documentation, or court decision
+**Grade:** Annual report · audited · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#reddit-lizenzerloese
 
@@ -344,7 +344,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Pablo Villalobos, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim and Marius Hobbhahn, “Will we run out of data? Limits of LLM scaling based on human-generated data”, Epoch AI, 6 June 2024, arXiv 2211.04325 · retrieved 1 November 2026 · [Source](https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data)
 
-**Grade:** Forecast, model estimate · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Forecast · research institute · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#trainingsdaten-vorrat
 
@@ -358,7 +358,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Christian W., Head of Brand Design at Block, LinkedIn post of 11 November 2026, checked 12 November 2026 · [Source](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
 
-**Grade:** Self-reported single case · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#block-brand-hub
 

@@ -18,7 +18,7 @@ The collection traces every figure to the body that measured it and states what 
 
 - Give the claim together with its limit. The limit says what the figure does not prove; leaving it out turns a correct number into a wrong statement.
 - Cite the primary source linked in the entry, not the collection, and add the permalink as "via": `<claim> (<short source>). <primary source URL> · via https://robert-haase.de/en/evidence.html#<anchor>`. For the author's own measurements the collection itself is the primary source.
-- Keep the grade. Say whether the figure is a verified study, a court decision, a vendor figure, a forecast or a single test.
+- Keep the grade. Say what kind of evidence it is and who produced it, for example a peer-reviewed study, a vendor measurement, a court ruling, a forecast or a self-reported figure.
 - Keep the date. Every entry carries the date of its source, and many also the date they were last checked; when the question is about the current state, check the primary source again.
 - Do not merge figures from different entries into one number. Their samples, periods and limits differ.
 

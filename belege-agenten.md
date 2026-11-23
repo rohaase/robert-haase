@@ -12,7 +12,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
 
-**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.
 
 Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (15) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten, dots-freigaberegeln
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
-+ Sachstand, Fallbericht oder Marktbeobachtung (3) → aipref, agenten-wissensarbeit, agenten-zeithorizont
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (6) → leere-buttons, lighthouse, a11y-tree, lighthouse-agent-discovery, agenten-wissensarbeit, dots-freigaberegeln
++ Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (12) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont
 
 ---
 
@@ -36,7 +36,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** WebAIM Million, achte Ausgabe: WAVE-Prüfung von einer Million Startseiten aus dem Tranco-Ranking · Daten von Februar 2026, Seite zuletzt geändert am 30. März 2026 · Vorjahreswerte 29,6 Prozent bei den Buttons und 48,2 Prozent bei den Formularfeldern · [Zur Quelle](https://webaim.org/projects/million/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Institut · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#leere-buttons
 
@@ -50,7 +50,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Elnaffar und Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 Durchläufe mit drei Modellen · Juli 2026 · [Zur Quelle](https://arxiv.org/abs/2607.12056)
 
-**Einstufung:** Vorläufig, Prototyp · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agent-ready
 
@@ -64,7 +64,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** A11y-CUA, arXiv 2602.09310, vorgestellt auf der CHI 2026 · Februar 2026 · [Zur Quelle](https://arxiv.org/abs/2602.09310)
 
-**Einstufung:** Wird meist falsch zitiert · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · begutachtet, meist falsch zitiert · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#a11y-cua
 
@@ -78,7 +78,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Search Engine World, 12 Assistenten im Vergleich · Juni 2026 · früherer Test: searchVIU, Dezember 2025 · [Zur Quelle](https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test)
 
-**Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · Fachmedium · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#javascript
 
@@ -92,7 +92,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Lighthouse-Release 13.3.0 vom 7. Mai 2026, Kategorie in der Standardkonfiguration · [Googles Dokumentation dazu](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring) · Verlängerung des Origin Trial laut „Intent to Extend Experiment: WebMCP“ auf blink-dev, gelesen am 12. November 2026 ([zur Verlängerung](https://groups.google.com/a/chromium.org/g/blink-dev/c/lkdLdy5VPoA/m/w-_Sgf06CQAJ)) · [Zur Quelle](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#lighthouse
 
@@ -106,7 +106,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Google, Build agent-friendly websites (web.dev) · Stand 1. April 2026 · [Zur Quelle](https://web.dev/articles/ai-agent-site-ux)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#a11y-tree
 
@@ -120,7 +120,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** IETF, Arbeitsgruppe AI Preferences (aipref), Zustand „Active“ · draft-ietf-aipref-vocab-08 vom 14. September 2026 und draft-ietf-aipref-attach-05 vom 19. August 2026, IESG-Zustand „I-D Exists“, WG-Zustand „WG Document“, vorgesehener Rang Proposed Standard, kein RFC · Meilensteine beider Bausteine am 23. September 2025 von August 2025 auf den 31. August 2026 verschoben und seither unverändert ([Verlauf der Arbeitsgruppe](https://datatracker.ietf.org/group/aipref/history/)) · Volltext des Vokabular-Entwurfs mit dem Konsens-Hinweis ([Entwurfstext](https://www.ietf.org/archive/id/draft-ietf-aipref-vocab-08.txt)) · geprüft am 21. September 2026 · Einzelentwurf draft-kelley-aipref-training-preference-signal-00 vom 30. Oktober 2026 und Google Search Central vom 30. Oktober 2026, beide gelesen am 12. November 2026 ([zum Entwurf](https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/), [zu Google](https://developers.google.com/search/blog/2026/10/ai-training-control)) · Fassung -01 vom 16. November 2026, Sitzungsunterlagen und Mitschrift der Sitzungen vom 16. und 19. November 2026, gelesen am 23. November 2026 ([Sitzungsunterlagen](https://datatracker.ietf.org/meeting/127/session/aipref), [Mitschrift](https://notes.ietf.org/notes-ietf-127-aipref)) · [Zur Arbeitsgruppe](https://datatracker.ietf.org/wg/aipref/about/)
 
-**Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Normung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#aipref
 
@@ -134,7 +134,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Messung, 30. August 2026 · Ursache je Seite auf HTTP-Ebene geprüft, mit gewöhnlicher und mit automatisierter Browser-Kennung · bei 18 von 22 Seiten dieselbe Antwort
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#dax-zutritt
 
@@ -148,7 +148,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Messung, 30. August 2026 · 160 Startseiten aus DAX, MDAX und SDAX angefragt, Auswahl und Adresse aus Wikidata · Chromes eigener Accessibility-Baum · zwei Durchläufe, 135 von 136 Seiten mit identischem Ergebnis
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#dax-benennung
 
@@ -162,7 +162,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Messung, 30. August 2026 · gezählt wurde die Rolle „main“ in Chromes Accessibility-Baum · zwei Durchläufe mit identischem Ergebnis
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#dax-landmarken
 
@@ -176,7 +176,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Messung, 30. August 2026 · 160 Startseiten aus DAX, MDAX und SDAX angefragt, 135 auswertbar, Auswahl und Adresse aus Wikidata · Chromes eigener Accessibility-Baum, gezählt sind nicht ignorierte Knoten der Rolle „image“ ohne Namen · Aufschlüsselung nach Elementart je Seite auf 80 Knoten begrenzt · zwei Durchläufe, 135 von 136 Seiten mit identischem Ergebnis
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#dax-bilder
 
@@ -190,7 +190,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Erhebung, 12. September 2026 · 77 Titel angefragt, 76 auswertbar · Nachrichtenteil nach dem Diagramm „Weekly reach online“ der Länderseite Deutschland im Reuters Institute Digital News Report 2026, Fachmedien sowie Österreich und die Schweiz nach benannter Regel · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 3 Titeln · zwei Durchläufe mit identischem Urteil
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#verlage-robots
 
@@ -204,7 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Erhebung, 12. September 2026 · dieselbe Liste wie die Erhebung vom 30. August, 160 Startseiten aus DAX, MDAX und SDAX, Index-Mitglieder aus Wikipedia, Adresse aus Wikidata · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 2 Seiten · zwei Durchläufe, 160 von 160 Seiten mit identischem Urteil
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#marken-robots
 
@@ -218,7 +218,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · Bewertung der Einträge laut Spalte „Source“ der Bestenliste und Hinweis „We have outsourced human evaluation“, abgerufen am 15. Oktober 2026 · [zur Bestenliste](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard) · [Zur Quelle](https://arxiv.org/abs/2504.01382)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-erfolg
 
@@ -232,7 +232,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Klarna Group plc, eigene Angaben in Pressemitteilung, Börsenprospekt (Formular F-1/A) und Geschäftsbericht (Formular 20-F) bei der SEC · 27. Februar 2024 bis 26. Februar 2026 · [Zur Quelle](https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm)
 
-**Einstufung:** Wird meist falsch zitiert · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · meist falsch zitiert · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#klarna-700
 
@@ -246,7 +246,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Erhebung, 17. September 2026 · dieselben Listen wie die beiden robots.txt-Einträge vom 12. September, deren Zusammensetzung und Grenzen dort stehen: 77 Medientitel, alle auswertbar, und 160 Startseiten aus DAX, MDAX und SDAX, davon 146 im ersten und 145 im zweiten Durchgang auswertbar · gesucht wurde in der ausgelieferten robots.txt nach Kommentaren mit § 44b, nach dem Wortlaut Text und Data Mining und nach einer TDM-policy-Zeile · Abruf zuerst mit eigener Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung · zwei Durchläufe, bei den Medien 77 von 77 mit identischem Urteil, im Index wich eine Seite ab, die im zweiten Durchgang nicht antwortete · Schlussanträge in der Rechtssache C-250/25, Nr. 148 und 149, gelesen am 12. November 2026 ([zu den Schlussanträgen](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62025CC0250))
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#rechtsvorbehalt-kommentar
 
@@ -260,7 +260,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Messung, 11. September 2026, 08:10 und 11:05 · Abrufwerkzeug eines Claude-Agenten auf robert-haase.de/belege.html, 128.000 Zeichen sichtbarer Text ohne Skripte · zehn vorher festgelegte Fragen, jede zweimal gestellt, Abbruchregeln vor dem Lauf bestimmt · Auswertung durch einen zweiten Agenten ohne Kenntnis des Baus
 
-**Einstufung:** Eigener Test, ein Werkzeug · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · eigene, Einzeltest · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#abruf-kuerzung
 
@@ -274,7 +274,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Google, Lighthouse-Release 13.5.0 vom 18. September 2026 mit der Prüfung „Agent Resource Discovery“ und der Gruppe „Agent Discoverability“, Suchpfad /.well-known/ai-catalog.json laut Quelltext der Prüfung · Agentic Resource Discovery, Spezifikation v0.91 vom 26. August 2026, Status „Proposal“ ([zur Spezifikation](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · abgerufen am 21. September 2026 · Lighthouse-Release 13.6.0 vom 27. Oktober 2026 mit der Umstellung auf Version 0.91 ([zu Release 13.6.0](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0)), abgerufen am 1. November 2026 · Pull Requests 17258 und 17259 ([zum Pull Request](https://github.com/GoogleChrome/lighthouse/pull/17258)) · [Zur Quelle](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#lighthouse-agent-discovery
 
@@ -288,7 +288,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Erhebung, 17. September 2026 · dieselben Dateien wie beim Eintrag zum Rechtsvorbehalt in der robots.txt: 77 Medientitel, alle mit robots.txt, und 160 Startseiten aus DAX, MDAX und SDAX, davon 139 mit robots.txt · gesucht wurde nach einer Zeile Content-Signal, gleich in welcher Schreibweise · zur Erklärung selbst: Cloudflare, „Giving users choice with Cloudflare’s new Content Signals Policy“, 24. September 2025 ([zur Erklärung](https://blog.cloudflare.com/content-signals-policy/))
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#content-signal-selten
 
@@ -302,7 +302,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Seiden, Ren, Zhang, Kim, Liu und Wenger (Duke University, University of Pittsburgh, Carnegie Mellon University), „Identifying AI Web Scrapers Using Canary Tokens“, arXiv 2605.13706, Fassung 2 vom 3. September 2026, erste Fassung vom 13. Mai 2026, Preprint ohne Begutachtung · 20 Websites, zwei Monate Crawling vor der Sperre, 22 Chatbots, davon 18 auswertbar · Volltext gelesen am 23. September 2026 · [Zur Quelle](https://arxiv.org/abs/2605.13706)
 
-**Einstufung:** Kontrollierter Versuch, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#robots-sperre-chatbots
 
@@ -316,7 +316,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, erschienen in Findings of the Association for Computational Linguistics: EMNLP 2026, S. 45360 bis 45400, Oktober 2026, geprüft am 12. November 2026 ([zum Tagungsband](https://aclanthology.org/2026.findings-emnlp.2127/)) · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · Einstellung von ChatGPT Atlas: OpenAI Help Center, „ChatGPT Atlas retirement“, abgerufen am 15. Oktober 2026 ([zur Einstellung](https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement)) · [Zur Quelle](https://arxiv.org/abs/2609.30604)
 
-**Einstufung:** Kontrollierter Test, begutachtet · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-wissensarbeit
 
@@ -330,7 +330,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · Cloudflare Radar, AI Insights, Reihe „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 ([zu Cloudflare Radar](https://radar.cloudflare.com/ai-insights)) · [Zur Quelle](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
 
-**Einstufung:** Anbieterangaben · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Methode nicht offen · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#crawler-zweck-gemischt
 
@@ -344,7 +344,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** OpenAI, „Introducing dots“, 29. September 2026, Abschnitte „Access and permissions“, „Action review and approvals“ und „Specialist dots for your organization“, deutsche Fassung „Wir stellen dots vor“ · abgerufen am 30. September 2026 · Verfügbarkeit: OpenAI Help Center, „Getting started with your dot“, aktualisiert am 30. Oktober 2026 ([zur Hilfeseite](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot)) · Anthropic, „Introducing Claude Duet“, 21. Oktober 2026, mit Nachtrag vom 23. Oktober 2026 ([zu Claude Duet](https://claude.com/resources/articles/claude-duet)) · beide abgerufen am 1. November 2026 · [Zur Quelle](https://openai.com/index/introducing-dots/)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#dots-freigaberegeln
 
@@ -358,7 +358,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** METR, „Task-Completion Time Horizons of Frontier AI Models“, Time Horizon 1.1, zuletzt aktualisiert am 8. September 2026 · Werte aus der Datendatei benchmark_results_1_1.yaml ([zur Datendatei](https://metr.org/assets/benchmark_results_1_1.yaml)) · abgerufen am 1. November 2026 · [Zur Quelle](https://metr.org/time-horizons/)
 
-**Einstufung:** Messreihe eines Prüfinstituts · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Institut, laufend · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-zeithorizont
 
@@ -372,7 +372,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Vals AI, Matilda Glynn-Henley, „How Far Will AI Assistants Go for a Refund They Can’t Get?“, 15. Oktober 2026 · sechs Modelle, je ein Lauf, simuliertes Gegenüber · abgerufen am 1. November 2026 · [Zur Quelle](https://www.vals.ai/blogs/impossible-refund)
 
-**Einstufung:** Einzelner Test, ein Lauf je Modell · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · Anbieter, Einzeltest · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-eskalation-erstattung
 

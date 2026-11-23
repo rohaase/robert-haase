@@ -12,7 +12,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
 
-**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.
 
 Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (4) → monotype-mcp, veeva-mlr, olivares-access-map, webmcp-angeboten-kaum-abgefragt
-+ Sachstand, Fallbericht oder Marktbeobachtung (6) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (13) → astryx-agenten, frontify-mcp, canva-mcp, mcp-tool-poisoning, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
++ Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (5) → monotype-mcp, veeva-mlr, olivares-access-map, markenstimme-als-skill, webmcp-angeboten-kaum-abgefragt
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (8) → designsysteme-maschinenschnittstelle, gitlab-markenrepo, mcp-primitive, pulumi-brand-mcp, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
 
 ---
 
@@ -36,7 +36,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Astryx by Meta, „Introducing Astryx“, 18. Juni 2026, und „Who needs a Figma Library?“, 5. August 2026 · Repository unter MIT-Lizenz · [Zur Quelle](https://astryx.atmeta.com/blog/introducing-astryx)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#astryx-agenten
 
@@ -50,7 +50,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Kaelig Deloumeau-Prigent, 21 Open-Source-Designsysteme, Daten laut Seite erhoben 26. bis 28. Juli 2026, Liste seither erweitert · Bericht 1. September 2026 · CC BY 4.0 · die engeren Zahlen stehen im Essay-Teil der Seite · abgerufen am 17. September 2026 · [Zur Quelle](https://state-of-ai-in-design-systems.netlify.app/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Einzelautor · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#designsysteme-maschinenschnittstelle
 
@@ -64,7 +64,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** GitLab Handbook, öffentliches Repository gitlab-com/content-sites/handbook, geprüft am 10. September 2026 · Markenstimme mit den drei Merkmalen in content/handbook/marketing/brand-experience/content-style-guide.md, Namensregeln in naming.md, Markenzeichen-Richtlinien in trademark-guidelines.md, Werte in content/handbook/values/\_index.md, Mission in content/handbook/company/mission.md · Commit e692ba4b vom 22. Mai 2025, 17:11 Uhr UTC, Merge Request 13766 · abweichende Fassung derselben Merkmale im Design-System-Repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md ([Design-System-Repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)) · [Zum Commit](https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1)
 
-**Einstufung:** Dokumentierter Einzelfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#gitlab-markenrepo
 
@@ -78,7 +78,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Frontify, MCP-Server-Übersicht und Paketseiten (/mcp/packs/admin und /mcp/packs/discovery), Werkzeuge einzeln aufgeführt und am 12. November 2026 laut Server-Übersicht 49 beziehungsweise 27 Werkzeuge (ausgezählt am 10. September 54 und 24, am 17. September 53 und 24, am 15. Oktober 47 und 24, am 1. November 48 und 26) · Repository mit der Tabelle der zehn Pakete, MIT-Lizenz ([Repository](https://github.com/Frontify/mcp-servers)) · Help Center „Frontify MCP“ (bis Anfang September mit dem Zusatz Beta), Stand 17. September 2026, am 1. November 2026 unverändert, nennt 52 Werkzeuge und für Discovery 25 und die Freischaltung durch Account-Admins ohne Aufpreis ([Help Center](https://help.frontify.com/en/articles/14787214-frontify-mcp)) · Guide „Choosing a DAM for the AI era“, veröffentlicht 22. Mai 2026, zuletzt geändert 30. Juli 2026, nennt ebenfalls 52 ([Guide](https://www.frontify.com/en/guide/dam-mcp)) · [Zum Server](https://mcp.frontify-integrations.com/)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#frontify-mcp
 
@@ -92,7 +92,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Canva, Werkzeugliste des MCP-Servers mit Tarifstufen und Legende in der Entwicklerdokumentation, 46 Einträge einzeln ausgezählt, abgerufen am 15. Oktober 2026 (am 10. September 2026: 33) · Canva, „Canva Model Context Protocol (MCP)“, Serveradresse mcp.canva.com/mcp, Anmeldung und Tarifübersicht ([Serverdokumentation](https://www.canva.dev/docs/apps/mcp/)), abgerufen am 10. September 2026 · [Zum Werkzeugkatalog](https://www.canva.dev/docs/apps/mcp/tools/)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#canva-mcp
 
@@ -106,7 +106,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Model Context Protocol, getragen von Model Context Protocol a Series of LF Projects, LLC, Spezifikation Revision 2026-07-28, Kapitel Tools, Resources und Prompts, jeweils Abschnitt „User Interaction Model“, dazu die Übersichtsseiten /specification/2026-07-28, Abschnitt Features, und /specification/2026-07-28/server, Abschnitt Server Features, sowie der Erklärtext „Understanding MCP servers“ · Revisionsliste und Methodenwechsel als eigene Pfad- und Textprobe · 10. September 2026 · [Zur Quelle](https://modelcontextprotocol.io/specification/2026-07-28/server/tools)
 
-**Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Normung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#mcp-primitive
 
@@ -120,7 +120,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Invariant Labs (inzwischen Snyk), Luca Beurer-Kellner und Marc Fischer, zwei Versuche mit dem MCP-Client Cursor, 1. April 2025, Nachträge 7. und 11. April 2025 · Zhiqiang Wang und acht weitere (University of Science and Technology of China, Beihang University), „MCPTox“, 45 MCP-Server, 353 Werkzeuge, 1.348 Testfälle, 20 Modelleinstellungen, Zahlen aus Abschnitt 4.2 und Tabelle 2, AAAI-26, Proceedings of the AAAI Conference on Artificial Intelligence 40(42), S. 35811 bis 35819, 14. März 2026, doi:10.1609/aaai.v40i42.40895, Vorabfassung arXiv:2508.14925v1, 19. August 2025 · [Zur begutachteten Fassung](https://doi.org/10.1609/aaai.v40i42.40895) · [Zur Quelle](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
 
-**Einstufung:** Begutachtete Benchmark und Test des Anbieters · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#mcp-tool-poisoning
 
@@ -134,7 +134,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Monotype Labs, „Bringing font governance into AI-native content creation“, Ablauf der Beta in sieben Schritten, 15. Juli 2026 · Pressemitteilung „Monotype Introduces Enterprise Connector Beta, Exploring How Brand Governance Works Inside AI-Native Workflows“, Woburn, Massachusetts, 15. Juli 2026 · Produktseite „Monotype Enterprise Connector“ mit Status „Now in BETA“ und Zugangsvoraussetzungen, abgerufen 10. September 2026 · Negativprobe an der Pressemitteilungsliste, 15. Juli bis 10. September 2026 ohne Statusänderung · [Zur Quelle](https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation)
 
-**Einstufung:** Anbieterangaben, Beta · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Herstellerdokumentation · Beta · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#monotype-mcp
 
@@ -148,7 +148,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigener Abruf des Pulumi Brand MCP Server, Fassung 0.1.0, Protokollfassung der Sitzung 2025-06-18 (vom Client vorgegeben, der Server nennt 2025-11-25), per JSON-RPC über Streamable HTTP · Methoden initialize, resources/list, resources/templates/list, tools/list, prompts/list, resources/read auf brand://guidelines und tools/call auf check_color_accessibility und find_nearest_brand_color · alle Aufrufe HTTP 200 ohne Authentifizierungskopf, keine Liste mit nextCursor, Zählungen dreimal wiederholt und stabil · brand://guidelines im Volltext, 3.053 Zeichen, text/markdown · Herstellerdokumentation brand.pulumi.com/mcp-server für die Einordnung der Prompts · abgerufen am 10. September 2026, erneut am 17. September 2026 mit denselben Zählungen, dazu prompts/get auf review_copy (Kontext marketing, eine Nachricht, 32.957 Zeichen) · [Zur Quelle](https://brand.pulumi.com/mcp-server/)
 
-**Einstufung:** Eigene Erhebung, reproduzierbar · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · eigene, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#pulumi-brand-mcp
 
@@ -162,7 +162,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Statista, Entwicklerdokumentation MCP Server und Credit Logic, sechs Werkzeuge und Kreditkosten einzeln ausgezählt · eigene Abfrage des Endpunkts ohne Schlüssel · Pressemitteilung vom 20. November 2025 · abgerufen am 10. September 2026 · [Pressemitteilung](https://www.statista.com/press/p/statista_next_ai_leap/) · [Zur Quelle](https://docs.platform.statista.ai/pricing/credit-logic)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#statista-mcp
 
@@ -176,7 +176,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Veeva Systems, Pressemitteilungen zur Verfügbarkeit der Veeva AI Agents und zur Übernahme von Copli, beide im Volltext geprüft · 3. Dezember 2025 und 23. Juni 2026 · die 57 Prozent bewirbt Veeva heute auf der Produktseite Veeva PromoMats Review and Approve, abgerufen 10. September 2026 · Altersnachweis: Veeva-Datenblatt „Ensuring End-to-End Commercial Content Compliance“ (PromoMats for EU), PDF-Erstellungsdatum 2. Mai 2017, veeva.com/eu/wp-content/uploads/2017/05/PromoMats-for-EU-Datasheet.pdf, dieselbe Zahl in der Fassung mit PDF-Erstellungsdatum 21. März 2016, veeva.com/eu/wp-content/uploads/2012/07/PromoMats-for-EU-Datasheet-1.pdf · [Produktseite](https://www.veeva.com/products/veeva-promomats/mlr-review/) · [Zur Quelle](https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/)
 
-**Einstufung:** Pressemitteilungen des Anbieters · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#veeva-mlr
 
@@ -190,7 +190,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Google-Ads-Hilfe, „Use text guidelines with Performance Max and Search campaigns (beta)“, abgerufen am 17. September 2026 · erweiterter Beta-Zugang für alle Werbetreibenden weltweit laut Google-Blog vom 26. Februar 2026 · [Zur Quelle](https://support.google.com/google-ads/answer/16489313)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#google-ads-textregeln
 
@@ -204,7 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Microsoft, Support-Seite „Create and manage official Brand kits in the Microsoft Copilot app“, laut Seite zuletzt aktualisiert im Oktober 2026, Abschnitte „Make a Brand Kit official“ und „Frequently asked questions“ · abgerufen am 1. November 2026 · frühere Seite „Use guidelines to manage brand kits in the Microsoft Copilot app“ mit dem Import aus einem PDF, abgerufen am 17. September 2026, seit Oktober 2026 umgeleitet ([Archivfassung vom 16. September 2026](https://web.archive.org/web/20260916022323/https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app)) · [Zur Quelle](https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#microsoft-brand-kit
 
@@ -218,7 +218,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Meta, Newsroom „Introducing Muse“, 8. September 2026, für Start, Zugriffsentscheidung und Rückfrage vor sensiblen Schritten; Einreichung, Prüfung auf Funktion, Sicherheit und Recht sowie das Verzeichnis auf der Plattformseite · beide abgerufen am 19. September 2026 · Meta, „The Future Is for Everyone: Muse for Small Business“, 29. September 2026, aktualisiert am 8. Oktober 2026 ([zur Fassung für kleine Unternehmen](https://about.fb.com/news/2026/09/introducing-muse-small-business/)), abgerufen am 1. November 2026 · [Muse-Plattformseite](https://muse.ai/platform) · [Zur Quelle](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#muse-connectors
 
@@ -232,7 +232,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Olivares, Repository olivaresai/olivares, README mit Inventar, Access Map, vier Durchsetzungspunkten, Budgets und signiertem Protokoll; Kern unter AGPL-3.0, SDK und Connectors unter Apache-2.0, selbst gehostet · abgerufen am 20. September und 12. November 2026 · [Zur Quelle](https://github.com/olivaresai/olivares)
 
-**Einstufung:** Anbieterangaben, Beta · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Herstellerdokumentation · Beta · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#olivares-access-map
 
@@ -246,7 +246,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Adobe, Dokumentation „Brand Validation in Adobe GenStudio for Performance Marketing“ (Experience League), Abschnitte zur Berechnung des Werts, zu den drei Prüfarten und zum erneuten Prüfen · abgerufen am 20. September 2026 · [Zur Quelle](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#adobe-markenpruefung
 
@@ -260,7 +260,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Markup AI, eigene Seite und Dokumentation: Prüfung von Inhalten gegen Markenstimme und Stilvorgaben mit Markierung, Begründung und Vorschlag, Bewertung gegen die hinterlegten Vorgaben, Herkunft aus Acrolinx · Anschluss und Anmeldung aus der Anleitung zum MCP-Server ([Anleitung zum MCP-Server](https://docs.markup.ai/mcp/vscode-mcp)) · abgerufen am 20. September 2026 · [Zur Quelle](https://markup.ai/)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#markup-ai-stilpruefung
 
@@ -274,7 +274,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 9. November 2026 · 117.018 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 ([zum Methodenbeitrag](https://blog.cloudflare.com/agent-readiness/)) · frühere Stände 21. September 2026 mit 107.155, 12. Oktober 2026 mit 109.493 und 26. Oktober 2026 mit 114.605 Domains, Wochenwerte über den Parameter dateEnd · abgerufen am 9. November 2026, am 12. November gegengelesen · [Zur Quelle](https://radar.cloudflare.com/ai-insights)
 
-**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#agentenstandards-verbreitung
 
@@ -288,7 +288,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Google Workspace Blog, Ali Douvre, „Teach Gemini your team’s know-hows with skills in Google Workspace“, 17. September 2026 · Google Cloud, „Create and manage skills | Gemini Enterprise“, zuletzt aktualisiert am 24. September 2026 · beide abgerufen am 28. September 2026 · Google Workspace Updates, „Introducing skills in the Gemini app and Workspace, plus what’s next for Gems“, 30. September 2026, mit Nachtrag vom 13. Oktober 2026 ([zur Ankündigung](https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html)) · Google Workspace Help, „About the transition from Gems to skills“ ([zur Hilfeseite](https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/about-the-transition-to-skills)) · beide abgerufen am 16. Oktober 2026 · Google Workspace Updates, „An update on the launch of skills in the Gemini app and Workspace“, 13. Oktober 2026 ([zum Stand der Einführung](https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html)), abgerufen am 1. November 2026 · [Dokumentation zu Gemini Enterprise](https://docs.cloud.google.com/gemini/enterprise/docs/skills) · Google Workspace Updates, „Scale customized AI across your team with skills in Google Workspace and Workspace Studio“, 10. November 2026, gelesen am 12. November 2026 ([zur Einführung](https://workspaceupdates.googleblog.com/2026/11/skills-in-workspace.html)) · [Zur Quelle](https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace)
 
-**Einstufung:** Herstellerdokumentation, Beta · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Beta · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#markenstimme-als-skill
 
@@ -302,7 +302,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · die 29.000 Websites gibt FedScoop als Angabe von America.gov wieder, auf „How it works“ standen sie am 1. Oktober 2026 nicht, in den FAQ steht die Zahl am 16. Oktober 2026, ohne Herleitung · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · Executive Order 14432, „Streamlining Access to Government Services Through America.gov“, 29. September 2026 ([zur Verordnung](https://www.whitehouse.gov/presidential-actions/2026/09/streamlining-access-to-government-services-through-america-gov/)) · America.gov, FAQ ([zu den FAQ](https://america.gov/faq)) · beide abgerufen am 16. Oktober 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Zur Quelle](https://america.gov/how-it-works)
 
-**Einstufung:** Dokumentierter Einzelfall · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#staat-als-einzige-quelle
 
@@ -316,7 +316,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** OpenAI Developers, „Submission“, Einreichung von Plugins für das ChatGPT-Verzeichnis, mit Beispiel-Manifest, ohne Datum, abgerufen am 30. September 2026 · Plugins als Neuheit: OpenAI, „DevDay 2026 Recap“, 29. September 2026 · [DevDay 2026 Recap](https://openai.com/index/devday-2026-recap/) · [Zur Quelle](https://developers.openai.com/plugins/deploy/submission)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#chatgpt-plugin-pruefung
 
@@ -330,7 +330,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Model Context Protocol, SEP-2127 „MCP Server Cards“, Extensions Track, Status Final, angelegt am 21. Januar 2026, letzte inhaltliche Überarbeitung im Pull Request 3242 vom 20. August 2026 · abgerufen am 15. Oktober 2026 · Lighthouse: Pull Requests 17258 und 17259 zur Umstellung auf Agent Resource Discovery v0.91, zusammengeführt am 9. Oktober 2026, letztes Release 13.5.0 vom 18. September 2026 ([zum Pull Request](https://github.com/GoogleChrome/lighthouse/pull/17259)) · [Zur Quelle](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/seps/2127-mcp-server-cards.md)
 
-**Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Normung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#mcp-server-cards
 
@@ -344,7 +344,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** OpenAI Help Center, „Creative enhancements for ChatGPT Ads“, Abschnitte „What can change“, „Manage creative enhancements“ und „Frequently asked questions“, aktualisiert Ende Oktober 2026 · abgerufen am 1. November 2026 · [Zur Quelle](https://help.openai.com/en/articles/20001614-creative-enhancements-for-chatgpt-ads)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#chatgpt-anzeigen-umschreiben
 
@@ -358,7 +358,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Guilherme Avelino, Eleni Constantinou, Marco Tulio Valente und Alexander Serebrenik, „On the abandonment and survival of open source projects: An empirical investigation“, ESEM 2019, IEEE, arXiv 1906.08058 vom 19. Juni 2019 · abgerufen am 1. November 2026 · [Zur Quelle](https://arxiv.org/abs/1906.08058)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#open-source-aufgegeben
 
@@ -372,7 +372,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Messung, 2. November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, nur Seitenabruf · acht Fragen auf Englisch, je drei Läufe mit und ohne den Skill cite-evidence, 48 Läufe · bewertet je Antwort: Zahl, Grenze, Primärquelle, Einstufung, Permalink · Aufbau, Fragen, Muster und alle Ergebnisse in der Messdatei (englisch) · [Zur Quelle](https://robert-haase.de/messungen/agenten-skill-2026-11-02.md)
 
-**Einstufung:** Kontrollierter Test, ein Agent · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · eigenes, reproduzierbar · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-skill-zitieren
 
@@ -386,7 +386,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Chromium, Liste blink-dev, Thread „Intent to Extend Experiment: WebMCP“: Antrag des Chrome-WebMCP-Teams vom 28. Oktober 2026, Antwort von Rick Byers vom 2. November 2026, Freigaben am 28. Oktober, 2. und 4. November 2026 · Zähler ModelContextGetTools auf Chrome Platform Status ([zum Zähler](https://chromestatus.com/metrics/feature/timeline/popularity/5904)) · gelesen am 12. November 2026 · [Zur Quelle](https://groups.google.com/a/chromium.org/g/blink-dev/c/lkdLdy5VPoA/m/w-_Sgf06CQAJ)
 
-**Einstufung:** Angaben des Herstellers, Testbetrieb · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Beta · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#webmcp-angeboten-kaum-abgefragt
 

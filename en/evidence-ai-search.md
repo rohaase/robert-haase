@@ -12,7 +12,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
 
-**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is and who produced it, from peer-reviewed study to self-report. The colour shows how far it carries.
 
 What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Preliminary: prototype, single test, forecast, or vendor figure (14) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
-+ Status, case report, or market observation (7) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters, aio-deutschland-keywords
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (2) → google-leitfaden, pew-klicks
++ Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (13) → reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, govuk-chat, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (15) → llmstxt-abrufe, llmstxt-wirkung, json-ld-test, mentions-vs-backlinks, inkonsistenz, aio-klickrate, seer-klickrate, ebu-nachrichten, llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, ki-zitate-ausserhalb-top10, ki-informationssuche-reuters, aio-deutschland-keywords
 
 ---
 
@@ -36,7 +36,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Ahrefs, 137,210 domains, 28 percent of them with an llms.txt · June 2026 · [Source](https://ahrefs.com/blog/llmstxt-study/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#llmstxt-abrufe
 
@@ -50,7 +50,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** SE Ranking, nearly 300,000 domains, 10.13 percent of them with an llms.txt · November 2025 · [Source](https://seranking.com/blog/llms-txt/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#llmstxt-wirkung
 
@@ -60,11 +60,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Google explicitly states that llms.txt, special markup, and custom chunking are not needed for AI search.
 
-**What the statement does not say:** It applies to Google Search including its generative features, explicitly not to other systems — for services that do use such files, the same text calls them harmless. And on structured data Google does not say "useless" but keeps recommending it, because it qualifies pages for rich results in classic search. From Google’s perspective, optimizing for AI search is still SEO.
+**What the statement does not say:** It applies to Google Search including its generative features, explicitly not to other systems; for services that do use such files, the same text calls them harmless. And on structured data Google does not say "useless" but keeps recommending it, because it qualifies pages for rich results in classic search. From Google’s perspective, optimizing for AI search is still SEO.
 
 **Source:** Google Search Central, official guide · as of 10 July 2026 · [Source](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#google-leitfaden
 
@@ -74,11 +74,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** 1,885 pages that added JSON-LD barely moved against 4,000 control pages: no effect distinguishable from zero in ChatGPT and Google AI Mode, and a statistically significant 4.6 percent decline in AI Overviews.
 
-**What the test does not say:** Only pages that were **already heavily cited** by AI were studied — each had over a hundred AI Overview citations in February 2025. The study says nothing about pages that do not appear at all, and the authors explicitly allow that markup may help there. It is an observational study with matched controls, not an experiment. For rich results in classic search the markup remains uncontested.
+**What the test does not say:** Only pages that were **already heavily cited** by AI were studied: each had over a hundred AI Overview citations in February 2025. The study says nothing about pages that do not appear at all, and the authors explicitly allow that markup may help there. It is an observational study with matched controls, not an experiment. For rich results in classic search the markup remains uncontested.
 
 **Source:** Ahrefs, 1,885 pages against 4,000 matched controls, markup added between August 2025 and March 2026 · May 2026 · [Source](https://ahrefs.com/blog/schema-ai-citations/)
 
-**Grade:** Single test · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#json-ld-test
 
@@ -92,7 +92,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Ahrefs, correlation analysis across 75,000 brands in ChatGPT, Google AI Mode, and AI Overviews · December 2025 · [Source](https://ahrefs.com/blog/ai-brand-visibility-correlations/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#mentions-vs-backlinks
 
@@ -106,7 +106,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** SparkToro with Gumshoe.ai, 600 participants, 12 prompts, 2,961 runs across ChatGPT, Claude, and Google AI · January 2026 · [Source](https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#inkonsistenz
 
@@ -120,7 +120,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Pew Research Center, passive browser tracking of 900 US adults, 68,879 Google searches in March 2025 · July 2025 · [Source](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · research institute · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#pew-klicks
 
@@ -134,7 +134,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Ahrefs, Ryan Law, 300,000 keywords, 150,000 with and 150,000 without an AI summary, data from December 2025 · 4 February 2026 · [Source](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aio-klickrate
 
@@ -148,7 +148,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Seer Interactive, 3,119 search terms across 42 organizations, 25.1 million organic and 1.1 million paid impressions, June 2024 to September 2025 · 4 November 2025 · newer edition: “AIO Impact on Google CTR: 2026 Update”, April 2026, 53 brands, 5.47 million queries, 2.43 billion organic impressions, January 2025 to February 2026, retrieved 21 September 2026 · [to the newer edition](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update) · [Source](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#seer-klickrate
 
@@ -162,7 +162,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Promptwatch, Klaas Foppen, data page “Reddit Citations Are Dropping in ChatGPT”, 18 August 2026: daily share of reddit.com in all sources returned by ChatGPT Search, counting only responses with at least one citation, comparing 18 July to 7 August against 14 to 17 August 2026 · the site: operator comes from the same series, its own data page of 10 August 2026 ([site: operator data page](https://promptwatch.com/data/chatgpt-site-operator-fanouts)) · narrative version of both findings on the blog of 20 August 2026, last changed 8 September 2026, reported by Axios on the day of publication ([blog version](https://promptwatch.com/blog/chatgpt-stop-citing-reddit)) · second panel: Otterly.ai, 27 August 2026, 16 brand reports across 14 industries in the US market, before-window 6 to 13 August, after-window 14 to 17 August 2026, daily means ([second measurement](https://otterly.ai/blog/chatgpt-reddit-citations/)) · third series: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month, retrieved 16 October 2026 ([third series](https://ahrefs.com/blog/query-fan-out-chatgpt/)) · update: Promptwatch, data page for November 2026, window 11 October to 9 November, read 12 November 2026 ([update](https://promptwatch.com/data/social-media-citations-by-ai-model-november-2026)) · [Data page](https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt)
 
-**Grade:** Vendor measurement, preliminary · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor, preliminary · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#reddit-zitate
 
@@ -176,7 +176,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Aggarwal et al., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · submitted November 2023 · [Source](https://arxiv.org/abs/2311.09735)
 
-**Grade:** Usually miscited · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · peer-reviewed, usually miscited · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#geo-40-prozent
 
@@ -190,7 +190,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** European Broadcasting Union and BBC, 22 media organisations across 18 countries and 14 languages (including ARD, ZDF, Deutsche Welle, and SRF), over 3,000 answers assessed · October 2025 · [Source](https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · association · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ebu-nachrichten
 
@@ -204,7 +204,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Ahrefs, Louise Linehan, 863,000 keyword SERPs and 4 million cited URLs, organic figure 37.1 percent, headline 37.9 percent including ads and SERP features, no collection period stated · published 2 March 2026 · same series, 1.9 million citations from 1 million overviews, top three most visible per overview only · published 21 July 2025 · BrightEdge, AI Catalyst and Generative Parser, weekly measurement, sample size not disclosed, stated tracking period February 2025 to February 2026, published overlap table only February to July 2025 · published 12 February 2026 · [BrightEdge source](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing) · [Ahrefs source](https://ahrefs.com/blog/ai-overview-citations-top-10/)
 
-**Grade:** Vendor measurements, not comparable · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor, not comparable · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aio-top10-uneinig
 
@@ -218,7 +218,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Mintlify, Docs URL Discovery Bench · 20 documentation sites, 5 questions each, 4 serving formats, 2 agents, 3 runs, 2,400 scored attempts at n=300 per cell · Claude Code on claude-sonnet-5, Codex CLI on gpt-5.5 · July 2026 · [Source](https://github.com/mintlify/docs-url-discovery-bench)
 
-**Grade:** Vendor-run controlled test, result data open · Group: Status, case report, or market observation
+**Grade:** Experiment · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#llmstxt-nutzen
 
@@ -232,7 +232,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Pratyush Kumar (co-founder of Ranqo), Generative Engine Optimization at Scale: Measuring Brand Visibility Across AI Search Engines, arXiv:2606.20065v1, preprint without peer review, 14 pages · 102 brands, 3,508 completed tracking runs, 102,025 prompt responses from five engines (ChatGPT, Gemini, Perplexity, Claude, Grok), 149,912 citations drawn from mention-bearing prompts, collected on the Ranqo platform between March and May 2026 · submitted 18 June 2026 · [Source](https://arxiv.org/abs/2606.20065)
 
-**Grade:** Vendor measurement, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor, not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#markenstatur-sichtbarkeit
 
@@ -246,7 +246,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Kevin Indig, Growth Memo, data from Gauge · 18,012 citations for the positional analysis, 11,022 for the linguistic analysis, isolated from a body of 1.2 million that the source labels three different ways (search results, ChatGPT responses, verified citations); Gauge supplied roughly 3 million answers with 30 million citations · 16 February 2026 · original paywalled; the research section and methodology are readable in the Internet Archive, the extra material for paying subscribers is missing · [Source](http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention)
 
-**Grade:** Vendor measurement, preliminary · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor, preliminary · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#zitier-position
 
@@ -260,7 +260,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** AirOps, “Third-Party Sources Drive 85% of Brand Discovery”, 17 October 2025, 21,311 brand mentions in ChatGPT, Claude and Perplexity for vendor-discovery queries · Kumar (Ranqo), “Generative Engine Optimization at Scale”, arXiv 2606.20065, 18 June 2026, preprint without peer review, 102 brands, 102,025 responses, 149,912 source citations from five AI search engines, March to May 2026 ([to the preprint](https://arxiv.org/abs/2606.20065)) · both retrieved 21 September 2026 · type of question: Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026, separate test of 20,000 US prompts, retrieved 16 October 2026 ([Ahrefs](https://ahrefs.com/blog/query-fan-out-chatgpt/)) · [Source](https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search)
 
-**Grade:** Two vendor measurements, preliminary · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor, preliminary · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#eigene-seite-selten-zitiert
 
@@ -274,7 +274,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Cloudflare Radar, “AI Insights” page, section “Crawl-to-refer ratio”, period 1 to 31 October 2026, values queried through the page’s data interface on 1 November 2026, July to September queried on 15 October 2026 · method in the blog post “The crawl before the fall… of referrals: understanding AI’s impact on content providers”, 1 July 2025, last changed 15 July 2026 ([to the method post](https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/)) · [Source](https://radar.cloudflare.com/ai-insights)
 
-**Grade:** Market observation · Group: Status, case report, or market observation
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#crawl-verweis-verhaeltnis
 
@@ -288,7 +288,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Stephanie T. Wang, Jeffrey Gleason, Yakov Bart, Christo Wilson and Danaé Metaxa, “AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence”, arXiv 2608.18352, version 1 of 18 August 2026, preprint without peer review · preregistered field experiment, 1,100 active participants in the US · full text read 15 October 2026 · [Source](https://arxiv.org/abs/2608.18352)
 
-**Grade:** Field experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-modus-klicks
 
@@ -302,7 +302,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Ahrefs, Ryan Law and Xibeijia Guan, “AI Overviews Currently Appear for 83% of Branded Searches”, 2 October 2026 · US desktop, July to September 2026, 232.8 million result pages, 92.5 million of them for branded terms · panel of the 100 brands in Interbrand’s Best Global Brands 2025 · retrieved 15 October 2026 · [Source](https://ahrefs.com/blog/ai-overviews-on-branded-searches/)
 
-**Grade:** Market observation · Group: Status, case report, or market observation
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aio-markensuchen
 
@@ -316,7 +316,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Ahrefs, Louise Linehan, “How ChatGPT Does Query Fan-Out (15 Million Queries Studied)”, 12 October 2026 · 66.6 million answers with 15 million fan-out queries from free, logged-out GPT-5.6 Luna sessions, August and September 2026 · citation shares from a separate test of 20,000 US prompts, with no date given · Reddit decline from Brand Radar, ChatGPT citations in the US, March to September 2026, 2.4 to 3.8 million answers a month · retrieved 16 October 2026 · [Source](https://ahrefs.com/blog/query-fan-out-chatgpt/)
 
-**Grade:** Market observation · Group: Status, case report, or market observation
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-suchanfragen
 
@@ -330,7 +330,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Mahe Chen and Nick Koudas (University of Toronto), “What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)”, arXiv 2610.15033, version 1 of 10 October 2026, preprint without peer review · figures from sections 6.4 and 6.5, data collection per section 3.1 · full text read 16 October 2026 · [Source](https://arxiv.org/abs/2610.15033)
 
-**Grade:** Analysis, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#abruf-vor-inhalt
 
@@ -344,7 +344,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee and Dongwon Lee, “Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption”, arXiv 2609.38946, version 1 of 30 September 2026, preprint without peer review · randomised field experiment with 37,561 Washington Post readers · full text read 16 October 2026 · [Source](https://arxiv.org/abs/2609.38946)
 
-**Grade:** Field experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-suche-vielfalt
 
@@ -358,7 +358,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Every, Mike Taylor, “How to Get AI Agents to Recommend Your Articles”, 27 October 2026, updated 1 November 2026 · 2,484 sessions with four models · retrieved 1 November 2026 · [Source](https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles)
 
-**Grade:** Controlled test, publisher’s simulation · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · trade publication, simulation · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-ueberschriften
 
@@ -372,7 +372,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Ahrefs, Louise Linehan and Xibeijia Guan, “Only 12% of AI Cited URLs Rank in Google’s Top 10 for the Original Prompt”, 11 August 2025, data from early July 2025 · Moz, Chima Mmeje, “Only 12% of AI Mode Citations Match URLs in the Organic SERP”, 18 February 2026, data from STAT, desktop and mobile ([Moz](https://moz.com/blog/ai-mode-citations)) · retrieved 1 November 2026 · [Source](https://ahrefs.com/blog/ai-search-overlap/)
 
-**Grade:** Two vendor measurements · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-zitate-ausserhalb-top10
 
@@ -386,7 +386,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Government Digital Service, Shelina Hargrove, “GOV.UK Chat launches”, GDS blog, 14 May 2026 · retrieved 1 November 2026 · [Source](https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/)
 
-**Grade:** Operator’s statement · Group: Status, case report, or market observation
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#govuk-chat
 
@@ -400,7 +400,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Saharsh Agarwal (Indian School of Business) and Ananya Sen (Carnegie Mellon University), “The Impact of Google AI Overviews on Publisher Traffic and User Experience: Evidence from a Field Experiment”, working paper, version of 17 June 2026, preregistered in the AEA RCT Registry (AEARCTR-0017393) · 1,065 US participants, random assignment through a Chrome extension · full text read 12 November 2026 · university summary ([summary](https://www.isb.edu/faculty-and-research/isb-institute-of-data-science/research/ai-summaries-in-search-and-their-impact-on-publisher-traffic)) · [Source](https://ssrn.com/abstract=6513059)
 
-**Grade:** Field experiment, preregistered, working paper without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aio-klicks-feldexperiment
 
@@ -414,7 +414,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Reuters Institute for the Study of Journalism, Felix Simon, Rasmus Kleis Nielsen and Richard Fletcher, “Generative AI and News Report 2026: From standalone tools to information infrastructure”, 29 October 2026 · survey by YouGov, about 2,000 respondents per country in nine countries, 14 August to 28 September 2026 · read 12 November 2026 · [Source](https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · research institute · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-informationssuche-reuters
 
@@ -428,7 +428,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Mehrzad Khosravi and Hema Yoganarasimhan, “Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia”, arXiv 2602.18455, version 1 of 5 February 2026 and version 7 of 25 October 2026, preprint without peer review · abstracts of both versions read 12 November 2026 · [Source](https://arxiv.org/abs/2602.18455)
 
-**Grade:** Quasi-experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#wikipedia-aio-rueckgang
 
@@ -442,7 +442,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** SISTRIX, Johannes Beus, “AI Overviews jetzt bei über 50 % der Keywords”, 6 November 2026, in German · thresholds and dates from the post · read 16 November 2026 · [Source](https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/)
 
-**Grade:** Market observation · Group: Status, case report, or market observation
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aio-deutschland-keywords
 

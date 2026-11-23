@@ -12,7 +12,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
 
-**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.
 
 Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (1) → agent-lenkt-urteil
-+ Sachstand, Fallbericht oder Marktbeobachtung (13) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling, bildschleifen-motive
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte, bildschleifen-motive
++ Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (3) → strategie-trendslop, drei-arbeitsweisen, agent-lenkt-urteil
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (12) → markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, kompetenz-nivellierung, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 ---
 
@@ -36,7 +36,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026 · Befragung: METR, „How do technical workers use AI tools?“, 11. Mai 2026, 349 Befragte ([zur Befragung](https://metr.org/blog/2026-05-11-ai-usage-survey/)), abgerufen am 1. November 2026 · [zur neueren Messung](https://metr.org/blog/2026-02-24-uplift-update/) · [Zur Studie](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
-**Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · Institut · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#metr-selbsteinschaetzung
 
@@ -50,7 +50,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Dell'Acqua u. a., „Navigating the Jagged Technological Frontier“, Feldexperiment mit der Boston Consulting Group · Organization Science, online seit 11. März 2026, DOI 10.1287/orsc.2025.21838 · 758 Berater, 18 realistische Aufgaben · das Arbeitspapier von 2023 nannte für die Qualität noch über 40 Prozent · [Zur begutachteten Fassung](https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf)
 
-**Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#jagged-frontier
 
@@ -64,7 +64,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Doshi und Hauser, „Generative AI enhances individual creativity but reduces the collective diversity of novel content“, Science Advances, Band 10, Ausgabe 28, eadn5290, 12. Juli 2024, DOI 10.1126/sciadv.adn5290 · präregistriert, 293 Schreibende und 600 Bewertende auf Prolific, 3.519 Einzelbewertungen, Ideen von GPT-4 · die Verlagsseite science.org wehrt automatisierte Abrufe ab, geprüft wurde am offenen Volltext bei Europe PMC · zweite Quelle: de Rooij und Biskjaer, „Generative AI Makes Creative Output More Homogeneous“, European Conference on Cognitive Ergonomics (ECCE 2026, Siena, 15. bis 18. September 2026), veröffentlicht am 14. September 2026, DOI 10.1145/3822301.3822304 · systematische Übersicht und Metaanalyse, 19 Studien, 61 Effektgrößen, Kurzfassung abgerufen am 28. September 2026 · Volltext bei der ACM nicht gelesen · [Metaanalyse](https://research.tilburguniversity.edu/en/publications/generative-ai-makes-creative-output-more-homogeneous/) · [Zum Volltext](https://europepmc.org/article/MED/38996021)
 
-**Einstufung:** Kontrollierter Test und Metaanalyse · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#homogenisierung
 
@@ -78,7 +78,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Angelo Romasanta, Llewellyn D. W. Thomas und Natalia Levina, „Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.“, Harvard Business Review, 16. März 2026, HBR Digital Article H093GG · getestet wurden ChatGPT, Claude, DeepSeek, GPT-5 über die API, Gemini, Grok und Mistral, je 50 Durchläufe pro Modell und Frage; die beiden Blöcke mit über 15.000 Durchläufen liefen allein auf ChatGPT-5 · Volltext mit 15.613 Zeichen aus den strukturierten Daten der Seite, gegengeprüft an zwei Archivfassungen · die Seite ist bezahlgeschränkt, der Volltext zeichengleich in den Archivfassungen vom 17. März und 14. Juli 2026 · [Zum Beitrag](https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return)
 
-**Einstufung:** Redaktionell geprüft · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#strategie-trendslop
 
@@ -92,7 +92,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Sharma, Tong u. a., „Towards Understanding Sycophancy in Language Models“, arXiv:2310.13548v4 vom 10. Mai 2025, erste Fassung 20. Oktober 2023, begutachtet und als Poster auf der ICLR 2024 angenommen · Kennzahl aus Abschnitt 4.1: 15.000 zufällig gezogene Antwortpaare aus der Helpfulness-Teilmenge von Anthropics hh-rlhf-Datensatz, 23 Merkmale, Bayessche logistische Regression, Holdout-Genauigkeit 71,3 Prozent · getestet wurden Claude 1.3, Claude 2, GPT-3.5, GPT-4 und LLaMA 2 · dazu OpenAI, „Sycophancy in GPT-4o“, 29. April 2025, und „Expanding on what we missed with sycophancy“, 2. Mai 2025; Update vom 25. April, Rücknahme ab dem 28. April ([OpenAI-Mitteilung](https://openai.com/index/sycophancy-in-gpt-4o/)) · [Zum Papier](https://arxiv.org/abs/2310.13548)
 
-**Einstufung:** Kontrollierter Test und Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#sykophanz
 
@@ -106,7 +106,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Eigene Recherche, 10. September 2026: arXiv-Programmierschnittstelle mit 24 Phrasenabfragen, darunter brand voice, brand guidelines, brand consistency, brand compliance, machine-readable brand, brand book, style guide, tone of voice und corporate identity; dazu OpenAlex, allgemeine Websuche und die Anbieterseiten von Adobe, Frontify, Jasper und Writer · nächstliegende gemessene Arbeit zur Formfrage: „Instruction Stacking Collapse“, arXiv:2608.02639, 31. Juli 2026, 24 definierte Anweisungen, davon 22 deterministisch geprüft und getestet, drei Modelle ([zum Papier](https://arxiv.org/abs/2608.02639)) · nächstliegende Benchmarks zur Regeltreue: CompliBench, arXiv:2604.12312, 14. April 2026, Preprint, 318 maschinell erzeugte Dialoge ([CompliBench](https://arxiv.org/abs/2604.12312)), PluralisticBehaviorSuite, arXiv:2511.05018, 300 Verhaltensrichtlinien aus 30 Branchen, und JourneyBench, arXiv:2601.00596, 703 Gespräche · zum Vergleich Medizin: AMEGA, npj Digital Medicine 7:358, 12. Dezember 2024, und CPGBench, arXiv:2603.25196, 26. März 2026, 3.418 Leitliniendokumente
 
-**Einstufung:** Negativbefund einer dokumentierten Recherche · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fachliteratur · eigene Recherche · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#markenspezifikation-wirkung
 
@@ -120,7 +120,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ruth Schwartz Cowan, „More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave“, 1983 · ausgezeichnet mit dem Dexter Prize der Society for the History of Technology, 1984 · [Zur Übersicht](https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave)
 
-**Einstufung:** Historische Untersuchung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Fachliteratur · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#cowan-standards
 
@@ -134,7 +134,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Rohrbeck und Kum, „Corporate foresight and its impact on firm performance: A longitudinal analysis“, Technological Forecasting & Social Change 129, 2018 · Vorbereitung 2008 erhoben, Leistung 2015 · [Zur Studie](https://www.sciencedirect.com/science/article/pii/S0040162517302287)
 
-**Einstufung:** Längsschnittstudie · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · begutachtet · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#foresight-performance
 
@@ -148,7 +148,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 12. November 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · [Ranglisten-Dateien](https://github.com/forecastingresearch/forecastbench-datasets/tree/main/leaderboards/csv) · [Zur Rangliste](https://www.forecastbench.org/leaderboards/)
 
-**Einstufung:** Laufende Messung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Institut, laufend · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#prognose-mensch-maschine
 
@@ -162,7 +162,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · [Zur Studie](https://arxiv.org/abs/2402.07862)
 
-**Einstufung:** Präregistriertes Experiment · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · Zahlen der Vorfassung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#prognose-assistenz
 
@@ -176,7 +176,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Andrew Abbott, „The System of Professions: An Essay on the Division of Expert Labor“, University of Chicago Press, 1988 · [Zum Verlag](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html)
 
-**Einstufung:** Standardwerk · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fachliteratur · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#abbott-zustaendigkeit
 
@@ -190,7 +190,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Elena Esposito, „Artificial Communication: How Algorithms Produce Social Intelligence“, MIT Press, 24. Mai 2022 · 200 Seiten, Open-Access-Ausgabe verfügbar · [Zum Verlag](https://mitpress.mit.edu/9780262046664/artificial-communication/)
 
-**Einstufung:** Fachbuch · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fachliteratur · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#esposito-kommunikation
 
@@ -204,7 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon und Lakhani, „Cyborgs, Centaurs and Self-Automators“, Harvard Business School Working Paper 26-036, 2025 · 244 Berater der Boston Consulting Group · [Zum Arbeitspapier](https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf)
 
-**Einstufung:** Feldstudie, Arbeitspapier · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#drei-arbeitsweisen
 
@@ -218,7 +218,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Brynjolfsson, Li und Raymond, „Generative AI at Work“, NBER Working Paper 31161, April 2023, überarbeitet November 2023 · 5.179 Kundendienst-Mitarbeitende · [Zum Arbeitspapier](https://www.nber.org/papers/w31161)
 
-**Einstufung:** Feldexperiment · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · Zahlen der Vorfassung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#kompetenz-nivellierung
 
@@ -232,7 +232,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Noy und Zhang, „Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence“, MIT, Arbeitspapier vom 2. März 2023 · begutachtete Fassung in Science 381, 2023, S. 187–192 · [Zur Veröffentlichung](https://www.science.org/doi/10.1126/science.adh2586)
 
-**Einstufung:** Präregistriertes Experiment · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · Zahlen der Vorfassung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#aufwand-statt-koennen
 
@@ -246,7 +246,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Boussioux, Lane, Zhang, Jacimovic und Lakhani, „The Crowdless Future? Generative AI and Creative Problem-Solving“, Organization Science 35(5), S. 1589 bis 1607 · 234 bewertete Lösungen, 300 Bewerter, 3.900 Bewertungen, Wettbewerb 30. Januar bis 15. Mai 2023 · eingereicht 30. November 2023, überarbeitet 23. Januar, 14. Mai und 20. Juni 2024, angenommen 26. Juni 2024, online 16. August 2024, Heft September/Oktober 2024 · [Zur Quelle](https://doi.org/10.1287/orsc.2023.18430)
 
-**Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#boussioux-neuheit-wert
 
@@ -260,7 +260,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Henry Mintzberg, „Patterns in Strategy Formation“, Management Science, Vol. 24, No. 9, S. 934 bis 948 · vier vom Canada Council finanzierte Hauptstudien und über zwanzig studentische Arbeiten, davon zwei vorgeführt: Volkswagenwerk 1934 bis 1974 laut Abstract und 1920 bis 1974 laut Abschnittsüberschrift, USA in Vietnam 1950 bis 1973 · Manuskript eingegangen am 19. April 1976, gedruckt Mai 1978 · [Zur Quelle](https://doi.org/10.1287/mnsc.24.9.934)
 
-**Einstufung:** Explorative Fallstudien, begriffsbildend · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · begutachtet · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#mintzberg-muster
 
@@ -274,7 +274,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Jenni Romaniuk, Byron Sharp und Andrew Ehrenberg, Ehrenberg-Bass-Institut, Australasian Marketing Journal 15 (2), Seiten 42 bis 54 · Befragung aktueller Markenverwender in 17 Warengruppen, die australischen per Telefon, die britischen aus dem Brand Asset Valuator von Young & Rubicam, erhoben 1999 · 2007 · [Zur Quelle](https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · begutachtet · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#wahrgenommene-differenzierung
 
@@ -288,7 +288,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Sagar Goel, David Martin, Charikleia Kaffe: „When Everyone Uses AI, Companies Risk Losing Critical Skills“, Boston Consulting Group, BCG Institute, 17. Juni 2026 · weltweite Befragung von 70 Führungskräften aus C-Suite und oberer Leitungsebene, dazu Gespräche mit einem Dutzend weiterer Führungskräfte · [Zur Quelle](https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Beratung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#de-skilling
 
@@ -302,7 +302,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Phua, Bali, Anesbury und Sharp (Ehrenberg-Bass Institute, Adelaide University), „Shape-based assets are strongest: benchmarking distinctive brand asset performance across industries“, International Journal of Advertising, online seit 5. März 2026, begutachtet, CC BY 4.0, keine Interessenkonflikte angegeben · 1.162 Elemente, 128 Marken, 21 Warengruppen, Australien, Großbritannien, USA und Neuseeland, 2015 bis 2023 · Bekanntheit und Einzigartigkeit als Mittelwerte je Elementtyp · Volltext gelesen am 21. September 2026 · [Zur Quelle](https://doi.org/10.1080/02650487.2026.2637295)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#unverwechselbare-markenelemente
 
@@ -316,7 +316,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · Modellvergleich auf einer eigenen Seite ([zum Modellvergleich](https://www.pewresearch.org/data-labs/2026/09/30/how-synthetic-polling-results-change-based-on-the-ai-model/)) · abgerufen am 30. September und 1. November 2026 · [Methode](https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/) · [Zur Quelle](https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/)
 
-**Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · Institut · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#synthetische-befragte
 
@@ -330,7 +330,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Anthropic, Amaç Herdağdelen, Hailey Joren und Alex Tamkin, „How AI agents shape experts’ judgment calls“, 27. Oktober 2026 · randomisierter Versuch mit 61 Fachleuten, davon 50 mit Agent, Claude Opus 4.8 in Claude Code, Analyseplan bei OSF (osf.io/t3q59) · Volltext mit Methodik und Registrierung ([zum Volltext](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf)) · abgerufen am 1. November 2026 · [Zur Quelle](https://www.anthropic.com/research/agents-judgment-calls)
 
-**Einstufung:** Kontrollierter Versuch, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · Anbieter, nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agent-lenkt-urteil
 
@@ -344,7 +344,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Hintze, Proschinger Åström und Schossau, „Autonomous language-image generation loops converge to generic visual motifs“, Patterns 7(1), 101451, Januar 2026, begutachtet (eingereicht 15. Juli, angenommen 17. November 2025) · Volltext bei PubMed Central, CC BY · abgerufen am 1. November 2026 · [Zur Quelle](https://pmc.ncbi.nlm.nih.gov/articles/PMC12827715/)
 
-**Einstufung:** Simulation, begutachtet · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · begutachtet, Simulation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#bildschleifen-motive
 

@@ -12,7 +12,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
 
-**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is and who produced it, from peer-reviewed study to self-report. The colour shows how far it carries.
 
 What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (15) → leere-buttons, javascript, lighthouse, a11y-tree, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, lighthouse-agent-discovery, content-signal-selten, dots-freigaberegeln
-+ Preliminary: prototype, single test, forecast, or vendor figure (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
-+ Status, case report, or market observation (3) → aipref, agenten-wissensarbeit, agenten-zeithorizont
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (6) → leere-buttons, lighthouse, a11y-tree, lighthouse-agent-discovery, agenten-wissensarbeit, dots-freigaberegeln
++ Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (12) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont
 
 ---
 
@@ -36,7 +36,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** WebAIM Million, eighth edition: WAVE evaluation of one million home pages from the Tranco ranking · data from February 2026, page last changed 30 March 2026 · previous year 29.6 percent for buttons and 48.2 percent for form fields · [Source](https://webaim.org/projects/million/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · research institute · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#leere-buttons
 
@@ -50,7 +50,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Elnaffar and Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 runs across three models · July 2026 · [Source](https://arxiv.org/abs/2607.12056)
 
-**Grade:** Preliminary, prototype · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agent-ready
 
@@ -64,7 +64,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** A11y-CUA, arXiv 2602.09310, presented at CHI 2026 · February 2026 · [Source](https://arxiv.org/abs/2602.09310)
 
-**Grade:** Usually miscited · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · peer-reviewed, usually miscited · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#a11y-cua
 
@@ -74,11 +74,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Seven widely used US AI assistants execute no JavaScript on a user-triggered fetch and read only the raw HTML. Five others do execute it.
 
-**What the test shows and what it does not:** The setup put a decoy value in the raw HTML and the real value behind JavaScript. ChatGPT, Claude, Gemini, Perplexity, Meta AI, Copilot, and Grok returned the decoy; DeepSeek, ERNIE, Qwen, Kimi, and Mistral returned the real value. **The dividing line runs by vendor, not by technology** — it is a decision, not a limit. The finding covers the direct fetch, not content that reaches an answer through the Google index. An earlier test in December 2025 still measured Gemini as the only system that rendered, so the picture moves.
+**What the test shows and what it does not:** The setup put a decoy value in the raw HTML and the real value behind JavaScript. ChatGPT, Claude, Gemini, Perplexity, Meta AI, Copilot, and Grok returned the decoy; DeepSeek, ERNIE, Qwen, Kimi, and Mistral returned the real value. **The dividing line runs by vendor, not by technology**: it is a decision, not a limit. The finding covers the direct fetch, not content that reaches an answer through the Google index. An earlier test in December 2025 still measured Gemini as the only system that rendered, so the picture moves.
 
 **Source:** Search Engine World, 12 assistants compared · June 2026 · earlier test: searchVIU, December 2025 · [Source](https://www.searchengineworld.com/do-ai-assistants-actually-render-your-javascript-when-grounding-we-put-it-to-the-test)
 
-**Grade:** Controlled test · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · trade publication · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#javascript
 
@@ -92,7 +92,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Lighthouse release 13.3.0 of 7 May 2026, category in the default config · [Google’s documentation](https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring) · origin trial extension per “Intent to Extend Experiment: WebMCP” on blink-dev, read 12 November 2026 ([the extension](https://groups.google.com/a/chromium.org/g/blink-dev/c/lkdLdy5VPoA/m/w-_Sgf06CQAJ)) · [Source](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.3.0)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#lighthouse
 
@@ -106,7 +106,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Google, Build agent-friendly websites (web.dev) · as of 1 April 2026 · [Source](https://web.dev/articles/ai-agent-site-ux)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#a11y-tree
 
@@ -120,7 +120,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** IETF, AI Preferences working group (aipref), state “Active” · draft-ietf-aipref-vocab-08 of 14 September 2026 and draft-ietf-aipref-attach-05 of 19 August 2026, IESG state “I-D Exists”, WG state “WG Document”, intended status Proposed Standard, no RFC · milestones for both blocks moved on 23 September 2025 from August 2025 to 31 August 2026 and unchanged since ([working group history](https://datatracker.ietf.org/group/aipref/history/)) · full text of the vocabulary draft with the consensus note ([draft text](https://www.ietf.org/archive/id/draft-ietf-aipref-vocab-08.txt)) · checked 21 September 2026 · individual draft draft-kelley-aipref-training-preference-signal-00 of 30 October 2026 and Google Search Central of 30 October 2026, both read 12 November 2026 ([the draft](https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/), [Google](https://developers.google.com/search/blog/2026/10/ai-training-control)) · revision -01 of 16 November 2026, session materials and notes of the sessions of 16 and 19 November 2026, read 23 November 2026 ([session materials](https://datatracker.ietf.org/meeting/127/session/aipref), [notes](https://notes.ietf.org/notes-ietf-127-aipref)) · [Working group](https://datatracker.ietf.org/wg/aipref/about/)
 
-**Grade:** State of standardization · Group: Status, case report, or market observation
+**Grade:** Standardisation · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aipref
 
@@ -130,11 +130,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Of 160 home pages requested, 12 reject an automated retrieval with active bot defence, or 7.5 percent. It comes from Akamai or Cloudflare on ten of the twelve pages, and from Amazon CloudFront at Siemens and Hannover Rück.
 
-**What the number does not say:** It measures the rejection of a retrieval tool, not reachability for agents. **A regular, remote-controlled Chrome got through several of these sites without trouble** — the defence separates tool from browser, not human from machine. An agent driving a real browser would likely get further; this was not tested, because testing it would have meant circumventing the detection. **Not counted here are 13 further failures with other causes:** four stale addresses in the directory, four technical errors, two country selectors instead of home pages, two empty responses, one unstable result. An earlier version of this figure said 30 percent and lumped all of that together. **In detail:** On 18 of 22 pages checked at HTTP level the same rejection came regardless of the browser string; there the detection works from the TLS fingerprint and the order of the HTTP headers. On the two CloudFront pages the browser string alone decides.
+**What the number does not say:** It measures the rejection of a retrieval tool, not reachability for agents. **A regular, remote-controlled Chrome got through several of these sites without trouble**: the defence separates tool from browser, not human from machine. An agent driving a real browser would likely get further; this was not tested, because testing it would have meant circumventing the detection. **Not counted here are 13 further failures with other causes:** four stale addresses in the directory, four technical errors, two country selectors instead of home pages, two empty responses, one unstable result. An earlier version of this figure said 30 percent and lumped all of that together. **In detail:** On 18 of 22 pages checked at HTTP level the same rejection came regardless of the browser string; there the detection works from the TLS fingerprint and the order of the HTTP headers. On the two CloudFront pages the browser string alone decides.
 
 **Source:** Own measurement, 30 August 2026 · cause checked per site at HTTP level, with an ordinary and with an automated browser string · same response on 18 of 22 pages
 
-**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#dax-zutritt
 
@@ -144,11 +144,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Across 135 home pages of German listed companies from the DAX, MDAX and SDAX, 456 of 13,527 controls carry no name in the accessibility tree, or 3.4 percent. The rate barely differs between the three indices: DAX 3.1, MDAX 3.8, SDAX 3.3 percent.
 
-**What the number does not say:** It measures what an agent finds, not whether it completes its task. These are home pages as delivered, consent dialog included — not checkout flows or signed-in areas, where the picture may differ. **The comparison with WebAIM's 30.6 percent of empty buttons does not hold:** that comes from one million home pages worldwide; this is 135 listed companies. **The distribution is uneven:** 57 of the 135 pages have no gap at all, 15 exceed 10 percent, the worst reaches 30.6. And nearly all gaps follow one pattern — logos and icons serving as links or buttons: brand and partner logos, social network icons, carousel arrows, play buttons.
+**What the number does not say:** It measures what an agent finds, not whether it completes its task. These are home pages as delivered, consent dialog included, not checkout flows or signed-in areas, where the picture may differ. **The comparison with WebAIM's 30.6 percent of empty buttons does not hold:** that comes from one million home pages worldwide; this is 135 listed companies. **The distribution is uneven:** 57 of the 135 pages have no gap at all, 15 exceed 10 percent, the worst reaches 30.6. And nearly all gaps follow one pattern, logos and icons serving as links or buttons: brand and partner logos, social network icons, carousel arrows, play buttons.
 
 **Source:** Own measurement, 30 August 2026 · 160 home pages from DAX, MDAX and SDAX requested, selection and address taken from Wikidata · Chrome's own accessibility tree · two passes, 135 of 136 pages with identical results
 
-**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#dax-benennung
 
@@ -158,11 +158,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** 52 of 135 home pages of German listed companies have no main-content landmark. For a program reading the page, the marker for where content begins and navigation ends is missing.
 
-**What the number does not say:** A missing landmark does not render a page unusable — headings and text structure remain readable, and browsers partly infer a substitute structure. It indicates the care taken over markup, not a fault with immediate consequences. Home pages only, no subpages.
+**What the number does not say:** A missing landmark does not render a page unusable: headings and text structure remain readable, and browsers partly infer a substitute structure. It indicates the care taken over markup, not a fault with immediate consequences. Home pages only, no subpages.
 
 **Source:** Own measurement, 30 August 2026 · counted the role “main” in Chrome's accessibility tree · two passes with identical results
 
-**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#dax-landmarken
 
@@ -176,7 +176,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own measurement, 30 August 2026 · 160 home pages from DAX, MDAX and SDAX requested, 135 evaluable, selection and address from Wikidata · Chrome’s own accessibility tree, counting non-ignored nodes of role “image” without a name · breakdown by element type capped at 80 nodes per page · two runs, 135 of 136 pages with identical results
 
-**Grade:** Own measurement, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#dax-bilder
 
@@ -190,7 +190,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own survey, 12 September 2026 · 77 titles requested, 76 assessable · news part per the “Weekly reach online” chart on the Germany page of the Reuters Institute Digital News Report 2026, trade media and the Austrian and Swiss titles by a stated rule · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 3 titles · two runs with identical verdicts
 
-**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#verlage-robots
 
@@ -204,7 +204,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own survey, 12 September 2026 · the same list as the survey of 30 August, 160 home pages from DAX, MDAX and SDAX, index membership from Wikipedia, address from Wikidata · evaluated per RFC 9309 against 51 bot names documented by their operators, what counts is access to the home page · requested first with an own user agent, on rejection with an ordinary browser string, needed for 2 pages · two runs, 160 of 160 pages with identical verdicts
 
-**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#marken-robots
 
@@ -214,11 +214,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Across 300 tasks on 136 real websites, the success rate of the best web agents rose from 61 to 97.7 percent in just over 16 months. By August 2026 the leading entry solves even the hardest tasks, those needing eleven steps or more, completely.
 
-**What the number does not say:** The current figures come from *four* leaderboard entries, submitted by the agents' own vendors. The benchmark team has outsourced human evaluation, with a price list for submitters; according to the leaderboard, the three 2026 entries were evaluated by the service provider Careerflow.ai. This is not an independent survey. **And a warning sits on the leaderboard itself:** the tasks have been public since April 2025, and the team explicitly asks that they not be used as training data. Whether the scores show capability or familiarity with known tasks is therefore undecided. What is measured is whether a task was completed, not how well — and not whether the brand was represented correctly along the way. **In detail:** When the benchmark was first evaluated in March 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024.
+**What the number does not say:** The current figures come from *four* leaderboard entries, submitted by the agents' own vendors. The benchmark team has outsourced human evaluation, with a price list for submitters; according to the leaderboard, the three 2026 entries were evaluated by the service provider Careerflow.ai. This is not an independent survey. **And a warning sits on the leaderboard itself:** the tasks have been public since April 2025, and the team explicitly asks that they not be used as training data. Whether the scores show capability or familiarity with known tasks is therefore undecided. What is measured is whether a task was completed, not how well, and not whether the brand was represented correctly along the way. **In detail:** When the benchmark was first evaluated in March 2025, one agent reported 89 percent for itself and scored 30 when measured; most did not beat a simple agent from early 2024.
 
 **Source:** Xue et al., “An Illusion of Progress? Assessing the Current State of Web Agents”, COLM 2025 (arXiv:2504.01382) for the baseline · Online-Mind2Web leaderboard, human evaluation, as of 4 August 2026, for the current figures · 300 tasks, 136 websites · evaluator per the leaderboard’s “Source” column and the note “We have outsourced human evaluation”, retrieved 15 October 2026 · [to the leaderboard](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard) · [Source](https://arxiv.org/abs/2504.01382)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-erfolg
 
@@ -232,7 +232,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Klarna Group plc, company statements in a press release, the IPO prospectus (Form F-1/A) and the annual report (Form 20-F) filed with the SEC · 27 February 2024 to 26 February 2026 · [Source](https://www.sec.gov/Archives/edgar/data/2003292/000200329226000007/klar-20251231.htm)
 
-**Grade:** Usually miscited · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · usually miscited · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#klarna-700
 
@@ -246,7 +246,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own survey, 17 September 2026 · same lists as the two robots.txt entries of 12 September, whose composition and limits are stated there: 77 media titles, all readable, and 160 home pages from DAX, MDAX and SDAX, 146 of them readable in the first run and 145 in the second · searched the robots.txt as served for comments naming section 44b, for the wording text and data mining, and for a TDM-policy line · fetched first with an own identifier, on refusal with an ordinary browser identifier · two runs, 77 of 77 media identical, one index page differing because it did not answer in the second run · opinion in case C-250/25, points 148 and 149, read 12 November 2026 ([the opinion](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62025CC0250))
 
-**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#rechtsvorbehalt-kommentar
 
@@ -260,7 +260,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own measurement, 11 September 2026, 08:10 and 11:05 · fetch tool of a Claude agent on robert-haase.de/belege.html, 128,000 characters of visible text without scripts · ten questions fixed in advance, each asked twice, stopping rules set before the run · evaluated by a second agent with no knowledge of the build
 
-**Grade:** Own test, one tool · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · own, single test · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#abruf-kuerzung
 
@@ -274,7 +274,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Google, Lighthouse release 13.5.0 of 18 September 2026 with the audit “Agent Resource Discovery” and the group “Agent Discoverability”, lookup path /.well-known/ai-catalog.json per the audit’s source code · Agentic Resource Discovery, specification v0.91 of 26 August 2026, status “Proposal” ([to the specification](https://github.com/ards-project/ard-spec/blob/main/spec/ard.md)) · retrieved 21 September 2026 · Lighthouse release 13.6.0 of 27 October 2026 with the move to version 0.91 ([release 13.6.0](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0)), retrieved 1 November 2026 · pull requests 17258 and 17259 ([pull request](https://github.com/GoogleChrome/lighthouse/pull/17258)) · [Source](https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#lighthouse-agent-discovery
 
@@ -288,7 +288,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own survey, 17 September 2026 · the same files as the entry on the reservation of rights in robots.txt: 77 media titles, all with a robots.txt, and 160 home pages from DAX, MDAX and SDAX, 139 of them with a robots.txt · searched for a Content-Signal line in any spelling · on the declaration itself: Cloudflare, “Giving users choice with Cloudflare’s new Content Signals Policy”, 24 September 2025 ([to the declaration](https://blog.cloudflare.com/content-signals-policy/))
 
-**Grade:** Own survey, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#content-signal-selten
 
@@ -302,7 +302,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Seiden, Ren, Zhang, Kim, Liu and Wenger (Duke University, University of Pittsburgh, Carnegie Mellon University), “Identifying AI Web Scrapers Using Canary Tokens”, arXiv 2605.13706, version 2 of 3 September 2026, first version of 13 May 2026, preprint without peer review · 20 websites, two months of crawling before the block, 22 chatbots, 18 of them evaluable · full text read 23 September 2026 · [Source](https://arxiv.org/abs/2605.13706)
 
-**Grade:** Controlled experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#robots-sperre-chatbots
 
@@ -316,7 +316,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino and Marasović (University of Utah), “The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge”, arXiv 2609.30604, version 1 of 24 September 2026, published in Findings of the Association for Computational Linguistics: EMNLP 2026, pp. 45360 to 45400, October 2026, checked 12 November 2026 ([proceedings](https://aclanthology.org/2026.findings-emnlp.2127/)) · KNOWS benchmark, 110 tasks, results in table 3 · full text read 28 September 2026 · retirement of ChatGPT Atlas: OpenAI Help Center, “ChatGPT Atlas retirement”, retrieved 15 October 2026 ([on the retirement](https://help.openai.com/en/articles/20001371-chatgpt-atlas-retirement)) · [Source](https://arxiv.org/abs/2609.30604)
 
-**Grade:** Controlled test, peer-reviewed · Group: Status, case report, or market observation
+**Grade:** Experiment · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-wissensarbeit
 
@@ -330,7 +330,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Cloudflare, press release “Cloudflare Helps End the Search-or-AI-Training Tradeoff”, 15 September 2026 · retrieved 28 September 2026 · Cloudflare Radar, AI Insights, series “Crawl purpose”, monthly values June to October 2026, queried through the page’s data interface on 1 November 2026 ([Cloudflare Radar](https://radar.cloudflare.com/ai-insights)) · [Source](https://www.cloudflare.com/press/press-releases/2026/cloudflare-helps-end-the-search-or-ai-training-tradeoff/)
 
-**Grade:** Vendor figures · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · method not disclosed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#crawler-zweck-gemischt
 
@@ -344,7 +344,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** OpenAI, “Introducing dots”, 29 September 2026, sections “Access and permissions”, “Action review and approvals” and “Specialist dots for your organization”, German version “Wir stellen dots vor” · retrieved 30 September 2026 · availability: OpenAI Help Center, “Getting started with your dot”, updated 30 October 2026 ([help page](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot)) · Anthropic, “Introducing Claude Duet”, 21 October 2026, with an update of 23 October 2026 ([Claude Duet](https://claude.com/resources/articles/claude-duet)) · both retrieved 1 November 2026 · [Source](https://openai.com/index/introducing-dots/)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#dots-freigaberegeln
 
@@ -358,7 +358,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** METR, “Task-Completion Time Horizons of Frontier AI Models”, Time Horizon 1.1, last updated 8 September 2026 · values from the data file benchmark_results_1_1.yaml ([data file](https://metr.org/assets/benchmark_results_1_1.yaml)) · retrieved 1 November 2026 · [Source](https://metr.org/time-horizons/)
 
-**Grade:** Measurement series by an evaluation lab · Group: Status, case report, or market observation
+**Grade:** Measurement · research institute, ongoing · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-zeithorizont
 
@@ -372,7 +372,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Vals AI, Matilda Glynn-Henley, “How Far Will AI Assistants Go for a Refund They Can’t Get?”, 15 October 2026 · six models, one run each, simulated counterpart · retrieved 1 November 2026 · [Source](https://www.vals.ai/blogs/impossible-refund)
 
-**Grade:** Single test, one run per model · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · vendor, single test · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-eskalation-erstattung
 

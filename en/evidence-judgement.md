@@ -12,7 +12,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
 
-**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is and who produced it, from peer-reviewed study to self-report. The colour shows how far it carries.
 
 What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (9) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, cowan-standards, kompetenz-nivellierung, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte
-+ Preliminary: prototype, single test, forecast, or vendor figure (1) → agent-lenkt-urteil
-+ Status, case report, or market observation (13) → strategie-trendslop, markenspezifikation-wirkung, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, drei-arbeitsweisen, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling, bildschleifen-motive
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (8) → metr-selbsteinschaetzung, jagged-frontier, homogenisierung, sykophanz, boussioux-neuheit-wert, unverwechselbare-markenelemente, synthetische-befragte, bildschleifen-motive
++ Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (3) → strategie-trendslop, drei-arbeitsweisen, agent-lenkt-urteil
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (12) → markenspezifikation-wirkung, cowan-standards, foresight-performance, prognose-mensch-maschine, prognose-assistenz, abbott-zustaendigkeit, esposito-kommunikation, kompetenz-nivellierung, aufwand-statt-koennen, mintzberg-muster, wahrgenommene-differenzierung, de-skilling
 
 ---
 
@@ -36,7 +36,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** METR, randomised controlled trial, July 2025 · 16 experienced open-source developers, 246 tasks · newer measurement: METR, “We are Changing our Developer Productivity Experiment Design”, 24 February 2026, 57 developers, 143 repositories, over 800 tasks, retrieved 21 September 2026 · survey: METR, “How do technical workers use AI tools?”, 11 May 2026, 349 respondents ([survey](https://metr.org/blog/2026-05-11-ai-usage-survey/)), retrieved 1 November 2026 · [to the newer measurement](https://metr.org/blog/2026-02-24-uplift-update/) · [Study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
-**Grade:** Controlled trial · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · research institute · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#metr-selbsteinschaetzung
 
@@ -46,11 +46,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** In a preregistered experiment with 758 management consultants, AI users delivered more than 30 percent higher quality as long as the task fell inside the model’s capability. On a task placed just outside it, they were 19 percentage points more likely to be wrong than the group without AI.
 
-**What the number does not say:** Where the boundary runs was not visible to participants — the tasks looked alike. That is both the core finding and its limit: *one* deliberately out-of-range task was measured, not how often such cases occur in daily work. The experiment used GPT-4; where the frontier sits today is open. And consulting is not all knowledge work. **In detail:** Inside the model’s capability, AI users also completed 12.2 percent more tasks and worked 25.1 percent faster.
+**What the number does not say:** Where the boundary runs was not visible to participants; the tasks looked alike. That is both the core finding and its limit: *one* deliberately out-of-range task was measured, not how often such cases occur in daily work. The experiment used GPT-4; where the frontier sits today is open. And consulting is not all knowledge work. **In detail:** Inside the model’s capability, AI users also completed 12.2 percent more tasks and worked 25.1 percent faster.
 
 **Source:** Dell'Acqua et al., “Navigating the Jagged Technological Frontier”, field experiment with Boston Consulting Group · Organization Science, published online 11 March 2026, DOI 10.1287/orsc.2025.21838 · 758 consultants, 18 realistic tasks · the 2023 working paper still put the quality gain at more than 40 percent · [Peer-reviewed version](https://www.hbs.edu/ris/Publication%20Files/dell-acqua-et-al-2026-navigating-the-jagged-technological-frontier_5c589c8c-fbb5-458f-b285-c944746cd717.pdf)
 
-**Grade:** Controlled trial · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#jagged-frontier
 
@@ -64,7 +64,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Doshi and Hauser, “Generative AI enhances individual creativity but reduces the collective diversity of novel content”, Science Advances, vol. 10, issue 28, eadn5290, 12 July 2024, DOI 10.1126/sciadv.adn5290 · pre-registered, 293 writers and 600 raters on Prolific, 3,519 individual ratings, ideas from GPT-4 · the publisher site science.org refuses automated requests, so the check ran on the open full text at Europe PMC · second source: de Rooij and Biskjaer, “Generative AI Makes Creative Output More Homogeneous”, European Conference on Cognitive Ergonomics (ECCE 2026, Siena, 15 to 18 September 2026), published 14 September 2026, DOI 10.1145/3822301.3822304 · systematic review and meta-analysis, 19 studies, 61 effect sizes, abstract retrieved 28 September 2026 · full text at the ACM not read · [Meta-analysis](https://research.tilburguniversity.edu/en/publications/generative-ai-makes-creative-output-more-homogeneous/) · [Full text](https://europepmc.org/article/MED/38996021)
 
-**Grade:** Controlled experiment and meta-analysis · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#homogenisierung
 
@@ -78,7 +78,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Angelo Romasanta, Llewellyn D. W. Thomas and Natalia Levina, “Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.”, Harvard Business Review, 16 March 2026, HBR Digital Article H093GG · models tested: ChatGPT, Claude, DeepSeek, GPT-5 via the API, Gemini, Grok and Mistral, 50 runs per model and question; the two blocks of more than 15,000 runs ran on ChatGPT-5 alone · full text of 15,613 characters from the structured data of the page, cross-checked against two archive copies · the page is paywalled, the full text character-identical in the archive copies of 17 March and 14 July 2026 · [Article](https://hbr.org/2026/03/researchers-asked-llms-for-strategic-advice-they-got-trendslop-in-return)
 
-**Grade:** Editorially reviewed · Group: Status, case report, or market observation
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#strategie-trendslop
 
@@ -92,7 +92,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Sharma, Tong et al., “Towards Understanding Sycophancy in Language Models”, arXiv:2310.13548v4 of 10 May 2025, first version 20 October 2023, peer reviewed and accepted as a poster at ICLR 2024 · key figure from section 4.1: 15,000 randomly drawn response pairs from the helpfulness subset of Anthropic’s hh-rlhf dataset, 23 features, Bayesian logistic regression, holdout accuracy 71.3 percent · models tested: Claude 1.3, Claude 2, GPT-3.5, GPT-4 and LLaMA 2 · plus OpenAI, “Sycophancy in GPT-4o”, 29 April 2025, and “Expanding on what we missed with sycophancy”, 2 May 2025; update of 25 April, rollback from 28 April ([OpenAI statement](https://openai.com/index/sycophancy-in-gpt-4o/)) · [Paper](https://arxiv.org/abs/2310.13548)
 
-**Grade:** Controlled experiment and vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#sykophanz
 
@@ -106,7 +106,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own research, 10 September 2026: arXiv API with 24 phrase queries, among them brand voice, brand guidelines, brand consistency, brand compliance, machine-readable brand, brand book, style guide, tone of voice and corporate identity; plus OpenAlex, general web search, and the vendor pages of Adobe, Frontify, Jasper and Writer · closest measured work on the form question: “Instruction Stacking Collapse”, arXiv:2608.02639, 31 July 2026, 24 defined instructions, 22 of them deterministically checked and tested, three models ([to the paper](https://arxiv.org/abs/2608.02639)) · closest benchmarks on rule adherence: CompliBench, arXiv:2604.12312, 14 April 2026, preprint, 318 machine-generated dialogues ([CompliBench](https://arxiv.org/abs/2604.12312)), PluralisticBehaviorSuite, arXiv:2511.05018, 300 behavioural guidelines across 30 industries, and JourneyBench, arXiv:2601.00596, 703 conversations · for comparison in medicine: AMEGA, npj Digital Medicine 7:358, 12 December 2024, and CPGBench, arXiv:2603.25196, 26 March 2026, 3,418 guideline documents
 
-**Grade:** Negative finding of a documented search · Group: Status, case report, or market observation
+**Grade:** Scholarly literature · own search · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#markenspezifikation-wirkung
 
@@ -116,11 +116,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** A century of household technology did not reduce time spent on housework. The appliances mainly replaced work done by men, children and servants; the time saved went into rising standards of cleanliness and care. The expectation that automation frees up time has a documented precedent in which precisely that failed to happen.
 
-**What the study does not say:** It concerns households between the open hearth and the microwave, not knowledge work and not AI. Transferring it draws an analogy, not a proof. **It serves as a corrective, not a forecast:** it shows that labour saving through technology is an assumption that has historically failed once — not that it will fail again.
+**What the study does not say:** It concerns households between the open hearth and the microwave, not knowledge work and not AI. Transferring it draws an analogy, not a proof. **It serves as a corrective, not a forecast:** it shows that labour saving through technology is an assumption that has historically failed once, not that it will fail again.
 
 **Source:** Ruth Schwartz Cowan, “More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave”, 1983 · awarded the Dexter Prize of the Society for the History of Technology, 1984 · [Overview](https://hss.sas.upenn.edu/content/more-work-mother-ironies-household-technology-open-hearth-microwave)
 
-**Grade:** Historical study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Scholarly literature · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#cowan-standards
 
@@ -134,7 +134,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Rohrbeck and Kum, “Corporate foresight and its impact on firm performance: A longitudinal analysis”, Technological Forecasting & Social Change 129, 2018 · preparedness measured 2008, performance 2015 · [Study](https://www.sciencedirect.com/science/article/pii/S0040162517302287)
 
-**Grade:** Longitudinal study · Group: Status, case report, or market observation
+**Grade:** Survey · peer-reviewed · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#foresight-performance
 
@@ -148,7 +148,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** ForecastBench, Forecasting Research Institute, tournament and base leaderboards from the nightly updated leaderboard files, as of 12 November 2026; parity projection on the Explore page, retrieved 21 September 2026 · entries appear only 50 days after submission, so the leaderboard is not a same-day state · [Leaderboard files](https://github.com/forecastingresearch/forecastbench-datasets/tree/main/leaderboards/csv) · [Leaderboard](https://www.forecastbench.org/leaderboards/)
 
-**Grade:** Ongoing measurement · Group: Status, case report, or market observation
+**Grade:** Measurement · research institute, ongoing · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#prognose-mensch-maschine
 
@@ -158,11 +158,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** 991 participants answered six forecasting questions, some with access to a language model. The assistance improved accuracy by 24 to 28 percent against the control group. The comparison within the groups is the notable part: an assistant deliberately tuned to be overconfident and noisy also helped substantially.
 
-**What the result suggests but does not prove:** That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer — but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base, and this is a preprint.
+**What the result suggests but does not prove:** That the poor assistant also worked points to part of the gain coming from the act of consulting rather than the quality of the machine's answer, but that is not established. The authors themselves note that outliers affect the picture and robustness remains to be tested. Six questions are a narrow base, and this is a preprint.
 
 **Source:** Schoenegger, Park, Karger, Trott and Tetlock, “AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy”, preregistered, arXiv, February 2024 · 991 participants · [Study](https://arxiv.org/abs/2402.07862)
 
-**Grade:** Preregistered experiment · Group: Status, case report, or market observation
+**Grade:** Experiment · preprint figures · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#prognose-assistenz
 
@@ -172,11 +172,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** According to Andrew Abbott’s study, occupations compete not over performing their work but over its *definition*: whoever determines what counts as a problem, and who is responsible for it, has already settled the competition; jurisdictions are claimed when they fall vacant, not by filling an occupied one better.
 
-**What the study does not say:** It dates from 1988 and treats classical professions — medicine, law, accountancy — not consulting and not AI. Applying it to today's occupations is an interpretation. **And it does not explain how a jurisdiction is won**, only what the competition is about. It serves as evidence for what definitional power means, not as a manual.
+**What the study does not say:** It dates from 1988 and treats classical professions (medicine, law, accountancy), not consulting and not AI. Applying it to today's occupations is an interpretation. **And it does not explain how a jurisdiction is won**, only what the competition is about. It serves as evidence for what definitional power means, not as a manual.
 
 **Source:** Andrew Abbott, “The System of Professions: An Essay on the Division of Expert Labor”, University of Chicago Press, 1988 · [Publisher](https://press.uchicago.edu/ucp/books/book/chicago/S/bo5965590.html)
 
-**Grade:** Standard reference · Group: Status, case report, or market observation
+**Grade:** Scholarly literature · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#abbott-zustaendigkeit
 
@@ -186,11 +186,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** The sociologist Elena Esposito considers the analogy between algorithms and human intelligence misleading and proposes the term artificial *communication*: if machines contribute to social intelligence, it will not be because they have learned to think like us, but because we have learned to communicate with them.
 
-**What the book is not:** not a measurement but a theoretical proposal from systems theory. It supports no figure and cannot be refuted like an experiment. **And it is not about brands:** Esposito's examples are recommendation lists, profiling and the right to be forgotten. Applying it to whether a brand is legible to machines is an interpretation — a plausible one, but not one the book makes.
+**What the book is not:** not a measurement but a theoretical proposal from systems theory. It supports no figure and cannot be refuted like an experiment. **And it is not about brands:** Esposito's examples are recommendation lists, profiling and the right to be forgotten. Applying it to whether a brand is legible to machines is an interpretation: a plausible one, but not one the book makes.
 
 **Source:** Elena Esposito, “Artificial Communication: How Algorithms Produce Social Intelligence”, MIT Press, 24 May 2022 · 200 pages, open access edition available · [Publisher](https://mitpress.mit.edu/9780262046664/artificial-communication/)
 
-**Grade:** Scholarly book · Group: Status, case report, or market observation
+**Grade:** Scholarly literature · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#esposito-kommunikation
 
@@ -200,11 +200,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** A field study of 244 management consultants found three ways of working with generative AI: those who involve AI throughout acquire new AI capability; those who use it selectively for individual steps, retaining the problem definition, deepen their domain expertise; those who hand over the whole process build **neither**.
 
-**What the study does not say:** it does *not* compare the quality of outputs. The abstract makes no claim about which mode produces more accurate recommendations — **summaries in circulation that say otherwise go beyond the source.** What is measured is capability building, not results. Also: a working paper in draft form, not peer reviewed, and all respondents come from a single consultancy. **In detail:** The three ways differ not in the tool but in who steers the workflow.
+**What the study does not say:** it does *not* compare the quality of outputs. The abstract makes no claim about which mode produces more accurate recommendations; **summaries in circulation that say otherwise go beyond the source.** What is measured is capability building, not results. Also: a working paper in draft form, not peer reviewed, and all respondents come from a single consultancy. **In detail:** The three ways differ not in the tool but in who steers the workflow.
 
 **Source:** Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon and Lakhani, “Cyborgs, Centaurs and Self-Automators”, Harvard Business School Working Paper 26-036, 2025 · 244 Boston Consulting Group consultants · [Working paper](https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf)
 
-**Grade:** Field study, working paper · Group: Status, case report, or market observation
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#drei-arbeitsweisen
 
@@ -214,11 +214,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** Among 5,179 customer support agents at a large firm, issues resolved per hour rose 14 percent on average with an AI assistant. **Novice and low-skilled workers gained 34 percent, while the effect on experienced and highly skilled workers was “minimal”.**
 
-**What the number does not say:** Customer support is highly structured work with recurring cases — transfer to strategy or design is open. **And it is a working paper**, explicitly not peer reviewed per its cover page. What was measured is volume, not quality: issues resolved per hour, not how well — though customer sentiment improved alongside. **In detail:** The authors suspect the model disseminates the practices of abler workers to newer ones.
+**What the number does not say:** Customer support is highly structured work with recurring cases; transfer to strategy or design is open. **And it is a working paper**, explicitly not peer reviewed per its cover page. What was measured is volume, not quality: issues resolved per hour, not how well, though customer sentiment improved alongside. **In detail:** The authors suspect the model disseminates the practices of abler workers to newer ones.
 
 **Source:** Brynjolfsson, Li and Raymond, “Generative AI at Work”, NBER Working Paper 31161, April 2023, revised November 2023 · 5,179 customer support agents · [Working paper](https://www.nber.org/papers/w31161)
 
-**Grade:** Field experiment · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · preprint figures · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#kompetenz-nivellierung
 
@@ -228,11 +228,11 @@ The collection does not map the state of the research, only the figures I needed
 
 **Claim:** In a preregistered experiment with 444 college-educated professionals, generative AI cut the time spent on writing tasks by 0.8 standard deviations while quality rose by 0.4, and weaker performers gained more. In the authors’ reading, the tool mostly substitutes for *effort* rather than complementing *skill*.
 
-**On the figures:** these are from the verified working paper of March 2023, which states it is not peer reviewed. **The peer-reviewed version appeared later in *Science* with differing numbers** — 453 participants and “40 percent time saved” circulate; that version sits behind a paywall and was not inspected. **What the figures do not say:** these were short, isolated writing tasks, not projects spanning weeks. **In detail:** In the authors’ reading, the tool shifts work away from rough drafting towards idea generation and editing.
+**On the figures:** these are from the verified working paper of March 2023, which states it is not peer reviewed. **The peer-reviewed version appeared later in *Science* with differing numbers**: 453 participants and “40 percent time saved” circulate; that version sits behind a paywall and was not inspected. **What the figures do not say:** these were short, isolated writing tasks, not projects spanning weeks. **In detail:** In the authors’ reading, the tool shifts work away from rough drafting towards idea generation and editing.
 
 **Source:** Noy and Zhang, “Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence”, MIT, working paper of 2 March 2023 · peer-reviewed version in Science 381, 2023, pp. 187–192 · [Publication](https://www.science.org/doi/10.1126/science.adh2586)
 
-**Grade:** Preregistered experiment · Group: Status, case report, or market observation
+**Grade:** Experiment · preprint figures · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aufwand-statt-koennen
 
@@ -246,7 +246,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Boussioux, Lane, Zhang, Jacimovic and Lakhani, “The Crowdless Future? Generative AI and Creative Problem-Solving”, Organization Science 35(5), pp. 1589–1607 · 234 solutions evaluated, 300 evaluators, 3,900 ratings, contest 30 January to 15 May 2023 · received 30 November 2023, revised 23 January, 14 May and 20 June 2024, accepted 26 June 2024, online 16 August 2024, September/October 2024 issue · [Source](https://doi.org/10.1287/orsc.2023.18430)
 
-**Grade:** Controlled test · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#boussioux-neuheit-wert
 
@@ -260,7 +260,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Henry Mintzberg, “Patterns in Strategy Formation”, Management Science, Vol. 24, No. 9, pp. 934 to 948 · four major studies funded by the Canada Council and over twenty student papers, two of them presented: Volkswagenwerk 1934 to 1974 per the abstract and 1920 to 1974 per the section heading, the United States in Vietnam 1950 to 1973 · manuscript received 19 April 1976, printed May 1978 · [Source](https://doi.org/10.1287/mnsc.24.9.934)
 
-**Grade:** Exploratory case studies, concept-forming · Group: Status, case report, or market observation
+**Grade:** Case · peer-reviewed · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#mintzberg-muster
 
@@ -274,7 +274,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Jenni Romaniuk, Byron Sharp and Andrew Ehrenberg, Ehrenberg-Bass Institute, Australasian Marketing Journal 15 (2), pages 42 to 54 · survey of current brand users across 17 product categories, the Australian ones by telephone, the UK ones from the Young & Rubicam Brand Asset Valuator, collected 1999 · 2007 · [Source](https://web.archive.org/web/20251015044426/https://marketingscience.info/wp-content/uploads/staff/2015/08/different.pdf)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · peer-reviewed · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#wahrgenommene-differenzierung
 
@@ -288,7 +288,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Sagar Goel, David Martin, Charikleia Kaffe: "When Everyone Uses AI, Companies Risk Losing Critical Skills", Boston Consulting Group, BCG Institute, 17 June 2026 · global survey of 70 C-suite and senior executives, complemented by interviews with a dozen other company leaders · [Source](https://www.bcg.com/publications/2026/when-everyone-uses-ai-companies-risk-critical-skills)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · consultancy · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#de-skilling
 
@@ -302,7 +302,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Phua, Bali, Anesbury and Sharp (Ehrenberg-Bass Institute, Adelaide University), “Shape-based assets are strongest: benchmarking distinctive brand asset performance across industries”, International Journal of Advertising, online since 5 March 2026, peer-reviewed, CC BY 4.0, no conflicts of interest reported · 1,162 assets, 128 brands, 21 categories, Australia, United Kingdom, United States and New Zealand, 2015 to 2023 · fame and uniqueness as averages per asset type · full text read on 21 September 2026 · [Source](https://doi.org/10.1080/02650487.2026.2637295)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#unverwechselbare-markenelemente
 
@@ -316,7 +316,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer and Aaron Smith, “Can AI Stand In for Human Survey-Takers? Not Really”, 30 September 2026 · three American Trends Panel waves of 20 to 26 January, 23 to 29 March and 20 to 26 April 2026, replicated with Claude Opus 4.6 · model comparison on a separate page ([model comparison](https://www.pewresearch.org/data-labs/2026/09/30/how-synthetic-polling-results-change-based-on-the-ai-model/)) · retrieved 30 September and 1 November 2026 · [Method](https://www.pewresearch.org/data-labs/2026/09/30/how-well-synthetic-samples-replicate-public-opinion/) · [Source](https://www.pewresearch.org/data-labs/2026/09/30/can-ai-stand-in-for-human-survey-takers-not-really/)
 
-**Grade:** Controlled test · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · research institute · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#synthetische-befragte
 
@@ -330,7 +330,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Anthropic, Amaç Herdağdelen, Hailey Joren and Alex Tamkin, “How AI agents shape experts’ judgment calls”, 27 October 2026 · randomised experiment with 61 experts, 50 of them with an agent, Claude Opus 4.8 in Claude Code, analysis plan at OSF (osf.io/t3q59) · full paper with methods and registration ([full paper](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf)) · retrieved 1 November 2026 · [Source](https://www.anthropic.com/research/agents-judgment-calls)
 
-**Grade:** Controlled experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · vendor, not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agent-lenkt-urteil
 
@@ -344,7 +344,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Hintze, Proschinger Åström and Schossau, “Autonomous language-image generation loops converge to generic visual motifs”, Patterns 7(1), 101451, January 2026, peer-reviewed (submitted 15 July, accepted 17 November 2025) · full text at PubMed Central, CC BY · retrieved 1 November 2026 · [Source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12827715/)
 
-**Grade:** Simulation, peer-reviewed · Group: Status, case report, or market observation
+**Grade:** Experiment · peer-reviewed, simulation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#bildschleifen-motive
 

@@ -12,7 +12,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
 
-**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.
 
 Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (9) → llmstxt-abrufe, llmstxt-wirkung, google-leitfaden, mentions-vs-backlinks, inkonsistenz, pew-klicks, aio-klickrate, seer-klickrate, ebu-nachrichten
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (14) → json-ld-test, reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, ki-zitate-ausserhalb-top10, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
-+ Sachstand, Fallbericht oder Marktbeobachtung (7) → llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, govuk-chat, ki-informationssuche-reuters, aio-deutschland-keywords
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (2) → google-leitfaden, pew-klicks
++ Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (13) → reddit-zitate, geo-40-prozent, aio-top10-uneinig, markenstatur-sichtbarkeit, zitier-position, eigene-seite-selten-zitiert, ki-modus-klicks, abruf-vor-inhalt, ki-suche-vielfalt, agenten-ueberschriften, govuk-chat, aio-klicks-feldexperiment, wikipedia-aio-rueckgang
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (15) → llmstxt-abrufe, llmstxt-wirkung, json-ld-test, mentions-vs-backlinks, inkonsistenz, aio-klickrate, seer-klickrate, ebu-nachrichten, llmstxt-nutzen, crawl-verweis-verhaeltnis, aio-markensuchen, chatgpt-suchanfragen, ki-zitate-ausserhalb-top10, ki-informationssuche-reuters, aio-deutschland-keywords
 
 ---
 
@@ -36,7 +36,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, 137.210 Domains, davon 28 Prozent mit llms.txt · Juni 2026 · [Zur Quelle](https://ahrefs.com/blog/llmstxt-study/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#llmstxt-abrufe
 
@@ -50,7 +50,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** SE Ranking, knapp 300.000 Domains, davon 10,13 Prozent mit llms.txt · November 2025 · [Zur Quelle](https://seranking.com/blog/llms-txt/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#llmstxt-wirkung
 
@@ -64,7 +64,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Google Search Central, offizieller Leitfaden · Stand 10. Juli 2026 · [Zur Quelle](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#google-leitfaden
 
@@ -78,7 +78,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, 1.885 Seiten gegen 4.000 gematchte Kontrollseiten, Ergänzungen zwischen August 2025 und März 2026 · Mai 2026 · [Zur Quelle](https://ahrefs.com/blog/schema-ai-citations/)
 
-**Einstufung:** Einzelner Test · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#json-ld-test
 
@@ -92,7 +92,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, Korrelationsanalyse über 75.000 Marken in ChatGPT, Google AI Mode und AI Overviews · Dezember 2025 · [Zur Quelle](https://ahrefs.com/blog/ai-brand-visibility-correlations/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#mentions-vs-backlinks
 
@@ -106,7 +106,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** SparkToro mit Gumshoe.ai, 600 Teilnehmende, 12 Fragestellungen, 2.961 Durchläufe in ChatGPT, Claude und Google AI · Januar 2026 · [Zur Quelle](https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#inkonsistenz
 
@@ -120,7 +120,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Pew Research Center, passives Browser-Tracking bei 900 US-Erwachsenen, 68.879 Google-Suchen im März 2025 · Juli 2025 · [Zur Quelle](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Institut · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#pew-klicks
 
@@ -134,7 +134,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, Ryan Law, 300.000 Keywords, davon 150.000 mit und 150.000 ohne KI-Zusammenfassung, Daten aus Dezember 2025 · 4. Februar 2026 · [Zur Quelle](https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#aio-klickrate
 
@@ -148,7 +148,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025 · neuere Ausgabe: „AIO Impact on Google CTR: 2026 Update“, April 2026, 53 Marken, 5,47 Millionen Suchbegriffe, 2,43 Milliarden organische Impressionen, Januar 2025 bis Februar 2026, abgerufen am 21. September 2026 · [zur neueren Ausgabe](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-2026-update) · [Zur Quelle](https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#seer-klickrate
 
@@ -162,7 +162,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Promptwatch, Klaas Foppen, Datenseite „Reddit Citations Are Dropping in ChatGPT“, 18. August 2026: täglicher Anteil von reddit.com an allen Quellenangaben von ChatGPT Search, gezählt werden nur Antworten mit mindestens einer Quellenangabe, Vergleich 18. Juli bis 7. August gegen 14. bis 17. August 2026 · der site:-Operator stammt aus derselben Reihe, eigene Datenseite vom 10. August 2026 ([Datenseite site:-Operator](https://promptwatch.com/data/chatgpt-site-operator-fanouts)) · erzählende Fassung beider Befunde im Blog vom 20. August 2026, zuletzt geändert am 8. September 2026, am Erscheinungstag berichtet von Axios ([Blogfassung](https://promptwatch.com/blog/chatgpt-stop-citing-reddit)) · zweites Panel: Otterly.ai, 27. August 2026, 16 Markenberichte aus 14 Branchen im US-Markt, Vorfenster 6. bis 13. August, Nachfenster 14. bis 17. August 2026, Tagesmittel ([zweite Messung](https://otterly.ai/blog/chatgpt-reddit-citations/)) · dritte Reihe: Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026, Brand Radar, Quellenangaben von ChatGPT in den USA, März bis September 2026, 2,4 bis 3,8 Millionen Antworten je Monat, abgerufen am 16. Oktober 2026 ([dritte Reihe](https://ahrefs.com/blog/query-fan-out-chatgpt/)) · Fortschreibung: Promptwatch, Datenseite für November 2026, Fenster 11. Oktober bis 9. November, gelesen am 12. November 2026 ([zur Fortschreibung](https://promptwatch.com/data/social-media-citations-by-ai-model-november-2026)) · [Zur Datenseite](https://promptwatch.com/data/reddit-citations-are-dropping-in-chatgpt)
 
-**Einstufung:** Anbietermessung, vorläufig · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter, vorläufig · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#reddit-zitate
 
@@ -176,7 +176,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Aggarwal u. a., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · eingereicht November 2023 · [Zur Quelle](https://arxiv.org/abs/2311.09735)
 
-**Einstufung:** Wird meist falsch zitiert · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · begutachtet, meist falsch zitiert · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#geo-40-prozent
 
@@ -190,7 +190,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** European Broadcasting Union und BBC, 22 Medienhäuser in 18 Ländern und 14 Sprachen (darunter ARD, ZDF, Deutsche Welle und SRF), über 3.000 bewertete Antworten · Oktober 2025 · [Zur Quelle](https://www.ebu.ch/news/2025/10/ai-s-systemic-distortion-of-news-is-consistent-across-languages-and-territories-international-study-by-public-service-broadcaste)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Verband · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ebu-nachrichten
 
@@ -204,7 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, Louise Linehan, 863.000 Keyword-SERPs und 4 Millionen zitierte Adressen, organisch 37,1 Prozent, Schlagzeile 37,9 Prozent einschließlich Anzeigen und SERP-Features, kein Erhebungszeitraum genannt · veröffentlicht 2. März 2026 · dieselbe Reihe, 1,9 Millionen Zitate aus 1 Million Übersichten, nur die drei sichtbarsten je Übersicht · veröffentlicht 21. Juli 2025 · BrightEdge, AI Catalyst und Generative Parser, wöchentliche Messung, Umfang nicht offengelegt, angegebener Erhebungszeitraum Februar 2025 bis Februar 2026, veröffentlichte Überschneidungstabelle nur Februar bis Juli 2025 · veröffentlicht 12. Februar 2026 · [Zur BrightEdge-Quelle](https://www.brightedge.com/resources/weekly-ai-search-insights/ai-overviews-one-year-presence-size-citing) · [Zur Ahrefs-Quelle](https://ahrefs.com/blog/ai-overview-citations-top-10/)
 
-**Einstufung:** Anbietermessungen, nicht vergleichbar · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter, nicht vergleichbar · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#aio-top10-uneinig
 
@@ -218,7 +218,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Mintlify, Docs URL Discovery Bench · 20 Doku-Websites, 5 Fragen je Website, 4 Auslieferungsvarianten, 2 Agenten, 3 Durchläufe, 2.400 gewertete Läufe bei n=300 je Zelle · Claude Code auf claude-sonnet-5, Codex CLI auf gpt-5.5 · Juli 2026 · [Zur Quelle](https://github.com/mintlify/docs-url-discovery-bench)
 
-**Einstufung:** Kontrollierter Test des Anbieters, Ergebnisdaten offen · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Experiment · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#llmstxt-nutzen
 
@@ -232,7 +232,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Pratyush Kumar (Mitgründer von Ranqo), Generative Engine Optimization at Scale: Measuring Brand Visibility Across AI Search Engines, arXiv:2606.20065v1, Preprint ohne Begutachtung, 14 Seiten · 102 Marken, 3.508 abgeschlossene Messläufe, 102.025 Antworten von fünf Systemen (ChatGPT, Gemini, Perplexity, Claude, Grok), 149.912 Quellenangaben aus Antworten, in denen die Marke vorkam, erhoben auf der Plattform Ranqo zwischen März und Mai 2026 · eingereicht 18. Juni 2026 · [Zur Quelle](https://arxiv.org/abs/2606.20065)
 
-**Einstufung:** Anbietermessung, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter, nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#markenstatur-sichtbarkeit
 
@@ -246,7 +246,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Kevin Indig, Growth Memo, Daten von Gauge · 18.012 Zitierungen für die Positionsanalyse, 11.022 für die Sprachanalyse, isoliert aus einem Bestand von 1,2 Millionen, den die Quelle an drei Stellen unterschiedlich bezeichnet (Suchergebnisse, ChatGPT-Antworten, verifizierte Zitierungen); Gauge lieferte rund 3 Millionen Antworten mit 30 Millionen Zitierungen · 16. Februar 2026 · Original hinter Bezahlschranke; Forschungsteil und Methodik im Internet Archive lesbar, das Zusatzmaterial für Bezahlabonnenten fehlt · [Zur Quelle](http://web.archive.org/web/20260218205224/https://www.growth-memo.com/p/the-science-of-how-ai-pays-attention)
 
-**Einstufung:** Anbietermessung, vorläufig · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter, vorläufig · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#zitier-position
 
@@ -260,7 +260,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** AirOps, „Third-Party Sources Drive 85% of Brand Discovery“, 17. Oktober 2025, 21.311 Markennennungen in ChatGPT, Claude und Perplexity bei Anfragen zur Anbietersuche · Kumar (Ranqo), „Generative Engine Optimization at Scale“, arXiv 2606.20065, 18. Juni 2026, Preprint ohne Begutachtung, 102 Marken, 102.025 Antworten, 149.912 Quellenangaben aus fünf KI-Suchen, März bis Mai 2026 ([zum Preprint](https://arxiv.org/abs/2606.20065)) · beide abgerufen am 21. September 2026 · Fragetyp: Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026, gesonderter Test mit 20.000 US-Fragen, abgerufen am 16. Oktober 2026 ([zu Ahrefs](https://ahrefs.com/blog/query-fan-out-chatgpt/)) · [Zur Quelle](https://www.airops.com/report/the-influence-of-offsite-signals-in-ai-search)
 
-**Einstufung:** Zwei Anbietermessungen, vorläufig · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter, vorläufig · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#eigene-seite-selten-zitiert
 
@@ -274,7 +274,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 31. Oktober 2026, Werte über die Datenschnittstelle der Seite abgefragt am 1. November 2026, Juli bis September abgefragt am 15. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026 ([zum Methodenbeitrag](https://blog.cloudflare.com/ai-search-crawl-refer-ratio-on-radar/)) · [Zur Quelle](https://radar.cloudflare.com/ai-insights)
 
-**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis
 
@@ -288,7 +288,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Stephanie T. Wang, Jeffrey Gleason, Yakov Bart, Christo Wilson und Danaé Metaxa, „AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence“, arXiv 2608.18352, Fassung 1 vom 18. August 2026, Preprint ohne Begutachtung · vorregistriertes Feldexperiment, 1.100 aktive Teilnehmende in den USA · Volltext gelesen am 15. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2608.18352)
 
-**Einstufung:** Feldexperiment, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-modus-klicks
 
@@ -302,7 +302,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, Ryan Law und Xibeijia Guan, „AI Overviews Currently Appear for 83% of Branded Searches“, 2. Oktober 2026 · US-Desktop, Juli bis September 2026, 232,8 Millionen Ergebnisseiten, davon 92,5 Millionen zu Markenbegriffen · Panel aus den 100 Marken von Interbrands Best Global Brands 2025 · abgerufen am 15. Oktober 2026 · [Zur Quelle](https://ahrefs.com/blog/ai-overviews-on-branded-searches/)
 
-**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#aio-markensuchen
 
@@ -316,7 +316,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026 · 66,6 Millionen Antworten mit 15 Millionen Suchanfragen aus kostenlosen, nicht angemeldeten Sitzungen mit GPT-5.6 Luna, August und September 2026 · Anteile der Quellenangaben aus einem gesonderten Test mit 20.000 US-Fragen, ohne Zeitangabe · Reddit-Rückgang aus Brand Radar, Quellenangaben von ChatGPT in den USA, März bis September 2026, 2,4 bis 3,8 Millionen Antworten je Monat · abgerufen am 16. Oktober 2026 · [Zur Quelle](https://ahrefs.com/blog/query-fan-out-chatgpt/)
 
-**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#chatgpt-suchanfragen
 
@@ -330,7 +330,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Mahe Chen und Nick Koudas (University of Toronto), „What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)“, arXiv 2610.15033, Fassung 1 vom 10. Oktober 2026, Preprint ohne Begutachtung · Zahlen aus den Abschnitten 6.4 und 6.5, Datenerhebung laut Abschnitt 3.1 · Volltext gelesen am 16. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2610.15033)
 
-**Einstufung:** Auswertung, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#abruf-vor-inhalt
 
@@ -344,7 +344,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee und Dongwon Lee, „Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption“, arXiv 2609.38946, Fassung 1 vom 30. September 2026, Preprint ohne Begutachtung · randomisiertes Feldexperiment mit 37.561 Lesern der Washington Post · Volltext gelesen am 16. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2609.38946)
 
-**Einstufung:** Feldexperiment, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-suche-vielfalt
 
@@ -358,7 +358,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Every, Mike Taylor, „How to Get AI Agents to Recommend Your Articles“, 27. Oktober 2026, aktualisiert am 1. November 2026 · 2.484 Sitzungen mit vier Modellen · abgerufen am 1. November 2026 · [Zur Quelle](https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles)
 
-**Einstufung:** Kontrollierter Test, Simulation des Herausgebers · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · Fachmedium, Simulation · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-ueberschriften
 
@@ -372,7 +372,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Ahrefs, Louise Linehan und Xibeijia Guan, „Only 12% of AI Cited URLs Rank in Google’s Top 10 for the Original Prompt“, 11. August 2025, Daten Anfang Juli 2025 · Moz, Chima Mmeje, „Only 12% of AI Mode Citations Match URLs in the Organic SERP“, 18. Februar 2026, Daten aus STAT, Desktop und Mobil ([zu Moz](https://moz.com/blog/ai-mode-citations)) · abgerufen am 1. November 2026 · [Zur Quelle](https://ahrefs.com/blog/ai-search-overlap/)
 
-**Einstufung:** Zwei Anbietermessungen · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-zitate-ausserhalb-top10
 
@@ -386,7 +386,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Government Digital Service, Shelina Hargrove, „GOV.UK Chat launches“, GDS-Blog, 14. Mai 2026 · abgerufen am 1. November 2026 · [Zur Quelle](https://gds.blog.gov.uk/2026/05/14/gov-uk-chat-launches/)
 
-**Einstufung:** Angaben des Betreibers · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#govuk-chat
 
@@ -400,7 +400,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Saharsh Agarwal (Indian School of Business) und Ananya Sen (Carnegie Mellon University), „The Impact of Google AI Overviews on Publisher Traffic and User Experience: Evidence from a Field Experiment“, Arbeitspapier, Fassung vom 17. Juni 2026, präregistriert im AEA RCT Registry (AEARCTR-0017393) · 1.065 US-Teilnehmende, Zufallszuteilung über eine Chrome-Erweiterung · Volltext gelesen am 12. November 2026 · Zusammenfassung der Hochschule ([zur Zusammenfassung](https://www.isb.edu/faculty-and-research/isb-institute-of-data-science/research/ai-summaries-in-search-and-their-impact-on-publisher-traffic)) · [Zur Quelle](https://ssrn.com/abstract=6513059)
 
-**Einstufung:** Feldexperiment, präregistriert, Arbeitspapier ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#aio-klicks-feldexperiment
 
@@ -414,7 +414,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Reuters Institute for the Study of Journalism, Felix Simon, Rasmus Kleis Nielsen und Richard Fletcher, „Generative AI and News Report 2026: From standalone tools to information infrastructure“, 29. Oktober 2026 · Befragung durch YouGov, rund 2.000 Befragte je Land in neun Ländern, 14. August bis 28. September 2026 · gelesen am 12. November 2026 · [Zur Quelle](https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2026-standalone-tools-information-infrastructure)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Institut · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-informationssuche-reuters
 
@@ -428,7 +428,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Mehrzad Khosravi und Hema Yoganarasimhan, „Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia“, arXiv 2602.18455, Fassung 1 vom 5. Februar 2026 und Fassung 7 vom 25. Oktober 2026, Preprint ohne Begutachtung · Abstracts beider Fassungen gelesen am 12. November 2026 · [Zur Quelle](https://arxiv.org/abs/2602.18455)
 
-**Einstufung:** Quasi-Experiment, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#wikipedia-aio-rueckgang
 
@@ -442,7 +442,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** SISTRIX, Johannes Beus, „AI Overviews jetzt bei über 50 % der Keywords“, 6. November 2026 · Schwellen und Stichtage aus dem Beitrag · gelesen am 16. November 2026 · [Zur Quelle](https://www.sistrix.de/news/ai-overviews-jetzt-bei-ueber-50-der-keywords/)
 
-**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#aio-deutschland-keywords
 

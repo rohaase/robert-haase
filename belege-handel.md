@@ -12,7 +12,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
 
-**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.
 
 Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (4) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum, agenten-buchungen-uber
-+ Sachstand, Fallbericht oder Marktbeobachtung (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (4) → shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
++ Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (4) → walmart-verhandlung, agenten-lenkung-marktplatz, agent-werbung-steuerung, agenten-buchungen-uber
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (8) → checkout-rueckbau, airline-direktkanal, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, ki-verweise-handel-wachstum, aldi-ohne-app
 
 ---
 
@@ -36,7 +36,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** OpenAI, „Optimierte Produktsuche in ChatGPT“, 24. März 2026, Abschnitt „ChatGPT-Nutzer:innen und Händler:innen miteinander verbinden“ · Forrester, Analyse zum Rückbau von Instant Checkout, 7. März 2026, Start am 29. September 2025 ([zu Forrester](https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/)) · OpenAI Help Center, „Shopping with ChatGPT Search“, aktualisiert am 30. Oktober 2026, ohne Instant Checkout ([OpenAI Help Center](https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search)) · beide OpenAI-Seiten abgerufen am 1. November 2026 · Shopify Help Center, „Shopify agentic storefronts“ ([Shopify Help Center](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)), abgerufen am 15. Oktober 2026 · [Zur Quelle](https://openai.com/index/powering-product-discovery-in-chatgpt/)
 
-**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#checkout-rueckbau
 
@@ -50,7 +50,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Bain & Company, Test mit drei Fluggesellschaften, drei Sprachmodellen und 60 Anfragen · 16. März 2026 · [Zur Quelle](https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/)
 
-**Einstufung:** Kontrollierter Test · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Experiment · Beratung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#airline-direktkanal
 
@@ -64,7 +64,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Pactum-Angaben via Bloomberg, April 2023 · Abschlussquote: Harvard Business Review, November 2022 · [Zur Quelle](https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html)
 
-**Einstufung:** Anbieter- und Unternehmensangaben · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#walmart-verhandlung
 
@@ -78,7 +78,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 ([zur Befragung 2026](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), abgerufen am 15. Oktober 2026 · NIQ, Pressemitteilung „55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey“, 7. Oktober 2026 ([zur Pressemitteilung](https://nielseniq.com/global/en/news-center/2026/consumer-outlook-55-percent-of-consumers-now-use-ai-during-product-discovery/)), abgerufen am 16. Oktober 2026 · [Zur Quelle](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Beratung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#journey-start
 
@@ -92,7 +92,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026 · Europa: Deloitte, Studie „The State of Agentic Commerce in Europe“, Pressemitteilung „Jeder Zweite in Europa shoppt mit KI-Unterstützung“, 13. Juli 2026, Online-Befragung von 13.500 Verbrauchern in 15 Ländern im Mai 2026, abgerufen am 20. Oktober 2026 ([zu Deloitte](https://www.deloitte.com/de/de/about/press-room/jeder-zweite-in-europa-shoppt-mit-KI-untersuetzung.html)) · [Zur Quelle](https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Analysehaus · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#kaufentscheidung
 
@@ -106,7 +106,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Google, „Retailers: Get ready for AI-driven holiday shopping“, 16. September 2026 ([zum Beitrag](https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/)), „Google’s new Universal Cart launches today in the U.S.“, 15. Oktober 2026 ([zum Start](https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/)) und Merchant Center, „UCP integration hub“, zuletzt aktualisiert am 19. Oktober 2026 ([zur Dokumentation](https://developers.google.com/merchant/ucp/guides/tools/merchant-center/overview)), abgerufen am 1. November 2026 · Drittzählung: UCP Checker, „State of Agentic Commerce, October 2026“, Stand 30. Oktober 2026 ([zur Zählung](https://ucpchecker.com/blog/state-of-agentic-commerce-october-2026)) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026 ([zu TikTok](https://ads.tiktok.com/business/en-US/blog/tiktok-agentic-solutions)), abgerufen am 16. Oktober 2026 · [zu Googles Ankündigung](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · neue Councils laut Issues 922 und 947 im Repository Universal-Commerce-Protocol/ucp, gelesen am 12. November 2026 ([lokale Dienstleistungen](https://github.com/Universal-Commerce-Protocol/ucp/issues/922), [B2B-Beschaffung](https://github.com/Universal-Commerce-Protocol/ucp/issues/947)) · Google Kanada, 4. November 2026 ([zu Kanada](https://blog.google/intl/en-ca/products/explore-get-answers/a-new-way-to-shop-introducing-a-more-intuitive-agentic-shopping-experience-for-consumers-and-retailers-in-canada/)) · [Zur Quelle](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
-**Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Normung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen
 
@@ -120,7 +120,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Shopify, Hilfeseite „Shopify Knowledge Base“ und App-Store-Eintrag der App: eingeführt am 16. Mai 2025, kostenlos, Entwickler Shopify, 29 Bewertungen, Sprache Englisch · abgerufen am 21. September 2026 · [zum App-Store-Eintrag](https://apps.shopify.com/shopify-knowledge-base) · [Zur Quelle](https://help.shopify.com/en/manual/promoting-marketing/knowledge-base)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#shopify-knowledge-base
 
@@ -134,7 +134,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen ([zur AP2-Dokumentation](https://ap2-protocol.org/)) · abgerufen am 23. September 2026 · Übergabe von AP2 in Version 0.2 an die FIDO Alliance laut AP2-Website, abgerufen am 1. November 2026 · [Zur Quelle](https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/)
 
-**Einstufung:** Stand der Normung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Normung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-vollmacht-standard
 
@@ -148,7 +148,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Anthropic, Repository „Claude Commerce Agents“ (anthropics/commerce-agents), angelegt am 1. September 2026, Lizenz Apache 2.0 · README mit dem Hinweis zu Bestellungen, Freigaben und Verantwortung sowie den Konfigurationsfeldern brand_name, assistant_name und brand_voice · abgerufen am 23. September 2026 · [Zur Quelle](https://github.com/anthropics/commerce-agents)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#commerce-agent-freigabe
 
@@ -162,7 +162,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Shopify Help Center, „Shopify agentic storefronts“ und „Managing agentic storefronts“, ohne Datum, abgerufen am 30. September 2026 · [Managing agentic storefronts](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/agentic-home) · [Zur Quelle](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)
 
-**Einstufung:** Herstellerdokumentation · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Herstellerdokumentation · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#agentenkanal-voreinstellung
 
@@ -176,7 +176,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Yuxuan Li, Will Epperson, Wesley Deng und Zezhou Huang, „CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments“, arXiv 2609.27273, Fassung 2 vom 27. September 2026 (Fassung 1 vom 23. September), Preprint ohne Begutachtung · Kurzfassung gelesen am 30. September 2026 · [Zur Quelle](https://arxiv.org/abs/2609.27273)
 
-**Einstufung:** Kontrollierter Test, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-lenkung-marktplatz
 
@@ -190,7 +190,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Tim R. Davidson, Marija Šakota und Robert West (EPFL) sowie Joshua Joseph (Harvard University), „Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions“, arXiv 2610.17195, Fassung 1 vom 12. Oktober 2026, Preprint ohne Begutachtung · Volltext gelesen am 16. Oktober 2026 · [Zur Quelle](https://arxiv.org/abs/2610.17195)
 
-**Einstufung:** Kontrollierter Versuch, Preprint ohne Begutachtung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Experiment · nicht begutachtet · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agent-werbung-steuerung
 
@@ -204,7 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Maximilian Kaiser und Christian Schulze, „Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?“, Marketing Science 45 (4), online am 21. April 2026, Open Access, begutachtet im Frontiers-Verfahren der Zeitschrift · 973 Websites, zwölf Monate eigene Daten der Shops · Adobe Digital Insights, Vivek Pandya, 17. Juni 2026, über eine Billion Besuche auf US-Handelsseiten ([zu Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)), und 21. August 2025, Konversion im Juli 2025 ([zu Adobe 2025](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)) · abgerufen am 1. November 2026 · [Zur Quelle](https://doi.org/10.1287/mksc.2025.0489)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · begutachtet · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#chatgpt-verweise-konversion
 
@@ -218,7 +218,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Adobe Digital Insights, Vivek Pandya, „Generative AI-powered shopping rises with traffic to U.S. retail sites up 4,700%“, 21. August 2025, gemessen an Klicks auf einen Link · „AI traffic to travel sites soars nearly 200%“, 17. Juni 2026, Abschnitt zum Handel ([zu Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)) · abgerufen am 1. November 2026 · [Zur Quelle](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)
 
-**Einstufung:** Anbietermessung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-verweise-handel-wachstum
 
@@ -232,7 +232,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** ALDI Nord und ALDI SÜD, gemeinsame Pressemitteilung, „ALDI setzt auf den besten Preis für alle und verzichtet deshalb auf App-Rabatte“, Essen und Mülheim an der Ruhr, 20. Juli 2026 · abgerufen am 1. November 2026 · [Zur Quelle](https://www.aldi-sued.de/newsroom/alle-pressemitteilungen/unternehmen/2026/aldi-setzt-auf-den-besten-preis-fuer-alle-und-verzichtet-deshalb-auf-app-rabatte)
 
-**Einstufung:** Unternehmenserklärung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Fallbeispiel · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#aldi-ohne-app
 
@@ -246,7 +246,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Uber Technologies, Q3 2026 Earnings Call vom 4. November 2026, Corrected Transcript (FactSet CallStreet), S. 15 bis 17, Antworten von Dara Khosrowshahi und Balaji Krishnamurthy auf eine Frage von Doug Anmuth (JPMorgan) · gelesen am 16. November 2026 · [Zur Quelle](https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf)
 
-**Einstufung:** Unternehmensangabe, eine Woche · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agenten-buchungen-uber
 

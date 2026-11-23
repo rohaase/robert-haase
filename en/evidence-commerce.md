@@ -12,7 +12,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
 
-**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is and who produced it, from peer-reviewed study to self-report. The colour shows how far it carries.
 
 What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (5) → airline-direktkanal, shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
-+ Preliminary: prototype, single test, forecast, or vendor figure (4) → agenten-lenkung-marktplatz, agent-werbung-steuerung, ki-verweise-handel-wachstum, agenten-buchungen-uber
-+ Status, case report, or market observation (7) → checkout-rueckbau, walmart-verhandlung, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, aldi-ohne-app
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (4) → shopify-knowledge-base, commerce-agent-freigabe, agentenkanal-voreinstellung, chatgpt-verweise-konversion
++ Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (4) → walmart-verhandlung, agenten-lenkung-marktplatz, agent-werbung-steuerung, agenten-buchungen-uber
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (8) → checkout-rueckbau, airline-direktkanal, journey-start, kaufentscheidung, ucp-gremium-ohne-zahlen, agenten-vollmacht-standard, ki-verweise-handel-wachstum, aldi-ohne-app
 
 ---
 
@@ -36,7 +36,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** OpenAI, “Powering Product Discovery in ChatGPT”, 24 March 2026, on the initial version of Instant Checkout · Forrester, analysis of the Instant Checkout rollback, 7 March 2026, launch on 29 September 2025 ([Forrester](https://www.forrester.com/blogs/what-it-means-that-the-leader-in-agentic-commerce-just-pulled-back/)) · OpenAI Help Center, “Shopping with ChatGPT Search”, updated 30 October 2026, without Instant Checkout ([OpenAI Help Center](https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search)) · both OpenAI pages retrieved 1 November 2026 · Shopify Help Center, “Shopify agentic storefronts” ([Shopify Help Center](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)), retrieved 15 October 2026 · [Source](https://openai.com/index/powering-product-discovery-in-chatgpt/)
 
-**Grade:** Market observation · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#checkout-rueckbau
 
@@ -50,7 +50,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Bain & Company, test across three carriers, three language models, and 60 prompts · 16 March 2026 · [Source](https://www.bain.com/insights/is-the-airline-industry-ready-for-agent-led-bookings/)
 
-**Grade:** Controlled test · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · consultancy · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#airline-direktkanal
 
@@ -64,7 +64,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Pactum figures via Bloomberg, April 2023 · closing rate: Harvard Business Review, November 2022 · [Source](https://www.engadget.com/walmarts-suppliers-would-rather-negotiate-with-ai-than-a-human-162131831.html)
 
-**Grade:** Vendor and company figures · Group: Status, case report, or market observation
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#walmart-verhandlung
 
@@ -78,7 +78,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Bain & Company, Consumer Lab survey, US · November 2025 · the May 2026 insights page states around 30 percent · holiday survey 2026 with ROI Rocket, 1,105 US online shoppers, August 2026, published 3 September 2026 ([2026 survey](https://www.bain.com/insights/2026-holiday-shopping-outlook-infographic/)), retrieved 15 October 2026 · NIQ, press release “55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey”, 7 October 2026 ([press release](https://nielseniq.com/global/en/news-center/2026/consumer-outlook-55-percent-of-consumers-now-use-ai-during-product-discovery/)), retrieved 16 October 2026 · [Source](https://www.bain.com/about/media-center/press-releases/20252/agentic-ai-poised-to-disrupt-retail-even-with-50-of-consumers-cautious-of-fully-autonomous-purchasesbain--company/)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · consultancy · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#journey-start
 
@@ -92,7 +92,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Gartner, survey of 322 US consumers in January 2026 · published 27 May 2026 · Europe: Deloitte, study “The State of Agentic Commerce in Europe”, German press release “Jeder Zweite in Europa shoppt mit KI-Unterstützung”, 13 July 2026, online survey of 13,500 consumers in 15 countries in May 2026, retrieved 20 October 2026 ([Deloitte](https://www.deloitte.com/de/de/about/press-room/jeder-zweite-in-europa-shoppt-mit-KI-untersuetzung.html)) · [Source](https://www.gartner.com/en/newsroom/press-releases/2026-05-27-gartner-survey-finds-consumers-want-ai-shopping-help-but-not-ai-purchase-decisions)
 
-**Grade:** Survey · Group: Status, case report, or market observation
+**Grade:** Survey · analyst firm · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#kaufentscheidung
 
@@ -106,7 +106,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Universal Commerce Protocol, project repository, announcement of new Tech Council members, 24 April 2026 · Google, “Universal Cart”, 19 May 2026 and “UCP updates”, 19 March 2026, neither with an adoption figure · Google, “Retailers: Get ready for AI-driven holiday shopping”, 16 September 2026 ([post](https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/)), “Google’s new Universal Cart launches today in the U.S.”, 15 October 2026 ([launch](https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/)) and Merchant Center, “UCP integration hub”, last updated 19 October 2026 ([documentation](https://developers.google.com/merchant/ucp/guides/tools/merchant-center/overview)), retrieved 1 November 2026 · third-party count: UCP Checker, “State of Agentic Commerce, October 2026”, as of 30 October 2026 ([to the count](https://ucpchecker.com/blog/state-of-agentic-commerce-october-2026)) · councils per MAINTAINERS.md and GOVERNANCE.md in the Universal-Commerce-Protocol/.github repository, retrieved 21 September 2026 · TikTok for Business, “From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action”, 5 October 2026 ([to TikTok](https://ads.tiktok.com/business/en-US/blog/tiktok-agentic-solutions)), retrieved 16 October 2026 · [to Google’s announcement](https://blog.google/products-and-platforms/products/shopping/google-shopping-cart/) · new councils per issues 922 and 947 in the Universal-Commerce-Protocol/ucp repository, read 12 November 2026 ([local services](https://github.com/Universal-Commerce-Protocol/ucp/issues/922), [B2B procurement](https://github.com/Universal-Commerce-Protocol/ucp/issues/947)) · Google Canada, 4 November 2026 ([Canada](https://blog.google/intl/en-ca/products/explore-get-answers/a-new-way-to-shop-introducing-a-more-intuitive-agentic-shopping-experience-for-consumers-and-retailers-in-canada/)) · [Source](https://github.com/Universal-Commerce-Protocol/ucp/discussions/379)
 
-**Grade:** Standards status · Group: Status, case report, or market observation
+**Grade:** Standardisation · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ucp-gremium-ohne-zahlen
 
@@ -120,7 +120,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Shopify, help page “Shopify Knowledge Base” and the app’s App Store listing: launched 16 May 2025, free, developer Shopify, 29 reviews, language English · retrieved 21 September 2026 · [to the App Store listing](https://apps.shopify.com/shopify-knowledge-base) · [Source](https://help.shopify.com/en/manual/promoting-marketing/knowledge-base)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#shopify-knowledge-base
 
@@ -134,7 +134,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** FIDO Alliance, “FIDO Alliance to Develop Standards for Trusted AI Agent Interactions”, 28 April 2026: Agentic Authentication working group chaired by members from CVS Health, Google and OpenAI, vice-chaired by Amazon, Google and Okta; Payments working group chaired by Mastercard and Visa · Agent Payments Protocol, documentation on checkout and payment mandates as signed credentials ([to the AP2 documentation](https://ap2-protocol.org/)) · retrieved 23 September 2026 · handover of AP2 version 0.2 to the FIDO Alliance per the AP2 website, retrieved 1 November 2026 · [Source](https://fidoalliance.org/fido-alliance-to-develop-standards-for-trusted-ai-agent-interactions/)
 
-**Grade:** State of standardization · Group: Status, case report, or market observation
+**Grade:** Standardisation · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-vollmacht-standard
 
@@ -148,7 +148,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Anthropic, repository “Claude Commerce Agents” (anthropics/commerce-agents), created 1 September 2026, Apache 2.0 licence · README with the note on orders, approvals and responsibility and the configuration fields brand_name, assistant_name and brand_voice · retrieved 23 September 2026 · [Source](https://github.com/anthropics/commerce-agents)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#commerce-agent-freigabe
 
@@ -162,7 +162,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Shopify Help Center, “Shopify agentic storefronts” and “Managing agentic storefronts”, undated, retrieved 30 September 2026 · [Managing agentic storefronts](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts/agentic-home) · [Source](https://help.shopify.com/en/manual/online-sales-channels/agentic-storefronts)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agentenkanal-voreinstellung
 
@@ -176,7 +176,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Yuxuan Li, Will Epperson, Wesley Deng and Zezhou Huang, “CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments”, arXiv 2609.27273, version 2 of 27 September 2026 (version 1 of 23 September), preprint without peer review · abstract read 30 September 2026 · [Source](https://arxiv.org/abs/2609.27273)
 
-**Grade:** Controlled test, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-lenkung-marktplatz
 
@@ -190,7 +190,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Tim R. Davidson, Marija Šakota and Robert West (EPFL) and Joshua Joseph (Harvard University), “Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions”, arXiv 2610.17195, version 1 of 12 October 2026, preprint without peer review · full text read 16 October 2026 · [Source](https://arxiv.org/abs/2610.17195)
 
-**Grade:** Controlled experiment, preprint without peer review · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Experiment · not peer-reviewed · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agent-werbung-steuerung
 
@@ -204,7 +204,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Maximilian Kaiser and Christian Schulze, “Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?”, Marketing Science 45 (4), online 21 April 2026, open access, peer-reviewed through the journal’s Frontiers process · 973 websites, twelve months of the shops’ own data · Adobe Digital Insights, Vivek Pandya, 17 June 2026, more than one trillion visits to US retail sites ([Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)), and 21 August 2025, conversion in July 2025 ([Adobe 2025](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)) · retrieved 1 November 2026 · [Source](https://doi.org/10.1287/mksc.2025.0489)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-verweise-konversion
 
@@ -218,7 +218,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Adobe Digital Insights, Vivek Pandya, “Generative AI-powered shopping rises with traffic to U.S. retail sites up 4,700%”, 21 August 2025, measured by clicks on a link · “AI traffic to travel sites soars nearly 200%”, 17 June 2026, section on retail ([Adobe 2026](https://business.adobe.com/blog/adobe-report-ai-traffic-travel-sites-surges-200-percent)) · retrieved 1 November 2026 · [Source](https://business.adobe.com/blog/generative-ai-powered-shopping-rises-with-traffic-to-retail-sites)
 
-**Grade:** Vendor measurement · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#ki-verweise-handel-wachstum
 
@@ -232,7 +232,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** ALDI Nord and ALDI SÜD, joint press release, “ALDI setzt auf den besten Preis für alle und verzichtet deshalb auf App-Rabatte”, Essen and Mülheim an der Ruhr, 20 July 2026, in German · retrieved 1 November 2026 · [Source](https://www.aldi-sued.de/newsroom/alle-pressemitteilungen/unternehmen/2026/aldi-setzt-auf-den-besten-preis-fuer-alle-und-verzichtet-deshalb-auf-app-rabatte)
 
-**Grade:** Company statement · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#aldi-ohne-app
 
@@ -246,7 +246,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Uber Technologies, Q3 2026 earnings call of 4 November 2026, corrected transcript (FactSet CallStreet), pp. 15 to 17, answers by Dara Khosrowshahi and Balaji Krishnamurthy to a question from Doug Anmuth (JPMorgan) · read 16 November 2026 · [Source](https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf)
 
-**Grade:** Company statement, one week · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-buchungen-uber
 

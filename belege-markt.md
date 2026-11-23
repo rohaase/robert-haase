@@ -12,7 +12,7 @@ Diese Datei wird aus der Seite erzeugt. Weichen beide voneinander ab, gilt die S
 
 Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.
 
-**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.
+**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.
 
 Was der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.
 
@@ -22,9 +22,9 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ## Einstufung in diesem Thema
 
-+ Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung (3) → ki-nutzung-deutschland, ki-anteil-artikel, reddit-lizenzerloese
-+ Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe (12) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, ki-verkehrsanteil, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
-+ Sachstand, Fallbericht oder Marktbeobachtung (9) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
++ Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (2) → ki-nutzung-deutschland, reddit-lizenzerloese
++ Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (11) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
 
 ---
 
@@ -36,7 +36,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Gartner, CEO-Befragung, zitiert in der Reihe Think Again · Archivstand Juli 2026 · [Zur Quelle](https://www.gartner.com/en/experts/think-again-series/machine-customers)
 
-**Einstufung:** Selbsteinschätzung, Prognose · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Prognose · befragte Vorstände · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#machine-customers
 
@@ -50,7 +50,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · Google, „Google’s Gemini app hits 1 billion monthly active users“, 11. August 2026 ([zur Gemini-App](https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/)), abgerufen am 1. November 2026 · [Rückblick auf den DevDay 2026](https://openai.com/de-DE/index/devday-2026-recap/) · [Google-Blogbeitrag](https://blog.google/products-and-platforms/products/search/search-io-2026/) · [Zur Quelle](https://openai.com/index/devday-2026-recap/)
 
-**Einstufung:** Anbieterangaben · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#marktgroesse
 
@@ -64,7 +64,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Statistisches Bundesamt, Erhebung zur Nutzung von IKT in Unternehmen, Unternehmen ab 10 Beschäftigten · November 2025 · [Zur Quelle](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/IKT-in-Unternehmen-IKT-Branche/Tabellen/ikti-unternehmen-kuenstliche-intelligenz.html)
 
-**Einstufung:** Amtliche Statistik · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Amtliche Statistik · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-nutzung-deutschland
 
@@ -78,7 +78,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · Cloudflare, „The Internet has a second audience“, 30. September 2026 ([zum Beitrag](https://blog.cloudflare.com/agentic-web/)) · Cloudflare Radar, AI Insights, Reihen „HTML page requests by client type“ und „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 ([zu Cloudflare Radar](https://radar.cloudflare.com/ai-insights)) · Prognose: Cloudflare, Telefonkonferenz zum zweiten Quartal 2026, 6. August 2026, Antwort von Matthew Prince in der Fragerunde, nach dem Transkript eines Drittanbieters ([zum Transkript](https://allmind.ai/earnings/event/2942445)), abgerufen am 1. November 2026 · [Zur Quelle](https://blog.cloudflare.com/agentic-internet-bot-report/)
 
-**Einstufung:** Marktbeobachtung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#nicht-menschlicher-verkehr
 
@@ -92,7 +92,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025, erhebende Stelle für beide Zahlen · Linux Foundation, Pressemitteilung zur Gründung der Agentic AI Foundation, 9. Dezember 2025, für die Mitgliederliste ([Pressemitteilung](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation)) · eigene Gegenprobe am offiziellen Verzeichnis registry.modelcontextprotocol.io am 10. September 2026 · MCP-Blog, Beitrag zur Spezifikation vom 28. Juli 2026, David Soria Parra und Den Delimarsky ([zum MCP-Blog](https://blog.modelcontextprotocol.io/posts/2026-07-28/)), abgerufen am 1. November 2026 · [Zur Quelle](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
 
-**Einstufung:** Anbieterangaben · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#mcp-verbreitung
 
@@ -106,7 +106,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Morgan Stanley Research, „Here Come the Shopping Bots“, Hausprognose zum US-Onlinehandel · 8. Dezember 2025 · Bain & Company, Snap Chart „2030 Forecast: How Agentic AI Will Reshape US Retail“ von Aaron Cheris, Mikey Vu, Stephanie Koszyk und Katherine Hall, Hausprognose zum US-Onlinehandel · 17. Dezember 2025 · bain.com weist automatisierte Abrufe ab, am 10. September 2026 mit HTTP 403, gelesen in der Archivfassung vom 17. Dezember 2025 · [Archivfassung](https://web.archive.org/web/20251217213656/https://www.bain.com/insights/2030-forecast-how-agentic-ai-will-reshape-us-retail-snap-chart/) · [Zur Quelle](https://www.morganstanley.com/insights/articles/agentic-commerce-market-impact-outlook)
 
-**Einstufung:** Hausprognosen, nicht vergleichbar · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Prognose · nicht vergleichbar · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#agentenhandel-2030
 
@@ -120,7 +120,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 11, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 35 und 44 · Werte für generative KI vom Frühjahr und Herbst 2024 (7,0 und 11,1 Prozent) im Highlights Report Fall 2024, Seite 34 · [Highlights Report Fall 2024](https://cmosurvey.org/wp-content/uploads/2024/11/The_CMO_Survey-Highlights_and_Insights_Report-Fall_2024.pdf) · [Breakout Report](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Firm_and_Industry_Breakout_Report-2026-1.pdf) · [Zur Quelle](https://cmosurvey.org/wp-content/uploads/2026/04/The_CMO_Survey-Highlights_and_Insights_Report-2026.pdf)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Hochschule · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#cmo-ki-anteil
 
@@ -134,7 +134,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** TRUE Global Intelligence (FleishmanHillard) im Auftrag von Splunk, The State of Dark Data, 1.357 Befragte aus IT und Fachbereich in sieben Ländern · erhoben Oktober 2018 bis Januar 2019, Bericht Mai 2019 · [Zur Quelle](https://www.splunk.com/content/dam/splunk2/en_us/gated/white-paper/the-state-of-dark-data.pdf)
 
-**Einstufung:** Wird meist falsch zitiert · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Befragung · Anbieter, meist falsch zitiert · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#dark-data-55
 
@@ -148,7 +148,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** The CMO Survey, 35. Ausgabe, erhoben an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · Topline Report 2026, Seite 12, Antwortoption „GEO (i.e., Generative Engine Optimization to get content to appear in AI-generated search results)“: 78 von 188 Fällen, 41,5 Prozent, plus/minus 7,1 Prozentpunkte · 308 Antwortende von 2.111 angeschriebenen Marketingverantwortlichen US-amerikanischer For-Profit-Unternehmen · Feldzeit 7. bis 29. Januar 2026 · beim Nachschlagen aufpassen: Die Zeile darüber, „Predictive analytics for customer insights“, trägt denselben Wert von 41,5 Prozent bei ebenfalls 78 Fällen · [Zur Quelle](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Hochschule · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#geo-verbreitung
 
@@ -162,7 +162,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Association of National Advertisers, Mitgliederbefragung „The Continued Rise of the In-House Agency: 2023 Edition“, 162 Antwortende, erhoben im Februar und März 2023 · Pressemitteilung vom 2. Mai 2023, der Bericht selbst liegt hinter der Mitgliederschranke · Vergleichswerte und Basisangaben aus dem Vorgängerbericht vom Oktober 2018, 412 Antwortende, 57 Seiten · [Vorgängerbericht](https://www.ana.net/content/show/id/pr-2018-inhouse-rising) · [Zur Quelle](https://www.ana.net/content/show/id/79185)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Verband · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#in-house-verlagerung
 
@@ -176,7 +176,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Graphite, Wachstumsagentur · rund 55.400 zufällig aus Common Crawl gezogene englischsprachige Artikel mit Artikel-Markup und mindestens 100 Wörtern, veröffentlicht zwischen Januar 2020 und März 2026 · Klassifizierung als Mittelwert aus drei Detektoren (Pangram, Copyleaks, GPTZero), deren Falsch-Positiv-Raten von 1,844, 1,836 und 1,355 Prozent an rund 15.700 vor ChatGPT erschienenen Artikeln derselben Stichprobe gemessen wurden · Quartalsdaten offen einsehbar · Mai 2026 · [Zur Quelle](https://graphite.io/five-percent/research/ai-now-writes-as-many-online-articles-as-humans-do)
 
-**Einstufung:** Geprüfte Erhebung · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-anteil-artikel
 
@@ -190,7 +190,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, über 3,3 Milliarden Sessions, davon 35,7 Millionen aus Sprachmodellen und Chatbots, Mai bis September 2025 · Stand 6. Juli 2026 · Marie Haynes, „GEO is a distraction“, 21. Oktober 2026, 100 Websites, über 145 Millionen Sitzungen, zwölf Monate ohne genauen Zeitraum ([zu Marie Haynes](https://mariehaynes.com/geo-is-a-distraction/)), abgerufen am 1. November 2026 · [Zur Quelle](https://www.semrush.com/blog/traffic-channel-mix-study/)
 
-**Einstufung:** Drei Anbietermessungen · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-verkehrsanteil
 
@@ -204,7 +204,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Netcraft, Leitfaden zu Erkennung und Störung von Phishing-Seiten, eigene Vorgänge des Anbieters von März 2024 bis März 2025 · 12. Dezember 2025, zuletzt geändert 12. März 2026 · [Zur Quelle](https://www.netcraft.com/guide/phishing-website-detection-disruption)
 
-**Einstufung:** Anbieterangaben · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#markenklone
 
@@ -218,7 +218,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Graphite (Ethan Smith) · Auswertung von Similarweb-Schätzdaten zu Web-Besuchen und App-Sitzungen weltweit, Juli 2020 bis Dezember 2025, Rohdaten offen · März 2026 · [Zur Quelle](https://graphite.io/five-percent/research/ai-is-much-bigger-than-you-think)
 
-**Einstufung:** Marktbeobachtung auf Schätzdaten · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Anbieter, Schätzdaten · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#suchmarkt-wachstum
 
@@ -232,7 +232,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** GWA KI-Whitepaper 2026, Teil „KI-Studien“, Frage 6 · 170 Führungskräfte aus deutschen Unternehmen mit Budget- und Entscheidungsverantwortung · 1. bis 9. April 2026 · deskriptive Online-Befragung mit Selbstauskünften · Durchführung Handelsblatt Research Institute und techconsult in Zusammenarbeit mit dem GWA · [Zur Quelle](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Verband · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#insourcing-absicht
 
@@ -246,7 +246,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** GWA KI-Whitepaper 2026, Teil „KI-Studien“ · 78 Führungskräfte aus GWA-Mitgliedsagenturen · 12. Februar bis 6. März 2026 · deskriptive Online-Befragung mit Selbstauskünften · Herausgeber GWA Tech & Innovation Forum · Fragen: „Wie würden Sie den aktuellen Reifegrad Ihrer Agentur in Bezug auf KI einstufen?“ und „Wie schätzen Sie den aktuellen durchschnittlichen Wissensstand zu KI-Anwendungen in der gesamten Agenturbranche im DACH-Raum ein?“ · [Zur Quelle](https://www.gwa.de/content/uploads/2026/09/GWA-KI-Whitepaper-2026-KI-Studien.pdf)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Verband · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#agentur-selbstbild
 
@@ -260,7 +260,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Forrester, Ian Bruce, „New Analysis Suggests The CMO’s Role In The Fortune 500 Is At A Crossroads“, Blogbeitrag vom 7. Juli 2026, dritte jährliche Auswertung · vollständiger Bericht „The Representation And Tenure Of Fortune 500 CMOs in 2026“ nur für Kunden · abgerufen am 23. September 2026 · [Zur Quelle](https://www.forrester.com/blogs/new-analysis-suggests-the-cmo-role-in-the-fortune-500-is-at-a-crossroads/)
 
-**Einstufung:** Analystenauswertung, Methode nicht offen · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Messung · Analysehaus, Methode nicht offen · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#cmo-titel-schwindet
 
@@ -274,7 +274,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Adobe, Pressemitteilung „Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY“, 28. September 2026 · Grundlage laut Adobe: Adobe Analytics mit mehr als einer Billion Besuchen auf US-Händlerseiten, 100 Millionen Artikelnummern und 18 Produktkategorien, dazu eine Befragung von 5.000 Verbrauchern im Juli 2026 · abgerufen am 28. September 2026 · [Adobe zum LLM Optimizer, 20. April 2026](https://news.adobe.com/news/2026/04/adobe-introduces-brand-visibility-solution) · [Zur Quelle](https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record)
 
-**Einstufung:** Prognose und Befragung des Anbieters · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Prognose · Anbieter · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#ki-verkehr-handel-prognose
 
@@ -288,7 +288,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Pew Research Center, Michelle Faverio, „Why Don’t Some People Use Chatbots?“, 9. Oktober 2026 · American Trends Panel, 5.119 US-Erwachsene, befragt vom 17. bis 23. Februar 2026 · abgerufen am 15. Oktober 2026 · [Zur Quelle](https://www.pewresearch.org/short-reads/2026/10/09/why-dont-some-people-use-chatbots/)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Institut · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#chatbot-nichtnutzung
 
@@ -302,7 +302,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Gartner, Pressemitteilung „Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities“, London, 11. Mai 2026 · CMO Spend Survey 2026, 401 Marketingverantwortliche in Nordamerika, Großbritannien und Europa, Januar bis März 2026 · abgerufen am 20. Oktober 2026 · [Zur Quelle](https://www.gartner.com/en/newsroom/press-releases/2026-05-11-gartner-2026-cmo-spend-survey-finds-cmos-allocate-15-point-3-percent-of-marketing-budgets-to-ai-but-only-30-percent-are-ready-to-scale-ai-capabilities)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Analysehaus · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#cmo-ki-budget
 
@@ -316,7 +316,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** McKinsey, Aurélia Bettati, Jesko Perrey u. a., „Past forward: The modern rethinking of marketing’s core“, Bericht State of Marketing Europe 2026, 20. November 2025 · Befragung von 500 Marketingentscheidern in fünf Ländern, ergänzt um Experteninterviews, Methodik im Kasten „About our research“ · abgerufen am 20. Oktober 2026 · [Zur Quelle](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/our-insights/past-forward-the-modern-rethinking-of-marketings-core)
 
-**Einstufung:** Befragung · Gruppe: Sachstand, Fallbericht oder Marktbeobachtung
+**Einstufung:** Befragung · Beratung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
 
 **Direktlink:** https://robert-haase.de/belege.html#marketing-prioritaeten
 
@@ -330,7 +330,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Reddit, Inc., Form 10-K für das Geschäftsjahr 2025, Februar 2026, Anhang zum Umsatz (sonstige Erlöse 140,0 Millionen Dollar, Gesamtumsatz 2,2 Milliarden) und Risikofaktoren zu den Lizenzen · Reuters, Anna Tong, Echo Wang und Martin Coulter, „Exclusive: Reddit in AI content licensing deal with Google, sources say“, 22. Februar 2024, übernommen bei Yahoo ([zum Reuters-Bericht](https://tech.yahoo.com/ai/articles/exclusive-reddit-ai-content-licensing-041012503.html)) · abgerufen am 1. November 2026 · [Zur Quelle](https://www.sec.gov/Archives/edgar/data/1713445/000171344526000022/rddt-20251231.htm)
 
-**Einstufung:** Geprüfter Jahresabschluss · Gruppe: Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung
+**Einstufung:** Jahresabschluss · testiert · Gruppe: Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation
 
 **Direktlink:** https://robert-haase.de/belege.html#reddit-lizenzerloese
 
@@ -344,7 +344,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Pablo Villalobos, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim und Marius Hobbhahn, „Will we run out of data? Limits of LLM scaling based on human-generated data“, Epoch AI, 6. Juni 2024, arXiv 2211.04325 · abgerufen am 1. November 2026 · [Zur Quelle](https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data)
 
-**Einstufung:** Prognose, Modellrechnung · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Prognose · Institut · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#trainingsdaten-vorrat
 
@@ -358,7 +358,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 **Quelle:** Christian W., Head of Brand Design bei Block, LinkedIn-Beitrag vom 11. November 2026, geprüft am 12. November 2026 · [Zur Quelle](https://www.linkedin.com/posts/widlic_excited-to-finally-share-brand-hub-it-brings-ugcPost-7526395419313225729-yZJn/)
 
-**Einstufung:** Eigenangabe, Einzelfall · Gruppe: Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe
+**Einstufung:** Selbstauskunft · Gruppe: Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert
 
 **Direktlink:** https://robert-haase.de/belege.html#block-brand-hub
 

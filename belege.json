@@ -7,7 +7,7 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-23T21:20:50+01:00",
+  "dateModified": "2026-11-23T21:57:50+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
@@ -63,18 +63,10 @@
       ],
       "groups": {
         "strong": [
-          "llmstxt-abrufe",
-          "llmstxt-wirkung",
           "google-leitfaden",
-          "mentions-vs-backlinks",
-          "inkonsistenz",
-          "pew-klicks",
-          "aio-klickrate",
-          "seer-klickrate",
-          "ebu-nachrichten"
+          "pew-klicks"
         ],
         "weak": [
-          "json-ld-test",
           "reddit-zitate",
           "geo-40-prozent",
           "aio-top10-uneinig",
@@ -85,16 +77,24 @@
           "abruf-vor-inhalt",
           "ki-suche-vielfalt",
           "agenten-ueberschriften",
-          "ki-zitate-ausserhalb-top10",
+          "govuk-chat",
           "aio-klicks-feldexperiment",
           "wikipedia-aio-rueckgang"
         ],
         "plain": [
+          "llmstxt-abrufe",
+          "llmstxt-wirkung",
+          "json-ld-test",
+          "mentions-vs-backlinks",
+          "inkonsistenz",
+          "aio-klickrate",
+          "seer-klickrate",
+          "ebu-nachrichten",
           "llmstxt-nutzen",
           "crawl-verweis-verhaeltnis",
           "aio-markensuchen",
           "chatgpt-suchanfragen",
-          "govuk-chat",
+          "ki-zitate-ausserhalb-top10",
           "ki-informationssuche-reuters",
           "aio-deutschland-keywords"
         ]
@@ -135,19 +135,10 @@
       "groups": {
         "strong": [
           "leere-buttons",
-          "javascript",
           "lighthouse",
           "a11y-tree",
-          "dax-zutritt",
-          "dax-benennung",
-          "dax-landmarken",
-          "dax-bilder",
-          "verlage-robots",
-          "marken-robots",
-          "agenten-erfolg",
-          "rechtsvorbehalt-kommentar",
           "lighthouse-agent-discovery",
-          "content-signal-selten",
+          "agenten-wissensarbeit",
           "dots-freigaberegeln"
         ],
         "weak": [
@@ -160,8 +151,17 @@
           "agenten-eskalation-erstattung"
         ],
         "plain": [
+          "javascript",
           "aipref",
-          "agenten-wissensarbeit",
+          "dax-zutritt",
+          "dax-benennung",
+          "dax-landmarken",
+          "dax-bilder",
+          "verlage-robots",
+          "marken-robots",
+          "agenten-erfolg",
+          "rechtsvorbehalt-kommentar",
+          "content-signal-selten",
           "agenten-zeithorizont"
         ]
       }
@@ -202,18 +202,15 @@
       "groups": {
         "strong": [
           "astryx-agenten",
-          "designsysteme-maschinenschnittstelle",
           "frontify-mcp",
           "canva-mcp",
           "mcp-tool-poisoning",
-          "pulumi-brand-mcp",
           "statista-mcp",
           "google-ads-textregeln",
           "microsoft-brand-kit",
           "muse-connectors",
           "adobe-markenpruefung",
           "markup-ai-stilpruefung",
-          "markenstimme-als-skill",
           "chatgpt-plugin-pruefung",
           "chatgpt-anzeigen-umschreiben",
           "open-source-aufgegeben"
@@ -222,11 +219,14 @@
           "monotype-mcp",
           "veeva-mlr",
           "olivares-access-map",
+          "markenstimme-als-skill",
           "webmcp-angeboten-kaum-abgefragt"
         ],
         "plain": [
+          "designsysteme-maschinenschnittstelle",
           "gitlab-markenrepo",
           "mcp-primitive",
+          "pulumi-brand-mcp",
           "agentenstandards-verbreitung",
           "staat-als-einzige-quelle",
           "mcp-server-cards",
@@ -259,25 +259,25 @@
       ],
       "groups": {
         "strong": [
-          "airline-direktkanal",
           "shopify-knowledge-base",
           "commerce-agent-freigabe",
           "agentenkanal-voreinstellung",
           "chatgpt-verweise-konversion"
         ],
         "weak": [
+          "walmart-verhandlung",
           "agenten-lenkung-marktplatz",
           "agent-werbung-steuerung",
-          "ki-verweise-handel-wachstum",
           "agenten-buchungen-uber"
         ],
         "plain": [
           "checkout-rueckbau",
-          "walmart-verhandlung",
+          "airline-direktkanal",
           "journey-start",
           "kaufentscheidung",
           "ucp-gremium-ohne-zahlen",
           "agenten-vollmacht-standard",
+          "ki-verweise-handel-wachstum",
           "aldi-ohne-app"
         ]
       }
@@ -370,7 +370,6 @@
       "groups": {
         "strong": [
           "ki-nutzung-deutschland",
-          "ki-anteil-artikel",
           "reddit-lizenzerloese"
         ],
         "weak": [
@@ -379,7 +378,6 @@
           "mcp-verbreitung",
           "agentenhandel-2030",
           "dark-data-55",
-          "ki-verkehrsanteil",
           "markenklone",
           "suchmarkt-wachstum",
           "cmo-titel-schwindet",
@@ -392,6 +390,8 @@
           "cmo-ki-anteil",
           "geo-verbreitung",
           "in-house-verlagerung",
+          "ki-anteil-artikel",
+          "ki-verkehrsanteil",
           "insourcing-absicht",
           "agentur-selbstbild",
           "chatbot-nichtnutzung",
@@ -436,29 +436,29 @@
           "jagged-frontier",
           "homogenisierung",
           "sykophanz",
-          "cowan-standards",
-          "kompetenz-nivellierung",
           "boussioux-neuheit-wert",
           "unverwechselbare-markenelemente",
-          "synthetische-befragte"
+          "synthetische-befragte",
+          "bildschleifen-motive"
         ],
         "weak": [
+          "strategie-trendslop",
+          "drei-arbeitsweisen",
           "agent-lenkt-urteil"
         ],
         "plain": [
-          "strategie-trendslop",
           "markenspezifikation-wirkung",
+          "cowan-standards",
           "foresight-performance",
           "prognose-mensch-maschine",
           "prognose-assistenz",
           "abbott-zustaendigkeit",
           "esposito-kommunikation",
-          "drei-arbeitsweisen",
+          "kompetenz-nivellierung",
           "aufwand-statt-koennen",
           "mintzberg-muster",
           "wahrgenommene-differenzierung",
-          "de-skilling",
-          "bildschleifen-motive"
+          "de-skilling"
         ]
       }
     }
@@ -466,21 +466,21 @@
   "gradeGroups": [
     {
       "id": "strong",
-      "name": "Geprüfte Erhebung, Herstellerdokumentation oder Gerichtsentscheidung"
+      "name": "Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation"
     },
     {
       "id": "weak",
-      "name": "Vorläufig: Prototyp, Einzeltest, Prognose oder Anbieterangabe"
+      "name": "Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert"
     },
     {
       "id": "plain",
-      "name": "Sachstand, Fallbericht oder Marktbeobachtung"
+      "name": "Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung"
     }
   ],
   "method": {
     "name": "Wie diese Sammlung entsteht",
     "encodingFormat": "text/markdown",
-    "text": "Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.\n\n**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist, von der geprüften Erhebung bis zum Einzelfall. Davon hängt ab, wie weit sie trägt.\n\nWas der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.\n\nDiese Seite altert. Jeder Eintrag trägt sein Datum, überholte Zahlen werden ersetzt und nicht still gelöscht. Wenn du einen Fehler findest: [schreib mir](mailto:hallo@robert-haase.de), ich korrigiere und vermerke das Datum.\n\nDie Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich für eigene Texte gebraucht habe. Verwendung frei mit Quellenangabe. Verlinke im Zweifel die Primärquelle, nicht diese Seite."
+    "text": "Jede Zahl wird bis zu der Stelle zurückverfolgt, die sie erhoben hat, nicht bis zu dem Artikel, der sie zitiert. Auf dem Weg durch die Weitergaben verlieren Zahlen zuerst ihre Bezugsgröße, dann ihre Einschränkung, zuletzt ihre Herkunft. Ist eine Zahl nur über einen Dritten zugänglich, steht dieser Mittler in der Quellenzeile. Eigene Messungen tragen ihre Methode mit, unabhängig gegengeprüft sind sie bisher nicht.\n\n**Die Grenze gehört zur Zahl.** Der häufigste Fehler ist nicht die falsche Zahl, sondern die richtige mit einer Aussage, die weiter geht als der Beleg. Deshalb hat jeder Eintrag zwei Teile, und der zweite ist der wichtigere. Über jeder Zahl steht, was für ein Beleg sie ist und wer ihn erhoben hat, von der begutachteten Studie bis zur Selbstauskunft. Die Farbe zeigt, wie weit sie trägt.\n\nWas der Prüfung nicht standhält, kommt nicht herein oder wieder heraus, auch aus meinen eigenen Artikeln. In einem davon stand, 44 Prozent der US-Onlinekäufer begännen ihre Kaufreise im Sprachmodell, zugeschrieben an Bain. Bain nennt zwei andere Zahlen, 17 Prozent und 30 bis 45 Prozent, die unterwegs zu einer verschmolzen waren. Beide stehen jetzt hier, die 44 nicht.\n\nDiese Seite altert. Jeder Eintrag trägt sein Datum, überholte Zahlen werden ersetzt und nicht still gelöscht. Wenn du einen Fehler findest: [schreib mir](mailto:hallo@robert-haase.de), ich korrigiere und vermerke das Datum.\n\nDie Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich für eigene Texte gebraucht habe. Verwendung frei mit Quellenangabe. Verlinke im Zweifel die Primärquelle, nicht diese Seite."
   },
   "claims": [
     {
@@ -498,8 +498,8 @@
       "url": "https://robert-haase.de/belege.html#llmstxt-abrufe",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Ahrefs, 137.210 Domains, davon 28 Prozent mit llms.txt · Juni 2026 · Zur Quelle",
       "sourceLinks": [
@@ -525,8 +525,8 @@
       "url": "https://robert-haase.de/belege.html#llmstxt-wirkung",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "SE Ranking, knapp 300.000 Domains, davon 10,13 Prozent mit llms.txt · November 2025 · Zur Quelle",
       "sourceLinks": [
@@ -579,8 +579,8 @@
       "url": "https://robert-haase.de/belege.html#json-ld-test",
       "topic": "ki-suche",
       "grade": {
-        "name": "Einzelner Test",
-        "group": "weak"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Ahrefs, 1.885 Seiten gegen 4.000 gematchte Kontrollseiten, Ergänzungen zwischen August 2025 und März 2026 · Mai 2026 · Zur Quelle",
       "sourceLinks": [
@@ -606,8 +606,8 @@
       "url": "https://robert-haase.de/belege.html#mentions-vs-backlinks",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Ahrefs, Korrelationsanalyse über 75.000 Marken in ChatGPT, Google AI Mode und AI Overviews · Dezember 2025 · Zur Quelle",
       "sourceLinks": [
@@ -633,8 +633,8 @@
       "url": "https://robert-haase.de/belege.html#inkonsistenz",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Experiment · Anbieter",
+        "group": "plain"
       },
       "sourceText": "SparkToro mit Gumshoe.ai, 600 Teilnehmende, 12 Fragestellungen, 2.961 Durchläufe in ChatGPT, Claude und Google AI · Januar 2026 · Zur Quelle",
       "sourceLinks": [
@@ -660,7 +660,7 @@
       "url": "https://robert-haase.de/belege.html#pew-klicks",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
+        "name": "Messung · Institut",
         "group": "strong"
       },
       "sourceText": "Pew Research Center, passives Browser-Tracking bei 900 US-Erwachsenen, 68.879 Google-Suchen im März 2025 · Juli 2025 · Zur Quelle",
@@ -687,8 +687,8 @@
       "url": "https://robert-haase.de/belege.html#aio-klickrate",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Ahrefs, Ryan Law, 300.000 Keywords, davon 150.000 mit und 150.000 ohne KI-Zusammenfassung, Daten aus Dezember 2025 · 4. Februar 2026 · Zur Quelle",
       "sourceLinks": [
@@ -714,8 +714,8 @@
       "url": "https://robert-haase.de/belege.html#seer-klickrate",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Seer Interactive, 3.119 Suchbegriffe über 42 Organisationen, 25,1 Millionen organische und 1,1 Millionen bezahlte Impressionen, Juni 2024 bis September 2025 · 4. November 2025 · neuere Ausgabe: „AIO Impact on Google CTR: 2026 Update“, April 2026, 53 Marken, 5,47 Millionen Suchbegriffe, 2,43 Milliarden organische Impressionen, Januar 2025 bis Februar 2026, abgerufen am 21. September 2026 · zur neueren Ausgabe · Zur Quelle",
       "sourceLinks": [
@@ -745,7 +745,7 @@
       "url": "https://robert-haase.de/belege.html#reddit-zitate",
       "topic": "ki-suche",
       "grade": {
-        "name": "Anbietermessung, vorläufig",
+        "name": "Messung · Anbieter, vorläufig",
         "group": "weak"
       },
       "sourceText": "Promptwatch, Klaas Foppen, Datenseite „Reddit Citations Are Dropping in ChatGPT“, 18. August 2026: täglicher Anteil von reddit.com an allen Quellenangaben von ChatGPT Search, gezählt werden nur Antworten mit mindestens einer Quellenangabe, Vergleich 18. Juli bis 7. August gegen 14. bis 17. August 2026 · der site:-Operator stammt aus derselben Reihe, eigene Datenseite vom 10. August 2026 (Datenseite site:-Operator) · erzählende Fassung beider Befunde im Blog vom 20. August 2026, zuletzt geändert am 8. September 2026, am Erscheinungstag berichtet von Axios (Blogfassung) · zweites Panel: Otterly.ai, 27. August 2026, 16 Markenberichte aus 14 Branchen im US-Markt, Vorfenster 6. bis 13. August, Nachfenster 14. bis 17. August 2026, Tagesmittel (zweite Messung) · dritte Reihe: Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026, Brand Radar, Quellenangaben von ChatGPT in den USA, März bis September 2026, 2,4 bis 3,8 Millionen Antworten je Monat, abgerufen am 16. Oktober 2026 (dritte Reihe) · Fortschreibung: Promptwatch, Datenseite für November 2026, Fenster 11. Oktober bis 9. November, gelesen am 12. November 2026 (zur Fortschreibung) · Zur Datenseite",
@@ -792,7 +792,7 @@
       "url": "https://robert-haase.de/belege.html#geo-40-prozent",
       "topic": "ki-suche",
       "grade": {
-        "name": "Wird meist falsch zitiert",
+        "name": "Experiment · begutachtet, meist falsch zitiert",
         "group": "weak"
       },
       "sourceText": "Aggarwal u. a., GEO: Generative Engine Optimization, arXiv 2311.09735, KDD 2024 · eingereicht November 2023 · Zur Quelle",
@@ -819,8 +819,8 @@
       "url": "https://robert-haase.de/belege.html#ebu-nachrichten",
       "topic": "ki-suche",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Verband",
+        "group": "plain"
       },
       "sourceText": "European Broadcasting Union und BBC, 22 Medienhäuser in 18 Ländern und 14 Sprachen (darunter ARD, ZDF, Deutsche Welle und SRF), über 3.000 bewertete Antworten · Oktober 2025 · Zur Quelle",
       "sourceLinks": [
@@ -846,7 +846,7 @@
       "url": "https://robert-haase.de/belege.html#aio-top10-uneinig",
       "topic": "ki-suche",
       "grade": {
-        "name": "Anbietermessungen, nicht vergleichbar",
+        "name": "Messung · Anbieter, nicht vergleichbar",
         "group": "weak"
       },
       "sourceText": "Ahrefs, Louise Linehan, 863.000 Keyword-SERPs und 4 Millionen zitierte Adressen, organisch 37,1 Prozent, Schlagzeile 37,9 Prozent einschließlich Anzeigen und SERP-Features, kein Erhebungszeitraum genannt · veröffentlicht 2. März 2026 · dieselbe Reihe, 1,9 Millionen Zitate aus 1 Million Übersichten, nur die drei sichtbarsten je Übersicht · veröffentlicht 21. Juli 2025 · BrightEdge, AI Catalyst und Generative Parser, wöchentliche Messung, Umfang nicht offengelegt, angegebener Erhebungszeitraum Februar 2025 bis Februar 2026, veröffentlichte Überschneidungstabelle nur Februar bis Juli 2025 · veröffentlicht 12. Februar 2026 · Zur BrightEdge-Quelle · Zur Ahrefs-Quelle",
@@ -877,7 +877,7 @@
       "url": "https://robert-haase.de/belege.html#llmstxt-nutzen",
       "topic": "ki-suche",
       "grade": {
-        "name": "Kontrollierter Test des Anbieters, Ergebnisdaten offen",
+        "name": "Experiment · Anbieter",
         "group": "plain"
       },
       "sourceText": "Mintlify, Docs URL Discovery Bench · 20 Doku-Websites, 5 Fragen je Website, 4 Auslieferungsvarianten, 2 Agenten, 3 Durchläufe, 2.400 gewertete Läufe bei n=300 je Zelle · Claude Code auf claude-sonnet-5, Codex CLI auf gpt-5.5 · Juli 2026 · Zur Quelle",
@@ -904,7 +904,7 @@
       "url": "https://robert-haase.de/belege.html#markenstatur-sichtbarkeit",
       "topic": "ki-suche",
       "grade": {
-        "name": "Anbietermessung, Preprint ohne Begutachtung",
+        "name": "Messung · Anbieter, nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Pratyush Kumar (Mitgründer von Ranqo), Generative Engine Optimization at Scale: Measuring Brand Visibility Across AI Search Engines, arXiv:2606.20065v1, Preprint ohne Begutachtung, 14 Seiten · 102 Marken, 3.508 abgeschlossene Messläufe, 102.025 Antworten von fünf Systemen (ChatGPT, Gemini, Perplexity, Claude, Grok), 149.912 Quellenangaben aus Antworten, in denen die Marke vorkam, erhoben auf der Plattform Ranqo zwischen März und Mai 2026 · eingereicht 18. Juni 2026 · Zur Quelle",
@@ -931,7 +931,7 @@
       "url": "https://robert-haase.de/belege.html#zitier-position",
       "topic": "ki-suche",
       "grade": {
-        "name": "Anbietermessung, vorläufig",
+        "name": "Messung · Anbieter, vorläufig",
         "group": "weak"
       },
       "sourceText": "Kevin Indig, Growth Memo, Daten von Gauge · 18.012 Zitierungen für die Positionsanalyse, 11.022 für die Sprachanalyse, isoliert aus einem Bestand von 1,2 Millionen, den die Quelle an drei Stellen unterschiedlich bezeichnet (Suchergebnisse, ChatGPT-Antworten, verifizierte Zitierungen); Gauge lieferte rund 3 Millionen Antworten mit 30 Millionen Zitierungen · 16. Februar 2026 · Original hinter Bezahlschranke; Forschungsteil und Methodik im Internet Archive lesbar, das Zusatzmaterial für Bezahlabonnenten fehlt · Zur Quelle",
@@ -958,7 +958,7 @@
       "url": "https://robert-haase.de/belege.html#leere-buttons",
       "topic": "agenten",
       "grade": {
-        "name": "Geprüfte Erhebung",
+        "name": "Messung · Institut",
         "group": "strong"
       },
       "sourceText": "WebAIM Million, achte Ausgabe: WAVE-Prüfung von einer Million Startseiten aus dem Tranco-Ranking · Daten von Februar 2026, Seite zuletzt geändert am 30. März 2026 · Vorjahreswerte 29,6 Prozent bei den Buttons und 48,2 Prozent bei den Formularfeldern · Zur Quelle",
@@ -985,7 +985,7 @@
       "url": "https://robert-haase.de/belege.html#agent-ready",
       "topic": "agenten",
       "grade": {
-        "name": "Vorläufig, Prototyp",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Elnaffar und Rashidi, Designing Agent-Ready Websites, arXiv 2607.12056, 300 Durchläufe mit drei Modellen · Juli 2026 · Zur Quelle",
@@ -1012,7 +1012,7 @@
       "url": "https://robert-haase.de/belege.html#a11y-cua",
       "topic": "agenten",
       "grade": {
-        "name": "Wird meist falsch zitiert",
+        "name": "Experiment · begutachtet, meist falsch zitiert",
         "group": "weak"
       },
       "sourceText": "A11y-CUA, arXiv 2602.09310, vorgestellt auf der CHI 2026 · Februar 2026 · Zur Quelle",
@@ -1039,8 +1039,8 @@
       "url": "https://robert-haase.de/belege.html#javascript",
       "topic": "agenten",
       "grade": {
-        "name": "Kontrollierter Test",
-        "group": "strong"
+        "name": "Experiment · Fachmedium",
+        "group": "plain"
       },
       "sourceText": "Search Engine World, 12 Assistenten im Vergleich · Juni 2026 · früherer Test: searchVIU, Dezember 2025 · Zur Quelle",
       "sourceLinks": [
@@ -1155,8 +1155,8 @@
       "url": "https://robert-haase.de/belege.html#designsysteme-maschinenschnittstelle",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Einzelautor",
+        "group": "plain"
       },
       "sourceText": "Kaelig Deloumeau-Prigent, 21 Open-Source-Designsysteme, Daten laut Seite erhoben 26. bis 28. Juli 2026, Liste seither erweitert · Bericht 1. September 2026 · CC BY 4.0 · die engeren Zahlen stehen im Essay-Teil der Seite · abgerufen am 17. September 2026 · Zur Quelle",
       "sourceLinks": [
@@ -1182,7 +1182,7 @@
       "url": "https://robert-haase.de/belege.html#gitlab-markenrepo",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Dokumentierter Einzelfall",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "GitLab Handbook, öffentliches Repository gitlab-com/content-sites/handbook, geprüft am 10. September 2026 · Markenstimme mit den drei Merkmalen in content/handbook/marketing/brand-experience/content-style-guide.md, Namensregeln in naming.md, Markenzeichen-Richtlinien in trademark-guidelines.md, Werte in content/handbook/values/_index.md, Mission in content/handbook/company/mission.md · Commit e692ba4b vom 22. Mai 2025, 17:11 Uhr UTC, Merge Request 13766 · abweichende Fassung derselben Merkmale im Design-System-Repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md (Design-System-Repository) · Zum Commit",
@@ -1213,7 +1213,7 @@
       "url": "https://robert-haase.de/belege.html#aipref",
       "topic": "agenten",
       "grade": {
-        "name": "Stand der Normung",
+        "name": "Normung",
         "group": "plain"
       },
       "sourceText": "IETF, Arbeitsgruppe AI Preferences (aipref), Zustand „Active“ · draft-ietf-aipref-vocab-08 vom 14. September 2026 und draft-ietf-aipref-attach-05 vom 19. August 2026, IESG-Zustand „I-D Exists“, WG-Zustand „WG Document“, vorgesehener Rang Proposed Standard, kein RFC · Meilensteine beider Bausteine am 23. September 2025 von August 2025 auf den 31. August 2026 verschoben und seither unverändert (Verlauf der Arbeitsgruppe) · Volltext des Vokabular-Entwurfs mit dem Konsens-Hinweis (Entwurfstext) · geprüft am 21. September 2026 · Einzelentwurf draft-kelley-aipref-training-preference-signal-00 vom 30. Oktober 2026 und Google Search Central vom 30. Oktober 2026, beide gelesen am 12. November 2026 (zum Entwurf, zu Google) · Fassung -01 vom 16. November 2026, Sitzungsunterlagen und Mitschrift der Sitzungen vom 16. und 19. November 2026, gelesen am 23. November 2026 (Sitzungsunterlagen, Mitschrift) · Zur Arbeitsgruppe",
@@ -1264,7 +1264,7 @@
       "url": "https://robert-haase.de/belege.html#checkout-rueckbau",
       "topic": "handel",
       "grade": {
-        "name": "Marktbeobachtung",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "OpenAI, „Optimierte Produktsuche in ChatGPT“, 24. März 2026, Abschnitt „ChatGPT-Nutzer:innen und Händler:innen miteinander verbinden“ · Forrester, Analyse zum Rückbau von Instant Checkout, 7. März 2026, Start am 29. September 2025 (zu Forrester) · OpenAI Help Center, „Shopping with ChatGPT Search“, aktualisiert am 30. Oktober 2026, ohne Instant Checkout (OpenAI Help Center) · beide OpenAI-Seiten abgerufen am 1. November 2026 · Shopify Help Center, „Shopify agentic storefronts“ (Shopify Help Center), abgerufen am 15. Oktober 2026 · Zur Quelle",
@@ -1303,8 +1303,8 @@
       "url": "https://robert-haase.de/belege.html#airline-direktkanal",
       "topic": "handel",
       "grade": {
-        "name": "Kontrollierter Test",
-        "group": "strong"
+        "name": "Experiment · Beratung",
+        "group": "plain"
       },
       "sourceText": "Bain & Company, Test mit drei Fluggesellschaften, drei Sprachmodellen und 60 Anfragen · 16. März 2026 · Zur Quelle",
       "sourceLinks": [
@@ -1330,8 +1330,8 @@
       "url": "https://robert-haase.de/belege.html#walmart-verhandlung",
       "topic": "handel",
       "grade": {
-        "name": "Anbieter- und Unternehmensangaben",
-        "group": "plain"
+        "name": "Selbstauskunft",
+        "group": "weak"
       },
       "sourceText": "Pactum-Angaben via Bloomberg, April 2023 · Abschlussquote: Harvard Business Review, November 2022 · Zur Quelle",
       "sourceLinks": [
@@ -1357,7 +1357,7 @@
       "url": "https://robert-haase.de/belege.html#journey-start",
       "topic": "handel",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Beratung",
         "group": "plain"
       },
       "sourceText": "Bain & Company, Consumer-Lab-Befragung USA · November 2025 · die Insights-Seite vom Mai 2026 nennt rund 30 Prozent · Weihnachtsbefragung 2026 mit ROI Rocket, 1.105 US-Online-Käufer, August 2026, veröffentlicht am 3. September 2026 (zur Befragung 2026), abgerufen am 15. Oktober 2026 · NIQ, Pressemitteilung „55% of Consumers Now Use AI During Product Discovery as Marketers Race to Keep Pace with a Faster, More Fragmented Consumer Journey“, 7. Oktober 2026 (zur Pressemitteilung), abgerufen am 16. Oktober 2026 · Zur Quelle",
@@ -1392,7 +1392,7 @@
       "url": "https://robert-haase.de/belege.html#kaufentscheidung",
       "topic": "handel",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Analysehaus",
         "group": "plain"
       },
       "sourceText": "Gartner, Befragung von 322 US-Verbrauchern im Januar 2026 · veröffentlicht 27. Mai 2026 · Europa: Deloitte, Studie „The State of Agentic Commerce in Europe“, Pressemitteilung „Jeder Zweite in Europa shoppt mit KI-Unterstützung“, 13. Juli 2026, Online-Befragung von 13.500 Verbrauchern in 15 Ländern im Mai 2026, abgerufen am 20. Oktober 2026 (zu Deloitte) · Zur Quelle",
@@ -1415,7 +1415,7 @@
       "appearance": {
         "@type": "CreativeWork",
         "name": "Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal British Columbia · 14. Februar 2024",
-        "url": "https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html"
+        "url": "https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/"
       },
       "disambiguatingDescription": "Was der Fall ist und was nicht: Es geht um einen Trauerfalltarif und 650,88 kanadische Dollar Schadenersatz, nicht um eine allgemeine Erstattungspraxis. Entschieden hat das Civil Resolution Tribunal in British Columbia, kein Gericht, und die Entscheidung bindet in Europa niemanden. Der tragende Satz gilt trotzdem weit über den Fall hinaus: Es mache keinen Unterschied, ob eine Auskunft von einer statischen Seite oder von einem Chatbot komme. Die Zuspitzung „eigene Rechtspersönlichkeit“ ist die Zusammenfassung des Entscheiders, nicht der Wortlaut der Airline.",
       "position": 32,
@@ -1423,7 +1423,7 @@
       "url": "https://robert-haase.de/belege.html#air-canada",
       "topic": "haftung",
       "grade": {
-        "name": "Tribunal-Entscheidung",
+        "name": "Gerichtsverfahren · Tribunal",
         "group": "strong"
       },
       "sourceText": "Moffatt v. Air Canada, 2024 BCCRT 149, Civil Resolution Tribunal British Columbia · 14. Februar 2024 · Entscheidung im Volltext · Zur Quelle",
@@ -1446,7 +1446,7 @@
       "appearance": {
         "@type": "CreativeWork",
         "name": "The Register, 18. April 2025 (erfundene Regel, Entschuldigung) · (Name „Sam“, Kündigungen)",
-        "url": "https://fortune.com/article/customer-support-ai-cursor-went-rogue"
+        "url": "https://www.theregister.com/2025/04/18/cursor_ai_support_bot_lies/"
       },
       "disambiguatingDescription": "Was der Fall zeigt: Der Schaden entstand nicht durch eine falsche Auskunft allein, sondern dadurch, dass sie wie eine verbindliche Regel der Firma klang. Der Mitgründer stellte öffentlich klar, es gebe keine solche Regel, und entschuldigte sich; danach berichteten Nutzer von Kündigungen. Eine Zahl dazu gibt es nicht. Ein Einzelfall, aber mit demselben Muster wie die übrigen: Der Agent spricht als die Marke.",
       "position": 33,
@@ -1454,7 +1454,7 @@
       "url": "https://robert-haase.de/belege.html#cursor-bot",
       "topic": "haftung",
       "grade": {
-        "name": "Dokumentierter Vorfall",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "The Register, 18. April 2025 (erfundene Regel, Entschuldigung) · Fortune, 19. April 2025 (Name „Sam“, Kündigungen) · Zur Quelle",
@@ -1524,7 +1524,7 @@
       "url": "https://robert-haase.de/belege.html#olg-hamm",
       "topic": "haftung",
       "grade": {
-        "name": "Gerichtsurteil, rechtskräftig",
+        "name": "Gerichtsverfahren · Urteil, rechtskräftig",
         "group": "strong"
       },
       "sourceText": "OLG Hamm, Urteil vom 12. Mai 2026, Az. 4 UKl 3/25 (Verbraucherzentrale Nordrhein-Westfalen gegen Aesthetify GmbH) · Rechtskraft seit 21. Juni 2026 laut Verbandsklageregister des Bundesamts für Justiz · Verbandsklageregister · Urteil im Volltext",
@@ -1555,7 +1555,7 @@
       "url": "https://robert-haase.de/belege.html#machine-customers",
       "topic": "markt",
       "grade": {
-        "name": "Selbsteinschätzung, Prognose",
+        "name": "Prognose · befragte Vorstände",
         "group": "weak"
       },
       "sourceText": "Gartner, CEO-Befragung, zitiert in der Reihe Think Again · Archivstand Juli 2026 · Zur Quelle",
@@ -1582,7 +1582,7 @@
       "url": "https://robert-haase.de/belege.html#marktgroesse",
       "topic": "markt",
       "grade": {
-        "name": "Anbieterangaben",
+        "name": "Selbstauskunft",
         "group": "weak"
       },
       "sourceText": "OpenAI, „DevDay 2026 Recap“, 29. September 2026 („our collective 1.2B weekly users“), deutsche Fassung „Rückblick auf den DevDay 2026“, beide abgerufen am 30. September 2026 · Google, Blogbeitrag zum AI Mode, 19. Mai 2026 · Google, „Google’s Gemini app hits 1 billion monthly active users“, 11. August 2026 (zur Gemini-App), abgerufen am 1. November 2026 · Rückblick auf den DevDay 2026 · Google-Blogbeitrag · Zur Quelle",
@@ -1651,8 +1651,8 @@
       "url": "https://robert-haase.de/belege.html#dax-zutritt",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Messung, 30. August 2026 · Ursache je Seite auf HTTP-Ebene geprüft, mit gewöhnlicher und mit automatisierter Browser-Kennung · bei 18 von 22 Seiten dieselbe Antwort",
       "sourceLinks": [],
@@ -1676,8 +1676,8 @@
       "url": "https://robert-haase.de/belege.html#dax-benennung",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Messung, 30. August 2026 · 160 Startseiten aus DAX, MDAX und SDAX angefragt, Auswahl und Adresse aus Wikidata · Chromes eigener Accessibility-Baum · zwei Durchläufe, 135 von 136 Seiten mit identischem Ergebnis",
       "sourceLinks": [],
@@ -1701,8 +1701,8 @@
       "url": "https://robert-haase.de/belege.html#dax-landmarken",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Messung, 30. August 2026 · gezählt wurde die Rolle „main“ in Chromes Accessibility-Baum · zwei Durchläufe mit identischem Ergebnis",
       "sourceLinks": [],
@@ -1726,8 +1726,8 @@
       "url": "https://robert-haase.de/belege.html#dax-bilder",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Messung, 30. August 2026 · 160 Startseiten aus DAX, MDAX und SDAX angefragt, 135 auswertbar, Auswahl und Adresse aus Wikidata · Chromes eigener Accessibility-Baum, gezählt sind nicht ignorierte Knoten der Rolle „image“ ohne Namen · Aufschlüsselung nach Elementart je Seite auf 80 Knoten begrenzt · zwei Durchläufe, 135 von 136 Seiten mit identischem Ergebnis",
       "sourceLinks": [],
@@ -1751,8 +1751,8 @@
       "url": "https://robert-haase.de/belege.html#verlage-robots",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Erhebung, 12. September 2026 · 77 Titel angefragt, 76 auswertbar · Nachrichtenteil nach dem Diagramm „Weekly reach online“ der Länderseite Deutschland im Reuters Institute Digital News Report 2026, Fachmedien sowie Österreich und die Schweiz nach benannter Regel · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 3 Titeln · zwei Durchläufe mit identischem Urteil",
       "sourceLinks": [],
@@ -1776,8 +1776,8 @@
       "url": "https://robert-haase.de/belege.html#marken-robots",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Erhebung, 12. September 2026 · dieselbe Liste wie die Erhebung vom 30. August, 160 Startseiten aus DAX, MDAX und SDAX, Index-Mitglieder aus Wikipedia, Adresse aus Wikidata · Auswertung nach RFC 9309 gegen 51 an der Dokumentation der Betreiber belegte Bot-Namen, gewertet ist der Zugriff auf die Startseite · abgerufen zuerst mit einer eigenen Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung, nötig bei 2 Seiten · zwei Durchläufe, 160 von 160 Seiten mit identischem Urteil",
       "sourceLinks": [],
@@ -1798,8 +1798,8 @@
       "url": "https://robert-haase.de/belege.html#agenten-erfolg",
       "topic": "agenten",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Xue u. a., „An Illusion of Progress? Assessing the Current State of Web Agents“, COLM 2025 (arXiv:2504.01382) für die Ausgangswerte · Online-Mind2Web-Bestenliste, menschliche Bewertung, Stand 4. August 2026, für die aktuellen · 300 Aufgaben, 136 Websites · Bewertung der Einträge laut Spalte „Source“ der Bestenliste und Hinweis „We have outsourced human evaluation“, abgerufen am 15. Oktober 2026 · zur Bestenliste · Zur Quelle",
       "sourceLinks": [
@@ -1829,7 +1829,7 @@
       "url": "https://robert-haase.de/belege.html#nicht-menschlicher-verkehr",
       "topic": "markt",
       "grade": {
-        "name": "Marktbeobachtung",
+        "name": "Messung · Anbieter",
         "group": "plain"
       },
       "sourceText": "Cloudflare, „Content Independence Day, one year on“, 1. Juli 2026 · Datengrundlage laut Bericht: Cloudflare Radar und Investor Day 2026 · Cloudflare, „The Internet has a second audience“, 30. September 2026 (zum Beitrag) · Cloudflare Radar, AI Insights, Reihen „HTML page requests by client type“ und „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 (zu Cloudflare Radar) · Prognose: Cloudflare, Telefonkonferenz zum zweiten Quartal 2026, 6. August 2026, Antwort von Matthew Prince in der Fragerunde, nach dem Transkript eines Drittanbieters (zum Transkript), abgerufen am 1. November 2026 · Zur Quelle",
@@ -1868,7 +1868,7 @@
       "url": "https://robert-haase.de/belege.html#ucp-gremium-ohne-zahlen",
       "topic": "handel",
       "grade": {
-        "name": "Stand der Normung",
+        "name": "Normung",
         "group": "plain"
       },
       "sourceText": "Universal Commerce Protocol, Projekt-Repository, Ankündigung neuer Tech-Council-Mitglieder, 24. April 2026 · Google, „Universal Cart“, 19. Mai 2026 und „UCP updates“, 19. März 2026, beide ohne Zahl zur Verbreitung · Google, „Retailers: Get ready for AI-driven holiday shopping“, 16. September 2026 (zum Beitrag), „Google’s new Universal Cart launches today in the U.S.“, 15. Oktober 2026 (zum Start) und Merchant Center, „UCP integration hub“, zuletzt aktualisiert am 19. Oktober 2026 (zur Dokumentation), abgerufen am 1. November 2026 · Drittzählung: UCP Checker, „State of Agentic Commerce, October 2026“, Stand 30. Oktober 2026 (zur Zählung) · Gremien laut MAINTAINERS.md und GOVERNANCE.md im Repository Universal-Commerce-Protocol/.github, abgerufen am 21. September 2026 · TikTok for Business, „From Discovery to Decision: How Agentic Solutions Guide Intent and Drive Action“, 5. Oktober 2026 (zu TikTok), abgerufen am 16. Oktober 2026 · zu Googles Ankündigung · neue Councils laut Issues 922 und 947 im Repository Universal-Commerce-Protocol/ucp, gelesen am 12. November 2026 (lokale Dienstleistungen, B2B-Beschaffung) · Google Kanada, 4. November 2026 (zu Kanada) · Zur Quelle",
@@ -1978,7 +1978,7 @@
       "url": "https://robert-haase.de/belege.html#ai-overview-muenchen",
       "topic": "haftung",
       "grade": {
-        "name": "Einstweilige Verfügung, durch Vergleich gegenstandslos",
+        "name": "Gerichtsverfahren · Eilverfahren, erledigt",
         "group": "weak"
       },
       "sourceText": "LG München I, Endurteil vom 28. Mai 2026, Az. 26 O 869/26, einstweiliges Verfügungsverfahren, Unterlassung nach Unternehmenspersönlichkeitsrecht · Berufung OLG München, Az. 18 U 1744/26 Pre e, durch Vergleich beendet, Urteil gegenstandslos laut redaktioneller Anmerkung bei BAYERN.RECHT · Fundstellen u. a. NJW 2026, 2271 und MMR 2026, 814 · geprüft am 10. September 2026 · Zur Quelle",
@@ -2032,7 +2032,7 @@
       "url": "https://robert-haase.de/belege.html#chevrolet-dollar",
       "topic": "haftung",
       "grade": {
-        "name": "Dokumentierter Vorfall",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "GM Authority, Jonathan Lopez, 18. Dezember 2023 (Wortlaut beider Seiten, Abschaltung, GM-Stellungnahme) · Business Insider, Katie Notopoulos, 18. Dezember 2023 (Anbieter- und GM-Stellungnahme; Volltext hinter der Zählschranke von businessinsider.com, frei gelesen in der lizenzierten Yahoo-Übernahme vom 19. Dezember 2023) · Originalbeleg: Beitrag von Chris Bakke auf X, 17. Dezember 2023, mit Screenshot · Zur Quelle",
@@ -2059,7 +2059,7 @@
       "url": "https://robert-haase.de/belege.html#dpd-chatbot",
       "topic": "haftung",
       "grade": {
-        "name": "Dokumentierter Vorfall",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "Tom Gerken, BBC News · Stellungnahme von DPD, Wortlaut der Bot-Antworten aus Screenshots des Kunden · 19. Januar 2024 · Gegenprobe: Guardian, 20. Januar 2024 · Zur Quelle",
@@ -2086,7 +2086,7 @@
       "url": "https://robert-haase.de/belege.html#nyc-mycity",
       "topic": "haftung",
       "grade": {
-        "name": "Dokumentierter Vorfall",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "Colin Lecher, The Markup, copubliziert mit Documented und THE CITY · Stichprobentests am MyCity-Chatbot der Stadt New York · 29. März 2024 · Abschaltung bestätigt in der Aktualisierung vom 4. Februar 2026 zum Folgeartikel „Mamdani to kill the NYC AI chatbot we caught telling businesses to break the law“ von Colin Lecher und Katie Honan, The Markup mit THE CITY, 30. Januar 2026; chat.nyc.gov leitet seit dem 3. Februar 2026 auf eine Seite der Stadt weiter, Überschrift dort „The Chatbot beta test has ended.“ · Folgeartikel vom 30. Januar 2026 · Zur Quelle",
@@ -2117,7 +2117,7 @@
       "url": "https://robert-haase.de/belege.html#perplexity-cfaa",
       "topic": "haftung",
       "grade": {
-        "name": "Gerichtsurteil, nicht endgültig",
+        "name": "Gerichtsverfahren · Urteil, nicht rechtskräftig",
         "group": "strong"
       },
       "sourceText": "Amazon.com Services, LLC gegen Perplexity AI, Inc., No. 26-1444, United States Court of Appeals for the Ninth Circuit, Opinion by Judge Milan D. Smith, Jr. · 21 Seiten, FOR PUBLICATION, ohne Sondervotum, Vorinstanz N.D. Cal., Richterin Maxine M. Chesney · Urteil vom 4. August 2026 · Antrag auf Rehearing en banc vom 18. August 2026 als Docket-Eintrag 66 nach dem öffentlichen RECAP-Aktenspiegel (CourtListener, Docket 72502129), letzter Abgleich 21. August 2026, nicht aus der verlinkten Entscheidung · Ablehnung des Antrags: Beschluss vom 10. September 2026, Docket-Eintrag 71.1, gelesen in der Kopie bei Courthouse News (Beschluss) · erste Instanz, Case 3:25-cv-09514 (N.D. Cal.): geänderte Klage vom 21. September 2026 und Antrag auf Abweisung vom 13. Oktober 2026 mit Anhörung am 20. November 2026, beide gelesen am 15. Oktober 2026 über den öffentlichen RECAP-Aktenspiegel (Aktenspiegel der ersten Instanz) · Sitzungsprotokoll (Civil Minutes) der Anhörung vom 20. November 2026, Dokument 139, gelesen am 23. November 2026 (zum Protokoll) · Zur Quelle",
@@ -2253,7 +2253,7 @@
       "url": "https://robert-haase.de/belege.html#klarna-700",
       "topic": "agenten",
       "grade": {
-        "name": "Wird meist falsch zitiert",
+        "name": "Selbstauskunft · meist falsch zitiert",
         "group": "weak"
       },
       "sourceText": "Klarna Group plc, eigene Angaben in Pressemitteilung, Börsenprospekt (Formular F-1/A) und Geschäftsbericht (Formular 20-F) bei der SEC · 27. Februar 2024 bis 26. Februar 2026 · Zur Quelle",
@@ -2280,7 +2280,7 @@
       "url": "https://robert-haase.de/belege.html#mcp-primitive",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Stand der Normung",
+        "name": "Normung",
         "group": "plain"
       },
       "sourceText": "Model Context Protocol, getragen von Model Context Protocol a Series of LF Projects, LLC, Spezifikation Revision 2026-07-28, Kapitel Tools, Resources und Prompts, jeweils Abschnitt „User Interaction Model“, dazu die Übersichtsseiten /specification/2026-07-28, Abschnitt Features, und /specification/2026-07-28/server, Abschnitt Server Features, sowie der Erklärtext „Understanding MCP servers“ · Revisionsliste und Methodenwechsel als eigene Pfad- und Textprobe · 10. September 2026 · Zur Quelle",
@@ -2307,7 +2307,7 @@
       "url": "https://robert-haase.de/belege.html#mcp-tool-poisoning",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Begutachtete Benchmark und Test des Anbieters",
+        "name": "Experiment · begutachtet",
         "group": "strong"
       },
       "sourceText": "Invariant Labs (inzwischen Snyk), Luca Beurer-Kellner und Marc Fischer, zwei Versuche mit dem MCP-Client Cursor, 1. April 2025, Nachträge 7. und 11. April 2025 · Zhiqiang Wang und acht weitere (University of Science and Technology of China, Beihang University), „MCPTox“, 45 MCP-Server, 353 Werkzeuge, 1.348 Testfälle, 20 Modelleinstellungen, Zahlen aus Abschnitt 4.2 und Tabelle 2, AAAI-26, Proceedings of the AAAI Conference on Artificial Intelligence 40(42), S. 35811 bis 35819, 14. März 2026, doi:10.1609/aaai.v40i42.40895, Vorabfassung arXiv:2508.14925v1, 19. August 2025 · Zur begutachteten Fassung · Zur Quelle",
@@ -2338,7 +2338,7 @@
       "url": "https://robert-haase.de/belege.html#monotype-mcp",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Anbieterangaben, Beta",
+        "name": "Herstellerdokumentation · Beta",
         "group": "weak"
       },
       "sourceText": "Monotype Labs, „Bringing font governance into AI-native content creation“, Ablauf der Beta in sieben Schritten, 15. Juli 2026 · Pressemitteilung „Monotype Introduces Enterprise Connector Beta, Exploring How Brand Governance Works Inside AI-Native Workflows“, Woburn, Massachusetts, 15. Juli 2026 · Produktseite „Monotype Enterprise Connector“ mit Status „Now in BETA“ und Zugangsvoraussetzungen, abgerufen 10. September 2026 · Negativprobe an der Pressemitteilungsliste, 15. Juli bis 10. September 2026 ohne Statusänderung · Zur Quelle",
@@ -2365,8 +2365,8 @@
       "url": "https://robert-haase.de/belege.html#pulumi-brand-mcp",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigener Abruf des Pulumi Brand MCP Server, Fassung 0.1.0, Protokollfassung der Sitzung 2025-06-18 (vom Client vorgegeben, der Server nennt 2025-11-25), per JSON-RPC über Streamable HTTP · Methoden initialize, resources/list, resources/templates/list, tools/list, prompts/list, resources/read auf brand://guidelines und tools/call auf check_color_accessibility und find_nearest_brand_color · alle Aufrufe HTTP 200 ohne Authentifizierungskopf, keine Liste mit nextCursor, Zählungen dreimal wiederholt und stabil · brand://guidelines im Volltext, 3.053 Zeichen, text/markdown · Herstellerdokumentation brand.pulumi.com/mcp-server für die Einordnung der Prompts · abgerufen am 10. September 2026, erneut am 17. September 2026 mit denselben Zählungen, dazu prompts/get auf review_copy (Kontext marketing, eine Nachricht, 32.957 Zeichen) · Zur Quelle",
       "sourceLinks": [
@@ -2423,7 +2423,7 @@
       "url": "https://robert-haase.de/belege.html#veeva-mlr",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Pressemitteilungen des Anbieters",
+        "name": "Selbstauskunft",
         "group": "weak"
       },
       "sourceText": "Veeva Systems, Pressemitteilungen zur Verfügbarkeit der Veeva AI Agents und zur Übernahme von Copli, beide im Volltext geprüft · 3. Dezember 2025 und 23. Juni 2026 · die 57 Prozent bewirbt Veeva heute auf der Produktseite Veeva PromoMats Review and Approve, abgerufen 10. September 2026 · Altersnachweis: Veeva-Datenblatt „Ensuring End-to-End Commercial Content Compliance“ (PromoMats for EU), PDF-Erstellungsdatum 2. Mai 2017, veeva.com/eu/wp-content/uploads/2017/05/PromoMats-for-EU-Datasheet.pdf, dieselbe Zahl in der Fassung mit PDF-Erstellungsdatum 21. März 2016, veeva.com/eu/wp-content/uploads/2012/07/PromoMats-for-EU-Datasheet-1.pdf · Produktseite · Zur Quelle",
@@ -2454,7 +2454,7 @@
       "url": "https://robert-haase.de/belege.html#mcp-verbreitung",
       "topic": "markt",
       "grade": {
-        "name": "Anbieterangaben",
+        "name": "Selbstauskunft",
         "group": "weak"
       },
       "sourceText": "Anthropic, „Donating the Model Context Protocol and establishing the Agentic AI Foundation“, 9. Dezember 2025, erhebende Stelle für beide Zahlen · Linux Foundation, Pressemitteilung zur Gründung der Agentic AI Foundation, 9. Dezember 2025, für die Mitgliederliste (Pressemitteilung) · eigene Gegenprobe am offiziellen Verzeichnis registry.modelcontextprotocol.io am 10. September 2026 · MCP-Blog, Beitrag zur Spezifikation vom 28. Juli 2026, David Soria Parra und Den Delimarsky (zum MCP-Blog), abgerufen am 1. November 2026 · Zur Quelle",
@@ -2489,7 +2489,7 @@
       "url": "https://robert-haase.de/belege.html#agentenhandel-2030",
       "topic": "markt",
       "grade": {
-        "name": "Hausprognosen, nicht vergleichbar",
+        "name": "Prognose · nicht vergleichbar",
         "group": "weak"
       },
       "sourceText": "Morgan Stanley Research, „Here Come the Shopping Bots“, Hausprognose zum US-Onlinehandel · 8. Dezember 2025 · Bain & Company, Snap Chart „2030 Forecast: How Agentic AI Will Reshape US Retail“ von Aaron Cheris, Mikey Vu, Stephanie Koszyk und Katherine Hall, Hausprognose zum US-Onlinehandel · 17. Dezember 2025 · bain.com weist automatisierte Abrufe ab, am 10. September 2026 mit HTTP 403, gelesen in der Archivfassung vom 17. Dezember 2025 · Archivfassung · Zur Quelle",
@@ -2520,7 +2520,7 @@
       "url": "https://robert-haase.de/belege.html#cmo-ki-anteil",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Hochschule",
         "group": "plain"
       },
       "sourceText": "The CMO Survey, 35. Ausgabe, erhoben von Christine Moorman an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · 2.111 angeschriebene Marketingverantwortliche in gewinnorientierten US-Unternehmen, 308 Antworten, Rücklauf 14,6 Prozent, davon 191 zu dieser Frage, 97 Prozent ab VP-Ebene · Feldzeit 7. bis 29. Januar 2026, Bericht April 2026 · Highlights Report Seite 21 (KI und maschinelles Lernen) und Seite 23 (generative KI), Kennzahlen im Topline Report Seite 11, Fallzahlen der Branchenzellen im Firm and Industry Breakout Report Seite 35 und 44 · Werte für generative KI vom Frühjahr und Herbst 2024 (7,0 und 11,1 Prozent) im Highlights Report Fall 2024, Seite 34 · Highlights Report Fall 2024 · Breakout Report · Zur Quelle",
@@ -2555,7 +2555,7 @@
       "url": "https://robert-haase.de/belege.html#dark-data-55",
       "topic": "markt",
       "grade": {
-        "name": "Wird meist falsch zitiert",
+        "name": "Befragung · Anbieter, meist falsch zitiert",
         "group": "weak"
       },
       "sourceText": "TRUE Global Intelligence (FleishmanHillard) im Auftrag von Splunk, The State of Dark Data, 1.357 Befragte aus IT und Fachbereich in sieben Ländern · erhoben Oktober 2018 bis Januar 2019, Bericht Mai 2019 · Zur Quelle",
@@ -2582,7 +2582,7 @@
       "url": "https://robert-haase.de/belege.html#geo-verbreitung",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Hochschule",
         "group": "plain"
       },
       "sourceText": "The CMO Survey, 35. Ausgabe, erhoben an der Fuqua School of Business der Duke University, gesponsert von Duke, Deloitte und der American Marketing Association · Topline Report 2026, Seite 12, Antwortoption „GEO (i.e., Generative Engine Optimization to get content to appear in AI-generated search results)“: 78 von 188 Fällen, 41,5 Prozent, plus/minus 7,1 Prozentpunkte · 308 Antwortende von 2.111 angeschriebenen Marketingverantwortlichen US-amerikanischer For-Profit-Unternehmen · Feldzeit 7. bis 29. Januar 2026 · beim Nachschlagen aufpassen: Die Zeile darüber, „Predictive analytics for customer insights“, trägt denselben Wert von 41,5 Prozent bei ebenfalls 78 Fällen · Zur Quelle",
@@ -2609,7 +2609,7 @@
       "url": "https://robert-haase.de/belege.html#in-house-verlagerung",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Verband",
         "group": "plain"
       },
       "sourceText": "Association of National Advertisers, Mitgliederbefragung „The Continued Rise of the In-House Agency: 2023 Edition“, 162 Antwortende, erhoben im Februar und März 2023 · Pressemitteilung vom 2. Mai 2023, der Bericht selbst liegt hinter der Mitgliederschranke · Vergleichswerte und Basisangaben aus dem Vorgängerbericht vom Oktober 2018, 412 Antwortende, 57 Seiten · Vorgängerbericht · Zur Quelle",
@@ -2640,8 +2640,8 @@
       "url": "https://robert-haase.de/belege.html#ki-anteil-artikel",
       "topic": "markt",
       "grade": {
-        "name": "Geprüfte Erhebung",
-        "group": "strong"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Graphite, Wachstumsagentur · rund 55.400 zufällig aus Common Crawl gezogene englischsprachige Artikel mit Artikel-Markup und mindestens 100 Wörtern, veröffentlicht zwischen Januar 2020 und März 2026 · Klassifizierung als Mittelwert aus drei Detektoren (Pangram, Copyleaks, GPTZero), deren Falsch-Positiv-Raten von 1,844, 1,836 und 1,355 Prozent an rund 15.700 vor ChatGPT erschienenen Artikeln derselben Stichprobe gemessen wurden · Quartalsdaten offen einsehbar · Mai 2026 · Zur Quelle",
       "sourceLinks": [
@@ -2667,8 +2667,8 @@
       "url": "https://robert-haase.de/belege.html#ki-verkehrsanteil",
       "topic": "markt",
       "grade": {
-        "name": "Drei Anbietermessungen",
-        "group": "weak"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Contentsquare, 2026 Digital Experience Benchmarks, 99 Milliarden Sessions und 6.500 Websites weltweit, viertes Quartal 2024 gegen viertes Quartal 2025 · 29. Januar 2026 · Semrush, Traffic & Market Toolkit, über 50.000 Websites und 17 Branchen weltweit, Januar bis Dezember 2025 · 27. April 2026 · Conductor, AEO/GEO Benchmarks, Verkehrsteil aus 1.215 eigenen Enterprise-Kundendomains in den USA, über 3,3 Milliarden Sessions, davon 35,7 Millionen aus Sprachmodellen und Chatbots, Mai bis September 2025 · Stand 6. Juli 2026 · Marie Haynes, „GEO is a distraction“, 21. Oktober 2026, 100 Websites, über 145 Millionen Sitzungen, zwölf Monate ohne genauen Zeitraum (zu Marie Haynes), abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
@@ -2698,7 +2698,7 @@
       "url": "https://robert-haase.de/belege.html#markenklone",
       "topic": "markt",
       "grade": {
-        "name": "Anbieterangaben",
+        "name": "Selbstauskunft",
         "group": "weak"
       },
       "sourceText": "Netcraft, Leitfaden zu Erkennung und Störung von Phishing-Seiten, eigene Vorgänge des Anbieters von März 2024 bis März 2025 · 12. Dezember 2025, zuletzt geändert 12. März 2026 · Zur Quelle",
@@ -2725,7 +2725,7 @@
       "url": "https://robert-haase.de/belege.html#suchmarkt-wachstum",
       "topic": "markt",
       "grade": {
-        "name": "Marktbeobachtung auf Schätzdaten",
+        "name": "Messung · Anbieter, Schätzdaten",
         "group": "weak"
       },
       "sourceText": "Graphite (Ethan Smith) · Auswertung von Similarweb-Schätzdaten zu Web-Besuchen und App-Sitzungen weltweit, Juli 2020 bis Dezember 2025, Rohdaten offen · März 2026 · Zur Quelle",
@@ -2752,7 +2752,7 @@
       "url": "https://robert-haase.de/belege.html#metr-selbsteinschaetzung",
       "topic": "urteil",
       "grade": {
-        "name": "Kontrollierter Test",
+        "name": "Experiment · Institut",
         "group": "strong"
       },
       "sourceText": "METR, randomisiert kontrollierte Studie, Juli 2025 · 16 erfahrene Open-Source-Entwickler, 246 Aufgaben · neuere Messung: METR, „We are Changing our Developer Productivity Experiment Design“, 24. Februar 2026, 57 Entwickler, 143 Repositories, über 800 Aufgaben, abgerufen am 21. September 2026 · Befragung: METR, „How do technical workers use AI tools?“, 11. Mai 2026, 349 Befragte (zur Befragung), abgerufen am 1. November 2026 · zur neueren Messung · Zur Studie",
@@ -2787,7 +2787,7 @@
       "url": "https://robert-haase.de/belege.html#jagged-frontier",
       "topic": "urteil",
       "grade": {
-        "name": "Kontrollierter Test",
+        "name": "Experiment · begutachtet",
         "group": "strong"
       },
       "sourceText": "Dell'Acqua u. a., „Navigating the Jagged Technological Frontier“, Feldexperiment mit der Boston Consulting Group · Organization Science, online seit 11. März 2026, DOI 10.1287/orsc.2025.21838 · 758 Berater, 18 realistische Aufgaben · das Arbeitspapier von 2023 nannte für die Qualität noch über 40 Prozent · Zur begutachteten Fassung",
@@ -2814,7 +2814,7 @@
       "url": "https://robert-haase.de/belege.html#homogenisierung",
       "topic": "urteil",
       "grade": {
-        "name": "Kontrollierter Test und Metaanalyse",
+        "name": "Experiment · begutachtet",
         "group": "strong"
       },
       "sourceText": "Doshi und Hauser, „Generative AI enhances individual creativity but reduces the collective diversity of novel content“, Science Advances, Band 10, Ausgabe 28, eadn5290, 12. Juli 2024, DOI 10.1126/sciadv.adn5290 · präregistriert, 293 Schreibende und 600 Bewertende auf Prolific, 3.519 Einzelbewertungen, Ideen von GPT-4 · die Verlagsseite science.org wehrt automatisierte Abrufe ab, geprüft wurde am offenen Volltext bei Europe PMC · zweite Quelle: de Rooij und Biskjaer, „Generative AI Makes Creative Output More Homogeneous“, European Conference on Cognitive Ergonomics (ECCE 2026, Siena, 15. bis 18. September 2026), veröffentlicht am 14. September 2026, DOI 10.1145/3822301.3822304 · systematische Übersicht und Metaanalyse, 19 Studien, 61 Effektgrößen, Kurzfassung abgerufen am 28. September 2026 · Volltext bei der ACM nicht gelesen · Metaanalyse · Zum Volltext",
@@ -2845,8 +2845,8 @@
       "url": "https://robert-haase.de/belege.html#strategie-trendslop",
       "topic": "urteil",
       "grade": {
-        "name": "Redaktionell geprüft",
-        "group": "plain"
+        "name": "Experiment · nicht begutachtet",
+        "group": "weak"
       },
       "sourceText": "Angelo Romasanta, Llewellyn D. W. Thomas und Natalia Levina, „Researchers Asked LLMs for Strategic Advice. They Got ‚Trendslop‘ in Return.“, Harvard Business Review, 16. März 2026, HBR Digital Article H093GG · getestet wurden ChatGPT, Claude, DeepSeek, GPT-5 über die API, Gemini, Grok und Mistral, je 50 Durchläufe pro Modell und Frage; die beiden Blöcke mit über 15.000 Durchläufen liefen allein auf ChatGPT-5 · Volltext mit 15.613 Zeichen aus den strukturierten Daten der Seite, gegengeprüft an zwei Archivfassungen · die Seite ist bezahlgeschränkt, der Volltext zeichengleich in den Archivfassungen vom 17. März und 14. Juli 2026 · Zum Beitrag",
       "sourceLinks": [
@@ -2872,7 +2872,7 @@
       "url": "https://robert-haase.de/belege.html#sykophanz",
       "topic": "urteil",
       "grade": {
-        "name": "Kontrollierter Test und Herstellerdokumentation",
+        "name": "Experiment · begutachtet",
         "group": "strong"
       },
       "sourceText": "Sharma, Tong u. a., „Towards Understanding Sycophancy in Language Models“, arXiv:2310.13548v4 vom 10. Mai 2025, erste Fassung 20. Oktober 2023, begutachtet und als Poster auf der ICLR 2024 angenommen · Kennzahl aus Abschnitt 4.1: 15.000 zufällig gezogene Antwortpaare aus der Helpfulness-Teilmenge von Anthropics hh-rlhf-Datensatz, 23 Merkmale, Bayessche logistische Regression, Holdout-Genauigkeit 71,3 Prozent · getestet wurden Claude 1.3, Claude 2, GPT-3.5, GPT-4 und LLaMA 2 · dazu OpenAI, „Sycophancy in GPT-4o“, 29. April 2025, und „Expanding on what we missed with sycophancy“, 2. Mai 2025; Update vom 25. April, Rücknahme ab dem 28. April (OpenAI-Mitteilung) · Zum Papier",
@@ -2906,7 +2906,7 @@
       "url": "https://robert-haase.de/belege.html#markenspezifikation-wirkung",
       "topic": "urteil",
       "grade": {
-        "name": "Negativbefund einer dokumentierten Recherche",
+        "name": "Fachliteratur · eigene Recherche",
         "group": "plain"
       },
       "sourceText": "Eigene Recherche, 10. September 2026: arXiv-Programmierschnittstelle mit 24 Phrasenabfragen, darunter brand voice, brand guidelines, brand consistency, brand compliance, machine-readable brand, brand book, style guide, tone of voice und corporate identity; dazu OpenAlex, allgemeine Websuche und die Anbieterseiten von Adobe, Frontify, Jasper und Writer · nächstliegende gemessene Arbeit zur Formfrage: „Instruction Stacking Collapse“, arXiv:2608.02639, 31. Juli 2026, 24 definierte Anweisungen, davon 22 deterministisch geprüft und getestet, drei Modelle (zum Papier) · nächstliegende Benchmarks zur Regeltreue: CompliBench, arXiv:2604.12312, 14. April 2026, Preprint, 318 maschinell erzeugte Dialoge (CompliBench), PluralisticBehaviorSuite, arXiv:2511.05018, 300 Verhaltensrichtlinien aus 30 Branchen, und JourneyBench, arXiv:2601.00596, 703 Gespräche · zum Vergleich Medizin: AMEGA, npj Digital Medicine 7:358, 12. Dezember 2024, und CPGBench, arXiv:2603.25196, 26. März 2026, 3.418 Leitliniendokumente",
@@ -2937,8 +2937,8 @@
       "url": "https://robert-haase.de/belege.html#cowan-standards",
       "topic": "urteil",
       "grade": {
-        "name": "Historische Untersuchung",
-        "group": "strong"
+        "name": "Fachliteratur",
+        "group": "plain"
       },
       "sourceText": "Ruth Schwartz Cowan, „More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave“, 1983 · ausgezeichnet mit dem Dexter Prize der Society for the History of Technology, 1984 · Zur Übersicht",
       "sourceLinks": [
@@ -2964,7 +2964,7 @@
       "url": "https://robert-haase.de/belege.html#foresight-performance",
       "topic": "urteil",
       "grade": {
-        "name": "Längsschnittstudie",
+        "name": "Befragung · begutachtet",
         "group": "plain"
       },
       "sourceText": "Rohrbeck und Kum, „Corporate foresight and its impact on firm performance: A longitudinal analysis“, Technological Forecasting & Social Change 129, 2018 · Vorbereitung 2008 erhoben, Leistung 2015 · Zur Studie",
@@ -2991,7 +2991,7 @@
       "url": "https://robert-haase.de/belege.html#prognose-mensch-maschine",
       "topic": "urteil",
       "grade": {
-        "name": "Laufende Messung",
+        "name": "Messung · Institut, laufend",
         "group": "plain"
       },
       "sourceText": "ForecastBench des Forecasting Research Institute, Turnier- und Basis-Rangliste nach den nächtlich aktualisierten Ranglisten-Dateien, Stand 12. November 2026; Paritätsprojektion auf der Explore-Seite, abgerufen am 21. September 2026 · Einreichungen erscheinen erst 50 Tage nach Abgabe, die Rangliste ist kein tagesaktueller Stand · Ranglisten-Dateien · Zur Rangliste",
@@ -3022,7 +3022,7 @@
       "url": "https://robert-haase.de/belege.html#prognose-assistenz",
       "topic": "urteil",
       "grade": {
-        "name": "Präregistriertes Experiment",
+        "name": "Experiment · Zahlen der Vorfassung",
         "group": "plain"
       },
       "sourceText": "Schoenegger, Park, Karger, Trott und Tetlock, „AI-Augmented Predictions: LLM Assistants Improve Human Forecasting Accuracy“, präregistriert, arXiv, Februar 2024 · 991 Teilnehmende · Zur Studie",
@@ -3049,7 +3049,7 @@
       "url": "https://robert-haase.de/belege.html#abbott-zustaendigkeit",
       "topic": "urteil",
       "grade": {
-        "name": "Standardwerk",
+        "name": "Fachliteratur",
         "group": "plain"
       },
       "sourceText": "Andrew Abbott, „The System of Professions: An Essay on the Division of Expert Labor“, University of Chicago Press, 1988 · Zum Verlag",
@@ -3076,7 +3076,7 @@
       "url": "https://robert-haase.de/belege.html#esposito-kommunikation",
       "topic": "urteil",
       "grade": {
-        "name": "Fachbuch",
+        "name": "Fachliteratur",
         "group": "plain"
       },
       "sourceText": "Elena Esposito, „Artificial Communication: How Algorithms Produce Social Intelligence“, MIT Press, 24. Mai 2022 · 200 Seiten, Open-Access-Ausgabe verfügbar · Zum Verlag",
@@ -3103,8 +3103,8 @@
       "url": "https://robert-haase.de/belege.html#drei-arbeitsweisen",
       "topic": "urteil",
       "grade": {
-        "name": "Feldstudie, Arbeitspapier",
-        "group": "plain"
+        "name": "Experiment · nicht begutachtet",
+        "group": "weak"
       },
       "sourceText": "Randazzo, Lifshitz, Kellogg, Dell'Acqua, Mollick, Candelon und Lakhani, „Cyborgs, Centaurs and Self-Automators“, Harvard Business School Working Paper 26-036, 2025 · 244 Berater der Boston Consulting Group · Zum Arbeitspapier",
       "sourceLinks": [
@@ -3130,8 +3130,8 @@
       "url": "https://robert-haase.de/belege.html#kompetenz-nivellierung",
       "topic": "urteil",
       "grade": {
-        "name": "Feldexperiment",
-        "group": "strong"
+        "name": "Experiment · Zahlen der Vorfassung",
+        "group": "plain"
       },
       "sourceText": "Brynjolfsson, Li und Raymond, „Generative AI at Work“, NBER Working Paper 31161, April 2023, überarbeitet November 2023 · 5.179 Kundendienst-Mitarbeitende · Zum Arbeitspapier",
       "sourceLinks": [
@@ -3157,7 +3157,7 @@
       "url": "https://robert-haase.de/belege.html#aufwand-statt-koennen",
       "topic": "urteil",
       "grade": {
-        "name": "Präregistriertes Experiment",
+        "name": "Experiment · Zahlen der Vorfassung",
         "group": "plain"
       },
       "sourceText": "Noy und Zhang, „Experimental Evidence on the Productivity Effects of Generative Artificial Intelligence“, MIT, Arbeitspapier vom 2. März 2023 · begutachtete Fassung in Science 381, 2023, S. 187–192 · Zur Veröffentlichung",
@@ -3184,7 +3184,7 @@
       "url": "https://robert-haase.de/belege.html#boussioux-neuheit-wert",
       "topic": "urteil",
       "grade": {
-        "name": "Kontrollierter Test",
+        "name": "Experiment · begutachtet",
         "group": "strong"
       },
       "sourceText": "Boussioux, Lane, Zhang, Jacimovic und Lakhani, „The Crowdless Future? Generative AI and Creative Problem-Solving“, Organization Science 35(5), S. 1589 bis 1607 · 234 bewertete Lösungen, 300 Bewerter, 3.900 Bewertungen, Wettbewerb 30. Januar bis 15. Mai 2023 · eingereicht 30. November 2023, überarbeitet 23. Januar, 14. Mai und 20. Juni 2024, angenommen 26. Juni 2024, online 16. August 2024, Heft September/Oktober 2024 · Zur Quelle",
@@ -3211,7 +3211,7 @@
       "url": "https://robert-haase.de/belege.html#mintzberg-muster",
       "topic": "urteil",
       "grade": {
-        "name": "Explorative Fallstudien, begriffsbildend",
+        "name": "Fallbeispiel · begutachtet",
         "group": "plain"
       },
       "sourceText": "Henry Mintzberg, „Patterns in Strategy Formation“, Management Science, Vol. 24, No. 9, S. 934 bis 948 · vier vom Canada Council finanzierte Hauptstudien und über zwanzig studentische Arbeiten, davon zwei vorgeführt: Volkswagenwerk 1934 bis 1974 laut Abstract und 1920 bis 1974 laut Abschnittsüberschrift, USA in Vietnam 1950 bis 1973 · Manuskript eingegangen am 19. April 1976, gedruckt Mai 1978 · Zur Quelle",
@@ -3238,7 +3238,7 @@
       "url": "https://robert-haase.de/belege.html#wahrgenommene-differenzierung",
       "topic": "urteil",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · begutachtet",
         "group": "plain"
       },
       "sourceText": "Jenni Romaniuk, Byron Sharp und Andrew Ehrenberg, Ehrenberg-Bass-Institut, Australasian Marketing Journal 15 (2), Seiten 42 bis 54 · Befragung aktueller Markenverwender in 17 Warengruppen, die australischen per Telefon, die britischen aus dem Brand Asset Valuator von Young & Rubicam, erhoben 1999 · 2007 · Zur Quelle",
@@ -3265,8 +3265,8 @@
       "url": "https://robert-haase.de/belege.html#rechtsvorbehalt-kommentar",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Erhebung, 17. September 2026 · dieselben Listen wie die beiden robots.txt-Einträge vom 12. September, deren Zusammensetzung und Grenzen dort stehen: 77 Medientitel, alle auswertbar, und 160 Startseiten aus DAX, MDAX und SDAX, davon 146 im ersten und 145 im zweiten Durchgang auswertbar · gesucht wurde in der ausgelieferten robots.txt nach Kommentaren mit § 44b, nach dem Wortlaut Text und Data Mining und nach einer TDM-policy-Zeile · Abruf zuerst mit eigener Kennung, bei Abweisung mit gewöhnlicher Browser-Kennung · zwei Durchläufe, bei den Medien 77 von 77 mit identischem Urteil, im Index wich eine Seite ab, die im zweiten Durchgang nicht antwortete · Schlussanträge in der Rechtssache C-250/25, Nr. 148 und 149, gelesen am 12. November 2026 (zu den Schlussanträgen)",
       "sourceLinks": [
@@ -3292,7 +3292,7 @@
       "url": "https://robert-haase.de/belege.html#abruf-kuerzung",
       "topic": "agenten",
       "grade": {
-        "name": "Eigener Test, ein Werkzeug",
+        "name": "Messung · eigene, Einzeltest",
         "group": "weak"
       },
       "sourceText": "Eigene Messung, 11. September 2026, 08:10 und 11:05 · Abrufwerkzeug eines Claude-Agenten auf robert-haase.de/belege.html, 128.000 Zeichen sichtbarer Text ohne Skripte · zehn vorher festgelegte Fragen, jede zweimal gestellt, Abbruchregeln vor dem Lauf bestimmt · Auswertung durch einen zweiten Agenten ohne Kenntnis des Baus",
@@ -3341,7 +3341,7 @@
       "url": "https://robert-haase.de/belege.html#insourcing-absicht",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Verband",
         "group": "plain"
       },
       "sourceText": "GWA KI-Whitepaper 2026, Teil „KI-Studien“, Frage 6 · 170 Führungskräfte aus deutschen Unternehmen mit Budget- und Entscheidungsverantwortung · 1. bis 9. April 2026 · deskriptive Online-Befragung mit Selbstauskünften · Durchführung Handelsblatt Research Institute und techconsult in Zusammenarbeit mit dem GWA · Zur Quelle",
@@ -3368,7 +3368,7 @@
       "url": "https://robert-haase.de/belege.html#agentur-selbstbild",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Verband",
         "group": "plain"
       },
       "sourceText": "GWA KI-Whitepaper 2026, Teil „KI-Studien“ · 78 Führungskräfte aus GWA-Mitgliedsagenturen · 12. Februar bis 6. März 2026 · deskriptive Online-Befragung mit Selbstauskünften · Herausgeber GWA Tech & Innovation Forum · Fragen: „Wie würden Sie den aktuellen Reifegrad Ihrer Agentur in Bezug auf KI einstufen?“ und „Wie schätzen Sie den aktuellen durchschnittlichen Wissensstand zu KI-Anwendungen in der gesamten Agenturbranche im DACH-Raum ein?“ · Zur Quelle",
@@ -3395,7 +3395,7 @@
       "url": "https://robert-haase.de/belege.html#de-skilling",
       "topic": "urteil",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Beratung",
         "group": "plain"
       },
       "sourceText": "Sagar Goel, David Martin, Charikleia Kaffe: „When Everyone Uses AI, Companies Risk Losing Critical Skills“, Boston Consulting Group, BCG Institute, 17. Juni 2026 · weltweite Befragung von 70 Führungskräften aus C-Suite und oberer Leitungsebene, dazu Gespräche mit einem Dutzend weiterer Führungskräfte · Zur Quelle",
@@ -3488,7 +3488,7 @@
       "url": "https://robert-haase.de/belege.html#olivares-access-map",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Anbieterangaben, Beta",
+        "name": "Herstellerdokumentation · Beta",
         "group": "weak"
       },
       "sourceText": "Olivares, Repository olivaresai/olivares, README mit Inventar, Access Map, vier Durchsetzungspunkten, Budgets und signiertem Protokoll; Kern unter AGPL-3.0, SDK und Connectors unter Apache-2.0, selbst gehostet · abgerufen am 20. September und 12. November 2026 · Zur Quelle",
@@ -3612,7 +3612,7 @@
       "url": "https://robert-haase.de/belege.html#eigene-seite-selten-zitiert",
       "topic": "ki-suche",
       "grade": {
-        "name": "Zwei Anbietermessungen, vorläufig",
+        "name": "Messung · Anbieter, vorläufig",
         "group": "weak"
       },
       "sourceText": "AirOps, „Third-Party Sources Drive 85% of Brand Discovery“, 17. Oktober 2025, 21.311 Markennennungen in ChatGPT, Claude und Perplexity bei Anfragen zur Anbietersuche · Kumar (Ranqo), „Generative Engine Optimization at Scale“, arXiv 2606.20065, 18. Juni 2026, Preprint ohne Begutachtung, 102 Marken, 102.025 Antworten, 149.912 Quellenangaben aus fünf KI-Suchen, März bis Mai 2026 (zum Preprint) · beide abgerufen am 21. September 2026 · Fragetyp: Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026, gesonderter Test mit 20.000 US-Fragen, abgerufen am 16. Oktober 2026 (zu Ahrefs) · Zur Quelle",
@@ -3647,7 +3647,7 @@
       "url": "https://robert-haase.de/belege.html#unverwechselbare-markenelemente",
       "topic": "urteil",
       "grade": {
-        "name": "Geprüfte Erhebung",
+        "name": "Messung · begutachtet",
         "group": "strong"
       },
       "sourceText": "Phua, Bali, Anesbury und Sharp (Ehrenberg-Bass Institute, Adelaide University), „Shape-based assets are strongest: benchmarking distinctive brand asset performance across industries“, International Journal of Advertising, online seit 5. März 2026, begutachtet, CC BY 4.0, keine Interessenkonflikte angegeben · 1.162 Elemente, 128 Marken, 21 Warengruppen, Australien, Großbritannien, USA und Neuseeland, 2015 bis 2023 · Bekanntheit und Einzigartigkeit als Mittelwerte je Elementtyp · Volltext gelesen am 21. September 2026 · Zur Quelle",
@@ -3705,8 +3705,8 @@
       "url": "https://robert-haase.de/belege.html#content-signal-selten",
       "topic": "agenten",
       "grade": {
-        "name": "Eigene Erhebung, reproduzierbar",
-        "group": "strong"
+        "name": "Messung · eigene, reproduzierbar",
+        "group": "plain"
       },
       "sourceText": "Eigene Erhebung, 17. September 2026 · dieselben Dateien wie beim Eintrag zum Rechtsvorbehalt in der robots.txt: 77 Medientitel, alle mit robots.txt, und 160 Startseiten aus DAX, MDAX und SDAX, davon 139 mit robots.txt · gesucht wurde nach einer Zeile Content-Signal, gleich in welcher Schreibweise · zur Erklärung selbst: Cloudflare, „Giving users choice with Cloudflare’s new Content Signals Policy“, 24. September 2025 (zur Erklärung)",
       "sourceLinks": [
@@ -3732,7 +3732,7 @@
       "url": "https://robert-haase.de/belege.html#agentenstandards-verbreitung",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Marktbeobachtung",
+        "name": "Messung · Anbieter",
         "group": "plain"
       },
       "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Adoption of AI agent standards“, Stand 9. November 2026 · 117.018 erfolgreich geprüfte unter den 200.000 meistbesuchten Domains, Werte über die Datenschnittstelle der Seite abgefragt · Methode und Prüfpfade im Blogbeitrag „Introducing the Agent Readiness score“ vom 17. April 2026 (zum Methodenbeitrag) · frühere Stände 21. September 2026 mit 107.155, 12. Oktober 2026 mit 109.493 und 26. Oktober 2026 mit 114.605 Domains, Wochenwerte über den Parameter dateEnd · abgerufen am 9. November 2026, am 12. November gegengelesen · Zur Quelle",
@@ -3763,7 +3763,7 @@
       "url": "https://robert-haase.de/belege.html#robots-sperre-chatbots",
       "topic": "agenten",
       "grade": {
-        "name": "Kontrollierter Versuch, Preprint ohne Begutachtung",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Seiden, Ren, Zhang, Kim, Liu und Wenger (Duke University, University of Pittsburgh, Carnegie Mellon University), „Identifying AI Web Scrapers Using Canary Tokens“, arXiv 2605.13706, Fassung 2 vom 3. September 2026, erste Fassung vom 13. Mai 2026, Preprint ohne Begutachtung · 20 Websites, zwei Monate Crawling vor der Sperre, 22 Chatbots, davon 18 auswertbar · Volltext gelesen am 23. September 2026 · Zur Quelle",
@@ -3790,7 +3790,7 @@
       "url": "https://robert-haase.de/belege.html#agenten-vollmacht-standard",
       "topic": "handel",
       "grade": {
-        "name": "Stand der Normung",
+        "name": "Normung",
         "group": "plain"
       },
       "sourceText": "FIDO Alliance, „FIDO Alliance to Develop Standards for Trusted AI Agent Interactions“, 28. April 2026: Arbeitsgruppe Agentic Authentication unter Vorsitz von Mitgliedern von CVS Health, Google und OpenAI, Stellvertretung Amazon, Google und Okta; Arbeitsgruppe Payments unter Vorsitz von Mastercard und Visa · Agent Payments Protocol, Dokumentation zu Checkout- und Payment-Mandaten als signierten Nachweisen (zur AP2-Dokumentation) · abgerufen am 23. September 2026 · Übergabe von AP2 in Version 0.2 an die FIDO Alliance laut AP2-Website, abgerufen am 1. November 2026 · Zur Quelle",
@@ -3883,7 +3883,7 @@
       "url": "https://robert-haase.de/belege.html#cmo-titel-schwindet",
       "topic": "markt",
       "grade": {
-        "name": "Analystenauswertung, Methode nicht offen",
+        "name": "Messung · Analysehaus, Methode nicht offen",
         "group": "weak"
       },
       "sourceText": "Forrester, Ian Bruce, „New Analysis Suggests The CMO’s Role In The Fortune 500 Is At A Crossroads“, Blogbeitrag vom 7. Juli 2026, dritte jährliche Auswertung · vollständiger Bericht „The Representation And Tenure Of Fortune 500 CMOs in 2026“ nur für Kunden · abgerufen am 23. September 2026 · Zur Quelle",
@@ -3941,8 +3941,8 @@
       "url": "https://robert-haase.de/belege.html#markenstimme-als-skill",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Herstellerdokumentation, Beta",
-        "group": "strong"
+        "name": "Herstellerdokumentation · Beta",
+        "group": "weak"
       },
       "sourceText": "Google Workspace Blog, Ali Douvre, „Teach Gemini your team’s know-hows with skills in Google Workspace“, 17. September 2026 · Google Cloud, „Create and manage skills | Gemini Enterprise“, zuletzt aktualisiert am 24. September 2026 · beide abgerufen am 28. September 2026 · Google Workspace Updates, „Introducing skills in the Gemini app and Workspace, plus what’s next for Gems“, 30. September 2026, mit Nachtrag vom 13. Oktober 2026 (zur Ankündigung) · Google Workspace Help, „About the transition from Gems to skills“ (zur Hilfeseite) · beide abgerufen am 16. Oktober 2026 · Google Workspace Updates, „An update on the launch of skills in the Gemini app and Workspace“, 13. Oktober 2026 (zum Stand der Einführung), abgerufen am 1. November 2026 · Dokumentation zu Gemini Enterprise · Google Workspace Updates, „Scale customized AI across your team with skills in Google Workspace and Workspace Studio“, 10. November 2026, gelesen am 12. November 2026 (zur Einführung) · Zur Quelle",
       "sourceLinks": [
@@ -3988,7 +3988,7 @@
       "url": "https://robert-haase.de/belege.html#ki-verkehr-handel-prognose",
       "topic": "markt",
       "grade": {
-        "name": "Prognose und Befragung des Anbieters",
+        "name": "Prognose · Anbieter",
         "group": "weak"
       },
       "sourceText": "Adobe, Pressemitteilung „Adobe: U.S. Holiday Shopping Season to Hit Record $275.1 Billion Online, Rising 6.7% YoY“, 28. September 2026 · Grundlage laut Adobe: Adobe Analytics mit mehr als einer Billion Besuchen auf US-Händlerseiten, 100 Millionen Artikelnummern und 18 Produktkategorien, dazu eine Befragung von 5.000 Verbrauchern im Juli 2026 · abgerufen am 28. September 2026 · Adobe zum LLM Optimizer, 20. April 2026 · Zur Quelle",
@@ -4019,8 +4019,8 @@
       "url": "https://robert-haase.de/belege.html#agenten-wissensarbeit",
       "topic": "agenten",
       "grade": {
-        "name": "Kontrollierter Test, begutachtet",
-        "group": "plain"
+        "name": "Experiment · begutachtet",
+        "group": "strong"
       },
       "sourceText": "Gill, Ishmam, Nguyen, Bhat, DeYoung, Hashemi Chaleshtori, Stringham, Marino und Marasović (University of Utah), „The Hard Part Comes After Search: Benchmarking Web Agents on Synthesizing, Organizing, and Displaying Knowledge“, arXiv 2609.30604, Fassung 1 vom 24. September 2026, erschienen in Findings of the Association for Computational Linguistics: EMNLP 2026, S. 45360 bis 45400, Oktober 2026, geprüft am 12. November 2026 (zum Tagungsband) · Benchmark KNOWS, 110 Aufgaben, Ergebnisse in Tabelle 3 · Volltext gelesen am 28. September 2026 · Einstellung von ChatGPT Atlas: OpenAI Help Center, „ChatGPT Atlas retirement“, abgerufen am 15. Oktober 2026 (zur Einstellung) · Zur Quelle",
       "sourceLinks": [
@@ -4054,7 +4054,7 @@
       "url": "https://robert-haase.de/belege.html#crawler-zweck-gemischt",
       "topic": "agenten",
       "grade": {
-        "name": "Anbieterangaben",
+        "name": "Selbstauskunft · Methode nicht offen",
         "group": "weak"
       },
       "sourceText": "Cloudflare, Pressemitteilung „Cloudflare Helps End the Search-or-AI-Training Tradeoff“, 15. September 2026 · abgerufen am 28. September 2026 · Cloudflare Radar, AI Insights, Reihe „Crawl purpose“, Monatswerte Juni bis Oktober 2026, über die Datenschnittstelle der Seite abgefragt am 1. November 2026 (zu Cloudflare Radar) · Zur Quelle",
@@ -4085,7 +4085,7 @@
       "url": "https://robert-haase.de/belege.html#staat-als-einzige-quelle",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Dokumentierter Einzelfall",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "America.gov, „How it works“ · Angaben zum Start laut FedScoop (Madison Alder) und Nextgov/FCW (Christian Robles), beide 29. September 2026 · die 29.000 Websites gibt FedScoop als Angabe von America.gov wieder, auf „How it works“ standen sie am 1. Oktober 2026 nicht, in den FAQ steht die Zahl am 16. Oktober 2026, ohne Herleitung · CBS News, Céline Gounder, 30. September 2026 · alle abgerufen am 30. September 2026 · Executive Order 14432, „Streamlining Access to Government Services Through America.gov“, 29. September 2026 (zur Verordnung) · America.gov, FAQ (zu den FAQ) · beide abgerufen am 16. Oktober 2026 · FedScoop · CBS News · Zur Quelle",
@@ -4128,7 +4128,7 @@
       "url": "https://robert-haase.de/belege.html#synthetische-befragte",
       "topic": "urteil",
       "grade": {
-        "name": "Kontrollierter Test",
+        "name": "Experiment · Institut",
         "group": "strong"
       },
       "sourceText": "Pew Research Center, Athena Chapekis, Arnold Lau, Samuel Bestvater, Sono Shah, Andrew Mercer und Aaron Smith, „Can AI Stand In for Human Survey-Takers? Not Really“, 30. September 2026 · drei Wellen des American Trends Panel vom 20. bis 26. Januar, 23. bis 29. März und 20. bis 26. April 2026, nachgestellt mit Claude Opus 4.6 · Modellvergleich auf einer eigenen Seite (zum Modellvergleich) · abgerufen am 30. September und 1. November 2026 · Methode · Zur Quelle",
@@ -4163,7 +4163,7 @@
       "url": "https://robert-haase.de/belege.html#ross-kein-fair-use",
       "topic": "haftung",
       "grade": {
-        "name": "Gerichtsurteil, nicht endgültig",
+        "name": "Gerichtsverfahren · Urteil, nicht rechtskräftig",
         "group": "strong"
       },
       "sourceText": "United States Court of Appeals for the Third Circuit, Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc., No. 25-2153, verhandelt am 11. Juni 2026, entschieden am 29. September 2026, Opinion of the Court verfasst von Montgomery-Reeves · Zitate S. 26, Abgrenzung in Fußnote 7 · Volltext gelesen am 30. September 2026 · Fristverlängerung für den Antrag auf Rehearing en banc bis 3. November 2026 laut öffentlichem RECAP-Aktenspiegel (CourtListener, Docket-Einträge 215 und 217), abgerufen am 15. Oktober 2026 (zum Aktenspiegel) · Antrag „Petition for Panel Rehearing or Rehearing En Banc“ vom 3. November 2026, RECAP-Dokument 225, gelesen am 12. November 2026 (zum Antrag) · Zur Quelle",
@@ -4295,7 +4295,7 @@
       "url": "https://robert-haase.de/belege.html#agenten-lenkung-marktplatz",
       "topic": "handel",
       "grade": {
-        "name": "Kontrollierter Test, Preprint ohne Begutachtung",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Yuxuan Li, Will Epperson, Wesley Deng und Zezhou Huang, „CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments“, arXiv 2609.27273, Fassung 2 vom 27. September 2026 (Fassung 1 vom 23. September), Preprint ohne Begutachtung · Kurzfassung gelesen am 30. September 2026 · Zur Quelle",
@@ -4322,7 +4322,7 @@
       "url": "https://robert-haase.de/belege.html#gema-openai",
       "topic": "haftung",
       "grade": {
-        "name": "Gerichtsurteil, nicht endgültig",
+        "name": "Gerichtsverfahren · Urteil, nicht rechtskräftig",
         "group": "strong"
       },
       "sourceText": "Landgericht München I, Endurteil vom 11. November 2025, Az. 42 O 14139/24, GEMA gegen zwei Gesellschaften der OpenAI-Gruppe · Volltext bei Bayern.Recht, Randnummern 181 (Vervielfältigung im Modell), 191 bis 193 (Schranken), 277 (Haftung für die Ausgaben) und 301 bis 304 (abgewiesener Teil) · Berufung: GEMA in der Pressemitteilung vom 31. Juli 2026, Datum und Aktenzeichen laut Initiative Urheberrecht vom 10. Dezember 2025 · Volltext gelesen am 2. Oktober 2026 · EuGH, Schlussanträge des Generalanwalts Szpunar vom 3. November 2026 in der Rechtssache C-250/25, Nr. 58, 89 bis 92, 99 und 152 mit Fußnote 80, vorläufige Fassung auf Englisch gelesen am 12. November 2026 (zu den Schlussanträgen) · BGH, Terminhinweis zu I ZR 281/25, geprüft am 12. November 2026 · Pressemitteilung des Gerichts · GEMA zur Berufung · Initiative Urheberrecht · Verfahrensakte C-250/25 · Terminhinweis des BGH · Zur Quelle",
@@ -4373,7 +4373,7 @@
       "url": "https://robert-haase.de/belege.html#chatbot-nichtnutzung",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Institut",
         "group": "plain"
       },
       "sourceText": "Pew Research Center, Michelle Faverio, „Why Don’t Some People Use Chatbots?“, 9. Oktober 2026 · American Trends Panel, 5.119 US-Erwachsene, befragt vom 17. bis 23. Februar 2026 · abgerufen am 15. Oktober 2026 · Zur Quelle",
@@ -4400,7 +4400,7 @@
       "url": "https://robert-haase.de/belege.html#crawl-verweis-verhaeltnis",
       "topic": "ki-suche",
       "grade": {
-        "name": "Marktbeobachtung",
+        "name": "Messung · Anbieter",
         "group": "plain"
       },
       "sourceText": "Cloudflare Radar, Seite „AI Insights“, Abschnitt „Crawl-to-refer ratio“, Zeitraum 1. bis 31. Oktober 2026, Werte über die Datenschnittstelle der Seite abgefragt am 1. November 2026, Juli bis September abgefragt am 15. Oktober 2026 · Methode im Blogbeitrag „The crawl before the fall… of referrals: understanding AI’s impact on content providers“, 1. Juli 2025, zuletzt geändert am 15. Juli 2026 (zum Methodenbeitrag) · Zur Quelle",
@@ -4431,7 +4431,7 @@
       "url": "https://robert-haase.de/belege.html#ki-modus-klicks",
       "topic": "ki-suche",
       "grade": {
-        "name": "Feldexperiment, Preprint ohne Begutachtung",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Stephanie T. Wang, Jeffrey Gleason, Yakov Bart, Christo Wilson und Danaé Metaxa, „AI in Search Reduces Publisher Referrals Without Improving User Experience: Experimental Evidence“, arXiv 2608.18352, Fassung 1 vom 18. August 2026, Preprint ohne Begutachtung · vorregistriertes Feldexperiment, 1.100 aktive Teilnehmende in den USA · Volltext gelesen am 15. Oktober 2026 · Zur Quelle",
@@ -4458,7 +4458,7 @@
       "url": "https://robert-haase.de/belege.html#mcp-server-cards",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Stand der Normung",
+        "name": "Normung",
         "group": "plain"
       },
       "sourceText": "Model Context Protocol, SEP-2127 „MCP Server Cards“, Extensions Track, Status Final, angelegt am 21. Januar 2026, letzte inhaltliche Überarbeitung im Pull Request 3242 vom 20. August 2026 · abgerufen am 15. Oktober 2026 · Lighthouse: Pull Requests 17258 und 17259 zur Umstellung auf Agent Resource Discovery v0.91, zusammengeführt am 9. Oktober 2026, letztes Release 13.5.0 vom 18. September 2026 (zum Pull Request) · Zur Quelle",
@@ -4489,7 +4489,7 @@
       "url": "https://robert-haase.de/belege.html#aio-markensuchen",
       "topic": "ki-suche",
       "grade": {
-        "name": "Marktbeobachtung",
+        "name": "Messung · Anbieter",
         "group": "plain"
       },
       "sourceText": "Ahrefs, Ryan Law und Xibeijia Guan, „AI Overviews Currently Appear for 83% of Branded Searches“, 2. Oktober 2026 · US-Desktop, Juli bis September 2026, 232,8 Millionen Ergebnisseiten, davon 92,5 Millionen zu Markenbegriffen · Panel aus den 100 Marken von Interbrands Best Global Brands 2025 · abgerufen am 15. Oktober 2026 · Zur Quelle",
@@ -4516,7 +4516,7 @@
       "url": "https://robert-haase.de/belege.html#chatgpt-suchanfragen",
       "topic": "ki-suche",
       "grade": {
-        "name": "Marktbeobachtung",
+        "name": "Messung · Anbieter",
         "group": "plain"
       },
       "sourceText": "Ahrefs, Louise Linehan, „How ChatGPT Does Query Fan-Out (15 Million Queries Studied)“, 12. Oktober 2026 · 66,6 Millionen Antworten mit 15 Millionen Suchanfragen aus kostenlosen, nicht angemeldeten Sitzungen mit GPT-5.6 Luna, August und September 2026 · Anteile der Quellenangaben aus einem gesonderten Test mit 20.000 US-Fragen, ohne Zeitangabe · Reddit-Rückgang aus Brand Radar, Quellenangaben von ChatGPT in den USA, März bis September 2026, 2,4 bis 3,8 Millionen Antworten je Monat · abgerufen am 16. Oktober 2026 · Zur Quelle",
@@ -4543,7 +4543,7 @@
       "url": "https://robert-haase.de/belege.html#abruf-vor-inhalt",
       "topic": "ki-suche",
       "grade": {
-        "name": "Auswertung, Preprint ohne Begutachtung",
+        "name": "Messung · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Mahe Chen und Nick Koudas (University of Toronto), „What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)“, arXiv 2610.15033, Fassung 1 vom 10. Oktober 2026, Preprint ohne Begutachtung · Zahlen aus den Abschnitten 6.4 und 6.5, Datenerhebung laut Abschnitt 3.1 · Volltext gelesen am 16. Oktober 2026 · Zur Quelle",
@@ -4570,7 +4570,7 @@
       "url": "https://robert-haase.de/belege.html#ki-suche-vielfalt",
       "topic": "ki-suche",
       "grade": {
-        "name": "Feldexperiment, Preprint ohne Begutachtung",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Heeseung Andrew Lee, Dokyun Lee, Gwanhoo Lee und Dongwon Lee, „Breaking News Out of the Filter Bubble: Generative AI Search Diversifies Collective Attention and Raises Shared Information Consumption“, arXiv 2609.38946, Fassung 1 vom 30. September 2026, Preprint ohne Begutachtung · randomisiertes Feldexperiment mit 37.561 Lesern der Washington Post · Volltext gelesen am 16. Oktober 2026 · Zur Quelle",
@@ -4597,7 +4597,7 @@
       "url": "https://robert-haase.de/belege.html#agent-werbung-steuerung",
       "topic": "handel",
       "grade": {
-        "name": "Kontrollierter Versuch, Preprint ohne Begutachtung",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Tim R. Davidson, Marija Šakota und Robert West (EPFL) sowie Joshua Joseph (Harvard University), „Welcome to the Age of Agent Ads: Using On-Policy Attacks to Steer Agentic Decisions“, arXiv 2610.17195, Fassung 1 vom 12. Oktober 2026, Preprint ohne Begutachtung · Volltext gelesen am 16. Oktober 2026 · Zur Quelle",
@@ -4624,7 +4624,7 @@
       "url": "https://robert-haase.de/belege.html#cmo-ki-budget",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Analysehaus",
         "group": "plain"
       },
       "sourceText": "Gartner, Pressemitteilung „Gartner 2026 CMO Spend Survey Finds CMOs Allocate 15.3% of Marketing Budgets to AI, But Only 30% Are Ready to Scale AI Capabilities“, London, 11. Mai 2026 · CMO Spend Survey 2026, 401 Marketingverantwortliche in Nordamerika, Großbritannien und Europa, Januar bis März 2026 · abgerufen am 20. Oktober 2026 · Zur Quelle",
@@ -4651,7 +4651,7 @@
       "url": "https://robert-haase.de/belege.html#marketing-prioritaeten",
       "topic": "markt",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Beratung",
         "group": "plain"
       },
       "sourceText": "McKinsey, Aurélia Bettati, Jesko Perrey u. a., „Past forward: The modern rethinking of marketing’s core“, Bericht State of Marketing Europe 2026, 20. November 2025 · Befragung von 500 Marketingentscheidern in fünf Ländern, ergänzt um Experteninterviews, Methodik im Kasten „About our research“ · abgerufen am 20. Oktober 2026 · Zur Quelle",
@@ -4678,7 +4678,7 @@
       "url": "https://robert-haase.de/belege.html#agent-lenkt-urteil",
       "topic": "urteil",
       "grade": {
-        "name": "Kontrollierter Versuch, Preprint ohne Begutachtung",
+        "name": "Experiment · Anbieter, nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Anthropic, Amaç Herdağdelen, Hailey Joren und Alex Tamkin, „How AI agents shape experts’ judgment calls“, 27. Oktober 2026 · randomisierter Versuch mit 61 Fachleuten, davon 50 mit Agent, Claude Opus 4.8 in Claude Code, Analyseplan bei OSF (osf.io/t3q59) · Volltext mit Methodik und Registrierung (zum Volltext) · abgerufen am 1. November 2026 · Zur Quelle",
@@ -4736,7 +4736,7 @@
       "url": "https://robert-haase.de/belege.html#agenten-ueberschriften",
       "topic": "ki-suche",
       "grade": {
-        "name": "Kontrollierter Test, Simulation des Herausgebers",
+        "name": "Experiment · Fachmedium, Simulation",
         "group": "weak"
       },
       "sourceText": "Every, Mike Taylor, „How to Get AI Agents to Recommend Your Articles“, 27. Oktober 2026, aktualisiert am 1. November 2026 · 2.484 Sitzungen mit vier Modellen · abgerufen am 1. November 2026 · Zur Quelle",
@@ -4763,8 +4763,8 @@
       "url": "https://robert-haase.de/belege.html#bildschleifen-motive",
       "topic": "urteil",
       "grade": {
-        "name": "Simulation, begutachtet",
-        "group": "plain"
+        "name": "Experiment · begutachtet, Simulation",
+        "group": "strong"
       },
       "sourceText": "Hintze, Proschinger Åström und Schossau, „Autonomous language-image generation loops converge to generic visual motifs“, Patterns 7(1), 101451, Januar 2026, begutachtet (eingereicht 15. Juli, angenommen 17. November 2025) · Volltext bei PubMed Central, CC BY · abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
@@ -4790,7 +4790,7 @@
       "url": "https://robert-haase.de/belege.html#agenten-zeithorizont",
       "topic": "agenten",
       "grade": {
-        "name": "Messreihe eines Prüfinstituts",
+        "name": "Messung · Institut, laufend",
         "group": "plain"
       },
       "sourceText": "METR, „Task-Completion Time Horizons of Frontier AI Models“, Time Horizon 1.1, zuletzt aktualisiert am 8. September 2026 · Werte aus der Datendatei benchmark_results_1_1.yaml (zur Datendatei) · abgerufen am 1. November 2026 · Zur Quelle",
@@ -4821,7 +4821,7 @@
       "url": "https://robert-haase.de/belege.html#kinderbuch-klagen-openai",
       "topic": "haftung",
       "grade": {
-        "name": "Klage eingereicht, Vortrag der Kläger",
+        "name": "Gerichtsverfahren · Klage",
         "group": "weak"
       },
       "sourceText": "Carlsen Verlag, Pressemitteilung vom 19. August 2026 zur Klage vor dem Landgericht München I gegen die OpenAI Ireland Ltd. · Penguin Random House Verlagsgruppe, Mitteilung bei Bertelsmann vom 1. April 2026 (zu Penguin Random House) · abgerufen am 1. November 2026 · Zur Quelle",
@@ -4852,7 +4852,7 @@
       "url": "https://robert-haase.de/belege.html#agenten-eskalation-erstattung",
       "topic": "agenten",
       "grade": {
-        "name": "Einzelner Test, ein Lauf je Modell",
+        "name": "Experiment · Anbieter, Einzeltest",
         "group": "weak"
       },
       "sourceText": "Vals AI, Matilda Glynn-Henley, „How Far Will AI Assistants Go for a Refund They Can’t Get?“, 15. Oktober 2026 · sechs Modelle, je ein Lauf, simuliertes Gegenüber · abgerufen am 1. November 2026 · Zur Quelle",
@@ -4879,7 +4879,7 @@
       "url": "https://robert-haase.de/belege.html#chatgpt-verweise-konversion",
       "topic": "handel",
       "grade": {
-        "name": "Geprüfte Erhebung",
+        "name": "Messung · begutachtet",
         "group": "strong"
       },
       "sourceText": "Maximilian Kaiser und Christian Schulze, „Frontiers: ChatGPT Referrals to E-Commerce Websites: How Do LLMs Compare Against Traditional Channels?“, Marketing Science 45 (4), online am 21. April 2026, Open Access, begutachtet im Frontiers-Verfahren der Zeitschrift · 973 Websites, zwölf Monate eigene Daten der Shops · Adobe Digital Insights, Vivek Pandya, 17. Juni 2026, über eine Billion Besuche auf US-Handelsseiten (zu Adobe 2026), und 21. August 2025, Konversion im Juli 2025 (zu Adobe 2025) · abgerufen am 1. November 2026 · Zur Quelle",
@@ -4914,8 +4914,8 @@
       "url": "https://robert-haase.de/belege.html#ki-verweise-handel-wachstum",
       "topic": "handel",
       "grade": {
-        "name": "Anbietermessung",
-        "group": "weak"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Adobe Digital Insights, Vivek Pandya, „Generative AI-powered shopping rises with traffic to U.S. retail sites up 4,700%“, 21. August 2025, gemessen an Klicks auf einen Link · „AI traffic to travel sites soars nearly 200%“, 17. Juni 2026, Abschnitt zum Handel (zu Adobe 2026) · abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
@@ -4945,8 +4945,8 @@
       "url": "https://robert-haase.de/belege.html#ki-zitate-ausserhalb-top10",
       "topic": "ki-suche",
       "grade": {
-        "name": "Zwei Anbietermessungen",
-        "group": "weak"
+        "name": "Messung · Anbieter",
+        "group": "plain"
       },
       "sourceText": "Ahrefs, Louise Linehan und Xibeijia Guan, „Only 12% of AI Cited URLs Rank in Google’s Top 10 for the Original Prompt“, 11. August 2025, Daten Anfang Juli 2025 · Moz, Chima Mmeje, „Only 12% of AI Mode Citations Match URLs in the Organic SERP“, 18. Februar 2026, Daten aus STAT, Desktop und Mobil (zu Moz) · abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
@@ -4976,7 +4976,7 @@
       "url": "https://robert-haase.de/belege.html#reddit-lizenzerloese",
       "topic": "markt",
       "grade": {
-        "name": "Geprüfter Jahresabschluss",
+        "name": "Jahresabschluss · testiert",
         "group": "strong"
       },
       "sourceText": "Reddit, Inc., Form 10-K für das Geschäftsjahr 2025, Februar 2026, Anhang zum Umsatz (sonstige Erlöse 140,0 Millionen Dollar, Gesamtumsatz 2,2 Milliarden) und Risikofaktoren zu den Lizenzen · Reuters, Anna Tong, Echo Wang und Martin Coulter, „Exclusive: Reddit in AI content licensing deal with Google, sources say“, 22. Februar 2024, übernommen bei Yahoo (zum Reuters-Bericht) · abgerufen am 1. November 2026 · Zur Quelle",
@@ -5007,8 +5007,8 @@
       "url": "https://robert-haase.de/belege.html#govuk-chat",
       "topic": "ki-suche",
       "grade": {
-        "name": "Angaben des Betreibers",
-        "group": "plain"
+        "name": "Selbstauskunft",
+        "group": "weak"
       },
       "sourceText": "Government Digital Service, Shelina Hargrove, „GOV.UK Chat launches“, GDS-Blog, 14. Mai 2026 · abgerufen am 1. November 2026 · Zur Quelle",
       "sourceLinks": [
@@ -5034,7 +5034,7 @@
       "url": "https://robert-haase.de/belege.html#aldi-ohne-app",
       "topic": "handel",
       "grade": {
-        "name": "Unternehmenserklärung",
+        "name": "Fallbeispiel",
         "group": "plain"
       },
       "sourceText": "ALDI Nord und ALDI SÜD, gemeinsame Pressemitteilung, „ALDI setzt auf den besten Preis für alle und verzichtet deshalb auf App-Rabatte“, Essen und Mülheim an der Ruhr, 20. Juli 2026 · abgerufen am 1. November 2026 · Zur Quelle",
@@ -5061,7 +5061,7 @@
       "url": "https://robert-haase.de/belege.html#open-source-aufgegeben",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Geprüfte Erhebung",
+        "name": "Messung · begutachtet",
         "group": "strong"
       },
       "sourceText": "Guilherme Avelino, Eleni Constantinou, Marco Tulio Valente und Alexander Serebrenik, „On the abandonment and survival of open source projects: An empirical investigation“, ESEM 2019, IEEE, arXiv 1906.08058 vom 19. Juni 2019 · abgerufen am 1. November 2026 · Zur Quelle",
@@ -5088,7 +5088,7 @@
       "url": "https://robert-haase.de/belege.html#trainingsdaten-vorrat",
       "topic": "markt",
       "grade": {
-        "name": "Prognose, Modellrechnung",
+        "name": "Prognose · Institut",
         "group": "weak"
       },
       "sourceText": "Pablo Villalobos, Anson Ho, Jaime Sevilla, Tamay Besiroglu, Lennart Heim und Marius Hobbhahn, „Will we run out of data? Limits of LLM scaling based on human-generated data“, Epoch AI, 6. Juni 2024, arXiv 2211.04325 · abgerufen am 1. November 2026 · Zur Quelle",
@@ -5115,7 +5115,7 @@
       "url": "https://robert-haase.de/belege.html#agenten-skill-zitieren",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Kontrollierter Test, ein Agent",
+        "name": "Experiment · eigenes, reproduzierbar",
         "group": "plain"
       },
       "sourceText": "Eigene Messung, 2. November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, nur Seitenabruf · acht Fragen auf Englisch, je drei Läufe mit und ohne den Skill cite-evidence, 48 Läufe · bewertet je Antwort: Zahl, Grenze, Primärquelle, Einstufung, Permalink · Aufbau, Fragen, Muster und alle Ergebnisse in der Messdatei (englisch) · Zur Quelle",
@@ -5142,7 +5142,7 @@
       "url": "https://robert-haase.de/belege.html#block-brand-hub",
       "topic": "markt",
       "grade": {
-        "name": "Eigenangabe, Einzelfall",
+        "name": "Selbstauskunft",
         "group": "weak"
       },
       "sourceText": "Christian W., Head of Brand Design bei Block, LinkedIn-Beitrag vom 11. November 2026, geprüft am 12. November 2026 · Zur Quelle",
@@ -5169,7 +5169,7 @@
       "url": "https://robert-haase.de/belege.html#eugh-chatbot-presseverleger",
       "topic": "haftung",
       "grade": {
-        "name": "Schlussanträge, nicht bindend",
+        "name": "Gerichtsverfahren · Schlussanträge",
         "group": "plain"
       },
       "sourceText": "Gerichtshof der Europäischen Union, Schlussanträge des Generalanwalts Maciej Szpunar vom 3. November 2026, Rechtssache C-250/25, Like Company gegen Google Ireland, Vorabentscheidungsersuchen des Budapest Környéki Törvényszék · Antrag Nr. 240, Training Nr. 58, 89 bis 92, 99 und 152, Zurechnung Nr. 219 bis 221, Verhandlungsposition Nr. 236 · vorläufige englische Fassung gelesen am 12. November 2026 · Pressemitteilung Nr. 155/26 (zur Pressemitteilung) · Zur Quelle",
@@ -5200,7 +5200,7 @@
       "url": "https://robert-haase.de/belege.html#aio-klicks-feldexperiment",
       "topic": "ki-suche",
       "grade": {
-        "name": "Feldexperiment, präregistriert, Arbeitspapier ohne Begutachtung",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Saharsh Agarwal (Indian School of Business) und Ananya Sen (Carnegie Mellon University), „The Impact of Google AI Overviews on Publisher Traffic and User Experience: Evidence from a Field Experiment“, Arbeitspapier, Fassung vom 17. Juni 2026, präregistriert im AEA RCT Registry (AEARCTR-0017393) · 1.065 US-Teilnehmende, Zufallszuteilung über eine Chrome-Erweiterung · Volltext gelesen am 12. November 2026 · Zusammenfassung der Hochschule (zur Zusammenfassung) · Zur Quelle",
@@ -5231,7 +5231,7 @@
       "url": "https://robert-haase.de/belege.html#ki-informationssuche-reuters",
       "topic": "ki-suche",
       "grade": {
-        "name": "Befragung",
+        "name": "Befragung · Institut",
         "group": "plain"
       },
       "sourceText": "Reuters Institute for the Study of Journalism, Felix Simon, Rasmus Kleis Nielsen und Richard Fletcher, „Generative AI and News Report 2026: From standalone tools to information infrastructure“, 29. Oktober 2026 · Befragung durch YouGov, rund 2.000 Befragte je Land in neun Ländern, 14. August bis 28. September 2026 · gelesen am 12. November 2026 · Zur Quelle",
@@ -5258,7 +5258,7 @@
       "url": "https://robert-haase.de/belege.html#webmcp-angeboten-kaum-abgefragt",
       "topic": "schnittstellen",
       "grade": {
-        "name": "Angaben des Herstellers, Testbetrieb",
+        "name": "Selbstauskunft · Beta",
         "group": "weak"
       },
       "sourceText": "Chromium, Liste blink-dev, Thread „Intent to Extend Experiment: WebMCP“: Antrag des Chrome-WebMCP-Teams vom 28. Oktober 2026, Antwort von Rick Byers vom 2. November 2026, Freigaben am 28. Oktober, 2. und 4. November 2026 · Zähler ModelContextGetTools auf Chrome Platform Status (zum Zähler) · gelesen am 12. November 2026 · Zur Quelle",
@@ -5289,7 +5289,7 @@
       "url": "https://robert-haase.de/belege.html#wikipedia-aio-rueckgang",
       "topic": "ki-suche",
       "grade": {
-        "name": "Quasi-Experiment, Preprint ohne Begutachtung",
+        "name": "Experiment · nicht begutachtet",
         "group": "weak"
       },
       "sourceText": "Mehrzad Khosravi und Hema Yoganarasimhan, „Impact of AI Search Summaries on Website Traffic: Evidence from Google AI Overviews and Wikipedia“, arXiv 2602.18455, Fassung 1 vom 5. Februar 2026 und Fassung 7 vom 25. Oktober 2026, Preprint ohne Begutachtung · Abstracts beider Fassungen gelesen am 12. November 2026 · Zur Quelle",
@@ -5316,7 +5316,7 @@
       "url": "https://robert-haase.de/belege.html#chatgpt-business-hub-verzicht",
       "topic": "haftung",
       "grade": {
-        "name": "Nutzungsbedingungen des Anbieters",
+        "name": "Herstellerdokumentation",
         "group": "strong"
       },
       "sourceText": "OpenAI, „Businesses in ChatGPT Terms“, zuletzt aktualisiert am 9. November 2026 · Präambel (wer gebunden ist), Ziffer 3 (Produkt-Feed), 4 (Einträge), 6 (Sichtbarkeitszahlen), 10 (Klageverzicht und Freigabe), 11 (Begriff „Covered Claim“) · gelesen am 16. November 2026 · Zur Quelle",
@@ -5343,7 +5343,7 @@
       "url": "https://robert-haase.de/belege.html#aio-deutschland-keywords",
       "topic": "ki-suche",
       "grade": {
-        "name": "Marktbeobachtung",
+        "name": "Messung · Anbieter",
         "group": "plain"
       },
       "sourceText": "SISTRIX, Johannes Beus, „AI Overviews jetzt bei über 50 % der Keywords“, 6. November 2026 · Schwellen und Stichtage aus dem Beitrag · gelesen am 16. November 2026 · Zur Quelle",
@@ -5370,7 +5370,7 @@
       "url": "https://robert-haase.de/belege.html#agenten-buchungen-uber",
       "topic": "handel",
       "grade": {
-        "name": "Unternehmensangabe, eine Woche",
+        "name": "Selbstauskunft",
         "group": "weak"
       },
       "sourceText": "Uber Technologies, Q3 2026 Earnings Call vom 4. November 2026, Corrected Transcript (FactSet CallStreet), S. 15 bis 17, Antworten von Dara Khosrowshahi und Balaji Krishnamurthy auf eine Frage von Doug Anmuth (JPMorgan) · gelesen am 16. November 2026 · Zur Quelle",

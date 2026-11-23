@@ -12,7 +12,7 @@ This file is generated from the page. Where the two differ, the page applies.
 
 Every figure is traced back to the body that measured it, not to the article citing it. On their way through the retellings, figures lose their denominator first, then their caveat, and finally their origin. Where a figure is only accessible through a third party, that intermediary is named in the source line. Own measurements carry their method with them; they have not been independently verified yet.
 
-**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is, from verified study to single case. That decides how far it carries.
+**The limit belongs to the number.** The most common error is not the wrong number but the right one carrying a claim that reaches further than the evidence. That is why every entry has two parts, and the second one matters more. Above each figure sits what kind of evidence it is and who produced it, from peer-reviewed study to self-report. The colour shows how far it carries.
 
 What does not survive the check does not get in, or gets taken out, my own articles included. One of them claimed that 44 percent of US online shoppers begin their purchase journey in a language model, attributed to Bain. Bain gives two other figures, 17 percent and 30 to 45 percent, which had merged into one along the way. Both are here now; the 44 is not.
 
@@ -22,9 +22,9 @@ The collection does not map the state of the research, only the figures I needed
 
 ## Grades in this topic
 
-+ Verified study, vendor documentation, or court decision (16) → astryx-agenten, designsysteme-maschinenschnittstelle, frontify-mcp, canva-mcp, mcp-tool-poisoning, pulumi-brand-mcp, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, markenstimme-als-skill, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
-+ Preliminary: prototype, single test, forecast, or vendor figure (4) → monotype-mcp, veeva-mlr, olivares-access-map, webmcp-angeboten-kaum-abgefragt
-+ Status, case report, or market observation (6) → gitlab-markenrepo, mcp-primitive, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
++ Peer-reviewed study, independent institute, official statistics, court or vendor documentation (13) → astryx-agenten, frontify-mcp, canva-mcp, mcp-tool-poisoning, statista-mcp, google-ads-textregeln, microsoft-brand-kit, muse-connectors, adobe-markenpruefung, markup-ai-stilpruefung, chatgpt-plugin-pruefung, chatgpt-anzeigen-umschreiben, open-source-aufgegeben
++ Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (5) → monotype-mcp, veeva-mlr, olivares-access-map, markenstimme-als-skill, webmcp-angeboten-kaum-abgefragt
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (8) → designsysteme-maschinenschnittstelle, gitlab-markenrepo, mcp-primitive, pulumi-brand-mcp, agentenstandards-verbreitung, staat-als-einzige-quelle, mcp-server-cards, agenten-skill-zitieren
 
 ---
 
@@ -36,7 +36,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Astryx by Meta, “Introducing Astryx”, 18 June 2026, and “Who needs a Figma Library?”, 5 August 2026 · repository under MIT licence · [Source](https://astryx.atmeta.com/blog/introducing-astryx)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#astryx-agenten
 
@@ -50,7 +50,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Kaelig Deloumeau-Prigent, 21 open-source design systems, data collected 26 to 28 July 2026 according to the site, list extended since · report 1 September 2026 · CC BY 4.0 · the narrower figures sit in the essay section of the site · retrieved 17 September 2026 · [Source](https://state-of-ai-in-design-systems.netlify.app/)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · single author · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#designsysteme-maschinenschnittstelle
 
@@ -64,7 +64,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** GitLab Handbook, public repository gitlab-com/content-sites/handbook, checked 10 September 2026 · brand voice with the three traits in content/handbook/marketing/brand-experience/content-style-guide.md, naming rules in naming.md, trademark guidelines in trademark-guidelines.md, values in content/handbook/values/\_index.md, mission in content/handbook/company/mission.md · commit e692ba4b of 22 May 2025, 17:11 UTC, merge request 13766 · diverging version of the same traits in the design system repository gitlab-org/gitlab-services/design.gitlab.com, contents/brand-messaging/brand-voice.md ([design system repository](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)) · [Commit](https://gitlab.com/gitlab-com/content-sites/handbook/-/commit/e692ba4bade85fa0f35552cecc7d69abba3779a1)
 
-**Grade:** Documented single case · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#gitlab-markenrepo
 
@@ -78,7 +78,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Frontify, MCP server overview and pack pages (/mcp/packs/admin and /mcp/packs/discovery), tools listed individually and 49 and 27 tools respectively per the server overview on 12 November 2026 (counted: 54 and 24 on 10 September, 53 and 24 on 17 September, 47 and 24 on 15 October, 48 and 26 on 1 November) · repository with the table of ten packs, MIT licence ([repository](https://github.com/Frontify/mcp-servers)) · help centre “Frontify MCP” (titled Beta until early September), as of 17 September 2026, unchanged on 1 November 2026, gives 52 tools and 25 for Discovery and states that account admins enable the server at no additional cost ([help centre](https://help.frontify.com/en/articles/14787214-frontify-mcp)) · guide “Choosing a DAM for the AI era”, published 22 May 2026, last changed 30 July 2026, also gives 52 ([guide](https://www.frontify.com/en/guide/dam-mcp)) · [Server](https://mcp.frontify-integrations.com/)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#frontify-mcp
 
@@ -92,7 +92,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Canva, tool list of the MCP server with plan tiers and legend in the developer documentation, 46 entries counted individually, retrieved 15 October 2026 (33 on 10 September 2026) · Canva, “Canva Model Context Protocol (MCP)”, server address mcp.canva.com/mcp, authentication and plan overview ([server documentation](https://www.canva.dev/docs/apps/mcp/)), retrieved 10 September 2026 · [Tool catalogue](https://www.canva.dev/docs/apps/mcp/tools/)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#canva-mcp
 
@@ -106,7 +106,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Model Context Protocol, stewarded by Model Context Protocol a Series of LF Projects, LLC, specification revision 2026-07-28, chapters Tools, Resources and Prompts, each the section “User Interaction Model”, plus the overview pages /specification/2026-07-28, section Features, and /specification/2026-07-28/server, section Server Features, and the explainer “Understanding MCP servers” · revision list and method change from own path and text sampling · 10 September 2026 · [Source](https://modelcontextprotocol.io/specification/2026-07-28/server/tools)
 
-**Grade:** State of standardization · Group: Status, case report, or market observation
+**Grade:** Standardisation · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#mcp-primitive
 
@@ -120,7 +120,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Invariant Labs (now Snyk), Luca Beurer-Kellner and Marc Fischer, two experiments with the MCP client Cursor, 1 April 2025, updates 7 and 11 April 2025 · Zhiqiang Wang and eight others (University of Science and Technology of China, Beihang University), “MCPTox”, 45 MCP servers, 353 tools, 1,348 test cases, 20 model settings, figures from section 4.2 and table 2, AAAI-26, Proceedings of the AAAI Conference on Artificial Intelligence 40(42), pages 35811 to 35819, 14 March 2026, doi:10.1609/aaai.v40i42.40895, preprint arXiv:2508.14925v1, 19 August 2025 · [Peer-reviewed version](https://doi.org/10.1609/aaai.v40i42.40895) · [Source](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks)
 
-**Grade:** Peer-reviewed benchmark and vendor test · Group: Verified study, vendor documentation, or court decision
+**Grade:** Experiment · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#mcp-tool-poisoning
 
@@ -134,7 +134,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Monotype Labs, “Bringing font governance into AI-native content creation”, the beta workflow in seven steps, 15 July 2026 · press release “Monotype Introduces Enterprise Connector Beta, Exploring How Brand Governance Works Inside AI-Native Workflows”, Woburn, Massachusetts, 15 July 2026 · product page “Monotype Enterprise Connector” carrying the status “Now in BETA” and the access prerequisites, retrieved 10 September 2026 · negative check against the press release listing, 15 July to 10 September 2026 with no change of status · [Source](https://www.monotype.com/resources/monotype-labs/bringing-font-governance-ai-native-content-creation)
 
-**Grade:** Vendor statement, beta · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Vendor documentation · beta · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#monotype-mcp
 
@@ -148,7 +148,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own request to the Pulumi Brand MCP Server, version 0.1.0, session protocol 2025-06-18 (client-chosen; the server names 2025-11-25), via JSON-RPC over Streamable HTTP · methods initialize, resources/list, resources/templates/list, tools/list, prompts/list, resources/read on brand://guidelines and tools/call on check_color_accessibility and find_nearest_brand_color · all calls HTTP 200 without an authentication header, no list carrying nextCursor, counts repeated three times and stable · brand://guidelines in full, 3,053 characters, text/markdown · vendor documentation brand.pulumi.com/mcp-server for the classification of the prompts · retrieved 10 September 2026, again on 17 September 2026 with the same counts, plus prompts/get on review_copy (context marketing, one message, 32,957 characters) · [Source](https://brand.pulumi.com/mcp-server/)
 
-**Grade:** Own measurement, reproducible · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#pulumi-brand-mcp
 
@@ -162,7 +162,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Statista, developer documentation MCP Server and Credit Logic, six tools and credit costs counted individually · own request to the endpoint without a key · press release of 20 November 2025 · retrieved 10 September 2026 · [Press release](https://www.statista.com/press/p/statista_next_ai_leap/) · [Source](https://docs.platform.statista.ai/pricing/credit-logic)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#statista-mcp
 
@@ -176,7 +176,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Veeva Systems, press releases on the availability of the Veeva AI Agents and on the Copli acquisition, both read in full · 3 December 2025 and 23 June 2026 · the 57 per cent is advertised by Veeva today on the product page Veeva PromoMats Review and Approve, accessed 10 September 2026 · age of the figure: Veeva datasheet “Ensuring End-to-End Commercial Content Compliance” (PromoMats for EU), PDF created 2 May 2017, veeva.com/eu/wp-content/uploads/2017/05/PromoMats-for-EU-Datasheet.pdf, the same figure in the version with PDF created 21 March 2016, veeva.com/eu/wp-content/uploads/2012/07/PromoMats-for-EU-Datasheet-1.pdf · [Product page](https://www.veeva.com/products/veeva-promomats/mlr-review/) · [Source](https://www.veeva.com/resources/veeva-ai-agents-now-available-to-increase-productivity-and-customer-centricity/)
 
-**Grade:** Vendor press releases · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#veeva-mlr
 
@@ -190,7 +190,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Google Ads Help, "Use text guidelines with Performance Max and Search campaigns (beta)", retrieved 17 September 2026 · beta access extended to all advertisers worldwide per the Google blog of 26 February 2026 · [Source](https://support.google.com/google-ads/answer/16489313)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#google-ads-textregeln
 
@@ -204,7 +204,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Microsoft, support page “Create and manage official Brand kits in the Microsoft Copilot app”, last updated in October 2026 according to the page, sections “Make a Brand Kit official” and “Frequently asked questions” · retrieved 1 November 2026 · earlier page “Use guidelines to manage brand kits in the Microsoft Copilot app” describing the import from one PDF, retrieved 17 September 2026, redirected since October 2026 ([archived version of 16 September 2026](https://web.archive.org/web/20260916022323/https://support.microsoft.com/en-us/microsoft-365-copilot/use-guidelines-to-manage-brand-kits-in-the-microsoft-365-copilot-app)) · [Source](https://support.microsoft.com/en-us/microsoft-365-copilot/create-and-manage-official-brand-kits-in-the-microsoft-365-copilot-app)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#microsoft-brand-kit
 
@@ -218,7 +218,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Meta, newsroom “Introducing Muse”, 8 September 2026, for the launch, the access decision and the check-back before sensitive steps; submission, review against functional, security and legal requirements and the directory on the platform page · both retrieved 19 September 2026 · Meta, “The Future Is for Everyone: Muse for Small Business”, 29 September 2026, updated 8 October 2026 ([small-business version](https://about.fb.com/news/2026/09/introducing-muse-small-business/)), retrieved 1 November 2026 · [Muse platform page](https://muse.ai/platform) · [Source](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#muse-connectors
 
@@ -232,7 +232,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Olivares, repository olivaresai/olivares, README with inventory, access map, four enforcement points, budgets and signed ledger; core under AGPL-3.0, SDK and connectors under Apache-2.0, self-hosted · retrieved 20 September and 12 November 2026 · [Source](https://github.com/olivaresai/olivares)
 
-**Grade:** Vendor statement, beta · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Vendor documentation · beta · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#olivares-access-map
 
@@ -246,7 +246,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Adobe, documentation “Brand Validation in Adobe GenStudio for Performance Marketing” (Experience League), the sections on how the score is calculated, on the three kinds of check and on rechecking · retrieved 20 September 2026 · [Source](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brand-validation)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#adobe-markenpruefung
 
@@ -260,7 +260,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Markup AI, own site and documentation: checking content against brand voice and style rules with flag, reason and suggestion, scoring against the stored standards, origin in Acrolinx · connection and authentication from the MCP server guide ([MCP server guide](https://docs.markup.ai/mcp/vscode-mcp)) · retrieved 20 September 2026 · [Source](https://markup.ai/)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#markup-ai-stilpruefung
 
@@ -274,7 +274,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Cloudflare Radar, “AI Insights” page, section “Adoption of AI agent standards”, as of 9 November 2026 · 117,018 successfully scanned among the 200,000 most visited domains, values queried through the page’s data interface · method and checked paths in the blog post “Introducing the Agent Readiness score” of 17 April 2026 ([to the method post](https://blog.cloudflare.com/agent-readiness/)) · earlier snapshots 21 September 2026 with 107,155, 12 October 2026 with 109,493 and 26 October 2026 with 114,605 domains, weekly values via the dateEnd parameter · retrieved 9 November 2026, cross-read 12 November · [Source](https://radar.cloudflare.com/ai-insights)
 
-**Grade:** Market observation · Group: Status, case report, or market observation
+**Grade:** Measurement · vendor · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agentenstandards-verbreitung
 
@@ -288,7 +288,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Google Workspace Blog, Ali Douvre, “Teach Gemini your team’s know-hows with skills in Google Workspace”, 17 September 2026 · Google Cloud, “Create and manage skills | Gemini Enterprise”, last updated 24 September 2026 · both retrieved 28 September 2026 · Google Workspace Updates, “Introducing skills in the Gemini app and Workspace, plus what’s next for Gems”, 30 September 2026, with an update of 13 October 2026 ([announcement](https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html)) · Google Workspace Help, “About the transition from Gems to skills” ([help page](https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/about-the-transition-to-skills)) · both retrieved 16 October 2026 · Google Workspace Updates, “An update on the launch of skills in the Gemini app and Workspace”, 13 October 2026 ([rollout status](https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html)), retrieved 1 November 2026 · [Gemini Enterprise documentation](https://docs.cloud.google.com/gemini/enterprise/docs/skills) · Google Workspace Updates, “Scale customized AI across your team with skills in Google Workspace and Workspace Studio”, 10 November 2026, read 12 November 2026 ([rollout](https://workspaceupdates.googleblog.com/2026/11/skills-in-workspace.html)) · [Source](https://workspace.google.com/blog/product-announcements/teach-gemini-your-teams-know-hows-with-skills-in-google-workspace)
 
-**Grade:** Vendor documentation, beta · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · beta · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#markenstimme-als-skill
 
@@ -302,7 +302,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** America.gov, “How it works” · launch statements according to FedScoop (Madison Alder) and Nextgov/FCW (Christian Robles), both 29 September 2026 · FedScoop gives the 29,000 websites as America.gov’s own figure, and they were not on “How it works” on 1 October 2026; on 16 October 2026 the FAQ carries the figure, without deriving it · CBS News, Céline Gounder, 30 September 2026 · all retrieved 30 September 2026 · Executive Order 14432, “Streamlining Access to Government Services Through America.gov”, 29 September 2026 ([the order](https://www.whitehouse.gov/presidential-actions/2026/09/streamlining-access-to-government-services-through-america-gov/)) · America.gov, FAQ ([FAQ](https://america.gov/faq)) · both retrieved 16 October 2026 · [FedScoop](https://fedscoop.com/trump-launches-ai-site-america-gov/) · [CBS News](https://www.cbsnews.com/news/america-gov-chatbot-health-questions/) · [Source](https://america.gov/how-it-works)
 
-**Grade:** Documented single case · Group: Status, case report, or market observation
+**Grade:** Case · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#staat-als-einzige-quelle
 
@@ -316,7 +316,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** OpenAI Developers, “Submission”, submitting plugins to the ChatGPT directory, with a sample manifest, undated, retrieved 30 September 2026 · plugins as an announcement: OpenAI, “DevDay 2026 Recap”, 29 September 2026 · [DevDay 2026 Recap](https://openai.com/index/devday-2026-recap/) · [Source](https://developers.openai.com/plugins/deploy/submission)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-plugin-pruefung
 
@@ -330,7 +330,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Model Context Protocol, SEP-2127 “MCP Server Cards”, Extensions Track, status Final, created 21 January 2026, last substantive revision in pull request 3242 of 20 August 2026 · retrieved 15 October 2026 · Lighthouse: pull requests 17258 and 17259 moving to Agent Resource Discovery v0.91, merged 9 October 2026, latest release 13.5.0 of 18 September 2026 ([to the pull request](https://github.com/GoogleChrome/lighthouse/pull/17259)) · [Source](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/seps/2127-mcp-server-cards.md)
 
-**Grade:** State of standardization · Group: Status, case report, or market observation
+**Grade:** Standardisation · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#mcp-server-cards
 
@@ -344,7 +344,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** OpenAI Help Center, “Creative enhancements for ChatGPT Ads”, sections “What can change”, “Manage creative enhancements” and “Frequently asked questions”, updated late October 2026 · retrieved 1 November 2026 · [Source](https://help.openai.com/en/articles/20001614-creative-enhancements-for-chatgpt-ads)
 
-**Grade:** Vendor documentation · Group: Verified study, vendor documentation, or court decision
+**Grade:** Vendor documentation · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#chatgpt-anzeigen-umschreiben
 
@@ -358,7 +358,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Guilherme Avelino, Eleni Constantinou, Marco Tulio Valente and Alexander Serebrenik, “On the abandonment and survival of open source projects: An empirical investigation”, ESEM 2019, IEEE, arXiv 1906.08058 of 19 June 2019 · retrieved 1 November 2026 · [Source](https://arxiv.org/abs/1906.08058)
 
-**Grade:** Verified study · Group: Verified study, vendor documentation, or court decision
+**Grade:** Measurement · peer-reviewed · Group: Peer-reviewed study, independent institute, official statistics, court or vendor documentation
 
 **Permalink:** https://robert-haase.de/en/evidence.html#open-source-aufgegeben
 
@@ -372,7 +372,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Own measurement, 2 November 2026 · Claude Sonnet 5.5 in Claude Code 2.1.220, page fetch only · eight questions in English, three runs each with and without the cite-evidence skill, 48 runs · scored per answer: figure, limit, primary source, grade, permalink · setup, questions, patterns and all results in the measurement file · [Source](https://robert-haase.de/messungen/agenten-skill-2026-11-02.md)
 
-**Grade:** Controlled test, one agent · Group: Status, case report, or market observation
+**Grade:** Experiment · own, reproducible · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
 
 **Permalink:** https://robert-haase.de/en/evidence.html#agenten-skill-zitieren
 
@@ -386,7 +386,7 @@ The collection does not map the state of the research, only the figures I needed
 
 **Source:** Chromium, blink-dev list, thread “Intent to Extend Experiment: WebMCP”: request by the Chrome WebMCP team of 28 October 2026, reply by Rick Byers of 2 November 2026, approvals on 28 October, 2 and 4 November 2026 · ModelContextGetTools counter on Chrome Platform Status ([counter](https://chromestatus.com/metrics/feature/timeline/popularity/5904)) · read 12 November 2026 · [Source](https://groups.google.com/a/chromium.org/g/blink-dev/c/lkdLdy5VPoA/m/w-_Sgf06CQAJ)
 
-**Grade:** Vendor statements, trial phase · Group: Preliminary: prototype, single test, forecast, or vendor figure
+**Grade:** Self-reported · beta · Group: Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited
 
 **Permalink:** https://robert-haase.de/en/evidence.html#webmcp-angeboten-kaum-abgefragt
 
