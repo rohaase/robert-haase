@@ -86,3 +86,24 @@ One agent family, one tool configuration, one site: mine. The questions and the 
 ## Reproduce
 
 Run the eight prompts above with the same flags: `claude -p "<prompt>" --model claude-sonnet-5-5 --setting-sources project --strict-mcp-config --output-format stream-json --verbose --max-turns 20 --allowedTools WebFetch --disallowedTools Bash Edit Write NotebookEdit WebSearch Skill Agent Task Glob Grep Read`, adding `--append-system-prompt` with the skill text for the second condition. Results will differ in wording; the comparison is what should hold.
+
+## Follow-up, 23 November 2026
+
+**What changed:** On 23 November 2026 the evidence page got a line addressed to agents near the top, within the first 600 characters of visible text: the page is too long for a single fetch, the complete collection is available as text at `belege.md` and `en/evidence.md`. Before, the only pointer to the text files addressed people ("give them the link").
+
+**Setup:** The two questions on which runs without the skill came back without a figure on 2 November (`chatgpt-verweise-konversion`, `reddit-lizenzerloese`), three runs each, without the skill, same prompt, flags and patterns as above, Claude Sonnet 5.5 in Claude Code 2.1.220, run on 23 November 2026 between 21:24 and 21:27 Berlin time against the live page.
+
+| Entry | Run | Figure | Limit | Primary source | Grade | Permalink | Fetches | Markdown fetched |
+|---|---|---|---|---|---|---|---|---|
+| `chatgpt-verweise-konversion` | 1 | 1 | 1 | 1 | 1 | 1 | 5 | `en/evidence-commerce.md` |
+| `chatgpt-verweise-konversion` | 2 | 0 | 0 | 0 | 0 | 1 | 5 | none |
+| `chatgpt-verweise-konversion` | 3 | 1 | 1 | 1 | 1 | 0 | 13 | `en/evidence.md`, `belege.md`, `en/evidence-commerce.md` |
+| `reddit-lizenzerloese` | 1 | 1 | 1 | 1 | 0 | 1 | 7 | `belege-markt.md` |
+| `reddit-lizenzerloese` | 2 | 1 | 0 | 1 | 1 | 1 | 12 | `en/evidence.md` |
+| `reddit-lizenzerloese` | 3 | 1 | 1 | 1 | 0 | 0 | 5 | `belege-markt.md` |
+
+**Result:** The figure of the matching entry came back in 5 of 6 runs, against 3 of 6 for the same two questions on 2 November. In 5 of 6 runs the agent fetched a Markdown file; one answer says so itself: the HTML page "cut off before this entry", the Markdown version "had it in full". Usage cost reported by the tool: 2.57 dollars.
+
+**Read by hand:** The miss (`chatgpt-verweise-konversion`, run 2) fetched the HTML page four times and never a Markdown file; it reported no figure and quoted a sentence the page does not contain, a paraphrase produced by the fetch tool from a shortened page. `reddit-lizenzerloese` run 2 misses the limit by pattern but gives another part of the entry's limit (two partners hold substantially all of the contract value), not the one about the anonymously sourced 60 million.
+
+**Limits:** Six runs, two questions, one agent: an indication, not proof. The model and tool behind the runs on 2 and 23 November may differ in ways the version number does not show. The evidence entry `agenten-skill-zitieren` is unchanged by this follow-up.
