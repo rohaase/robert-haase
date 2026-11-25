@@ -1,6 +1,6 @@
 # Evidence: Market size
 
-24 of 163 entries in the collection “Evidence” by Robert Haase, as of 23 November 2026.
+25 of 165 entries in the collection “Evidence” by Robert Haase, as of 25 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-markt.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Peer-reviewed study, independent institute, official statistics, court or vendor documentation (2) → ki-nutzung-deutschland, reddit-lizenzerloese
 + Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
-+ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (11) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (12) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten, ki-zugang-nutzung
 
 ---
 
@@ -364,4 +364,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 24 of 24 entries on Market size. Last entry: block-brand-hub.
+## ki-zugang-nutzung
+
+**Claim:** According to 3,235 senior leaders in 24 countries, just under 60 percent of workers have access to sanctioned AI tools, up from under 40 percent a year earlier. Among those with access, fewer than 60 percent use the tools in their daily workflow, a share that has barely changed since the previous year.
+
+**What the figures do not say:** These are leaders' statements, not measured use; nobody analysed usage data from the tools. Only organisations that already use AI daily were surveyed, so the average across all companies is likely lower. The report does not define "daily workflow". It gives access as "around 60" in one place and "under 60 percent" in another. Multiplying the two shares gives at most a little over a third of the workforce; that calculation is not in the report. The survey was run by a consultancy that sells AI adoption. Fieldwork was in August and September 2025. Deloitte's US site now presents a newer wave with about 3,500 respondents, which is not evaluated here.
+
+**Source:** Deloitte AI Institute: "State of AI in the Enterprise: The untapped edge", January 2026, pp. 4 and 8 · survey of 3,235 leaders (director to C-suite, split equally between IT and line of business) in 24 countries, August and September 2025 · accessed 25 November 2026 · [Source](https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf)
+
+**Grade:** Survey · consultancy · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
+
+**Permalink:** https://robert-haase.de/en/evidence.html#ki-zugang-nutzung
+
+---
+
+End of file: 25 of 25 entries on Market size. Last entry: ki-zugang-nutzung.

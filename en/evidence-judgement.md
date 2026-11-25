@@ -1,6 +1,6 @@
 # Evidence: Judgement
 
-23 of 163 entries in the collection “Evidence” by Robert Haase, as of 23 November 2026.
+23 of 165 entries in the collection “Evidence” by Robert Haase, as of 25 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-urteil.md
 

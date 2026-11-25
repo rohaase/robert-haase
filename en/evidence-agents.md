@@ -1,6 +1,6 @@
 # Evidence: Agents
 
-25 of 163 entries in the collection “Evidence” by Robert Haase, as of 23 November 2026.
+26 of 165 entries in the collection “Evidence” by Robert Haase, as of 25 November 2026.
 
 Page: https://robert-haase.de/en/evidence.html · Overview of all claims: https://robert-haase.de/en/evidence.md · JSON: https://robert-haase.de/en/evidence.json · Deutsch: https://robert-haase.de/belege-agenten.md
 
@@ -24,7 +24,7 @@ The collection does not map the state of the research, only the figures I needed
 
 + Peer-reviewed study, independent institute, official statistics, court or vendor documentation (6) → leere-buttons, lighthouse, a11y-tree, lighthouse-agent-discovery, agenten-wissensarbeit, dots-freigaberegeln
 + Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
-+ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (12) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (13) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont, agenten-governance-reife
 
 ---
 
@@ -378,4 +378,18 @@ The collection does not map the state of the research, only the figures I needed
 
 ---
 
-End of file: 25 of 25 entries on Agents. Last entry: agenten-eskalation-erstattung.
+## agenten-governance-reife
+
+**Claim:** In Germany, 27 percent of 170 surveyed leaders report that their organisation uses AI agents at least moderately; 19 percent call their governance for them advanced. Worldwide the figures are 23 and 21 percent of 3,235. Within two years, 77 percent in Germany and 74 percent worldwide expect at least moderate use.
+
+**What the figures do not say:** "Advanced" is a self-assessment and not defined in the report; nobody examined the governance models. The two-year values are expectations. With 170 respondents, the small gaps between Germany and the global figures are not robust; the report gives no margins of error. Only organisations that already use AI daily were surveyed. By its own account, the German cut was analysed and drafted with the help of an AI agent and then checked by people; its summary speaks of 16 countries, its methodology of 24. The survey was run by a consultancy that sells governance advice. **In detail:** 16 percent of German respondents assess agents against no framework at all (9 worldwide), 41 percent only against public ones such as NIST or ISO (29), 20 percent against public and proprietary ones together (43). By governance the report means decision rights, escalation thresholds, stop mechanisms and review. Fieldwork was in August and September 2025; Deloitte's US site now presents a newer wave, which is not evaluated here.
+
+**Source:** Deloitte Germany, Deloitte AI Institute: "State of AI in the Enterprise: The technology has scaled, but has your leadership? German Cut", May 2026, pp. 13, 16 and 17 · 170 respondents in Germany from the global survey of 3,235 leaders in 24 countries, August and September 2025 · global figures also in the edition "The untapped edge", January 2026, pp. 17 and 20 · report available after registration, accessed 25 November 2026 · [Source](https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html)
+
+**Grade:** Survey · consultancy · Group: Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards
+
+**Permalink:** https://robert-haase.de/en/evidence.html#agenten-governance-reife
+
+---
+
+End of file: 26 of 26 entries on Agents. Last entry: agenten-governance-reife.

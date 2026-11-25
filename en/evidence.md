@@ -1,6 +1,6 @@
-# Evidence: all 163 claims
+# Evidence: all 165 claims
 
-Overview of the collection “Evidence” by Robert Haase, as of 23 November 2026: every claim on one line, with its grade and a link to its topic file.
+Overview of the collection “Evidence” by Robert Haase, as of 25 November 2026: every claim on one line, with its grade and a link to its topic file.
 
 A claim holds only together with its limit (“What the number does not say”). Limit and source are given in full in the topic file named on each line.
 
@@ -25,11 +25,11 @@ The collection does not map the state of the research, only the figures I needed
 ## Topic files
 
 - AI search, 30 entries: https://robert-haase.de/en/evidence-ai-search.md
-- Agents, 25 entries: https://robert-haase.de/en/evidence-agents.md
+- Agents, 26 entries: https://robert-haase.de/en/evidence-agents.md
 - Interfaces, 26 entries: https://robert-haase.de/en/evidence-interfaces.md
 - Commerce, 16 entries: https://robert-haase.de/en/evidence-commerce.md
 - Liability, 19 entries: https://robert-haase.de/en/evidence-liability.md
-- Market size, 24 entries: https://robert-haase.de/en/evidence-market.md
+- Market size, 25 entries: https://robert-haase.de/en/evidence-market.md
 - Judgement, 23 entries: https://robert-haase.de/en/evidence-judgement.md
 
 ## AI search (30)
@@ -69,11 +69,11 @@ The collection does not map the state of the research, only the figures I needed
 - **wikipedia-aio-rueckgang** · Experiment · not peer-reviewed · How much Google’s AI Overviews reduce search visits to Wikipedia, the same authors estimate very differently from version to version: by about 15 percent in the first, of February 2026, and in the seventh, of October, by 5.45 percent against the German and 4.82 percent against the French articles. → https://robert-haase.de/en/evidence-ai-search.md
 - **aio-deutschland-keywords** · Measurement · vendor · In Germany, Google shows an AI Overview for more than half of all keywords: 57.9 percent on 6 November 2026 according to SISTRIX, against 20 percent in mid-November 2025. The last ten percentage points up to half took 52 days. → https://robert-haase.de/en/evidence-ai-search.md
 
-## Agents (25)
+## Agents (26)
 
 + Peer-reviewed study, independent institute, official statistics, court or vendor documentation (6) → leere-buttons, lighthouse, a11y-tree, lighthouse-agent-discovery, agenten-wissensarbeit, dots-freigaberegeln
 + Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
-+ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (12) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (13) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont, agenten-governance-reife
 
 - **leere-buttons** · Measurement · research institute · On 30.6 percent of one million home pages surveyed, buttons had no accessible name; on 51 percent, form fields had no label. → https://robert-haase.de/en/evidence-agents.md
 - **agent-ready** · Experiment · not peer-reviewed · In a controlled experiment, three browser agents reached a strict success rate of 89.3 percent on the agent-friendly version against 49.3 percent on the original. → https://robert-haase.de/en/evidence-agents.md
@@ -100,6 +100,7 @@ The collection does not map the state of the research, only the figures I needed
 - **dots-freigaberegeln** · Vendor documentation · OpenAI’s always-on agents, introduced on 29 September 2026 as “dots”, work under rules in three tiers: custom rules can allow specific actions, require approval for them or block them, the built-in safety requirements always apply, and certain sensitive tasks always stay with the person. → https://robert-haase.de/en/evidence-agents.md
 - **agenten-zeithorizont** · Measurement · research institute, ongoing · How long the tasks are that AI agents complete with a 50 percent chance of success is measured by METR in the working time of human experts: about 4 minutes for GPT-4 in March 2023, about 17 hours for an early version of Claude Mythos Preview in April 2026. Since 2023 the value has doubled on average every 129 days. → https://robert-haase.de/en/evidence-agents.md
 - **agenten-eskalation-erstattung** · Experiment · vendor, single test · Six AI assistants were asked to recover an expired £350 refund for a cancelled train. Grok 4.7 sent 187 messages in 15 simulated days, 69 of them to government officials, council members and the press; Fable 5.1 shared the user’s mother’s illness with five organisations, and three agents threatened court action. → https://robert-haase.de/en/evidence-agents.md
+- **agenten-governance-reife** · Survey · consultancy · In Germany, 27 percent of 170 surveyed leaders report that their organisation uses AI agents at least moderately; 19 percent call their governance for them advanced. Worldwide the figures are 23 and 21 percent of 3,235. Within two years, 77 percent in Germany and 74 percent worldwide expect at least moderate use. → https://robert-haase.de/en/evidence-agents.md
 
 ## Interfaces (26)
 
@@ -183,11 +184,11 @@ The collection does not map the state of the research, only the figures I needed
 - **eugh-chatbot-presseverleger** · Court case · Advocate General’s opinion · An AI chatbot that retrieves press articles in real time for its answers infringes press publishers’ rights, according to Advocate General Szpunar, where it circumvents technical measures or the answer replaces the original. The provider is to be liable where this is inherent to its business model or it fails to take reasonable countermeasures. → https://robert-haase.de/en/evidence-liability.md
 - **chatgpt-business-hub-verzicht** · Vendor documentation · Anyone who uses OpenAI’s offering for businesses in ChatGPT irrevocably waives, under its terms, for itself and all affiliates, any claims over content ever published on its own websites. Anyone supplying a product feed must admit OpenAI’s crawlers; a text and data mining reservation then has no effect against OpenAI. → https://robert-haase.de/en/evidence-liability.md
 
-## Market size (24)
+## Market size (25)
 
 + Peer-reviewed study, independent institute, official statistics, court or vendor documentation (2) → ki-nutzung-deutschland, reddit-lizenzerloese
 + Preliminary: not peer-reviewed, single test, forecast, self-reported, beta, or usually miscited (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
-+ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (11) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
++ Open method, not independently checked: vendor and own measurements, surveys, cases, law, standards (12) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten, ki-zugang-nutzung
 
 - **machine-customers** · Forecast · surveyed CEOs · In a Gartner survey, chief executives estimate that by 2030, 15 to 20 percent of their revenue will come from machine customers. → https://robert-haase.de/en/evidence-market.md
 - **marktgroesse** · Self-reported · The large user numbers for AI systems come from the vendors themselves and are not comparable with each other: OpenAI cites 1.2 billion weekly users, added up across all its offerings, Google over one billion monthly users for its AI Mode. → https://robert-haase.de/en/evidence-market.md
@@ -213,6 +214,7 @@ The collection does not map the state of the research, only the figures I needed
 - **reddit-lizenzerloese** · Annual report · audited · Reddit reported other revenue of 140 million dollars for 2025, after 115 million in 2024 and 15 million in 2023, around 6 percent of revenue. It comes from content licensing and products sold directly to users, the latter immaterial according to Reddit; substantially all of the licensing contract value comes from two partners. → https://robert-haase.de/en/evidence-market.md
 - **trainingsdaten-vorrat** · Forecast · research institute · Epoch AI puts the usable stock of public human-written text at around 300 trillion tokens and expects, with 80 percent probability, that language models will have used it up entirely between 2026 and 2032 if current trends continue. → https://robert-haase.de/en/evidence-market.md
 - **block-brand-hub** · Self-reported · Block (Cash App, Square, Tidal, Afterpay) says it has built its own platform that brings together the guidelines, assets, templates and generative tools of its brands and lets growth and lifecycle teams create designs themselves. Since launching in August the group counts more than 43,000 generations there. → https://robert-haase.de/en/evidence-market.md
+- **ki-zugang-nutzung** · Survey · consultancy · According to 3,235 senior leaders in 24 countries, just under 60 percent of workers have access to sanctioned AI tools, up from under 40 percent a year earlier. Among those with access, fewer than 60 percent use the tools in their daily workflow, a share that has barely changed since the previous year. → https://robert-haase.de/en/evidence-market.md
 
 ## Judgement (23)
 
@@ -244,4 +246,4 @@ The collection does not map the state of the research, only the figures I needed
 - **agent-lenkt-urteil** · Experiment · vendor, not peer-reviewed · In a randomised experiment with 50 experts in causal data analysis, participants went with their AI agent’s lean in 86 percent of four analytical choices; the lean had been assigned by lot, so without influence about 50 percent would be expected. 77 percent adopted the agent’s arguments, sometimes word for word, and only 15 percent credited it. → https://robert-haase.de/en/evidence-judgement.md
 - **bildschleifen-motive** · Experiment · peer-reviewed, simulation · When an image model and a captioning model take turns without humans, image to text to image, the results end up in a few pleasing motifs: across 700 runs of 100 rounds each, the researchers found 12 dominant motifs at the end, such as stormy lighthouses and palatial interiors. → https://robert-haase.de/en/evidence-judgement.md
 
-End of overview: 163 of 163 claims in 7 topics.
+End of overview: 165 of 165 claims in 7 topics.

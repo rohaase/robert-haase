@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-23T22:06:31+01:00",
+  "dateModified": "2026-11-25T08:48:53+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Please cite the primary source, not this page.",
   "note": "Generated from the page; where the two differ, the page applies. An entry's date is part of appearance.name and sourceText, because entries carry different kinds of dates: publication, data collection, retrieval. sourceText also keeps the link labels that appearance.name leaves out.",
-  "numberOfItems": 163,
+  "numberOfItems": 165,
   "translation": "https://robert-haase.de/belege.json",
   "textFiles": {
     "overview": "https://robert-haase.de/en/evidence.md",
@@ -103,7 +103,7 @@
     {
       "id": "agenten",
       "name": "Agents",
-      "numberOfItems": 25,
+      "numberOfItems": 26,
       "textFile": "https://robert-haase.de/en/evidence-agents.md",
       "ids": [
         "leere-buttons",
@@ -130,7 +130,8 @@
         "crawler-zweck-gemischt",
         "dots-freigaberegeln",
         "agenten-zeithorizont",
-        "agenten-eskalation-erstattung"
+        "agenten-eskalation-erstattung",
+        "agenten-governance-reife"
       ],
       "groups": {
         "strong": [
@@ -162,7 +163,8 @@
           "agenten-erfolg",
           "rechtsvorbehalt-kommentar",
           "content-signal-selten",
-          "agenten-zeithorizont"
+          "agenten-zeithorizont",
+          "agenten-governance-reife"
         ]
       }
     },
@@ -339,7 +341,7 @@
     {
       "id": "markt",
       "name": "Market size",
-      "numberOfItems": 24,
+      "numberOfItems": 25,
       "textFile": "https://robert-haase.de/en/evidence-market.md",
       "ids": [
         "machine-customers",
@@ -365,7 +367,8 @@
         "marketing-prioritaeten",
         "reddit-lizenzerloese",
         "trainingsdaten-vorrat",
-        "block-brand-hub"
+        "block-brand-hub",
+        "ki-zugang-nutzung"
       ],
       "groups": {
         "strong": [
@@ -396,7 +399,8 @@
           "agentur-selbstbild",
           "chatbot-nichtnutzung",
           "cmo-ki-budget",
-          "marketing-prioritaeten"
+          "marketing-prioritaeten",
+          "ki-zugang-nutzung"
         ]
       }
     },
@@ -5381,6 +5385,60 @@
         }
       ],
       "citationText": "In Halloween week 2026, one of its largest weeks, Uber handled around 320 million trips and orders. Of these, AI agents brought around 500 Uber Eats orders and four rides, said CFO Balaji Krishnamurthy: very early, very limited traction. (Uber, Q3 2026 earnings call, 4 November 2026, CFO Balaji Krishnamurthy). https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf · via https://robert-haase.de/en/evidence.html#agenten-buchungen-uber"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#ki-zugang-nutzung",
+      "text": "According to 3,235 senior leaders in 24 countries, just under 60 percent of workers have access to sanctioned AI tools, up from under 40 percent a year earlier. Among those with access, fewer than 60 percent use the tools in their daily workflow, a share that has barely changed since the previous year.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Deloitte AI Institute: \"State of AI in the Enterprise: The untapped edge\", January 2026, pp. 4 and 8 · survey of 3,235 leaders (director to C-suite, split equally between IT and line of business) in 24 countries, August and September 2025 · accessed 25 November 2026",
+        "url": "https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf"
+      },
+      "disambiguatingDescription": "What the figures do not say: These are leaders' statements, not measured use; nobody analysed usage data from the tools. Only organisations that already use AI daily were surveyed, so the average across all companies is likely lower. The report does not define \"daily workflow\". It gives access as \"around 60\" in one place and \"under 60 percent\" in another. Multiplying the two shares gives at most a little over a third of the workforce; that calculation is not in the report. The survey was run by a consultancy that sells AI adoption. Fieldwork was in August and September 2025. Deloitte's US site now presents a newer wave with about 3,500 respondents, which is not evaluated here.",
+      "position": 164,
+      "id": "ki-zugang-nutzung",
+      "url": "https://robert-haase.de/en/evidence.html#ki-zugang-nutzung",
+      "topic": "markt",
+      "grade": {
+        "name": "Survey · consultancy",
+        "group": "plain"
+      },
+      "sourceText": "Deloitte AI Institute: \"State of AI in the Enterprise: The untapped edge\", January 2026, pp. 4 and 8 · survey of 3,235 leaders (director to C-suite, split equally between IT and line of business) in 24 countries, August and September 2025 · accessed 25 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf"
+        }
+      ],
+      "citationText": "According to 3,235 senior leaders in 24 countries, just under 60 percent of workers have access to sanctioned AI tools, up from under 40 percent a year earlier. Among those with access, fewer than 60 percent use the tools in their daily workflow, a share that has barely changed since the previous year. (Deloitte AI Institute, \"State of AI in the Enterprise: The untapped edge\", January 2026). https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf · via https://robert-haase.de/en/evidence.html#ki-zugang-nutzung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/en/evidence.html#agenten-governance-reife",
+      "text": "In Germany, 27 percent of 170 surveyed leaders report that their organisation uses AI agents at least moderately; 19 percent call their governance for them advanced. Worldwide the figures are 23 and 21 percent of 3,235. Within two years, 77 percent in Germany and 74 percent worldwide expect at least moderate use.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Deloitte Germany, Deloitte AI Institute: \"State of AI in the Enterprise: The technology has scaled, but has your leadership? German Cut\", May 2026, pp. 13, 16 and 17 · 170 respondents in Germany from the global survey of 3,235 leaders in 24 countries, August and September 2025 · global figures also in the edition \"The untapped edge\", January 2026, pp. 17 and 20 · report available after registration, accessed 25 November 2026",
+        "url": "https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html"
+      },
+      "disambiguatingDescription": "What the figures do not say: \"Advanced\" is a self-assessment and not defined in the report; nobody examined the governance models. The two-year values are expectations. With 170 respondents, the small gaps between Germany and the global figures are not robust; the report gives no margins of error. Only organisations that already use AI daily were surveyed. By its own account, the German cut was analysed and drafted with the help of an AI agent and then checked by people; its summary speaks of 16 countries, its methodology of 24. The survey was run by a consultancy that sells governance advice. In detail: 16 percent of German respondents assess agents against no framework at all (9 worldwide), 41 percent only against public ones such as NIST or ISO (29), 20 percent against public and proprietary ones together (43). By governance the report means decision rights, escalation thresholds, stop mechanisms and review. Fieldwork was in August and September 2025; Deloitte's US site now presents a newer wave, which is not evaluated here.",
+      "position": 165,
+      "id": "agenten-governance-reife",
+      "url": "https://robert-haase.de/en/evidence.html#agenten-governance-reife",
+      "topic": "agenten",
+      "grade": {
+        "name": "Survey · consultancy",
+        "group": "plain"
+      },
+      "sourceText": "Deloitte Germany, Deloitte AI Institute: \"State of AI in the Enterprise: The technology has scaled, but has your leadership? German Cut\", May 2026, pp. 13, 16 and 17 · 170 respondents in Germany from the global survey of 3,235 leaders in 24 countries, August and September 2025 · global figures also in the edition \"The untapped edge\", January 2026, pp. 17 and 20 · report available after registration, accessed 25 November 2026 · Source",
+      "sourceLinks": [
+        {
+          "name": "Source",
+          "url": "https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html"
+        }
+      ],
+      "citationText": "In Germany, 27 percent of 170 surveyed leaders report that their organisation uses AI agents at least moderately; 19 percent call their governance for them advanced. Worldwide the figures are 23 and 21 percent of 3,235. Within two years, 77 percent in Germany and 74 percent worldwide expect at least moderate use. (Deloitte Germany, \"State of AI in the Enterprise, German Cut\", May 2026). https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html · via https://robert-haase.de/en/evidence.html#agenten-governance-reife"
     }
   ]
 }

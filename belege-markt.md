@@ -1,6 +1,6 @@
 # Belege: Marktgröße
 
-24 von 163 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 23. November 2026.
+25 von 165 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 25. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-market.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (2) → ki-nutzung-deutschland, reddit-lizenzerloese
 + Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
-+ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (11) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (12) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten, ki-zugang-nutzung
 
 ---
 
@@ -364,4 +364,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 24 von 24 Einträgen zum Thema Marktgröße. Letzter Eintrag: block-brand-hub.
+## ki-zugang-nutzung
+
+**Aussage:** Nach Angaben von 3.235 Führungskräften aus 24 Ländern haben knapp 60 Prozent der Beschäftigten Zugang zu freigegebenen KI-Werkzeugen, ein Jahr zuvor waren es unter 40 Prozent. Von denen mit Zugang nutzen weniger als 60 Prozent die Werkzeuge im täglichen Arbeitsablauf, und dieser Anteil hat sich gegenüber dem Vorjahr kaum verändert.
+
+**Was die Zahl nicht sagt:** Es sind Angaben von Führungskräften, keine gemessene Nutzung; Nutzungsdaten der Werkzeuge hat niemand ausgewertet. Befragt wurden nur Unternehmen, die KI bereits täglich einsetzen, der Durchschnitt aller Unternehmen dürfte darunter liegen. Was „täglicher Arbeitsablauf“ heißt, bestimmt der Bericht nicht näher. Den Zugang nennt er an einer Stelle „rund 60“, an anderer „unter 60 Prozent“. Wer beide Anteile multipliziert, kommt auf höchstens gut ein Drittel der Belegschaft; diese Rechnung steht nicht im Bericht. Erhoben hat ein Beratungshaus, das die Einführung von KI verkauft. Die Befragung lief im August und September 2025. Auf der US-Seite von Deloitte steht inzwischen eine neuere Welle mit rund 3.500 Befragten; sie ist hier nicht ausgewertet.
+
+**Quelle:** Deloitte AI Institute: „State of AI in the Enterprise: The untapped edge“, Januar 2026, S. 4 und 8 · Befragung von 3.235 Führungskräften (Director bis Vorstand, je zur Hälfte IT und Fachbereiche) in 24 Ländern, August und September 2025 · abgerufen am 25. November 2026 · [Zur Quelle](https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf)
+
+**Einstufung:** Befragung · Beratung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
+
+**Direktlink:** https://robert-haase.de/belege.html#ki-zugang-nutzung
+
+---
+
+Ende der Datei: 25 von 25 Einträgen zum Thema Marktgröße. Letzter Eintrag: ki-zugang-nutzung.

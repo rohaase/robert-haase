@@ -1,6 +1,6 @@
 # Belege: Agenten
 
-25 von 163 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 23. November 2026.
+26 von 165 Einträgen der Sammlung „Belege“ von Robert Haase, Stand 25. November 2026.
 
 Seite: https://robert-haase.de/belege.html · Übersicht aller Aussagen: https://robert-haase.de/belege.md · JSON: https://robert-haase.de/belege.json · English: https://robert-haase.de/en/evidence-agents.md
 
@@ -24,7 +24,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 + Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (6) → leere-buttons, lighthouse, a11y-tree, lighthouse-agent-discovery, agenten-wissensarbeit, dots-freigaberegeln
 + Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
-+ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (12) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (13) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont, agenten-governance-reife
 
 ---
 
@@ -378,4 +378,18 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 
 ---
 
-Ende der Datei: 25 von 25 Einträgen zum Thema Agenten. Letzter Eintrag: agenten-eskalation-erstattung.
+## agenten-governance-reife
+
+**Aussage:** In Deutschland berichten 27 Prozent von 170 befragten Führungskräften, ihr Unternehmen nutze KI-Agenten mindestens in mittlerem Umfang; 19 Prozent nennen ihre Governance dafür fortgeschritten. Weltweit sind es 23 und 21 Prozent von 3.235. In zwei Jahren erwarten 77 Prozent in Deutschland und 74 Prozent weltweit mindestens mittlere Nutzung.
+
+**Was die Zahl nicht sagt:** „Fortgeschritten“ ist Selbsteinschätzung und im Bericht nicht definiert; geprüft hat die Modelle niemand. Die Werte für zwei Jahre sind Erwartungen. Bei 170 Befragten sind die kleinen Abstände zwischen Deutschland und weltweit nicht belastbar, Fehlerspannen nennt der Bericht nicht. Befragt wurden nur Unternehmen, die KI bereits täglich einsetzen. Die deutsche Auswertung ist laut eigener Angabe mit Hilfe eines KI-Agenten ausgewertet und vorformuliert und danach von Menschen geprüft; ihre Zusammenfassung nennt 16 Länder, die Methodik 24. Erhoben hat ein Beratungshaus, das Governance-Beratung verkauft. **Im Einzelnen:** 16 Prozent der deutschen Befragten bewerten Agenten nach keinem Regelwerk (weltweit 9), 41 Prozent nur nach öffentlichen wie NIST oder ISO (29), 20 Prozent nach öffentlichen und eigenen zugleich (43). Unter Governance versteht der Bericht Entscheidungsrechte, Eskalationsschwellen, Stoppmechanismen und Prüfung. Die Befragung lief im August und September 2025; auf der US-Seite von Deloitte steht inzwischen eine neuere Welle, die hier nicht ausgewertet ist.
+
+**Quelle:** Deloitte Deutschland, Deloitte AI Institute: „State of AI in the Enterprise: The technology has scaled, but has your leadership? German Cut“, Mai 2026, S. 13, 16 und 17 · 170 Befragte in Deutschland aus der weltweiten Befragung von 3.235 Führungskräften in 24 Ländern, August und September 2025 · weltweite Werte auch in der Ausgabe „The untapped edge“, Januar 2026, S. 17 und 20 · Bericht nach Registrierung, abgerufen am 25. November 2026 · [Zur Quelle](https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html)
+
+**Einstufung:** Befragung · Beratung · Gruppe: Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung
+
+**Direktlink:** https://robert-haase.de/belege.html#agenten-governance-reife
+
+---
+
+Ende der Datei: 26 von 26 Einträgen zum Thema Agenten. Letzter Eintrag: agenten-governance-reife.

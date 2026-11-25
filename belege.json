@@ -7,11 +7,11 @@
     "@id": "https://robert-haase.de/#person"
   },
   "datePublished": "2026-08-28",
-  "dateModified": "2026-11-23T22:06:31+01:00",
+  "dateModified": "2026-11-25T08:48:53+01:00",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "citationNote": "Bitte die Primärquelle zitieren, nicht diese Seite.",
   "note": "Aus der Seite erzeugt; weichen beide voneinander ab, gilt die Seite. Das Datum eines Eintrags steht in appearance.name und sourceText, weil die Einträge verschiedene Datumsarten tragen: Veröffentlichung, Erhebungszeitraum, Abruf. sourceText enthält auch die Linktexte, die appearance.name auslässt.",
-  "numberOfItems": 163,
+  "numberOfItems": 165,
   "translation": "https://robert-haase.de/en/evidence.json",
   "textFiles": {
     "overview": "https://robert-haase.de/belege.md",
@@ -103,7 +103,7 @@
     {
       "id": "agenten",
       "name": "Agenten",
-      "numberOfItems": 25,
+      "numberOfItems": 26,
       "textFile": "https://robert-haase.de/belege-agenten.md",
       "ids": [
         "leere-buttons",
@@ -130,7 +130,8 @@
         "crawler-zweck-gemischt",
         "dots-freigaberegeln",
         "agenten-zeithorizont",
-        "agenten-eskalation-erstattung"
+        "agenten-eskalation-erstattung",
+        "agenten-governance-reife"
       ],
       "groups": {
         "strong": [
@@ -162,7 +163,8 @@
           "agenten-erfolg",
           "rechtsvorbehalt-kommentar",
           "content-signal-selten",
-          "agenten-zeithorizont"
+          "agenten-zeithorizont",
+          "agenten-governance-reife"
         ]
       }
     },
@@ -339,7 +341,7 @@
     {
       "id": "markt",
       "name": "Marktgröße",
-      "numberOfItems": 24,
+      "numberOfItems": 25,
       "textFile": "https://robert-haase.de/belege-markt.md",
       "ids": [
         "machine-customers",
@@ -365,7 +367,8 @@
         "marketing-prioritaeten",
         "reddit-lizenzerloese",
         "trainingsdaten-vorrat",
-        "block-brand-hub"
+        "block-brand-hub",
+        "ki-zugang-nutzung"
       ],
       "groups": {
         "strong": [
@@ -396,7 +399,8 @@
           "agentur-selbstbild",
           "chatbot-nichtnutzung",
           "cmo-ki-budget",
-          "marketing-prioritaeten"
+          "marketing-prioritaeten",
+          "ki-zugang-nutzung"
         ]
       }
     },
@@ -5381,6 +5385,60 @@
         }
       ],
       "citationText": "In der Halloween-Woche 2026, einer seiner stärksten Wochen, wickelte Uber rund 320 Millionen Fahrten und Bestellungen ab. Über KI-Agenten kamen davon rund 500 Bestellungen bei Uber Eats und vier Fahrten, sagte Finanzchef Balaji Krishnamurthy: sehr früh, sehr wenig Zugkraft. (Uber, Q3 2026 Earnings Call, 4. November 2026, Finanzchef Balaji Krishnamurthy). https://s23.q4cdn.com/407969754/files/doc_events/2026/Nov/04/Uber-Q3-Earnings-Call-Transcript.pdf · via https://robert-haase.de/belege.html#agenten-buchungen-uber"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#ki-zugang-nutzung",
+      "text": "Nach Angaben von 3.235 Führungskräften aus 24 Ländern haben knapp 60 Prozent der Beschäftigten Zugang zu freigegebenen KI-Werkzeugen, ein Jahr zuvor waren es unter 40 Prozent. Von denen mit Zugang nutzen weniger als 60 Prozent die Werkzeuge im täglichen Arbeitsablauf, und dieser Anteil hat sich gegenüber dem Vorjahr kaum verändert.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Deloitte AI Institute: „State of AI in the Enterprise: The untapped edge“, Januar 2026, S. 4 und 8 · Befragung von 3.235 Führungskräften (Director bis Vorstand, je zur Hälfte IT und Fachbereiche) in 24 Ländern, August und September 2025 · abgerufen am 25. November 2026",
+        "url": "https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: Es sind Angaben von Führungskräften, keine gemessene Nutzung; Nutzungsdaten der Werkzeuge hat niemand ausgewertet. Befragt wurden nur Unternehmen, die KI bereits täglich einsetzen, der Durchschnitt aller Unternehmen dürfte darunter liegen. Was „täglicher Arbeitsablauf“ heißt, bestimmt der Bericht nicht näher. Den Zugang nennt er an einer Stelle „rund 60“, an anderer „unter 60 Prozent“. Wer beide Anteile multipliziert, kommt auf höchstens gut ein Drittel der Belegschaft; diese Rechnung steht nicht im Bericht. Erhoben hat ein Beratungshaus, das die Einführung von KI verkauft. Die Befragung lief im August und September 2025. Auf der US-Seite von Deloitte steht inzwischen eine neuere Welle mit rund 3.500 Befragten; sie ist hier nicht ausgewertet.",
+      "position": 164,
+      "id": "ki-zugang-nutzung",
+      "url": "https://robert-haase.de/belege.html#ki-zugang-nutzung",
+      "topic": "markt",
+      "grade": {
+        "name": "Befragung · Beratung",
+        "group": "plain"
+      },
+      "sourceText": "Deloitte AI Institute: „State of AI in the Enterprise: The untapped edge“, Januar 2026, S. 4 und 8 · Befragung von 3.235 Führungskräften (Director bis Vorstand, je zur Hälfte IT und Fachbereiche) in 24 Ländern, August und September 2025 · abgerufen am 25. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf"
+        }
+      ],
+      "citationText": "Nach Angaben von 3.235 Führungskräften aus 24 Ländern haben knapp 60 Prozent der Beschäftigten Zugang zu freigegebenen KI-Werkzeugen, ein Jahr zuvor waren es unter 40 Prozent. Von denen mit Zugang nutzen weniger als 60 Prozent die Werkzeuge im täglichen Arbeitsablauf, und dieser Anteil hat sich gegenüber dem Vorjahr kaum verändert. (Deloitte AI Institute, „State of AI in the Enterprise: The untapped edge“, Januar 2026). https://www.deloitte.com/content/dam/assets-shared/docs/about/2025/state-of-ai-2026-global.pdf · via https://robert-haase.de/belege.html#ki-zugang-nutzung"
+    },
+    {
+      "@type": "Claim",
+      "@id": "https://robert-haase.de/belege.html#agenten-governance-reife",
+      "text": "In Deutschland berichten 27 Prozent von 170 befragten Führungskräften, ihr Unternehmen nutze KI-Agenten mindestens in mittlerem Umfang; 19 Prozent nennen ihre Governance dafür fortgeschritten. Weltweit sind es 23 und 21 Prozent von 3.235. In zwei Jahren erwarten 77 Prozent in Deutschland und 74 Prozent weltweit mindestens mittlere Nutzung.",
+      "appearance": {
+        "@type": "CreativeWork",
+        "name": "Deloitte Deutschland, Deloitte AI Institute: „State of AI in the Enterprise: The technology has scaled, but has your leadership? German Cut“, Mai 2026, S. 13, 16 und 17 · 170 Befragte in Deutschland aus der weltweiten Befragung von 3.235 Führungskräften in 24 Ländern, August und September 2025 · weltweite Werte auch in der Ausgabe „The untapped edge“, Januar 2026, S. 17 und 20 · Bericht nach Registrierung, abgerufen am 25. November 2026",
+        "url": "https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html"
+      },
+      "disambiguatingDescription": "Was die Zahl nicht sagt: „Fortgeschritten“ ist Selbsteinschätzung und im Bericht nicht definiert; geprüft hat die Modelle niemand. Die Werte für zwei Jahre sind Erwartungen. Bei 170 Befragten sind die kleinen Abstände zwischen Deutschland und weltweit nicht belastbar, Fehlerspannen nennt der Bericht nicht. Befragt wurden nur Unternehmen, die KI bereits täglich einsetzen. Die deutsche Auswertung ist laut eigener Angabe mit Hilfe eines KI-Agenten ausgewertet und vorformuliert und danach von Menschen geprüft; ihre Zusammenfassung nennt 16 Länder, die Methodik 24. Erhoben hat ein Beratungshaus, das Governance-Beratung verkauft. Im Einzelnen: 16 Prozent der deutschen Befragten bewerten Agenten nach keinem Regelwerk (weltweit 9), 41 Prozent nur nach öffentlichen wie NIST oder ISO (29), 20 Prozent nach öffentlichen und eigenen zugleich (43). Unter Governance versteht der Bericht Entscheidungsrechte, Eskalationsschwellen, Stoppmechanismen und Prüfung. Die Befragung lief im August und September 2025; auf der US-Seite von Deloitte steht inzwischen eine neuere Welle, die hier nicht ausgewertet ist.",
+      "position": 165,
+      "id": "agenten-governance-reife",
+      "url": "https://robert-haase.de/belege.html#agenten-governance-reife",
+      "topic": "agenten",
+      "grade": {
+        "name": "Befragung · Beratung",
+        "group": "plain"
+      },
+      "sourceText": "Deloitte Deutschland, Deloitte AI Institute: „State of AI in the Enterprise: The technology has scaled, but has your leadership? German Cut“, Mai 2026, S. 13, 16 und 17 · 170 Befragte in Deutschland aus der weltweiten Befragung von 3.235 Führungskräften in 24 Ländern, August und September 2025 · weltweite Werte auch in der Ausgabe „The untapped edge“, Januar 2026, S. 17 und 20 · Bericht nach Registrierung, abgerufen am 25. November 2026 · Zur Quelle",
+      "sourceLinks": [
+        {
+          "name": "Zur Quelle",
+          "url": "https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html"
+        }
+      ],
+      "citationText": "In Deutschland berichten 27 Prozent von 170 befragten Führungskräften, ihr Unternehmen nutze KI-Agenten mindestens in mittlerem Umfang; 19 Prozent nennen ihre Governance dafür fortgeschritten. Weltweit sind es 23 und 21 Prozent von 3.235. In zwei Jahren erwarten 77 Prozent in Deutschland und 74 Prozent weltweit mindestens mittlere Nutzung. (Deloitte Deutschland, „State of AI in the Enterprise, German Cut“, Mai 2026). https://www.deloitte.com/de/de/Industries/technology/research/ki-studie.html · via https://robert-haase.de/belege.html#agenten-governance-reife"
     }
   ]
 }

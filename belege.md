@@ -1,6 +1,6 @@
-# Belege: alle 163 Aussagen
+# Belege: alle 165 Aussagen
 
-Übersicht der Sammlung „Belege“ von Robert Haase, Stand 23. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
+Übersicht der Sammlung „Belege“ von Robert Haase, Stand 25. November 2026: jede Aussage in einer Zeile, mit Einstufung und Link zur Themendatei.
 
 Eine Aussage gilt nur mit ihrer Grenze („Was die Zahl nicht sagt“). Grenze und Quelle stehen vollständig in der Themendatei, die jede Zeile nennt.
 
@@ -25,11 +25,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 ## Themendateien
 
 - KI-Suche, 30 Einträge: https://robert-haase.de/belege-ki-suche.md
-- Agenten, 25 Einträge: https://robert-haase.de/belege-agenten.md
+- Agenten, 26 Einträge: https://robert-haase.de/belege-agenten.md
 - Schnittstellen, 26 Einträge: https://robert-haase.de/belege-schnittstellen.md
 - Handel, 16 Einträge: https://robert-haase.de/belege-handel.md
 - Haftung, 19 Einträge: https://robert-haase.de/belege-haftung.md
-- Marktgröße, 24 Einträge: https://robert-haase.de/belege-markt.md
+- Marktgröße, 25 Einträge: https://robert-haase.de/belege-markt.md
 - Urteil, 23 Einträge: https://robert-haase.de/belege-urteil.md
 
 ## KI-Suche (30)
@@ -69,11 +69,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **wikipedia-aio-rueckgang** · Experiment · nicht begutachtet · Wie stark Googles KI-Übersichten die Suchbesuche auf Wikipedia senken, schätzen dieselben Autoren je nach Fassung sehr verschieden: in der ersten vom Februar 2026 um etwa 15 Prozent, in der siebten vom Oktober um 5,45 Prozent gegen die deutschen und 4,82 Prozent gegen die französischen Artikel. → https://robert-haase.de/belege-ki-suche.md
 - **aio-deutschland-keywords** · Messung · Anbieter · In Deutschland zeigt Google bei mehr als der Hälfte der Keywords eine KI-Übersicht: am 6. November 2026 laut SISTRIX bei 57,9 Prozent, Mitte November 2025 bei 20 Prozent. Die letzten zehn Prozentpunkte bis zur Hälfte kamen in 52 Tagen. → https://robert-haase.de/belege-ki-suche.md
 
-## Agenten (25)
+## Agenten (26)
 
 + Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (6) → leere-buttons, lighthouse, a11y-tree, lighthouse-agent-discovery, agenten-wissensarbeit, dots-freigaberegeln
 + Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (7) → agent-ready, a11y-cua, klarna-700, abruf-kuerzung, robots-sperre-chatbots, crawler-zweck-gemischt, agenten-eskalation-erstattung
-+ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (12) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (13) → javascript, aipref, dax-zutritt, dax-benennung, dax-landmarken, dax-bilder, verlage-robots, marken-robots, agenten-erfolg, rechtsvorbehalt-kommentar, content-signal-selten, agenten-zeithorizont, agenten-governance-reife
 
 - **leere-buttons** · Messung · Institut · Auf 30,6 Prozent von einer Million untersuchten Startseiten fanden sich Buttons ohne zugänglichen Namen, auf 51 Prozent Formularfelder ohne Beschriftung. → https://robert-haase.de/belege-agenten.md
 - **agent-ready** · Experiment · nicht begutachtet · In einem kontrollierten Versuch erreichten drei Browser-Agenten auf der agentenfreundlich gebauten Fassung eine strikte Erfolgsquote von 89,3 Prozent gegenüber 49,3 Prozent auf der Ausgangsfassung. → https://robert-haase.de/belege-agenten.md
@@ -100,6 +100,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **dots-freigaberegeln** · Herstellerdokumentation · OpenAIs dauerhaft laufende Agenten, am 29. September 2026 als „dots“ vorgestellt, arbeiten nach Regeln in drei Stufen: Eigene Regeln können einzelne Aktionen erlauben, an eine Freigabe binden oder sperren, die eingebauten Sicherheitsregeln gelten immer, und bestimmte sensible Aufgaben bleiben immer beim Menschen. → https://robert-haase.de/belege-agenten.md
 - **agenten-zeithorizont** · Messung · Institut, laufend · Wie lang die Aufgaben sind, die KI-Agenten mit 50 Prozent Erfolgswahrscheinlichkeit lösen, misst METR in der Arbeitszeit menschlicher Fachleute: rund 4 Minuten bei GPT-4 im März 2023, rund 17 Stunden bei einer frühen Fassung von Claude Mythos Preview im April 2026. Seit 2023 verdoppelt sich der Wert im Schnitt alle 129 Tage. → https://robert-haase.de/belege-agenten.md
 - **agenten-eskalation-erstattung** · Experiment · Anbieter, Einzeltest · Sechs KI-Assistenten sollten eine verfallene Erstattung über 350 Pfund für einen ausgefallenen Zug durchsetzen. Grok 4.7 schickte in 15 simulierten Tagen 187 Nachrichten, davon 69 an Behörden, Kommunalpolitiker und Presse; Fable 5.1 gab die Krankheit der Mutter an fünf Organisationen weiter, drei Agenten drohten mit Klage. → https://robert-haase.de/belege-agenten.md
+- **agenten-governance-reife** · Befragung · Beratung · In Deutschland berichten 27 Prozent von 170 befragten Führungskräften, ihr Unternehmen nutze KI-Agenten mindestens in mittlerem Umfang; 19 Prozent nennen ihre Governance dafür fortgeschritten. Weltweit sind es 23 und 21 Prozent von 3.235. In zwei Jahren erwarten 77 Prozent in Deutschland und 74 Prozent weltweit mindestens mittlere Nutzung. → https://robert-haase.de/belege-agenten.md
 
 ## Schnittstellen (26)
 
@@ -183,11 +184,11 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **eugh-chatbot-presseverleger** · Gerichtsverfahren · Schlussanträge · Ein KI-Chatbot, der Presseartikel in Echtzeit abruft und für Antworten nutzt, verletzt nach Generalanwalt Szpunar das Recht der Presseverleger, wenn er technische Sperren umgeht oder die Antwort das Original ersetzt. Haften soll der Anbieter, wenn das zum Geschäftsmodell gehört oder er zumutbare Gegenmaßnahmen unterlässt. → https://robert-haase.de/belege-haftung.md
 - **chatgpt-business-hub-verzicht** · Herstellerdokumentation · Wer OpenAIs Angebot für Unternehmen in ChatGPT nutzt, verzichtet laut dessen Bedingungen für sich und alle verbundenen Unternehmen unwiderruflich auf Klagen wegen Inhalten, die je auf den eigenen Websites standen. Wer einen Produkt-Feed liefert, muss OpenAIs Crawler zulassen; ein Vorbehalt gegen Text- und Data-Mining gilt gegenüber OpenAI nicht. → https://robert-haase.de/belege-haftung.md
 
-## Marktgröße (24)
+## Marktgröße (25)
 
 + Begutachtete Studie, unabhängiges Institut, amtliche Statistik, Gericht oder Herstellerdokumentation (2) → ki-nutzung-deutschland, reddit-lizenzerloese
 + Vorläufig: nicht begutachtet, Einzeltest, Prognose, Selbstauskunft, Beta oder meist falsch zitiert (11) → machine-customers, marktgroesse, mcp-verbreitung, agentenhandel-2030, dark-data-55, markenklone, suchmarkt-wachstum, cmo-titel-schwindet, ki-verkehr-handel-prognose, trainingsdaten-vorrat, block-brand-hub
-+ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (11) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten
++ Offene Methode, nicht unabhängig geprüft: Messungen von Anbietern und eigene, Befragungen, Fälle, Recht, Normung (12) → nicht-menschlicher-verkehr, cmo-ki-anteil, geo-verbreitung, in-house-verlagerung, ki-anteil-artikel, ki-verkehrsanteil, insourcing-absicht, agentur-selbstbild, chatbot-nichtnutzung, cmo-ki-budget, marketing-prioritaeten, ki-zugang-nutzung
 
 - **machine-customers** · Prognose · befragte Vorstände · In einer Gartner-Befragung schätzen Vorstandschefs, dass bis 2030 15 bis 20 Prozent ihres Umsatzes von Maschinen als Kunden kommen. → https://robert-haase.de/belege-markt.md
 - **marktgroesse** · Selbstauskunft · Die großen Nutzerzahlen der KI-Systeme stammen von den Anbietern selbst und sind nicht miteinander vergleichbar: OpenAI nennt 1,2 Milliarden wöchentliche Nutzer, zusammengezählt über alle eigenen Angebote, Google über eine Milliarde monatliche Nutzer für seinen AI Mode. → https://robert-haase.de/belege-markt.md
@@ -213,6 +214,7 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **reddit-lizenzerloese** · Jahresabschluss · testiert · Reddit wies für 2025 sonstige Erlöse von 140 Millionen Dollar aus, nach 115 Millionen 2024 und 15 Millionen 2023, rund 6 Prozent des Umsatzes. Sie stammen aus Inhaltslizenzen und direkt an Nutzer verkauften Produkten, Letztere laut Reddit unwesentlich; im Wesentlichen der gesamte Vertragswert der Lizenzen kommt von zwei Partnern. → https://robert-haase.de/belege-markt.md
 - **trainingsdaten-vorrat** · Prognose · Institut · Epoch AI schätzt den nutzbaren Bestand öffentlicher, von Menschen geschriebener Texte auf rund 300 Billionen Token und erwartet mit 80 Prozent Wahrscheinlichkeit, dass Sprachmodelle ihn bei anhaltendem Trend zwischen 2026 und 2032 vollständig aufgebraucht haben. → https://robert-haase.de/belege-markt.md
 - **block-brand-hub** · Selbstauskunft · Block (Cash App, Square, Tidal, Afterpay) hat nach eigenen Angaben selbst eine Plattform gebaut, die Guidelines, Assets, Vorlagen und generative Werkzeuge seiner Marken bündelt und mit der Growth- und Lifecycle-Teams selbst gestalten. Seit dem Start im August zählt der Konzern dort über 43.000 Generierungen. → https://robert-haase.de/belege-markt.md
+- **ki-zugang-nutzung** · Befragung · Beratung · Nach Angaben von 3.235 Führungskräften aus 24 Ländern haben knapp 60 Prozent der Beschäftigten Zugang zu freigegebenen KI-Werkzeugen, ein Jahr zuvor waren es unter 40 Prozent. Von denen mit Zugang nutzen weniger als 60 Prozent die Werkzeuge im täglichen Arbeitsablauf, und dieser Anteil hat sich gegenüber dem Vorjahr kaum verändert. → https://robert-haase.de/belege-markt.md
 
 ## Urteil (23)
 
@@ -244,4 +246,4 @@ Die Sammlung bildet nicht den Forschungsstand ab, sondern die Zahlen, die ich f�
 - **agent-lenkt-urteil** · Experiment · Anbieter, nicht begutachtet · In einem randomisierten Versuch mit 50 Fachleuten für kausale Datenanalyse folgten diese bei vier Analyseentscheidungen in 86 Prozent der Fälle der Neigung ihres KI-Agenten, die per Los zugeteilt war; ohne Einfluss wären etwa 50 Prozent zu erwarten. 77 Prozent übernahmen seine Argumente, teils wörtlich, nur 15 Prozent nannten den Agenten. → https://robert-haase.de/belege-urteil.md
 - **bildschleifen-motive** · Experiment · begutachtet, Simulation · Arbeiten ein Bildmodell und ein Beschreibungsmodell ohne Menschen abwechselnd, Bild zu Text zu Bild, landen die Ergebnisse bei wenigen gefälligen Motiven: In 700 Läufen über je 100 Runden fanden die Forschenden am Ende 12 vorherrschende Motive, etwa Leuchttürme im Sturm und prächtige Innenräume. → https://robert-haase.de/belege-urteil.md
 
-Ende der Übersicht: 163 von 163 Aussagen in 7 Themen.
+Ende der Übersicht: 165 von 165 Aussagen in 7 Themen.
